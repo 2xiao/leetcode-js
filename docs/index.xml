@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>序 on LeetCode Cookbook</title>
+    <link>https://2xiao.github.io/leetcode-js/</link>
+    <description>Recent content in 序 on LeetCode Cookbook</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://2xiao.github.io/leetcode-js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0001.Two-Sum/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0001.Two-Sum/</guid>
+      <description>1. Two Sum #  题目 #  Given an array of integers, return indices of the two numbers such that they add up to a specific target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example:
+ Given nums = [2, 7, 11, 15], target = 9, Because nums[0] + nums[1] = 2 + 7 = 9, return [0, 1] 题目大意 #  在数组中找到 2 个数之和等于给定值的数字，结果返回 2 个数字在数组中的下标。</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0002.Add-Two-Numbers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0002.Add-Two-Numbers/</guid>
+      <description>2. Add Two Numbers #  题目 #  You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
+You may assume the two numbers do not contain any leading zero, except the number 0 itself.
+Example:
+ Input: (2 -&amp;gt; 4 -&amp;gt; 3) + (5 -&amp;gt; 6 -&amp;gt; 4) Output: 7 -&amp;gt; 0 -&amp;gt; 8 Explanation: 342 + 465 = 807.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://2xiao.github.io/leetcode-js/ChapterOne/0200~0299/0206.Reverse-Linked-List/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://2xiao.github.io/leetcode-js/ChapterOne/0200~0299/0206.Reverse-Linked-List/</guid>
+      <description>206. Reverse Linked List #  题目 #  Reverse a singly linked list.
+题目大意 #  翻转单链表
+解题思路 #  有两种解题方法，一是循环、二是递归。
+代码 #  循环 #  /** * Definition for singly-linked list. * function ListNode(val, next) { * this.val = (val===undefined ? 0 : val) * this.next = (next===undefined ? null : next) * } */ /** * @param {ListNode} head * @return {ListNode} */ var reverseList = function(head) { let prev = null; let cur = head; while(cur !</description>
+    </item>
+    
+  </channel>
+</rss>
