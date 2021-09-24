@@ -27,5 +27,5 @@ hugo server --minify --theme book
 
 Thanks for your Star！
 
-[![Stargazers over time](https://starchart.cc/2xiao/leetcode-js.svg)](https://starchart.cc/2xiao/leetcode-js)
+<!-- [![Stargazers over time](https://starchart.cc/2xiao/leetcode-js.svg)](https://starchart.cc/2xiao/leetcode-js) -->
 

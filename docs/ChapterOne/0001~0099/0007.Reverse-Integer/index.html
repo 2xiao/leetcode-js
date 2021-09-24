@@ -5,13 +5,23 @@
   <meta name="generator" content="Hugo 0.81.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="7. Reverse Integer #  题目 #  Given a 32-bit signed integer, reverse digits of an integer.
+Example 1:
+Input: 123 Output: 321  Example 2:
+Input: -123 Output: -321  Example 3:
+Input: 120 Output: 21  Note: Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31, 2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/" />
+<meta property="og:description" content="7. Reverse Integer #  题目 #  Given a 32-bit signed integer, reverse digits of an integer.
+Example 1:
+Input: 123 Output: 321  Example 2:
+Input: -123 Output: -321  Example 3:
+Input: 120 Output: 21  Note: Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31, 2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0007.Reverse-Integer/" /><meta property="article:section" content="ChapterOne" />
 
-<title>0100 0199 | LeetCode Cookbook</title>
+
+
+<title>0007. Reverse Integer | LeetCode Cookbook</title>
 <link rel="manifest" href="/leetcode-js/manifest.json">
 <link rel="icon" href="/leetcode-js/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/leetcode-js/book.min.5731a2722ce727e8356217095b0203e138a2daffda22b10d2f564c908985e8b3.css" integrity="sha256-VzGiciznJ&#43;g1YhcJWwID4Tii2v/aIrENL1ZMkImF6LM=">
@@ -33,8 +43,7 @@
       console.log('Service workers are not supported in the current browser.');
   }
 </script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><link rel="alternate" type="application/rss+xml" href="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/index.xml" title="LeetCode Cookbook" />
-<!--
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -740,7 +749,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle"  />
+    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle" checked />
     <label for="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="flex justify-between">
       <a  class="">0001 0099</a>
     </label>
@@ -834,7 +843,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0007.Reverse-Integer/" class="">0007. Reverse Integer</a>
+    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0007.Reverse-Integer/" class=" active">0007. Reverse Integer</a>
   
 
         </li>
@@ -878,9 +887,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle" checked />
+    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle"  />
     <label for="section-dc967b4b44d27c2997074dfcec07ceb1" class="flex justify-between">
-      <a  class="active">0100 0199</a>
+      <a  class="">0100 0199</a>
     </label>
   
 
@@ -967,7 +976,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/leetcode-js/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>0100 0199</strong>
+  <strong>0007. Reverse Integer</strong>
 
   <label for="toc-control">
     
@@ -981,7 +990,67 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"></article>
+  <article class="markdown"><h1 id="7-reverse-integerhttpsleetcodecomproblemsreverse-integer">
+  
+  <a href="https://leetcode.com/problems/reverse-integer/">7. Reverse Integer</a>
+  <a class="anchor" href="#7-reverse-integerhttpsleetcodecomproblemsreverse-integer">#</a>
+</h1>
+<h2 id="题目">
+  题目
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae">#</a>
+</h2>
+<p>Given a 32-bit signed integer, reverse digits of an integer.</p>
+<p><strong>Example 1</strong>:</p>
+<pre><code>Input: 123
+Output: 321
+</code></pre>
+<p><strong>Example 2</strong>:</p>
+<pre><code>Input: -123
+Output: -321
+</code></pre>
+<p><strong>Example 3</strong>:</p>
+<pre><code>Input: 120
+Output: 21
+</code></pre>
+<p><strong>Note</strong>: Assume we are dealing with an environment which could only store integers within the 32-bit signed integer range: [−2^31, 2^31 − 1]. For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.</p>
+<h2 id="题目大意">
+  题目大意
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae%e5%a4%a7%e6%84%8f">#</a>
+</h2>
+<p>给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转。注意:假设我们的环境只能存储得下 32 位的有符号整数，则其数值范围为 [−2^31,  2^31 − 1]。请根据这个假设，如果反转后整数溢出那么就返回 0。</p>
+<h2 id="解题思路">
+  解题思路
+  <a class="anchor" href="#%e8%a7%a3%e9%a2%98%e6%80%9d%e8%b7%af">#</a>
+</h2>
+<ul>
+<li>这一题是简单题，要求反转 10 进制数。类似的题目有第 190 题。</li>
+<li>这一题只需要注意一点，反转以后的数字要求在 [−2^31, 2^31 − 1]范围内，超过这个范围的数字都要输出 0 。</li>
+</ul>
+<h2 id="代码">
+  代码
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81">#</a>
+</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">
+<span style="color:#f92672">package</span> <span style="color:#a6e22e">leetcode</span>
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">reverse7</span>(<span style="color:#a6e22e">x</span> <span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">int</span> {
+	<span style="color:#a6e22e">tmp</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span> {
+		<span style="color:#a6e22e">tmp</span> = <span style="color:#a6e22e">tmp</span><span style="color:#f92672">*</span><span style="color:#ae81ff">10</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">x</span><span style="color:#f92672">%</span><span style="color:#ae81ff">10</span>
+		<span style="color:#a6e22e">x</span> = <span style="color:#a6e22e">x</span> <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>
+	}
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">tmp</span> &gt; <span style="color:#ae81ff">1</span><span style="color:#f92672">&lt;&lt;</span><span style="color:#ae81ff">31</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">tmp</span> &lt; <span style="color:#f92672">-</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">&lt;&lt;</span><span style="color:#ae81ff">31</span>) {
+		<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">tmp</span>
+}
+
+</code></pre></div><hr>
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0006.ZigZag-Conversion/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0008.String-to-Integer-atoi/">下一页➡️</a></p>
+</div>
+</article>
  
       
 
@@ -991,16 +1060,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/2xiao/leetcode-js/commit/0367245e0a3a3cb50dcd74a32b9e06a38f23e162" title='Last modified by erxiao | Sep 22, 2021' target="_blank" rel="noopener">
-      <img src="/leetcode-js/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>Sep 22, 2021</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0100~0199/_index.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0001~0099/0007.Reverse-Integer.md" target="_blank" rel="noopener">
       <img src="/leetcode-js/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>

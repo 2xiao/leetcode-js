@@ -5,13 +5,27 @@
   <meta name="generator" content="Hugo 0.81.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="5. Longest Palindromic Substring #  题目 #  Given a string s, return the longest palindromic substring in s.
+Example 1:
+Input: s = &quot;babad&quot; Output: &quot;bab&quot; Note: &quot;aba&quot; is also a valid answer. Example 2:
+Input: s = &quot;cbbd&quot; Output: &quot;bb&quot; Example 3:
+Input: s = &quot;a&quot; Output: &quot;a&quot; Example 4:
+Input: s = &quot;ac&quot; Output: &quot;a&quot; Constraints:
+ 1 &lt;= s.length &lt;= 1000 s consist of only digits and English letters (lower-case and/or upper-case),  题目大意 #  给你一个字符串 s，找到 s 中最长的回文子串。">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/" />
+<meta property="og:description" content="5. Longest Palindromic Substring #  题目 #  Given a string s, return the longest palindromic substring in s.
+Example 1:
+Input: s = &quot;babad&quot; Output: &quot;bab&quot; Note: &quot;aba&quot; is also a valid answer. Example 2:
+Input: s = &quot;cbbd&quot; Output: &quot;bb&quot; Example 3:
+Input: s = &quot;a&quot; Output: &quot;a&quot; Example 4:
+Input: s = &quot;ac&quot; Output: &quot;a&quot; Constraints:
+ 1 &lt;= s.length &lt;= 1000 s consist of only digits and English letters (lower-case and/or upper-case),  题目大意 #  给你一个字符串 s，找到 s 中最长的回文子串。" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0005.Longest-Palindromic-Substring/" /><meta property="article:section" content="ChapterOne" />
 
-<title>0100 0199 | LeetCode Cookbook</title>
+
+
+<title>0005. Longest Palindromic Substring | LeetCode Cookbook</title>
 <link rel="manifest" href="/leetcode-js/manifest.json">
 <link rel="icon" href="/leetcode-js/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/leetcode-js/book.min.5731a2722ce727e8356217095b0203e138a2daffda22b10d2f564c908985e8b3.css" integrity="sha256-VzGiciznJ&#43;g1YhcJWwID4Tii2v/aIrENL1ZMkImF6LM=">
@@ -33,8 +47,7 @@
       console.log('Service workers are not supported in the current browser.');
   }
 </script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><link rel="alternate" type="application/rss+xml" href="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/index.xml" title="LeetCode Cookbook" />
-<!--
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -740,7 +753,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle"  />
+    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle" checked />
     <label for="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="flex justify-between">
       <a  class="">0001 0099</a>
     </label>
@@ -808,7 +821,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0005.Longest-Palindromic-Substring/" class="">0005. Longest Palindromic Substring</a>
+    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0005.Longest-Palindromic-Substring/" class=" active">0005. Longest Palindromic Substring</a>
   
 
         </li>
@@ -878,9 +891,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle" checked />
+    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle"  />
     <label for="section-dc967b4b44d27c2997074dfcec07ceb1" class="flex justify-between">
-      <a  class="active">0100 0199</a>
+      <a  class="">0100 0199</a>
     </label>
   
 
@@ -967,7 +980,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/leetcode-js/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>0100 0199</strong>
+  <strong>0005. Longest Palindromic Substring</strong>
 
   <label for="toc-control">
     
@@ -981,7 +994,201 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"></article>
+  <article class="markdown"><h1 id="5-longest-palindromic-substringhttpsleetcodecomproblemslongest-palindromic-substring">
+  
+  <a href="https://leetcode.com/problems/longest-palindromic-substring/">5. Longest Palindromic Substring</a>
+  <a class="anchor" href="#5-longest-palindromic-substringhttpsleetcodecomproblemslongest-palindromic-substring">#</a>
+</h1>
+<h2 id="题目">
+  题目
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae">#</a>
+</h2>
+<p>Given a string <code>s</code>, return <em>the longest palindromic substring</em> in <code>s</code>.</p>
+<p><strong>Example 1:</strong></p>
+<pre><code>Input: s = &quot;babad&quot;
+Output: &quot;bab&quot;
+Note: &quot;aba&quot; is also a valid answer.
+
+</code></pre><p><strong>Example 2:</strong></p>
+<pre><code>Input: s = &quot;cbbd&quot;
+Output: &quot;bb&quot;
+
+</code></pre><p><strong>Example 3:</strong></p>
+<pre><code>Input: s = &quot;a&quot;
+Output: &quot;a&quot;
+
+</code></pre><p><strong>Example 4:</strong></p>
+<pre><code>Input: s = &quot;ac&quot;
+Output: &quot;a&quot;
+
+</code></pre><p><strong>Constraints:</strong></p>
+<ul>
+<li><code>1 &lt;= s.length &lt;= 1000</code></li>
+<li><code>s</code> consist of only digits and English letters (lower-case and/or upper-case),</li>
+</ul>
+<h2 id="题目大意">
+  题目大意
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae%e5%a4%a7%e6%84%8f">#</a>
+</h2>
+<p>给你一个字符串 <code>s</code>，找到 <code>s</code> 中最长的回文子串。</p>
+<h2 id="解题思路">
+  解题思路
+  <a class="anchor" href="#%e8%a7%a3%e9%a2%98%e6%80%9d%e8%b7%af">#</a>
+</h2>
+<ul>
+<li>
+<p>此题非常经典，并且有多种解法。</p>
+</li>
+<li>
+<p>解法一，动态规划。定义 <code>dp[i][j]</code> 表示从字符串第 <code>i</code> 个字符到第 <code>j</code> 个字符这一段子串是否是回文串。由回文串的性质可以得知，回文串去掉一头一尾相同的字符以后，剩下的还是回文串。所以状态转移方程是 <code>dp[i][j] = (s[i] == s[j]) &amp;&amp; ((j-i &lt; 3) || dp[i+1][j-1])</code>，注意特殊的情况，<code>j - i == 1</code> 的时候，即只有 2 个字符的情况，只需要判断这 2 个字符是否相同即可。<code>j - i == 2</code> 的时候，即只有 3 个字符的情况，只需要判断除去中心以外对称的 2 个字符是否相等。每次循环动态维护保存最长回文串即可。时间复杂度 O(n^2)，空间复杂度 O(n^2)。</p>
+</li>
+<li>
+<p>解法二，中心扩散法。动态规划的方法中，我们将任意起始，终止范围内的字符串都判断了一遍。其实没有这个必要，如果不是最长回文串，无需判断并保存结果。所以动态规划的方法在空间复杂度上还有优化空间。判断回文有一个核心问题是找到“轴心”。如果长度是偶数，那么轴心是中心虚拟的，如果长度是奇数，那么轴心正好是正中心的那个字母。中心扩散法的思想是枚举每个轴心的位置。然后做两次假设，假设最长回文串是偶数，那么以虚拟中心往 2 边扩散；假设最长回文串是奇数，那么以正中心的字符往 2 边扩散。扩散的过程就是对称判断两边字符是否相等的过程。这个方法时间复杂度和动态规划是一样的，但是空间复杂度降低了。时间复杂度 O(n^2)，空间复杂度 O(1)。</p>
+</li>
+<li>
+<p>解法三，滑动窗口。这个写法其实就是中心扩散法变了一个写法。中心扩散是依次枚举每一个轴心。滑动窗口的方法稍微优化了一点，有些轴心两边字符不相等，下次就不会枚举这些不可能形成回文子串的轴心了。不过这点优化并没有优化时间复杂度，时间复杂度 O(n^2)，空间复杂度 O(1)。</p>
+</li>
+<li>
+<p>解法四，马拉车算法。这个算法是本题的最优解，也是最复杂的解法。时间复杂度 O(n)，空间复杂度 O(n)。中心扩散法有 2 处有重复判断，第一处是每次都往两边扩散，不同中心扩散多次，实际上有很多重复判断的字符，能否不重复判断？第二处，中心能否跳跃选择，不是每次都枚举，是否可以利用前一次的信息，跳跃选择下一次的中心？马拉车算法针对重复判断的问题做了优化，增加了一个辅助数组，将时间复杂度从 O(n^2) 优化到了 O(n)，空间换了时间，空间复杂度增加到 O(n)。</p>
+<p>
+  <img src="https://img.halfrost.com/Leetcode/leetcode_5_1.png" alt="https://img.halfrost.com/Leetcode/leetcode_5_1.png" /></p>
+</li>
+<li>
+<p>首先是预处理，向字符串的头尾以及每两个字符中间添加一个特殊字符 <code>#</code>，比如字符串 <code>aaba</code> 处理后会变成 <code>#a#a#b#a#</code>。那么原先长度为偶数的回文字符串 <code>aa</code> 会变成长度为奇数的回文字符串 <code>#a#a#</code>，而长度为奇数的回文字符串 <code>aba</code> 会变成长度仍然为奇数的回文字符串 <code>#a#b#a#</code>，经过预处理以后，都会变成长度为奇数的字符串。**注意这里的特殊字符不需要是没有出现过的字母，也可以使用任何一个字符来作为这个特殊字符。**这是因为，当我们只考虑长度为奇数的回文字符串时，每次我们比较的两个字符奇偶性一定是相同的，所以原来字符串中的字符不会与插入的特殊字符互相比较，不会因此产生问题。**预处理以后，以某个中心扩散的步数和实际字符串长度是相等的。**因为半径里面包含了插入的特殊字符，又由于左右对称的性质，所以扩散半径就等于原来回文子串的长度。</p>
+<p>
+  <img src="https://img.halfrost.com/Leetcode/leetcode_5_2.png" alt="https://img.halfrost.com/Leetcode/leetcode_5_2.png" /></p>
+</li>
+<li>
+<p>核心部分是如何通过左边已经扫描过的数据推出右边下一次要扩散的中心。这里定义下一次要扩散的中心下标是 <code>i</code>。如果 <code>i</code> 比 <code>maxRight</code> 要小，只能继续中心扩散。如果 <code>i</code> 比 <code>maxRight</code> 大，这是又分为 3 种情况。三种情况见上图。将上述 3 种情况总结起来，就是 ：<code>dp[i] = min(maxRight-i, dp[2*center-i])</code>，其中，<code>mirror</code> 相对于 <code>center</code> 是和 <code>i</code> 中心对称的，所以它的下标可以计算出来是 <code>2*center-i</code>。更新完 <code>dp[i]</code> 以后，就要进行中心扩散了。中心扩散以后动态维护最长回文串并相应的更新 <code>center</code>，<code>maxRight</code>，并且记录下原始字符串的起始位置 <code>begin</code> 和 <code>maxLen</code>。</p>
+</li>
+</ul>
+<h2 id="代码">
+  代码
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81">#</a>
+</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">leetcode</span>
+
+<span style="color:#75715e">// 解法一 Manacher&#39;s algorithm，时间复杂度 O(n)，空间复杂度 O(n)
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">longestPalindrome</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">s</span>) &lt; <span style="color:#ae81ff">2</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">s</span>
+	}
+	<span style="color:#a6e22e">newS</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">rune</span>, <span style="color:#ae81ff">0</span>)
+	<span style="color:#a6e22e">newS</span> = append(<span style="color:#a6e22e">newS</span>, <span style="color:#e6db74">&#39;#&#39;</span>)
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">c</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">s</span> {
+		<span style="color:#a6e22e">newS</span> = append(<span style="color:#a6e22e">newS</span>, <span style="color:#a6e22e">c</span>)
+		<span style="color:#a6e22e">newS</span> = append(<span style="color:#a6e22e">newS</span>, <span style="color:#e6db74">&#39;#&#39;</span>)
+	}
+	<span style="color:#75715e">// dp[i]:    以预处理字符串下标 i 为中心的回文半径(奇数长度时不包括中心)
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">// maxRight: 通过中心扩散的方式能够扩散的最右边的下标
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">// center:   与 maxRight 对应的中心字符的下标
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">// maxLen:   记录最长回文串的半径
+</span><span style="color:#75715e"></span>	<span style="color:#75715e">// begin:    记录最长回文串在起始串 s 中的起始下标
+</span><span style="color:#75715e"></span>	<span style="color:#a6e22e">dp</span>, <span style="color:#a6e22e">maxRight</span>, <span style="color:#a6e22e">center</span>, <span style="color:#a6e22e">maxLen</span>, <span style="color:#a6e22e">begin</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">int</span>, len(<span style="color:#a6e22e">newS</span>)), <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">newS</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span> &lt; <span style="color:#a6e22e">maxRight</span> {
+			<span style="color:#75715e">// 这一行代码是 Manacher 算法的关键所在
+</span><span style="color:#75715e"></span>			<span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>] = <span style="color:#a6e22e">min</span>(<span style="color:#a6e22e">maxRight</span><span style="color:#f92672">-</span><span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">dp</span>[<span style="color:#ae81ff">2</span><span style="color:#f92672">*</span><span style="color:#a6e22e">center</span><span style="color:#f92672">-</span><span style="color:#a6e22e">i</span>])
+		}
+		<span style="color:#75715e">// 中心扩散法更新 dp[i]
+</span><span style="color:#75715e"></span>		<span style="color:#a6e22e">left</span>, <span style="color:#a6e22e">right</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">-</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">+</span><span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>]), <span style="color:#a6e22e">i</span><span style="color:#f92672">+</span>(<span style="color:#ae81ff">1</span><span style="color:#f92672">+</span><span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>])
+		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">left</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">right</span> &lt; len(<span style="color:#a6e22e">newS</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">newS</span>[<span style="color:#a6e22e">left</span>] <span style="color:#f92672">==</span> <span style="color:#a6e22e">newS</span>[<span style="color:#a6e22e">right</span>] {
+			<span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>]<span style="color:#f92672">++</span>
+			<span style="color:#a6e22e">left</span><span style="color:#f92672">--</span>
+			<span style="color:#a6e22e">right</span><span style="color:#f92672">++</span>
+		}
+		<span style="color:#75715e">// 更新 maxRight，它是遍历过的 i 的 i + dp[i] 的最大者
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>] &gt; <span style="color:#a6e22e">maxRight</span> {
+			<span style="color:#a6e22e">maxRight</span> = <span style="color:#a6e22e">i</span> <span style="color:#f92672">+</span> <span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>]
+			<span style="color:#a6e22e">center</span> = <span style="color:#a6e22e">i</span>
+		}
+		<span style="color:#75715e">// 记录最长回文子串的长度和相应它在原始字符串中的起点
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>] &gt; <span style="color:#a6e22e">maxLen</span> {
+			<span style="color:#a6e22e">maxLen</span> = <span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>]
+			<span style="color:#a6e22e">begin</span> = (<span style="color:#a6e22e">i</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">maxLen</span>) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span> <span style="color:#75715e">// 这里要除以 2 因为有我们插入的辅助字符 #
+</span><span style="color:#75715e"></span>		}
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">begin</span> : <span style="color:#a6e22e">begin</span><span style="color:#f92672">+</span><span style="color:#a6e22e">maxLen</span>]
+}
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">min</span>(<span style="color:#a6e22e">x</span>, <span style="color:#a6e22e">y</span> <span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">int</span> {
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">x</span> &lt; <span style="color:#a6e22e">y</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">x</span>
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">y</span>
+}
+
+<span style="color:#75715e">// 解法二 滑动窗口，时间复杂度 O(n^2)，空间复杂度 O(1)
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">longestPalindrome1</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">s</span>) <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
+		<span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#34;&#34;</span>
+	}
+	<span style="color:#a6e22e">left</span>, <span style="color:#a6e22e">right</span>, <span style="color:#a6e22e">pl</span>, <span style="color:#a6e22e">pr</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>, <span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">left</span> &lt; len(<span style="color:#a6e22e">s</span>) {
+		<span style="color:#75715e">// 移动到相同字母的最右边（如果有相同字母）
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">right</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> &lt; len(<span style="color:#a6e22e">s</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">left</span>] <span style="color:#f92672">==</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">right</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>] {
+			<span style="color:#a6e22e">right</span><span style="color:#f92672">++</span>
+		}
+		<span style="color:#75715e">// 找到回文的边界
+</span><span style="color:#75715e"></span>		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">left</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">right</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> &lt; len(<span style="color:#a6e22e">s</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">left</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] <span style="color:#f92672">==</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">right</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>] {
+			<span style="color:#a6e22e">left</span><span style="color:#f92672">--</span>
+			<span style="color:#a6e22e">right</span><span style="color:#f92672">++</span>
+		}
+		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">right</span><span style="color:#f92672">-</span><span style="color:#a6e22e">left</span> &gt; <span style="color:#a6e22e">pr</span><span style="color:#f92672">-</span><span style="color:#a6e22e">pl</span> {
+			<span style="color:#a6e22e">pl</span>, <span style="color:#a6e22e">pr</span> = <span style="color:#a6e22e">left</span>, <span style="color:#a6e22e">right</span>
+		}
+		<span style="color:#75715e">// 重置到下一次寻找回文的中心
+</span><span style="color:#75715e"></span>		<span style="color:#a6e22e">left</span> = (<span style="color:#a6e22e">left</span><span style="color:#f92672">+</span><span style="color:#a6e22e">right</span>)<span style="color:#f92672">/</span><span style="color:#ae81ff">2</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+		<span style="color:#a6e22e">right</span> = <span style="color:#a6e22e">left</span>
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">pl</span> : <span style="color:#a6e22e">pr</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+}
+
+<span style="color:#75715e">// 解法三 中心扩散法，时间复杂度 O(n^2)，空间复杂度 O(1)
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">longestPalindrome2</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+	<span style="color:#a6e22e">res</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">s</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+		<span style="color:#a6e22e">res</span> = <span style="color:#a6e22e">maxPalindrome</span>(<span style="color:#a6e22e">s</span>, <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">res</span>)
+		<span style="color:#a6e22e">res</span> = <span style="color:#a6e22e">maxPalindrome</span>(<span style="color:#a6e22e">s</span>, <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>, <span style="color:#a6e22e">res</span>)
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">res</span>
+}
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">maxPalindrome</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">i</span>, <span style="color:#a6e22e">j</span> <span style="color:#66d9ef">int</span>, <span style="color:#a6e22e">res</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+	<span style="color:#a6e22e">sub</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">j</span> &lt; len(<span style="color:#a6e22e">s</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">j</span>] {
+		<span style="color:#a6e22e">sub</span> = <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">i</span> : <span style="color:#a6e22e">j</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+		<span style="color:#a6e22e">i</span><span style="color:#f92672">--</span>
+		<span style="color:#a6e22e">j</span><span style="color:#f92672">++</span>
+	}
+	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">res</span>) &lt; len(<span style="color:#a6e22e">sub</span>) {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">sub</span>
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">res</span>
+}
+
+<span style="color:#75715e">// 解法四 DP，时间复杂度 O(n^2)，空间复杂度 O(n^2)
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">longestPalindrome3</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>) <span style="color:#66d9ef">string</span> {
+	<span style="color:#a6e22e">res</span>, <span style="color:#a6e22e">dp</span> <span style="color:#f92672">:=</span> <span style="color:#e6db74">&#34;&#34;</span>, make([][]<span style="color:#66d9ef">bool</span>, len(<span style="color:#a6e22e">s</span>))
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> &lt; len(<span style="color:#a6e22e">s</span>); <span style="color:#a6e22e">i</span><span style="color:#f92672">++</span> {
+		<span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>] = make([]<span style="color:#66d9ef">bool</span>, len(<span style="color:#a6e22e">s</span>))
+	}
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> len(<span style="color:#a6e22e">s</span>) <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span><span style="color:#f92672">--</span> {
+		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">j</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">i</span>; <span style="color:#a6e22e">j</span> &lt; len(<span style="color:#a6e22e">s</span>); <span style="color:#a6e22e">j</span><span style="color:#f92672">++</span> {
+			<span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>][<span style="color:#a6e22e">j</span>] = (<span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">i</span>] <span style="color:#f92672">==</span> <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">j</span>]) <span style="color:#f92672">&amp;&amp;</span> ((<span style="color:#a6e22e">j</span><span style="color:#f92672">-</span><span style="color:#a6e22e">i</span> &lt; <span style="color:#ae81ff">3</span>) <span style="color:#f92672">||</span> <span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>][<span style="color:#a6e22e">j</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>])
+			<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">dp</span>[<span style="color:#a6e22e">i</span>][<span style="color:#a6e22e">j</span>] <span style="color:#f92672">&amp;&amp;</span> (<span style="color:#a6e22e">res</span> <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;&#34;</span> <span style="color:#f92672">||</span> <span style="color:#a6e22e">j</span><span style="color:#f92672">-</span><span style="color:#a6e22e">i</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span> &gt; len(<span style="color:#a6e22e">res</span>)) {
+				<span style="color:#a6e22e">res</span> = <span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">i</span> : <span style="color:#a6e22e">j</span><span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>]
+			}
+		}
+	}
+	<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">res</span>
+}
+</code></pre></div><hr>
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0004.Median-of-Two-Sorted-Arrays/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0006.ZigZag-Conversion/">下一页➡️</a></p>
+</div>
+</article>
  
       
 
@@ -991,16 +1198,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/2xiao/leetcode-js/commit/0367245e0a3a3cb50dcd74a32b9e06a38f23e162" title='Last modified by erxiao | Sep 22, 2021' target="_blank" rel="noopener">
-      <img src="/leetcode-js/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>Sep 22, 2021</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0100~0199/_index.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0001~0099/0005.Longest-Palindromic-Substring.md" target="_blank" rel="noopener">
       <img src="/leetcode-js/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>

@@ -5,13 +5,25 @@
   <meta name="generator" content="Hugo 0.81.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="4. Median of Two Sorted Arrays #  题目 #  There are two sorted arrays nums1 and nums2 of size m and n respectively.
+Find the median of the two sorted arrays. The overall run time complexity should be O(log (m&#43;n)).
+You may assume nums1 and nums2 cannot be both empty.
+Example 1:
+nums1 = [1, 3] nums2 = [2] The median is 2.0  Example 2:
+nums1 = [1, 2] nums2 = [3, 4] The median is (2 &#43; 3)/2 = 2.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/" />
+<meta property="og:description" content="4. Median of Two Sorted Arrays #  题目 #  There are two sorted arrays nums1 and nums2 of size m and n respectively.
+Find the median of the two sorted arrays. The overall run time complexity should be O(log (m&#43;n)).
+You may assume nums1 and nums2 cannot be both empty.
+Example 1:
+nums1 = [1, 3] nums2 = [2] The median is 2.0  Example 2:
+nums1 = [1, 2] nums2 = [3, 4] The median is (2 &#43; 3)/2 = 2." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0004.Median-of-Two-Sorted-Arrays/" /><meta property="article:section" content="ChapterOne" />
 
-<title>0100 0199 | LeetCode Cookbook</title>
+
+
+<title>0004. Median of Two Sorted Arrays | LeetCode Cookbook</title>
 <link rel="manifest" href="/leetcode-js/manifest.json">
 <link rel="icon" href="/leetcode-js/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/leetcode-js/book.min.5731a2722ce727e8356217095b0203e138a2daffda22b10d2f564c908985e8b3.css" integrity="sha256-VzGiciznJ&#43;g1YhcJWwID4Tii2v/aIrENL1ZMkImF6LM=">
@@ -33,8 +45,7 @@
       console.log('Service workers are not supported in the current browser.');
   }
 </script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><link rel="alternate" type="application/rss+xml" href="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/index.xml" title="LeetCode Cookbook" />
-<!--
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -740,7 +751,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle"  />
+    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle" checked />
     <label for="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="flex justify-between">
       <a  class="">0001 0099</a>
     </label>
@@ -795,7 +806,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0004.Median-of-Two-Sorted-Arrays/" class="">0004. Median of Two Sorted Arrays</a>
+    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0004.Median-of-Two-Sorted-Arrays/" class=" active">0004. Median of Two Sorted Arrays</a>
   
 
         </li>
@@ -878,9 +889,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle" checked />
+    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle"  />
     <label for="section-dc967b4b44d27c2997074dfcec07ceb1" class="flex justify-between">
-      <a  class="active">0100 0199</a>
+      <a  class="">0100 0199</a>
     </label>
   
 
@@ -967,7 +978,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/leetcode-js/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>0100 0199</strong>
+  <strong>0004. Median of Two Sorted Arrays</strong>
 
   <label for="toc-control">
     
@@ -981,7 +992,115 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"></article>
+  <article class="markdown"><h1 id="4-median-of-two-sorted-arrayshttpsleetcodecomproblemsmedian-of-two-sorted-arrays">
+  
+  <a href="https://leetcode.com/problems/median-of-two-sorted-arrays/">4. Median of Two Sorted Arrays</a>
+  <a class="anchor" href="#4-median-of-two-sorted-arrayshttpsleetcodecomproblemsmedian-of-two-sorted-arrays">#</a>
+</h1>
+<h2 id="题目">
+  题目
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae">#</a>
+</h2>
+<p>There are two sorted arrays <strong>nums1</strong> and <strong>nums2</strong> of size m and n respectively.</p>
+<p>Find the median of the two sorted arrays. The overall run time complexity should be O(log (m+n)).</p>
+<p>You may assume <strong>nums1</strong> and <strong>nums2</strong> cannot be both empty.</p>
+<p><strong>Example 1</strong>:</p>
+<pre><code>nums1 = [1, 3]
+nums2 = [2]
+
+The median is 2.0
+</code></pre>
+<p><strong>Example 2</strong>:</p>
+<pre><code>nums1 = [1, 2]
+nums2 = [3, 4]
+
+The median is (2 + 3)/2 = 2.5
+</code></pre>
+<h2 id="题目大意">
+  题目大意
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae%e5%a4%a7%e6%84%8f">#</a>
+</h2>
+<p>给定两个大小为 m 和 n 的有序数组 nums1 和 nums2。</p>
+<p>请你找出这两个有序数组的中位数，并且要求算法的时间复杂度为 O(log(m + n))。</p>
+<p>你可以假设 nums1 和 nums2 不会同时为空。</p>
+<h2 id="解题思路">
+  解题思路
+  <a class="anchor" href="#%e8%a7%a3%e9%a2%98%e6%80%9d%e8%b7%af">#</a>
+</h2>
+<ul>
+<li>
+<p>给出两个有序数组，要求找出这两个数组合并以后的有序数组中的中位数。要求时间复杂度为 O(log (m+n))。</p>
+</li>
+<li>
+<p>这一题最容易想到的办法是把两个数组合并，然后取出中位数。但是合并有序数组的操作是 <code>O(m+n)</code> 的，不符合题意。看到题目给的 <code>log</code> 的时间复杂度，很容易联想到二分搜索。</p>
+</li>
+<li>
+<p>由于要找到最终合并以后数组的中位数，两个数组的总大小也知道，所以中间这个位置也是知道的。只需要二分搜索一个数组中切分的位置，另一个数组中切分的位置也能得到。为了使得时间复杂度最小，所以二分搜索两个数组中长度较小的那个数组。</p>
+</li>
+<li>
+<p>关键的问题是如何切分数组 1 和数组 2 。其实就是如何切分数组 1 。先随便二分产生一个 <code>midA</code>，切分的线何时算满足了中位数的条件呢？即，线左边的数都小于右边的数，即，<code>nums1[midA-1] ≤ nums2[midB] &amp;&amp; nums2[midB-1] ≤ nums1[midA]</code> 。如果这些条件都不满足，切分线就需要调整。如果 <code>nums1[midA] &lt; nums2[midB-1]</code>，说明 <code>midA</code> 这条线划分出来左边的数小了，切分线应该右移；如果 <code>nums1[midA-1] &gt; nums2[midB]</code>，说明 midA 这条线划分出来左边的数大了，切分线应该左移。经过多次调整以后，切分线总能找到满足条件的解。</p>
+</li>
+<li>
+<p>假设现在找到了切分的两条线了，<code>数组 1</code> 在切分线两边的下标分别是 <code>midA - 1</code> 和 <code>midA</code>。<code>数组 2</code> 在切分线两边的下标分别是 <code>midB - 1</code> 和 <code>midB</code>。最终合并成最终数组，如果数组长度是奇数，那么中位数就是 <code>max(nums1[midA-1], nums2[midB-1])</code>。如果数组长度是偶数，那么中间位置的两个数依次是：<code>max(nums1[midA-1], nums2[midB-1])</code> 和 <code>min(nums1[midA], nums2[midB])</code>，那么中位数就是 <code>(max(nums1[midA-1], nums2[midB-1]) + min(nums1[midA], nums2[midB])) / 2</code>。图示见下图：</p>
+<p>
+  <img src="https://img.halfrost.com/Leetcode/leetcode_4.png" alt="" /></p>
+</li>
+</ul>
+<h2 id="代码">
+  代码
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81">#</a>
+</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go">
+<span style="color:#f92672">package</span> <span style="color:#a6e22e">leetcode</span>
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">findMedianSortedArrays</span>(<span style="color:#a6e22e">nums1</span> []<span style="color:#66d9ef">int</span>, <span style="color:#a6e22e">nums2</span> []<span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">float64</span> {
+	<span style="color:#75715e">// 假设 nums1 的长度小
+</span><span style="color:#75715e"></span>	<span style="color:#66d9ef">if</span> len(<span style="color:#a6e22e">nums1</span>) &gt; len(<span style="color:#a6e22e">nums2</span>) {
+		<span style="color:#66d9ef">return</span> <span style="color:#a6e22e">findMedianSortedArrays</span>(<span style="color:#a6e22e">nums2</span>, <span style="color:#a6e22e">nums1</span>)
+	}
+	<span style="color:#a6e22e">low</span>, <span style="color:#a6e22e">high</span>, <span style="color:#a6e22e">k</span>, <span style="color:#a6e22e">nums1Mid</span>, <span style="color:#a6e22e">nums2Mid</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>, len(<span style="color:#a6e22e">nums1</span>), (len(<span style="color:#a6e22e">nums1</span>)<span style="color:#f92672">+</span>len(<span style="color:#a6e22e">nums2</span>)<span style="color:#f92672">+</span><span style="color:#ae81ff">1</span>)<span style="color:#f92672">&gt;&gt;</span><span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">low</span> <span style="color:#f92672">&lt;=</span> <span style="color:#a6e22e">high</span> {
+		<span style="color:#75715e">// nums1:  ……………… nums1[nums1Mid-1] | nums1[nums1Mid] ……………………
+</span><span style="color:#75715e"></span>		<span style="color:#75715e">// nums2:  ……………… nums2[nums2Mid-1] | nums2[nums2Mid] ……………………
+</span><span style="color:#75715e"></span>		<span style="color:#a6e22e">nums1Mid</span> = <span style="color:#a6e22e">low</span> <span style="color:#f92672">+</span> (<span style="color:#a6e22e">high</span><span style="color:#f92672">-</span><span style="color:#a6e22e">low</span>)<span style="color:#f92672">&gt;&gt;</span><span style="color:#ae81ff">1</span> <span style="color:#75715e">// 分界限右侧是 mid，分界线左侧是 mid - 1
+</span><span style="color:#75715e"></span>		<span style="color:#a6e22e">nums2Mid</span> = <span style="color:#a6e22e">k</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">nums1Mid</span>
+		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">nums1Mid</span> &gt; <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">nums1</span>[<span style="color:#a6e22e">nums1Mid</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] &gt; <span style="color:#a6e22e">nums2</span>[<span style="color:#a6e22e">nums2Mid</span>] { <span style="color:#75715e">// nums1 中的分界线划多了，要向左边移动
+</span><span style="color:#75715e"></span>			<span style="color:#a6e22e">high</span> = <span style="color:#a6e22e">nums1Mid</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>
+		} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">nums1Mid</span> <span style="color:#f92672">!=</span> len(<span style="color:#a6e22e">nums1</span>) <span style="color:#f92672">&amp;&amp;</span> <span style="color:#a6e22e">nums1</span>[<span style="color:#a6e22e">nums1Mid</span>] &lt; <span style="color:#a6e22e">nums2</span>[<span style="color:#a6e22e">nums2Mid</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>] { <span style="color:#75715e">// nums1 中的分界线划少了，要向右边移动
+</span><span style="color:#75715e"></span>			<span style="color:#a6e22e">low</span> = <span style="color:#a6e22e">nums1Mid</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>
+		} <span style="color:#66d9ef">else</span> {
+			<span style="color:#75715e">// 找到合适的划分了，需要输出最终结果了
+</span><span style="color:#75715e"></span>			<span style="color:#75715e">// 分为奇数偶数 2 种情况
+</span><span style="color:#75715e"></span>			<span style="color:#66d9ef">break</span>
+		}
+	}
+	<span style="color:#a6e22e">midLeft</span>, <span style="color:#a6e22e">midRight</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>, <span style="color:#ae81ff">0</span>
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">nums1Mid</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
+		<span style="color:#a6e22e">midLeft</span> = <span style="color:#a6e22e">nums2</span>[<span style="color:#a6e22e">nums2Mid</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+	} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">nums2Mid</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span> {
+		<span style="color:#a6e22e">midLeft</span> = <span style="color:#a6e22e">nums1</span>[<span style="color:#a6e22e">nums1Mid</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>]
+	} <span style="color:#66d9ef">else</span> {
+		<span style="color:#a6e22e">midLeft</span> = <span style="color:#a6e22e">max</span>(<span style="color:#a6e22e">nums1</span>[<span style="color:#a6e22e">nums1Mid</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>], <span style="color:#a6e22e">nums2</span>[<span style="color:#a6e22e">nums2Mid</span><span style="color:#f92672">-</span><span style="color:#ae81ff">1</span>])
+	}
+	<span style="color:#66d9ef">if</span> (len(<span style="color:#a6e22e">nums1</span>)<span style="color:#f92672">+</span>len(<span style="color:#a6e22e">nums2</span>))<span style="color:#f92672">&amp;</span><span style="color:#ae81ff">1</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span> {
+		<span style="color:#66d9ef">return</span> float64(<span style="color:#a6e22e">midLeft</span>)
+	}
+	<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">nums1Mid</span> <span style="color:#f92672">==</span> len(<span style="color:#a6e22e">nums1</span>) {
+		<span style="color:#a6e22e">midRight</span> = <span style="color:#a6e22e">nums2</span>[<span style="color:#a6e22e">nums2Mid</span>]
+	} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">nums2Mid</span> <span style="color:#f92672">==</span> len(<span style="color:#a6e22e">nums2</span>) {
+		<span style="color:#a6e22e">midRight</span> = <span style="color:#a6e22e">nums1</span>[<span style="color:#a6e22e">nums1Mid</span>]
+	} <span style="color:#66d9ef">else</span> {
+		<span style="color:#a6e22e">midRight</span> = <span style="color:#a6e22e">min</span>(<span style="color:#a6e22e">nums1</span>[<span style="color:#a6e22e">nums1Mid</span>], <span style="color:#a6e22e">nums2</span>[<span style="color:#a6e22e">nums2Mid</span>])
+	}
+	<span style="color:#66d9ef">return</span> float64(<span style="color:#a6e22e">midLeft</span><span style="color:#f92672">+</span><span style="color:#a6e22e">midRight</span>) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>
+}
+
+</code></pre></div><hr>
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0003.Longest-Substring-Without-Repeating-Characters/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0005.Longest-Palindromic-Substring/">下一页➡️</a></p>
+</div>
+</article>
  
       
 
@@ -991,16 +1110,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/2xiao/leetcode-js/commit/0367245e0a3a3cb50dcd74a32b9e06a38f23e162" title='Last modified by erxiao | Sep 22, 2021' target="_blank" rel="noopener">
-      <img src="/leetcode-js/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>Sep 22, 2021</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0100~0199/_index.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0001~0099/0004.Median-of-Two-Sorted-Arrays.md" target="_blank" rel="noopener">
       <img src="/leetcode-js/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>

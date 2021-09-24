@@ -5,13 +5,19 @@
   <meta name="generator" content="Hugo 0.81.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
+<meta name="description" content="6. ZigZag Conversion #  题目 #  The string &quot;PAYPALISHIRING&quot; is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+P A H N A P L S I I G Y I R And then read line by line: &quot;PAHNAPLSIIGYIR&quot;
+Write the code that will take a string and make this conversion given a number of rows:">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/" />
+<meta property="og:description" content="6. ZigZag Conversion #  题目 #  The string &quot;PAYPALISHIRING&quot; is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)
+P A H N A P L S I I G Y I R And then read line by line: &quot;PAHNAPLSIIGYIR&quot;
+Write the code that will take a string and make this conversion given a number of rows:" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0006.ZigZag-Conversion/" /><meta property="article:section" content="ChapterOne" />
 
-<title>0100 0199 | LeetCode Cookbook</title>
+
+
+<title>0006. Zig Zag Conversion | LeetCode Cookbook</title>
 <link rel="manifest" href="/leetcode-js/manifest.json">
 <link rel="icon" href="/leetcode-js/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/leetcode-js/book.min.5731a2722ce727e8356217095b0203e138a2daffda22b10d2f564c908985e8b3.css" integrity="sha256-VzGiciznJ&#43;g1YhcJWwID4Tii2v/aIrENL1ZMkImF6LM=">
@@ -33,8 +39,7 @@
       console.log('Service workers are not supported in the current browser.');
   }
 </script>
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><link rel="alternate" type="application/rss+xml" href="https://2xiao.github.io/leetcode-js/ChapterOne/0100~0199/index.xml" title="LeetCode Cookbook" />
-<!--
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
 -->
@@ -740,7 +745,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle"  />
+    <input type="checkbox" id="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="toggle" checked />
     <label for="section-7cfa15d991f1c3aafacb7ea172a0e07f" class="flex justify-between">
       <a  class="">0001 0099</a>
     </label>
@@ -821,7 +826,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0006.ZigZag-Conversion/" class="">0006. Zig Zag Conversion</a>
+    <a href="https://2xiao.github.io/leetcode-js/ChapterOne/0001~0099/0006.ZigZag-Conversion/" class=" active">0006. Zig Zag Conversion</a>
   
 
         </li>
@@ -878,9 +883,9 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle" checked />
+    <input type="checkbox" id="section-dc967b4b44d27c2997074dfcec07ceb1" class="toggle"  />
     <label for="section-dc967b4b44d27c2997074dfcec07ceb1" class="flex justify-between">
-      <a  class="active">0100 0199</a>
+      <a  class="">0100 0199</a>
     </label>
   
 
@@ -967,7 +972,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/leetcode-js/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>0100 0199</strong>
+  <strong>0006. Zig Zag Conversion</strong>
 
   <label for="toc-control">
     
@@ -981,7 +986,97 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"></article>
+  <article class="markdown"><h1 id="6-zigzag-conversionhttpsleetcodecomproblemszigzag-conversion">
+  
+  <a href="https://leetcode.com/problems/zigzag-conversion/">6. ZigZag Conversion</a>
+  <a class="anchor" href="#6-zigzag-conversionhttpsleetcodecomproblemszigzag-conversion">#</a>
+</h1>
+<h2 id="题目">
+  题目
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae">#</a>
+</h2>
+<p>The string <code>&quot;PAYPALISHIRING&quot;</code> is written in a zigzag pattern on a given number of rows like this: (you may want to display this pattern in a fixed font for better legibility)</p>
+<pre><code>P   A   H   N
+A P L S I I G
+Y   I   R
+</code></pre><p>And then read line by line: <code>&quot;PAHNAPLSIIGYIR&quot;</code></p>
+<p>Write the code that will take a string and make this conversion given a number of rows:</p>
+<pre><code>string convert(string s, int numRows);
+</code></pre><p><strong>Example 1:</strong></p>
+<pre><code>Input: s = &quot;PAYPALISHIRING&quot;, numRows = 3
+Output: &quot;PAHNAPLSIIGYIR&quot;
+</code></pre><p><strong>Example 2:</strong></p>
+<pre><code>Input: s = &quot;PAYPALISHIRING&quot;, numRows = 4
+Output: &quot;PINALSIGYAHRPI&quot;
+Explanation:
+P     I    N
+A   L S  I G
+Y A   H R
+P     I
+</code></pre><p><strong>Example 3:</strong></p>
+<pre><code>Input: s = &quot;A&quot;, numRows = 1
+Output: &quot;A&quot;
+</code></pre><p><strong>Constraints:</strong></p>
+<ul>
+<li><code>1 &lt;= s.length &lt;= 1000</code></li>
+<li><code>s</code> consists of English letters (lower-case and upper-case), <code>','</code> and <code>'.'</code>.</li>
+<li><code>1 &lt;= numRows &lt;= 1000</code></li>
+</ul>
+<h2 id="题目大意">
+  题目大意
+  <a class="anchor" href="#%e9%a2%98%e7%9b%ae%e5%a4%a7%e6%84%8f">#</a>
+</h2>
+<p>将一个给定字符串 <code>s</code> 根据给定的行数 <code>numRows</code> ，以从上往下、从左到右进行 Z 字形排列。</p>
+<p>比如输入字符串为 <code>&quot;PAYPALISHIRING&quot;</code> 行数为 3 时，排列如下：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">P</span>   <span style="color:#a6e22e">A</span>   <span style="color:#a6e22e">H</span>   <span style="color:#a6e22e">N</span>
+<span style="color:#a6e22e">A</span> <span style="color:#a6e22e">P</span> <span style="color:#a6e22e">L</span> <span style="color:#a6e22e">S</span> <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">I</span> <span style="color:#a6e22e">G</span>
+<span style="color:#a6e22e">Y</span>   <span style="color:#a6e22e">I</span>   <span style="color:#a6e22e">R</span>
+</code></pre></div><p>之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，比如：<code>&quot;PAHNAPLSIIGYIR&quot;</code>。</p>
+<p>请你实现这个将字符串进行指定行数变换的函数：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">string</span> <span style="color:#a6e22e">convert</span>(<span style="color:#66d9ef">string</span> <span style="color:#a6e22e">s</span>, <span style="color:#66d9ef">int</span> <span style="color:#a6e22e">numRows</span>);
+</code></pre></div><h2 id="解题思路">
+  解题思路
+  <a class="anchor" href="#%e8%a7%a3%e9%a2%98%e6%80%9d%e8%b7%af">#</a>
+</h2>
+<ul>
+<li>这一题没有什么算法思想，考察的是对程序控制的能力。用 2 个变量保存方向，当垂直输出的行数达到了规定的目标行数以后，需要从下往上转折到第一行，循环中控制好方向ji</li>
+</ul>
+<h2 id="代码">
+  代码
+  <a class="anchor" href="#%e4%bb%a3%e7%a0%81">#</a>
+</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#f92672">package</span> <span style="color:#a6e22e">leetcode</span>
+
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">convert</span>(<span style="color:#a6e22e">s</span> <span style="color:#66d9ef">string</span>, <span style="color:#a6e22e">numRows</span> <span style="color:#66d9ef">int</span>) <span style="color:#66d9ef">string</span> {
+	<span style="color:#a6e22e">matrix</span>, <span style="color:#a6e22e">down</span>, <span style="color:#a6e22e">up</span> <span style="color:#f92672">:=</span> make([][]<span style="color:#66d9ef">byte</span>, <span style="color:#a6e22e">numRows</span>, <span style="color:#a6e22e">numRows</span>), <span style="color:#ae81ff">0</span>, <span style="color:#a6e22e">numRows</span><span style="color:#f92672">-</span><span style="color:#ae81ff">2</span>
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">:=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">!=</span> len(<span style="color:#a6e22e">s</span>); {
+		<span style="color:#66d9ef">if</span> <span style="color:#a6e22e">down</span> <span style="color:#f92672">!=</span> <span style="color:#a6e22e">numRows</span> {
+			<span style="color:#a6e22e">matrix</span>[<span style="color:#a6e22e">down</span>] = append(<span style="color:#a6e22e">matrix</span>[<span style="color:#a6e22e">down</span>], byte(<span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">i</span>]))
+			<span style="color:#a6e22e">down</span><span style="color:#f92672">++</span>
+			<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>
+		} <span style="color:#66d9ef">else</span> <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">up</span> &gt; <span style="color:#ae81ff">0</span> {
+			<span style="color:#a6e22e">matrix</span>[<span style="color:#a6e22e">up</span>] = append(<span style="color:#a6e22e">matrix</span>[<span style="color:#a6e22e">up</span>], byte(<span style="color:#a6e22e">s</span>[<span style="color:#a6e22e">i</span>]))
+			<span style="color:#a6e22e">up</span><span style="color:#f92672">--</span>
+			<span style="color:#a6e22e">i</span><span style="color:#f92672">++</span>
+		} <span style="color:#66d9ef">else</span> {
+			<span style="color:#a6e22e">up</span> = <span style="color:#a6e22e">numRows</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>
+			<span style="color:#a6e22e">down</span> = <span style="color:#ae81ff">0</span>
+		}
+	}
+	<span style="color:#a6e22e">solution</span> <span style="color:#f92672">:=</span> make([]<span style="color:#66d9ef">byte</span>, <span style="color:#ae81ff">0</span>, len(<span style="color:#a6e22e">s</span>))
+	<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">row</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">matrix</span> {
+		<span style="color:#66d9ef">for</span> <span style="color:#a6e22e">_</span>, <span style="color:#a6e22e">item</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span> <span style="color:#a6e22e">row</span> {
+			<span style="color:#a6e22e">solution</span> = append(<span style="color:#a6e22e">solution</span>, <span style="color:#a6e22e">item</span>)
+		}
+	}
+	<span style="color:#66d9ef">return</span> string(<span style="color:#a6e22e">solution</span>)
+}
+</code></pre></div><hr>
+<div style="display: flex;justify-content: space-between;align-items: center;">
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0005.Longest-Palindromic-Substring/">⬅️上一页</a></p>
+<p><a href="https://books.halfrost.com/leetcode/ChapterFour/0001~0099/0007.Reverse-Integer/">下一页➡️</a></p>
+</div>
+</article>
  
       
 
@@ -991,16 +1086,10 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/2xiao/leetcode-js/commit/0367245e0a3a3cb50dcd74a32b9e06a38f23e162" title='Last modified by erxiao | Sep 22, 2021' target="_blank" rel="noopener">
-      <img src="/leetcode-js/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>Sep 22, 2021</span>
-    </a>
-  </div>
-
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0100~0199/_index.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/2xiao/leetcode-js/tree/master/website/content/ChapterOne/0001~0099/0006.ZigZag-Conversion.md" target="_blank" rel="noopener">
       <img src="/leetcode-js/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
