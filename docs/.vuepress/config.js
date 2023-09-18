@@ -48,6 +48,22 @@ module.exports = {
                     ]
                 }
             ],
+            '/leetcode/': [
+                {
+                    title: '面试这件事',
+                    collapsable: true,
+                    children: [
+                        '/leetcode/interview/interview-1-ready.md',
+                    ]
+                },
+                {
+                    title: '英语',
+                    collapsable: true,
+                    children: [
+                        '/leetcode/english/1.md',
+                    ]
+                }
+            ],
         }
     },
 
