@@ -1,19 +1,10 @@
 <template>
   <div>
-    <el-row :gutter="20">
-      <el-col :sm="0" :md=2 :lg="4" style="display: block;"><div style="width: 1px; height: 1px;"></div></el-col>
-      <el-col :sm="24" :md="18" :lg="16">
-        <el-card class="box-card">
-          <div slot="header" class="clearfix">
-            <span>温馨提示喵</span>
-          </div>
-          <div class="copyright-text">
-            <div>本文版权归作者所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。</div>
-            <div>作者：<a href="https://github.com/2xiao" target="_blank">erxiao</a></div>
-          </div>
-        </el-card>
-      </el-col>
-    </el-row>
+    <div class="copyright-text">
+      <div>温馨提示喵</div>
+      <div>本文版权归作者所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。</div>
+      <div>作者：<a href="https://github.com/2xiao" target="_blank">erxiao</a></div>
+    </div>
   </div>
 </template>
 
@@ -50,7 +41,7 @@ export default {
   font-size 15px
   color #999
   background #eee
-  padding 10px
+  padding 20px 20px 10px 20px
 
 .copyright-text 
   > div 

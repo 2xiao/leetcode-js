@@ -21,13 +21,13 @@
 
       <div
         class="last-updated"
-        v-if="lastUpdated"
+        v-if="pageUpdateTime"
       >
         <span class="prefix">{{ lastUpdatedText }}: </span>
-        <span class="time">{{ lastUpdated }}</span>
+        <span class="time">{{ pageUpdateTime }}</span>
       </div>
 
-      <blockquote>部分文章中使用了一些网站的截图，如果涉及侵权，请告诉我删一下谢谢~</blockquote>
+      <!-- <blockquote>部分文章中使用了一些网站的截图，如果涉及侵权，请告诉我删一下谢谢~</blockquote> -->
       
       <CopyRight style="margin-top: 30px;"></CopyRight>
     </footer>
@@ -93,6 +93,10 @@ export default {
         return this.$site.themeConfig.lastUpdated
       }
       return 'Last Updated'
+    },
+
+    pageUpdateTime () {
+      return this.$page.frontmatter.date;
     },
 
     prev () {

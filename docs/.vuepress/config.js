@@ -64,6 +64,27 @@ module.exports = {
                     ]
                 }
             ],
+            '/run/': [
+                {
+                    title: '美国',
+                    collapsable: true,
+                    children: [
+                        '/run/usa/1_live_in_us.md',
+                        '/run/usa/2_neighbor.md',
+                        '/run/usa/3_where_to_go.md',
+                        '/run/usa/4_indian.md',
+                        '/run/usa/5_miss_bj.md',
+                        '/run/usa/6_mississippi.md',
+                    ]
+                },
+                {
+                    title: '欧洲',
+                    collapsable: true,
+                    children: [
+                        '/leetcode/english/1.md',
+                    ]
+                }
+            ],
         }
     },
 
