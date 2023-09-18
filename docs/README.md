@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 快速阅读 →
-actionLink: /front-end-basic/front-end/front-end-1.md
+actionLink: /front-end/1.md
 features:
   - title: 前端基础+补充
     details: 补齐前端基础知识，掌握开发调试技巧。补齐纯前端的缺失知识，更从容地面对面试官。

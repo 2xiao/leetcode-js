@@ -39,6 +39,13 @@ module.exports = {
                     children: [
                         '/interview/interview/interview-1-ready.md',
                     ]
+                },
+                {
+                    title: '英语',
+                    collapsable: true,
+                    children: [
+                        '/interview/english/1.md',
+                    ]
                 }
             ],
         }
