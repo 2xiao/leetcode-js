@@ -2,7 +2,7 @@ module.exports = {
     title: '二小的博客',
     base: '/fe/',
     shouldPrefetch: () => false,
-    description: 'Just playing around',
+    description: 'Know your game​​​',
     themeConfig: {
         // logo: '/assets/img/logo.png',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL

@@ -33,7 +33,13 @@
         v-for="(feature, index) in data.features"
         :key="index"
       >
+      <router-link
+        class="nav-link"
+        :to="feature.link"
+      >
         <h2>{{ feature.title }}</h2>
+      </router-link>
+      
         <p>{{ feature.details }}</p>
       </div>
     </div>

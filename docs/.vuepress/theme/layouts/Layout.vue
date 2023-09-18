@@ -44,7 +44,7 @@
         slot="bottom"
       />
     </Page>
-    <!-- <Kitty></Kitty> -->
+    <Kitty></Kitty>
   </div>
 </template>
 

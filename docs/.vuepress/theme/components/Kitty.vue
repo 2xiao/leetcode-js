@@ -1,20 +1,12 @@
 <template>
   <div id="kitty-container" v-if="isShow">
     <el-popover @mousedown.native="move" @touchstart.native="touch" trigger="hover">
-      <img class="image"  @click="dialogVisible = true" src="https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/2code2.jpg">
-      <div class="text">牡羊猪的猫粮罐</div>
+      <div class="cover">
+        <p class="title">今日咒语</p>
+        <p class="text">{{ words }}</p>
+      </div>
       <div id="kitty" @dblclick="deleteKitty" v-longpress="deleteKitty" :style="{background: 'url(' + kittyUrl + ')'}" slot="reference"></div>
     </el-popover>
-
-    <el-dialog
-      title="牡羊猪是这样渐渐胖成猪的喵（点击图片可以切换噢）"
-      :visible.sync="dialogVisible">
-      <el-image :src="pigUrl" style="min-height: 200px;" @click="changePig()" fit="contain">
-        <div slot="placeholder" class="image-slot">
-          <img src="https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/assets/img/loading.gif" style="width: 100%" />
-        </div>
-      </el-image>
-    </el-dialog>
   </div>
 </template>
 
@@ -24,31 +16,24 @@ const getCss = function(o,key){
 	return o.currentStyle? o.currentStyle[key] : document.defaultView.getComputedStyle(o,false)[key]; 	
 };
 
-function getRandomKitty(){
-  const kittyNum = 3;
+function getRandomWords(){
+  const kittyNum = ZXYWords.length;
   const randomNum = Math.floor(Math.random()*kittyNum); 
-  return `https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/assets/img/kitty${randomNum}.svg`;
+  return ZXYWords[randomNum];
 }
 
-function getRandomPig(){
-  const pigNum = 75;
-  const randomNum = Math.floor(Math.random()*pigNum) + 1; 
-  return `https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/pig/${randomNum}.jpg`;
-}
+import { ZXYWords } from '@theme/util/zxy.js'
 
 export default {
   data() {
     return {
+      ZXYWords: ZXYWords,
       isShow: true,
-      dialogVisible: false,
-      kittyUrl: getRandomKitty(),
-      pigUrl: getRandomPig()
+      kittyUrl: 'https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/assets/img/kitty2.svg',
+      words: getRandomWords(),
     }
   },
   methods: {
-    changePig(){
-      this.pigUrl = getRandomPig();
-    },
     move(e) {
       let odiv = e.target; //获取目标元素
 
@@ -192,10 +177,21 @@ export default {
 .el-dialog__body
   text-align center
 
-.text
-  text-align center
-  width 100%
+.cover
+  padding 0 10px
+
+.title
+  text-align left
   font-weight bold
+
+.text
+  border-top: 2px solid gray
+  text-align left
+  max-width 230px
+  padding-top 15px
+  display block
+  font-weight 400
+  line-height 24px
 
 #kitty 
   position fixed !important
