@@ -121,7 +121,7 @@ module.exports = {
                     title: '面试这件事',
                     collapsable: true,
                     children: [
-                        '/interview/interview/interview-1-ready.md',
+                        '/interview/interview/1.md',
                     ]
                 },
                 {
