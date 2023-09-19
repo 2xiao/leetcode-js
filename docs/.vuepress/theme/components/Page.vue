@@ -230,11 +230,13 @@ function flatten (items, res) {
     float right
     font-size 0.9em
     .prefix
-      font-weight 500
-      color lighten($textColor, 25%)
-    .time
       font-weight 400
       color #aaa
+      padding-right 5px
+    .time
+      font-weight 500
+      color lighten($textColor, 25%)
+
 
 .page-nav
   @extend $wrapper
