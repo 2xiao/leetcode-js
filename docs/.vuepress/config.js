@@ -109,6 +109,8 @@ module.exports = {
                         '/leetcode/problem/0007.Reverse-Integer.md',
                         '/leetcode/problem/0008.String-to-Integer-atoi.md',
                         '/leetcode/problem/0009.Palindrome-Number.md',
+                        '/leetcode/problem/0062.Unique-Paths.md',
+                        '/leetcode/problem/0063.Unique-Paths-II.md',
                         '/leetcode/problem/0206.Reverse-Linked-List.md',
                         '/leetcode/problem/0509.Fibonacci-Number.md',
                     ]
