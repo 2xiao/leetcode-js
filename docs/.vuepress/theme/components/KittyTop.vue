@@ -55,7 +55,7 @@ export default {};
 }
 
 .cat {
-  background: #ff9955;
+  background: #c6bfba;
   height: 30px;
   top: auto;
   right: 15px;
@@ -77,14 +77,14 @@ export default {};
 .cat:before {
   border-left: 0px solid transparent;
   border-right: 8px solid transparent;
-  border-bottom: 8px solid #ff9955;
+  border-bottom: 8px solid #c6bfba;
   left: 0;
 }
 
 .cat:after {
   border-right: 0px solid transparent;
   border-left: 8px solid transparent;
-  border-bottom: 8px solid #ff9955;
+  border-bottom: 8px solid #c6bfba;
   right: 0;
 }
 

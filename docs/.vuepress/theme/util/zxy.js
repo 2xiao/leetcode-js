@@ -41,4 +41,5 @@ export const ZXYWords = [
     '外面没有别人。',
     '一切都是最好的安排。',
     '自由不是得到你爱的东西，而是爱你得到的东西。Freedom is not getting what you love, is loving what you get.',
+    '一个人一旦开始对自己撒谎，就再也不会进步了。',
 ];

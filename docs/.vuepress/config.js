@@ -111,7 +111,11 @@ module.exports = {
                         '/leetcode/problem/0009.Palindrome-Number.md',
                         '/leetcode/problem/0062.Unique-Paths.md',
                         '/leetcode/problem/0063.Unique-Paths-II.md',
+                        '/leetcode/problem/0070.Climbing-Stairs.md',
+                        '/leetcode/problem/0120.Triangle.md',
+                        '/leetcode/problem/0152.Maximum-Product-Subarray.md',
                         '/leetcode/problem/0206.Reverse-Linked-List.md',
+                        '/leetcode/problem/0279.Perfect-Squares.md',
                         '/leetcode/problem/0509.Fibonacci-Number.md',
                     ]
                 },
