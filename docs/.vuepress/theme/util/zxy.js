@@ -40,5 +40,5 @@ export const ZXYWords = [
     '人是一个自我实现的预言。',
     '外面没有别人。',
     '一切都是最好的安排。',
-    
+    '自由不是得到你爱的东西，而是爱你得到的东西。Freedom is not getting what you love, is loving what you get.',
 ];

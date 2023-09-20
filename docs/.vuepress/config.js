@@ -88,33 +88,32 @@ module.exports = {
             ],
             '/leetcode/': [
                 {
-                    title: '1~99',
+                    title: '数据结构与算法',
                     collapsable: true,
                     children: [
-                        '/leetcode/0001~0099/0001.Two-Sum.md',
-                        '/leetcode/0001~0099/0002.Add-Two-Numbers.md',
-                        '/leetcode/0001~0099/0003.Longest-Substring-Without-Repeating-Characters.md',
-                        '/leetcode/0001~0099/0004.Median-of-Two-Sorted-Arrays.md',
-                        '/leetcode/0001~0099/0005.Longest-Palindromic-Substring.md',
-                        '/leetcode/0001~0099/0006.ZigZag-Conversion.md',
-                        '/leetcode/0001~0099/0007.Reverse-Integer.md',
-                        '/leetcode/0001~0099/0008.String-to-Integer-atoi.md',
-                        '/leetcode/0001~0099/0009.Palindrome-Number.md',
+                        '/leetcode/algorithm/0_intro.md',
+                        '/leetcode/algorithm/1_complexity.md',
+                        '/leetcode/algorithm/2_dynamic_programming.md',
                     ]
                 },
                 {
-                    title: '100~199',
+                    title: '精选题集',
                     collapsable: true,
                     children: [
+                        '/leetcode/problem/0001.Two-Sum.md',
+                        '/leetcode/problem/0002.Add-Two-Numbers.md',
+                        '/leetcode/problem/0003.Longest-Substring-Without-Repeating-Characters.md',
+                        '/leetcode/problem/0004.Median-of-Two-Sorted-Arrays.md',
+                        '/leetcode/problem/0005.Longest-Palindromic-Substring.md',
+                        '/leetcode/problem/0006.ZigZag-Conversion.md',
+                        '/leetcode/problem/0007.Reverse-Integer.md',
+                        '/leetcode/problem/0008.String-to-Integer-atoi.md',
+                        '/leetcode/problem/0009.Palindrome-Number.md',
+                        '/leetcode/problem/0206.Reverse-Linked-List.md',
+                        '/leetcode/problem/0509.Fibonacci-Number.md',
                     ]
                 },
-                {
-                    title: '200~299',
-                    collapsable: true,
-                    children: [
-                        '/leetcode/0200~0299/0206.Reverse-Linked-List.md',
-                    ]
-                }
+                
             ],
             '/interview/': [
                 {
