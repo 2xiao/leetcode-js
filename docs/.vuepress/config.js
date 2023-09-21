@@ -162,6 +162,7 @@ module.exports = {
                     ]
                 }
             ],
+            '/magic/': ['/magic.md'],
         }
     },
 

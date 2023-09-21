@@ -13,32 +13,32 @@
         <th>算法</th><th>对应题目</th><th>难度</th>
     </tr>
     <tr>
-        <td rowspan="10" width="100px"><a href="./2_dynamic_programming.html">动态规划</a></td>
-        <td width="400px"><a href="../problem/0509.Fibonacci-Number.html">0509.Fibonacci-Number</a></td>
+        <td rowspan="10" width="100px"><a href="./2_dynamic_programming">动态规划</a></td>
+        <td width="400px"><a href="../problem/0509.Fibonacci-Number">0509.Fibonacci-Number</a></td>
         <td width="100px">Easy</td>
     </tr>
-    <tr><td><a href="../problem/0062.Unique-Paths.html">0062.Unique-Paths</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/0063.Unique-Paths-II.html">0063.Unique-Paths-II</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/0070.Climbing-Stairs.html">0070.Climbing-Stairs</a></td><td>Easy</td></tr>
-    <tr><td><a href="../problem/0279.Perfect-Squares.html">0279.Perfect-Squares</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/0120.Triangle.html">0120.Triangle</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/0152.Maximum-Product-Subarray.html">0152.Maximum-Product-Subarray</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0062.Unique-Paths">0062.Unique-Paths</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0063.Unique-Paths-II">0063.Unique-Paths-II</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0070.Climbing-Stairs">0070.Climbing-Stairs</a></td><td>Easy</td></tr>
+    <tr><td><a href="../problem/0279.Perfect-Squares">0279.Perfect-Squares</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0120.Triangle">0120.Triangle</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0152.Maximum-Product-Subarray">0152.Maximum-Product-Subarray</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
     <tr>
         <td rowspan="10">贪心算法</td>
-        <td><a href="../problem/x.html">x</a></td><td>Medium</td>
+        <td><a href="../problem/x">x</a></td><td>Medium</td>
     </tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x.html">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/x">x</a></td><td>Medium</td></tr>
     <tr>
         <td rowspan="3">二分查找</td><td>1</td>
     </tr>

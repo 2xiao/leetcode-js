@@ -5,7 +5,7 @@
         <p class="title">今日咒语</p>
         <p class="text">{{ words }}</p>
       </div>
-      <div id="kitty" @dblclick="deleteKitty" v-longpress="deleteKitty" :style="{background: 'url(' + kittyUrl + ')'}" slot="reference"></div>
+      <div id="kitty" @dblclick="jumpToPage" v-longpress="deleteKitty" :style="{background: 'url(' + kittyUrl + ')'}" slot="reference"></div>
     </el-popover>
   </div>
 </template>
@@ -96,6 +96,9 @@ export default {
     },
     deleteKitty(){
       this.isShow = false;
+    },
+    jumpToPage() {
+      this.$router.push('/magic');
     }
   },
   directives: {
