@@ -88,16 +88,32 @@ module.exports = {
             ],
             '/leetcode/': [
                 {
-                    title: '数据结构与算法',
+                    title: '一 序章',
                     collapsable: true,
                     children: [
-                        '/leetcode/algorithm/0_intro.md',
-                        '/leetcode/algorithm/1_complexity.md',
-                        '/leetcode/algorithm/2_dynamic_programming.md',
+                        '/leetcode/outline/0_algorithm.md',
+                        '/leetcode/outline/1_data_structure.md',
+                        '/leetcode/outline/2_complexity.md',
                     ]
                 },
                 {
-                    title: '精选题集',
+                    title: '二 算法专题',
+                    collapsable: true,
+                    children: [
+                        '/leetcode/algorithm/0_dynamic_programming.md',
+                        '/leetcode/algorithm/1_greed.md',
+                        '/leetcode/algorithm/2_binary_search.md',
+                    ]
+                },
+                {
+                    title: '三 数据结构专题',
+                    collapsable: true,
+                    children: [
+                        '/leetcode/ds/0_heap.md',
+                    ]
+                },
+                {
+                    title: '四 精选题集',
                     collapsable: true,
                     children: [
                         '/leetcode/problem/0001.Two-Sum.md',

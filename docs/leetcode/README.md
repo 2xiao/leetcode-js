@@ -51,4 +51,4 @@
 
 本书所有题目版权均归 [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode-cn.com/) 所有。
 
-[开始阅读 ->](./algorithm/0_intro.md)
+[开始阅读 ->](./outline/0_algorithm)
