@@ -38,35 +38,35 @@ module.exports = {
                     title: '重学前端',
                     collapsable: true,
                     children: [
-                        '/front-end/basic/1.md',
+                        '/front-end/basic/1',
                     ]
                 },
                 {
                     title: 'JavaScript核心原理',
                     collapsable: true,
                     children: [
-                        '/front-end/js/1.md',
+                        '/front-end/js/1',
                     ]
                 },
                 {
                     title: '玩转webpack',
                     collapsable: true,
                     children: [
-                        '/front-end/webpack/1.md',
+                        '/front-end/webpack/1',
                     ]
                 },
                 {
                     title: 'Node.js开发',
                     collapsable: true,
                     children: [
-                        '/front-end/nodejs/1.md',
+                        '/front-end/nodejs/1',
                     ]
                 },
                 {
                     title: '浏览器工作原理',
                     collapsable: true,
                     children: [
-                        '/front-end/browser/1.md',
+                        '/front-end/browser/1',
                     ]
                 }
             ],
@@ -75,64 +75,64 @@ module.exports = {
                     title: 'React源码',
                     collapsable: true,
                     children: [
-                        '/react/react/1.md',
+                        '/react/react/1',
                     ]
                 },
                 {
                     title: 'React Hooks核心原理',
                     collapsable: true,
                     children: [
-                        '/react/hooks/1.md',
+                        '/react/hooks/1',
                     ]
                 }
             ],
             '/leetcode/': [
                 {
-                    title: '一 序章',
+                    title: '第一章 序章',
                     collapsable: true,
                     children: [
-                        '/leetcode/outline/0_algorithm.md',
-                        '/leetcode/outline/1_data_structure.md',
-                        '/leetcode/outline/2_complexity.md',
+                        '/leetcode/outline/0_algorithm',
+                        '/leetcode/outline/1_data_structure',
+                        '/leetcode/outline/2_complexity',
                     ]
                 },
                 {
-                    title: '二 算法专题',
+                    title: '第二章 算法专题',
                     collapsable: true,
                     children: [
-                        '/leetcode/algorithm/0_dynamic_programming.md',
-                        '/leetcode/algorithm/1_greed.md',
-                        '/leetcode/algorithm/2_binary_search.md',
+                        '/leetcode/algorithm/0_dynamic_programming',
+                        '/leetcode/algorithm/1_greed',
+                        '/leetcode/algorithm/2_binary_search',
                     ]
                 },
                 {
-                    title: '三 数据结构专题',
+                    title: '第三章 数据结构专题',
                     collapsable: true,
                     children: [
-                        '/leetcode/ds/0_heap.md',
+                        '/leetcode/ds/0_heap',
                     ]
                 },
                 {
-                    title: '四 精选题集',
+                    title: '第四章 精选题集',
                     collapsable: true,
                     children: [
-                        '/leetcode/problem/0001.Two-Sum.md',
-                        '/leetcode/problem/0002.Add-Two-Numbers.md',
-                        '/leetcode/problem/0003.Longest-Substring-Without-Repeating-Characters.md',
-                        '/leetcode/problem/0004.Median-of-Two-Sorted-Arrays.md',
-                        '/leetcode/problem/0005.Longest-Palindromic-Substring.md',
-                        '/leetcode/problem/0006.ZigZag-Conversion.md',
-                        '/leetcode/problem/0007.Reverse-Integer.md',
-                        '/leetcode/problem/0008.String-to-Integer-atoi.md',
-                        '/leetcode/problem/0009.Palindrome-Number.md',
-                        '/leetcode/problem/0062.Unique-Paths.md',
-                        '/leetcode/problem/0063.Unique-Paths-II.md',
-                        '/leetcode/problem/0070.Climbing-Stairs.md',
-                        '/leetcode/problem/0120.Triangle.md',
-                        '/leetcode/problem/0152.Maximum-Product-Subarray.md',
-                        '/leetcode/problem/0206.Reverse-Linked-List.md',
-                        '/leetcode/problem/0279.Perfect-Squares.md',
-                        '/leetcode/problem/0509.Fibonacci-Number.md',
+                        '/leetcode/problem/0001.Two-Sum',
+                        '/leetcode/problem/0002.Add-Two-Numbers',
+                        '/leetcode/problem/0003.Longest-Substring-Without-Repeating-Characters',
+                        '/leetcode/problem/0004.Median-of-Two-Sorted-Arrays',
+                        '/leetcode/problem/0005.Longest-Palindromic-Substring',
+                        '/leetcode/problem/0006.ZigZag-Conversion',
+                        '/leetcode/problem/0007.Reverse-Integer',
+                        '/leetcode/problem/0008.String-to-Integer-atoi',
+                        '/leetcode/problem/0009.Palindrome-Number',
+                        '/leetcode/problem/0062.Unique-Paths',
+                        '/leetcode/problem/0063.Unique-Paths-II',
+                        '/leetcode/problem/0070.Climbing-Stairs',
+                        '/leetcode/problem/0120.Triangle',
+                        '/leetcode/problem/0152.Maximum-Product-Subarray',
+                        '/leetcode/problem/0206.Reverse-Linked-List',
+                        '/leetcode/problem/0279.Perfect-Squares',
+                        '/leetcode/problem/0509.Fibonacci-Number',
                     ]
                 },
                 
@@ -142,14 +142,14 @@ module.exports = {
                     title: '面试这件事',
                     collapsable: true,
                     children: [
-                        '/interview/interview/1.md',
+                        '/interview/interview/1',
                     ]
                 },
                 {
                     title: '英语',
                     collapsable: true,
                     children: [
-                        '/interview/english/1.md',
+                        '/interview/english/1',
                     ]
                 }
             ],
@@ -158,27 +158,26 @@ module.exports = {
                     title: '美国',
                     collapsable: true,
                     children: [
-                        '/run/usa/0_visa.md',
-                        '/run/usa/1_live_in_us.md',
-                        '/run/usa/2_digital_nomad.md',
-                        '/run/usa/3_neighbor.md',
-                        '/run/usa/4_where_to_go.md',
-                        '/run/usa/5_indian.md',
-                        '/run/usa/6_miss_bj.md',
-                        '/run/usa/7_mississippi.md',
-                        '/run/usa/8_10043.md',
+                        '/run/usa/0_visa',
+                        '/run/usa/1_live_in_us',
+                        '/run/usa/2_digital_nomad',
+                        '/run/usa/3_neighbor',
+                        '/run/usa/4_where_to_go',
+                        '/run/usa/5_indian',
+                        '/run/usa/6_miss_bj',
+                        '/run/usa/7_mississippi',
+                        '/run/usa/8_10043',
                     ]
                 },
                 {
                     title: '欧洲',
                     collapsable: true,
                     children: [
-                        '/run/europe/0_why.md',
-                        '/run/europe/1_intro.md',
+                        '/run/europe/0_why',
+                        '/run/europe/1_intro',
                     ]
                 }
             ],
-            '/magic/': ['/magic.md'],
         }
     },
 

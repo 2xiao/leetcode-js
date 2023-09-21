@@ -4,22 +4,79 @@
 
 ## 使用说明
 
-**1. 按照算法类别练习**
-  - 按照leetcode上的分类进行刷题：[动态规划](./algorithm/2_dynamic_programming.md)、贪心算法、二分查找、深度优先&广度优先、双指针、滑动窗口、位运算、递归、分治、剪枝、回溯、排序。
-  - leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多题目都是类似的套路和延伸，掌握其中面试热门的一百多道就足够应付面试了。
+**第一章 序言**
+- [算法知识总览](./outline/0_algorithm)
+- [数据结构知识总览](./outline/1_data_structure)
+- [时间复杂度和空间复杂度](./outline/2_complexity.md)
+
+**第二章 算法专题**
+
+本章将按照leetcode上的算法分类进行一一介绍。leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多题目都是类似的套路和延伸，掌握其中面试热门的一百多道就足够了。
+
+<html>
+<div style="display: flex">
+  <div style="flex: 1">
+    <ul>
+      <li><a href="./algorithm/2_dynamic_programming">动态规划</a></li>
+      <li>贪心算法</li>
+      <li>二分查找</li>
+      <li>深度优先&广度优先</li>
+      <li>双指针</li>
+      <li>滑动窗口</li>
+    </ul>
+  </div>
+  <div style="flex: 1">
+    <ul>
+      <li>位运算</li>
+      <li>递归</li>
+      <li>分治</li>
+      <li>剪枝</li>
+      <li>回溯</li>
+      <li>排序</li>
+    </ul>
+  </div>
+</div>
+</html>
+
   
-**2. 了解基础的数据结构**
-  - 常见的数据结构有：堆、单调栈、链表、set & map、栈、队列、数组、字符串、树、字典树、并查集。
-  - 后面章节会分别讲解这些数据结构，以及对应的题。
-  - 也可以看看书籍[《javascript数据结构与算法》](https://github.com/trekhleb/javascript-algorithms)。
+**第三章 数据结构专题**
+
+本章将分别讲解常见的数据结构以及对应的题目，也可以看看书籍[《javascript数据结构与算法》](https://github.com/trekhleb/javascript-algorithms)。
+
+<html>
+<div style="display: flex">
+  <div style="flex: 1">
+    <ul>
+      <li>堆</li>
+      <li>单调栈</li>
+      <li>链表</li>
+      <li>set & map</li>
+      <li>栈</li>
+      <li>队列</li>
+    </ul>
+  </div>
+  <div style="flex: 1">
+    <ul>
+      <li>数组</li>
+      <li>字符串</li>
+      <li>树</li>
+      <li>字典树</li>
+      <li>并查集</li>
+    </ul>
+  </div>
+</div>
+</html>
 
 
-**3. 精选题集使用方法**
-  - 先自己读题，思考如何解题。
-  - 如果 15 分钟还没有思路，那么先看我的解题思路，但是不要看代码。有思路以后自己用代码实现一遍。
-  - 如果完全不会写，那就看我提供的代码，找出自己到底哪里不会写，找出问题记下来，这就是自己要弥补的知识漏洞。
-  - 如果自己实现出来了，提交以后有错误，自己先 debug。AC 以后没有到 100% 也先自己思考如何优化。如果每道题自己都能优化到 100% 了，那么一段时间以后进步会很大。
-  - 总的来说，实在没思路，看解题思路；实在优化不到 100%，看看代码。
+
+
+**第四章 精选题集**
+
+本章将详细解析LeetCode中的题目，分为：题目、题目大意、解题思路和代码四个部分。刷题时建议按照如下步骤：
+  - 先读题，思考如何解题；
+  - 如果没有思路，那么先看解题思路，但是不要看代码，有思路以后自己用代码实现一遍；
+  - 如果完全不会写，就看看我提供的代码，再自己实现一遍；
+  - 如果实现出来以后，可以再思考一下如何优化性能。
 
 
 <img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="500" align="left" style="padding-right: 30px;"/>
