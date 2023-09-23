@@ -1,104 +1,87 @@
-# LeetCode题解
+---
+title: "目录"
+---
 
-说到 LeetCode，作为一个程序员来说，应该不陌生，国内外的一二线互联网公司需要面试算法，程序员们都用它刷题。
+<p align="center">
+  <img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="400"/>
+</p>
 
-## 使用说明
+---
 
-**第一章 序言**
-- [算法知识总览](./outline/0_algorithm)
-- [数据结构知识总览](./outline/1_data_structure)
-- [时间复杂度和空间复杂度](./outline/2_complexity.md)
+### 目录
 
-**第二章 算法专题**
+### 第一章 序言
+- [1.1 数据结构与算法](./outline/0_table)
+- [1.2 算法知识](./outline/1_algorithm)
+- [1.3 数据结构知识](./outline/2_data_structure)
+- [1.4 时间复杂度和空间复杂度](./outline/3_complexity.md)
 
-本章将按照leetcode上的算法分类进行一一介绍。leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多题目都是类似的套路和延伸，掌握其中面试热门的一百多道就足够了。
-
-<html>
-<div style="display: flex">
-  <div style="flex: 1">
-    <ul>
-      <li><a href="./algorithm/2_dynamic_programming">动态规划</a></li>
-      <li>贪心算法</li>
-      <li>二分查找</li>
-      <li>深度优先&广度优先</li>
-      <li>双指针</li>
-      <li>滑动窗口</li>
-    </ul>
-  </div>
-  <div style="flex: 1">
-    <ul>
-      <li>位运算</li>
-      <li>递归</li>
-      <li>分治</li>
-      <li>剪枝</li>
-      <li>回溯</li>
-      <li>排序</li>
-    </ul>
-  </div>
-</div>
-</html>
-
+### 第二章 算法专题
+- [2.1 递归](./algorithm/0_recursion.md)
+- [2.2 排序](./algorithm/1_sort.md)
+- [2.3 二分查找](./algorithm/2_binary_search.md)
+- [2.4 动态规划](./algorithm/3_dynamic_programming.md)
+- [2.5 贪心算法](./algorithm/4_greed.md)
+- [2.6 分治算法](./algorithm/5_divide_conquer.md)
+- [2.7 回溯算法](./algorithm/6_backtracking.md)
+- [2.8 哈希算法](./algorithm/7_hash.md)
+- [2.9 搜索](./algorithm/8_search.md)
+- [2.10 字符串匹配](./algorithm/9_string_match.md)
+- [2.11 双指针](./algorithm/10_two_pointer.md)
+- [2.12 滑动窗口](./algorithm/11_slide_window.md)
+- [2.13 位运算](./algorithm/12_bit.md)
   
-**第三章 数据结构专题**
-
-本章将分别讲解常见的数据结构以及对应的题目，也可以看看书籍[《javascript数据结构与算法》](https://github.com/trekhleb/javascript-algorithms)。
-
-<html>
-<div style="display: flex">
-  <div style="flex: 1">
-    <ul>
-      <li>堆</li>
-      <li>单调栈</li>
-      <li>链表</li>
-      <li>set & map</li>
-      <li>栈</li>
-      <li>队列</li>
-    </ul>
-  </div>
-  <div style="flex: 1">
-    <ul>
-      <li>数组</li>
-      <li>字符串</li>
-      <li>树</li>
-      <li>字典树</li>
-      <li>并查集</li>
-    </ul>
-  </div>
-</div>
-</html>
+### 第三章 数据结构专题
+- [3.1 数组](./ds/0_array)
+- [3.2 链表](./ds/1_linked_list.md)
+- [3.3 栈](./ds/2_stack.md)
+- [3.4 队列](./ds/3_queue.md)
+- [3.5 散列表](./ds/4_hash_table.md)
+- [3.6 二叉树](./ds/5_binary_tree.md)
+- [3.7 堆](./ds/6_heap.md)
+- [3.8 图](./ds/7_graph.md)
+- [3.9 跳表](./ds/8_skip_list.md)
+- [3.10 Trie树](./ds/9_trie.md)
+- [3.11 Set & Map](./ds/10_set_map.md)
+- [3.12 字符串](./ds/11_string.md)
 
 
+### 第四章 精选题集
+
+本章将详细解析LeetCode中的题目，每道题分四个部分解析：
+- 题目
+- 题目大意
+- 解题思路
+- 代码
 
 
-**第四章 精选题集**
+---
 
-本章将详细解析LeetCode中的题目，分为：题目、题目大意、解题思路和代码四个部分。刷题时建议按照如下步骤：
-  - 先读题，思考如何解题；
-  - 如果没有思路，那么先看解题思路，但是不要看代码，有思路以后自己用代码实现一遍；
-  - 如果完全不会写，就看看我提供的代码，再自己实现一遍；
-  - 如果实现出来以后，可以再思考一下如何优化性能。
+### 关于编程语言
 
+本书前端工程师友好，书中的算法全部使用 `JavaScript` 语言实现。
 
-<img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="500" align="left" style="padding-right: 30px;"/>
+---
 
-
-## 关于书中的代码
+### 关于书中的代码
 
 代码都放在 [github repo](https://github.com/2xiao/fe) 中，按题号可以搜索到题目。
 
-## 编程语言
+---
 
-本书前端工程师友好，书中的算法全部使用 JavaScript 语言实现。
+### 关于书的封面
 
-## 关于书的封面
+本书的封面动物是我的猫，名叫小朋友，是为了致敬 O'Reilly 系列，O'Reilly 的封面都是稀缺动物，并且画风都是黑白素描风。
 
-本书的封面是为了致敬 O'Reilly 动物书，O'Reilly 的封面动物都是稀缺动物，并且画风都是黑白素描风。本书的封面动物是我的猫，名叫小朋友。
+---
 
-## 互动勘误
+### 互动勘误
 
 如果书中文章有所遗漏，欢迎点击所在页面左下角的按钮进行修改，感谢您的支持与帮助。
 
-## 版权声明
+---
+
+### 版权声明
 
 本书是LeetCode Cookbook系列的JS版本，系列发起者是[@halfrost](https://github.com/halfrost)，受他的LeetCode-Go[项目](https://github.com/halfrost/LeetCode-Go)和[书籍](https://books.halfrost.com/leetcode/)启发。
 
@@ -108,4 +91,4 @@
 
 本书所有题目版权均归 [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode-cn.com/) 所有。
 
-[开始阅读 ->](./outline/0_algorithm)
+[开始阅读 ->](./outline/0_table)
