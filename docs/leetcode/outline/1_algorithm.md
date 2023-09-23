@@ -2,7 +2,7 @@
 
 leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多题目都是类似的套路和延伸，掌握其中面试热门的一百多道就足够了。
 
-结合我自己的学习心得，还有这些年的面试、开发经验，我总结了 10 个最常用、最基础的算法：递归、排序、二分查找、搜索、哈希算法、贪心算法、分治算法、回溯算法、[动态规划](./2_dynamic_programming)、字符串匹配算法、双指针、滑动窗口、位运算。
+结合我自己的学习心得，还有这些年的面试、开发经验，我总结了 10 个最常用、最基础的算法：递归、排序、二分查找、搜索、哈希算法、贪心算法、分治算法、回溯算法、[动态规划](./3_dynamic_programming)、字符串匹配算法、双指针、滑动窗口、位运算。
 
 
 以下是我整理的算法相关的知识，每种算法都有对应的讲解文章和题目解析。希望能把常见的算法都枚举穷尽。如有遗漏，欢迎大家指教，欢迎提 PR。
@@ -12,7 +12,7 @@ leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多
         <th>算法</th><th>对应题目</th><th>难度</th>
     </tr>
     <tr>
-        <td rowspan="21" width="100px"><a href="./2_dynamic_programming">动态规划</a></td>
+        <td rowspan="21" width="100px"><a href="../algorithm/3_dynamic_programming.md">动态规划</a></td>
         <td width="400px"><a href="../problem/0509.Fibonacci-Number">0509.Fibonacci-Number</a></td>
         <td width="100px">Easy</td>
     </tr>

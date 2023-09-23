@@ -14,7 +14,7 @@ title: "目录"
 - [1.1 数据结构与算法](./outline/0_table)
 - [1.2 算法知识](./outline/1_algorithm)
 - [1.3 数据结构知识](./outline/2_data_structure)
-- [1.4 时间复杂度和空间复杂度](./outline/3_complexity)
+- [1.4 复杂度分析](./outline/3_complexity)
 
 ### 第二章 算法专题
 - [2.1 递归](./algorithm/0_recursion)
