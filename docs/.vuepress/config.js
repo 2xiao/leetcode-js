@@ -93,13 +93,31 @@ module.exports = {
                     children: [
                         '/leetcode/',
                         '/leetcode/outline/0_table',
-                        '/leetcode/outline/1_algorithm',
-                        '/leetcode/outline/2_data_structure',
+                        '/leetcode/outline/1_data_structure',
+                        '/leetcode/outline/2_algorithm',
                         '/leetcode/outline/3_complexity',
                     ]
                 },
                 {
-                    title: '第二章 算法专题',
+                    title: '第二章 数据结构专题',
+                    collapsable: true,
+                    children: [
+                        '/leetcode/ds/0_array',
+                        '/leetcode/ds/1_linked_list',
+                        '/leetcode/ds/2_stack',
+                        '/leetcode/ds/3_queue',
+                        '/leetcode/ds/4_hash_table',
+                        '/leetcode/ds/5_binary_tree',
+                        '/leetcode/ds/6_heap',
+                        '/leetcode/ds/7_graph',
+                        '/leetcode/ds/8_skip_list',
+                        '/leetcode/ds/9_trie',
+                        '/leetcode/ds/10_set_map',
+                        '/leetcode/ds/11_string',
+                    ]
+                },
+                {
+                    title: '第三章 算法专题',
                     collapsable: true,
                     children: [
                         '/leetcode/algorithm/0_recursion',
@@ -115,24 +133,6 @@ module.exports = {
                         '/leetcode/algorithm/10_two_pointer',
                         '/leetcode/algorithm/11_slide_window',
                         '/leetcode/algorithm/12_bit',
-                    ]
-                },
-                {
-                    title: '第三章 数据结构专题',
-                    collapsable: true,
-                    children: [
-                        '/leetcode/ds/0_array',
-                        '/leetcode/ds/1_linked_list',
-                        '/leetcode/ds/2_stack',
-                        '/leetcode/ds/3_queue',
-                        '/leetcode/ds/4_hash_table',
-                        '/leetcode/ds/5_binary_tree',
-                        '/leetcode/ds/6_heap',
-                        '/leetcode/ds/7_graph',
-                        '/leetcode/ds/8_skip_list',
-                        '/leetcode/ds/9_trie',
-                        '/leetcode/ds/10_set_map',
-                        '/leetcode/ds/11_string',
                     ]
                 },
                 {

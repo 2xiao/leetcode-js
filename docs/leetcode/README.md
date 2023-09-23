@@ -12,40 +12,39 @@ title: "目录"
 
 ### 第一章 序言
 - [1.1 数据结构与算法](./outline/0_table)
-- [1.2 算法知识](./outline/1_algorithm)
-- [1.3 数据结构知识](./outline/2_data_structure)
+- [1.2 数据结构知识](./outline/2_data_structure)
+- [1.3 算法知识](./outline/2_algorithm)
 - [1.4 复杂度分析](./outline/3_complexity)
 
-### 第二章 算法专题
-- [2.1 递归](./algorithm/0_recursion)
-- [2.2 排序](./algorithm/1_sort)
-- [2.3 二分查找](./algorithm/2_binary_search)
-- [2.4 动态规划](./algorithm/3_dynamic_programming)
-- [2.5 贪心算法](./algorithm/4_greed)
-- [2.6 分治算法](./algorithm/5_divide_conquer)
-- [2.7 回溯算法](./algorithm/6_backtracking)
-- [2.8 哈希算法](./algorithm/7_hash)
-- [2.9 搜索](./algorithm/8_search)
-- [2.10 字符串匹配](./algorithm/9_string_match)
-- [2.11 双指针](./algorithm/10_two_pointer)
-- [2.12 滑动窗口](./algorithm/11_slide_window)
-- [2.13 位运算](./algorithm/12_bit)
+### 第二章 数据结构专题
+- [2.1 数组](./ds/0_array)
+- [2.2 链表](./ds/1_linked_list)
+- [2.3 栈](./ds/2_stack)
+- [2.4 队列](./ds/3_queue)
+- [2.5 散列表](./ds/4_hash_table)
+- [2.6 二叉树](./ds/5_binary_tree)
+- [2.7 堆](./ds/6_heap)
+- [2.8 图](./ds/7_graph)
+- [2.9 跳表](./ds/8_skip_list)
+- [2.10 Trie树](./ds/9_trie)
+- [2.11 Set & Map](./ds/10_set_map)
+- [2.12 字符串](./ds/11_string)
+
+### 第三章 算法专题
+- [3.1 递归](./algorithm/0_recursion)
+- [3.2 排序](./algorithm/1_sort)
+- [3.3 二分查找](./algorithm/2_binary_search)
+- [3.4 动态规划](./algorithm/3_dynamic_programming)
+- [3.5 贪心算法](./algorithm/4_greed)
+- [3.6 分治算法](./algorithm/5_divide_conquer)
+- [3.7 回溯算法](./algorithm/6_backtracking)
+- [3.8 哈希算法](./algorithm/7_hash)
+- [3.9 搜索](./algorithm/8_search)
+- [3.10 字符串匹配](./algorithm/9_string_match)
+- [3.11 双指针](./algorithm/10_two_pointer)
+- [3.12 滑动窗口](./algorithm/11_slide_window)
+- [3.13 位运算](./algorithm/12_bit)
   
-### 第三章 数据结构专题
-- [3.1 数组](./ds/0_array)
-- [3.2 链表](./ds/1_linked_list)
-- [3.3 栈](./ds/2_stack)
-- [3.4 队列](./ds/3_queue)
-- [3.5 散列表](./ds/4_hash_table)
-- [3.6 二叉树](./ds/5_binary_tree)
-- [3.7 堆](./ds/6_heap)
-- [3.8 图](./ds/7_graph)
-- [3.9 跳表](./ds/8_skip_list)
-- [3.10 Trie树](./ds/9_trie)
-- [3.11 Set & Map](./ds/10_set_map)
-- [3.12 字符串](./ds/11_string)
-
-
 ### 第四章 精选题集
 
 本章将详细解析LeetCode中的题目，每道题分四个部分解析：
