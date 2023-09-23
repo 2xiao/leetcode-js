@@ -85,13 +85,13 @@
         <td>枚举算法</td><td> </td>
     </tr>
     <tr>
-        <td rowspan="3">排序</td><td>O(n^2)</td><td>• 冒泡排序<br>• 插入排序<br>• 选择排序<br>• 希尔Shell 排序 </td>
+        <td rowspan="3">排序</td><td>• 冒泡排序<br>• 插入排序<br>• 选择排序<br>• 希尔Shell 排序 </td><td>O(n^2)</td>
     </tr>
     <tr>
-        <td>O(nlogn)</td><td>• 快速排序<br>• 归并排序<br>• 堆排序</td>
+        <td>• 快速排序<br>• 归并排序<br>• 堆排序</td><td>O(nlogn)</td>
     </tr>
     <tr>
-        <td>O(n)</td><td>• 计数排序<br>• 基数排序<br>• 桶排序</td>
+        <td>• 计数排序<br>• 基数排序<br>• 桶排序</td><td>O(n)</td>
     </tr>
     <tr>
         <td rowspan="3">搜索</td><td>深度优先搜索</td><td> </td>
