@@ -43,7 +43,7 @@
         <td>基本算法思想</td><td>• <a href="../algorithm/3_dynamic_programming">动态规划</a><br>• <a href="../algorithm/4_greed">贪心算法</a><br>• <a href="../algorithm/5_divide_conquer">分治算法</a><br>• <a href="../algorithm/6_backtracking">回溯算法</a><br>• 枚举算法</td><td> </td>
     </tr>
     <tr>
-        <td rowspan="3"><a href="../algorithm/1_sort">排序</a></td><td>• 冒泡排序<br>• 插入排序<br>• 选择排序<br>• 希尔Shell 排序 </td><td>O(n^2)</td>
+        <td rowspan="3"><a href="../algorithm/1_sort">排序</a></td><td>• 冒泡排序<br>• 插入排序<br>• 选择排序<br>• 希尔排序 </td><td>O(n^2)</td>
     </tr>
     <tr>
         <td>• 快速排序<br>• 归并排序<br>• 堆排序</td><td>O(nlogn)</td>
