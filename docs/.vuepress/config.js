@@ -152,6 +152,8 @@ module.exports = {
                         '/leetcode/problem/0063.Unique-Paths-II',
                         '/leetcode/problem/0070.Climbing-Stairs',
                         '/leetcode/problem/0120.Triangle',
+                        '/leetcode/problem/0121.Best-Time-to-Buy-and-Sell-Stock',
+                        '/leetcode/problem/0122.Best-Time-to-Buy-and-Sell-Stock-II',
                         '/leetcode/problem/0152.Maximum-Product-Subarray',
                         '/leetcode/problem/0206.Reverse-Linked-List',
                         '/leetcode/problem/0279.Perfect-Squares',

@@ -22,8 +22,8 @@ leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多
     <tr><td><a href="../problem/0279.Perfect-Squares">0279.Perfect-Squares</a></td><td>Medium</td></tr>
     <tr><td><a href="../problem/0120.Triangle">0120.Triangle</a></td><td>Medium</td></tr>
     <tr><td><a href="../problem/0152.Maximum-Product-Subarray">0152.Maximum-Product-Subarray</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x">121</a></td><td>Medium</td></tr>
-    <tr><td><a href="../problem/x">122</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0121.Best-Time-to-Buy-and-Sell-Stock">0121.Best-Time-to-Buy-and-Sell-Stock</a></td><td>Medium</td></tr>
+    <tr><td><a href="../problem/0122.Best-Time-to-Buy-and-Sell-Stock-II">0122.Best-Time-to-Buy-and-Sell-Stock-II</a></td><td>Medium</td></tr>
     <tr><td><a href="../problem/x">123</a></td><td>Medium</td></tr>
     <tr><td><a href="../problem/x">188</a></td><td>Medium</td></tr>
     <tr><td><a href="../problem/x">309</a></td><td>Medium</td></tr>
