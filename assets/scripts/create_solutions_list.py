@@ -51,7 +51,7 @@ def gen_solutions_list(solutions_path, solotions_output_path):
             continue
         
         # 获取题目所在行
-        df_indexs = df[df['标题'] == Path(file).stem].index.tolist()
+        df_indexs = df[df['序号'] == Path(file).stem].index.tolist()
         
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
@@ -64,9 +64,9 @@ def gen_solutions_list(solutions_path, solotions_output_path):
         problem_title_slug = df.loc[row, "标题末尾"]
         problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
         problem_link_slug = df.loc[row, "标题链接末尾路径"]
-        problem_solution_path = os.path.join(solutions_path, problem_title + ".md")
+        problem_solution_path = os.path.join(solutions_path, problem_id + ".md")
         if os.path.exists(problem_solution_path):
-            problem_solution_link = "[Python](" + df.loc[row, "github 题解链接"] + ")"
+            problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
         else:
             problem_solution_link = ""
         problem_label = df.loc[row, "标签"]
@@ -179,7 +179,6 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
 def gen_categories_list(solutions_path, categories_origin_list_path, categories_list_path):
     
     f = open(categories_origin_list_path, encoding='utf-8')
-    print(categories_origin_list_path)
     lines = f.readlines()
     category_h2 = None
     category_h3 = None
@@ -243,9 +242,9 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                     problem_title_slug = df.loc[row, "标题末尾"]
                     problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
                     problem_link_slug = df.loc[row, "标题链接末尾路径"]
-                    problem_solution_path = os.path.join(solutions_path, problem_title + ".md")
+                    problem_solution_path = os.path.join(solutions_path, problem_id + ".md")
                     if os.path.exists(problem_solution_path):
-                        problem_solution_link = "[Python](" + df.loc[row, "github 题解链接"] + ")"
+                        problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
                     else:
                         problem_solution_link = ""
                     problem_label = df.loc[row, "标签"]

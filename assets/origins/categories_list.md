@@ -1,6 +1,6 @@
 ## 01. 数组
 
-### [数组基础题目](../../Contents/01.Array/01.Array-Basic/02.Array-Basic-List.md)
+### [数组基础题目](../../docs/leetcode/ds/0_array_list.md)
 
 #### 数组操作题目
 

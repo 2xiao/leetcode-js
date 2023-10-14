@@ -93,6 +93,7 @@ module.exports = {
                     children: [
                         '/leetcode/',
                         '/leetcode/outline/0_table',
+                        '/leetcode/outline/1_solution_list',
                         '/leetcode/outline/1_data_structure',
                         '/leetcode/outline/2_algorithm',
                         '/leetcode/outline/3_complexity',
@@ -189,7 +190,6 @@ module.exports = {
                     title: '欧洲',
                     collapsable: true,
                     children: [
-                        '/run/europe/0_why',
                         '/run/europe/1_intro',
                     ]
                 }
