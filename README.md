@@ -1,12 +1,11 @@
-# LeetCode JS 题解
+# 前端通关手册
 
 ## 项目简介
 
-* 「算法与数据结构」 基础知识的讲解教程，「LeetCode」800+ 道题目的详细解析。
-
-* 本教程先从基础的数据结构和算法开始讲解，再针对不同分类的数据结构和算法，进行具体题目的讲解分析。让读者可以通过「算法基础理论学习」和「编程实战学习」相结合的方式，彻底的掌握算法知识。
-
-* 本书前端工程师友好，书中的算法全部使用 `JavaScript` 语言实现。
+* 「算法与数据结构」 基础知识讲解，「LeetCode」800+ 道题目详细解析；
+* 前端工程师友好，书中的算法全部使用 `JavaScript` 语言实现；
+* 前端基础知识，JavaScript核心原理解析，React源码解析；
+* 肉身翻墙指南；
 
 ## 项目地址
 
@@ -21,7 +20,9 @@ GitHub 地址：[https://github.com/2xiao/fe](https://github.com/2xiao/fe)
   <img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="400"/>
 </p>
 
-## 目录
+# LeetCode JS 题解
+
+### 目录
 
 ### 第一章 序言
 - [1.1 数据结构与算法](./outline/0_table)
