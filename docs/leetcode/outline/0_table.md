@@ -7,7 +7,7 @@
         <th style="width:20%">数据结构与算法</th><th style="width:20%">分类</th><th style="width:30%">分类</th><th style="width:30%">详情</th>
     </tr>
     <tr>
-        <td rowspan="10">数据结构</td><td rowspan="4">线性表</td><td><a href="../ds/0_array">数组</a></td><td> </td>
+        <td rowspan="10">数据结构</td><td><a href="../ds/0_array">数组</a></td><td> </td>
     </tr>
     <tr>
         <td><a href="../ds/1_linked_list">链表</a></td><td>• 单链表<br>• 双向链表<br>• 循环链表<br>• 双向循环链表<br>• 静态链表</td>

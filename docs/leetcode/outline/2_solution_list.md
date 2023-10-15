@@ -1,4 +1,6 @@
-# LeetCode 题解（已完成 18 道）
+# 1.3 LeetCode 题解（字典排序）
+
+已完成 22 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -20,3 +22,7 @@
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0206) | 递归、链表 | 简单 |
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
+| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) | [JS](https://2xiao.github.io/fe/leetcode/problem/LCP_53) | 位运算、数组、动态规划、状态压缩 | 困难 |
+| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) | [JS](https://2xiao.github.io/fe/leetcode/problem/Offer/zj_offer_59_2) | 设计、队列、单调队列 | 中等 |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [JS](https://2xiao.github.io/fe/leetcode/problem/zj_offer_II_055) | 栈、树、设计、二叉搜索树、二叉树、迭代器 | 中等 |
+| 面试题 03.01 | [三合一](https://leetcode.cn/problems/three-in-one-lcci/) | [JS](https://2xiao.github.io/fe/leetcode/problem/i_03.01) | 栈、设计、数组 | 简单 |

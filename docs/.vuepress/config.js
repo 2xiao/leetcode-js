@@ -30,7 +30,7 @@ module.exports = {
             { text: 'React', link: '/react/' },
             { text: 'LeetCode', link: '/leetcode/' },
             { text: '面试', link: '/interview/' },
-            { text: '肉翻', link: '/run/' },
+            { text: '润', link: '/run/' },
         ],
         sidebar: {
             '/front-end/': [
@@ -93,10 +93,11 @@ module.exports = {
                     children: [
                         '/leetcode/',
                         '/leetcode/outline/0_table',
-                        '/leetcode/outline/1_solution_list',
-                        '/leetcode/outline/1_data_structure',
-                        '/leetcode/outline/2_algorithm',
-                        '/leetcode/outline/3_complexity',
+                        '/leetcode/outline/1_complexity',
+                        '/leetcode/outline/2_solution_list',
+                        '/leetcode/outline/3_categories_list',
+                        '/leetcode/outline/4_interview_100_list',
+                        '/leetcode/outline/5_interview_200_list',
                     ]
                 },
                 {
@@ -108,13 +109,9 @@ module.exports = {
                         '/leetcode/ds/2_stack',
                         '/leetcode/ds/3_queue',
                         '/leetcode/ds/4_hash_table',
-                        '/leetcode/ds/5_binary_tree',
-                        '/leetcode/ds/6_heap',
+                        '/leetcode/ds/5_string',
+                        '/leetcode/ds/6_tree',
                         '/leetcode/ds/7_graph',
-                        '/leetcode/ds/8_skip_list',
-                        '/leetcode/ds/9_trie',
-                        '/leetcode/ds/10_set_map',
-                        '/leetcode/ds/11_string',
                     ]
                 },
                 {
@@ -150,6 +147,10 @@ module.exports = {
                         '/leetcode/solution/0700-0799',
                         '/leetcode/solution/0800-0899',
                         '/leetcode/solution/0900-0999',
+                        '/leetcode/solution/Offer',
+                        '/leetcode/solution/Offer-II',
+                        '/leetcode/solution/Interviews',
+                        '/leetcode/solution/LCP',
                     ]
                 },
                 

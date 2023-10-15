@@ -51,7 +51,7 @@ def gen_solutions_list(solutions_path, solotions_output_path):
             continue
         
         # 获取题目所在行
-        df_indexs = df[df['序号'] == Path(file).stem].index.tolist()
+        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
         
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
@@ -59,12 +59,13 @@ def gen_solutions_list(solutions_path, solotions_output_path):
         row = df_indexs[0]
         
         problem_id = df.loc[row, "序号"]
+        problem_name = df.loc[row, "文件名"]
         problem_catalog = df.loc[row, "所在目录"]
         problem_title = df.loc[row, "标题"]
         problem_title_slug = df.loc[row, "标题末尾"]
         problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
         problem_link_slug = df.loc[row, "标题链接末尾路径"]
-        problem_solution_path = os.path.join(solutions_path, problem_id + ".md")
+        problem_solution_path = os.path.join(solutions_path, problem_name + ".md")
         if os.path.exists(problem_solution_path):
             problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
         else:
@@ -77,27 +78,28 @@ def gen_solutions_list(solutions_path, solotions_output_path):
         
     table = gen_markdown_table(frame, True)
     with open(solotions_output_path, 'w', encoding='utf-8') as f:
-        f.writelines("# LeetCode 题解（已完成 {} 道）\n\n".format(frame_cout))
+        f.writelines("# 1.3 LeetCode 题解（字典排序）\n\n")
+        f.writelines("已完成 {} 道\n\n".format(frame_cout))
         f.write(table)
     f.close()
     print("Create Solutions List Success")
     return frame_cout
 
-# 根据题解目录 solutions_path 自动生成题解列表，并保存到 output_path 中
-def gen_solutions_list_1(solutions_path, solotions_output_path):
+# 根据题解所在目录自动生成题解列表，并保存到 slice_output_path 中
+def gen_slice_list(solutions_path, slice_output_path):
     files = os.listdir(solutions_path)
-    frame = pd.DataFrame(columns=['题号', '标题'])
-    frame_cout = 0
-    
+
+    frames = {}
+    file_name = {'Offer': '剑指 Offer', 'Offer-II': '剑指 Offer II', 'Interviews': '面试题', 'LCP': '力扣杯'}
     df = pd.read_csv("leetcode-problems.csv")
-    
+
     for file in files:
         # 判断是否是文件夹
         if ".md" not in file:
             continue
         
         # 获取题目所在行
-        df_indexs = df[df['标题'] == Path(file).stem].index.tolist()
+        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
         
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
@@ -105,29 +107,38 @@ def gen_solutions_list_1(solutions_path, solotions_output_path):
         row = df_indexs[0]
         
         problem_id = df.loc[row, "序号"]
+        problem_name = df.loc[row, "文件名"]
         problem_catalog = df.loc[row, "所在目录"]
         problem_title = df.loc[row, "标题"]
         problem_title_slug = df.loc[row, "标题末尾"]
         problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
         problem_link_slug = df.loc[row, "标题链接末尾路径"]
-        problem_solution_path = os.path.join(solutions_path, problem_title + ".md")
+        problem_solution_path = os.path.join(solutions_path, problem_name + ".md")
         if os.path.exists(problem_solution_path):
-            problem_solution_link = "[" + problem_title + "](" + df.loc[row, "github 题解链接"] + ")"
+            problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
         else:
             problem_solution_link = ""
         problem_label = df.loc[row, "标签"]
         problem_difficulty = df.loc[row, "难度"]
-        res = [problem_id, problem_solution_link]
-        frame.loc[frame_cout] = res
-        frame_cout += 1
+        res = [problem_id, problem_link, problem_solution_link, problem_label, problem_difficulty]
         
-    table = gen_markdown_table(frame, True)
-    with open(solotions_output_path, 'w', encoding='utf-8') as f:
-        f.writelines("# LeetCode 题解（已完成 {} 道）\n\n".format(frame_cout))
-        f.write(table)
-    f.close()
-    print("Create Solutions List Success")
-    return frame_cout
+        if problem_catalog not in frames:
+            frames[problem_catalog] = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+        frame = frames[problem_catalog]
+        frame.loc[len(frame.index)] = res
+    
+    for idx, frame in frames.items():
+        table = gen_markdown_table(frame, True)
+        slice_path = os.path.join(slice_output_path, idx + ".md")
+        with open(slice_path, 'w', encoding='utf-8') as f:
+            if idx not in file_name:
+                f.writelines("# {} \n\n".format(idx))
+            else:
+                f.writelines("# {} \n\n".format(file_name[idx]))
+            f.write(table)
+        f.close()
+        
+    print("Create Slice List Success")
 
 
 # 将 readme_head、list 合并到，自动生成 README.md 并保存到 readme_path 中
@@ -237,12 +248,13 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                     row = df_indexs[0]
                     
                     problem_id = df.loc[row, "序号"]
+                    problem_name = df.loc[row, "文件名"]
                     problem_catalog = df.loc[row, "所在目录"]
                     problem_title = df.loc[row, "标题"]
                     problem_title_slug = df.loc[row, "标题末尾"]
                     problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
                     problem_link_slug = df.loc[row, "标题链接末尾路径"]
-                    problem_solution_path = os.path.join(solutions_path, problem_id + ".md")
+                    problem_solution_path = os.path.join(solutions_path, problem_name + ".md")
                     if os.path.exists(problem_solution_path):
                         problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
                     else:
@@ -264,7 +276,7 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
         
     if category_file_content:
         with open(categories_list_path, 'w', encoding='utf-8') as fi:
-            fi.write("# LeetCode 题解（按分类排序，推荐刷题列表 ★★★）\n\n")
+            fi.write("# 1.3 LeetCode 题解（分类排序 ★★★）\n\n")
             fi.write(category_file_content)
         fi.close()
     
@@ -333,14 +345,15 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
                     row = df_indexs[0]
                     
                     problem_id = df.loc[row, "序号"]
+                    problem_name = df.loc[row, "文件名"]
                     problem_catalog = df.loc[row, "所在目录"]
                     problem_title = df.loc[row, "标题"]
                     problem_title_slug = df.loc[row, "标题末尾"]
                     problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
                     problem_link_slug = df.loc[row, "标题链接末尾路径"]
-                    problem_solution_path = os.path.join(solutions_path, problem_title + ".md")
+                    problem_solution_path = os.path.join(solutions_path, problem_name + ".md")
                     if os.path.exists(problem_solution_path):
-                        problem_solution_link = "[Python](" + df.loc[row, "github 题解链接"] + ")"
+                        problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
                     else:
                         problem_solution_link = ""
                     problem_label = df.loc[row, "标签"]
@@ -355,15 +368,14 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
             
     if interview_file_content:
         with open(interview_list_path, 'w', encoding='utf-8') as fi:
-            if "Interview-100-List.md" in interview_origin_list_path:
-                fi.write("# LeetCode 面试最常考 100 题（按分类排序）\n\n")
-            elif "Interview-200-List.md" in interview_origin_list_path:
-                fi.write("# LeetCode 面试最常考 200 题（按分类排序）\n\n")
+            if "interview_100_list.md" in interview_origin_list_path:
+                fi.write("# 1.4 LeetCode 面试最常考 100 题\n\n")
+            elif "interview_200_list.md" in interview_origin_list_path:
+                fi.write("# 1.5 LeetCode 面试最常考 200 题\n\n")
             fi.write(interview_file_content)
             fi.write("\n## 参考资料\n")
             fi.write("\n- 【清单】[CodeTop 企业题库](https://codetop.cc/home)\n")
         fi.close()
     
     print("Total Problems Count: " + str(len(problems_set)))
-    print(sorted(list(problems_set)))
     print("Create Interview List Success")
