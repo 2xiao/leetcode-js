@@ -8,10 +8,10 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) |  | 数组、数学、双指针 | 中等 |
-| 0066 | [加一](https://leetcode.com/problems/plus-one/) |  | 数组、数学 | 简单 |
-| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) |  | 数组、前缀和 | 简单 |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) |  | 数组 | 简单 |
+| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
+| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0066) | 数组、数学 | 简单 |
+| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0724) | 数组、前缀和 | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) |  | 数组、前缀和 | 中等 |
 
 #### 二维数组
@@ -240,7 +240,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | 数组 | 简单 |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) |  | 数组 | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
 | 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | 数组、动态规划、滑动窗口 | 中等 |
 | 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 |
 | 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |

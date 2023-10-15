@@ -25,67 +25,12 @@ module.exports = {
         editLinkText: '帮二小改善此页面！',
         lastUpdated: '更新时间',
         nav: [
-            { text: '概述', link: '/' },
-            { text: '前端', link: '/front-end/' },
-            { text: 'React', link: '/react/' },
             { text: 'LeetCode', link: '/leetcode/' },
-            { text: '面试', link: '/interview/' },
-            { text: '润', link: '/run/' },
+            { text: 'FE', link: '/front-end/' },
+            { text: 'React', link: '/react/' },
+            { text: 'Run', link: '/run/' },
         ],
         sidebar: {
-            '/front-end/': [
-                {
-                    title: '重学前端',
-                    collapsable: true,
-                    children: [
-                        '/front-end/basic/1',
-                    ]
-                },
-                {
-                    title: 'JavaScript核心原理',
-                    collapsable: true,
-                    children: [
-                        '/front-end/js/1',
-                    ]
-                },
-                {
-                    title: '玩转webpack',
-                    collapsable: true,
-                    children: [
-                        '/front-end/webpack/1',
-                    ]
-                },
-                {
-                    title: 'Node.js开发',
-                    collapsable: true,
-                    children: [
-                        '/front-end/nodejs/1',
-                    ]
-                },
-                {
-                    title: '浏览器工作原理',
-                    collapsable: true,
-                    children: [
-                        '/front-end/browser/1',
-                    ]
-                }
-            ],
-            '/react/': [
-                {
-                    title: 'React源码',
-                    collapsable: true,
-                    children: [
-                        '/react/react/1',
-                    ]
-                },
-                {
-                    title: 'React Hooks核心原理',
-                    collapsable: true,
-                    children: [
-                        '/react/hooks/1',
-                    ]
-                }
-            ],
             '/leetcode/': [
                 {
                     title: '第一章 序章',
@@ -154,19 +99,72 @@ module.exports = {
                 },
                 
             ],
-            '/interview/': [
+            // '/interview/': [
+            //     {
+            //         title: '面试这件事',
+            //         collapsable: true,
+            //         children: [
+            //             '/interview/interview/1',
+            //         ]
+            //     },
+            //     {
+            //         title: '英语',
+            //         collapsable: true,
+            //         children: [
+            //             '/interview/english/1',
+            //         ]
+            //     }
+            // ],
+            '/front-end/': [
                 {
-                    title: '面试这件事',
+                    title: '重学前端',
                     collapsable: true,
                     children: [
-                        '/interview/interview/1',
+                        '/front-end/basic/1',
                     ]
                 },
                 {
-                    title: '英语',
+                    title: 'JavaScript核心原理',
                     collapsable: true,
                     children: [
-                        '/interview/english/1',
+                        '/front-end/js/1',
+                    ]
+                },
+                {
+                    title: '玩转webpack',
+                    collapsable: true,
+                    children: [
+                        '/front-end/webpack/1',
+                    ]
+                },
+                {
+                    title: 'Node.js开发',
+                    collapsable: true,
+                    children: [
+                        '/front-end/nodejs/1',
+                    ]
+                },
+                {
+                    title: '浏览器工作原理',
+                    collapsable: true,
+                    children: [
+                        '/front-end/browser/1',
+                    ]
+                }
+            ],
+            '/react/': [
+                {
+                    title: 'React源码',
+                    collapsable: true,
+                    children: [
+                        '/react/react/1',
+                    ]
+                },
+                {
+                    title: 'React Hooks核心原理',
+                    collapsable: true,
+                    children: [
+                        '/react/hooks/1',
                     ]
                 }
             ],

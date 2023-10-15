@@ -132,9 +132,9 @@ def gen_slice_list(solutions_path, slice_output_path):
         slice_path = os.path.join(slice_output_path, idx + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:
             if idx not in file_name:
-                f.writelines("# {} \n\n".format(idx))
+                f.writelines("# {}\n\n".format(idx))
             else:
-                f.writelines("# {} \n\n".format(file_name[idx]))
+                f.writelines("# {}\n\n".format(file_name[idx]))
             f.write(table)
         f.close()
         
