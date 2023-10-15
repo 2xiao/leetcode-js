@@ -175,14 +175,14 @@ module.exports = {
                     title: '美国',
                     collapsable: true,
                     children: [
-                        '/run/usa/0_visa',
+                        '/run/usa/4_where_to_go',
                         '/run/usa/1_live_in_us',
                         '/run/usa/2_digital_nomad',
                         '/run/usa/3_neighbor',
-                        '/run/usa/4_where_to_go',
                         '/run/usa/5_indian',
                         '/run/usa/6_miss_bj',
                         '/run/usa/7_mississippi',
+                        '/run/usa/0_visa',
                         '/run/usa/8_10043',
                     ]
                 },
