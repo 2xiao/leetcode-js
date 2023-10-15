@@ -43,16 +43,7 @@ title: "目录"
 - [3.12 搜索](./algorithm/11_search)
   
 ### 第四章 精选题集
-- [0001-0099](./solution/0001-0099)
-- [0100-0199](./solution/0100-0199)
-- [0200-0299](./solution/0200-0299)
-- [0300-0399](./solution/0300-0399)
-- [0400-0499](./solution/0400-0499)
-- [0500-0599](./solution/0500-0599)
-- [0600-0699](./solution/0600-0699)
-- [0700-0799](./solution/0700-0799)
-- [0800-0899](./solution/0800-0899)
-- [0900-0999](./solution/0900-0999)
+- [LeetCode 题解](./solution/0001-0099)
 - [剑指 Offer](./solution/Offer)
 - [剑指 Offer II](./solution/Offer-II)
 - [面试题](./solution/Interviews)
