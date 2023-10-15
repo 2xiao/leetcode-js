@@ -276,7 +276,7 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
         
     if category_file_content:
         with open(categories_list_path, 'w', encoding='utf-8') as fi:
-            fi.write("# 1.3 LeetCode 题解（分类排序 ★★★）\n\n")
+            fi.write("# 1.4 LeetCode 题解（分类排序 ★★★）\n\n")
             fi.write(category_file_content)
         fi.close()
     
@@ -369,9 +369,9 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
     if interview_file_content:
         with open(interview_list_path, 'w', encoding='utf-8') as fi:
             if "interview_100_list.md" in interview_origin_list_path:
-                fi.write("# 1.4 LeetCode 面试最常考 100 题\n\n")
+                fi.write("# 1.5 LeetCode 面试最常考 100 题\n\n")
             elif "interview_200_list.md" in interview_origin_list_path:
-                fi.write("# 1.5 LeetCode 面试最常考 200 题\n\n")
+                fi.write("# 1.6 LeetCode 面试最常考 200 题\n\n")
             fi.write(interview_file_content)
             fi.write("\n## 参考资料\n")
             fi.write("\n- 【清单】[CodeTop 企业题库](https://codetop.cc/home)\n")
