@@ -1,4 +1,4 @@
-# 前端通关手册
+# 前端通关手册 (LeetCode + JS)
 
 ## 项目简介
 
@@ -19,8 +19,6 @@ GitHub 地址：[https://github.com/2xiao/fe](https://github.com/2xiao/fe)
 <p align="center">
   <img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="400"/>
 </p>
-
-# LeetCode JS 题解
 
 ### 目录
 
