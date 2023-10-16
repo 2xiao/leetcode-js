@@ -12,7 +12,7 @@
 | 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0066) | 数组、数学 | 简单 |
 | 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0724) | 数组、前缀和 | 简单 |
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
-| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) |  | 数组、前缀和 | 中等 |
+| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0238) | 数组、前缀和 | 中等 |
 
 #### 二维数组
 

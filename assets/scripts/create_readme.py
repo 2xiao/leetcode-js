@@ -37,4 +37,3 @@ gen.gen_slice_list(solotions_path, slice_output_path)
 # readme_path = '../../README.md'
 
 # gen.merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_list_path, content_index_path, readme_path, solutions_count)
-

@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解（字典排序）
 
-已完成 26 道
+已完成 27 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -22,6 +22,7 @@
 | 0152 | [乘积最大子数组](https://leetcode.com/problems/maximum-product-subarray/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0152) | 数组、动态规划 | 中等 |
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0206) | 递归、链表 | 简单 |
+| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0238) | 数组、前缀和 | 中等 |
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |

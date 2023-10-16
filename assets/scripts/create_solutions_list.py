@@ -140,7 +140,6 @@ def gen_slice_list(solutions_path, slice_output_path):
         
     print("Create Slice List Success")
 
-
 # 将 readme_head、list 合并到，自动生成 README.md 并保存到 readme_path 中
 def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_list_path, content_index_path, readme_path, solutions_count):
     
