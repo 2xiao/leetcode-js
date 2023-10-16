@@ -1,8 +1,8 @@
 module.exports = {
-    title: '二小的博客',
+    title: '前端通关手册',
     base: '/fe/',
     shouldPrefetch: () => false,
-    description: 'Know your game​​​',
+    description: 'LeetCode + JS​​​',
     themeConfig: {
         // logo: '/assets/img/logo.png',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
@@ -178,7 +178,6 @@ module.exports = {
                         '/run/usa/2_digital_nomad',
                         '/run/usa/3_neighbor',
                         '/run/usa/5_indian',
-                        '/run/usa/6_miss_bj',
                         '/run/usa/7_mississippi',
                         '/run/usa/0_visa',
                         '/run/usa/8_10043',
@@ -188,7 +187,23 @@ module.exports = {
                     title: '欧洲',
                     collapsable: true,
                     children: [
+                        '/run/europe/0_why',
                         '/run/europe/1_intro',
+                    ]
+                },
+                {
+                    title: '杂记',
+                    collapsable: true,
+                    children: [
+                        '/run/blog/work_overtime',
+                        '/run/blog/three_years_plan',
+                        '/run/blog/principle',
+                        '/run/blog/money',
+                        '/run/blog/go_home',
+                        '/run/blog/before_quit',
+                        '/run/blog/grandma',
+                        '/run/blog/new_year',
+                        '/run/blog/miss_bj',
                     ]
                 }
             ],
