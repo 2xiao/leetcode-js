@@ -5,7 +5,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0001) | 数组、哈希表 | 简单 |
+| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
 | 0204 | [计数质数](https://leetcode.com/problems/count-primes/) |  | 数组、数学、枚举、数论 | 中等 |
 | 1925 | [统计平方和三元组的数目](https://leetcode.com/problems/count-square-sum-triples/) |  | 数学、枚举 | 简单 |
 | 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) |  | 数组 | 简单 |

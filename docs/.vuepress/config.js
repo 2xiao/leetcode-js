@@ -1,12 +1,12 @@
 module.exports = {
-    title: '前端通关手册',
-    base: '/fe/',
+    title: '前端算法通关指南',
+    base: '/leetcode-js/',
     shouldPrefetch: () => false,
     description: 'LeetCode + JS​​​',
     themeConfig: {
         // logo: '/assets/img/logo.png',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
-        repo: '2xiao/fe',
+        repo: '2xiao/leetcode-js',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
         // "GitHub"/"GitLab"/"Bitbucket" 其中之一，或是 "Source"。
         repoLabel: 'Github',

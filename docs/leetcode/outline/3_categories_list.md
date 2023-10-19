@@ -6,11 +6,11 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
-| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0066) | 数组、数学 | 简单 |
-| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0724) | 数组、前缀和 | 简单 |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
-| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0238) | 数组、前缀和 | 中等 |
+| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
+| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) | 数组、数学 | 简单 |
+| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | 数组、前缀和 | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组 | 简单 |
+| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | 数组、前缀和 | 中等 |
 
 ### 二维数组
 
@@ -30,7 +30,7 @@
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) |  | 设计、链表 | 中等 |
 | 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |  | 链表 | 简单 |
 | 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |  | 链表、双指针 | 中等 |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0206) | 递归、链表 | 简单 |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | 递归、链表 | 简单 |
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | 链表 | 中等 |
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) |  | 递归、链表 | 困难 |
 | 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) |  | 递归、链表 | 简单 |
@@ -112,7 +112,7 @@
 | 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
 | 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | 数组、哈希表、矩阵 | 中等 |
-| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0001) | 数组、哈希表 | 简单 |
+| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
 | 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
 | 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
 | 0454 | [四数相加 II](https://leetcode.com/problems/4sum-ii/) |  | 数组、哈希表 | 中等 |
@@ -141,8 +141,8 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
-| 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0005) | 字符串、动态规划 | 中等 |
-| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
+| 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) | 字符串、动态规划 | 中等 |
+| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
 | 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) |  | 双指针、字符串 | 简单 |
 | 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  | 数组、哈希表、字符串、排序 | 中等 |
@@ -350,7 +350,7 @@
 | 0286 | [墙与门](https://leetcode.com/problems/walls-and-gates/) |  | 广度优先搜索、数组、矩阵 | 中等 |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
 | 0752 | [打开转盘锁](https://leetcode.com/problems/open-the-lock/) |  | 广度优先搜索、数组、哈希表、字符串 | 中等 |
-| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
+| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) |  | 深度优先搜索、广度优先搜索、图、哈希表 | 中等 |
 | 0733 | [图像渲染](https://leetcode.com/problems/flood-fill/) |  | 深度优先搜索、广度优先搜索、数组、矩阵 | 简单 |
 | 0542 | [01 矩阵](https://leetcode.com/problems/01-matrix/) |  | 广度优先搜索、数组、动态规划、矩阵 | 中等 |
@@ -430,7 +430,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0001) | 数组、哈希表 | 简单 |
+| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
 | 0204 | [计数质数](https://leetcode.com/problems/count-primes/) |  | 数组、数学、枚举、数论 | 中等 |
 | 1925 | [统计平方和三元组的数目](https://leetcode.com/problems/count-square-sum-triples/) |  | 数学、枚举 | 简单 |
 | 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) |  | 数组 | 简单 |
@@ -448,11 +448,11 @@
 | 0024 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/) |  | 递归、链表 | 中等 |
 | 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | 数组、动态规划 | 简单 |
 | 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | 数组、动态规划 | 简单 |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0206) | 递归、链表 | 简单 |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | 递归、链表 | 简单 |
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | 链表 | 中等 |
 | 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | 递归、链表 | 简单 |
-| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
-| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
+| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
+| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
 | 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
 | 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  | 树、深度优先搜索、动态规划、二叉树 | 困难 |
 | 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
@@ -465,7 +465,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
+| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
 | 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  | 数组、分治、动态规划 | 中等 |
 | 0241 | [为运算表达式设计优先级](https://leetcode.com/problems/different-ways-to-add-parentheses/) |  | 递归、记忆化搜索、数学、字符串、动态规划 | 中等 |
@@ -531,9 +531,9 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
-| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
-| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
+| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
+| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
+| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
 
 ### 记忆化搜索
 
@@ -559,7 +559,7 @@
 | 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) |  | 树状数组、线段树、数组、动态规划 | 中等 |
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  | 数组、二分查找、动态规划、排序 | 困难 |
 | 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  | 数组、分治、动态规划 | 中等 |
-| 0152 | [乘积最大子数组](https://leetcode.com/problems/maximum-product-subarray/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0152) | 数组、动态规划 | 中等 |
+| 0152 | [乘积最大子数组](https://leetcode.com/problems/maximum-product-subarray/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0152) | 数组、动态规划 | 中等 |
 | 0918 | [环形子数组的最大和](https://leetcode.com/problems/maximum-sum-circular-subarray/) |  | 队列、数组、分治、动态规划、单调队列 | 中等 |
 | 0198 | [打家劫舍](https://leetcode.com/problems/house-robber/) |  | 数组、动态规划 | 中等 |
 | 0213 | [打家劫舍 II](https://leetcode.com/problems/house-robber-ii/) |  | 数组、动态规划 | 中等 |
@@ -619,7 +619,7 @@
 | :------ | :------ | :------ | :------ | :------ |
 | 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | 数组、动态规划 | 简单 |
 | 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | 数组、动态规划 | 简单 |
-| 0120 | [三角形最小路径和](https://leetcode.com/problems/triangle/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0120) | 数组、动态规划 | 中等 |
+| 0120 | [三角形最小路径和](https://leetcode.com/problems/triangle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0120) | 数组、动态规划 | 中等 |
 | 0064 | [最小路径和](https://leetcode.com/problems/minimum-path-sum/) |  | 数组、动态规划、矩阵 | 中等 |
 | 0174 | [地下城游戏](https://leetcode.com/problems/dungeon-game/) |  | 数组、动态规划、矩阵 | 困难 |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  | 数组、动态规划、矩阵 | 中等 |
@@ -637,7 +637,7 @@
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  | 记忆化搜索、数学、动态规划 | 简单 |
 | 0650 | [只有两个键的键盘](https://leetcode.com/problems/2-keys-keyboard/) |  | 数学、动态规划 | 中等 |
 | 0264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii/) |  | 哈希表、数学、动态规划、堆（优先队列） | 中等 |
-| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
+| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0343 | [整数拆分](https://leetcode.com/problems/integer-break/) |  | 数学、动态规划 | 中等 |
 
 ### 背包问题
@@ -654,7 +654,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
+| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) |  | 广度优先搜索、数组、动态规划 | 中等 |
 | 0518 | [零钱兑换 II](https://leetcode.com/problems/coin-change-ii/) |  | 数组、动态规划 | 中等 |
 | 0139 | [单词拆分](https://leetcode.com/problems/word-break/) |  | 字典树、记忆化搜索、数组、哈希表、字符串、动态规划 | 中等 |
@@ -693,7 +693,7 @@
 | 0546 | [移除盒子](https://leetcode.com/problems/remove-boxes/) |  | 记忆化搜索、数组、动态规划 | 困难 |
 | 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |  | 数学、动态规划、博弈 | 中等 |
 | 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | 栈、贪心、字符串、动态规划 | 中等 |
-| 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0005) | 字符串、动态规划 | 中等 |
+| 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) | 字符串、动态规划 | 中等 |
 | 0516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence/) |  | 字符串、动态规划 | 中等 |
 | 0730 | [统计不同回文子序列](https://leetcode.com/problems/count-different-palindromic-subsequences/) |  | 字符串、动态规划 | 困难 |
 | 2104 | [子数组范围和](https://leetcode.com/problems/sum-of-subarray-ranges/) |  | 栈、数组、单调栈 | 中等 |
@@ -758,15 +758,15 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
-| 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0063) | 数组、动态规划、矩阵 | 中等 |
+| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
+| 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0063) | 数组、动态规划、矩阵 | 中等 |
 | 0343 | [整数拆分](https://leetcode.com/problems/integer-break/) |  | 数学、动态规划 | 中等 |
 | 0096 | [不同的二叉搜索树](https://leetcode.com/problems/unique-binary-search-trees/) |  | 树、二叉搜索树、数学、动态规划、二叉树 | 中等 |
 | 1259 | [不相交的握手](https://leetcode.com/problems/handshakes-that-dont-cross/) |  | 数学、动态规划 | 困难 |
 | 0790 | [多米诺和托米诺平铺](https://leetcode.com/problems/domino-and-tromino-tiling/) |  | 动态规划 | 中等 |
-| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
+| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
 | 0746 | [使用最小花费爬楼梯](https://leetcode.com/problems/min-cost-climbing-stairs/) |  | 数组、动态规划 | 简单 |
-| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
+| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  | 记忆化搜索、数学、动态规划 | 简单 |
 
 ### 数位 DP
@@ -931,14 +931,14 @@
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
 | 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
 | 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
-| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0033) | 数组、二分查找 | 中等 |
+| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 |
 | 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 中等 |
 | 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) |  | 二分查找、交互 | 简单 |
 | 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | 数组、二分查找 | 中等 |
 | 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  | 数组、二分查找 | 中等 |
 | 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  | 数组、二分查找、交互 | 困难 |
 | 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  | 数组、二分查找 | 简单 |
-| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
+| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
 | 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
 | 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
 
@@ -1034,7 +1034,7 @@
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) |  | 链表、双指针 | 简单 |
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 |
 | 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) |  | 栈、递归、链表、双指针 | 中等 |
-| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
+| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
 
 ## 3.11 滑动窗口
@@ -1064,7 +1064,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | 数组 | 简单 |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组 | 简单 |
 | 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | 数组、动态规划、滑动窗口 | 中等 |
 | 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 |
 | 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |
@@ -1073,7 +1073,7 @@
 | 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
 | 1658 | [将 x 减到 0 的最小操作数](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) |  | 数组、哈希表、二分查找、前缀和、滑动窗口 | 中等 |
 | 0424 | [替换后的最长重复字符](https://leetcode.com/problems/longest-repeating-character-replacement/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
+| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
 | 1695 | [删除子数组的最大得分](https://leetcode.com/problems/maximum-erasure-value/) |  | 数组、哈希表、滑动窗口 | 中等 |
 | 1208 | [尽可能使字符串相等](https://leetcode.com/problems/get-equal-substrings-within-budget/) |  | 字符串、二分查找、前缀和、滑动窗口 | 中等 |
 | 1493 | [删掉一个元素以后全为 1 的最长子数组](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) |  | 数组、动态规划、滑动窗口 | 中等 |

@@ -174,7 +174,7 @@ def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_
     
     # 生成 Contents/index.md 文件
     content_index_file = open(content_index_path, 'w', encoding='utf-8')
-    content_index_file.writelines("# 算法通关手册（LeetCode）\n\n")
+    content_index_file.writelines("# 前端算法通关指南（LeetCode-JS）\n\n")
     
     # 将章节目录写入 Contents/index.md 文件中
     readme_catelogue_list_file = open(readme_catalogue_list_path, encoding='utf-8')

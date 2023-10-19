@@ -48,7 +48,7 @@
 | 0286 | [墙与门](https://leetcode.com/problems/walls-and-gates/) |  | 广度优先搜索、数组、矩阵 | 中等 |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 |
 | 0752 | [打开转盘锁](https://leetcode.com/problems/open-the-lock/) |  | 广度优先搜索、数组、哈希表、字符串 | 中等 |
-| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
+| 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) |  | 深度优先搜索、广度优先搜索、图、哈希表 | 中等 |
 | 0733 | [图像渲染](https://leetcode.com/problems/flood-fill/) |  | 深度优先搜索、广度优先搜索、数组、矩阵 | 简单 |
 | 0542 | [01 矩阵](https://leetcode.com/problems/01-matrix/) |  | 广度优先搜索、数组、动态规划、矩阵 | 中等 |

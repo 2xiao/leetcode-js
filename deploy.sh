@@ -16,12 +16,12 @@ cd docs/.vuepress/dist
 git init
 git add -A
 git commit -m 'deploy'
-git remote add origin https://github.com/2xiao/fe.git
+git remote add origin https://github.com/2xiao/leetcode-js.git
 git push origin master -f
 # 如果发布到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 #
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f 2xiao@github.com:https://github.com/2xiao/fe.git master:gh-pages
+# git push -f 2xiao@github.com:https://github.com/2xiao/leetcode-js.git master:gh-pages
 #
 cd -
