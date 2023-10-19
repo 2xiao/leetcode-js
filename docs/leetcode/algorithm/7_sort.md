@@ -61,8 +61,8 @@
 ## 冒泡排序（Bubble Sort）
 
 冒泡排序只会操作相邻的两个数据。每次冒泡操作都会对**相邻的两个元素进行比较**，看是否满足大小关系要求。如果不满足就让它俩互换。一次冒泡会让至少一个元素移动到它应该在的位置，重复n次，就完成了n个数据的排序工作。
-![](https://static001.geekbang.org/resource/image/88/34/8890cbf63ea80455ce82490a23361134.jpg)
-![](https://static001.geekbang.org/resource/image/40/e9/4038f64f47975ab9f519e4f739e464e9.jpg)
+![](../../../assets/images/1.jpg)
+![](../../../assets/images/2.jpg)
 
 ```javascript
 function bubbleSort(arr) {
@@ -84,7 +84,7 @@ function bubbleSort(arr) {
 ## 选择排序（Selection Sort）
 选择排序将数组中的数据分为两个区间，已排序区间和未排序区间。每次会从未排序区间中**找到最小的元素**，将其放到已排序区间的末尾，共执行n - 1轮。
 
-![](https://static001.geekbang.org/resource/image/32/1d/32371475a0b08f0db9861d102474181d.jpg)
+![](../../../assets/images/32371475a0b08f0db9861d102474181d.jpg)
 
 ```js
 function selectionSort(arr) {
@@ -110,7 +110,7 @@ function selectionSort(arr) {
 ## 插入排序（Insertion Sort）
 
 插入排序将数组中的数据分为两个区间，已排序区间和未排序区间。初始已排序区间只有一个元素，就是数组的第一个元素。插入算法的核心思想是取未排序区间中的元素，在已排序区间中**找到合适的插入位置将其插入**，并保证已排序区间数据一直有序。重复这个过程，直到未排序区间中元素为空，算法结束。
-![](https://static001.geekbang.org/resource/image/7b/a6/7b257e179787c633d2bd171a764171a6.jpg)
+![](../../../assets/images/7b257e179787c633d2bd171a764171a6.jpg)
 ```js
 function insertionSort(arr) {
      for (let i = 1; i < arr.length; i++) {
@@ -168,7 +168,7 @@ function shellSort(arr) {
 
 * 合：把两个字数组合并成一个有序数组，直到全部子数组合并完毕，合并前先准备一个空数组，存放合并之后的结果，然后不断取出两个子数组的第一个元素，比较他们的大小，小的先进入之前准备的空数组中，然后继续遍历其他元素，直到子数组中的元素都完成遍历
 
-![](https://static001.geekbang.org/resource/image/db/2b/db7f892d3355ef74da9cd64aa926dc2b.jpg)
+![](../../../assets/images/db7f892d3355ef74da9cd64aa926dc2b.jpg)
 ```js
 function mergeSort(arr) {  //采用自上而下的递归方法
     var len = arr.length
@@ -257,7 +257,7 @@ function swap(arr, i, j) {
     arr[j] = temp
 }
 ```
-![](https://static001.geekbang.org/resource/image/aa/05/aa03ae570dace416127c9ccf9db8ac05.jpg)
+![](../../../assets/images/aa03ae570dace416127c9ccf9db8ac05.jpg)
 
 快排和归并用的都是分治思想，递推公式和递归代码也非常相似，它们的区别是：
 * 归并排序的处理过程是由下到上的，先处理子问题，然后再合并。而快排正好相反，它的处理过程是由上到下的，先分区，然后再处理子问题。
@@ -265,7 +265,7 @@ function swap(arr, i, j) {
 
 ## 桶排序（Bucket sort）
 桶排序，顾名思义，会用到“桶”，核心思想是将要排序的数据分到几个有序的桶里，每个桶里的数据再单独进行排序。桶内排完序之后，再把每个桶里的数据按照顺序依次取出，组成的序列就是有序的了。
-![](https://static001.geekbang.org/resource/image/98/ae/987564607b864255f81686829503abae.jpg)
+![](../../../assets/images/987564607b864255f81686829503abae.jpg)
 
 桶排序的时间复杂度是O(n)。如果要排序的数据有n个，我们把它们均匀地划分到m个桶内，每个桶里就有k=n/m个元素。每个桶内部使用快速排序，时间复杂度为O(k * logk)。m个桶排序的时间复杂度就是O(m * k * logk)，因为k=n/m，所以整个桶排序的时间复杂度就是O(n*log(n/m))。当桶的个数m接近数据个数n时，log(n/m)就是一个非常小的常量，这个时候桶排序的时间复杂度接近O(n)。
 
