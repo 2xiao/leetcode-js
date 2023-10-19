@@ -25,248 +25,7 @@
 | 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 |
 | 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  | 数组、矩阵、模拟 | 中等 |
 
-### 2.1.2 数组排序算法
-
-#### 冒泡排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
-| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) |  | 数组、双指针 | 简单 |
-
-#### 选择排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
-
-#### 插入排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
-
-#### 希尔排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  | 数组、排序、堆（优先队列） | 简单 |
-
-#### 归并排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
-| 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
-
-#### 快速排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | 数组、哈希表、分治、计数、排序 | 简单 |
-
-#### 堆排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 |
-
-#### 计数排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  | 数组、哈希表、计数排序、排序 | 简单 |
-
-#### 桶排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | 数组、桶排序、有序集合、排序、滑动窗口 | 困难 |
-| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
-
-#### 基数排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
-| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | 贪心、数组、计数排序、排序 | 简单 |
-
-#### 其他排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | 数组、哈希表、排序 | 简单 |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
-| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | 数组、排序 | 中等 |
-| 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  | 贪心、数组、字符串、排序 | 中等 |
-| 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
-| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
-
-### 2.1.3 数组二分查找
-
-#### 二分下标
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | 数组、二分查找 | 简单 |
-| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  | 二分查找、交互 | 简单 |
-| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | 数组、二分查找 | 简单 |
-| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | 数组、二分查找 | 中等 |
-| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
-| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
-| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
-| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0033) | 数组、二分查找 | 中等 |
-| 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 中等 |
-| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) |  | 二分查找、交互 | 简单 |
-| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | 数组、二分查找 | 中等 |
-| 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  | 数组、二分查找 | 中等 |
-| 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  | 数组、二分查找、交互 | 困难 |
-| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  | 数组、二分查找 | 简单 |
-| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
-| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
-| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
-
-#### 二分答案
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | 数学、二分查找 | 简单 |
-| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | 递归、数学 | 中等 |
-| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  | 数学、二分查找 | 简单 |
-| 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  | 数组、二分查找、排序 | 中等 |
-| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
-
-#### 复杂的二分查找问题
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas/) |  | 数组、二分查找 | 中等 |
-| 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  | 贪心、数组、二分查找、动态规划、前缀和 | 困难 |
-| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
-| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | 数组、双指针、二分查找、排序、滑动窗口、堆（优先队列） | 中等 |
-| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  | 树、深度优先搜索、二叉搜索树、二分查找、二叉树 | 简单 |
-| 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  | 数组、二分查找、交互 | 中等 |
-| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
-| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
-| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
-| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  | 数组、双指针、二分查找、排序 | 困难 |
-| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) |  | 数组、双指针、二分查找、排序 | 中等 |
-| 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | 数组、二分查找 | 中等 |
-| 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  | 数组、二分查找 | 中等 |
-
-### 2.1.4 数组双指针
-
-#### 对撞指针
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
-| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
-| 0345 | [反转字符串中的元音字母](https://leetcode.com/problems/reverse-vowels-of-a-string/) |  | 双指针、字符串 | 简单 |
-| 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
-| 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) |  | 贪心、数组、双指针 | 中等 |
-| 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) |  | 贪心、数组、双指针、二分查找、排序 | 中等 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
-| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
-| 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
-| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) |  | 数组、双指针、二分查找、排序 | 中等 |
-| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | 数组、双指针、二分查找、排序、滑动窗口、堆（优先队列） | 中等 |
-| 1099 | [小于 K 的两数之和](https://leetcode.com/problems/two-sum-less-than-k/) |  | 数组、双指针、二分查找、排序 | 简单 |
-| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
-| 0360 | [有序转化数组](https://leetcode.com/problems/sort-transformed-array/) |  | 数组、数学、双指针、排序 | 中等 |
-| 0977 | [有序数组的平方](https://leetcode.com/problems/squares-of-a-sorted-array/) |  | 数组、双指针、排序 | 简单 |
-| 0881 | [救生艇](https://leetcode.com/problems/boats-to-save-people/) |  | 贪心、数组、双指针、排序 | 中等 |
-| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
-| 0443 | [压缩字符串](https://leetcode.com/problems/string-compression/) |  | 双指针、字符串 | 中等 |
-
-#### 快慢指针
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  | 数组、双指针 | 简单 |
-| 0080 | [删除有序数组中的重复项 II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |  | 数组、双指针 | 中等 |
-| 0027 | [移除元素](https://leetcode.com/problems/remove-element/) |  | 数组、双指针 | 简单 |
-| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) |  | 数组、双指针 | 简单 |
-| 0845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array/) |  | 数组、双指针、动态规划、枚举 | 中等 |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
-| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  | 数组、双指针、二分查找、排序 | 困难 |
-| 0334 | [递增的三元子序列](https://leetcode.com/problems/increasing-triplet-subsequence/) |  | 贪心、数组 | 中等 |
-| 0978 | [最长湍流子数组](https://leetcode.com/problems/longest-turbulent-subarray/) |  | 数组、动态规划、滑动窗口 | 中等 |
-| 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | 数组、双指针、排序 | 简单 |
-
-#### 分离双指针
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
-| 0925 | [长按键入](https://leetcode.com/problems/long-pressed-name/) |  | 双指针、字符串 | 简单 |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | 栈、双指针、字符串、模拟 | 简单 |
-| 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler/) |  | 数组、双指针、排序 | 中等 |
-| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
-
-### 2.1.5 数组滑动窗口
-
-#### 固定长度窗口
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) |  | 数组、滑动窗口 | 中等 |
-| 0643 | [子数组最大平均数 I](https://leetcode.com/problems/maximum-average-subarray-i/) |  | 数组、滑动窗口 | 简单 |
-| 1052 | [爱生气的书店老板](https://leetcode.com/problems/grumpy-bookstore-owner/) |  | 数组、滑动窗口 | 中等 |
-| 1423 | [可获得的最大点数](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) |  | 数组、前缀和、滑动窗口 | 中等 |
-| 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) |  | 字符串、滑动窗口 | 中等 |
-| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) |  | 哈希表、双指针、字符串、滑动窗口 | 中等 |
-| 1100 | [长度为 K 的无重复字符子串](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 1151 | [最少交换次数来组合所有的 1](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/) |  | 数组、滑动窗口 | 中等 |
-| 1176 | [健身计划评估](https://leetcode.com/problems/diet-plan-performance/) |  | 数组、滑动窗口 | 简单 |
-| 0438 | [找到字符串中所有字母异位词](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 0995 | [K 连续位的最小翻转次数](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) |  | 位运算、队列、数组、前缀和、滑动窗口 | 困难 |
-| 0683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots/) |  | 树状数组、数组、有序集合、滑动窗口 | 困难 |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | 数组、桶排序、有序集合、排序、滑动窗口 | 困难 |
-| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | 队列、数组、滑动窗口、单调队列、堆（优先队列） | 困难 |
-| 0480 | [滑动窗口中位数](https://leetcode.com/problems/sliding-window-median/) |  | 数组、哈希表、滑动窗口、堆（优先队列） | 困难 |
-
-#### 不定长度窗口
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | 数组 | 简单 |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
-| 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | 数组、动态规划、滑动窗口 | 中等 |
-| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 |
-| 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |
-| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
-| 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | 队列、数组、二分查找、前缀和、滑动窗口、单调队列、堆（优先队列） | 困难 |
-| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
-| 1658 | [将 x 减到 0 的最小操作数](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) |  | 数组、哈希表、二分查找、前缀和、滑动窗口 | 中等 |
-| 0424 | [替换后的最长重复字符](https://leetcode.com/problems/longest-repeating-character-replacement/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
-| 1695 | [删除子数组的最大得分](https://leetcode.com/problems/maximum-erasure-value/) |  | 数组、哈希表、滑动窗口 | 中等 |
-| 1208 | [尽可能使字符串相等](https://leetcode.com/problems/get-equal-substrings-within-budget/) |  | 字符串、二分查找、前缀和、滑动窗口 | 中等 |
-| 1493 | [删掉一个元素以后全为 1 的最长子数组](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) |  | 数组、动态规划、滑动窗口 | 中等 |
-| 0727 | [最小窗口子序列](https://leetcode.com/problems/minimum-window-subsequence/) |  | 字符串、动态规划、滑动窗口 | 困难 |
-| 0159 | [至多包含两个不同字符的最长子串](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 0340 | [至多包含 K 个不同字符的最长子串](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 0795 | [区间子数组个数](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/) |  | 数组、双指针 | 中等 |
-| 0992 | [K 个不同整数的子数组](https://leetcode.com/problems/subarrays-with-k-different-integers/) |  | 数组、哈希表、计数、滑动窗口 | 困难 |
-| 0713 | [乘积小于 K 的子数组](https://leetcode.com/problems/subarray-product-less-than-k/) |  | 数组、滑动窗口 | 中等 |
-| 0904 | [水果成篮](https://leetcode.com/problems/fruit-into-baskets/) |  | 数组、哈希表、滑动窗口 | 中等 |
-| 1358 | [包含所有三种字符的子字符串数目](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
-| 0467 | [环绕字符串中唯一的子字符串](https://leetcode.com/problems/unique-substrings-in-wraparound-string/) |  | 字符串、动态规划 | 中等 |
-| 1438 | [绝对差不超过限制的最长连续子数组](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |  | 队列、数组、有序集合、滑动窗口、单调队列、堆（优先队列） | 中等 |
-
 ## 2.2 链表
-
-### 2.2.1 链表经典题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -282,29 +41,6 @@
 | 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  | 深度优先搜索、链表、双向链表 | 中等 |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  | 哈希表、链表 | 中等 |
 | 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) |  | 链表、双指针 | 中等 |
-
-### 2.2.2 链表排序
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | 链表、双指针、分治、排序、归并排序 | 中等 |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | 递归、链表 | 简单 |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
-| 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | 链表、排序 | 中等 |
-
-### 2.2.3 链表双指针
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) |  | 哈希表、链表、双指针 | 简单 |
-| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | 哈希表、链表、双指针 | 中等 |
-| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 |
-| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | 链表、双指针 | 中等 |
-| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) |  | 链表、双指针 | 简单 |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 |
-| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) |  | 栈、递归、链表、双指针 | 中等 |
-| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
 
 ## 2.3 栈
 
@@ -1089,4 +825,270 @@
 | 0645 | [错误的集合](https://leetcode.com/problems/set-mismatch/) |  | 位运算、数组、哈希表、排序 | 简单 |
 | 0078 | [子集](https://leetcode.com/problems/subsets/) |  | 位运算、数组、回溯 | 中等 |
 | 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) |  | 位运算、数组、回溯 | 中等 |
+
+## 3.8 排序
+
+### 3.8.1 数组排序算法
+
+#### 冒泡排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
+| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) |  | 数组、双指针 | 简单 |
+
+#### 选择排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
+
+#### 插入排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
+
+#### 希尔排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  | 数组、排序、堆（优先队列） | 简单 |
+
+#### 归并排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
+| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
+| 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
+
+#### 快速排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | 数组、哈希表、分治、计数、排序 | 简单 |
+
+#### 堆排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 |
+
+#### 计数排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  | 数组、哈希表、计数排序、排序 | 简单 |
+
+#### 桶排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | 数组、桶排序、有序集合、排序、滑动窗口 | 困难 |
+| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
+
+#### 基数排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
+| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | 贪心、数组、计数排序、排序 | 简单 |
+
+#### 其他排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | 数组、哈希表、排序 | 简单 |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
+| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | 数组、排序 | 中等 |
+| 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  | 贪心、数组、字符串、排序 | 中等 |
+| 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
+| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
+
+### 3.8.2 链表排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | 链表、双指针、分治、排序、归并排序 | 中等 |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | 递归、链表 | 简单 |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
+| 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | 链表、排序 | 中等 |
+
+## 3.9 二分查找
+
+#### 二分下标
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | 数组、二分查找 | 简单 |
+| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  | 二分查找、交互 | 简单 |
+| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | 数组、二分查找 | 简单 |
+| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | 数组、二分查找 | 中等 |
+| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
+| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
+| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
+| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0033) | 数组、二分查找 | 中等 |
+| 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 中等 |
+| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) |  | 二分查找、交互 | 简单 |
+| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | 数组、二分查找 | 中等 |
+| 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  | 数组、二分查找 | 中等 |
+| 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  | 数组、二分查找、交互 | 困难 |
+| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  | 数组、二分查找 | 简单 |
+| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
+| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
+| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
+
+#### 二分答案
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | 数学、二分查找 | 简单 |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | 递归、数学 | 中等 |
+| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  | 数学、二分查找 | 简单 |
+| 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  | 数组、二分查找、排序 | 中等 |
+| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
+
+#### 复杂的二分查找问题
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas/) |  | 数组、二分查找 | 中等 |
+| 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  | 贪心、数组、二分查找、动态规划、前缀和 | 困难 |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | 数组、双指针、二分查找、排序、滑动窗口、堆（优先队列） | 中等 |
+| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  | 树、深度优先搜索、二叉搜索树、二分查找、二叉树 | 简单 |
+| 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  | 数组、二分查找、交互 | 中等 |
+| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
+| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
+| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  | 数组、双指针、二分查找、排序 | 困难 |
+| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) |  | 数组、双指针、二分查找、排序 | 中等 |
+| 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | 数组、二分查找 | 中等 |
+| 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  | 数组、二分查找 | 中等 |
+
+## 3.10 双指针
+
+### 3.10.1 数组双指针
+
+#### 对撞指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
+| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
+| 0345 | [反转字符串中的元音字母](https://leetcode.com/problems/reverse-vowels-of-a-string/) |  | 双指针、字符串 | 简单 |
+| 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
+| 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) |  | 贪心、数组、双指针 | 中等 |
+| 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) |  | 贪心、数组、双指针、二分查找、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
+| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
+| 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
+| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) |  | 数组、双指针、二分查找、排序 | 中等 |
+| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | 数组、双指针、二分查找、排序、滑动窗口、堆（优先队列） | 中等 |
+| 1099 | [小于 K 的两数之和](https://leetcode.com/problems/two-sum-less-than-k/) |  | 数组、双指针、二分查找、排序 | 简单 |
+| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
+| 0360 | [有序转化数组](https://leetcode.com/problems/sort-transformed-array/) |  | 数组、数学、双指针、排序 | 中等 |
+| 0977 | [有序数组的平方](https://leetcode.com/problems/squares-of-a-sorted-array/) |  | 数组、双指针、排序 | 简单 |
+| 0881 | [救生艇](https://leetcode.com/problems/boats-to-save-people/) |  | 贪心、数组、双指针、排序 | 中等 |
+| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
+| 0443 | [压缩字符串](https://leetcode.com/problems/string-compression/) |  | 双指针、字符串 | 中等 |
+
+#### 快慢指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) |  | 数组、双指针 | 简单 |
+| 0080 | [删除有序数组中的重复项 II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) |  | 数组、双指针 | 中等 |
+| 0027 | [移除元素](https://leetcode.com/problems/remove-element/) |  | 数组、双指针 | 简单 |
+| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) |  | 数组、双指针 | 简单 |
+| 0845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array/) |  | 数组、双指针、动态规划、枚举 | 中等 |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
+| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  | 数组、双指针、二分查找、排序 | 困难 |
+| 0334 | [递增的三元子序列](https://leetcode.com/problems/increasing-triplet-subsequence/) |  | 贪心、数组 | 中等 |
+| 0978 | [最长湍流子数组](https://leetcode.com/problems/longest-turbulent-subarray/) |  | 数组、动态规划、滑动窗口 | 中等 |
+| 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | 数组、双指针、排序 | 简单 |
+
+#### 分离双指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
+| 0925 | [长按键入](https://leetcode.com/problems/long-pressed-name/) |  | 双指针、字符串 | 简单 |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | 栈、双指针、字符串、模拟 | 简单 |
+| 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler/) |  | 数组、双指针、排序 | 中等 |
+| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
+
+### 3.10.2 链表双指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) |  | 哈希表、链表、双指针 | 简单 |
+| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | 哈希表、链表、双指针 | 中等 |
+| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 |
+| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | 链表、双指针 | 中等 |
+| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) |  | 链表、双指针 | 简单 |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 |
+| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) |  | 栈、递归、链表、双指针 | 中等 |
+| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
+| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
+
+## 3.11 滑动窗口
+
+#### 固定长度窗口
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) |  | 数组、滑动窗口 | 中等 |
+| 0643 | [子数组最大平均数 I](https://leetcode.com/problems/maximum-average-subarray-i/) |  | 数组、滑动窗口 | 简单 |
+| 1052 | [爱生气的书店老板](https://leetcode.com/problems/grumpy-bookstore-owner/) |  | 数组、滑动窗口 | 中等 |
+| 1423 | [可获得的最大点数](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) |  | 数组、前缀和、滑动窗口 | 中等 |
+| 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) |  | 字符串、滑动窗口 | 中等 |
+| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) |  | 哈希表、双指针、字符串、滑动窗口 | 中等 |
+| 1100 | [长度为 K 的无重复字符子串](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
+| 1151 | [最少交换次数来组合所有的 1](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/) |  | 数组、滑动窗口 | 中等 |
+| 1176 | [健身计划评估](https://leetcode.com/problems/diet-plan-performance/) |  | 数组、滑动窗口 | 简单 |
+| 0438 | [找到字符串中所有字母异位词](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  | 哈希表、字符串、滑动窗口 | 中等 |
+| 0995 | [K 连续位的最小翻转次数](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) |  | 位运算、队列、数组、前缀和、滑动窗口 | 困难 |
+| 0683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots/) |  | 树状数组、数组、有序集合、滑动窗口 | 困难 |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | 数组、桶排序、有序集合、排序、滑动窗口 | 困难 |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | 队列、数组、滑动窗口、单调队列、堆（优先队列） | 困难 |
+| 0480 | [滑动窗口中位数](https://leetcode.com/problems/sliding-window-median/) |  | 数组、哈希表、滑动窗口、堆（优先队列） | 困难 |
+
+#### 不定长度窗口
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | 数组 | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0485) | 数组 | 简单 |
+| 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | 数组、动态规划、滑动窗口 | 中等 |
+| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 |
+| 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+| 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | 队列、数组、二分查找、前缀和、滑动窗口、单调队列、堆（优先队列） | 困难 |
+| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+| 1658 | [将 x 减到 0 的最小操作数](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero/) |  | 数组、哈希表、二分查找、前缀和、滑动窗口 | 中等 |
+| 0424 | [替换后的最长重复字符](https://leetcode.com/problems/longest-repeating-character-replacement/) |  | 哈希表、字符串、滑动窗口 | 中等 |
+| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
+| 1695 | [删除子数组的最大得分](https://leetcode.com/problems/maximum-erasure-value/) |  | 数组、哈希表、滑动窗口 | 中等 |
+| 1208 | [尽可能使字符串相等](https://leetcode.com/problems/get-equal-substrings-within-budget/) |  | 字符串、二分查找、前缀和、滑动窗口 | 中等 |
+| 1493 | [删掉一个元素以后全为 1 的最长子数组](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) |  | 数组、动态规划、滑动窗口 | 中等 |
+| 0727 | [最小窗口子序列](https://leetcode.com/problems/minimum-window-subsequence/) |  | 字符串、动态规划、滑动窗口 | 困难 |
+| 0159 | [至多包含两个不同字符的最长子串](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
+| 0340 | [至多包含 K 个不同字符的最长子串](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
+| 0795 | [区间子数组个数](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/) |  | 数组、双指针 | 中等 |
+| 0992 | [K 个不同整数的子数组](https://leetcode.com/problems/subarrays-with-k-different-integers/) |  | 数组、哈希表、计数、滑动窗口 | 困难 |
+| 0713 | [乘积小于 K 的子数组](https://leetcode.com/problems/subarray-product-less-than-k/) |  | 数组、滑动窗口 | 中等 |
+| 0904 | [水果成篮](https://leetcode.com/problems/fruit-into-baskets/) |  | 数组、哈希表、滑动窗口 | 中等 |
+| 1358 | [包含所有三种字符的子字符串数目](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/) |  | 哈希表、字符串、滑动窗口 | 中等 |
+| 0467 | [环绕字符串中唯一的子字符串](https://leetcode.com/problems/unique-substrings-in-wraparound-string/) |  | 字符串、动态规划 | 中等 |
+| 1438 | [绝对差不超过限制的最长连续子数组](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |  | 队列、数组、有序集合、滑动窗口、单调队列、堆（优先队列） | 中等 |
 

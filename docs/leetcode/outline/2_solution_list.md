@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解（字典排序）
 
-已完成 27 道
+已完成 28 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -13,6 +13,7 @@
 | 0007 | [整数反转](https://leetcode.com/problems/reverse-integer/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0007) | 数学 | 中等 |
 | 0008 | [字符串转换整数 (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0008) | 字符串 | 中等 |
 | 0009 | [回文数](https://leetcode.com/problems/palindrome-number/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0009) | 数学 | 简单 |
+| 0013 | [罗马数字转整数](https://leetcode.com/problems/roman-to-integer/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0013) | 哈希表、数学、字符串 | 简单 |
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0033) | 数组、二分查找 | 中等 |
 | 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
 | 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/fe/leetcode/problem/0063) | 数组、动态规划、矩阵 | 中等 |
