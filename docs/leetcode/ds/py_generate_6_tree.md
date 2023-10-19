@@ -9,7 +9,7 @@
 
 ## 相关题目
 
-### 2.7.1 二叉树的遍历
+### 二叉树的遍历
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -36,7 +36,7 @@
 | 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 | 困难 |
 | 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |  | 栈、树、深度优先搜索、链表、二叉树 | 中等 |
 
-### 2.7.2 二叉树的还原
+### 二叉树的还原
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -44,7 +44,7 @@
 | 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 | 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 
-### 2.7.3 二叉搜索树
+### 二叉搜索树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -61,7 +61,7 @@
 | 0108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |  | 树、二叉搜索树、数组、分治、二叉树 | 简单 |
 | 0110 | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree/) |  | 树、深度优先搜索、二叉树 | 简单 |
 
-### 2.7.4 线段树
+### 线段树
 
 #### 单点更新
 
@@ -98,7 +98,7 @@
 | 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/) |  | 数组、扫描线 | 困难 |
 | 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/) |  | 线段树、数组、有序集合、扫描线 | 困难 |
 
-### 2.7.5 树状数组
+### 树状数组
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -111,7 +111,7 @@
 | 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  | 位运算、数组、前缀和 | 中等 |
 | 1893 | [检查是否区域内所有整数都被覆盖](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) |  | 数组、哈希表、前缀和 | 简单 |
 
-### 2.7.6 并查集
+### 并查集
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

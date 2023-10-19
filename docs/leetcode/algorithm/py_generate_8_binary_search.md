@@ -195,7 +195,7 @@ function bsearch(arr, value) {
 
 ## 相关题目
 
-#### 二分下标
+### 二分下标
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -217,7 +217,7 @@ function bsearch(arr, value) {
 | 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
 | 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
 
-#### 二分答案
+### 二分答案
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -228,7 +228,7 @@ function bsearch(arr, value) {
 | 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  | 数组、二分查找、排序 | 中等 |
 | 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
 
-#### 复杂的二分查找问题
+### 复杂的二分查找问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

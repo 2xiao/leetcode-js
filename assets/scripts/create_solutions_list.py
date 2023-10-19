@@ -194,6 +194,7 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
     category_h3 = None
     category_h4 = None
     category_h6 = None
+    category_h2_origin_path = None
     category_h2_file_path = None
     category_h2_file_content = ""
     category_file_content = ""
@@ -206,9 +207,9 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
         if match:
             title_size, title_content =  match.group(1,2)
             if title_size == "##":
-                if category_h2 and category_h2_file_path and category_h2_file_content:
-                    category_h2_origin_file = open(category_h2_file_path + '.md', encoding='utf-8')
-                    category_h2_file = open(category_h2_file_path + '_final.md', 'w', encoding='utf-8')
+                if category_h2 and category_h2_origin_path and category_h2_file_path and category_h2_file_content:
+                    category_h2_origin_file = open(category_h2_origin_path, encoding='utf-8')
+                    category_h2_file = open(category_h2_file_path, 'w', encoding='utf-8')
                     
                     # 将文字部分和相关题目部分拼接起来
                     category_h2_file.writelines(category_h2_origin_file.readlines())
@@ -219,12 +220,14 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                     category_h2_file.close()
 
                     category_h2 = None
+                    category_h2_origin_path = None
                     category_h2_file_path = None
                     category_h2_file_content = ""
-                pattern1 = re.compile(r'\[(.*)\]\((.*)\)')
+                pattern1 = re.compile(r'\[(.*)\]\((.*)\)\((.*)\)')
                 match1 = pattern1.match(title_content)
                 if match1:
-                    category_h2, category_h2_file_path = match1.group(1,2)
+                    category_h2, category_h2_origin_path, category_h2_file_path = match1.group(1,2,3)
+                    
                     category_h2_file_content += "\n\n## 相关题目\n\n"
                     category_file_content += "## " + category_h2 + "\n\n"
                 else:
@@ -277,9 +280,9 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                 category_h2_file_content += table + "\n\n"
                 category_file_content += table + "\n\n"
                 
-    if category_h2 and category_h2_file_path and category_h2_file_content:
-        category_h2_origin_file = open(category_h2_file_path + '.md', encoding='utf-8')
-        category_h2_file = open(category_h2_file_path + '_final.md', 'w', encoding='utf-8')
+    if category_h2 and category_h2_origin_path and category_h2_file_path and category_h2_file_content:
+        category_h2_origin_file = open(category_h2_origin_path, encoding='utf-8')
+        category_h2_file = open(category_h2_file_path, 'w', encoding='utf-8')
         
         # 将文字部分和相关题目部分拼接起来
         category_h2_file.writelines(category_h2_origin_file.readlines())

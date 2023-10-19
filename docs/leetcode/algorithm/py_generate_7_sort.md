@@ -320,7 +320,7 @@ function swap(arr, i, j) {
 
 ## 相关题目
 
-### 3.8.1 数组排序算法
+### 数组排序算法
 
 #### 冒泡排序
 
@@ -405,7 +405,7 @@ function swap(arr, i, j) {
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
 
-### 3.8.2 链表排序
+### 链表排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
