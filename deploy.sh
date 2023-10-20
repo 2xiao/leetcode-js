@@ -17,9 +17,9 @@ git init
 git add -A
 git commit -m 'deploy'
 git remote add origin https://github.com/2xiao/leetcode-js.git
-git push origin master -f
+git push origin master:gh-pages -f
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git gh-pages
 #
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 # git push -f 2xiao@github.com:https://github.com/2xiao/leetcode-js.git master:gh-pages

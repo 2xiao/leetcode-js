@@ -18,7 +18,7 @@ module.exports = {
         // 假如文档不是放在仓库的根目录下：
         docsDir: 'docs',
         // 假如文档放在一个特定的分支下：
-        docsBranch: 'sourcecode',
+        docsBranch: 'master',
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
@@ -82,6 +82,7 @@ module.exports = {
                     children: [
                         {
                             title: 'LeetCode 题解',
+                            collapsable: true,
                             children: [
                                 '/leetcode/solution/0001-0099',
                                 '/leetcode/solution/0100-0199',
@@ -179,14 +180,14 @@ module.exports = {
             ],
             '/react/': [
                 {
-                    title: 'React源码',
+                    title: 'React核心原理',
                     collapsable: true,
                     children: [
                         '/react/react/1',
                     ]
                 },
                 {
-                    title: 'React Hooks核心原理',
+                    title: '手写React18',
                     collapsable: true,
                     children: [
                         '/react/hooks/1',
