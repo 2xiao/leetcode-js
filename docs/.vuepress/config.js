@@ -4,7 +4,7 @@ module.exports = {
     shouldPrefetch: () => false,
     description: 'LeetCode + JS​​​',
     themeConfig: {
-        // logo: '/assets/img/logo.png',
+        logo: '/assets/images/leetcode-js-logo.png',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: '2xiao/leetcode-js',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为

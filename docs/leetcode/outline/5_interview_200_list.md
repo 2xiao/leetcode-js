@@ -7,7 +7,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
-| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) |  | 数组、矩阵、模拟 | 中等 |
+| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟 | 中等 |
 | 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 |
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 |
 | 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 |

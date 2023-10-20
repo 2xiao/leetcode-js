@@ -198,8 +198,8 @@ export default {
 
 #kitty 
   position fixed !important
-  right 10px
-  bottom 10px
+  right -130px
+  bottom 30px
   position relative
   height 297px
   width 507.5px

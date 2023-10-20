@@ -3,7 +3,7 @@ title: "目录"
 ---
 
 <p align="center">
-  <img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="400"/>
+  <img src="../../assets/images/leetcode-js-logo.png" alt="logo" height="400"/>
 </p>
 
 ---
@@ -59,7 +59,7 @@ title: "目录"
 
 ### 关于书中的代码
 
-代码都放在 [github repo](https://github.com/2xiao/fe) 中，按题号可以搜索到题目。每道题分四个部分解析：题目、题目大意、解题思路、代码。
+代码都放在 [github repo](https://github.com/2xiao/leetcode-js) 中，按题号可以搜索到题目。每道题分四个部分解析：题目、题目大意、解题思路、代码。
 
 ---
 

@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解（字典排序）
 
-已完成 28 道
+已完成 29 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -26,6 +26,7 @@
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | 数组、前缀和 | 中等 |
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组 | 简单 |
+| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟 | 中等 |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
 | 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | 数组、前缀和 | 简单 |
 | LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/LCP_53) | 位运算、数组、动态规划、状态压缩 | 困难 |
