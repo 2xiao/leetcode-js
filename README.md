@@ -17,7 +17,7 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 
 
 <p align="center">
-  <img src="http://mat1.gtimg.com/www/js/news/leetcode-js-logo.png" alt="logo" height="400"/>
+  <img src="./assets/images/leetcode-js-logo.png" alt="logo" height="400"/>
 </p>
 
 ### 目录
