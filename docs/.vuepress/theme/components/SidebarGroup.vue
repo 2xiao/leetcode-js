@@ -10,7 +10,7 @@
       `depth-${depth}`
     ]"
   >
-    <KittySleep v-if="open"></KittySleep>
+    <!-- <KittySleep v-if="open"></KittySleep> -->
     <router-link
       v-if="item.path"
       class="sidebar-heading clickable"
@@ -125,7 +125,11 @@ export default {
       border-left-color $accentColor
     &:hover
       color $accentColor
-
+.sidebar-group-items .sidebar-heading span
+  font-size 1.1em
+  color $textColor
+  font-weight 400
+  display inline-block
 .sidebar-group-items
   transition height .1s ease-out
   font-size 0.95em

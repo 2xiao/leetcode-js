@@ -4,7 +4,7 @@ module.exports = {
     shouldPrefetch: () => false,
     description: 'LeetCode + JS​​​',
     themeConfig: {
-        logo: '/assets/images/leetcode-js-logo.png',
+        // logo: '/assets/images/leetcode-js-logo.png',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
         repo: '2xiao/leetcode-js',
         // 自定义仓库链接文字。默认从 `themeConfig.repo` 中自动推断为
@@ -80,16 +80,21 @@ module.exports = {
                     title: '第四章 精选题集',
                     collapsable: true,
                     children: [
-                        '/leetcode/solution/0001-0099',
-                        '/leetcode/solution/0100-0199',
-                        '/leetcode/solution/0200-0299',
-                        '/leetcode/solution/0300-0399',
-                        '/leetcode/solution/0400-0499',
-                        '/leetcode/solution/0500-0599',
-                        '/leetcode/solution/0600-0699',
-                        '/leetcode/solution/0700-0799',
-                        '/leetcode/solution/0800-0899',
-                        '/leetcode/solution/0900-0999',
+                        {
+                            title: 'LeetCode 题解',
+                            children: [
+                                '/leetcode/solution/0001-0099',
+                                '/leetcode/solution/0100-0199',
+                                '/leetcode/solution/0200-0299',
+                                '/leetcode/solution/0300-0399',
+                                '/leetcode/solution/0400-0499',
+                                '/leetcode/solution/0500-0599',
+                                '/leetcode/solution/0600-0699',
+                                '/leetcode/solution/0700-0799',
+                                '/leetcode/solution/0800-0899',
+                                '/leetcode/solution/0900-0999',
+                            ]
+                        },
                         '/leetcode/solution/Offer',
                         '/leetcode/solution/Offer-II',
                         '/leetcode/solution/Interviews',
@@ -190,7 +195,7 @@ module.exports = {
             ],
             '/run/': [
                 {
-                    title: '美国',
+                    title: '在美国',
                     collapsable: true,
                     children: [
                         '/run/usa/4_where_to_go',
@@ -204,7 +209,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '欧洲',
+                    title: '在欧洲',
                     collapsable: true,
                     children: [
                         '/run/europe/0_why',
@@ -212,7 +217,7 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '杂记',
+                    title: '在北京',
                     collapsable: true,
                     children: [
                         '/run/blog/work_overtime',
