@@ -1,7 +1,6 @@
 <template>
   <section
     class="sidebar-group"
-    :style="{'padding-top': open ? '10px' : ''}"
     :class="[
       {
         collapsable,
@@ -10,7 +9,6 @@
       `depth-${depth}`
     ]"
   >
-    <!-- <KittySleep v-if="open"></KittySleep> -->
     <router-link
       v-if="item.path"
       class="sidebar-heading clickable"
@@ -58,12 +56,11 @@
 <script>
 import { isActive } from '../util'
 import DropdownTransition from '@theme/components/DropdownTransition.vue'
-import KittySleep from '@theme/components/KittySleep.vue'
 
 export default {
   name: 'SidebarGroup',
   props: ['item', 'open', 'collapsable', 'depth'],
-  components: { DropdownTransition, KittySleep },
+  components: { DropdownTransition },
   // ref: https://vuejs.org/v2/guide/components-edge-cases.html#Circular-References-Between-Components
   beforeCreate () {
     this.$options.components.SidebarLinks = require('./SidebarLinks.vue').default

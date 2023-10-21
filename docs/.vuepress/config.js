@@ -104,6 +104,22 @@ module.exports = {
                 },
                 
             ],
+            '/react/': [
+                {
+                    title: 'React核心原理',
+                    collapsable: true,
+                    children: [
+                        '/react/1.1',
+                    ]
+                },
+                {
+                    title: '手写React18',
+                    collapsable: true,
+                    children: [
+                        '/react/4.1',
+                    ]
+                }
+            ],
             // '/interview/': [
             //     {
             //         title: '面试这件事',
@@ -175,22 +191,6 @@ module.exports = {
                     collapsable: true,
                     children: [
                         '/front-end/browser/1',
-                    ]
-                }
-            ],
-            '/react/': [
-                {
-                    title: 'React核心原理',
-                    collapsable: true,
-                    children: [
-                        '/react/react/1',
-                    ]
-                },
-                {
-                    title: '手写React18',
-                    collapsable: true,
-                    children: [
-                        '/react/hooks/1',
                     ]
                 }
             ],
