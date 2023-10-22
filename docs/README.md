@@ -1,6 +1,6 @@
 ---
 home: true
-actionText: 快速阅读 →
+actionText: 开始阅读 →
 actionLink: /leetcode/
 features:
   - title: LeetCode题解

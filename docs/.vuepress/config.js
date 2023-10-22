@@ -1,8 +1,23 @@
 module.exports = {
     title: '前端算法通关指南',
+    description: 'LeetCode + JS​​​',
     base: '/leetcode-js/',
     shouldPrefetch: () => false,
-    description: 'LeetCode + JS​​​',
+    // 多语言支持
+    // locales: {
+    //     // 键名是该语言所属的子路径
+    //     // 作为特例，默认语言可以使用 '/' 作为其路径。
+    //     '/': {
+    //         lang: 'zh-CN', // 将会被设置为 <html> 的 lang 属性
+    //         title: '前端算法通关指南',
+    //         description: 'LeetCode + JS​​​',
+    //     },
+    //     '/en/': {
+    //         lang: 'en-US',
+    //         title: 'LeetCode + JS',
+    //         description: 'Know Your Game'
+    //     }
+    // },
     themeConfig: {
         // logo: '/assets/images/leetcode-js-logo.png',
         // 假定是 GitHub. 同时也可以是一个完整的 GitLab URL
@@ -106,17 +121,12 @@ module.exports = {
             ],
             '/react/': [
                 {
-                    title: 'React核心原理',
-                    collapsable: true,
-                    children: [
-                        '/react/1.1',
-                    ]
-                },
-                {
                     title: '手写React18',
                     collapsable: true,
                     children: [
-                        '/react/4.1',
+                        '/react/',
+                        '/react/1.1',
+                        '/react/2.1',
                     ]
                 }
             ],
