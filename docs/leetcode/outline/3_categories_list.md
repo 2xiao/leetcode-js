@@ -1,8 +1,81 @@
 # 1.4 LeetCode 题解（分类排序 ★★★）
 
-## 2.1 数组
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-### 数组操作
+
+- [数组](#%E6%95%B0%E7%BB%84)
+  - [数组操作](#%E6%95%B0%E7%BB%84%E6%93%8D%E4%BD%9C)
+  - [二维数组](#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84)
+- [链表](#%E9%93%BE%E8%A1%A8)
+- [栈](#%E6%A0%88)
+  - [栈基础题目](#%E6%A0%88%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
+  - [单调栈](#%E5%8D%95%E8%B0%83%E6%A0%88)
+- [队列](#%E9%98%9F%E5%88%97)
+  - [队列基础题目](#%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
+  - [优先队列](#%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97)
+- [哈希表](#%E5%93%88%E5%B8%8C%E8%A1%A8)
+- [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
+  - [字符串基础题目](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
+  - [单模式串匹配](#%E5%8D%95%E6%A8%A1%E5%BC%8F%E4%B8%B2%E5%8C%B9%E9%85%8D)
+  - [字典树](#%E5%AD%97%E5%85%B8%E6%A0%91)
+- [树](#%E6%A0%91)
+  - [二叉树的遍历](#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86)
+  - [二叉树的还原](#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BF%98%E5%8E%9F)
+  - [二叉搜索树](#%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91)
+  - [线段树](#%E7%BA%BF%E6%AE%B5%E6%A0%91)
+  - [树状数组](#%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84)
+  - [并查集](#%E5%B9%B6%E6%9F%A5%E9%9B%86)
+- [图](#%E5%9B%BE)
+  - [图的深度优先搜索](#%E5%9B%BE%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
+  - [图的广度优先搜索](#%E5%9B%BE%E7%9A%84%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
+  - [图的拓扑排序](#%E5%9B%BE%E7%9A%84%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F)
+  - [图的最小生成树](#%E5%9B%BE%E7%9A%84%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91)
+  - [单源最短路径](#%E5%8D%95%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84)
+  - [多源最短路径](#%E5%A4%9A%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84)
+  - [次短路径](#%E6%AC%A1%E7%9F%AD%E8%B7%AF%E5%BE%84)
+  - [差分约束系统](#%E5%B7%AE%E5%88%86%E7%BA%A6%E6%9D%9F%E7%B3%BB%E7%BB%9F)
+  - [二分图基础题目](#%E4%BA%8C%E5%88%86%E5%9B%BE%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
+  - [二分图最大匹配](#%E4%BA%8C%E5%88%86%E5%9B%BE%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D)
+- [枚举算法](#%E6%9E%9A%E4%B8%BE%E7%AE%97%E6%B3%95)
+- [递归算法](#%E9%80%92%E5%BD%92%E7%AE%97%E6%B3%95)
+- [分治算法](#%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95)
+- [回溯算法](#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95)
+- [贪心算法](#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
+- [动态规划](#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
+  - [动态规划基础题目](#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
+  - [记忆化搜索](#%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2)
+  - [线性 DP](#%E7%BA%BF%E6%80%A7-dp)
+  - [背包问题](#%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98)
+  - [区间 DP](#%E5%8C%BA%E9%97%B4-dp)
+  - [树形 DP](#%E6%A0%91%E5%BD%A2-dp)
+  - [状态压缩 DP](#%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9-dp)
+  - [计数 DP](#%E8%AE%A1%E6%95%B0-dp)
+  - [数位 DP](#%E6%95%B0%E4%BD%8D-dp)
+  - [概率 DP](#%E6%A6%82%E7%8E%87-dp)
+- [位运算](#%E4%BD%8D%E8%BF%90%E7%AE%97)
+- [排序](#%E6%8E%92%E5%BA%8F)
+  - [数组排序算法](#%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
+  - [链表排序](#%E9%93%BE%E8%A1%A8%E6%8E%92%E5%BA%8F)
+- [二分查找](#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
+  - [二分下标](#%E4%BA%8C%E5%88%86%E4%B8%8B%E6%A0%87)
+  - [二分答案](#%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88)
+  - [复杂的二分查找问题](#%E5%A4%8D%E6%9D%82%E7%9A%84%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E9%97%AE%E9%A2%98)
+- [双指针](#%E5%8F%8C%E6%8C%87%E9%92%88)
+  - [数组双指针](#%E6%95%B0%E7%BB%84%E5%8F%8C%E6%8C%87%E9%92%88)
+  - [链表双指针](#%E9%93%BE%E8%A1%A8%E5%8F%8C%E6%8C%87%E9%92%88)
+- [滑动窗口](#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3)
+  - [固定长度窗口](#%E5%9B%BA%E5%AE%9A%E9%95%BF%E5%BA%A6%E7%AA%97%E5%8F%A3)
+  - [不定长度窗口](#%E4%B8%8D%E5%AE%9A%E9%95%BF%E5%BA%A6%E7%AA%97%E5%8F%A3)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+
+
+---
+### 数组
+[相关知识详解](../ds/py_generate_0_array.md)
+#### 数组操作
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -12,7 +85,7 @@
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组 | 简单 |
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | 数组、前缀和 | 中等 |
 
-### 二维数组
+#### 二维数组
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -23,8 +96,10 @@
 | 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 |
 | 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  | 数组、矩阵、模拟 | 中等 |
 
-## 2.2 链表
 
+---
+### 链表
+[相关知识详解](../ds/py_generate_1_linked_list.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) |  | 设计、链表 | 中等 |
@@ -40,9 +115,11 @@
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  | 哈希表、链表 | 中等 |
 | 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) |  | 链表、双指针 | 中等 |
 
-## 2.3 栈
 
-### 栈基础题目
+---
+### 栈
+[相关知识详解](../ds/py_generate_2_stack.md)
+#### 栈基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -60,7 +137,7 @@
 | 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | 栈、递归、链表、双指针 | 简单 |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | 栈、字符串 | 中等 |
 
-### 单调栈
+#### 单调栈
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -73,9 +150,11 @@
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
 | 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | 栈、数组、动态规划、矩阵、单调栈 | 困难 |
 
-## 2.4 队列
 
-### 队列基础题目
+---
+### 队列
+[相关知识详解](../ds/py_generate_3_queue.md)
+#### 队列基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -83,7 +162,7 @@
 | 0346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream/) |  | 设计、队列、数组、数据流 | 简单 |
 | 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | 栈、设计、队列 | 简单 |
 
-### 优先队列
+#### 优先队列
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -97,8 +176,10 @@
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | 树状数组、线段树、数组、分治、有序集合、扫描线、堆（优先队列） | 困难 |
 
-## 2.5 哈希表
 
+---
+### 哈希表
+[相关知识详解](../ds/py_generate_4_hash_table.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) |  | 设计、数组、哈希表、链表、哈希函数 | 简单 |
@@ -134,9 +215,11 @@
 | 0359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter/) |  | 设计、哈希表 | 简单 |
 | 0811 | [子域名访问计数](https://leetcode.com/problems/subdomain-visit-count/) |  | 数组、哈希表、字符串、计数 | 中等 |
 
-## 2.6 字符串
 
-### 字符串基础题目
+---
+### 字符串
+[相关知识详解](../ds/py_generate_5_string.md)
+#### 字符串基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -151,7 +234,7 @@
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  | 数学、字符串、模拟 | 中等 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  | 字典树、字符串 | 简单 |
 
-### 单模式串匹配
+#### 单模式串匹配
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -163,7 +246,7 @@
 | 1408 | [数组中的字符串匹配](https://leetcode.com/problems/string-matching-in-an-array/) |  | 数组、字符串、字符串匹配 | 简单 |
 | 2156 | [查找给定哈希值的子串](https://leetcode.com/problems/find-substring-with-given-hash-value/) |  | 字符串、滑动窗口、哈希函数、滚动哈希 | 困难 |
 
-### 字典树
+#### 字典树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -180,9 +263,11 @@
 | 0676 | [实现一个魔法字典](https://leetcode.com/problems/implement-magic-dictionary/) |  | 设计、字典树、哈希表、字符串 | 中等 |
 | 0440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) |  | 字典树 | 困难 |
 
-## 2.7 树
 
-### 二叉树的遍历
+---
+### 树
+[相关知识详解](../ds/py_generate_6_tree.md)
+#### 二叉树的遍历
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -209,7 +294,7 @@
 | 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 | 困难 |
 | 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |  | 栈、树、深度优先搜索、链表、二叉树 | 中等 |
 
-### 二叉树的还原
+#### 二叉树的还原
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -217,7 +302,7 @@
 | 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 | 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 
-### 二叉搜索树
+#### 二叉搜索树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -234,9 +319,9 @@
 | 0108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |  | 树、二叉搜索树、数组、分治、二叉树 | 简单 |
 | 0110 | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree/) |  | 树、深度优先搜索、二叉树 | 简单 |
 
-### 线段树
+#### 线段树
 
-#### 单点更新
+单点更新
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -244,7 +329,7 @@
 | 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) |  | 设计、树状数组、线段树、数组 | 中等 |
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  | 数组、二分查找、动态规划、排序 | 困难 |
 
-#### 区间更新
+区间更新
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -255,7 +340,7 @@
 | 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  | 位运算、数组、前缀和 | 中等 |
 | 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query/) |  | 数组、二分查找、排序、扫描线、堆（优先队列） | 困难 |
 
-#### 区间合并
+区间合并
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -263,7 +348,7 @@
 | 0731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii/) |  | 设计、线段树、二分查找、有序集合 | 中等 |
 | 0732 | [我的日程安排表 III](https://leetcode.com/problems/my-calendar-iii/) |  | 设计、线段树、二分查找、有序集合 | 困难 |
 
-#### 扫描线问题
+扫描线问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -271,7 +356,7 @@
 | 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/) |  | 数组、扫描线 | 困难 |
 | 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/) |  | 线段树、数组、有序集合、扫描线 | 困难 |
 
-### 树状数组
+#### 树状数组
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -284,7 +369,7 @@
 | 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  | 位运算、数组、前缀和 | 中等 |
 | 1893 | [检查是否区域内所有整数都被覆盖](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) |  | 数组、哈希表、前缀和 | 简单 |
 
-### 并查集
+#### 并查集
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -302,9 +387,11 @@
 | 0803 | [打砖块](https://leetcode.com/problems/bricks-falling-when-hit/) |  | 并查集、数组、矩阵 | 困难 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |
 
-## 2.8 图
 
-### 图的深度优先搜索
+---
+### 图
+[相关知识详解](../ds/py_generate_7_graph.md)
+#### 图的深度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -342,7 +429,7 @@
 | 剑指 Offer 13 | [机器人的运动范围](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/) |  | 深度优先搜索、广度优先搜索、动态规划 | 中等 |
 | 0529 | [扫雷游戏](https://leetcode.com/problems/minesweeper/) |  | 深度优先搜索、广度优先搜索、数组、矩阵 | 中等 |
 
-### 图的广度优先搜索
+#### 图的广度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -365,7 +452,7 @@
 | 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
 | 剑指 Offer 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) |  | 树、广度优先搜索、二叉树 | 中等 |
 
-### 图的拓扑排序
+#### 图的拓扑排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -376,7 +463,7 @@
 | 0802 | [找到最终的安全状态](https://leetcode.com/problems/find-eventual-safe-states/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 |
 | 0851 | [喧闹和富有](https://leetcode.com/problems/loud-and-rich/) |  | 深度优先搜索、图、拓扑排序、数组 | 中等 |
 
-### 图的最小生成树
+#### 图的最小生成树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -384,7 +471,7 @@
 | 1631 | [最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/) |  | 深度优先搜索、广度优先搜索、并查集、数组、二分查找、矩阵、堆（优先队列） | 中等 |
 | 0778 | [水位上升的泳池中游泳](https://leetcode.com/problems/swim-in-rising-water/) |  | 深度优先搜索、广度优先搜索、并查集、数组、二分查找、矩阵、堆（优先队列） | 困难 |
 
-### 单源最短路径
+#### 单源最短路径
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -394,31 +481,33 @@
 | 1631 | [最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/) |  | 深度优先搜索、广度优先搜索、并查集、数组、二分查找、矩阵、堆（优先队列） | 中等 |
 | 1786 | [从第一个节点出发到最后一个节点的受限路径数](https://leetcode.com/problems/number-of-restricted-paths-from-first-to-last-node/) |  | 图、拓扑排序、动态规划、最短路、堆（优先队列） | 中等 |
 
-### 多源最短路径
+#### 多源最短路径
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0815 | [公交路线](https://leetcode.com/problems/bus-routes/) |  | 广度优先搜索、数组、哈希表 | 困难 |
 | 1162 | [地图分析](https://leetcode.com/problems/as-far-from-land-as-possible/) |  | 广度优先搜索、数组、动态规划、矩阵 | 中等 |
 
-### 次短路径
+#### 次短路径
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 2045 | [到达目的地的第二短时间](https://leetcode.com/problems/second-minimum-time-to-reach-destination/) |  | 广度优先搜索、图、最短路 | 困难 |
 
-### 差分约束系统
+#### 差分约束系统
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0995 | [K 连续位的最小翻转次数](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) |  | 位运算、队列、数组、前缀和、滑动窗口 | 困难 |
 | 1109 | [航班预订统计](https://leetcode.com/problems/corporate-flight-bookings/) |  | 数组、前缀和 | 中等 |
 
-### 二分图基础题目
+#### 二分图基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0785 | [判断二分图](https://leetcode.com/problems/is-graph-bipartite/) |  | 深度优先搜索、广度优先搜索、并查集、图 | 中等 |
+
+#### 二分图最大匹配
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -426,8 +515,10 @@
 | 1947 | [最大兼容性评分和](https://leetcode.com/problems/maximum-compatibility-score-sum/) |  | 位运算、数组、动态规划、回溯、状态压缩 | 中等 |
 | 1595 | [连通两组点的最小成本](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/) |  | 位运算、数组、动态规划、状态压缩、矩阵 | 困难 |
 
-## 3.1 枚举算法
 
+---
+### 枚举算法
+[相关知识详解](../algorithm/py_generate_0_enumeration.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
@@ -440,8 +531,10 @@
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  | 数组、动态规划、矩阵 | 中等 |
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  | 数组、哈希表、前缀和 | 中等 |
 
-## 3.2 递归算法
 
+---
+### 递归算法
+[相关知识详解](../algorithm/py_generate_1_recursion.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
@@ -461,8 +554,10 @@
 | 0095 | [不同的二叉搜索树 II](https://leetcode.com/problems/unique-binary-search-trees-ii/) |  | 树、二叉搜索树、动态规划、回溯、二叉树 | 中等 |
 | 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |  | 递归、数学 | 简单 |
 
-## 3.3 分治算法
 
+---
+### 分治算法
+[相关知识详解](../algorithm/py_generate_2_divide_conquer.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
@@ -474,8 +569,10 @@
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  | 字典树、字符串 | 简单 |
 | 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) |  | 栈、树、二叉搜索树、递归、二叉树、单调栈 | 中等 |
 
-## 3.4 回溯算法
 
+---
+### 回溯算法
+[相关知识详解](../algorithm/py_generate_3_backtracking.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | 数组、回溯 | 中等 |
@@ -495,8 +592,10 @@
 | 0079 | [单词搜索](https://leetcode.com/problems/word-search/) |  | 数组、回溯、矩阵 | 中等 |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | 数组、数学、回溯 | 困难 |
 
-## 3.5 贪心算法
 
+---
+### 贪心算法
+[相关知识详解](../algorithm/py_generate_4_greed.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0455 | [分发饼干](https://leetcode.com/problems/assign-cookies/) |  | 贪心、数组、双指针、排序 | 简单 |
@@ -525,9 +624,11 @@
 | 0861 | [翻转矩阵后的得分](https://leetcode.com/problems/score-after-flipping-matrix/) |  | 贪心、位运算、数组、矩阵 | 中等 |
 | 0670 | [最大交换](https://leetcode.com/problems/maximum-swap/) |  | 贪心、数学 | 中等 |
 
-## 3.6 动态规划
 
-### 动态规划基础题目
+---
+### 动态规划
+[相关知识详解](../algorithm/py_generate_5_dynamic_programming.md)
+#### 动态规划基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -535,7 +636,7 @@
 | 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
 | 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
 
-### 记忆化搜索
+#### 记忆化搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -549,9 +650,9 @@
 | 0913 | [猫和老鼠](https://leetcode.com/problems/cat-and-mouse/) |  | 图、拓扑排序、记忆化搜索、数学、动态规划、博弈 | 困难 |
 | 0329 | [矩阵中的最长递增路径](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、数组、动态规划、矩阵 | 困难 |
 
-### 线性 DP
+#### 线性 DP
 
-#### 单串线性 DP 问题
+单串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -598,7 +699,7 @@
 | 0309 | [最佳买卖股票时机含冷冻期](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |  | 数组、动态规划 | 中等 |
 | 0714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |  | 贪心、数组 | 中等 |
 
-#### 双串线性 DP 问题
+双串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -613,7 +714,7 @@
 | 0115 | [不同的子序列](https://leetcode.com/problems/distinct-subsequences/) |  | 字符串、动态规划 | 困难 |
 | 0087 | [扰乱字符串](https://leetcode.com/problems/scramble-string/) |  | 字符串、动态规划 | 困难 |
 
-#### 矩阵线性 DP 问题
+矩阵线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -630,7 +731,7 @@
 | 面试题 17.24 | [最大子矩阵](https://leetcode.cn/problems/max-submatrix-lcci/) |  | 数组、动态规划、矩阵、前缀和 | 困难 |
 | 1444 | [切披萨的方案数](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) |  | 记忆化搜索、数组、动态规划、矩阵 | 困难 |
 
-#### 无串线性 DP 问题
+无串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -640,9 +741,9 @@
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0343 | [整数拆分](https://leetcode.com/problems/integer-break/) |  | 数学、动态规划 | 中等 |
 
-### 背包问题
+#### 背包问题
 
-#### 0-1 背包问题
+0-1 背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -650,7 +751,7 @@
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | 数组、动态规划、回溯 | 中等 |
 | 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii/) |  | 数组、动态规划 | 中等 |
 
-#### 完全背包问题
+完全背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -662,16 +763,16 @@
 | 0638 | [大礼包](https://leetcode.com/problems/shopping-offers/) |  | 位运算、记忆化搜索、数组、动态规划、回溯、状态压缩 | 中等 |
 | 1449 | [数位成本和为目标值的最大数字](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/) |  | 数组、动态规划 | 困难 |
 
-#### 多重背包问题
+多重背包问题
 
-#### 分组背包问题
+分组背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 1155 | [掷骰子等于目标和的方法数](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |  | 动态规划 | 中等 |
 | 2585 | [获得分数的方法数](https://leetcode.com/problems/number-of-ways-to-earn-points/) |  | 数组、动态规划 | 困难 |
 
-#### 多维背包问题
+多维背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -679,7 +780,7 @@
 | 0879 | [盈利计划](https://leetcode.com/problems/profitable-schemes/) |  | 数组、动态规划 | 困难 |
 | 1995 | [统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets/) |  | 数组、枚举 | 简单 |
 
-### 区间 DP
+#### 区间 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -698,9 +799,9 @@
 | 0730 | [统计不同回文子序列](https://leetcode.com/problems/count-different-palindromic-subsequences/) |  | 字符串、动态规划 | 困难 |
 | 2104 | [子数组范围和](https://leetcode.com/problems/sum-of-subarray-ranges/) |  | 栈、数组、单调栈 | 中等 |
 
-### 树形 DP
+#### 树形 DP
 
-#### 固定根的树形 DP
+固定根的树形 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -720,7 +821,7 @@
 | 1273 | [删除树节点](https://leetcode.com/problems/delete-tree-nodes/) |  | 树、深度优先搜索、广度优先搜索 | 中等 |
 | 1519 | [子树中标签相同的节点数](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) |  | 树、深度优先搜索、广度优先搜索、哈希表、计数 | 中等 |
 
-#### 不定根的树形 DP
+不定根的树形 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -728,7 +829,7 @@
 | 0834 | [树中距离之和](https://leetcode.com/problems/sum-of-distances-in-tree/) |  | 树、深度优先搜索、图、动态规划 | 困难 |
 | 2581 | [统计可能的树根数目](https://leetcode.com/problems/count-number-of-possible-root-nodes/) |  | 树、深度优先搜索、哈希表、动态规划 | 困难 |
 
-### 状态压缩 DP
+#### 状态压缩 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -754,7 +855,7 @@
 | 0691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word/) |  | 位运算、数组、字符串、动态规划、回溯、状态压缩 | 困难 |
 | 0982 | [按位与为零的三元组](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) |  | 位运算、数组、哈希表 | 困难 |
 
-### 计数 DP
+#### 计数 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -769,7 +870,7 @@
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  | 记忆化搜索、数学、动态规划 | 简单 |
 
-### 数位 DP
+#### 数位 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -787,7 +888,7 @@
 | 1742 | [盒子中小球的最大数量](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) |  | 哈希表、数学、计数 | 简单 |
 | 面试题 17.06 | [2出现的次数](https://leetcode.cn/problems/number-of-2s-in-range-lcci/) |  | 递归、数学、动态规划 | 困难 |
 
-### 概率 DP
+#### 概率 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -800,8 +901,10 @@
 | 1377 | [T 秒后青蛙的位置](https://leetcode.com/problems/frog-position-after-t-seconds/) |  | 树、深度优先搜索、广度优先搜索、图 | 困难 |
 | 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/) |  | 数学、动态规划、概率与统计 | 中等 |
 
-## 3.7 位运算
 
+---
+### 位运算
+[相关知识详解](../algorithm/py_generate_6_bit.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0504 | [七进制数](https://leetcode.com/problems/base-7/) |  | 数学 | 简单 |
@@ -822,37 +925,39 @@
 | 0078 | [子集](https://leetcode.com/problems/subsets/) |  | 位运算、数组、回溯 | 中等 |
 | 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) |  | 位运算、数组、回溯 | 中等 |
 
-## 3.8 排序
 
-### 数组排序算法
+---
+### 排序
+[相关知识详解](../algorithm/py_generate_7_sort.md)
+#### 数组排序算法
 
-#### 冒泡排序
+冒泡排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
 | 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | 数组、双指针 | 简单 |
 
-#### 选择排序
+选择排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
 
-#### 插入排序
+插入排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
 
-#### 希尔排序
+希尔排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
 | 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  | 数组、排序、堆（优先队列） | 简单 |
 
-#### 归并排序
+归并排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -861,14 +966,14 @@
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
 | 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
 
-#### 快速排序
+快速排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | 数组、哈希表、分治、计数、排序 | 简单 |
 
-#### 堆排序
+堆排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -876,14 +981,14 @@
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 |
 
-#### 计数排序
+计数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
 | 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  | 数组、哈希表、计数排序、排序 | 简单 |
 
-#### 桶排序
+桶排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -891,14 +996,14 @@
 | 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | 数组、桶排序、有序集合、排序、滑动窗口 | 困难 |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
 
-#### 基数排序
+基数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
 | 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | 贪心、数组、计数排序、排序 | 简单 |
 
-#### 其他排序
+其他排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -909,7 +1014,7 @@
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
 
-### 链表排序
+#### 链表排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -918,9 +1023,11 @@
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
 | 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | 链表、排序 | 中等 |
 
-## 3.9 二分查找
 
-### 二分下标
+---
+### 二分查找
+[相关知识详解](../algorithm/py_generate_8_binary_search.md)
+#### 二分下标
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -942,7 +1049,7 @@
 | 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
 | 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
 
-### 二分答案
+#### 二分答案
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -953,7 +1060,7 @@
 | 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  | 数组、二分查找、排序 | 中等 |
 | 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
 
-### 复杂的二分查找问题
+#### 复杂的二分查找问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -971,11 +1078,13 @@
 | 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | 数组、二分查找 | 中等 |
 | 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  | 数组、二分查找 | 中等 |
 
-## 3.10 双指针
 
-### 数组双指针
+---
+### 双指针
+[相关知识详解](../algorithm/py_generate_9_two_pointer.md)
+#### 数组双指针
 
-#### 对撞指针
+对撞指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -998,7 +1107,7 @@
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
 | 0443 | [压缩字符串](https://leetcode.com/problems/string-compression/) |  | 双指针、字符串 | 中等 |
 
-#### 快慢指针
+快慢指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -1013,7 +1122,7 @@
 | 0978 | [最长湍流子数组](https://leetcode.com/problems/longest-turbulent-subarray/) |  | 数组、动态规划、滑动窗口 | 中等 |
 | 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | 数组、双指针、排序 | 简单 |
 
-#### 分离双指针
+分离双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -1023,7 +1132,7 @@
 | 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler/) |  | 数组、双指针、排序 | 中等 |
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
 
-### 链表双指针
+#### 链表双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -1037,9 +1146,11 @@
 | 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
 
-## 3.11 滑动窗口
 
-### 固定长度窗口
+---
+### 滑动窗口
+[相关知识详解](../algorithm/py_generate_10_slide_window.md)
+#### 固定长度窗口
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -1059,7 +1170,7 @@
 | 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | 队列、数组、滑动窗口、单调队列、堆（优先队列） | 困难 |
 | 0480 | [滑动窗口中位数](https://leetcode.com/problems/sliding-window-median/) |  | 数组、哈希表、滑动窗口、堆（优先队列） | 困难 |
 
-### 不定长度窗口
+#### 不定长度窗口
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

@@ -196,6 +196,7 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
     category_h6 = None
     category_h2_origin_path = None
     category_h2_file_path = None
+    page_path = None
     category_h2_file_content = ""
     category_file_content = ""
     
@@ -222,25 +223,29 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                     category_h2 = None
                     category_h2_origin_path = None
                     category_h2_file_path = None
+                    page_path = None
                     category_h2_file_content = ""
                 pattern1 = re.compile(r'\[(.*)\]\((.*)\)\((.*)\)')
                 match1 = pattern1.match(title_content)
                 if match1:
                     category_h2, category_h2_origin_path, category_h2_file_path = match1.group(1,2,3)
-                    
+                    page_path = '../' + category_h2_file_path
+                    category_h2_origin_path = '../../docs/leetcode/' + category_h2_origin_path
+                    category_h2_file_path = '../../docs/leetcode/' + category_h2_file_path
+
                     category_h2_file_content += "\n\n## 相关题目\n\n"
-                    category_file_content += "## " + category_h2 + "\n\n"
+                    category_file_content += "\n---\n### " + category_h2 + "\n[相关知识详解](" + page_path + ")\n"
                 else:
                     category_h2 = title_content
-                    category_file_content += "## " + category_h2 + "\n\n"
+                    category_file_content += "### " + category_h2 + "\n\n"
             elif title_size == "###":
                 category_h3 = title_content
                 category_h2_file_content += "### " + category_h3 + "\n\n"
-                category_file_content += "### " + category_h3 + "\n\n"
+                category_file_content += "#### " + category_h3 + "\n\n"
             elif title_size == "####":
                 category_h4 = title_content
                 category_h2_file_content += "#### " + category_h4 + "\n\n"
-                category_file_content += "#### " + category_h4 + "\n\n"
+                category_file_content += category_h4 + "\n\n"
             elif title_size == "######":
                 category_h6 = title_content
                 problem_titles = title_content.split('、')
@@ -294,7 +299,7 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
         
     if category_file_content:
         with open(categories_list_path, 'w', encoding='utf-8') as fi:
-            fi.write("# 1.4 LeetCode 题解（分类排序 ★★★）\n\n")
+            fi.write("# 1.4 LeetCode 题解（分类排序 ★★★）\n\n<!-- START doctoc -->\n<!-- END doctoc -->\n\n\n")
             fi.write(category_file_content)
         fi.close()
     
@@ -324,7 +329,7 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
             title_size, title_content =  match.group(1,2)
             if title_size == "##":
                 interview_h2 = title_content
-                interview_file_content += "## " + interview_h2 + "\n\n"
+                interview_file_content += "### " + interview_h2 + "\n\n"
             elif title_size == "###":
                 if interview_h3 and interview_h3_file_path and interview_h3_file_content:
                     interview_h3 = None
@@ -334,15 +339,15 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
                 match1 = pattern1.match(title_content)
                 if match1:
                     interview_h3, interview_h3_file_path = match1.group(1,2)
-                    interview_h3_file_content += "### " + interview_h3 + "\n\n"
-                    interview_file_content += "### " + interview_h3 + "\n\n"
+                    interview_h3_file_content += "#### " + interview_h3 + "\n\n"
+                    interview_file_content += "#### " + interview_h3 + "\n\n"
                 else:
                     interview_h3 = title_content
-                    interview_file_content += "### " + interview_h3 + "\n\n"
+                    interview_file_content += "#### " + interview_h3 + "\n\n"
             elif title_size == "####":
                 interview_h4 = title_content
-                interview_h3_file_content += "#### " + interview_h4 + "\n\n"
-                interview_file_content += "#### " + interview_h4 + "\n\n"
+                interview_h3_file_content += interview_h4 + "\n\n"
+                interview_file_content += interview_h4 + "\n\n"
             elif title_size == "######":
                 interview_h6 = title_content
                 problem_titles = title_content.split('、')
@@ -391,7 +396,7 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
             elif "interview_200_list.md" in interview_origin_list_path:
                 fi.write("# 1.6 LeetCode 面试最常考 200 题\n\n")
             fi.write(interview_file_content)
-            fi.write("\n## 参考资料\n")
+            fi.write("\n### 参考资料\n")
             fi.write("\n- 【清单】[CodeTop 企业题库](https://codetop.cc/home)\n")
         fi.close()
     

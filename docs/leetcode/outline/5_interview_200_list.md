@@ -1,8 +1,8 @@
 # 1.6 LeetCode 面试最常考 200 题
 
-## 01. 数组
+### 数组
 
-### 数组基础题目
+#### 数组基础
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -12,166 +12,9 @@
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 |
 | 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 |
 
-### 排序算法题目
+### 链表
 
-#### 冒泡排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | 数组、双指针 | 简单 |
-
-#### 选择排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
-
-#### 插入排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
-
-#### 希尔排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-
-#### 归并排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
-
-#### 快速排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | 数组、哈希表、分治、计数、排序 | 简单 |
-
-#### 堆排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 |
-
-#### 计数排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-
-#### 桶排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
-
-#### 基数排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
-
-#### 其他排序题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
-| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | 数组、排序 | 中等 |
-| 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  | 贪心、数组、字符串、排序 | 中等 |
-| 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
-| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
-
-### 二分查找题目
-
-#### 二分下标题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | 数组、二分查找 | 简单 |
-| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | 数组、二分查找 | 中等 |
-| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
-| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
-| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 |
-| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | 数组、二分查找 | 中等 |
-| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
-| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
-| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
-
-#### 二分答案题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | 数学、二分查找 | 简单 |
-| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | 递归、数学 | 中等 |
-| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
-
-#### 复杂的二分查找问题
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
-| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
-
-### 双指针题目
-
-#### 对撞指针题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) |  | 贪心、数组、双指针、二分查找、排序 | 中等 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
-| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
-| 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
-| 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) |  | 贪心、数组、双指针 | 中等 |
-| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
-| 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | 数组、双指针、排序 | 简单 |
-| 0443 | [压缩字符串](https://leetcode.com/problems/string-compression/) |  | 双指针、字符串 | 中等 |
-
-#### 快慢指针题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0026) | 数组、双指针 | 简单 |
-| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | 数组、双指针 | 简单 |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
-
-#### 分离双指针题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
-
-### 滑动窗口题目
-
-#### 固定长度窗口题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | 队列、数组、滑动窗口、单调队列、堆（优先队列） | 困难 |
-
-#### 不定长度窗口题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
-| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 |
-| 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |
-| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
-| 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | 队列、数组、二分查找、前缀和、滑动窗口、单调队列、堆（优先队列） | 困难 |
-| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
-
-## 02. 链表
-
-### 链表经典题目
+#### 链表经典
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -185,30 +28,9 @@
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  | 哈希表、链表 | 中等 |
 | 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) |  | 链表、双指针 | 中等 |
 
-### 链表排序题目
+### 栈
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | 链表、双指针、分治、排序、归并排序 | 中等 |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | 递归、链表 | 简单 |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
-
-### 链表双指针题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) |  | 哈希表、链表、双指针 | 简单 |
-| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | 哈希表、链表、双指针 | 中等 |
-| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 |
-| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | 链表、双指针 | 中等 |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 |
-| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) |  | 栈、递归、链表、双指针 | 中等 |
-| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
-
-## 03. 栈
-
-### 栈基础题目
+#### 栈基础
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -224,7 +46,7 @@
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | 栈、数组、单调栈 | 中等 |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | 栈、字符串 | 中等 |
 
-### 单调栈
+#### 单调栈
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -233,15 +55,15 @@
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
 | 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | 栈、数组、动态规划、矩阵、单调栈 | 困难 |
 
-## 04. 队列
+### 队列
 
-### 队列基础题目
+#### 队列基础
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | 栈、设计、队列 | 简单 |
 
-### 优先队列题目
+#### 优先队列
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -250,9 +72,9 @@
 | 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) |  | 设计、双指针、数据流、排序、堆（优先队列） | 困难 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
 
-## 05. 哈希表
+### 哈希表
 
-### 哈希表题目
+#### 哈希表
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -267,9 +89,9 @@
 | 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  | 位运算、数组、哈希表、数学、二分查找、排序 | 简单 |
 | 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) |  | 数组、哈希表、排序 | 简单 |
 
-## 06. 字符串
+### 字符串
 
-### 字符串基础题目
+#### 字符串基础
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -283,22 +105,22 @@
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  | 数学、字符串、模拟 | 中等 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  | 字典树、字符串 | 简单 |
 
-### 单模式串匹配题目
+#### 单模式串匹配
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern/) |  | 字符串、字符串匹配 | 简单 |
 
-### 字典树题目
+#### 字典树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  | 设计、字典树、哈希表、字符串 | 中等 |
 | 0440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) |  | 字典树 | 困难 |
 
-## 07. 树
+### 树
 
-### 二叉树的遍历题目
+#### 二叉树的遍历
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -322,14 +144,14 @@
 | 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 | 困难 |
 | 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |  | 栈、树、深度优先搜索、链表、二叉树 | 中等 |
 
-### 二叉树的还原题目
+#### 二叉树的还原
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 | 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 
-### 二叉搜索树题目
+#### 二叉搜索树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -340,15 +162,15 @@
 | 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) |  | 栈、树、深度优先搜索、二叉搜索树、链表、二叉树、双向链表 | 中等 |
 | 0110 | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree/) |  | 树、深度优先搜索、二叉树 | 简单 |
 
-### 并查集题目
+#### 并查集
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |
 
-## 08. 图
+### 图
 
-### 图的深度优先搜索题目
+#### 图的深度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -367,7 +189,7 @@
 | 0100 | [相同的树](https://leetcode.com/problems/same-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
 | 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
 
-### 图的广度优先搜索题目
+#### 图的广度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -382,15 +204,13 @@
 | 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
 | 剑指 Offer 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) |  | 树、广度优先搜索、二叉树 | 中等 |
 
-### 图的拓扑排序题目
+#### 图的拓扑排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 |
 
-## 09. 算法
-
-### 枚举算法题目
+### 枚举算法
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -399,7 +219,7 @@
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  | 数组、动态规划、矩阵 | 中等 |
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  | 数组、哈希表、前缀和 | 中等 |
 
-### 递归算法题目
+### 递归算法
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -414,7 +234,7 @@
 | 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
 | 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |  | 递归、数学 | 简单 |
 
-### 分治算法题目
+### 分治算法
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -425,7 +245,7 @@
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  | 字典树、字符串 | 简单 |
 | 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) |  | 栈、树、二叉搜索树、递归、二叉树、单调栈 | 中等 |
 
-### 回溯算法题目
+### 回溯算法
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -440,7 +260,7 @@
 | 0079 | [单词搜索](https://leetcode.com/problems/word-search/) |  | 数组、回溯、矩阵 | 中等 |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | 数组、数学、回溯 | 困难 |
 
-### 贪心算法题目
+### 贪心算法
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -452,14 +272,6 @@
 | 0135 | [分发糖果](https://leetcode.com/problems/candy/) |  | 贪心、数组 | 困难 |
 | 0134 | [加油站](https://leetcode.com/problems/gas-station/) |  | 贪心、数组 | 中等 |
 | 0670 | [最大交换](https://leetcode.com/problems/maximum-swap/) |  | 贪心、数学 | 中等 |
-
-### 位运算题目
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
-| 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  | 位运算、分治 | 简单 |
-| 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  | 位运算、数组、哈希表、数学、二分查找、排序 | 简单 |
 
 ### 动态规划
 
@@ -496,16 +308,202 @@
 | 0516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence/) |  | 字符串、动态规划 | 中等 |
 | 0329 | [矩阵中的最长递增路径](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、数组、动态规划、矩阵 | 困难 |
 
-## 10. 补充题目
+### 位运算
 
-#### 设计数据结构题目
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
+| 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  | 位运算、分治 | 简单 |
+| 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  | 位运算、数组、哈希表、数学、二分查找、排序 | 简单 |
+
+### 排序算法
+
+#### 冒泡排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | 数组、双指针 | 简单 |
+
+#### 选择排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
+
+#### 插入排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
+
+#### 希尔排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+
+#### 归并排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
+| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
+
+#### 快速排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | 数组、哈希表、分治、计数、排序 | 简单 |
+
+#### 堆排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 |
+
+#### 计数排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+
+#### 桶排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
+
+#### 基数排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
+
+#### 其他排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
+| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | 数组、排序 | 中等 |
+| 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  | 贪心、数组、字符串、排序 | 中等 |
+| 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
+| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
+
+#### 链表排序
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | 链表、双指针、分治、排序、归并排序 | 中等 |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | 递归、链表 | 简单 |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 |
+
+### 二分查找
+
+#### 二分下标
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | 数组、二分查找 | 简单 |
+| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | 数组、二分查找 | 中等 |
+| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
+| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
+| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 |
+| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | 数组、二分查找 | 中等 |
+| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
+| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
+| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
+
+#### 二分答案
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | 数学、二分查找 | 简单 |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | 递归、数学 | 中等 |
+| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
+
+#### 复杂的二分查找问题
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
+
+### 双指针
+
+#### 对撞指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) |  | 贪心、数组、双指针、二分查找、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
+| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
+| 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
+| 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) |  | 贪心、数组、双指针 | 中等 |
+| 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
+| 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | 数组、双指针、排序 | 简单 |
+| 0443 | [压缩字符串](https://leetcode.com/problems/string-compression/) |  | 双指针、字符串 | 中等 |
+
+#### 快慢指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0026) | 数组、双指针 | 简单 |
+| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | 数组、双指针 | 简单 |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | 数组、双指针、排序 | 简单 |
+
+#### 分离双指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
+
+#### 链表双指针
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) |  | 哈希表、链表、双指针 | 简单 |
+| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | 哈希表、链表、双指针 | 中等 |
+| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 |
+| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | 链表、双指针 | 中等 |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 |
+| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) |  | 栈、递归、链表、双指针 | 中等 |
+| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | 递归、链表、数学 | 中等 |
+| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
+
+### 滑动窗口
+
+#### 固定长度窗口
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | 队列、数组、滑动窗口、单调队列、堆（优先队列） | 困难 |
+
+#### 不定长度窗口
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
+| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 |
+| 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+| 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | 队列、数组、二分查找、前缀和、滑动窗口、单调队列、堆（优先队列） | 困难 |
+| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+
+### 补充
+
+设计数据结构
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) |  | 设计、哈希表、链表、双向链表 | 中等 |
 | 0460 | [LFU 缓存](https://leetcode.com/problems/lfu-cache/) |  | 设计、哈希表、链表、双向链表 | 困难 |
 
-#### 数学题目
+数学
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -515,7 +513,7 @@
 | 0168 | [Excel表列名称](https://leetcode.com/problems/excel-sheet-column-title/) |  | 数学、字符串 | 简单 |
 | 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
 
-#### 模拟题目
+模拟
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -524,13 +522,13 @@
 | 0468 | [验证IP地址](https://leetcode.com/problems/validate-ip-address/) |  | 字符串 | 中等 |
 | 0086 | [分隔链表](https://leetcode.com/problems/partition-list/) |  | 链表、双指针 | 中等 |
 
-#### 前缀和
+前缀和
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  | 数组、哈希表、前缀和 | 中等 |
 
-#### 思维锻炼题目
+思维锻炼
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -539,6 +537,6 @@
 | 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  | 数学、拒绝采样、概率与统计、随机化 | 中等 |
 
 
-## 参考资料
+### 参考资料
 
 - 【清单】[CodeTop 企业题库](https://codetop.cc/home)

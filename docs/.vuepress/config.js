@@ -37,12 +37,12 @@ module.exports = {
         // 默认是 false, 设置为 true 来启用
         editLinks: true,
         // 默认为 "Edit this page"
-        editLinkText: '帮二小改善此页面！',
+        editLinkText: '帮二小改善此页面',
         lastUpdated: '更新时间',
         nav: [
             { text: 'LeetCode', link: '/leetcode/' },
-            { text: 'FE', link: '/front-end/' },
             { text: 'React', link: '/react/' },
+            { text: 'FE', link: '/front-end/' },
             { text: 'Run', link: '/run/' },
         ],
         sidebar: {
