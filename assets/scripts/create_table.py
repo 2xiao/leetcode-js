@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# C:\Users\GentlyGuitar\anaconda3\python.exe .\create_readme.py
+# C:\Users\GentlyGuitar\anaconda3\python.exe .\create_table.py
 
 import create_solutions_list as gen
 
@@ -29,11 +29,3 @@ solutions_count = gen.gen_solutions_list(solotions_path, solotions_output_path)
 slice_output_path = '../../docs/leetcode/solution/'
 gen.gen_slice_list(solotions_path, slice_output_path) 
 
-
-# # 生成 README.md index.md 文件
-# readme_head_path = '../Origins/README-Head.md'
-# readme_catalogue_list_path = '../Origins/README-Catalogue-List.md'
-# content_index_path = '../../Contents/index.md'
-# readme_path = '../../README.md'
-
-# gen.merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_list_path, content_index_path, readme_path, solutions_count)

@@ -137,53 +137,15 @@ def gen_slice_list(solutions_path, slice_output_path):
                 f.writelines("# {}\n\n".format(file_name[idx]))
             f.write(table)
         f.close()
-        
     print("Create Slice List Success")
 
-# 将 readme_head、list 合并到，自动生成 README.md 并保存到 readme_path 中
-def merge_readme_file(solotions_output_path, readme_head_path, readme_catalogue_list_path, content_index_path, readme_path, solutions_count):
-    
-    # 生成项目 README.md 文件
-    readme_file = open(readme_path,'w', encoding='utf-8')
-    
-    # 将 README 开头部分写入 README.md 中
-    readme_head_file = open(readme_head_path, encoding='utf-8')
-    readme_file.writelines(readme_head_file.readlines())
-    readme_head_file.close()
-    
-    # 将章节目录写入 README.md 中
-    readme_catelogue_list_file = open(readme_catalogue_list_path, encoding='utf-8')
-    readme_catelogue_list_lines = readme_catelogue_list_file.readlines()
-    for readme_catelogue_list_line in readme_catelogue_list_lines:
-        readme_catelogue_list_line = readme_catelogue_list_line.replace('https://github.com/itcharge/LeetCode-Py/blob/main', '.')
-        readme_file.write(readme_catelogue_list_line)
-    readme_catelogue_list_file.close()
-    
-    # 将题解标题写入 readme 文件
-    catalogue_list_file = open(solotions_output_path, encoding='utf-8')
-    catalogue_list_lines = catalogue_list_file.readlines()
-    if len(catalogue_list_lines) > 0:
-        catalogue_list_title = catalogue_list_lines[0].strip('\n')
-        catalogue_list_title = '## [' + catalogue_list_title + '](./Contents/00.Introduction/04.Solutions-List.md)'
-        catalogue_list_title = catalogue_list_title.replace('# LeetCode 题解', '12. LeetCode 题解')
-        readme_file.writelines(catalogue_list_title)
-    catalogue_list_file.close()
-    
-    readme_file.close()
-    
-    
-    # 生成 Contents/index.md 文件
-    content_index_file = open(content_index_path, 'w', encoding='utf-8')
-    content_index_file.writelines("# 前端算法通关指南（LeetCode-JS）\n\n")
-    
-    # 将章节目录写入 Contents/index.md 文件中
-    readme_catelogue_list_file = open(readme_catalogue_list_path, encoding='utf-8')
-    catalogue_list_lines = readme_catelogue_list_file.readlines()
-    for catalogue_list_line in catalogue_list_lines:
-        catalogue_list_line = catalogue_list_line.replace('https://github.com/itcharge/LeetCode-Py/blob/main/Contents', '.')
-        content_index_file.write(catalogue_list_line)
-    readme_catelogue_list_file.close()
-    content_index_file.close()
+def append_table(file: str, table: str, delim: str = '<!-- START TABLE -->'):
+    content = Path(file).read_text(encoding='utf-8')
+    tips = "\n<!-- Please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->\n"
+    if delim in content:
+        content, old_table = content.split(delim)
+    content += '\n' + delim + tips + table
+    Path(file).write_text(content, encoding='utf-8')
 
 # 根据题解目录, 题目分类原始列表目录，生成分类题解，并将整体保存到 categories_list_path
 def gen_categories_list(solutions_path, categories_origin_list_path, categories_list_path):
@@ -193,9 +155,7 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
     category_h2 = None
     category_h3 = None
     category_h4 = None
-    category_h6 = None
-    category_h2_origin_path = None
-    category_h2_file_path = None
+    category_h2_path = None
     page_path = None
     category_h2_file_content = ""
     category_file_content = ""
@@ -208,30 +168,19 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
         if match:
             title_size, title_content =  match.group(1,2)
             if title_size == "##":
-                if category_h2 and category_h2_origin_path and category_h2_file_path and category_h2_file_content:
-                    category_h2_origin_file = open(category_h2_origin_path, encoding='utf-8')
-                    category_h2_file = open(category_h2_file_path, 'w', encoding='utf-8')
+                if category_h2 and category_h2_path and category_h2_file_content:
+                    append_table(category_h2_path, category_h2_file_content)
                     
-                    # 将文字部分和相关题目部分拼接起来
-                    category_h2_file.writelines(category_h2_origin_file.readlines())
-                    category_h2_origin_file.close()
-
-                    # 写入相关题目
-                    category_h2_file.write(category_h2_file_content)
-                    category_h2_file.close()
-
                     category_h2 = None
-                    category_h2_origin_path = None
-                    category_h2_file_path = None
+                    category_h2_path = None
                     page_path = None
                     category_h2_file_content = ""
-                pattern1 = re.compile(r'\[(.*)\]\((.*)\)\((.*)\)')
+                pattern1 = re.compile(r'\[(.*)\]\((.*)\)')
                 match1 = pattern1.match(title_content)
                 if match1:
-                    category_h2, category_h2_origin_path, category_h2_file_path = match1.group(1,2,3)
-                    page_path = '../' + category_h2_file_path
-                    category_h2_origin_path = '../../docs/leetcode/' + category_h2_origin_path
-                    category_h2_file_path = '../../docs/leetcode/' + category_h2_file_path
+                    category_h2, category_h2_path = match1.group(1,2)
+                    page_path = '../' + category_h2_path
+                    category_h2_path = '../../docs/leetcode/' + category_h2_path
 
                     category_h2_file_content += "\n\n## 相关题目\n\n"
                     category_file_content += "\n---\n### " + category_h2 + "\n[相关知识详解](" + page_path + ")\n"
@@ -247,7 +196,6 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                 category_h2_file_content += "#### " + category_h4 + "\n\n"
                 category_file_content += category_h4 + "\n\n"
             elif title_size == "######":
-                category_h6 = title_content
                 problem_titles = title_content.split('、')
                 if not problem_titles:
                     continue
@@ -265,11 +213,9 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                     
                     problem_id = df.loc[row, "序号"]
                     problem_name = df.loc[row, "文件名"]
-                    problem_catalog = df.loc[row, "所在目录"]
                     problem_title = df.loc[row, "标题"]
                     problem_title_slug = df.loc[row, "标题末尾"]
                     problem_link = "[" + problem_title_slug + "](" + df.loc[row, "标题链接"] + ")"
-                    problem_link_slug = df.loc[row, "标题链接末尾路径"]
                     problem_solution_path = os.path.join(solutions_path, problem_name + ".md")
                     if os.path.exists(problem_solution_path):
                         problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
@@ -285,17 +231,8 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                 category_h2_file_content += table + "\n\n"
                 category_file_content += table + "\n\n"
                 
-    if category_h2 and category_h2_origin_path and category_h2_file_path and category_h2_file_content:
-        category_h2_origin_file = open(category_h2_origin_path, encoding='utf-8')
-        category_h2_file = open(category_h2_file_path, 'w', encoding='utf-8')
-        
-        # 将文字部分和相关题目部分拼接起来
-        category_h2_file.writelines(category_h2_origin_file.readlines())
-        category_h2_origin_file.close()
-        
-        # 写入相关题目
-        category_h2_file.write(category_h2_file_content)
-        category_h2_file.close()
+    if category_h2 and category_h2_path and category_h2_file_content:
+        append_table(category_h2_path, category_h2_file_content)
         
     if category_file_content:
         with open(categories_list_path, 'w', encoding='utf-8') as fi:

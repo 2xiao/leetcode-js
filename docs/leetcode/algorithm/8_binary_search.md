@@ -4,7 +4,7 @@
 
 二分查找是一种非常高效的查找算法，时间复杂度是O(logn)。
 
-## 循环实现与递归实现
+## 循环实现
 
 最简单的情况就是**有序数组**中**不存在重复元素**，，我们在其中用二分查找值等于给定值的数据。
 
@@ -41,6 +41,8 @@ function bsearch(arr, value) {
 **3. low和high的更新**
 
 `low=mid+1`，`high=mid-1`。注意这里的`+1`和`-1`，如果直接写成`low=mid`或者`high=mid`，就可能会发生死循环。比如，当`high=3，low=3`时，如果`a[3]`不等于`value`，就会导致一直循环不退出。
+
+## 递归实现
 
 ```javascript
 // 二分查找的递归实现
@@ -191,3 +193,62 @@ function bsearch(arr, value) {
     return -1;
 }
 ```
+
+<!-- START TABLE -->
+<!-- Please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
+
+
+## 相关题目
+
+### 二分下标
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | 数组、二分查找 | 简单 |
+| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  | 二分查找、交互 | 简单 |
+| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | 数组、二分查找 | 简单 |
+| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | 数组、二分查找 | 中等 |
+| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | 数组、双指针、二分查找 | 中等 |
+| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
+| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
+| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 |
+| 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 中等 |
+| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) |  | 二分查找、交互 | 简单 |
+| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | 数组、二分查找 | 中等 |
+| 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  | 数组、二分查找 | 中等 |
+| 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  | 数组、二分查找、交互 | 困难 |
+| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  | 数组、二分查找 | 简单 |
+| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
+| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | 数组、二分查找、矩阵 | 中等 |
+| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | 数组、二分查找、分治、矩阵 | 中等 |
+
+### 二分答案
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | 数学、二分查找 | 简单 |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | 递归、数学 | 中等 |
+| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  | 数学、二分查找 | 简单 |
+| 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  | 数组、二分查找、排序 | 中等 |
+| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | 数学、二分查找 | 中等 |
+
+### 复杂的二分查找问题
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas/) |  | 数组、二分查找 | 中等 |
+| 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  | 贪心、数组、二分查找、动态规划、前缀和 | 困难 |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 |
+| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | 数组、双指针、二分查找、排序、滑动窗口、堆（优先队列） | 中等 |
+| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  | 树、深度优先搜索、二叉搜索树、二分查找、二叉树 | 简单 |
+| 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  | 数组、二分查找、交互 | 中等 |
+| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
+| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | 位运算、数组、双指针、二分查找 | 中等 |
+| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  | 数组、双指针、二分查找、排序 | 困难 |
+| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) |  | 数组、双指针、二分查找、排序 | 中等 |
+| 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | 数组、二分查找 | 中等 |
+| 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  | 数组、二分查找 | 中等 |
+

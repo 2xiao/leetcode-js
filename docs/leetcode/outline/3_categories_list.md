@@ -74,7 +74,7 @@
 
 ---
 ### 数组
-[相关知识详解](../ds/py_generate_0_array.md)
+[相关知识详解](../ds/0_array.md)
 #### 数组操作
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -99,7 +99,7 @@
 
 ---
 ### 链表
-[相关知识详解](../ds/py_generate_1_linked_list.md)
+[相关知识详解](../ds/1_linked_list.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) |  | 设计、链表 | 中等 |
@@ -118,7 +118,7 @@
 
 ---
 ### 栈
-[相关知识详解](../ds/py_generate_2_stack.md)
+[相关知识详解](../ds/2_stack.md)
 #### 栈基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -153,7 +153,7 @@
 
 ---
 ### 队列
-[相关知识详解](../ds/py_generate_3_queue.md)
+[相关知识详解](../ds/3_queue.md)
 #### 队列基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -179,7 +179,7 @@
 
 ---
 ### 哈希表
-[相关知识详解](../ds/py_generate_4_hash_table.md)
+[相关知识详解](../ds/4_hash_table.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) |  | 设计、数组、哈希表、链表、哈希函数 | 简单 |
@@ -218,7 +218,7 @@
 
 ---
 ### 字符串
-[相关知识详解](../ds/py_generate_5_string.md)
+[相关知识详解](../ds/5_string.md)
 #### 字符串基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -226,7 +226,7 @@
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) | 字符串、动态规划 | 中等 |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 |
-| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
+| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | 双指针、字符串 | 简单 |
 | 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) |  | 双指针、字符串 | 简单 |
 | 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  | 数组、哈希表、字符串、排序 | 中等 |
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
@@ -266,7 +266,7 @@
 
 ---
 ### 树
-[相关知识详解](../ds/py_generate_6_tree.md)
+[相关知识详解](../ds/6_tree.md)
 #### 二叉树的遍历
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -390,7 +390,7 @@
 
 ---
 ### 图
-[相关知识详解](../ds/py_generate_7_graph.md)
+[相关知识详解](../ds/7_graph.md)
 #### 图的深度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -518,7 +518,7 @@
 
 ---
 ### 枚举算法
-[相关知识详解](../algorithm/py_generate_0_enumeration.md)
+[相关知识详解](../algorithm/0_enumeration.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
@@ -534,10 +534,10 @@
 
 ---
 ### 递归算法
-[相关知识详解](../algorithm/py_generate_1_recursion.md)
+[相关知识详解](../algorithm/1_recursion.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
+| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | 双指针、字符串 | 简单 |
 | 0024 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/) |  | 递归、链表 | 中等 |
 | 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | 数组、动态规划 | 简单 |
 | 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | 数组、动态规划 | 简单 |
@@ -557,7 +557,7 @@
 
 ---
 ### 分治算法
-[相关知识详解](../algorithm/py_generate_2_divide_conquer.md)
+[相关知识详解](../algorithm/2_divide_conquer.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 |
@@ -572,7 +572,7 @@
 
 ---
 ### 回溯算法
-[相关知识详解](../algorithm/py_generate_3_backtracking.md)
+[相关知识详解](../algorithm/3_backtracking.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | 数组、回溯 | 中等 |
@@ -595,7 +595,7 @@
 
 ---
 ### 贪心算法
-[相关知识详解](../algorithm/py_generate_4_greed.md)
+[相关知识详解](../algorithm/4_greed.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0455 | [分发饼干](https://leetcode.com/problems/assign-cookies/) |  | 贪心、数组、双指针、排序 | 简单 |
@@ -627,7 +627,7 @@
 
 ---
 ### 动态规划
-[相关知识详解](../algorithm/py_generate_5_dynamic_programming.md)
+[相关知识详解](../algorithm/5_dynamic_programming.md)
 #### 动态规划基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -904,7 +904,7 @@
 
 ---
 ### 位运算
-[相关知识详解](../algorithm/py_generate_6_bit.md)
+[相关知识详解](../algorithm/6_bit.md)
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0504 | [七进制数](https://leetcode.com/problems/base-7/) |  | 数学 | 简单 |
@@ -928,7 +928,7 @@
 
 ---
 ### 排序
-[相关知识详解](../algorithm/py_generate_7_sort.md)
+[相关知识详解](../algorithm/7_sort.md)
 #### 数组排序算法
 
 冒泡排序
@@ -1026,7 +1026,7 @@
 
 ---
 ### 二分查找
-[相关知识详解](../algorithm/py_generate_8_binary_search.md)
+[相关知识详解](../algorithm/8_binary_search.md)
 #### 二分下标
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -1035,7 +1035,7 @@
 | 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  | 二分查找、交互 | 简单 |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | 数组、二分查找 | 简单 |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | 数组、二分查找 | 中等 |
-| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
+| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | 数组、双指针、二分查找 | 中等 |
 | 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 |
 | 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | 数组、二分查找 | 困难 |
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 |
@@ -1081,15 +1081,15 @@
 
 ---
 ### 双指针
-[相关知识详解](../algorithm/py_generate_9_two_pointer.md)
+[相关知识详解](../algorithm/9_two_pointer.md)
 #### 数组双指针
 
 对撞指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) |  | 数组、双指针、二分查找 | 中等 |
-| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) |  | 双指针、字符串 | 简单 |
+| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | 数组、双指针、二分查找 | 中等 |
+| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | 双指针、字符串 | 简单 |
 | 0345 | [反转字符串中的元音字母](https://leetcode.com/problems/reverse-vowels-of-a-string/) |  | 双指针、字符串 | 简单 |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
 | 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) |  | 贪心、数组、双指针 | 中等 |
@@ -1149,7 +1149,7 @@
 
 ---
 ### 滑动窗口
-[相关知识详解](../algorithm/py_generate_10_slide_window.md)
+[相关知识详解](../algorithm/10_slide_window.md)
 #### 固定长度窗口
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |

@@ -35,3 +35,33 @@
 
 实际上，在某些特殊场景下，并不一定非得追求数组中数据的连续性。如果每次的删除操作并不是真正地搬移数据，只是记录数据已经被删除。当数组没有更多空间存储数据时，再触发执行一次真正的删除操作，就可以大大减少了删除操作导致的数据搬移。这也是**JVM标记清除垃圾回收算法**的核心思想。
 
+
+
+<!-- START TABLE -->
+<!-- Please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
+
+
+## 相关题目
+
+### 数组操作
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
+| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) | 数组、数学 | 简单 |
+| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | 数组、前缀和 | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组 | 简单 |
+| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | 数组、前缀和 | 中等 |
+
+### 二维数组
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟 | 中等 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 |
+| 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/) |  | 数组、哈希表、矩阵 | 中等 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 |
+| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 |
+| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  | 数组、矩阵、模拟 | 中等 |
+

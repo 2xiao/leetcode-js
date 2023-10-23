@@ -23,3 +23,31 @@ function f(n) {
 1. 警惕栈溢出：可以声明一个全局变量来控制递归的深度，从而避免栈溢出。
 2. 警惕重复计算：通过某种数据结构来保存已经求解过的值，从而避免重复计算。
 
+
+
+<!-- START TABLE -->
+<!-- Please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
+
+
+## 相关题目
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | 双指针、字符串 | 简单 |
+| 0024 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/) |  | 递归、链表 | 中等 |
+| 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | 数组、动态规划 | 简单 |
+| 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | 数组、动态规划 | 简单 |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | 递归、链表 | 简单 |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | 链表 | 中等 |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | 递归、链表 | 简单 |
+| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
+| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
+| 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
+| 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  | 树、深度优先搜索、动态规划、二叉树 | 困难 |
+| 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | 递归、数学 | 中等 |
+| 0779 | [第K个语法符号](https://leetcode.com/problems/k-th-symbol-in-grammar/) |  | 位运算、递归、数学 | 中等 |
+| 0095 | [不同的二叉搜索树 II](https://leetcode.com/problems/unique-binary-search-trees-ii/) |  | 树、二叉搜索树、动态规划、回溯、二叉树 | 中等 |
+| 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |  | 递归、数学 | 简单 |
+

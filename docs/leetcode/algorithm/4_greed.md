@@ -8,3 +8,39 @@
 
 #### 贪心算法与动态规划的区别
 贪心算法与动态规划的不同点在于它对每个子问题的解决方案都做出当前的最优选择，不能回退，而动态规划会保留之前的运算结果，并根据之前的结果进行选择，有回退的功能，贪心是动态规划的理想化的情况。
+
+<!-- START TABLE -->
+<!-- Please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
+
+
+## 相关题目
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0455 | [分发饼干](https://leetcode.com/problems/assign-cookies/) |  | 贪心、数组、双指针、排序 | 简单 |
+| 0860 | [柠檬水找零](https://leetcode.com/problems/lemonade-change/) |  | 贪心、数组 | 简单 |
+| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | 数组、排序 | 中等 |
+| 0435 | [无重叠区间](https://leetcode.com/problems/non-overlapping-intervals/) |  | 贪心、数组、动态规划、排序 | 中等 |
+| 0452 | [用最少数量的箭引爆气球](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |  | 贪心、数组、排序 | 中等 |
+| 0055 | [跳跃游戏](https://leetcode.com/problems/jump-game/) |  | 贪心、数组、动态规划 | 中等 |
+| 0045 | [跳跃游戏 II](https://leetcode.com/problems/jump-game-ii/) |  | 贪心、数组、动态规划 | 中等 |
+| 0392 | [判断子序列](https://leetcode.com/problems/is-subsequence/) |  | 双指针、字符串、动态规划 | 简单 |
+| 0122 | [买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) |  | 贪心、数组 | 中等 |
+| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | 贪心、数组、计数排序、排序 | 简单 |
+| 1710 | [卡车上的最大单元数](https://leetcode.com/problems/maximum-units-on-a-truck/) |  | 贪心、数组、排序 | 简单 |
+| 1217 | [玩筹码](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position/) |  | 贪心、数组、数学 | 简单 |
+| 1247 | [交换字符使得字符串相同](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) |  | 贪心、数学、字符串 | 中等 |
+| 1400 | [构造 K 个回文字符串](https://leetcode.com/problems/construct-k-palindrome-strings/) |  | 贪心、哈希表、字符串、计数 | 中等 |
+| 0921 | [使括号有效的最少添加](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/) |  | 栈、贪心、字符串 | 中等 |
+| 1029 | [两地调度](https://leetcode.com/problems/two-city-scheduling/) |  | 贪心、数组、排序 | 中等 |
+| 1605 | [给定行和列的和求可行矩阵](https://leetcode.com/problems/find-valid-matrix-given-row-and-column-sums/) |  | 贪心、数组、矩阵 | 中等 |
+| 0135 | [分发糖果](https://leetcode.com/problems/candy/) |  | 贪心、数组 | 困难 |
+| 0134 | [加油站](https://leetcode.com/problems/gas-station/) |  | 贪心、数组 | 中等 |
+| 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  | 数组、分治、动态规划 | 中等 |
+| 0376 | [摆动序列](https://leetcode.com/problems/wiggle-subsequence/) |  | 贪心、数组、动态规划 | 中等 |
+| 0738 | [单调递增的数字](https://leetcode.com/problems/monotone-increasing-digits/) |  | 贪心、数学 | 中等 |
+| 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  | 栈、贪心、字符串、单调栈 | 中等 |
+| 0861 | [翻转矩阵后的得分](https://leetcode.com/problems/score-after-flipping-matrix/) |  | 贪心、位运算、数组、矩阵 | 中等 |
+| 0670 | [最大交换](https://leetcode.com/problems/maximum-swap/) |  | 贪心、数学 | 中等 |
+
