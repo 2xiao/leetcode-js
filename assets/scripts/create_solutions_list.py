@@ -339,11 +339,11 @@ def gen_interview_list(solutions_path, interview_origin_list_path, interview_lis
                 match1 = pattern1.match(title_content)
                 if match1:
                     interview_h3, interview_h3_file_path = match1.group(1,2)
-                    interview_h3_file_content += "#### " + interview_h3 + "\n\n"
-                    interview_file_content += "#### " + interview_h3 + "\n\n"
+                    interview_h3_file_content += interview_h3 + "\n\n"
+                    interview_file_content += interview_h3 + "\n\n"
                 else:
                     interview_h3 = title_content
-                    interview_file_content += "#### " + interview_h3 + "\n\n"
+                    interview_file_content += interview_h3 + "\n\n"
             elif title_size == "####":
                 interview_h4 = title_content
                 interview_h3_file_content += interview_h4 + "\n\n"
