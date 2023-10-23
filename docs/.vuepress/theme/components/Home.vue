@@ -22,27 +22,39 @@
           :item="actionLink"
         />
       </p>
-    </header>
+    
 
-    <div
-      class="features"
-      v-if="data.features && data.features.length"
-    >
       <div
-        class="feature"
-        v-for="(feature, index) in data.features"
-        :key="index"
+        class="features"
+        v-if="data.features && data.features.length"
       >
-      <router-link
-        class="nav-link"
-        :to="feature.link"
-      >
-        <h2>{{ feature.title }}</h2>
-      </router-link>
-      
-        <p>{{ feature.details }}</p>
+        <div
+          class="feature"
+          v-for="(feature, index) in data.features"
+          :key="index"
+        >
+          <router-link
+            class="nav-link"
+            :to="feature.link"
+          >
+            <img
+              class="nav-img"
+              v-if="feature.img"
+              :src="$withBase(feature.img)"
+              :alt="'img'"
+            >
+            <h2>{{ feature.title }}</h2>
+            <p>{{ feature.details }}</p>
+            <div
+              class="small-action-button"
+              v-if="feature.actionText"
+            >
+              {{ feature.actionText }}
+            </div>
+          </router-link>
+        </div>
       </div>
-    </div>
+    </header>
 
     <Content class="theme-default-content custom"/>
 
@@ -93,7 +105,7 @@ export default {
     h1
       font-size 3rem
     h1, .description, .action
-      margin 1.8rem auto
+      margin 1.8rem auto 0 auto
     .description
       max-width 35rem
       font-size 1.6rem
@@ -112,9 +124,7 @@ export default {
       &:hover
         background-color lighten($accentColor, 10%)
   .features
-    border-top 1px solid $borderColor
-    padding 1.2rem 0
-    margin-top 2.5rem
+    padding 0 2rem 2rem 2rem
     display flex
     flex-wrap wrap
     align-items flex-start
@@ -122,16 +132,31 @@ export default {
     justify-content space-between
   .feature
     flex-grow 1
-    flex-basis 30%
-    max-width 30%
+    flex-basis 50%
+    max-width 50%
+    text-align: center
+    .nav-img
+      height: 300px
     h2
       font-size 1.4rem
-      font-weight 500
+      font-weight 700
       border-bottom none
       padding-bottom 0
       color lighten($textColor, 10%)
     p
       color lighten($textColor, 25%)
+    .small-action-button
+      display inline-block
+      font-size 1rem
+      color #fff
+      background-color $accentColor
+      padding 0.6rem 0.8rem
+      border-radius 4px
+      transition background-color .1s ease
+      box-sizing border-box
+      border-bottom 1px solid darken($accentColor, 10%)
+      &:hover
+        background-color lighten($accentColor, 10%)
   .footer
     padding 2.5rem
     border-top 1px solid $borderColor

@@ -1,17 +1,16 @@
 ---
 home: true
-actionText: 开始阅读 →
-actionLink: /leetcode/
 features:
-  - title: LeetCode题解
-    details: 理解算法原理，体系学习。
+  - title: 《LeetCode-JS 解题指南》
+    details: 数据结构与算法精讲，1000+ LeetCode 题目详解。
     link: /leetcode/
-  - title: React学习
-    details: 深入理解React 原理，了解新特性。
+    img: /images/leetcode-js-logo.png
+    actionText: 开始阅读 →
+  - title: 《手写 React源码指南》
+    details: 深入理解 React源码，构建自己的 React库。
     link: /react/
-  - title: 前端基础
-    details: 补齐纯前端的缺失知识，更从容地面对面试官。
-    link: /fe/
+    img: /images/react-logo.png
+    actionText: 开始阅读 →
 footer: MIT Licensed | Copyright © 2021-present 2xiao
 ---
 

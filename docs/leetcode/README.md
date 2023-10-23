@@ -54,15 +54,21 @@ title: "目录"
 
 ---
 
-### 关于编程语言
+### 关于书中的代码
 
-本书前端工程师友好，书中的算法全部使用 `JavaScript` 语言实现。
+电子书地址：[https://2xiao.github.io/leetcode-js/leetcode](https://2xiao.github.io/leetcode-js/leetcode)
+
+Github地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
+
+按题号可以搜索到题目，每道题分四个部分解析：题目、题目大意、解题思路、代码。
+
+欢迎「Star ⭐️ 」 和 「Fork」，这是对我最大的鼓励和支持。
 
 ---
 
-### 关于书中的代码
+### 关于编程语言
 
-代码都放在 [github repo](https://github.com/2xiao/leetcode-js) 中，按题号可以搜索到题目。每道题分四个部分解析：题目、题目大意、解题思路、代码。
+本书前端工程师友好，书中的算法全部使用 `JavaScript` 语言实现。
 
 ---
 
@@ -82,7 +88,7 @@ title: "目录"
 
 本书是 LeetCode Cookbook 系列的 JS 版本，系列发起者是[@halfrost](https://github.com/halfrost)，受他的 LeetCode-Go[项目](https://github.com/halfrost/LeetCode-Go)和[书籍](https://books.halfrost.com/leetcode/)启发。
 
-本作品采用 知识署名-非商业性使用-禁止演绎 （BY-NC-ND） 4.0 国际许可[协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans) 进行许可。
+本书采用 知识署名-非商业性使用-禁止演绎 （BY-NC-ND） 4.0 国际许可[协议](https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode.zh-Hans) 进行许可。
 
 只要保持原作者署名和非商用，您可以自由地阅读、分享、修改本书。
 

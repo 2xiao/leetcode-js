@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "lc": "cd ./assets/scripts & C:/Users/GentlyGuitar/anaconda3/python.exe ./create_table.py & doctoc ../../docs/leetcode/outline/3_categories_list.md"
+    "lc": "cd ./assets/scripts & py ./create_table.py & doctoc ../../docs/leetcode/outline/3_categories_list.md"
   },
   "dependencies": {
     "element-ui": "^2.10.1"

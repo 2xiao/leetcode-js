@@ -1,6 +1,6 @@
 module.exports = {
   title: "前端算法通关指南",
-  description: "LeetCode + JS​​​",
+  description: "Know Your Game​​​",
   base: "/leetcode-js/",
   shouldPrefetch: () => false,
   // 多语言支持

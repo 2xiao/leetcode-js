@@ -325,35 +325,35 @@ function swap(arr, i, j) {
 
 ## 相关题目
 
-### 数组排序算法
+#### 数组排序
 
-#### 冒泡排序
+* 冒泡排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
 | 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | 数组、双指针 | 简单 |
 
-#### 选择排序
+* 选择排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
 
-#### 插入排序
+* 插入排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |
 
-#### 希尔排序
+* 希尔排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
 | 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  | 数组、排序、堆（优先队列） | 简单 |
 
-#### 归并排序
+* 归并排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -362,14 +362,14 @@ function swap(arr, i, j) {
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
 | 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 |
 
-#### 快速排序
+* 快速排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | 数组、哈希表、分治、计数、排序 | 简单 |
 
-#### 堆排序
+* 堆排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -377,14 +377,14 @@ function swap(arr, i, j) {
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 中等 |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 |
 
-#### 计数排序
+* 计数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | 数组、分治、桶排序、计数排序、基数排序、排序、堆（优先队列）、归并排序 | 中等 |
 | 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  | 数组、哈希表、计数排序、排序 | 简单 |
 
-#### 桶排序
+* 桶排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -392,14 +392,14 @@ function swap(arr, i, j) {
 | 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | 数组、桶排序、有序集合、排序、滑动窗口 | 困难 |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
 
-#### 基数排序
+* 基数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | 数组、桶排序、基数排序、排序 | 困难 |
 | 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | 贪心、数组、计数排序、排序 | 简单 |
 
-#### 其他排序
+* 其他排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -410,7 +410,7 @@ function swap(arr, i, j) {
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | 数组、数学、随机化 | 中等 |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | 贪心、字符串、排序 | 中等 |
 
-### 链表排序
+#### 链表排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

@@ -34,7 +34,7 @@
 
 ## 相关题目
 
-### 动态规划基础题目
+#### 动态规划基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -42,7 +42,7 @@
 | 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | 记忆化搜索、数学、动态规划 | 简单 |
 | 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | 数学、动态规划、组合数学 | 中等 |
 
-### 记忆化搜索
+#### 记忆化搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -56,9 +56,9 @@
 | 0913 | [猫和老鼠](https://leetcode.com/problems/cat-and-mouse/) |  | 图、拓扑排序、记忆化搜索、数学、动态规划、博弈 | 困难 |
 | 0329 | [矩阵中的最长递增路径](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、数组、动态规划、矩阵 | 困难 |
 
-### 线性 DP
+#### 线性 DP
 
-#### 单串线性 DP 问题
+* 单串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -105,7 +105,7 @@
 | 0309 | [最佳买卖股票时机含冷冻期](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) |  | 数组、动态规划 | 中等 |
 | 0714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |  | 贪心、数组 | 中等 |
 
-#### 双串线性 DP 问题
+* 双串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -120,7 +120,7 @@
 | 0115 | [不同的子序列](https://leetcode.com/problems/distinct-subsequences/) |  | 字符串、动态规划 | 困难 |
 | 0087 | [扰乱字符串](https://leetcode.com/problems/scramble-string/) |  | 字符串、动态规划 | 困难 |
 
-#### 矩阵线性 DP 问题
+* 矩阵线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -137,7 +137,7 @@
 | 面试题 17.24 | [最大子矩阵](https://leetcode.cn/problems/max-submatrix-lcci/) |  | 数组、动态规划、矩阵、前缀和 | 困难 |
 | 1444 | [切披萨的方案数](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) |  | 记忆化搜索、数组、动态规划、矩阵 | 困难 |
 
-#### 无串线性 DP 问题
+* 无串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -147,9 +147,9 @@
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 |
 | 0343 | [整数拆分](https://leetcode.com/problems/integer-break/) |  | 数学、动态规划 | 中等 |
 
-### 背包问题
+#### 背包问题
 
-#### 0-1 背包问题
+* 0-1 背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -157,7 +157,7 @@
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | 数组、动态规划、回溯 | 中等 |
 | 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii/) |  | 数组、动态规划 | 中等 |
 
-#### 完全背包问题
+* 完全背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -169,16 +169,16 @@
 | 0638 | [大礼包](https://leetcode.com/problems/shopping-offers/) |  | 位运算、记忆化搜索、数组、动态规划、回溯、状态压缩 | 中等 |
 | 1449 | [数位成本和为目标值的最大数字](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/) |  | 数组、动态规划 | 困难 |
 
-#### 多重背包问题
+* 多重背包问题
 
-#### 分组背包问题
+* 分组背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 1155 | [掷骰子等于目标和的方法数](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |  | 动态规划 | 中等 |
 | 2585 | [获得分数的方法数](https://leetcode.com/problems/number-of-ways-to-earn-points/) |  | 数组、动态规划 | 困难 |
 
-#### 多维背包问题
+* 多维背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -186,7 +186,7 @@
 | 0879 | [盈利计划](https://leetcode.com/problems/profitable-schemes/) |  | 数组、动态规划 | 困难 |
 | 1995 | [统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets/) |  | 数组、枚举 | 简单 |
 
-### 区间 DP
+#### 区间 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -205,9 +205,9 @@
 | 0730 | [统计不同回文子序列](https://leetcode.com/problems/count-different-palindromic-subsequences/) |  | 字符串、动态规划 | 困难 |
 | 2104 | [子数组范围和](https://leetcode.com/problems/sum-of-subarray-ranges/) |  | 栈、数组、单调栈 | 中等 |
 
-### 树形 DP
+#### 树形 DP
 
-#### 固定根的树形 DP
+* 固定根的树形 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -227,7 +227,7 @@
 | 1273 | [删除树节点](https://leetcode.com/problems/delete-tree-nodes/) |  | 树、深度优先搜索、广度优先搜索 | 中等 |
 | 1519 | [子树中标签相同的节点数](https://leetcode.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/) |  | 树、深度优先搜索、广度优先搜索、哈希表、计数 | 中等 |
 
-#### 不定根的树形 DP
+* 不定根的树形 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -235,7 +235,7 @@
 | 0834 | [树中距离之和](https://leetcode.com/problems/sum-of-distances-in-tree/) |  | 树、深度优先搜索、图、动态规划 | 困难 |
 | 2581 | [统计可能的树根数目](https://leetcode.com/problems/count-number-of-possible-root-nodes/) |  | 树、深度优先搜索、哈希表、动态规划 | 困难 |
 
-### 状态压缩 DP
+#### 状态压缩 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -261,7 +261,7 @@
 | 0691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word/) |  | 位运算、数组、字符串、动态规划、回溯、状态压缩 | 困难 |
 | 0982 | [按位与为零的三元组](https://leetcode.com/problems/triples-with-bitwise-and-equal-to-zero/) |  | 位运算、数组、哈希表 | 困难 |
 
-### 计数 DP
+#### 计数 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -276,7 +276,7 @@
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | 递归、记忆化搜索、数学、动态规划 | 简单 |
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  | 记忆化搜索、数学、动态规划 | 简单 |
 
-### 数位 DP
+#### 数位 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -294,7 +294,7 @@
 | 1742 | [盒子中小球的最大数量](https://leetcode.com/problems/maximum-number-of-balls-in-a-box/) |  | 哈希表、数学、计数 | 简单 |
 | 面试题 17.06 | [2出现的次数](https://leetcode.cn/problems/number-of-2s-in-range-lcci/) |  | 递归、数学、动态规划 | 困难 |
 
-### 概率 DP
+#### 概率 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

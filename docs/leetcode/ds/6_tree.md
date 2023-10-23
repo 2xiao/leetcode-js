@@ -14,7 +14,7 @@
 
 ## 相关题目
 
-### 二叉树的遍历
+#### 二叉树的遍历
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -41,7 +41,7 @@
 | 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、设计、字符串、二叉树 | 困难 |
 | 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |  | 栈、树、深度优先搜索、链表、二叉树 | 中等 |
 
-### 二叉树的还原
+#### 二叉树的还原
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -49,7 +49,7 @@
 | 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 | 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) |  | 树、数组、哈希表、分治、二叉树 | 中等 |
 
-### 二叉搜索树
+#### 二叉搜索树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -66,9 +66,9 @@
 | 0108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |  | 树、二叉搜索树、数组、分治、二叉树 | 简单 |
 | 0110 | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree/) |  | 树、深度优先搜索、二叉树 | 简单 |
 
-### 线段树
+#### 线段树
 
-#### 单点更新
+* 单点更新
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -76,7 +76,7 @@
 | 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) |  | 设计、树状数组、线段树、数组 | 中等 |
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  | 数组、二分查找、动态规划、排序 | 困难 |
 
-#### 区间更新
+* 区间更新
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -87,7 +87,7 @@
 | 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  | 位运算、数组、前缀和 | 中等 |
 | 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query/) |  | 数组、二分查找、排序、扫描线、堆（优先队列） | 困难 |
 
-#### 区间合并
+* 区间合并
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -95,7 +95,7 @@
 | 0731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii/) |  | 设计、线段树、二分查找、有序集合 | 中等 |
 | 0732 | [我的日程安排表 III](https://leetcode.com/problems/my-calendar-iii/) |  | 设计、线段树、二分查找、有序集合 | 困难 |
 
-#### 扫描线问题
+* 扫描线问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -103,7 +103,7 @@
 | 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/) |  | 数组、扫描线 | 困难 |
 | 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/) |  | 线段树、数组、有序集合、扫描线 | 困难 |
 
-### 树状数组
+#### 树状数组
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -116,7 +116,7 @@
 | 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  | 位运算、数组、前缀和 | 中等 |
 | 1893 | [检查是否区域内所有整数都被覆盖](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) |  | 数组、哈希表、前缀和 | 简单 |
 
-### 并查集
+#### 并查集
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |

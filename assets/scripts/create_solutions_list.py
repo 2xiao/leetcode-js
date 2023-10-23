@@ -144,7 +144,7 @@ def append_table(file: str, table: str, delim: str = '<!-- START TABLE -->'):
     tips = "\n<!-- Please keep comment here to allow auto update -->\n<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->\n"
     if delim in content:
         content, old_table = content.split(delim)
-    content += '\n' + delim + tips + table
+    content += delim + tips + table
     Path(file).write_text(content, encoding='utf-8')
 
 # 根据题解目录, 题目分类原始列表目录，生成分类题解，并将整体保存到 categories_list_path
@@ -189,12 +189,12 @@ def gen_categories_list(solutions_path, categories_origin_list_path, categories_
                     category_file_content += "### " + category_h2 + "\n\n"
             elif title_size == "###":
                 category_h3 = title_content
-                category_h2_file_content += "### " + category_h3 + "\n\n"
+                category_h2_file_content += "#### " + category_h3 + "\n\n"
                 category_file_content += "#### " + category_h3 + "\n\n"
             elif title_size == "####":
                 category_h4 = title_content
-                category_h2_file_content += "#### " + category_h4 + "\n\n"
-                category_file_content += category_h4 + "\n\n"
+                category_h2_file_content += "* " + category_h4 + "\n\n"
+                category_file_content += "* " + category_h4 + "\n\n"
             elif title_size == "######":
                 problem_titles = title_content.split('、')
                 if not problem_titles:

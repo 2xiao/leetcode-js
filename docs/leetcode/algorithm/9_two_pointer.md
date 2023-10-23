@@ -8,9 +8,9 @@
 
 ## 相关题目
 
-### 数组双指针
+#### 数组双指针
 
-#### 对撞指针
+* 对撞指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -33,7 +33,7 @@
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
 | 0443 | [压缩字符串](https://leetcode.com/problems/string-compression/) |  | 双指针、字符串 | 中等 |
 
-#### 快慢指针
+* 快慢指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -48,7 +48,7 @@
 | 0978 | [最长湍流子数组](https://leetcode.com/problems/longest-turbulent-subarray/) |  | 数组、动态规划、滑动窗口 | 中等 |
 | 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | 数组、双指针、排序 | 简单 |
 
-#### 分离双指针
+* 分离双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
@@ -58,7 +58,7 @@
 | 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler/) |  | 数组、双指针、排序 | 中等 |
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | 数学、字符串、模拟 | 简单 |
 
-### 链表双指针
+#### 链表双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
