@@ -1,6 +1,17 @@
 # 1.1 数据结构与算法
 
-为了让你对数据结构和算法能有个全面的认识，我画了一个表格，里面几乎涵盖了所有数据结构和算法书籍中都会讲到的知识点。
+leetcode题目虽然多，但如果按类别来刷，其实也没多少，很多题目都是类似的套路和延伸。
+
+因此，我整理了 [LeetCode 面试最常考 100 题](../outline/4_interview_100_list) 和 [LeetCode 面试最常考 200 题](../outline/5_interview_200_list) ，建议先从这些题入手，掌握了这些面试热门的道目，就对数据结构与算法有了一个大体的了解。
+
+为了让你对数据结构和算法能有个更全面的认识，我画了一个表格，里面涵盖了19 个最常用的、最基础数据结构与算法，只要集中精力逐一攻克这 19 个知识点就足够了。
+
+* 8 个数据结构：[数组](../ds/py_generate_0_array)、[链表](../ds/py_generate_1_linked_list)、[栈](../ds/py_generate_2_stack)、[队列](../ds/py_generate_3_queue)、[哈希表](../ds/py_generate_4_hash_table)、[字符串](../ds/py_generate_5_string)、[树](../ds/py_generate_6_tree)、[图](../ds/py_generate_7_graph);
+
+* 11 个算法：[枚举算法](../algorithm/py_generate_0_enumeration)、[递归算法](../algorithm/py_generate_1_recursion)、[分治算法](../algorithm/py_generate_2_divide_conquer)、[回溯算法](../algorithm/py_generate_3_backtracking)、[贪心算法](../algorithm/py_generate_4_greed)、[动态规划](../algorithm/py_generate_5_dynamic_programming)、[位运算](../algorithm/py_generate_6_bit)、[排序算法](../algorithm/py_generate_7_sort)、[二分查找](../algorithm/py_generate_8_binary_search)、[双指针](../algorithm/py_generate_9_two_pointer)、[滑动窗口](../algorithm/py_generate_10_slide_window);
+
+掌握了这些基础的数据结构和算法，再结合 [LeetCode 题解（分类排序 ★★★）](../outline/3_categories_list) 加以练习，就会非常容易、非常快地通关LeetCode。
+
 
 <table style="width:100%">
     <tr>
@@ -64,13 +75,3 @@
         <td>其他</td><td>• 数论<br>• 计算几何<br>• 概率分析<br>• 并查集<br>• 拓扑网络<br>• 矩阵运算<br>• 线性规划</td><td> </td>
     </tr>
 </table>
-
-但是，作为前端工程师，你并不需要掌握图里面的所有知识点。学习要学会找重点，很多高级的数据结构与算法，比如二分图、最大流等，这些在我们平常的开发中很少会用到，所以暂时可以不用看。
-
-结合我自己的学习心得，还有这些年的面试、开发经验，我总结了 20 个最常用的、最基础数据结构与算法，不管是应付面试还是工作需要，只要集中精力逐一攻克这 20 个知识点就足够了。
-
-* 10 个数据结构：数组、链表、栈、队列、散列表、二叉树、堆、跳表、图、Trie 树；
-
-* 10 个算法：递归、排序、二分查找、动态规划、贪心算法、分治算法、回溯算法、搜索、哈希算法、字符串匹配算法。
-
-掌握了这些基础的数据结构和算法，再学更加复杂的数据结构和算法，就会非常容易、非常快。
