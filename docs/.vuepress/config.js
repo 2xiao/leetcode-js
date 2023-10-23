@@ -42,7 +42,7 @@ module.exports = {
         nav: [
             { text: 'LeetCode', link: '/leetcode/' },
             { text: 'React', link: '/react/' },
-            { text: 'FE', link: '/front-end/' },
+            { text: 'FE', link: '/fe/' },
             { text: 'Run', link: '/run/' },
         ],
         sidebar: {
@@ -130,77 +130,58 @@ module.exports = {
                     ]
                 }
             ],
-            // '/interview/': [
-            //     {
-            //         title: '面试这件事',
-            //         collapsable: true,
-            //         children: [
-            //             '/interview/interview/1',
-            //         ]
-            //     },
-            //     {
-            //         title: '英语',
-            //         collapsable: true,
-            //         children: [
-            //             '/interview/english/1',
-            //         ]
-            //     }
-            // ],
-            '/front-end/': [
+            '/fe/': [
                 {
                     title: '重学前端',
                     collapsable: true,
                     children: [
-                        '/front-end/basic/1',
+                        '/fe/basic/1',
                     ]
                 },
                 {
                     title: 'JavaScript核心原理',
                     collapsable: true,
                     children: [
-                        // '/front-end/js/01',
-                        // '/front-end/js/02',
-                        // '/front-end/js/03',
-                        // '/front-end/js/04',
-                        // '/front-end/js/05',
-                        // '/front-end/js/06',
-                        // '/front-end/js/07',
-                        // '/front-end/js/08',
-                        // '/front-end/js/09',
-                        // '/front-end/js/10',
-                        // '/front-end/js/11',
-                        // '/front-end/js/12',
-                        // '/front-end/js/13',
-                        // '/front-end/js/14',
-                        // '/front-end/js/15',
-                        // '/front-end/js/16',
-                        // '/front-end/js/17',
-                        // '/front-end/js/18',
-                        // '/front-end/js/19',
-                        // '/front-end/js/20',
-                        // '/front-end/js/21',
-                        // '/front-end/js/22',
+                        // '/fe/js/01',
+                        // '/fe/js/02',
+                        // '/fe/js/03',
+                        // '/fe/js/04',
+                        // '/fe/js/05',
+                        // '/fe/js/06',
+                        // '/fe/js/07',
+                        // '/fe/js/08',
+                        // '/fe/js/09',
+                        // '/fe/js/10',
+                        // '/fe/js/11',
+                        // '/fe/js/12',
+                        // '/fe/js/13',
+                        // '/fe/js/14',
+                        // '/fe/js/15',
+                        // '/fe/js/16',
+                        // '/fe/js/17',
+                        // '/fe/js/18',
+                        // '/fe/js/19',
+                        // '/fe/js/20',
+                        // '/fe/js/21',
+                        // '/fe/js/22',
                     ]
                 },
                 {
                     title: '玩转webpack',
                     collapsable: true,
                     children: [
-                        '/front-end/webpack/1',
                     ]
                 },
                 {
                     title: 'Node.js开发',
                     collapsable: true,
                     children: [
-                        '/front-end/nodejs/1',
                     ]
                 },
                 {
                     title: '浏览器工作原理',
                     collapsable: true,
                     children: [
-                        '/front-end/browser/1',
                     ]
                 }
             ],
