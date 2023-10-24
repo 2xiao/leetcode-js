@@ -16,10 +16,10 @@
 | :------ | :------ | :------ | :------ | :------ |
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | 数组、双指针、二分查找 | 中等 |
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | 双指针、字符串 | 简单 |
-| 0345 | [反转字符串中的元音字母](https://leetcode.com/problems/reverse-vowels-of-a-string/) |  | 双指针、字符串 | 简单 |
-| 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) |  | 双指针、字符串 | 简单 |
-| 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) |  | 贪心、数组、双指针 | 中等 |
-| 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) |  | 贪心、数组、双指针、二分查找、排序 | 中等 |
+| 0345 | [反转字符串中的元音字母](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0345) | 双指针、字符串 | 简单 |
+| 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | 双指针、字符串 | 简单 |
+| 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0011) | 贪心、数组、双指针 | 中等 |
+| 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | 贪心、数组、双指针、二分查找、排序 | 中等 |
 | 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
 | 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
 | 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
