@@ -95,26 +95,130 @@ module.exports = {
           title: "第四章 精选题集",
           collapsable: true,
           children: [
+            // AUTO_GEN_CONFIG_START
             {
-              title: "LeetCode 题解",
+              title: "0001-0099",
               collapsable: true,
               children: [
-                "/leetcode/solution/0001-0099",
-                "/leetcode/solution/0100-0199",
-                "/leetcode/solution/0200-0299",
-                "/leetcode/solution/0300-0399",
-                "/leetcode/solution/0400-0499",
-                "/leetcode/solution/0500-0599",
-                "/leetcode/solution/0600-0699",
-                "/leetcode/solution/0700-0799",
-                "/leetcode/solution/0800-0899",
-                "/leetcode/solution/0900-0999",
+                "/leetcode/solution/0001-0099.md",
+                "/leetcode/problem/0001.md",
+                "/leetcode/problem/0002.md",
+                "/leetcode/problem/0003.md",
+                "/leetcode/problem/0004.md",
+                "/leetcode/problem/0005.md",
+                "/leetcode/problem/0006.md",
+                "/leetcode/problem/0007.md",
+                "/leetcode/problem/0008.md",
+                "/leetcode/problem/0009.md",
+                "/leetcode/problem/0011.md",
+                "/leetcode/problem/0013.md",
+                "/leetcode/problem/0026.md",
+                "/leetcode/problem/0027.md",
+                "/leetcode/problem/0033.md",
+                "/leetcode/problem/0062.md",
+                "/leetcode/problem/0063.md",
+                "/leetcode/problem/0066.md",
+                "/leetcode/problem/0070.md",
+                "/leetcode/problem/0080.md"
               ],
             },
-            "/leetcode/solution/Offer",
-            "/leetcode/solution/Offer-II",
-            "/leetcode/solution/Interviews",
-            "/leetcode/solution/LCP",
+            {
+              title: "0100-0199",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0100-0199.md",
+                "/leetcode/problem/0120.md",
+                "/leetcode/problem/0125.md",
+                "/leetcode/problem/0152.md",
+                "/leetcode/problem/0167.md",
+                "/leetcode/problem/0189.md"
+              ],
+            },
+            {
+              title: "0200-0299",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0200-0299.md",
+                "/leetcode/problem/0206.md",
+                "/leetcode/problem/0238.md",
+                "/leetcode/problem/0279.md",
+                "/leetcode/problem/0283.md"
+              ],
+            },
+            {
+              title: "0300-0399",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0300-0399.md",
+                "/leetcode/problem/0344.md",
+                "/leetcode/problem/0345.md"
+              ],
+            },
+            {
+              title: "0400-0499",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0400-0499.md",
+                "/leetcode/problem/0485.md",
+                "/leetcode/problem/0498.md"
+              ],
+            },
+            {
+              title: "0500-0599",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0500-0599.md",
+                "/leetcode/problem/0509.md"
+              ],
+            },
+            {
+              title: "0600-0699",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0600-0699.md",
+                "/leetcode/problem/0611.md"
+              ],
+            },
+            {
+              title: "0700-0799",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0700-0799.md",
+                "/leetcode/problem/0724.md"
+              ],
+            },
+            {
+              title: "面试题",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/Interviews.md",
+                "/leetcode/problem/i_03.01.md"
+              ],
+            },
+            {
+              title: "力扣杯",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/LCP.md",
+                "/leetcode/problem/LCP_53.md"
+              ],
+            },
+            {
+              title: "剑指 Offer",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/Offer.md",
+                "/leetcode/problem/zj_offer_59_2.md"
+              ],
+            },
+            {
+              title: "剑指 Offer II",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/Offer-II.md",
+                "/leetcode/problem/zj_offer_II_055.md"
+              ],
+            },// AUTO_GEN_CONFIG_END
           ],
         },
       ],
