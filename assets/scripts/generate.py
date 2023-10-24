@@ -187,7 +187,7 @@ def gen_slice_list(problem_path, solution_path):
             if idx not in file_name:
                 f.writelines('---\ntitle: "索引"\n---\n\n### LeetCode 第 {} 题\n\n'.format(idx))
             else:
-                f.writelines('# 目录\n\n### {}\n\n'.format(file_name[idx]))
+                f.writelines('---\ntitle: "索引"\n---\n\n### {}\n\n'.format(file_name[idx]))
             f.write(table)
         f.close()
     print("Create Slice List Success")
