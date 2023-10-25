@@ -2,31 +2,20 @@
   <div>
     <div class="copyright-text">
       <div>温馨提示喵</div>
-      <div>本文版权归作者所有，欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。</div>
-      <div>作者：<a href="https://github.com/2xiao" target="_blank">erxiao</a></div>
+      <div>本文版权归作者所有，若需转载，必须保留此段声明，且在页面明显位置展示原文链接，否则保留追究法律责任的权利。</div>
+      <div>原文链接：<a :href="herf" target="_blank">{{ herf }}</a></div>
+      <div>作者：<a href="https://github.com/2xiao" target="_blank">2xiao</a></div>
     </div>
   </div>
 </template>
 
 <script>
-function getImgSoource() {
-  return (
-    "https://api.thecatapi.com/v1/images/search?format=src&t=" +
-    new Date().getTime()
-  );
-}
-
 export default {
   data() {
     return {
-      imgSrc: getImgSoource()
+      herf: 'https://2xiao.github.io/leetcode-js' + this.$route.path
     };
   },
-  watch: {
-    $route(to) {
-      this.imgSrc = getImgSoource();
-    }
-  }
 };
 </script>
 
