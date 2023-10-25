@@ -8,7 +8,7 @@
     
     <meta name="description" content="Know Your Game​​​">
     
-    <link rel="preload" href="/leetcode-js/assets/css/0.styles.29363471.css" as="style"><link rel="preload" href="/leetcode-js/assets/js/app.70690ade.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/3.f9cfc309.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/1.50997d5f.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/61.6d8af695.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/2.0d4c9392.js" as="script">
+    <link rel="preload" href="/leetcode-js/assets/css/0.styles.29363471.css" as="style"><link rel="preload" href="/leetcode-js/assets/js/app.ec632265.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/3.f9cfc309.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/1.50997d5f.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/61.0fb835fc.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/2.0d4c9392.js" as="script">
     <link rel="stylesheet" href="/leetcode-js/assets/css/0.styles.29363471.css">
   </head>
   <body>
@@ -24,26 +24,14 @@ L             50
 C             100
 D             500
 M             1000
-</code></pre></div><p>For example, two is written as <code>II</code> in Roman numeral, just two one's added together. Twelve is written as, <code>XII</code>, which is simply <code>X</code> + <code>II</code>. The number twenty seven is written as <code>XXVII</code>, which is <code>XX</code> + <code>V</code> + <code>II</code>.</p> <p>Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not <code>IIII</code>. Instead, the number four is written as <code>IV</code>. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as <code>IX</code>. There are six instances where subtraction is used:</p> <ul><li><code>I</code> can be placed before <code>V</code> (5) and <code>X</code> (10) to make 4 and 9.</li> <li><code>X</code> can be placed before <code>L</code> (50) and <code>C</code> (100) to make 40 and 90.</li> <li><code>C</code> can be placed before <code>D</code> (500) and <code>M</code> (1000) to make 400 and 900.</li></ul> <p>Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.</p> <p><strong>Example 1</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>Input: &quot;III&quot;
-Output: 3
-</code></pre></div><p><strong>Example 2</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>Input: &quot;IV&quot;
-Output: 4
-</code></pre></div><p><strong>Example 3</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>Input: &quot;IX&quot;
-Output: 9
-</code></pre></div><p><strong>Example 4</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>Input: &quot;LVIII&quot;
-Output: 58
-Explanation: L = 50, V= 5, III = 3.
-</code></pre></div><p><strong>Example 5</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>Input: &quot;MCMXCIV&quot;
-Output: 1994
-Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
-</code></pre></div><h3 id="题目大意"><a href="#题目大意" class="header-anchor">#</a> 题目大意</h3> <p>罗马数字包含以下七种字符: I， V， X， L，C，D  和  M。</p> <div class="language-javascript extra-class"><pre class="language-javascript"><code>字符          数值
-<span class="token constant">I</span>             <span class="token number">1</span>
-<span class="token constant">V</span>             <span class="token number">5</span>
-<span class="token constant">X</span>             <span class="token number">10</span>
-<span class="token constant">L</span>             <span class="token number">50</span>
-<span class="token constant">C</span>             <span class="token number">100</span>
-<span class="token constant">D</span>             <span class="token number">500</span>
-<span class="token constant">M</span>             <span class="token number">1000</span>
+</code></pre></div><p>For example, two is written as <code>II</code> in Roman numeral, just two one's added together. Twelve is written as, <code>XII</code>, which is simply <code>X</code> + <code>II</code>. The number twenty seven is written as <code>XXVII</code>, which is <code>XX</code> + <code>V</code> + <code>II</code>.</p> <p>Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not <code>IIII</code>. Instead, the number four is written as <code>IV</code>. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as <code>IX</code>. There are six instances where subtraction is used:</p> <ul><li><code>I</code> can be placed before <code>V</code> (5) and <code>X</code> (10) to make 4 and 9.</li> <li><code>X</code> can be placed before <code>L</code> (50) and <code>C</code> (100) to make 40 and 90.</li> <li><code>C</code> can be placed before <code>D</code> (500) and <code>M</code> (1000) to make 400 and 900.</li></ul> <p>Given a roman numeral, convert it to an integer. Input is guaranteed to be within the range from 1 to 3999.</p> <p><strong>Example 1</strong>:</p> <div class="custom-block tip"><p>Input: &quot;III&quot;</p> <p>Output: 3</p></div> <p><strong>Example 2</strong>:</p> <div class="custom-block tip"><p>Input: &quot;IV&quot;</p> <p>Output: 4</p></div> <p><strong>Example 3</strong>:</p> <div class="custom-block tip"><p>Input: &quot;IX&quot;</p> <p>Output: 9</p></div> <p><strong>Example 4</strong>:</p> <div class="custom-block tip"><p>Input: &quot;LVIII&quot;</p> <p>Output: 58</p></div> <p>Explanation: L = 50, V= 5, III = 3.</p> <p><strong>Example 5</strong>:</p> <div class="custom-block tip"><p>Input: &quot;MCMXCIV&quot;</p> <p>Output: 1994</p></div> <p>Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.</p> <h3 id="题目大意"><a href="#题目大意" class="header-anchor">#</a> 题目大意</h3> <p>罗马数字包含以下七种字符: I， V， X， L，C，D  和  M。</p> <div class="language- extra-class"><pre class="language-text"><code>字符          数值
+I             1
+V             5
+X             10
+L             50
+C             100
+D             500
+M             1000
 </code></pre></div><p>例如， 罗马数字 2 写做  II ，即为两个并列的 1。12 写做  XII ，即为  X + II 。 27 写做   XXVII, 即为  XX + V + II 。</p> <p>通常情况下，罗马数字中小的数字在大的数字的右边。但也存在特例，例如 4 不写做  IIII，而是  IV。数字 1 在数字 5 的左边，所表示的数等于大数 5 减小数 1 得到的数值 4 。同样地，数字 9 表示为  IX。这个特殊的规则只适用于以下六种情况：</p> <ul><li>I  可以放在  V (5) 和  X (10) 的左边，来表示 4 和 9。</li> <li>X  可以放在  L (50) 和  C (100) 的左边，来表示 40 和  90。</li> <li>C  可以放在  D (500) 和  M (1000) 的左边，来表示  400 和  900。</li></ul> <p>给定一个罗马数字，将其转换成整数。输入确保在 1  到 3999 的范围内。</p> <h3 id="解题思路"><a href="#解题思路" class="header-anchor">#</a> 解题思路</h3> <ul><li>给定一个罗马数字，将其转换成整数。输入确保在 1 到 3999 的范围内。</li> <li>简单题。按照题目中罗马数字的字符数值，计算出对应罗马数字的十进制数即可。</li></ul> <h3 id="代码"><a href="#代码" class="header-anchor">#</a> 代码</h3> <div class="language-javascript extra-class"><pre class="language-javascript"><code><span class="token comment">/**
  * @param {string} s
  * @return {number}
@@ -78,11 +66,11 @@ Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
         ←
         <a href="/leetcode-js/leetcode/problem/0011.html" class="prev">
           11. Container With Most Water
-        </a></span> <span class="next"><a href="/leetcode-js/leetcode/problem/0026.html">
-          26. Remove Duplicates from Sorted Array
+        </a></span> <span class="next"><a href="/leetcode-js/leetcode/problem/0015.html">
+          15. 3Sum
         </a>
         →
-      </span></p></div>  <div class="gitalk-container theme-default-content"><div id="gitalk-container" class="content"></div></div></main> <div id="kitty-container"><span><div role="tooltip" id="el-popover-28" aria-hidden="true" class="el-popover el-popper" style="width:undefinedpx;display:none;"><!----><div class="cover"><p class="title">今日咒语</p> <p class="text">追求模糊的正确，而不是精确的错误。</p></div> </div><span class="el-popover__reference-wrapper"><div id="kitty" style="background:url(https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/assets/img/kitty2.svg);"></div></span></span></div></div><div class="global-ui"></div></div>
-    <script src="/leetcode-js/assets/js/app.70690ade.js" defer></script><script src="/leetcode-js/assets/js/3.f9cfc309.js" defer></script><script src="/leetcode-js/assets/js/1.50997d5f.js" defer></script><script src="/leetcode-js/assets/js/61.6d8af695.js" defer></script><script src="/leetcode-js/assets/js/2.0d4c9392.js" defer></script>
+      </span></p></div>  <div class="gitalk-container theme-default-content"><div id="gitalk-container" class="content"></div></div></main> <div id="kitty-container"><span><div role="tooltip" id="el-popover-1492" aria-hidden="true" class="el-popover el-popper" style="width:undefinedpx;display:none;"><!----><div class="cover"><p class="title">今日咒语</p> <p class="text">很多时候，让好的信息与美的事物冲刷你、穿过你、流经你，就已经是一种最好的「学习」了。只是我们的大脑总觉得非要掌握点儿具体的知识点才叫学习，于是就会一闲下来，好像没干什么「正事」的时候就开始焦虑，然后赶紧拿一些东西来填补自己的空虚。这和宇宙运行的真正法则正好是反过来的。</p></div> </div><span class="el-popover__reference-wrapper"><div id="kitty" style="background:url(https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/assets/img/kitty2.svg);"></div></span></span></div></div><div class="global-ui"></div></div>
+    <script src="/leetcode-js/assets/js/app.ec632265.js" defer></script><script src="/leetcode-js/assets/js/3.f9cfc309.js" defer></script><script src="/leetcode-js/assets/js/1.50997d5f.js" defer></script><script src="/leetcode-js/assets/js/61.0fb835fc.js" defer></script><script src="/leetcode-js/assets/js/2.0d4c9392.js" defer></script>
   </body>
 </html>
