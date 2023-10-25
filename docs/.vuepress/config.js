@@ -37,7 +37,7 @@ module.exports = {
     // 默认是 false, 设置为 true 来启用
     editLinks: true,
     // 默认为 "Edit this page"
-    editLinkText: "帮二小改善此页面",
+    editLinkText: "帮2xiao改善此页面",
     lastUpdated: "更新时间",
     nav: [
       { text: "LeetCode", link: "/leetcode/" },
@@ -92,7 +92,7 @@ module.exports = {
           ],
         },
         {
-          title: "第四章 精选题集",
+          title: "第四章 LeetCode 题解",
           collapsable: true,
           children: [
             // AUTO_GEN_CONFIG_START

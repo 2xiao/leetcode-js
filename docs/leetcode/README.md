@@ -44,7 +44,7 @@ title: "目录"
 - [3.10 双指针](./algorithm/9_two_pointer)
 - [3.11 滑动窗口](./algorithm/10_slide_window)
 
-### 第四章 精选题集
+### 第四章 LeetCode 题解
 
 - [LeetCode 题解](./solution/0001-0099)
 - [剑指 Offer](./solution/Offer)

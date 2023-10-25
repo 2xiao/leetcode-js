@@ -99,7 +99,7 @@ def append_table(file: str, table: str, delim: str = '<!-- START TABLE -->'):
     Path(file).write_text(content, encoding='utf-8')
 
 
-# 自动添加config中的sidebar字段，根据 delim 字段判断插入位置，end字段判断结束位置
+# 自动修改config中的sidebar字段，根据 delim 字段判断插入位置，end字段判断结束位置
 
 
 def append_config(file: str, config: str, delim: str = '// AUTO_GEN_CONFIG_START', end: str = '// AUTO_GEN_CONFIG_END'):
@@ -113,7 +113,7 @@ def append_config(file: str, config: str, delim: str = '// AUTO_GEN_CONFIG_START
     Path(file).write_text(content, encoding='utf-8')
 
 
-# 根据题解目录 problem_path 自动生成题解列表，并保存到 output_path 中
+# 根据题解目录 problem_path 自动生成题解汇总列表，并保存到 solotions_output_path 中
 
 
 def gen_solutions_list(problem_path, solotions_output_path):
@@ -149,7 +149,7 @@ def gen_solutions_list(problem_path, solotions_output_path):
     return frame_cout
 
 
-# 根据题解所在目录自动生成题解列表，并保存到 solution_path 中
+# 根据题解 problem_path，根据所属索引目录，自动生成切片的题解汇总列表，并保存到 solution_path 中
 
 
 def gen_slice_list(problem_path, solution_path):
@@ -193,7 +193,7 @@ def gen_slice_list(problem_path, solution_path):
     print("Create Slice List Success")
 
 
-# 根据题解所在目录自动生成config.js
+# 根据题解 problem_path 自动生成config.js
 
 
 def gen_config_js(problem_path, config_path):
@@ -232,6 +232,7 @@ def gen_config_js(problem_path, config_path):
         title = idx
         if idx in file_name:
             title = file_name[idx]
+        
         config_item = [base_spaces_12 + '{', '  title: "' + title + '",',
                        '  collapsable: true,', '  children: [', toc_path, children, '  ],', '},']
         content += base_spaces_12.join(config_item)
@@ -240,7 +241,8 @@ def gen_config_js(problem_path, config_path):
     print("Create config.js Success")
 
 
-# 根据题解目录, 题目分类原始列表目录，生成分类题解，并将整体保存到 categories_list_path
+# 根据题解 problem_path 和 题目分类 categories_origin_list_path
+# 生成分类题解，并将其保存到 categories_list_path
 
 
 def gen_categories_list(problem_path, categories_origin_list_path, categories_list_path):
@@ -312,7 +314,8 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
     print("Create Categories List Success")
 
 
-# 根据题解目录, 面试题目分类原始列表目录，生成面试题解，并将整体保存到 interview_list_path
+# 根据题解 problem_path 和 面试题目分类 interview_origin_list_path
+# 生成面试题解，并将其保存到 interview_list_path
 
 
 def gen_interview_list(problem_path, interview_origin_list_path, interview_list_path):

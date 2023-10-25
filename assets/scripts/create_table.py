@@ -28,7 +28,7 @@ gen.gen_interview_list(problem_path, interview_200_origin_list_path, interview_2
 # 生成全部题解列表
 gen.gen_solutions_list(problem_path, solotions_output_path) 
 
-# 生成LeetCode题解按字典分章节目录
+# 生成LeetCode题解按字典划分章节的索引
 gen.gen_slice_list(problem_path, solution_path) 
 
 # 自动生成 config.js 中的部分 sidebar，leetcode题解部分
