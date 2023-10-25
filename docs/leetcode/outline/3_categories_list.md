@@ -194,8 +194,8 @@
 | 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | 数组、哈希表、矩阵 | 中等 |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
-| 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
+| 0018 | [四数之和](https://leetcode.com/problems/4sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0018) | 数组、双指针、排序 | 中等 |
 | 0454 | [四数相加 II](https://leetcode.com/problems/4sum-ii/) |  | 数组、哈希表 | 中等 |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  | 数组、哈希表 | 困难 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |
@@ -1094,9 +1094,9 @@
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | 双指针、字符串 | 简单 |
 | 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0011) | 贪心、数组、双指针 | 中等 |
 | 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | 贪心、数组、双指针、二分查找、排序 | 中等 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
-| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
-| 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
+| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0016) | 数组、双指针、排序 | 中等 |
+| 0018 | [四数之和](https://leetcode.com/problems/4sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0018) | 数组、双指针、排序 | 中等 |
 | 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) |  | 数组、双指针、二分查找、排序 | 中等 |
 | 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | 数组、双指针、二分查找、排序、滑动窗口、堆（优先队列） | 中等 |
 | 1099 | [小于 K 的两数之和](https://leetcode.com/problems/two-sum-less-than-k/) |  | 数组、双指针、二分查找、排序 | 简单 |

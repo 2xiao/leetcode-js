@@ -57,7 +57,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  | 数组、哈希表 | 困难 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
@@ -298,7 +298,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
 
 * 快慢指针
 

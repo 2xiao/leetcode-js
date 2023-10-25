@@ -21,8 +21,8 @@
 | 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | 数组、哈希表、矩阵 | 中等 |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
-| 0018 | [四数之和](https://leetcode.com/problems/4sum/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
+| 0018 | [四数之和](https://leetcode.com/problems/4sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0018) | 数组、双指针、排序 | 中等 |
 | 0454 | [四数相加 II](https://leetcode.com/problems/4sum-ii/) |  | 数组、哈希表 | 中等 |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  | 数组、哈希表 | 困难 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |

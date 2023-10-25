@@ -73,7 +73,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  | 数组、哈希表 | 困难 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 |
@@ -434,8 +434,8 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | 贪心、数组、双指针、二分查找、排序 | 中等 |
-| 0015 | [三数之和](https://leetcode.com/problems/3sum/) |  | 数组、双指针、排序 | 中等 |
-| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) |  | 数组、双指针、排序 | 中等 |
+| 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | 数组、双指针、排序 | 中等 |
+| 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0016) | 数组、双指针、排序 | 中等 |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | 双指针、字符串 | 简单 |
 | 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0011) | 贪心、数组、双指针 | 中等 |
 | 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | 数组、双指针、排序 | 中等 |

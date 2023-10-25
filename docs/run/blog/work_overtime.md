@@ -24,12 +24,13 @@
 
 我们在混沌的生活里应接不暇，还要将自己给自己施加的苦难囫囵吞下。
 
->“The real violence, the violence I realized was unforgivable, is the violence that we do to ourselves, when we're too afraid to be who we really are.” 
->
->“真正的暴行，是我们太害怕成为真实的自己的时候对自己施加的，这才是不可原谅的。”
->
->——《My Mad Fat Diary》
+::: tip
+“The real violence, the violence I realized was unforgivable, is the violence that we do to ourselves, when we're too afraid to be who we really are.” 
 
+“真正的暴行，是我们太害怕成为真实的自己的时候对自己施加的，这才是不可原谅的。”
+
+——《My Mad Fat Diary》
+:::
 
 ### # 2  
 
