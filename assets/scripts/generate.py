@@ -279,7 +279,7 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
 
                     category_h2_file_content += "\n\n## 相关题目\n\n"
                     category_file_content += "\n---\n### " + \
-                        category_h2 + "\n[相关知识详解](" + page_path + ")\n"
+                        category_h2 + "\n::: tip\n[点击查看【" + category_h2 + "】相关知识点详解](" + page_path + ")\n:::\n"
                 else:
                     category_h2 = title_content
                     category_file_content += "### " + category_h2 + "\n\n"

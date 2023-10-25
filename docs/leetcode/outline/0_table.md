@@ -4,11 +4,13 @@ leetcode 题目虽然多，但如果按类别来刷，其实也没多少，很�
 
 因此，我整理了 [LeetCode 面试最常考 100 题](../outline/4_interview_100_list) 和 [LeetCode 面试最常考 200 题](../outline/5_interview_200_list) ，建议先从这些题入手，掌握了这些面试热门的道目，就对数据结构与算法有了一个大体的了解。
 
-为了让你对数据结构和算法能有个更全面的认识，我画了一个表格，里面涵盖了 19 个最常用的、最基础数据结构与算法，只要集中精力逐一攻克这 19 个知识点就足够了。
+为了让你对数据结构和算法能有个更全面的认识，我对 19 个最常用的、最基础数据结构与算法做了精讲，每个知识点都配有对应的练习题，知识结构导图见下方的表格，只要集中精力逐一攻克这 19 个知识点就足够了。
 
+::: tip
 - 8 个数据结构：[数组](../ds/0_array)、[链表](../ds/1_linked_list)、[栈](../ds/2_stack)、[队列](../ds/3_queue)、[哈希表](../ds/4_hash_table)、[字符串](../ds/5_string)、[树](../ds/6_tree)、[图](../ds/7_graph);
 
 - 11 个算法：[枚举算法](../algorithm/0_enumeration)、[递归算法](../algorithm/1_recursion)、[分治算法](../algorithm/2_divide_conquer)、[回溯算法](../algorithm/3_backtracking)、[贪心算法](../algorithm/4_greed)、[动态规划](../algorithm/5_dynamic_programming)、[位运算](../algorithm/6_bit)、[排序算法](../algorithm/7_sort)、[二分查找](../algorithm/8_binary_search)、[双指针](../algorithm/9_two_pointer)、[滑动窗口](../algorithm/10_slide_window);
+:::
 
 掌握了这些基础的数据结构和算法，再结合 [LeetCode 题解（分类排序 ★★★）](../outline/3_categories_list) 加以练习，就会非常容易、非常快地通关 LeetCode。
 
