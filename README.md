@@ -55,7 +55,7 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 - [3.10 双指针](https://2xiao.github.io/leetcode-js/leetcode/algorithm/9_two_pointer)
 - [3.11 滑动窗口](https://2xiao.github.io/leetcode-js/leetcode/algorithm/10_slide_window)
 
-### 第四章 精选题集
+### 第四章 LeetCode 题解
 
 - [LeetCode 题解](https://2xiao.github.io/leetcode-js/leetcode/solution/0001-0099)
 - [剑指 Offer](https://2xiao.github.io/leetcode-js/leetcode/solution/Offer)
