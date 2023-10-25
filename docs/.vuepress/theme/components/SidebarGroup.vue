@@ -87,7 +87,7 @@ export default {
       font-weight normal
       padding-left 2rem
       &:not(.clickable)
-        opacity 0.5
+        opacity 1
     & > .sidebar-group-items
       padding-left 1rem
       & > li > .sidebar-link

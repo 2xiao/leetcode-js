@@ -3,8 +3,10 @@ title: "目录"
 ---
 
 <p align="center">
-  <img src="../../assets/images/leetcode-js-logo.png" alt="logo" height="400"/>
+  <img src="../../assets/images/leetcode-js-logo.png" alt="logo" height="360"/>
 </p>
+<p align="center"><font size=5><b>《LeetCode-JS 通关指南》</b></font></p>
+<p align="center"><font color=gray>数据结构与算法精讲，1000+ LeetCode 题目详解。</font></p>
 
 ---
 
