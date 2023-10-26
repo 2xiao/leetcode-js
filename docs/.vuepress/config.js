@@ -199,7 +199,7 @@ module.exports = {
       ],
       "/react/": [
         {
-          title: "手写React18",
+          title: "自己动手写 React",
           collapsable: true,
           children: ["/react/", "/react/1.1", "/react/2.1"],
         },
