@@ -131,8 +131,8 @@
 | :------ | :------ | :------ | :------ | :------ |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |  | 栈、字符串 | 简单 |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 |
-| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) |  | 栈、字符串 | 简单 |
-| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  | 栈、数学、字符串 | 中等 |
+| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | 栈、字符串 | 简单 |
+| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | 栈、数学、字符串 | 中等 |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | 栈、数组、单调栈 | 中等 |
 | 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | 栈、数组、数学 | 中等 |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | 栈、设计、队列 | 简单 |

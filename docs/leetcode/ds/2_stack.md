@@ -10,6 +10,8 @@
 
 栈是一种 「**后进先出（Last In First Out）**」 的线性表，简称为 「LIFO 结构」。
 
+有一个非常贴切的例子，就是一摞叠在一起的盘子。我们平时放盘子的时候，都是从下往上一个一个放；取的时候，我们也是从上往下一个一个地依次取，不能从中间任意抽出。
+
 我们可以从两个方面来解释一下栈的定义：
 
 - 「**线性表**」
@@ -20,7 +22,7 @@
 
 根据栈的定义，每次删除的总是栈中当前的栈顶元素，即最后进入栈的元素。而在进栈时，最先进入栈的元素一定在栈底，最后进入栈的元素一定在栈顶。也就是说，元素进入栈或者退出退栈是按照「后进先出（Last In First Out）」的原则进行的。
 
-## 栈的存储
+## 栈的实现
 
 栈既可以用数组来实现，也可以用链表来实现。
 
@@ -78,45 +80,15 @@ class ArrayStack {
 
 ## 栈的应用
 
-### 1. 函数调用栈
+### 1. 表达式求值
 
-栈作为一个比较基础的数据结构，应用场景还是蛮多的。其中，比较经典的一个应用场景就是函数调用栈。
+一个常见的应用场景是，编译器利用栈来实现表达式求值。
 
-操作系统给每个线程分配了一块独立的内存空间，这块内存被组织成“栈”这种结构,用来存储函数调用时的临时变量。每进入一个函数，就会将临时变量作为一个栈帧入栈，当被调用函数执行完成，返回之后，将这个函数对应的栈帧出栈。更好地理解，来看下这段代码的执行过程。
+::: tip
+[227. 基本计算器 II - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0227.html)
+:::
 
-```javascript
-function main() {
-    let a = 1;
-    let ret = 0;
-    let res = 0;
-    ret = add(3, 5);
-    res = a + ret;
-    console.log("%d", res);
-    reuturn 0;
-}
-
-function add(x, y) {
-    let sum = 0;
-    sum = x + y;
-    return sum;
-}
-```
-
-从代码中可以看出，main()函数调用了 add()函数，获取计算结果，并且与临时变量 a 相加，最后打印 res 的值。在执行到 add()函数时，函数调用栈的情况如下所示：
-
-![](../../../assets/images/17b6c6711e8d60b61d65fb0df5559a1c.png)
-
----
-
-### 2. 表达式求值
-
-另一个常见的应用场景是，编译器利用栈来实现表达式求值。
-
-#### 题目链接
-
-[227. 基本计算器 II - LeetCode](https://leetcode.com/problems/basic-calculator-ii/)
-
-#### 题目大意
+#### # 题目大意
 
 **描述**：给定一个字符串表达式 s，表达式中所有整数为非负整数，运算符只有 +、-、\*、/，没有括号。
 
@@ -143,7 +115,7 @@ function add(x, y) {
 输出：1
 :::
 
-#### 解题思路
+#### # 解题思路
 
 通过两个栈来实现的。其中一个保存操作数的栈，另一个是保存运算符的栈。从左向右遍历表达式，当遇到数字，我们就直接压入操作数栈；当遇到运算符，就与运算符栈的栈顶元素进行比较。
 
@@ -153,7 +125,7 @@ function add(x, y) {
 
 ![](../../../assets/images/bc77c8d33375750f1700eb7778551600.png)
 
-#### 代码
+#### # 代码
 
 ```javascript
 
@@ -161,15 +133,15 @@ function add(x, y) {
 
 ---
 
-### 3. 括号匹配
+### 2. 括号匹配
 
 还可以借助栈来检查表达式中的括号是否匹配。
 
-#### 题目链接
+::: tip
+[20. 有效的括号 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0020.html)
+:::
 
-[20. 有效的括号 - LeetCode](https://leetcode.com/problems/valid-parentheses/)
-
-#### 题目大意
+#### # 题目大意
 
 **描述**：给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s 。
 
@@ -194,7 +166,7 @@ function add(x, y) {
 输出：True
 :::
 
-#### 解题思路
+#### # 解题思路
 
 用栈来保存未匹配的左括号，从左到右依次扫描字符串。当扫描到左括号时，则将其压入栈中；
 
@@ -204,45 +176,77 @@ function add(x, y) {
 
 当所有的括号都扫描完成之后，如果栈为空，则说明字符串为合法格式；否则，说明有未匹配的左括号，为非法格式。
 
-#### 代码
+#### # 代码
 
 ```javascript
 
 ```
 
+---
+
+### 3. 函数调用栈
+
+还有一个比较经典的应用场景就是函数调用栈。
+
+操作系统给每个线程分配了一块独立的内存空间，这块内存被组织成“栈”这种结构,用来存储函数调用时的临时变量。每进入一个函数，就会将临时变量作为一个栈帧入栈，当被调用函数执行完成，返回之后，将这个函数对应的栈帧出栈。更好地理解，来看下这段代码的执行过程。
+
+```javascript
+function main() {
+    let a = 1;
+    let ret = 0;
+    let res = 0;
+    ret = add(3, 5);
+    res = a + ret;
+    console.log("%d", res);
+    reuturn 0;
+}
+
+function add(x, y) {
+    let sum = 0;
+    sum = x + y;
+    return sum;
+}
+```
+
+从代码中可以看出，main()函数调用了 add()函数，获取计算结果，并且与临时变量 a 相加，最后打印 res 的值。在执行到 add()函数时，函数调用栈的情况如下所示：
+
+![](../../../assets/images/17b6c6711e8d60b61d65fb0df5559a1c.png)
+
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
+
 
 ## 相关题目
 
 #### 栈基础题目
 
-| 题号          | 标题                                                                                                    | 题解 | 标签                   | 难度 |
-| :------------ | :------------------------------------------------------------------------------------------------------ | :--- | :--------------------- | :--- |
-| 1047          | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |      | 栈、字符串             | 简单 |
-| 0155          | [最小栈](https://leetcode.com/problems/min-stack/)                                                      |      | 栈、设计               | 中等 |
-| 0020          | [有效的括号](https://leetcode.com/problems/valid-parentheses/)                                          |      | 栈、字符串             | 简单 |
-| 0227          | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/)                                     |      | 栈、数学、字符串       | 中等 |
-| 0739          | [每日温度](https://leetcode.com/problems/daily-temperatures/)                                           |      | 栈、数组、单调栈       | 中等 |
-| 0150          | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                     |      | 栈、数组、数学         | 中等 |
-| 0232          | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/)                             |      | 栈、设计、队列         | 简单 |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)              |      | 栈、设计、队列         | 简单 |
-| 0394          | [字符串解码](https://leetcode.com/problems/decode-string/)                                              |      | 栈、递归、字符串       | 中等 |
-| 0032          | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/)                                |      | 栈、字符串、动态规划   | 困难 |
-| 0946          | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/)                                   |      | 栈、数组、模拟         | 中等 |
-| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)                |      | 栈、递归、链表、双指针 | 简单 |
-| 0071          | [简化路径](https://leetcode.com/problems/simplify-path/)                                                |      | 栈、字符串             | 中等 |
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |  | 栈、字符串 | 简单 |
+| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 |
+| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | 栈、字符串 | 简单 |
+| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | 栈、数学、字符串 | 中等 |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | 栈、数组、单调栈 | 中等 |
+| 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | 栈、数组、数学 | 中等 |
+| 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | 栈、设计、队列 | 简单 |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |  | 栈、设计、队列 | 简单 |
+| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | 栈、递归、字符串 | 中等 |
+| 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  | 栈、字符串、动态规划 | 困难 |
+| 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) |  | 栈、数组、模拟 | 中等 |
+| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | 栈、递归、链表、双指针 | 简单 |
+| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | 栈、字符串 | 中等 |
 
 #### 单调栈
 
-| 题号 | 标题                                                                                | 题解 | 标签                               | 难度 |
-| :--- | :---------------------------------------------------------------------------------- | :--- | :--------------------------------- | :--- |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/)                       |      | 栈、数组、单调栈                   | 中等 |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/)           |      | 栈、数组、哈希表、单调栈           | 简单 |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/)         |      | 栈、数组、单调栈                   | 中等 |
-| 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/)                    |      | 栈、设计、数据流、单调栈           | 中等 |
-| 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |      | 栈、数组、单调栈                   | 困难 |
-| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/)             |      | 栈、贪心、字符串、单调栈           | 中等 |
-| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/)                        |      | 栈、数组、双指针、动态规划、单调栈 | 困难 |
-| 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/)                        |      | 栈、数组、动态规划、矩阵、单调栈   | 困难 |
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | 栈、数组、单调栈 | 中等 |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | 栈、数组、哈希表、单调栈 | 简单 |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | 栈、数组、单调栈 | 中等 |
+| 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  | 栈、设计、数据流、单调栈 | 中等 |
+| 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  | 栈、数组、单调栈 | 困难 |
+| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | 栈、贪心、字符串、单调栈 | 中等 |
+| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 |
+| 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | 栈、数组、动态规划、矩阵、单调栈 | 困难 |
+

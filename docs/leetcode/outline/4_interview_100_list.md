@@ -25,8 +25,8 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 |
-| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) |  | 栈、字符串 | 简单 |
-| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  | 栈、数学、字符串 | 中等 |
+| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | 栈、字符串 | 简单 |
+| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | 栈、数学、字符串 | 中等 |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | 栈、设计、队列 | 简单 |
 | 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | 栈、递归、字符串 | 中等 |
 | 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  | 栈、字符串、动态规划 | 困难 |

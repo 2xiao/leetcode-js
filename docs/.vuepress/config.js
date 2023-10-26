@@ -87,6 +87,7 @@ module.exports = {
                 "/leetcode/problem/0015.md",
                 "/leetcode/problem/0016.md",
                 "/leetcode/problem/0018.md",
+                "/leetcode/problem/0020.md",
                 "/leetcode/problem/0026.md",
                 "/leetcode/problem/0027.md",
                 "/leetcode/problem/0033.md",
@@ -115,6 +116,7 @@ module.exports = {
               children: [
                 "/leetcode/solution/0200-0299.md",
                 "/leetcode/problem/0206.md",
+                "/leetcode/problem/0227.md",
                 "/leetcode/problem/0238.md",
                 "/leetcode/problem/0279.md",
                 "/leetcode/problem/0283.md"
