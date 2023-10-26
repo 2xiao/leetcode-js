@@ -2,7 +2,7 @@
   <div>
     <div class="copyright-text">
       <div>温馨提示喵</div>
-      <div>本文版权归作者所有，如需转载，必须保留此段声明，且在页面明显位置展示原文链接，否则保留追究法律责任的权利。</div>
+      <div>著作权归作者所有，商业转载请联系作者获得授权，非商业转载请注明出处，否则保留追究法律责任的权利。</div>
       <div>出处：<a href="https://2xiao.github.io/leetcode-js/" target="_blank">前端算法通关指南
 </a></div>
       <div>作者：<a href="https://github.com/2xiao" target="_blank">2xiao</a></div>

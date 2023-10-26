@@ -8,6 +8,29 @@
 
 ![](../../../assets/images/98df8e702b14096e7ee4a5141260cdc4.png)
 
+```javascript
+// 一维数组：
+// 数组的每一个元素是一个数据类型
+[1, 2, 3]
+
+// 二维数组：
+// 数组的每一个元素是一个一维数组
+[["a", "b", "c"], [1, 2, 3], 123]
+
+// 三维数组：
+// 数组的每一个元素是一个二维数组
+[
+  [
+    ["a", "b", "c"],
+    [1, 2, 3],
+  ],
+  [
+    ["a", "b", "c"],
+    [1, 2, 3],
+  ],
+]
+```
+
 我们还可以从两个方面来解释一下数组的定义。
 
 ::: tip
@@ -77,6 +100,7 @@
 跟插入数据类似，如果我们要删除第 k 个位置的数据，为了内存的连续性，也需要搬移数据，不然中间就会出现空洞，内存就不连续了。
 
 和插入类似：
+
 - 如果**删除数组末尾**的数据，则最好情况时间复杂度为 `O(1)`；
 - 如果**删除开头**的数据，则最坏情况时间复杂度为 `O(n)`；
 - **平均情况**时间复杂度也为 `O(n)`。
@@ -87,27 +111,25 @@
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 数组操作
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
-| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) | 数组、数学 | 简单 |
-| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | 数组、前缀和 | 简单 |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组 | 简单 |
-| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | 数组、前缀和 | 中等 |
+| 题号 | 标题                                                                                | 题解                                                            | 标签               | 难度 |
+| :--- | :---------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :----------------- | :--- |
+| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/)                             | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 |
+| 0066 | [加一](https://leetcode.com/problems/plus-one/)                                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) | 数组、数学         | 简单 |
+| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/)               | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | 数组、前缀和       | 简单 |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/)            | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | 数组               | 简单 |
+| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | 数组、前缀和       | 中等 |
 
 #### 二维数组
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
-| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟 | 中等 |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 |
-| 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/) |  | 数组、哈希表、矩阵 | 中等 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 |
-| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 |
-| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  | 数组、矩阵、模拟 | 中等 |
-
+| 题号 | 标题                                                           | 题解                                                            | 标签               | 难度 |
+| :--- | :------------------------------------------------------------- | :-------------------------------------------------------------- | :----------------- | :--- |
+| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟   | 中等 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/)        |                                                                 | 数组、数学、矩阵   | 中等 |
+| 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/)   |                                                                 | 数组、哈希表、矩阵 | 中等 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/)       |                                                                 | 数组、矩阵、模拟   | 中等 |
+| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |                                                                 | 数组、矩阵、模拟   | 中等 |
+| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/)        |                                                                 | 数组、矩阵、模拟   | 中等 |

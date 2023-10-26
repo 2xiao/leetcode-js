@@ -113,10 +113,10 @@ def append_config(file: str, config: str, delim: str = '// AUTO_GEN_CONFIG_START
     Path(file).write_text(content, encoding='utf-8')
 
 
-# 根据题解目录 problem_path 自动生成题解汇总列表，并保存到 solotions_output_path 中
+# 根据题解目录 problem_path 自动生成题解汇总列表，并保存到 solotion_list_path 中
 
 
-def gen_solutions_list(problem_path, solotions_output_path):
+def gen_solution_list(problem_path, solotion_list_path):
     files = os.listdir(problem_path)
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
     frame_cout = 0
@@ -140,7 +140,7 @@ def gen_solutions_list(problem_path, solotions_output_path):
         frame_cout += 1
 
     table = gen_markdown_table(frame, True)
-    with open(solotions_output_path, 'w', encoding='utf-8') as f:
+    with open(solotion_list_path, 'w', encoding='utf-8') as f:
         f.writelines("# 1.3 LeetCode 题解（字典排序）\n\n")
         f.writelines("已完成 {} 道\n\n".format(frame_cout))
         f.write(table)
