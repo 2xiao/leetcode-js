@@ -1,4 +1,4 @@
-序号,文件名,所在目录,标题,标题末尾,标题链接,标题链接末尾路径,标签,网站题解链接,github 题解链接,通过率,难度,题解数目
+序号,文件名,所在目录,标题,标题末尾,标题链接,英文标题,标签,网站题解链接,github 题解链接,通过率,难度,题解数目
 0001,0001,0001-0099,0001. 两数之和,两数之和,https://leetcode.com/problems/two-sum/,two-sum,数组、哈希表,https://2xiao.github.io/leetcode-js/leetcode/problem/0001,https://github.com/2xiao/leetcode-js/blob/master/docs/leetcode/problem/0001.md,52.9%,简单,21940
 0002,0002,0001-0099,0002. 两数相加,两数相加,https://leetcode.com/problems/add-two-numbers/,add-two-numbers,递归、链表、数学,https://2xiao.github.io/leetcode-js/leetcode/problem/0002,https://github.com/2xiao/leetcode-js/blob/master/docs/leetcode/problem/0002.md,42.4%,中等,12149
 0003,0003,0001-0099,0003. 无重复字符的最长子串,无重复字符的最长子串,https://leetcode.com/problems/longest-substring-without-repeating-characters/,longest-substring-without-repeating-characters,哈希表、字符串、滑动窗口,https://2xiao.github.io/leetcode-js/leetcode/problem/0003,https://github.com/2xiao/leetcode-js/blob/master/docs/leetcode/problem/0003.md,39.1%,中等,13753
