@@ -375,7 +375,8 @@ def gen_template_list(problem_path, origin_list_path, list_path):
                 frame = gen_frame_with_salt(problems, problem_path)
                 table = gen_markdown_table(frame, False)
                 file_content += table + "\n\n"
-
+        else:
+            file_content += lines[i]
     if file_content:
         with open(list_path, 'w', encoding='utf-8') as fi:
             fi.write(file_content)

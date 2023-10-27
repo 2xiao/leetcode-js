@@ -1,6 +1,8 @@
 # 1.7 高频面试题（按公司排序）
 
+
 ## 谷歌
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -45,7 +47,9 @@
 | 0463 | [岛屿的周长](https://leetcode.com/problems/island-perimeter/) |  | 深度优先搜索、广度优先搜索、数组、矩阵 | 简单 | 4 |
 | 1568 | [使陆地分离的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) |  | 深度优先搜索、广度优先搜索、数组、矩阵、强连通分量 | 困难 | 2 |
 
+
 ## 脸书
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -100,7 +104,9 @@
 | 0301 | [删除无效的括号](https://leetcode.com/problems/remove-invalid-parentheses/) |  | 广度优先搜索、字符串、回溯 | 困难 | 10 |
 | 0863 | [二叉树中所有距离为 K 的结点](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 中等 | 10 |
 
+
 ## 苹果
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -129,7 +135,9 @@
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  | 数组、哈希表、前缀和 | 中等 | 11 |
 | 0186 | [反转字符串中的单词 II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |  | 双指针、字符串 | 中等 | 7 |
 
+
 ## 亚马逊
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -169,7 +177,9 @@
 | 0140 | [单词拆分 II](https://leetcode.com/problems/word-break-ii/) |  | 字典树、记忆化搜索、数组、哈希表、字符串、动态规划、回溯 | 困难 | 2 |
 | 0828 | [统计子串中的唯一字符](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) |  | 哈希表、字符串、动态规划 | 困难 | 2 |
 
+
 ## 微软
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -194,7 +204,9 @@
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 | 7 |
 | 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | 数组、动态规划、滑动窗口 | 中等 | 1 |
 
+
 ## 腾讯
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -247,7 +259,9 @@
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  | 数学、字符串、模拟 | 中等 | 13 |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 | 12 |
 
+
 ## 百度
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -279,7 +293,9 @@
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 | 12 |
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) |  | 递归、链表 | 困难 | 11 |
 
+
 ## 阿里
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -315,7 +331,9 @@
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |  | 树、广度优先搜索、二叉树 | 中等 | 9 |
 | 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) |  | 栈、树、深度优先搜索、二叉树 | 简单 | 9 |
 
+
 ## 字节
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -373,7 +391,9 @@
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 | 22 |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | 双指针、字符串 | 简单 | 22 |
 
+
 ## 美团
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
@@ -418,7 +438,9 @@
 | 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | 队列、数组、滑动窗口、单调队列、堆（优先队列） | 困难 | 14 |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 | 13 |
 
+
 ## 快手
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
