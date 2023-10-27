@@ -380,9 +380,6 @@ def gen_template_list(problem_path, origin_list_path, list_path):
     if file_content:
         with open(list_path, 'w', encoding='utf-8') as fi:
             fi.write(file_content)
-            fi.write("::: tip\n数据来源：\n")
-            fi.write("* [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)\n")
-            fi.write("* [CodeTop | 企业题库](https://codetop.cc/home)\n:::\n")
         fi.close()
 
     print("Create Company List Success")

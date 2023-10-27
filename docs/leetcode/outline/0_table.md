@@ -14,9 +14,9 @@
 
 ::: tip
 
-- 8 个数据结构：[数组](../ds/0_array)、[链表](../ds/1_linked_list)、[栈](../ds/2_stack)、[队列](../ds/3_queue)、[哈希表](../ds/4_hash_table)、[字符串](../ds/5_string)、[树](../ds/6_tree)、[图](../ds/7_graph);
+- **8 个数据结构**：[数组](../ds/0_array)、[链表](../ds/1_linked_list)、[栈](../ds/2_stack)、[队列](../ds/3_queue)、[哈希表](../ds/4_hash_table)、[字符串](../ds/5_string)、[树](../ds/6_tree)、[图](../ds/7_graph);
 
-- 11 个算法：[枚举算法](../algorithm/0_enumeration)、[递归算法](../algorithm/1_recursion)、[分治算法](../algorithm/2_divide_conquer)、[回溯算法](../algorithm/3_backtracking)、[贪心算法](../algorithm/4_greed)、[动态规划](../algorithm/5_dynamic_programming)、[位运算](../algorithm/6_bit)、[排序算法](../algorithm/7_sort)、[二分查找](../algorithm/8_binary_search)、[双指针](../algorithm/9_two_pointer)、[滑动窗口](../algorithm/10_slide_window);
+- **11 个算法**：[枚举算法](../algorithm/0_enumeration)、[递归算法](../algorithm/1_recursion)、[分治算法](../algorithm/2_divide_conquer)、[回溯算法](../algorithm/3_backtracking)、[贪心算法](../algorithm/4_greed)、[动态规划](../algorithm/5_dynamic_programming)、[位运算](../algorithm/6_bit)、[排序算法](../algorithm/7_sort)、[二分查找](../algorithm/8_binary_search)、[双指针](../algorithm/9_two_pointer)、[滑动窗口](../algorithm/10_slide_window);
   :::
 
 我对每个知识点都做了精讲，并配有对应的 LeetCode 题目，可以帮你打下扎实的基础，形成自己的知识体系。
@@ -35,17 +35,17 @@ LeetCode 题目虽然多，但如果分类别来看，其实也没多少，很�
 
 建议采用“**分类知识学习** + **核心题目** + **反复训练** + **融会贯通**”的系统性学习方法。
 
-我整理了 [高频面试题（按分类排序）](../outline/4_top_200_list)和 [LeetCode 题解（分类）](../outline/3_categories_list)，建议先从这些题入手，分类别练习，遇到不熟悉的点可以查看对应的知识点精讲。
+我整理了 [高频面试题（按分类排序）](../outline/4_top_200_list)和 [LeetCode 题解（分类）](../outline/3_categories_list)，建议先从这些题入手，分类别练习，点击标题可以跳转到LeetCode对应答题页面，点击题解（JS）可以查看我的答题思路和代码，遇到不熟悉的知识点可以去对应的知识点精讲学习。
 
-掌握了这十几种常见算法的基本原理和思路，就对数据结构与算法有了一个大体的了解，即便出现很多新题，大多也能用现有知识体系去化解。
+掌握了这十几种常见算法类型的基本原理和思路，就对数据结构与算法有了一个大体的了解，即便出现很多新题，大多也能用现有知识体系去化解。
 
-对算法模板、数据结构形成初步的认识之后，可以再结合[高频面试题（按频次排序）](../outline/5_frequency_list)、[高频面试题（按公司排序）](../outline/6_company_list)、 [LeetCode 题解](../outline/2_solution_list) 多加练习，逐渐提升自己对答题思路的掌握，和对内在原理的领悟。
+对算法模板、数据结构形成初步的认识之后，可以再结合 [高频面试题（按频次排序）](../outline/5_frequency_list)、[高频面试题（按公司排序）](../outline/6_company_list)、 [LeetCode 题解](../outline/2_solution_list) 多加练习，逐渐提升自己对答题思路的掌握，和对内在原理的领悟。
 
 ::: tip
-《师父》里面有一句话：「每日挥刀五百下，这个数管住了我。」
+电影《师父》里面有一句话：「每日挥刀五百下，这个数管住了我。」
 :::
 
-成功往往来自于，把简单、正确的事情重复做，不相信也不追求快速而一劳永逸的必胜之法。
+成功往往来自于，**把简单、正确的事情重复做**，不相信也不追求快速而一劳永逸的必胜之法。
 
 想要通关 LeetCode，没有什么神奇的方法，最重要还是自己动手刷题。
 
