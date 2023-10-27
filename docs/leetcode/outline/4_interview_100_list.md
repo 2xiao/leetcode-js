@@ -1,4 +1,4 @@
-# 1.5 LeetCode 面试最常考 100 题
+# 1.5 高频面试题（TOP 100）
 
 ### 数组
 
@@ -364,7 +364,7 @@
 | 0031 | [下一个排列](https://leetcode.com/problems/next-permutation/) |  | 数组、双指针 | 中等 |
 | 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  | 数学、拒绝采样、概率与统计、随机化 | 中等 |
 
-
-### 参考资料
-
-- 【清单】[CodeTop 企业题库](https://codetop.cc/home)
+::: tip
+数据来源：
+* [CodeTop | 企业题库](https://codetop.cc/home)
+:::

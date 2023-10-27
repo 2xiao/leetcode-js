@@ -45,6 +45,6 @@
 | 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | 贪心、数组、双指针、二分查找、排序 | 中等 |
 | 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | 数组、前缀和 | 简单 |
 | LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/LCP_53) | 位运算、数组、动态规划、状态压缩 | 困难 |
-| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/zj_offer_59_2) | 设计、队列、单调队列 | 中等 |
-| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/zj_offer_II_055) | 栈、树、设计、二叉搜索树、二叉树、迭代器 | 中等 |
+| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_59_2) | 设计、队列、单调队列 | 中等 |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_055) | 栈、树、设计、二叉搜索树、二叉树、迭代器 | 中等 |
 | 面试题 03.01 | [三合一](https://leetcode.cn/problems/three-in-one-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_03.01) | 栈、设计、数组 | 简单 |

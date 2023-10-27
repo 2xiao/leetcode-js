@@ -10,20 +10,18 @@ from urllib.parse import quote
 
 def gen_markdown_table(frame, need_sort):
 
-    ELEMENT = " {} |"
-
     H = frame.shape[0]
     W = frame.shape[1]
 
-    LINE = "|" + ELEMENT * W
-
-    head_name = ["题号", "标题", "题解", "标签", "难度"]
+    head_name = ["题号", "标题", "题解", "标签", "难度", "频次"]
 
     lines = []
 
     # 表头部分
-    lines += ["| {} | {} | {} | {} | {} |".format(
-        head_name[0], head_name[1], head_name[2], head_name[3], head_name[4])]
+    title = "|"
+    for i in range(W):
+        title += " {} |".format(head_name[i])
+    lines += [title]
 
     # 分割线
     SPLIT = ":{}"
@@ -37,8 +35,10 @@ def gen_markdown_table(frame, need_sort):
         frame = frame.sort_values(by='题号')
     frame = frame.reset_index(drop=True)
     for i in range(H):
-        lines += ["| {} | {} | {} | {} | {} |".format(
-            frame.at[i, '题号'], frame.at[i, '标题'], frame.at[i, '题解'], frame.at[i, '标签'], frame.at[i, '难度'])]
+        problem = "|"
+        for j in range(W):
+            problem += " {} |".format(frame.at[i, head_name[j]])
+        lines += [problem]
     table = '\n'.join(lines)
     return table
 
@@ -46,7 +46,7 @@ def gen_markdown_table(frame, need_sort):
 # 格式化每一个frame items
 
 
-def gen_frame_items(df_indexs, df, problem_path):
+def gen_frame_items(df_indexs, df, problem_path, problem_salt: str = False):
     row = df_indexs[0]
 
     problem_id = df.loc[row, "序号"]
@@ -61,9 +61,11 @@ def gen_frame_items(df_indexs, df, problem_path):
 
     problem_label = df.loc[row, "标签"]
     problem_difficulty = df.loc[row, "难度"]
-
     res = [problem_id, problem_link, problem_solution_link,
            problem_label, problem_difficulty]
+    if problem_salt:
+        res.append(problem_salt)
+
     return res
 
 
@@ -82,6 +84,33 @@ def gen_frame(problem_titles, problem_path):
             print('%s 没有出现在 leetcode-problems.csv 中' % (problem_title))
             continue
         res = gen_frame_items(df_indexs, df, problem_path)
+        frame.loc[frame_cout] = res
+        frame_cout += 1
+    return frame
+
+
+# 根据标题，读表，生成frame
+
+
+def gen_frame_with_salt(problems, problem_path):
+    df = pd.read_csv("leetcode-problems.csv")
+    frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度', '频次'])
+    frame_cout = 0
+    for item in problems:
+        pattern = re.compile(r'\[(.*)\](.*)')
+        match = pattern.match(item)
+        if not match:
+            print('%s wrong problem name' % (item))
+            continue
+        problem_salt, problem_id = match.group(1, 2)
+
+        # 获取题目所在行
+        df_indexs = df[df['文件名'] == problem_id].index.tolist()
+
+        if not df_indexs:
+            print('%s 没有出现在 leetcode-problems.csv 中' % (problem_id))
+            continue
+        res = gen_frame_items(df_indexs, df, problem_path, problem_salt)
         frame.loc[frame_cout] = res
         frame_cout += 1
     return frame
@@ -185,9 +214,11 @@ def gen_slice_list(problem_path, solution_path):
         slice_path = os.path.join(solution_path, idx + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:
             if idx not in file_name:
-                f.writelines('---\ntitle: "索引"\n---\n\n### LeetCode 第 {} 题\n\n'.format(idx))
+                f.writelines(
+                    '---\ntitle: "索引"\n---\n\n### LeetCode 第 {} 题\n\n'.format(idx))
             else:
-                f.writelines('---\ntitle: "索引"\n---\n\n### {}\n\n'.format(file_name[idx]))
+                f.writelines(
+                    '---\ntitle: "索引"\n---\n\n### {}\n\n'.format(file_name[idx]))
             f.write(table)
         f.close()
     print("Create Slice List Success")
@@ -232,7 +263,7 @@ def gen_config_js(problem_path, config_path):
         title = idx
         if idx in file_name:
             title = file_name[idx]
-        
+
         config_item = [base_spaces_12 + '{', '  title: "' + title + '",',
                        '  collapsable: true,', '  children: [', toc_path, children, '  ],', '},']
         content += base_spaces_12.join(config_item)
@@ -279,7 +310,9 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
 
                     category_h2_file_content += "\n\n## 相关题目\n\n"
                     category_file_content += "\n---\n### " + \
-                        category_h2 + "\n::: tip\n[点击查看【" + category_h2 + "】相关知识点详解](" + page_path + ")\n:::\n"
+                        category_h2 + \
+                        "\n::: tip\n[点击查看【" + category_h2 + \
+                        "】相关知识点详解](" + page_path + ")\n:::\n"
                 else:
                     category_h2 = title_content
                     category_file_content += "### " + category_h2 + "\n\n"
@@ -312,6 +345,48 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
         fi.close()
 
     print("Create Categories List Success")
+
+
+# 根据题解 problem_path 和 题目分类 company_origin_list_path
+# 生成分类题解，并将其保存到 company_list_path
+
+
+def gen_company_list(problem_path, company_origin_list_path, company_list_path):
+
+    f = open(company_origin_list_path, encoding='utf-8')
+    lines = f.readlines()
+    h1 = None
+    h2 = None
+    file_content = ""
+
+    for i in range(len(lines)):
+        pattern = re.compile(r'(#{1,6}) (.*)')
+        match = pattern.match(lines[i])
+        if match:
+            title_size, title_content = match.group(1, 2)
+            if title_size == "#":
+                h1 = title_content
+                file_content += "# " + h1 + "\n\n"
+            elif title_size == "##":
+                h2 = title_content
+                file_content += "## " + h2 + "\n\n"
+            elif title_size == "###":
+                problems = title_content.split('.')
+                if not problems:
+                    continue
+                frame = gen_frame_with_salt(problems, problem_path)
+                table = gen_markdown_table(frame, False)
+                file_content += table + "\n\n"
+
+    if file_content:
+        with open(company_list_path, 'w', encoding='utf-8') as fi:
+            fi.write(file_content)
+            fi.write("::: tip\n数据来源：\n")
+            fi.write("* [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)\n")
+            fi.write("* [CodeTop | 企业题库](https://codetop.cc/home)\n:::\n")
+        fi.close()
+
+    print("Create Company List Success")
 
 
 # 根据题解 problem_path 和 面试题目分类 interview_origin_list_path
@@ -352,12 +427,12 @@ def gen_interview_list(problem_path, interview_origin_list_path, interview_list_
     if interview_file_content:
         with open(interview_list_path, 'w', encoding='utf-8') as fi:
             if "interview_100_list.md" in interview_origin_list_path:
-                fi.write("# 1.5 LeetCode 面试最常考 100 题\n\n")
+                fi.write("# 1.5 高频面试题（TOP 100）\n\n")
             elif "interview_200_list.md" in interview_origin_list_path:
-                fi.write("# 1.6 LeetCode 面试最常考 200 题\n\n")
+                fi.write("# 1.6 高频面试题（TOP 200）\n\n")
             fi.write(interview_file_content)
-            fi.write("\n### 参考资料\n")
-            fi.write("\n- 【清单】[CodeTop 企业题库](https://codetop.cc/home)\n")
+            fi.write("::: tip\n数据来源：\n")
+            fi.write("* [CodeTop | 企业题库](https://codetop.cc/home)\n:::\n")
         fi.close()
 
     print("Create Interview List Success")

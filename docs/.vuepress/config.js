@@ -30,6 +30,8 @@ module.exports = {
             "/leetcode/outline/3_categories_list",
             "/leetcode/outline/4_interview_100_list",
             "/leetcode/outline/5_interview_200_list",
+            "/leetcode/outline/6_frequency_list",
+            "/leetcode/outline/7_company_list",
           ],
         },
         {
@@ -173,19 +175,11 @@ module.exports = {
               ],
             },
             {
-              title: "力扣杯",
-              collapsable: true,
-              children: [
-                "/leetcode/solution/LCP.md",
-                "/leetcode/problem/LCP_53.md"
-              ],
-            },
-            {
               title: "剑指 Offer",
               collapsable: true,
               children: [
                 "/leetcode/solution/Offer.md",
-                "/leetcode/problem/zj_offer_59_2.md"
+                "/leetcode/problem/jz_offer_59_2.md"
               ],
             },
             {
@@ -193,7 +187,15 @@ module.exports = {
               collapsable: true,
               children: [
                 "/leetcode/solution/Offer-II.md",
-                "/leetcode/problem/zj_offer_II_055.md"
+                "/leetcode/problem/jz_offer_II_055.md"
+              ],
+            },
+            {
+              title: "力扣杯",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/LCP.md",
+                "/leetcode/problem/LCP_53.md"
               ],
             },// AUTO_GEN_CONFIG_END
           ],

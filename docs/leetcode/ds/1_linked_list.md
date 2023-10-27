@@ -93,10 +93,12 @@
 具体实现如下：
 
 ```javascript
-// 结点
-function Node(data) {
-  this.data = data; // 当前结点的元素
-  this.next = null; // 下一个结点链接
+// 结点类
+class Node {
+  constructor(data) {
+    this.data = data; // 当前结点的元素
+    this.next = null; // 下一个结点链接
+  }
 }
 ```
 
@@ -106,13 +108,20 @@ function Node(data) {
 
 ```javascript
 // 链表类
-function LinkedList() {
-  this.head = new Node("head"); // 头结点
-  this.find = find; // 查找结点
-  this.insert = insert; // 插入结点
-  this.remove = remove; // 删除结点
-  this.add = add; // 在链尾添加结点
-  this.display = display; // 显示链表
+class LinkedList {
+  constructor() {
+    this.head = null;
+  }
+  // 插入结点
+  insert(data, target) {}
+  // 查找结点
+  find(data) {}
+  // 删除结点
+  remove(data) {}
+  // 在链尾添加结点
+  add(data) {}
+  // 显示链表
+  display() {}
 }
 ```
 
@@ -133,19 +142,7 @@ class singleLinkedList {
   constructor() {
     this.head = null;
   }
-  // 在链尾添加结点
-  add(data) {
-    let node = new Node(data);
-    if (this.head === null) {
-      this.head = node;
-    } else {
-      let current = this.head;
-      while (current.next) {
-        current = current.next;
-      }
-      current.next = node;
-    }
-  }
+
   // 插入结点
   insert(data, target) {
     let node = new Node(data);
@@ -188,6 +185,20 @@ class singleLinkedList {
     }
     return false;
   }
+  // 在链尾添加结点
+  add(data) {
+    let node = new Node(data);
+    if (this.head === null) {
+      this.head = node;
+    } else {
+      let current = this.head;
+      while (current.next) {
+        current = current.next;
+      }
+      current.next = node;
+    }
+  }
+  // 显示链表
   display() {
     var current = this.head;
     console.log(current.data);
@@ -197,6 +208,11 @@ class singleLinkedList {
     }
   }
 }
+```
+
+示例：
+
+```javascript
 const list = new singleLinkedList();
 list.add(1);
 list.add(2);
@@ -204,11 +220,8 @@ list.add(3);
 list.insert(4, 2);
 list.display();
 console.dir(list, { depth: null });
-```
 
-打印结果：
-
-```javascript
+// 打印结果：
 1
 2
 4
@@ -230,7 +243,7 @@ singleLinkedList {
 }
 ```
 
-## 链表 VS 数组
+### 链表 VS 数组
 
 | 时间复杂度 |  链表  |  数组  |
 | :--------: | :----: | :----: |
@@ -248,34 +261,56 @@ singleLinkedList {
 
 除此之外，因为链表中的每个结点都需要消耗额外的存储空间去存储一份指向下一个结点的指针，所以内存消耗会翻倍。而且，对链表进行频繁的插入、删除操作，还会导致频繁的内存申请和释放，容易造成内存碎片。如果代码对内存的使用非常苛刻，那数组就更合适。
 
-## 一些答题技巧
+## 链表的应用
 
-1. 理解指针或引用的含义；
-2. 警惕指针丢失和内存泄漏；
-   - 插入结点时，一定要注意操作的顺序
-   - 删除链表结点时，也一定要记得手动释放内存空间。
-3. 利用哨兵简化实现难度；
-4. 重点留意边界条件处理；
-5. 举例法和画图法，辅助思考；
-6. 多写多练；
+- 单链表反转
+- 链表中环的检测
+- 两个有序的链表合并
+- 删除链表倒数第 n 个结点
+- 求链表的中间结点
+- 链表区间逆序。第 92 题。
+- 链表寻找中间节点。第 876 题。链表寻找倒数第 n 个节点。第 19 题。只需要一次遍历就可以得到答案。
+- 合并 K 个有序链表。第 21 题，第 23 题。
+- 链表归类。第 86 题，第 328 题。
+- 链表排序，时间复杂度要求 O(n \* log n)，空间复杂度 O(1)。只有一种做法，归并排序，至顶向下归并。第 148 题。
+- 判断链表是否存在环，如果有环，输出环的交叉点的下标；判断 2 个链表是否有交叉点，如果有交叉点，输出交叉点。第 141 题，第 142 题，第 160 题。
+
+## 答题技巧
+
+### 1. 理解指针或引用的含义；
+
+### 2. 警惕指针丢失和内存泄漏；
+
+- 插入结点时，一定要注意操作的顺序
+- 删除链表结点时，也一定要记得手动释放内存空间。
+
+### 3. 利用哨兵简化实现难度；
+
+### 4. 重点留意边界条件处理；
+
+### 5. 举例法和画图法，辅助思考；
+
+### 6. 多写多练；
 
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
+
 ## 相关题目
 
-| 题号 | 标题                                                                                                | 题解                                                            | 标签                         | 难度 |
-| :--- | :-------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------- | :--------------------------- | :--- |
-| 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/)                                       |                                                                 | 设计、链表                   | 中等 |
-| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)       |                                                                 | 链表                         | 简单 |
-| 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |                                                                 | 链表、双指针                 | 中等 |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/)                                      | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | 递归、链表                   | 简单 |
-| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/)                                |                                                                 | 链表                         | 中等 |
-| 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/)                         |                                                                 | 递归、链表                   | 困难 |
-| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/)                          |                                                                 | 递归、链表                   | 简单 |
-| 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/)                                     |                                                                 | 链表                         | 中等 |
-| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/)                                   |                                                                 | 栈、递归、链表、双指针       | 简单 |
-| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)        |                                                                 | 深度优先搜索、链表、双向链表 | 中等 |
-| 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/)                |                                                                 | 哈希表、链表                 | 中等 |
-| 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/)                                              |                                                                 | 链表、双指针                 | 中等 |
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------ | :------ | :------ | :------ | :------ |
+| 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) |  | 设计、链表 | 中等 |
+| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |  | 链表 | 简单 |
+| 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |  | 链表、双指针 | 中等 |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | 递归、链表 | 简单 |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | 链表 | 中等 |
+| 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) |  | 递归、链表 | 困难 |
+| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) |  | 递归、链表 | 简单 |
+| 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/) |  | 链表 | 中等 |
+| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) |  | 栈、递归、链表、双指针 | 简单 |
+| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  | 深度优先搜索、链表、双向链表 | 中等 |
+| 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  | 哈希表、链表 | 中等 |
+| 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) |  | 链表、双指针 | 中等 |
+

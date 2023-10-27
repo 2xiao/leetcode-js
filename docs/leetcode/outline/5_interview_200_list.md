@@ -1,4 +1,4 @@
-# 1.6 LeetCode 面试最常考 200 题
+# 1.6 高频面试题（TOP 200）
 
 ### 数组
 
@@ -530,7 +530,7 @@
 | 0556 | [下一个更大元素 III](https://leetcode.com/problems/next-greater-element-iii/) |  | 数学、双指针、字符串 | 中等 |
 | 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  | 数学、拒绝采样、概率与统计、随机化 | 中等 |
 
-
-### 参考资料
-
-- 【清单】[CodeTop 企业题库](https://codetop.cc/home)
+::: tip
+数据来源：
+* [CodeTop | 企业题库](https://codetop.cc/home)
+:::
