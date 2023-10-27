@@ -170,7 +170,7 @@ def gen_solution_list(problem_path, solotion_list_path):
 
     table = gen_markdown_table(frame, True)
     with open(solotion_list_path, 'w', encoding='utf-8') as f:
-        f.writelines("# 1.3 LeetCode 题解（字典排序）\n\n")
+        f.writelines("# 1.3 LeetCode 题解\n\n")
         f.writelines("已完成 {} 道\n\n".format(frame_cout))
         f.write(table)
     f.close()
@@ -309,7 +309,7 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
                     category_h2_path = '../../docs/leetcode/' + category_h2_path
 
                     category_h2_file_content += "\n\n## 相关题目\n\n"
-                    category_file_content += "\n---\n### " + \
+                    category_file_content += "\n## " + \
                         category_h2 + \
                         "\n::: tip\n[点击查看【" + category_h2 + \
                         "】相关知识点详解](" + page_path + ")\n:::\n"
@@ -340,23 +340,21 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
     if category_file_content:
         with open(categories_list_path, 'w', encoding='utf-8') as fi:
             fi.write(
-                "# 1.4 LeetCode 题解（分类排序 ★★★）\n\n<!-- START doctoc -->\n<!-- END doctoc -->\n\n\n")
+                "# 1.4 LeetCode 题解（分类 ★★★）\n\n")
             fi.write(category_file_content)
         fi.close()
 
     print("Create Categories List Success")
 
 
-# 根据题解 problem_path 和 题目分类 company_origin_list_path
-# 生成分类题解，并将其保存到 company_list_path
+# 根据题解 problem_path 和 模板 origin_list_path
+# 生成分类题解，并将其保存到 list_path
 
 
-def gen_company_list(problem_path, company_origin_list_path, company_list_path):
+def gen_template_list(problem_path, origin_list_path, list_path):
 
-    f = open(company_origin_list_path, encoding='utf-8')
+    f = open(origin_list_path, encoding='utf-8')
     lines = f.readlines()
-    h1 = None
-    h2 = None
     file_content = ""
 
     for i in range(len(lines)):
@@ -365,12 +363,12 @@ def gen_company_list(problem_path, company_origin_list_path, company_list_path):
         if match:
             title_size, title_content = match.group(1, 2)
             if title_size == "#":
-                h1 = title_content
-                file_content += "# " + h1 + "\n\n"
+                file_content += "# " + title_content + "\n\n"
             elif title_size == "##":
-                h2 = title_content
-                file_content += "## " + h2 + "\n\n"
+                file_content += "## " + title_content + "\n\n"
             elif title_size == "###":
+                file_content += "* " + title_content + "\n\n"
+            elif title_size == "######":
                 problems = title_content.split('.')
                 if not problems:
                     continue
@@ -379,7 +377,7 @@ def gen_company_list(problem_path, company_origin_list_path, company_list_path):
                 file_content += table + "\n\n"
 
     if file_content:
-        with open(company_list_path, 'w', encoding='utf-8') as fi:
+        with open(list_path, 'w', encoding='utf-8') as fi:
             fi.write(file_content)
             fi.write("::: tip\n数据来源：\n")
             fi.write("* [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)\n")
@@ -387,52 +385,3 @@ def gen_company_list(problem_path, company_origin_list_path, company_list_path):
         fi.close()
 
     print("Create Company List Success")
-
-
-# 根据题解 problem_path 和 面试题目分类 interview_origin_list_path
-# 生成面试题解，并将其保存到 interview_list_path
-
-
-def gen_interview_list(problem_path, interview_origin_list_path, interview_list_path):
-
-    f = open(interview_origin_list_path, encoding='utf-8')
-    lines = f.readlines()
-    interview_h2 = None
-    interview_h3 = None
-    interview_h4 = None
-    interview_file_content = ""
-
-    for i in range(len(lines)):
-        pattern = re.compile(r'(#{2,6}) (.*)')
-        match = pattern.match(lines[i])
-        if match:
-            title_size, title_content = match.group(1, 2)
-            if title_size == "##":
-                interview_h2 = title_content
-                interview_file_content += "### " + interview_h2 + "\n\n"
-            elif title_size == "###":
-                interview_h3 = title_content
-                interview_file_content += "* " + interview_h3 + "\n\n"
-            elif title_size == "####":
-                interview_h4 = title_content
-                interview_file_content += "* " + interview_h4 + "\n\n"
-            elif title_size == "######":
-                problem_titles = title_content.split('、')
-                if not problem_titles:
-                    continue
-                frame = gen_frame(problem_titles, problem_path)
-                table = gen_markdown_table(frame, False)
-                interview_file_content += table + "\n\n"
-
-    if interview_file_content:
-        with open(interview_list_path, 'w', encoding='utf-8') as fi:
-            if "interview_100_list.md" in interview_origin_list_path:
-                fi.write("# 1.5 高频面试题（TOP 100）\n\n")
-            elif "interview_200_list.md" in interview_origin_list_path:
-                fi.write("# 1.6 高频面试题（TOP 200）\n\n")
-            fi.write(interview_file_content)
-            fi.write("::: tip\n数据来源：\n")
-            fi.write("* [CodeTop | 企业题库](https://codetop.cc/home)\n:::\n")
-        fi.close()
-
-    print("Create Interview List Success")

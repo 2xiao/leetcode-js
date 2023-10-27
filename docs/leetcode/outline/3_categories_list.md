@@ -1,79 +1,7 @@
-# 1.4 LeetCode 题解（分类排序 ★★★）
-
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# 1.4 LeetCode 题解（分类 ★★★）
 
 
-- [数组](#%E6%95%B0%E7%BB%84)
-  - [数组操作](#%E6%95%B0%E7%BB%84%E6%93%8D%E4%BD%9C)
-  - [二维数组](#%E4%BA%8C%E7%BB%B4%E6%95%B0%E7%BB%84)
-- [链表](#%E9%93%BE%E8%A1%A8)
-- [栈](#%E6%A0%88)
-  - [栈基础题目](#%E6%A0%88%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
-  - [单调栈](#%E5%8D%95%E8%B0%83%E6%A0%88)
-- [队列](#%E9%98%9F%E5%88%97)
-  - [队列基础题目](#%E9%98%9F%E5%88%97%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
-  - [优先队列](#%E4%BC%98%E5%85%88%E9%98%9F%E5%88%97)
-- [哈希表](#%E5%93%88%E5%B8%8C%E8%A1%A8)
-- [字符串](#%E5%AD%97%E7%AC%A6%E4%B8%B2)
-  - [字符串基础题目](#%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
-  - [单模式串匹配](#%E5%8D%95%E6%A8%A1%E5%BC%8F%E4%B8%B2%E5%8C%B9%E9%85%8D)
-  - [字典树](#%E5%AD%97%E5%85%B8%E6%A0%91)
-- [树](#%E6%A0%91)
-  - [二叉树的遍历](#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E9%81%8D%E5%8E%86)
-  - [二叉树的还原](#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E8%BF%98%E5%8E%9F)
-  - [二叉搜索树](#%E4%BA%8C%E5%8F%89%E6%90%9C%E7%B4%A2%E6%A0%91)
-  - [线段树](#%E7%BA%BF%E6%AE%B5%E6%A0%91)
-  - [树状数组](#%E6%A0%91%E7%8A%B6%E6%95%B0%E7%BB%84)
-  - [并查集](#%E5%B9%B6%E6%9F%A5%E9%9B%86)
-- [图](#%E5%9B%BE)
-  - [图的深度优先搜索](#%E5%9B%BE%E7%9A%84%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
-  - [图的广度优先搜索](#%E5%9B%BE%E7%9A%84%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2)
-  - [图的拓扑排序](#%E5%9B%BE%E7%9A%84%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F)
-  - [图的最小生成树](#%E5%9B%BE%E7%9A%84%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91)
-  - [单源最短路径](#%E5%8D%95%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84)
-  - [多源最短路径](#%E5%A4%9A%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84)
-  - [次短路径](#%E6%AC%A1%E7%9F%AD%E8%B7%AF%E5%BE%84)
-  - [差分约束系统](#%E5%B7%AE%E5%88%86%E7%BA%A6%E6%9D%9F%E7%B3%BB%E7%BB%9F)
-  - [二分图基础题目](#%E4%BA%8C%E5%88%86%E5%9B%BE%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
-  - [二分图最大匹配](#%E4%BA%8C%E5%88%86%E5%9B%BE%E6%9C%80%E5%A4%A7%E5%8C%B9%E9%85%8D)
-- [枚举算法](#%E6%9E%9A%E4%B8%BE%E7%AE%97%E6%B3%95)
-- [递归算法](#%E9%80%92%E5%BD%92%E7%AE%97%E6%B3%95)
-- [分治算法](#%E5%88%86%E6%B2%BB%E7%AE%97%E6%B3%95)
-- [回溯算法](#%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95)
-- [贪心算法](#%E8%B4%AA%E5%BF%83%E7%AE%97%E6%B3%95)
-- [动态规划](#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
-  - [动态规划基础题目](#%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E5%9F%BA%E7%A1%80%E9%A2%98%E7%9B%AE)
-  - [记忆化搜索](#%E8%AE%B0%E5%BF%86%E5%8C%96%E6%90%9C%E7%B4%A2)
-  - [线性 DP](#%E7%BA%BF%E6%80%A7-dp)
-  - [背包问题](#%E8%83%8C%E5%8C%85%E9%97%AE%E9%A2%98)
-  - [区间 DP](#%E5%8C%BA%E9%97%B4-dp)
-  - [树形 DP](#%E6%A0%91%E5%BD%A2-dp)
-  - [状态压缩 DP](#%E7%8A%B6%E6%80%81%E5%8E%8B%E7%BC%A9-dp)
-  - [计数 DP](#%E8%AE%A1%E6%95%B0-dp)
-  - [数位 DP](#%E6%95%B0%E4%BD%8D-dp)
-  - [概率 DP](#%E6%A6%82%E7%8E%87-dp)
-- [位运算](#%E4%BD%8D%E8%BF%90%E7%AE%97)
-- [排序算法](#%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95)
-  - [数组排序](#%E6%95%B0%E7%BB%84%E6%8E%92%E5%BA%8F)
-  - [链表排序](#%E9%93%BE%E8%A1%A8%E6%8E%92%E5%BA%8F)
-- [二分查找](#%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE)
-  - [二分下标](#%E4%BA%8C%E5%88%86%E4%B8%8B%E6%A0%87)
-  - [二分答案](#%E4%BA%8C%E5%88%86%E7%AD%94%E6%A1%88)
-  - [复杂的二分查找问题](#%E5%A4%8D%E6%9D%82%E7%9A%84%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E9%97%AE%E9%A2%98)
-- [双指针](#%E5%8F%8C%E6%8C%87%E9%92%88)
-  - [数组双指针](#%E6%95%B0%E7%BB%84%E5%8F%8C%E6%8C%87%E9%92%88)
-  - [链表双指针](#%E9%93%BE%E8%A1%A8%E5%8F%8C%E6%8C%87%E9%92%88)
-- [滑动窗口](#%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3)
-  - [固定长度窗口](#%E5%9B%BA%E5%AE%9A%E9%95%BF%E5%BA%A6%E7%AA%97%E5%8F%A3)
-  - [不定长度窗口](#%E4%B8%8D%E5%AE%9A%E9%95%BF%E5%BA%A6%E7%AA%97%E5%8F%A3)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-
-
----
-### 数组
+## 数组
 ::: tip
 [点击查看【数组】相关知识点详解](../ds/0_array.md)
 :::
@@ -99,8 +27,7 @@
 | 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  | 数组、矩阵、模拟 | 中等 |
 
 
----
-### 链表
+## 链表
 ::: tip
 [点击查看【链表】相关知识点详解](../ds/1_linked_list.md)
 :::
@@ -120,8 +47,7 @@
 | 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) |  | 链表、双指针 | 中等 |
 
 
----
-### 栈
+## 栈
 ::: tip
 [点击查看【栈】相关知识点详解](../ds/2_stack.md)
 :::
@@ -157,8 +83,7 @@
 | 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | 栈、数组、动态规划、矩阵、单调栈 | 困难 |
 
 
----
-### 队列
+## 队列
 ::: tip
 [点击查看【队列】相关知识点详解](../ds/3_queue.md)
 :::
@@ -185,8 +110,7 @@
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | 树状数组、线段树、数组、分治、有序集合、扫描线、堆（优先队列） | 困难 |
 
 
----
-### 哈希表
+## 哈希表
 ::: tip
 [点击查看【哈希表】相关知识点详解](../ds/4_hash_table.md)
 :::
@@ -226,8 +150,7 @@
 | 0811 | [子域名访问计数](https://leetcode.com/problems/subdomain-visit-count/) |  | 数组、哈希表、字符串、计数 | 中等 |
 
 
----
-### 字符串
+## 字符串
 ::: tip
 [点击查看【字符串】相关知识点详解](../ds/5_string.md)
 :::
@@ -276,8 +199,7 @@
 | 0440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) |  | 字典树 | 困难 |
 
 
----
-### 树
+## 树
 ::: tip
 [点击查看【树】相关知识点详解](../ds/6_tree.md)
 :::
@@ -402,8 +324,7 @@
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | 并查集、数组、哈希表 | 中等 |
 
 
----
-### 图
+## 图
 ::: tip
 [点击查看【图】相关知识点详解](../ds/7_graph.md)
 :::
@@ -532,8 +453,7 @@
 | 1595 | [连通两组点的最小成本](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/) |  | 位运算、数组、动态规划、状态压缩、矩阵 | 困难 |
 
 
----
-### 枚举算法
+## 枚举算法
 ::: tip
 [点击查看【枚举算法】相关知识点详解](../algorithm/0_enumeration.md)
 :::
@@ -550,8 +470,7 @@
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  | 数组、哈希表、前缀和 | 中等 |
 
 
----
-### 递归算法
+## 递归算法
 ::: tip
 [点击查看【递归算法】相关知识点详解](../algorithm/1_recursion.md)
 :::
@@ -575,8 +494,7 @@
 | 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |  | 递归、数学 | 简单 |
 
 
----
-### 分治算法
+## 分治算法
 ::: tip
 [点击查看【分治算法】相关知识点详解](../algorithm/2_divide_conquer.md)
 :::
@@ -592,8 +510,7 @@
 | 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) |  | 栈、树、二叉搜索树、递归、二叉树、单调栈 | 中等 |
 
 
----
-### 回溯算法
+## 回溯算法
 ::: tip
 [点击查看【回溯算法】相关知识点详解](../algorithm/3_backtracking.md)
 :::
@@ -617,8 +534,7 @@
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | 数组、数学、回溯 | 困难 |
 
 
----
-### 贪心算法
+## 贪心算法
 ::: tip
 [点击查看【贪心算法】相关知识点详解](../algorithm/4_greed.md)
 :::
@@ -651,8 +567,7 @@
 | 0670 | [最大交换](https://leetcode.com/problems/maximum-swap/) |  | 贪心、数学 | 中等 |
 
 
----
-### 动态规划
+## 动态规划
 ::: tip
 [点击查看【动态规划】相关知识点详解](../algorithm/5_dynamic_programming.md)
 :::
@@ -930,8 +845,7 @@
 | 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/) |  | 数学、动态规划、概率与统计 | 中等 |
 
 
----
-### 位运算
+## 位运算
 ::: tip
 [点击查看【位运算】相关知识点详解](../algorithm/6_bit.md)
 :::
@@ -956,8 +870,7 @@
 | 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) |  | 位运算、数组、回溯 | 中等 |
 
 
----
-### 排序算法
+## 排序算法
 ::: tip
 [点击查看【排序算法】相关知识点详解](../algorithm/7_sort.md)
 :::
@@ -1056,8 +969,7 @@
 | 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | 链表、排序 | 中等 |
 
 
----
-### 二分查找
+## 二分查找
 ::: tip
 [点击查看【二分查找】相关知识点详解](../algorithm/8_binary_search.md)
 :::
@@ -1113,8 +1025,7 @@
 | 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  | 数组、二分查找 | 中等 |
 
 
----
-### 双指针
+## 双指针
 ::: tip
 [点击查看【双指针】相关知识点详解](../algorithm/9_two_pointer.md)
 :::
@@ -1183,8 +1094,7 @@
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | 栈、链表、数学 | 中等 |
 
 
----
-### 滑动窗口
+## 滑动窗口
 ::: tip
 [点击查看【滑动窗口】相关知识点详解](../algorithm/10_slide_window.md)
 :::
