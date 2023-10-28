@@ -23,9 +23,7 @@
 
 想要对数据结构和算法有更全面的认识，可以查看这张思维导图（[点击查看大图](https://2xiao.github.io/leetcode-js/assets/img/913e0ababe43a2d57267df5c5f0832a7.a521b6df.png)），里面几乎涵盖了所有数据结构和算法书籍中都会讲到的知识点。
 
-<img src="../../../assets/images/913e0ababe43a2d57267df5c5f0832a7.png" alt="logo" height="1100"/>
-
-[点击查看大图](https://2xiao.github.io/leetcode-js/assets/img/913e0ababe43a2d57267df5c5f0832a7.a521b6df.png)
+![](https://2xiao.github.io/leetcode-js/assets/img/913e0ababe43a2d57267df5c5f0832a7.a521b6df.png)
 
 ## 如何刷题
 

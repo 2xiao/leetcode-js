@@ -14,7 +14,7 @@ module.exports = {
     nav: [
       { text: "LeetCode", link: "/leetcode/" },
       { text: "React", link: "/react/" },
-      { text: "FE", link: "/fe/" },
+      // { text: "FE", link: "/fe/" },
       { text: "Run", link: "/run/" },
     ],
     sidebar: {
