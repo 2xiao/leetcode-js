@@ -92,10 +92,14 @@ module.exports = {
                 "/leetcode/problem/0026.md",
                 "/leetcode/problem/0027.md",
                 "/leetcode/problem/0033.md",
+                "/leetcode/problem/0048.md",
+                "/leetcode/problem/0054.md",
+                "/leetcode/problem/0059.md",
                 "/leetcode/problem/0062.md",
                 "/leetcode/problem/0063.md",
                 "/leetcode/problem/0066.md",
                 "/leetcode/problem/0070.md",
+                "/leetcode/problem/0073.md",
                 "/leetcode/problem/0080.md"
               ],
             },
@@ -119,6 +123,7 @@ module.exports = {
                 "/leetcode/problem/0206.md",
                 "/leetcode/problem/0227.md",
                 "/leetcode/problem/0238.md",
+                "/leetcode/problem/0259.md",
                 "/leetcode/problem/0279.md",
                 "/leetcode/problem/0283.md"
               ],
@@ -163,6 +168,14 @@ module.exports = {
               children: [
                 "/leetcode/solution/0700-0799.md",
                 "/leetcode/problem/0724.md"
+              ],
+            },
+            {
+              title: "1000-1099",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/1000-1099.md",
+                "/leetcode/problem/1047.md"
               ],
             },
             {
@@ -262,14 +275,14 @@ module.exports = {
           title: "在美国",
           collapsable: true,
           children: [
-            "/run/usa/4_where_to_go",
-            "/run/usa/1_live_in_us",
-            "/run/usa/2_digital_nomad",
-            "/run/usa/3_neighbor",
-            "/run/usa/5_indian",
-            "/run/usa/7_mississippi",
-            "/run/usa/0_visa",
-            "/run/usa/8_10043",
+            "/run/usa/where_to_go",
+            "/run/usa/live_in_us",
+            "/run/usa/digital_nomad",
+            "/run/usa/neighbor",
+            "/run/usa/indian",
+            "/run/usa/mississippi",
+            "/run/usa/visa",
+            "/run/usa/10043",
           ],
         },
         {

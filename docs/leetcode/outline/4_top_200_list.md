@@ -36,9 +36,9 @@
 | :------ | :------ | :------ | :------ | :------ | :------ |
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | 数组、数学、双指针 | 中等 | 26 |
 | 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟 | 中等 | 43 |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 | 70 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 186 |
-| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 | 36 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | 数组、数学、矩阵 | 中等 | 70 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 186 |
+| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0059) | 数组、矩阵、模拟 | 中等 | 36 |
 
 
 ## 链表
@@ -73,7 +73,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
-| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |  | 栈、字符串 | 简单 | 21 |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | 栈、字符串 | 简单 | 21 |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 | 84 |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | 栈、字符串 | 简单 | 207 |
 | 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) |  | 栈、递归、数学、字符串 | 困难 | 43 |
@@ -749,22 +749,10 @@
   :::
 
 <style>
-table th:first-of-type {
-    width: 10%;
-}
-table th:nth-of-type(2) {
-    width: 30%;
-}
-table th:nth-of-type(3) {
-    width: 10%;
-}
-table th:nth-of-type(4) {
-    width: 30%;
-}
-table th:nth-of-type(5) {
-    width: 10%;
-}
-table th:nth-of-type(6) {
-    width: 10%;
-}
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 30%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 30%; }
+table th:nth-of-type(5) { width: 10%; }
+table th:nth-of-type(6) { width: 10%; }
 </style>

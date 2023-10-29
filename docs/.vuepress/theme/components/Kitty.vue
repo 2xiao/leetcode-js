@@ -190,7 +190,7 @@ export default {
 .text
   border-top: 2px solid gray
   text-align left
-  max-width 230px
+  max-width 200px
   padding-top 15px
   display block
   font-weight 400
@@ -198,7 +198,7 @@ export default {
 
 #kitty 
   position fixed !important
-  right -130px
+  right -160px
   bottom 30px
   position relative
   height 297px

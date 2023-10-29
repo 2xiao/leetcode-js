@@ -62,7 +62,7 @@
 | 1048 | [最长字符串链](https://leetcode.com/problems/longest-string-chain/) |  | 数组、哈希表、双指针、字符串、动态规划 | 中等 | 29 |
 | 0116 | [填充每个节点的下一个右侧节点指针](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) |  | 树、深度优先搜索、广度优先搜索、链表、二叉树 | 中等 | 29 |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | 位运算、数组 | 简单 | 28 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 28 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 28 |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | 数组、二分查找、分治 | 困难 | 28 |
 | 0121 | [买卖股票的最佳时机](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | 数组、动态规划 | 简单 | 28 |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 | 28 |
@@ -108,13 +108,13 @@
 | 0636 | [函数的独占时间](https://leetcode.com/problems/exclusive-time-of-functions/) |  | 栈、数组 | 中等 | 18 |
 | 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 | 18 |
 | 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 | 17 |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 | 16 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | 数组、数学、矩阵 | 中等 | 16 |
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 | 16 |
 | 0098 | [验证二叉搜索树](https://leetcode.com/problems/validate-binary-search-tree/) |  | 树、深度优先搜索、二叉搜索树、二叉树 | 中等 | 16 |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | 数组、回溯 | 中等 | 16 |
 | 0317 | [离建筑物最近的距离](https://leetcode.com/problems/shortest-distance-from-all-buildings/) |  | 广度优先搜索、数组、矩阵 | 困难 | 16 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  | 字典树、字符串 | 简单 | 16 |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 | 16 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | 数组、数学、矩阵 | 中等 | 16 |
 | 0329 | [矩阵中的最长递增路径](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序、记忆化搜索、数组、动态规划、矩阵 | 困难 | 16 |
 | 0523 | [连续的子数组和](https://leetcode.com/problems/continuous-subarray-sum/) |  | 数组、哈希表、数学、前缀和 | 中等 | 16 |
 | 0273 | [整数转换英文表示](https://leetcode.com/problems/integer-to-english-words/) |  | 递归、数学、字符串 | 困难 | 16 |
@@ -160,7 +160,7 @@
 | 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  | 数组、哈希表、分治、桶排序、计数、快速选择、排序、堆（优先队列） | 中等 | 14 |
 | 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) |  | 设计、数组、哈希表、数学、随机化 | 中等 | 14 |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | 数组、回溯 | 中等 | 14 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 14 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 14 |
 | 0725 | [分隔链表](https://leetcode.com/problems/split-linked-list-in-parts/) |  | 链表 | 中等 | 14 |
 | 1146 | [快照数组](https://leetcode.com/problems/snapshot-array/) |  | 设计、数组、哈希表、二分查找 | 中等 | 14 |
 | 1428 | [至少有一个 1 的最左端列](https://leetcode.com/problems/leftmost-column-with-at-least-a-one/) |  | 数组、二分查找、交互、矩阵 | 中等 | 14 |
@@ -281,7 +281,7 @@
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | 数组、回溯 | 中等 | 202 |
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |  | 树、广度优先搜索、二叉树 | 中等 | 200 |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  | 树、深度优先搜索、二叉树 | 中等 | 199 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 186 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 186 |
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | 链表 | 中等 | 184 |
 | 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 | 176 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 | 173 |
@@ -328,7 +328,7 @@
 | 0101 | [对称二叉树](https://leetcode.com/problems/symmetric-tree/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 | 76 |
 | 0543 | [二叉树的直径](https://leetcode.com/problems/diameter-of-binary-tree/) |  | 树、深度优先搜索、二叉树 | 简单 | 74 |
 | 0098 | [验证二叉搜索树](https://leetcode.com/problems/validate-binary-search-tree/) |  | 树、深度优先搜索、二叉搜索树、二叉树 | 中等 | 71 |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 | 70 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | 数组、数学、矩阵 | 中等 | 70 |
 | 0113 | [路径总和 II](https://leetcode.com/problems/path-sum-ii/) |  | 树、深度优先搜索、回溯、二叉树 | 中等 | 69 |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  | 数组、动态规划、矩阵 | 中等 | 68 |
 | 0039 | [组合总和](https://leetcode.com/problems/combination-sum/) |  | 数组、回溯 | 中等 | 68 |
@@ -383,7 +383,7 @@
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | 树状数组、线段树、数组、二分查找、分治、有序集合、归并排序 | 困难 | 37 |
 | 0007 | [整数反转](https://leetcode.com/problems/reverse-integer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0007) | 数学 | 中等 | 37 |
 | 剑指 Offer 54 | [二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) |  | 树、深度优先搜索、二叉搜索树、二叉树 | 简单 | 37 |
-| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) |  | 数组、矩阵、模拟 | 中等 | 36 |
+| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0059) | 数组、矩阵、模拟 | 中等 | 36 |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | 数组、分治、快速选择、排序、堆（优先队列） | 简单 | 36 |
 | 0145 | [二叉树的后序遍历](https://leetcode.com/problems/binary-tree-postorder-traversal/) |  | 栈、树、深度优先搜索、二叉树 | 简单 | 36 |
 | 剑指 Offer 10 - II | [青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/) |  | 记忆化搜索、数学、动态规划 | 简单 | 36 |
@@ -431,7 +431,7 @@
 | 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | 数组、哈希表、双指针、二分查找、排序 | 简单 | 22 |
 | 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) |  | 数组、排序 | 简单 | 21 |
 | 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | 栈、数组、动态规划、矩阵、单调栈 | 困难 | 21 |
-| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) |  | 栈、字符串 | 简单 | 21 |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | 栈、字符串 | 简单 | 21 |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | 栈、字符串 | 中等 | 21 |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | 数组、数学、回溯 | 困难 | 21 |
 | 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | 栈、贪心、字符串、动态规划 | 中等 | 21 |
@@ -480,3 +480,12 @@
 - [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)
 - [CodeTop | 企业题库](https://codetop.cc/home)
   :::
+
+<style>
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 30%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 30%; }
+table th:nth-of-type(5) { width: 10%; }
+table th:nth-of-type(6) { width: 10%; }
+</style>

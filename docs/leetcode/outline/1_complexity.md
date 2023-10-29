@@ -85,3 +85,12 @@
 * 一维数组空间，如果存储了n个元素，空间复杂度`O(n)`；
 * 二维数组空间，总共有n个数组，每个数组存储了n个元素，空间复杂度`O(n^2)`；
 * 常数空间复杂度`O(1)`；
+
+<style>
+table th:first-of-type { width: auto; }
+table th:nth-of-type(2) { width: auto; }
+table th:nth-of-type(3) { width: auto; }
+table th:nth-of-type(4) { width: auto; }
+table th:nth-of-type(5) { width: auto; }
+table th:nth-of-type(6) { width: auto; }
+</style>

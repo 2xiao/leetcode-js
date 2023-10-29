@@ -124,7 +124,7 @@
 | 0743 | [网络延迟时间](https://leetcode.com/problems/network-delay-time/) |  | 深度优先搜索、广度优先搜索、图、最短路、堆（优先队列） | 中等 | 14 |
 | 0722 | [删除注释](https://leetcode.com/problems/remove-comments/) |  | 数组、字符串 | 中等 | 14 |
 | 0398 | [随机数索引](https://leetcode.com/problems/random-pick-index/) |  | 水塘抽样、哈希表、数学、随机化 | 中等 | 14 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 14 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 14 |
 | 0725 | [分隔链表](https://leetcode.com/problems/split-linked-list-in-parts/) |  | 链表 | 中等 | 14 |
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 | 14 |
 | 0308 | [二维区域和检索 - 可变](https://leetcode.com/problems/range-sum-query-2d-mutable/) |  | 设计、树状数组、线段树、数组、矩阵 | 困难 | 13 |
@@ -147,7 +147,7 @@
 | 0116 | [填充每个节点的下一个右侧节点指针](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) |  | 树、深度优先搜索、广度优先搜索、链表、二叉树 | 中等 | 19 |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | 深度优先搜索、广度优先搜索、并查集、数组、矩阵 | 中等 | 18 |
 | 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 | 16 |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) |  | 数组、数学、矩阵 | 中等 | 16 |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | 数组、数学、矩阵 | 中等 | 16 |
 | 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) |  | 双指针、字符串 | 中等 | 15 |
 | 0126 | [单词接龙 II](https://leetcode.com/problems/word-ladder-ii/) |  | 广度优先搜索、哈希表、字符串、回溯 | 困难 | 15 |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | 数组、排序 | 中等 | 14 |
@@ -253,7 +253,7 @@
 | 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | 数组、二分查找 | 中等 | 14 |
 | 0165 | [比较版本号](https://leetcode.com/problems/compare-version-numbers/) |  | 双指针、字符串 | 中等 | 13 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 | 13 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 13 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 13 |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) |  | 广度优先搜索、数组、动态规划 | 中等 | 13 |
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 | 13 |
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  | 数学、字符串、模拟 | 中等 | 13 |
@@ -349,7 +349,7 @@
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | 数组、二分查找 | 中等 | 121 |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 | 101 |
 | 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 | 100 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 99 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 99 |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  | 树、深度优先搜索、二叉树 | 中等 | 98 |
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | 栈、数组、双指针、动态规划、单调栈 | 困难 | 98 |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) | 字符串、动态规划 | 中等 | 97 |
@@ -418,7 +418,7 @@
 | 0093 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses/) |  | 字符串、回溯 | 中等 | 26 |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | 数组、哈希表 | 简单 | 26 |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | 栈、设计、队列 | 简单 | 23 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 22 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 22 |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | 数组、回溯 | 中等 | 21 |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) | 字符串、动态规划 | 中等 | 21 |
 | 0008 | [字符串转换整数 (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0008) | 字符串 | 中等 | 20 |
@@ -464,7 +464,7 @@
 | 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | 哈希表、链表、双指针 | 中等 | 14 |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  | 树、深度优先搜索、二叉树 | 中等 | 13 |
 | 0144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/) |  | 栈、树、深度优先搜索、二叉树 | 简单 | 13 |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) |  | 数组、矩阵、模拟 | 中等 | 12 |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | 数组、矩阵、模拟 | 中等 | 12 |
 | 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | 哈希表、链表、双指针 | 简单 | 12 |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | 栈、字符串 | 简单 | 12 |
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |  | 树、广度优先搜索、二叉树 | 中等 | 11 |
@@ -477,3 +477,12 @@
 - [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)
 - [CodeTop | 企业题库](https://codetop.cc/home)
   :::
+
+<style>
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 30%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 30%; }
+table th:nth-of-type(5) { width: 10%; }
+table th:nth-of-type(6) { width: 10%; }
+</style>
