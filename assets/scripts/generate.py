@@ -2,6 +2,7 @@
 import os
 import re
 from pathlib import Path
+import numpy as np
 import pandas as pd
 from urllib.parse import quote
 
@@ -37,9 +38,6 @@ def gen_markdown_table(frame, need_sort):
     for i in range(H):
         problem = "|"
         for j in range(W):
-            value = frame.at[i, head_name[j]]
-            if head_name[j] == "难度":
-                value = 1
             problem += " {} |".format(frame.at[i, head_name[j]])
         lines += [problem]
     table = '\n'.join(lines)
@@ -62,10 +60,18 @@ def gen_frame_items(df_indexs, df, problem_path, problem_salt: str = False):
     else:
         problem_solution_link = ""
 
-    problem_label = df.loc[row, "标签"]
+    label = np.array((df.loc[row, "标签"]).split("、"))
+    problem_label = "`" + ("` `").join(label[:3]) + "`"
+    if len(label) > 3:
+        problem_label += " `" + str(len(label) - 3) + "+`"
     problem_difficulty = df.loc[row, "难度"]
-    res = [problem_id, problem_link, problem_solution_link,
-           problem_label, problem_difficulty]
+    if problem_difficulty == "困难":
+        problem_difficulty = "<font color=#ff334b>Hard</font>"
+    elif problem_difficulty == "中等":
+        problem_difficulty = "<font color=#ffb800>Medium</font>"
+    elif problem_difficulty == "简单":
+        problem_difficulty = "<font color=#15bd66>Esay</font>"
+    res = [problem_id, problem_link, problem_solution_link, problem_label, problem_difficulty]
     if problem_salt:
         res.append(problem_salt)
 
@@ -176,6 +182,7 @@ def gen_solution_list(problem_path, solotion_list_path):
         f.writelines("# 1.3 LeetCode 题解\n\n")
         f.writelines("已完成 {} 道\n\n".format(frame_cout))
         f.write(table)
+        f.writelines("\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
     f.close()
     print("Create Solutions List Success")
     return frame_cout
@@ -345,6 +352,7 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
             fi.write(
                 "# 1.4 LeetCode 题解（分类 ★★★）\n\n")
             fi.write(category_file_content)
+            fi.writelines("\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
         fi.close()
 
     print("Create Categories List Success")
