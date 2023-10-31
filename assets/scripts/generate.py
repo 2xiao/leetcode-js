@@ -206,7 +206,6 @@ def gen_slice_list(problem_path, solution_path):
 
         # 获取题目所在行
         df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
-        print(df_indexs, Path(file).stem)
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
             continue
@@ -237,7 +236,7 @@ def gen_slice_list(problem_path, solution_path):
 # 根据题解 problem_path，根据所属索引目录，自动生成切片的题解汇总列表，并保存到 solution_path 中
 
 
-def gen_tag_list(problem_path, solution_path):
+def gen_tag_list(problem_path, tag_list_path, solution_path):
     frames = {}
     index = 0
     df = pd.read_csv("leetcode-problems.csv")
@@ -251,13 +250,22 @@ def gen_tag_list(problem_path, solution_path):
                     frames[tag] = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
                 frame = frames[tag]
                 frame.loc[len(frame.index)] = gen_frame_items(index, df, problem_path)
-        print(index, problem_tags)
         index += 1
+    
     for idx, frame in frames.items():
         table = gen_markdown_table(frame, True)
         slice_path = os.path.join(solution_path, idx + ".md")
+        
+        content = Path(tag_list_path).read_text(encoding='utf-8')
+        delim = "[`" + idx + "`](../solution/" + idx +")"
+        if delim in content:
+            before, after = content.split(delim)
+        
+        content = before + '<span class="blue">' + idx + '</span>' + after
+
         with open(slice_path, 'w', encoding='utf-8') as f:
-            f.writelines('# {}\n\n'.format(idx))
+            f.write(content)
+            f.writelines('\n\n---\n\n')
             f.write(table)
         f.close()
 
@@ -380,7 +388,7 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
     if category_file_content:
         with open(categories_list_path, 'w', encoding='utf-8') as fi:
             fi.write(
-                "# 1.4 LeetCode 题解（分类 ★★★）\n\n")
+                "# 1.4 LeetCode 题解（分类）\n\n")
             fi.write(category_file_content)
             fi.writelines(
                 "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")

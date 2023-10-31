@@ -26,10 +26,11 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 - [1.1 数据结构与算法](https://2xiao.github.io/leetcode-js/leetcode/outline/0_table)
 - [1.2 复杂度分析](https://2xiao.github.io/leetcode-js/leetcode/outline/1_complexity)
 - [1.3 LeetCode 题解](https://2xiao.github.io/leetcode-js/leetcode/outline/2_solution_list)
-- [1.4 LeetCode 题解（分类 ★★★）](https://2xiao.github.io/leetcode-js/leetcode/outline/3_categories_list)
-- [1.5 高频面试题（按分类排序）](https://2xiao.github.io/leetcode-js/leetcode/outline/4_top_200_list)
-- [1.6 高频面试题（按频次排序）](https://2xiao.github.io/leetcode-js/leetcode/outline/5_frequency_list)
-- [1.7 高频面试题（按公司排序）](https://2xiao.github.io/leetcode-js/leetcode/outline/6_company_list)
+- [1.4 LeetCode 题解（分类）](https://2xiao.github.io/leetcode-js/leetcode/outline/3_categories_list)
+- [1.5 LeetCode 题解（标签）](https://2xiao.github.io/leetcode-js/leetcode/outline/4_tag_list)
+- [1.6 面试经典200题](https://2xiao.github.io/leetcode-js/leetcode/outline/5_top_200_list)
+- [1.7 热题频次排行榜](https://2xiao.github.io/leetcode-js/leetcode/outline/6_frequency_list)
+- [1.8 热门企业题库](https://2xiao.github.io/leetcode-js/leetcode/outline/7_company_list)
 
 ### 第二章 数据结构专题
 

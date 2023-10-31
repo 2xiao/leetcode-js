@@ -17,10 +17,11 @@ title: "目录"
 - [1.1 数据结构与算法](./outline/0_table)
 - [1.2 复杂度分析](./outline/1_complexity)
 - [1.3 LeetCode 题解](./outline/2_solution_list)
-- [1.4 LeetCode 题解（分类 ★★★）](./outline/3_categories_list)
-- [1.5 高频面试题（按分类排序）](./outline/4_top_200_list)
-- [1.6 高频面试题（按频次排序）](./outline/5_frequency_list)
-- [1.7 高频面试题（按公司排序）](./outline/6_company_list)
+- [1.4 LeetCode 题解（分类）](./outline/3_categories_list)
+- [1.5 LeetCode 题解（标签）](./outline/4_tag_list)
+- [1.6 面试经典200题](./outline/5_top_200_list)
+- [1.7 热题频次排行榜](./outline/6_frequency_list)
+- [1.8 热门企业题库](./outline/7_company_list)
 
 ### 第二章 数据结构专题
 

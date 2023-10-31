@@ -28,9 +28,10 @@ module.exports = {
             "/leetcode/outline/1_complexity",
             "/leetcode/outline/2_solution_list",
             "/leetcode/outline/3_categories_list",
-            "/leetcode/outline/4_top_200_list",
-            "/leetcode/outline/5_frequency_list",
-            "/leetcode/outline/6_company_list",
+            "/leetcode/outline/4_tag_list",
+            "/leetcode/outline/5_top_200_list",
+            "/leetcode/outline/6_frequency_list",
+            "/leetcode/outline/7_company_list",
           ],
         },
         {
