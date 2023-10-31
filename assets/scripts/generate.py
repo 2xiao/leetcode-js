@@ -47,9 +47,7 @@ def gen_markdown_table(frame, need_sort):
 # 格式化每一个frame items
 
 
-def gen_frame_items(df_indexs, df, problem_path, problem_salt: str = False):
-    row = df_indexs[0]
-
+def gen_frame_items(row, df, problem_path, problem_salt: str = False):
     problem_id = df.loc[row, "序号"]
     problem_link = "[" + df.loc[row, "标题末尾"] + "](" + df.loc[row, "标题链接"] + ")"
 
@@ -71,7 +69,8 @@ def gen_frame_items(df_indexs, df, problem_path, problem_salt: str = False):
         problem_difficulty = "<font color=#ffb800>Medium</font>"
     elif problem_difficulty == "简单":
         problem_difficulty = "<font color=#15bd66>Esay</font>"
-    res = [problem_id, problem_link, problem_solution_link, problem_label, problem_difficulty]
+    res = [problem_id, problem_link, problem_solution_link,
+           problem_label, problem_difficulty]
     if problem_salt:
         res.append(problem_salt)
 
@@ -92,7 +91,7 @@ def gen_frame(problem_titles, problem_path):
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (problem_title))
             continue
-        res = gen_frame_items(df_indexs, df, problem_path)
+        res = gen_frame_items(df_indexs[0], df, problem_path)
         frame.loc[frame_cout] = res
         frame_cout += 1
     return frame
@@ -119,7 +118,7 @@ def gen_frame_with_salt(problems, problem_path):
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (problem_id))
             continue
-        res = gen_frame_items(df_indexs, df, problem_path, problem_salt)
+        res = gen_frame_items(df_indexs[0], df, problem_path, problem_salt)
         frame.loc[frame_cout] = res
         frame_cout += 1
     return frame
@@ -173,7 +172,7 @@ def gen_solution_list(problem_path, solotion_list_path):
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
             continue
 
-        res = gen_frame_items(df_indexs, df, problem_path)
+        res = gen_frame_items(df_indexs[0], df, problem_path)
         frame.loc[frame_cout] = res
         frame_cout += 1
 
@@ -182,7 +181,8 @@ def gen_solution_list(problem_path, solotion_list_path):
         f.writelines("# 1.3 LeetCode 题解\n\n")
         f.writelines("已完成 {} 道\n\n".format(frame_cout))
         f.write(table)
-        f.writelines("\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
+        f.writelines(
+            "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
     f.close()
     print("Create Solutions List Success")
     return frame_cout
@@ -206,7 +206,7 @@ def gen_slice_list(problem_path, solution_path):
 
         # 获取题目所在行
         df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
-
+        print(df_indexs, Path(file).stem)
         if not df_indexs:
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
             continue
@@ -217,7 +217,7 @@ def gen_slice_list(problem_path, solution_path):
                 columns=['题号', '标题', '题解', '标签', '难度'])
         frame = frames[problem_catalog]
         frame.loc[len(frame.index)] = gen_frame_items(
-            df_indexs, df, problem_path)
+            df_indexs[0], df, problem_path)
 
     for idx, frame in frames.items():
         table = gen_markdown_table(frame, True)
@@ -232,6 +232,36 @@ def gen_slice_list(problem_path, solution_path):
             f.write(table)
         f.close()
     print("Create Slice List Success")
+
+
+# 根据题解 problem_path，根据所属索引目录，自动生成切片的题解汇总列表，并保存到 solution_path 中
+
+
+def gen_tag_list(problem_path, solution_path):
+    frames = {}
+    index = 0
+    df = pd.read_csv("leetcode-problems.csv")
+    
+    while index < len(df):
+        problem_tags = df.loc[index, "标签"]
+        if isinstance(problem_tags, str):
+            problem_tags = problem_tags.split("、")
+            for tag in problem_tags:
+                if tag not in frames:
+                    frames[tag] = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+                frame = frames[tag]
+                frame.loc[len(frame.index)] = gen_frame_items(index, df, problem_path)
+        print(index, problem_tags)
+        index += 1
+    for idx, frame in frames.items():
+        table = gen_markdown_table(frame, True)
+        slice_path = os.path.join(solution_path, idx + ".md")
+        with open(slice_path, 'w', encoding='utf-8') as f:
+            f.writelines('# {}\n\n'.format(idx))
+            f.write(table)
+        f.close()
+
+    print("Create Tag List Success")
 
 
 # 根据题解 problem_path 自动生成config.js
@@ -352,7 +382,8 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
             fi.write(
                 "# 1.4 LeetCode 题解（分类 ★★★）\n\n")
             fi.write(category_file_content)
-            fi.writelines("\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
+            fi.writelines(
+                "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
         fi.close()
 
     print("Create Categories List Success")
