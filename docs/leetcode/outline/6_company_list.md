@@ -165,7 +165,7 @@
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | 广度优先搜索、数学、动态规划 | 中等 | 11 |
 | 0212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii/) |  | 字典树、数组、字符串、回溯、矩阵 | 困难 | 10 |
 | 0937 | [重新排列日志文件](https://leetcode.com/problems/reorder-data-in-log-files/) |  | 数组、字符串、排序 | 中等 | 7 |
-| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) |  | 栈、递归、数学、字符串 | 困难 | 6 |
+| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) | 栈、递归、数学、字符串 | 困难 | 6 |
 | 0017 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  | 哈希表、字符串、回溯 | 中等 | 6 |
 | 0692 | [前K个高频单词](https://leetcode.com/problems/top-k-frequent-words/) |  | 字典树、哈希表、字符串、桶排序、计数、排序、堆（优先队列） | 中等 | 6 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | 链表、分治、堆（优先队列）、归并排序 | 困难 | 6 |

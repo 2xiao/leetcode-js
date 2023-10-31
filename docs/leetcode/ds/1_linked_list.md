@@ -127,7 +127,7 @@ class LinkedList {
 
 `head` 结点的 `next` 属性初始化为 `null` ，当有新元素插入时，`next` 会指向新的元素。
 
-### 实现一个单项链表
+### 实现一个单向链表
 
 ```javascript
 class Node {

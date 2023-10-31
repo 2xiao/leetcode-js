@@ -76,7 +76,7 @@
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | 栈、字符串 | 简单 | 21 |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 | 84 |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | 栈、字符串 | 简单 | 207 |
-| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) |  | 栈、递归、数学、字符串 | 困难 | 43 |
+| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) | 栈、递归、数学、字符串 | 困难 | 43 |
 | 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | 栈、数学、字符串 | 中等 | 54 |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | 栈、设计、队列 | 简单 | 120 |
 | 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |  | 栈、设计、队列 | 简单 | 44 |
@@ -681,7 +681,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------ | :------ | :------ | :------ | :------ | :------ |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | 哈希表、字符串、滑动窗口 | 中等 | 642 |
-| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 | 87 |
+| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0076) | 哈希表、字符串、滑动窗口 | 困难 | 87 |
 | 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | 数组、二分查找、动态规划、滑动窗口、哈希函数、滚动哈希 | 中等 | 60 |
 | 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | 数组、二分查找、前缀和、滑动窗口 | 中等 | 49 |
 | 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | 队列、数组、二分查找、前缀和、滑动窗口、单调队列、堆（优先队列） | 困难 | 16 |

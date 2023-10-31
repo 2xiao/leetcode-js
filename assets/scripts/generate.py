@@ -37,6 +37,9 @@ def gen_markdown_table(frame, need_sort):
     for i in range(H):
         problem = "|"
         for j in range(W):
+            value = frame.at[i, head_name[j]]
+            if head_name[j] == "难度":
+                value = 1
             problem += " {} |".format(frame.at[i, head_name[j]])
         lines += [problem]
     table = '\n'.join(lines)

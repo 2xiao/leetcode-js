@@ -137,7 +137,7 @@
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | 双指针、字符串 | 简单 | 14 |
 | 0617 | [合并二叉树](https://leetcode.com/problems/merge-two-binary-trees/) |  | 树、深度优先搜索、广度优先搜索、二叉树 | 简单 | 14 |
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) |  | 链表、双指针 | 简单 | 14 |
-| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 | 14 |
+| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0076) | 哈希表、字符串、滑动窗口 | 困难 | 14 |
 | 0716 | [最大栈](https://leetcode.com/problems/max-stack/) |  | 栈、设计、链表、双向链表、有序集合 | 困难 | 14 |
 | 0743 | [网络延迟时间](https://leetcode.com/problems/network-delay-time/) |  | 深度优先搜索、广度优先搜索、图、最短路、堆（优先队列） | 中等 | 14 |
 | 0722 | [删除注释](https://leetcode.com/problems/remove-comments/) |  | 数组、字符串 | 中等 | 14 |
@@ -229,7 +229,7 @@
 | 0937 | [重新排列日志文件](https://leetcode.com/problems/reorder-data-in-log-files/) |  | 数组、字符串、排序 | 中等 | 7 |
 | 0186 | [反转字符串中的单词 II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |  | 双指针、字符串 | 中等 | 7 |
 | 0064 | [最小路径和](https://leetcode.com/problems/minimum-path-sum/) |  | 数组、动态规划、矩阵 | 中等 | 6 |
-| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) |  | 栈、递归、数学、字符串 | 困难 | 6 |
+| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) | 栈、递归、数学、字符串 | 困难 | 6 |
 | 0387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string/) |  | 队列、哈希表、字符串、计数 | 简单 | 6 |
 | 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  | 栈、树、设计、二叉搜索树、二叉树、迭代器 | 中等 | 6 |
 | 0017 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  | 哈希表、字符串、回溯 | 中等 | 6 |
@@ -313,7 +313,7 @@
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  | 数组、哈希表 | 困难 | 97 |
 | 0165 | [比较版本号](https://leetcode.com/problems/compare-version-numbers/) |  | 双指针、字符串 | 中等 | 96 |
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | 链表、双指针 | 简单 | 95 |
-| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | 哈希表、字符串、滑动窗口 | 困难 | 87 |
+| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0076) | 哈希表、字符串、滑动窗口 | 困难 | 87 |
 | 0078 | [子集](https://leetcode.com/problems/subsets/) |  | 位运算、数组、回溯 | 中等 | 85 |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) |  | 广度优先搜索、数组、动态规划 | 中等 | 84 |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | 栈、设计 | 中等 | 84 |
@@ -370,7 +370,7 @@
 | 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  | 栈、贪心、字符串、单调栈 | 中等 | 44 |
 | 0011 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0011) | 贪心、数组、双指针 | 中等 | 43 |
 | 剑指 Offer 36 | [二叉搜索树与双向链表](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) |  | 栈、树、深度优先搜索、二叉搜索树、链表、二叉树、双向链表 | 中等 | 43 |
-| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) |  | 栈、递归、数学、字符串 | 困难 | 43 |
+| 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) | 栈、递归、数学、字符串 | 困难 | 43 |
 | 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  | 深度优先搜索、广度优先搜索、图、拓扑排序 | 中等 | 43 |
 | 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | 数组、矩阵、模拟 | 中等 | 43 |
 | 0958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) |  | 树、广度优先搜索、二叉树 | 中等 | 42 |
