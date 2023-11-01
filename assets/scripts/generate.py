@@ -356,7 +356,7 @@ def gen_tag_and_difficulty(problem_path):
         problem_label = "&emsp; 🔖&ensp;"
         labels = (df.loc[df_indexs[0], "标签"]).split("、")
         for label in labels:
-            problem_label += " [`" + label + "`](../solution/" + label + ")"
+            problem_label += " [`" + label + "`](../solution/" + label + ".md)"
         problem_label += "\n"
         problem_difficulty = format_difficulty(df.loc[df_indexs[0], "难度"], True)
 
