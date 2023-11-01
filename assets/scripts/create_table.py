@@ -41,3 +41,6 @@ gen.gen_config_js(problem_path, config_path)
 
 # 生成LeetCode题解按字典划分章节的索引
 gen.gen_tag_list(problem_path, tag_list_path, solution_path) 
+
+# 给题目详解页面自动添加标签和难度
+gen.gen_tag_and_difficulty(problem_path)

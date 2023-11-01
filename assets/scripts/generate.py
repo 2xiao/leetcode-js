@@ -43,6 +43,24 @@ def gen_markdown_table(frame, need_sort):
     table = '\n'.join(lines)
     return table
 
+# 格式化难度
+
+
+def format_difficulty(difficulty: str, show_emoji: bool = False):
+    font = ""
+    emoji = ""
+    if difficulty == "困难":
+        emoji = "🔴"
+        font = "<font color=#ff334b>Hard</font>"
+    elif difficulty == "中等":
+        emoji = "🟠"
+        font = "<font color=#ffb800>Medium</font>"
+    elif difficulty == "简单":
+        emoji = "🟢"
+        font = "<font color=#15bd66>Esay</font>"
+    if show_emoji:
+        return emoji + "  " + font
+    return font
 
 # 格式化每一个frame items
 
@@ -62,13 +80,7 @@ def gen_frame_items(row, df, problem_path, problem_salt: str = False):
     problem_label = "`" + ("` `").join(label[:3]) + "`"
     if len(label) > 3:
         problem_label += " `" + str(len(label) - 3) + "+`"
-    problem_difficulty = df.loc[row, "难度"]
-    if problem_difficulty == "困难":
-        problem_difficulty = "<font color=#ff334b>Hard</font>"
-    elif problem_difficulty == "中等":
-        problem_difficulty = "<font color=#ffb800>Medium</font>"
-    elif problem_difficulty == "简单":
-        problem_difficulty = "<font color=#15bd66>Esay</font>"
+    problem_difficulty = format_difficulty(df.loc[row, "难度"])
     res = [problem_id, problem_link, problem_solution_link,
            problem_label, problem_difficulty]
     if problem_salt:
@@ -240,27 +252,29 @@ def gen_tag_list(problem_path, tag_list_path, solution_path):
     frames = {}
     index = 0
     df = pd.read_csv("leetcode-problems.csv")
-    
+
     while index < len(df):
         problem_tags = df.loc[index, "标签"]
         if isinstance(problem_tags, str):
             problem_tags = problem_tags.split("、")
             for tag in problem_tags:
                 if tag not in frames:
-                    frames[tag] = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+                    frames[tag] = pd.DataFrame(
+                        columns=['题号', '标题', '题解', '标签', '难度'])
                 frame = frames[tag]
-                frame.loc[len(frame.index)] = gen_frame_items(index, df, problem_path)
+                frame.loc[len(frame.index)] = gen_frame_items(
+                    index, df, problem_path)
         index += 1
-    
+
     for idx, frame in frames.items():
         table = gen_markdown_table(frame, True)
         slice_path = os.path.join(solution_path, idx + ".md")
-        
+
         content = Path(tag_list_path).read_text(encoding='utf-8')
-        delim = "[`" + idx + "`](../solution/" + idx +")"
+        delim = "[`" + idx + "`](../solution/" + idx + ")"
         if delim in content:
             before, after = content.split(delim)
-        
+
         content = before + '<span class="blue">' + idx + '</span>' + after
 
         with open(slice_path, 'w', encoding='utf-8') as f:
@@ -318,6 +332,47 @@ def gen_config_js(problem_path, config_path):
 
     append_config(config_path, content)
     print("Create config.js Success")
+
+
+# 根据题解 problem_path 给题目自动添加难度和标签
+
+
+def gen_tag_and_difficulty(problem_path):
+    files = os.listdir(problem_path)
+    df = pd.read_csv("leetcode-problems.csv")
+
+    for file in files:
+        # 判断是否是文件夹
+        if ".md" not in file:
+            continue
+
+        # 获取题目所在行
+        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
+
+        if not df_indexs:
+            print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
+            continue
+
+        label = (df.loc[df_indexs[0], "标签"]).split("、")
+        problem_label = "&emsp; 🔖&ensp;`" + ("` `").join(label) + "`\n"
+        problem_difficulty = format_difficulty(df.loc[df_indexs[0], "难度"], True)
+
+        delim = "### 题目\n"
+        file_path = os.path.join(problem_path, Path(file))
+        content = Path(file_path).read_text(encoding='utf-8')
+        if delim in content:
+            if "<font color=#ff334b>Hard</font>" in content:
+                continue
+            if "<font color=#ffb800>Medium</font>" in content:
+                continue
+            if "<font color=#15bd66>Esay</font>" in content:
+                continue
+            content, after = content.split(delim)
+            content += problem_difficulty + problem_label + delim + after
+            Path(file_path).write_text(content, encoding='utf-8')
+        else:
+            print("Fail to Add Tag and Difficulty to Problem：", file)
+    print("Add Tag and Difficulty to Problems Success")
 
 
 # 根据题解 problem_path 和 题目分类 categories_origin_list_path
