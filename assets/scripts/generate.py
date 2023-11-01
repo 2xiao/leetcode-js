@@ -59,7 +59,7 @@ def format_difficulty(difficulty: str, show_emoji: bool = False):
         emoji = "🟢"
         font = "<font color=#15bd66>Esay</font>"
     if show_emoji:
-        return emoji + "  " + font
+        return emoji + " " + font
     return font
 
 # 格式化每一个frame items
@@ -357,8 +357,9 @@ def gen_tag_and_difficulty(problem_path):
         labels = (df.loc[df_indexs[0], "标签"]).split("、")
         for label in labels:
             problem_label += " [`" + label + "`](../solution/" + label + ".md)"
-        problem_label += "\n"
-        problem_difficulty = format_difficulty(df.loc[df_indexs[0], "难度"], True)
+        problem_label += "\n\n"
+        problem_difficulty = format_difficulty(
+            df.loc[df_indexs[0], "难度"], True)
 
         delim = "### 题目\n"
         file_path = os.path.join(problem_path, Path(file))
@@ -370,7 +371,7 @@ def gen_tag_and_difficulty(problem_path):
                 continue
             if "<font color=#15bd66>Esay</font>" in content:
                 continue
-            
+
             content, after = content.split(delim)
             content += problem_difficulty + problem_label + delim + after
             Path(file_path).write_text(content, encoding='utf-8')

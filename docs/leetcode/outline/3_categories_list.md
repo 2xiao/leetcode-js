@@ -37,11 +37,11 @@
 | 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) |  | `链表` | <font color=#15bd66>Esay</font> |
 | 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) |  | `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | `链表` | <font color=#ffb800>Medium</font> |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表` | <font color=#ffb800>Medium</font> |
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) |  | `递归` `链表` | <font color=#ff334b>Hard</font> |
 | 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) |  | `递归` `链表` | <font color=#15bd66>Esay</font> |
 | 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/) |  | `链表` | <font color=#ffb800>Medium</font> |
-| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
+| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
 | 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  | `哈希表` `链表` | <font color=#ffb800>Medium</font> |
 | 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) |  | `链表` `双指针` | <font color=#ffb800>Medium</font> |
@@ -481,7 +481,7 @@
 | 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) |  | `链表` | <font color=#ffb800>Medium</font> |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表` | <font color=#ffb800>Medium</font> |
 | 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | `递归` `链表` | <font color=#15bd66>Esay</font> |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | `递归` `记忆化搜索` `数学` `1+` | <font color=#15bd66>Esay</font> |
 | 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | `记忆化搜索` `数学` `动态规划` | <font color=#15bd66>Esay</font> |
@@ -1089,7 +1089,7 @@
 | 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) |  | `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) |  | `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) |  | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | `递归` `链表` `数学` | <font color=#ffb800>Medium</font> |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
 
