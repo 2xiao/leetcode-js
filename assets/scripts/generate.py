@@ -353,8 +353,11 @@ def gen_tag_and_difficulty(problem_path):
             print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
             continue
 
-        label = (df.loc[df_indexs[0], "标签"]).split("、")
-        problem_label = "&emsp; 🔖&ensp;`" + ("` `").join(label) + "`\n"
+        problem_label = "&emsp; 🔖&ensp;"
+        labels = (df.loc[df_indexs[0], "标签"]).split("、")
+        for label in labels:
+            problem_label += " [`" + label + "`](../solution/" + label + ")"
+        problem_label += "\n"
         problem_difficulty = format_difficulty(df.loc[df_indexs[0], "难度"], True)
 
         delim = "### 题目\n"
@@ -367,6 +370,7 @@ def gen_tag_and_difficulty(problem_path):
                 continue
             if "<font color=#15bd66>Esay</font>" in content:
                 continue
+            
             content, after = content.split(delim)
             content += problem_difficulty + problem_label + delim + after
             Path(file_path).write_text(content, encoding='utf-8')
