@@ -425,7 +425,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------ | :------ | :------ | :------ | :------ |
 | 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) |  | `递归` `链表` | <font color=#15bd66>Esay</font> |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表` | <font color=#15bd66>Esay</font> |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
 | 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | `链表` `排序` | <font color=#ffb800>Medium</font> |
 
