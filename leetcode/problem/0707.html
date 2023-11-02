@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>707. Design Linked List | 前端算法通关指南</title>
+    <meta name="generator" content="VuePress 1.9.10">
+    
+    <meta name="description" content="Know Your Game​​​">
+    
+    <link rel="preload" href="/leetcode-js/assets/css/0.styles.29fdc163.css" as="style"><link rel="preload" href="/leetcode-js/assets/js/app.2ac6efd1.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/3.d3159787.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/1.e31fb365.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/186.54e620a3.js" as="script"><link rel="preload" href="/leetcode-js/assets/js/2.3da565c6.js" as="script">
+    <link rel="stylesheet" href="/leetcode-js/assets/css/0.styles.29fdc163.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/leetcode-js/" class="home-link router-link-active"><!----> <span class="site-name">前端算法通关指南</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/leetcode-js/leetcode/" class="nav-link router-link-active">LeetCode</a></div><div class="nav-item"><a href="/leetcode-js/react/" class="nav-link">React</a></div><div class="nav-item"><a href="/leetcode-js/run/" class="nav-link">Run</a></div> <a href="https://github.com/2xiao/leetcode-js" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/leetcode-js/leetcode/" class="nav-link router-link-active">LeetCode</a></div><div class="nav-item"><a href="/leetcode-js/react/" class="nav-link">React</a></div><div class="nav-item"><a href="/leetcode-js/run/" class="nav-link">Run</a></div> <a href="https://github.com/2xiao/leetcode-js" target="_blank" rel="noopener noreferrer" class="repo-link">
+    Github
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>第一章 序章</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>第二章 数据结构专题</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>第三章 算法专题</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>第四章 LeetCode 题解</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0001-0099</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0100-0199</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0200-0299</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0300-0399</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0400-0499</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0500-0599</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>0600-0699</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>0700-0799</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/leetcode-js/leetcode/solution/0700-0799.html" class="sidebar-link">索引</a></li><li><a href="/leetcode-js/leetcode/problem/0707.html" aria-current="page" class="active sidebar-link">707. Design Linked List</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/leetcode-js/leetcode/problem/0724.html" class="sidebar-link">724. Find Pivot Index</a></li></ul></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>1000-1099</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>面试题</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>剑指 Offer</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>剑指 Offer II</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading"><span>力扣杯</span> <span class="arrow right"></span></p> <!----></section></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="_707-design-linked-list"><a href="#_707-design-linked-list" class="header-anchor">#</a> <a href="https://leetcode.com/problems/design-linked-list/" target="_blank" rel="noopener noreferrer">707. Design Linked List<span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></h1> <p>🟠 <font color="#ffb800">Medium</font>  🔖  <a href="/leetcode-js/leetcode/solution/设计.html"><code>设计</code></a> <a href="/leetcode-js/leetcode/solution/链表.html"><code>链表</code></a></p> <h3 id="题目"><a href="#题目" class="header-anchor">#</a> 题目</h3> <p>Design your implementation of the linked list. You can choose to use the singly linked list or the doubly linked list. A node in a singly linked list should have two attributes: val and next. val is the value of the current node, and next is a pointer/reference to the next node. If you want to use the doubly linked list, you will need one more attribute prev to indicate the previous node in the linked list. Assume all nodes in the linked list are 0-indexed.</p> <p>Implement these functions in your linked list class:</p> <ul><li>get(index) : Get the value of the index-th node in the linked list. If the index is invalid, return -1.</li> <li>addAtHead(val) : Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.</li> <li>addAtTail(val) : Append a node of value val to the last element of the linked list.</li> <li>addAtIndex(index, val) : Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.</li> <li>deleteAtIndex(index) : Delete the index-th node in the linked list, if the index is valid.</li></ul> <p><strong>Example</strong>:</p> <div class="language- extra-class"><pre class="language-text"><code>
+MyLinkedList linkedList = new MyLinkedList();
+linkedList.addAtHead(1);
+linkedList.addAtTail(3);
+linkedList.addAtIndex(1, 2);  // linked list becomes 1-&gt;2-&gt;3
+linkedList.get(1);            // returns 2
+linkedList.deleteAtIndex(1);  // now the linked list is 1-&gt;3
+linkedList.get(1);            // returns 3
+
+</code></pre></div><p><strong>Note</strong>:</p> <ul><li>All values will be in the range of [1, 1000].</li> <li>The number of operations will be in the range of [1, 1000].</li> <li>Please do not use the built-in LinkedList library.</li></ul> <h3 id="题目大意"><a href="#题目大意" class="header-anchor">#</a> 题目大意</h3> <p>这道题比较简单，设计一个链表，实现相关操作即可。</p> <h3 id="解题思路"><a href="#解题思路" class="header-anchor">#</a> 解题思路</h3> <p>这题有一个地方比较坑，题目中 Note 里面写的数值取值范围是 [1, 1000]，笔者把 0 当做无效值。结果 case 里面出现了 0 是有效值。case 和题意不符。</p> <h3 id="代码"><a href="#代码" class="header-anchor">#</a> 代码</h3> <div class="language-go extra-class"><pre class="language-go"><code>
+<span class="token keyword">package</span> leetcode
+
+<span class="token keyword">type</span> MyLinkedList <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	head <span class="token operator">*</span>Node
+<span class="token punctuation">}</span>
+
+<span class="token keyword">type</span> Node <span class="token keyword">struct</span> <span class="token punctuation">{</span>
+	Val  <span class="token builtin">int</span>
+	Next <span class="token operator">*</span>Node
+	Prev <span class="token operator">*</span>Node
+<span class="token punctuation">}</span>
+
+<span class="token comment">/** Initialize your data structure here. */</span>
+<span class="token keyword">func</span> <span class="token function">Constructor</span><span class="token punctuation">(</span><span class="token punctuation">)</span> MyLinkedList <span class="token punctuation">{</span>
+	<span class="token keyword">return</span> MyLinkedList<span class="token punctuation">{</span><span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>this <span class="token operator">*</span>MyLinkedList<span class="token punctuation">)</span> <span class="token function">Get</span><span class="token punctuation">(</span>index <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token builtin">int</span> <span class="token punctuation">{</span>
+	curr <span class="token operator">:=</span> this<span class="token punctuation">.</span>head
+	<span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> index <span class="token operator">&amp;&amp;</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+		curr <span class="token operator">=</span> curr<span class="token punctuation">.</span>Next
+	<span class="token punctuation">}</span>
+	<span class="token keyword">if</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> curr<span class="token punctuation">.</span>Val
+	<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+		<span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>this <span class="token operator">*</span>MyLinkedList<span class="token punctuation">)</span> <span class="token function">AddAtHead</span><span class="token punctuation">(</span>val <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	node <span class="token operator">:=</span> <span class="token operator">&amp;</span>Node<span class="token punctuation">{</span>Val<span class="token punctuation">:</span> val<span class="token punctuation">}</span>
+	node<span class="token punctuation">.</span>Next <span class="token operator">=</span> this<span class="token punctuation">.</span>head
+	<span class="token keyword">if</span> this<span class="token punctuation">.</span>head <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		this<span class="token punctuation">.</span>head<span class="token punctuation">.</span>Prev <span class="token operator">=</span> node
+	<span class="token punctuation">}</span>
+	this<span class="token punctuation">.</span>head <span class="token operator">=</span> node
+<span class="token punctuation">}</span>
+
+<span class="token comment">/** Append a node of value val to the last element of the linked list. */</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>this <span class="token operator">*</span>MyLinkedList<span class="token punctuation">)</span> <span class="token function">AddAtTail</span><span class="token punctuation">(</span>val <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">if</span> this<span class="token punctuation">.</span>head <span class="token operator">==</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		this<span class="token punctuation">.</span><span class="token function">AddAtHead</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span>
+		<span class="token keyword">return</span>
+	<span class="token punctuation">}</span>
+	node <span class="token operator">:=</span> <span class="token operator">&amp;</span>Node<span class="token punctuation">{</span>Val<span class="token punctuation">:</span> val<span class="token punctuation">}</span>
+	curr <span class="token operator">:=</span> this<span class="token punctuation">.</span>head
+	<span class="token keyword">for</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token operator">&amp;&amp;</span> curr<span class="token punctuation">.</span>Next <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+		curr <span class="token operator">=</span> curr<span class="token punctuation">.</span>Next
+	<span class="token punctuation">}</span>
+	node<span class="token punctuation">.</span>Prev <span class="token operator">=</span> curr
+	curr<span class="token punctuation">.</span>Next <span class="token operator">=</span> node
+<span class="token punctuation">}</span>
+
+<span class="token comment">/** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>this <span class="token operator">*</span>MyLinkedList<span class="token punctuation">)</span> <span class="token function">AddAtIndex</span><span class="token punctuation">(</span>index <span class="token builtin">int</span><span class="token punctuation">,</span> val <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">if</span> index <span class="token operator">==</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+		this<span class="token punctuation">.</span><span class="token function">AddAtHead</span><span class="token punctuation">(</span>val<span class="token punctuation">)</span>
+	<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+		node <span class="token operator">:=</span> <span class="token operator">&amp;</span>Node<span class="token punctuation">{</span>Val<span class="token punctuation">:</span> val<span class="token punctuation">}</span>
+		curr <span class="token operator">:=</span> this<span class="token punctuation">.</span>head
+		<span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> index<span class="token operator">-</span><span class="token number">1</span> <span class="token operator">&amp;&amp;</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+			curr <span class="token operator">=</span> curr<span class="token punctuation">.</span>Next
+		<span class="token punctuation">}</span>
+		<span class="token keyword">if</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+			node<span class="token punctuation">.</span>Next <span class="token operator">=</span> curr<span class="token punctuation">.</span>Next
+			node<span class="token punctuation">.</span>Prev <span class="token operator">=</span> curr
+			<span class="token keyword">if</span> node<span class="token punctuation">.</span>Next <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+				node<span class="token punctuation">.</span>Next<span class="token punctuation">.</span>Prev <span class="token operator">=</span> node
+			<span class="token punctuation">}</span>
+			curr<span class="token punctuation">.</span>Next <span class="token operator">=</span> node
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/** Delete the index-th node in the linked list, if the index is valid. */</span>
+<span class="token keyword">func</span> <span class="token punctuation">(</span>this <span class="token operator">*</span>MyLinkedList<span class="token punctuation">)</span> <span class="token function">DeleteAtIndex</span><span class="token punctuation">(</span>index <span class="token builtin">int</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+	<span class="token keyword">if</span> index <span class="token operator">==</span> <span class="token number">0</span> <span class="token punctuation">{</span>
+		this<span class="token punctuation">.</span>head <span class="token operator">=</span> this<span class="token punctuation">.</span>head<span class="token punctuation">.</span>Next
+		<span class="token keyword">if</span> this<span class="token punctuation">.</span>head <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+			this<span class="token punctuation">.</span>head<span class="token punctuation">.</span>Prev <span class="token operator">=</span> <span class="token boolean">nil</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+		curr <span class="token operator">:=</span> this<span class="token punctuation">.</span>head
+		<span class="token keyword">for</span> i <span class="token operator">:=</span> <span class="token number">0</span><span class="token punctuation">;</span> i <span class="token operator">&lt;</span> index<span class="token operator">-</span><span class="token number">1</span> <span class="token operator">&amp;&amp;</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span><span class="token punctuation">;</span> i<span class="token operator">++</span> <span class="token punctuation">{</span>
+			curr <span class="token operator">=</span> curr<span class="token punctuation">.</span>Next
+		<span class="token punctuation">}</span>
+		<span class="token keyword">if</span> curr <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token operator">&amp;&amp;</span> curr<span class="token punctuation">.</span>Next <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+			curr<span class="token punctuation">.</span>Next <span class="token operator">=</span> curr<span class="token punctuation">.</span>Next<span class="token punctuation">.</span>Next
+			<span class="token keyword">if</span> curr<span class="token punctuation">.</span>Next <span class="token operator">!=</span> <span class="token boolean">nil</span> <span class="token punctuation">{</span>
+				curr<span class="token punctuation">.</span>Next<span class="token punctuation">.</span>Prev <span class="token operator">=</span> curr
+			<span class="token punctuation">}</span>
+		<span class="token punctuation">}</span>
+	<span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+<span class="token comment">/**
+ * Your MyLinkedList object will be instantiated and called as such:
+ * obj := Constructor();
+ * param_1 := obj.Get(index);
+ * obj.AddAtHead(val);
+ * obj.AddAtTail(val);
+ * obj.AddAtIndex(index,val);
+ * obj.DeleteAtIndex(index);
+ */</span>
+
+
+</code></pre></div></div> <!----> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/2xiao/leetcode-js/edit/master/docs/leetcode/problem/0707.md" target="_blank" rel="noopener noreferrer">帮2xiao改善此页面</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <!----> <div style="margin-top:30px;"><div class="copyright-text"><div>温馨提示喵</div> <div>著作权归作者所有，商业转载请联系作者获得授权，非商业转载请注明出处，否则保留追究法律责任的权利。</div> <div>出处：<a href="https://2xiao.github.io/leetcode-js/" target="_blank">前端算法通关指南
+</a></div> <div>作者：<a href="https://github.com/2xiao" target="_blank">2xiao</a></div></div></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/leetcode-js/leetcode/solution/0700-0799.html" class="prev">
+          索引
+        </a></span> <span class="next"><a href="/leetcode-js/leetcode/problem/0724.html">
+          724. Find Pivot Index
+        </a>
+        →
+      </span></p></div>  <div class="gitalk-container theme-default-content"><div id="gitalk-container" class="content"></div></div></main> <div id="kitty-container"><span><div role="tooltip" id="el-popover-638" aria-hidden="true" class="el-popover el-popper" style="width:undefinedpx;display:none;"><!----><div class="cover"><p class="title">今日咒语</p> <p class="text">如果你想让 TA 快乐，因为这样你就会快乐，那么不如跳过这个中间步骤，现在就让自己开始快乐起来吧。</p></div> </div><span class="el-popover__reference-wrapper"><div id="kitty" style="background:url(https://github-imglib-1255459943.cos.ap-chengdu.myqcloud.com/assets/img/kitty2.svg);"></div></span></span></div></div><div class="global-ui"></div></div>
+    <script src="/leetcode-js/assets/js/app.2ac6efd1.js" defer></script><script src="/leetcode-js/assets/js/3.d3159787.js" defer></script><script src="/leetcode-js/assets/js/1.e31fb365.js" defer></script><script src="/leetcode-js/assets/js/186.54e620a3.js" defer></script><script src="/leetcode-js/assets/js/2.3da565c6.js" defer></script>
+  </body>
+</html>
