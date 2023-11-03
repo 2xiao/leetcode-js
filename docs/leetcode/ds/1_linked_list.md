@@ -295,52 +295,6 @@ singleLinkedList {
 
 除此之外，因为链表中的每个节点都需要**消耗额外的存储空间**去存储一份指向下一个节点的指针，所以内存消耗会翻倍。而且，对链表进行频繁的插入、删除操作，还会导致频繁的内存申请和释放，**容易造成内存碎片**。如果代码对内存的使用非常苛刻，那数组就更合适。
 
-## 如何写出正确的链表代码
-
-想要写好链表代码并不是容易的事儿，尤其是那些复杂的链表操作，比如链表反转、有序链表合并等，写的时候非常容易出错。面试中，能把“链表反转”这几行代码写对的人不足 10%。
-
-下面总结了几个写链表代码的技巧，如果能熟练掌握这几个技巧，再加以练习，轻松拿下链表代码完全没有问题。
-
-### 1. 理解指针或引用的含义
-
-将某个变量赋值给指针，实际上就是将这个变量的地址赋值给指针，或者反过来说，指针中存储了这个变量的内存地址，指向了这个变量，通过指针就能找到这个变量。
-
-在编写链表代码的时候，经常会有这样的代码：`p.next = q`，这行代码是说，`p`节点中的`next`指针存储了`q`节点的内存地址。
-
-还有：`p.next = p.next.next`，这行代码表示，`p`节点的`next`指针存储了`p`节点的下下一个节点的内存地址。
-
-### 2. 警惕指针丢失和内存泄漏
-
-写链表代码的时候，指针指来指去，一会儿就不知道指到哪里了。所以一定注意不要弄丢了指针。
-
-比如单链表的插入操作，希望在节点`a`和相邻的节点`b`之间插入节点`x`，假设当前指针`p`指向节点`a`。如果我们将代码实现变成下面这个样子，就会发生指针丢失和内存泄露。
-
-```js
-p.next = x; // 将p的next指针指向x节点；
-x.next = p.next; // 将x的节点的next指针指向b节点；
-```
-
-`p.next`指针在完成第一步操作之后，已经不再指向节点`b`了，而是指向节点`x`。第 2 行代码相当于将`x`赋值给`x.next`，自己指向自己。因此，整个链表也就断成了两半，从节点 b 往后的所有节点都无法访问到了。
-
-所以，插入节点时，一定要注意操作的顺序，要先将节点 `x` 的 `next` 指针指向节点 `b`，再把节点 `a` 的 `next` 指针指向节点 `x`，这样才不会丢失指针，导致内存泄漏。
-
-对于刚刚的插入代码，只需要把第 1 行和第 2 行代码的顺序颠倒一下就可以了。
-
-### 3. 重点留意边界条件处理
-
-在编写的过程中以及编写完成之后，要检查一下代码在边界条件下是否能正确运行。常见的检查链表代码是否正确的边界条件有这些：
-
-- 如果链表为空时，代码是否能正常工作？
-- 如果链表只包含一个节点时，代码是否能正常工作？
-- 如果链表只包含两个节点时，代码是否能正常工作？
-- 代码逻辑在处理头节点和尾节点的时候，是否能正常工作？
-
-### 4. 举例法和画图法，辅助思考
-
-对于稍微复杂的链表操作，比如前面单链表反转，指针一会儿指这，一会儿指那，一会儿就被绕晕了。
-
-所以这时可以使用举例法和画图法。可以把各种情况都举一个例子，把它画在纸上，画出插入前和插入后的链表变化。
-
 ## 链表的应用
 
 下面列举了 6 个常见的链表操作和应用，只要把下面这几个操作都写熟练，多写多练，之后就再也不会害怕写链表代码。
@@ -382,10 +336,47 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 #### ② 解题思路
 
+有两种思路，一是循环、二是递归。
+
 #### ③ 代码
 
-```jacascript
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
 
+// 循环实现
+var reverseList = function (head) {
+  let prev = null;
+  let cur = head;
+
+  while (cur !== null) {
+    let next = cur.next;
+    cur.next = prev;
+    prev = cur;
+    cur = next;
+  }
+  return prev;
+};
+
+// 递归实现
+var reverseList = function (head) {
+  if (head === null || head.next === null) {
+    return head;
+  }
+  const last = reverseList(head.next);
+  head.next.next = head;
+  head.next = null;
+  return last;
+};
 ```
 
 ---
@@ -480,10 +471,47 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 #### ② 解题思路
 
+利用归并排序的思想，具体步骤如下：
+
+- 使用哑节点 `newHead` 构造一个头节点，并使用 `prev` 指向 `newHead` 用于遍历；
+- 然后判断 `list1` 和 `list2` 头节点的值，将较小的头节点加入到合并后的链表中，并向后移动该链表的头节点指针；
+- 重复上一步操作，直到两个链表中出现链表为空的情况；
+- 将剩余链表链接到合并后的链表中；
+- 返回合并后有序链表的头节点 `newHead.next`。
+
 #### ③ 代码
 
-```jacascript
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} list1
+ * @param {ListNode} list2
+ * @return {ListNode}
+ */
+var mergeTwoLists = function (list1, list2) {
+  const newHead = new ListNode();
+  let prev = newHead;
 
+  while (list1 && list2) {
+    if (list1.val < list2.val) {
+      prev.next = list1;
+      list1 = list1.next;
+    } else {
+      prev.next = list2;
+      list2 = list2.next;
+    }
+    prev = prev.next;
+  }
+
+  prev.next = list1 != null ? list1 : list2;
+  return newHead.next;
+};
 ```
 
 ---
@@ -539,8 +567,34 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 #### ③ 代码
 
-```jacascript
-
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @param {number} n
+ * @return {ListNode}
+ */
+var removeNthFromEnd = function (head, n) {
+  let res = new ListNode(0, head);
+  let slow = res;
+  let fast = head;
+  while (n) {
+    fast = fast.next;
+    n--;
+  }
+  while (fast) {
+    slow = slow.next;
+    fast = fast.next;
+  }
+  slow.next = slow.next.next;
+  return res.next;
+};
 ```
 
 ---
@@ -672,6 +726,52 @@ lRUCache.get(4);    // 返回 4
 ```javascript
 
 ```
+
+## 答题的技巧
+
+想要写好链表代码并不是容易的事儿，尤其是那些复杂的链表操作，比如链表反转、有序链表合并等，写的时候非常容易出错。面试中，能把“链表反转”这几行代码写对的人不足 10%。
+
+下面总结了几个写链表代码的技巧，如果能熟练掌握这几个技巧，再加以练习，轻松拿下链表代码完全没有问题。
+
+### 1. 理解指针或引用的含义
+
+将某个变量赋值给指针，实际上就是将这个变量的地址赋值给指针，或者反过来说，指针中存储了这个变量的内存地址，指向了这个变量，通过指针就能找到这个变量。
+
+在编写链表代码的时候，经常会有这样的代码：`p.next = q`，这行代码是说，`p`节点中的`next`指针存储了`q`节点的内存地址。
+
+还有：`p.next = p.next.next`，这行代码表示，`p`节点的`next`指针存储了`p`节点的下下一个节点的内存地址。
+
+### 2. 警惕指针丢失和内存泄漏
+
+写链表代码的时候，指针指来指去，一会儿就不知道指到哪里了。所以一定注意不要弄丢了指针。
+
+比如单链表的插入操作，希望在节点`a`和相邻的节点`b`之间插入节点`x`，假设当前指针`p`指向节点`a`。如果我们将代码实现变成下面这个样子，就会发生指针丢失和内存泄露。
+
+```js
+p.next = x; // 将p的next指针指向x节点；
+x.next = p.next; // 将x的节点的next指针指向b节点；
+```
+
+`p.next`指针在完成第一步操作之后，已经不再指向节点`b`了，而是指向节点`x`。第 2 行代码相当于将`x`赋值给`x.next`，自己指向自己。因此，整个链表也就断成了两半，从节点 b 往后的所有节点都无法访问到了。
+
+所以，插入节点时，一定要注意操作的顺序，要先将节点 `x` 的 `next` 指针指向节点 `b`，再把节点 `a` 的 `next` 指针指向节点 `x`，这样才不会丢失指针，导致内存泄漏。
+
+对于刚刚的插入代码，只需要把第 1 行和第 2 行代码的顺序颠倒一下就可以了。
+
+### 3. 重点留意边界条件处理
+
+在编写的过程中以及编写完成之后，要检查一下代码在边界条件下是否能正确运行。常见的检查链表代码是否正确的边界条件有这些：
+
+- 如果链表为空时，代码是否能正常工作？
+- 如果链表只包含一个节点时，代码是否能正常工作？
+- 如果链表只包含两个节点时，代码是否能正常工作？
+- 代码逻辑在处理头节点和尾节点的时候，是否能正常工作？
+
+### 4. 举例法和画图法，辅助思考
+
+对于稍微复杂的链表操作，比如前面单链表反转，指针一会儿指这，一会儿指那，一会儿就被绕晕了。
+
+所以这时可以使用举例法和画图法。可以把各种情况都举一个例子，把它画在纸上，画出插入前和插入后的链表变化。
 
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
