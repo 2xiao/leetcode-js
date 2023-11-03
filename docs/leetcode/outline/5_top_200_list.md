@@ -644,7 +644,7 @@
 | 0008 | [字符串转换整数 (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0008) | `字符串` | <font color=#ffb800>Medium</font> | 106 |
 | 0165 | [比较版本号](https://leetcode.com/problems/compare-version-numbers/) |  | `双指针` `字符串` | <font color=#ffb800>Medium</font> | 96 |
 | 0468 | [验证IP地址](https://leetcode.com/problems/validate-ip-address/) |  | `字符串` | <font color=#ffb800>Medium</font> | 48 |
-| 0086 | [分隔链表](https://leetcode.com/problems/partition-list/) |  | `链表` `双指针` | <font color=#ffb800>Medium</font> | 18 |
+| 0086 | [分隔链表](https://leetcode.com/problems/partition-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0086) | `链表` `双指针` | <font color=#ffb800>Medium</font> | 18 |
 
 
 * 前缀和

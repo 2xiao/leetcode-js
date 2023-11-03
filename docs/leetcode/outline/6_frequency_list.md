@@ -203,7 +203,7 @@
 | 0459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern/) |  | `字符串` `字符串匹配` | <font color=#15bd66>Esay</font> | 18 |
 | 剑指 Offer 34 | [二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) |  | `树` `深度优先搜索` `回溯` `1+` | <font color=#ffb800>Medium</font> | 18 |
 | 剑指 Offer 53 - I | [在排序数组中查找数字 I](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> | 18 |
-| 0086 | [分隔链表](https://leetcode.com/problems/partition-list/) |  | `链表` `双指针` | <font color=#ffb800>Medium</font> | 18 |
+| 0086 | [分隔链表](https://leetcode.com/problems/partition-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0086) | `链表` `双指针` | <font color=#ffb800>Medium</font> | 18 |
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> | 17 |
 | 0516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence/) |  | `字符串` `动态规划` | <font color=#ffb800>Medium</font> | 17 |
 | 0115 | [不同的子序列](https://leetcode.com/problems/distinct-subsequences/) |  | `字符串` `动态规划` | <font color=#ff334b>Hard</font> | 17 |

@@ -110,6 +110,7 @@ module.exports = {
                 "/leetcode/problem/0080.md",
                 "/leetcode/problem/0082.md",
                 "/leetcode/problem/0083.md",
+                "/leetcode/problem/0086.md",
                 "/leetcode/problem/0092.md"
               ],
             },
