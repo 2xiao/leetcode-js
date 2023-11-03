@@ -26,6 +26,6 @@
 | 1296 | [划分数组为连续数字的集合](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) |  | `贪心` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | `队列` `数组` `滑动窗口` `2+` | <font color=#ff334b>Hard</font> |
 | 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) |  | `设计` `双指针` `数据流` `2+` | <font color=#ff334b>Hard</font> |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) |  | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
 

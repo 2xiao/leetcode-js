@@ -116,11 +116,19 @@ stack.print()
 [227. 基本计算器 II - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0227.html)
 :::
 
-#### # 题目大意
+#### ① 题目大意
 
-**描述**：给定一个字符串表达式 s，表达式中所有整数为非负整数，运算符只有 +、-、\*、/，没有括号。
+给定一个字符串表达式 s，表达式中所有整数为非负整数，运算符只有 +、-、\*、/，没有括号。实现一个基本计算器来计算并返回它的值。
 
-**要求**：实现一个基本计算器来计算并返回它的值。
+**示例**：
+
+> 输入：s = "3+2\*2"
+>
+> 输出：7
+
+> 输入：s = " 3/2 "
+>
+> 输出：1
 
 **说明**：
 
@@ -130,20 +138,7 @@ stack.print()
 - 表达式中的所有整数都是非负整数，且在范围 [0,2^31−1]内。
 - 题目数据保证答案是一个 32-bit 整数。
 
-**示例**：
-::: tip
-输入：s = "3+2\*2"
-
-输出：7
-:::
-
-::: tip
-输入：s = " 3/2 "
-
-输出：1
-:::
-
-#### # 解题思路
+#### ② 解题思路
 
 通过两个栈来实现。其中一个保存操作数的栈，另一个是保存运算符的栈。从左向右遍历表达式，当遇到数字，我们就直接压入操作数栈；当遇到运算符，就与运算符栈的栈顶元素进行比较。
 
@@ -153,7 +148,7 @@ stack.print()
 
 ![](../../../assets/images/bc77c8d33375750f1700eb7778551600.png)
 
-#### # 代码
+#### ③ 代码
 
 ```javascript
 
@@ -169,32 +164,28 @@ stack.print()
 [20. 有效的括号 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0020.html)
 :::
 
-#### # 题目大意
+#### ① 题目大意
 
-**描述**：给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s 。
+给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串 s 是否有效（即括号是否匹配）。
 
-**要求**：判断字符串 s 是否有效（即括号是否匹配）。
+**示例**：
+
+> 输入：s = "()"
+>
+> 输出：True
+
+> 输入：s = "()[]{}"
+>
+> 输出：True
 
 **说明**：
+
 有效字符串需满足：
 
 - 左括号必须用相同类型的右括号闭合。
 - 左括号必须以正确的顺序闭合。
 
-**示例**：
-::: tip
-输入：s = "()"
-
-输出：True
-:::
-
-::: tip
-输入：s = "()[]{}"
-
-输出：True
-:::
-
-#### # 解题思路
+#### ② 解题思路
 
 用栈来保存未匹配的左括号，从左到右依次扫描字符串。当扫描到左括号时，则将其压入栈中；
 
@@ -204,32 +195,33 @@ stack.print()
 
 当所有的括号都扫描完成之后，如果栈为空，则说明字符串为合法格式；否则，说明有未匹配的左括号，为非法格式。
 
-#### # 代码
+#### ③ 代码
 
 ```javascript
 /**
  * @param {string} s
  * @return {boolean}
  */
-var isValid = function(s) {
-    const len = s.length
-    if (len === 0) return true
+var isValid = function (s) {
+  const len = s.length;
+  if (len === 0) return true;
 
-    let stack = []
-    for (let i = 0; i < len; i++) {
-        let v = s[i]
-        if (v === '{' || v === '(' || v === '[') {
-            stack.push(v)
-        } else if (
-            ((v === '}') & (stack.length > 0) & (stack[stack.length - 1] === '{')) ||
-            ((v === ')') & (stack.length > 0) & (stack[stack.length - 1] === '(')) ||
-            ((v === ']') & (stack.length > 0) & (stack[stack.length - 1] === '['))) {
-            stack.pop()
-        } else {
-            return false
-        }
+  let stack = [];
+  for (let i = 0; i < len; i++) {
+    let v = s[i];
+    if (v === "{" || v === "(" || v === "[") {
+      stack.push(v);
+    } else if (
+      (v === "}") & (stack.length > 0) & (stack[stack.length - 1] === "{") ||
+      (v === ")") & (stack.length > 0) & (stack[stack.length - 1] === "(") ||
+      (v === "]") & (stack.length > 0) & (stack[stack.length - 1] === "[")
+    ) {
+      stack.pop();
+    } else {
+      return false;
     }
-    return stack.length === 0
+  }
+  return stack.length === 0;
 };
 ```
 

@@ -92,6 +92,7 @@ module.exports = {
                 "/leetcode/problem/0019.md",
                 "/leetcode/problem/0020.md",
                 "/leetcode/problem/0021.md",
+                "/leetcode/problem/0023.md",
                 "/leetcode/problem/0024.md",
                 "/leetcode/problem/0025.md",
                 "/leetcode/problem/0026.md",
@@ -122,8 +123,13 @@ module.exports = {
                 "/leetcode/problem/0120.md",
                 "/leetcode/problem/0125.md",
                 "/leetcode/problem/0138.md",
+                "/leetcode/problem/0141.md",
+                "/leetcode/problem/0142.md",
                 "/leetcode/problem/0143.md",
+                "/leetcode/problem/0146.md",
+                "/leetcode/problem/0148.md",
                 "/leetcode/problem/0152.md",
+                "/leetcode/problem/0160.md",
                 "/leetcode/problem/0167.md",
                 "/leetcode/problem/0189.md",
                 "/leetcode/problem/0190.md"
@@ -190,6 +196,14 @@ module.exports = {
                 "/leetcode/solution/0700-0799.md",
                 "/leetcode/problem/0707.md",
                 "/leetcode/problem/0724.md"
+              ],
+            },
+            {
+              title: "0800-0899",
+              collapsable: true,
+              children: [
+                "/leetcode/solution/0800-0899.md",
+                "/leetcode/problem/0876.md"
               ],
             },
             {
