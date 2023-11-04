@@ -26,9 +26,13 @@ def gen_markdown_table(frame, need_sort):
 
     # 分割线
     SPLIT = ":{}"
+    SPLIT2 = ":{}:"
     line = "|"
     for i in range(W):
-        line = "{} {} |".format(line, SPLIT.format('-'*6))
+        if i in [1,3,4]:
+            line = "{} {} |".format(line, SPLIT.format('-'*6))
+        else:
+            line = "{} {} |".format(line, SPLIT2.format('-'*6))
     lines += [line]
 
     # 数据部分

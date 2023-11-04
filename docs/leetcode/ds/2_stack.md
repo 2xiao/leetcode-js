@@ -265,7 +265,7 @@ function add(x, y) {
 #### 栈基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
@@ -283,7 +283,7 @@ function add(x, y) {
 #### 单调栈
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |

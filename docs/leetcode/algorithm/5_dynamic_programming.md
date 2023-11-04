@@ -37,7 +37,7 @@
 #### 动态规划基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | `递归` `记忆化搜索` `数学` `1+` | <font color=#15bd66>Esay</font> |
 | 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | `记忆化搜索` `数学` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | `数学` `动态规划` `组合数学` | <font color=#ffb800>Medium</font> |
@@ -45,7 +45,7 @@
 #### 记忆化搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  | `记忆化搜索` `数学` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |  | `数学` `动态规划` `博弈` | <font color=#ffb800>Medium</font> |
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
@@ -61,7 +61,7 @@
 * 单串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence/) |  | `数组` `二分查找` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) |  | `树状数组` `线段树` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  | `数组` `二分查找` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
@@ -108,7 +108,7 @@
 * 双串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence/) |  | `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0712 | [两个字符串的最小ASCII删除和](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) |  | `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | `数组` `二分查找` `动态规划` `3+` | <font color=#ffb800>Medium</font> |
@@ -123,7 +123,7 @@
 * 矩阵线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0120 | [三角形最小路径和](https://leetcode.com/problems/triangle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0120) | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
@@ -140,7 +140,7 @@
 * 无串线性 DP 问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  | `记忆化搜索` `数学` `动态规划` | <font color=#15bd66>Esay</font> |
 | 0650 | [只有两个键的键盘](https://leetcode.com/problems/2-keys-keyboard/) |  | `数学` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii/) |  | `哈希表` `数学` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
@@ -152,7 +152,7 @@
 * 0-1 背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
 | 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
@@ -160,7 +160,7 @@
 * 完全背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) | `广度优先搜索` `数学` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) |  | `广度优先搜索` `数组` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0518 | [零钱兑换 II](https://leetcode.com/problems/coin-change-ii/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
@@ -174,14 +174,14 @@
 * 分组背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1155 | [掷骰子等于目标和的方法数](https://leetcode.com/problems/number-of-dice-rolls-with-target-sum/) |  | `动态规划` | <font color=#ffb800>Medium</font> |
 | 2585 | [获得分数的方法数](https://leetcode.com/problems/number-of-ways-to-earn-points/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 
 * 多维背包问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0474 | [一和零](https://leetcode.com/problems/ones-and-zeroes/) |  | `数组` `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0879 | [盈利计划](https://leetcode.com/problems/profitable-schemes/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 1995 | [统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets/) |  | `数组` `枚举` | <font color=#15bd66>Esay</font> |
@@ -189,7 +189,7 @@
 #### 区间 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0486 | [预测赢家](https://leetcode.com/problems/predict-the-winner/) |  | `递归` `数组` `数学` `2+` | <font color=#ffb800>Medium</font> |
 | 0312 | [戳气球](https://leetcode.com/problems/burst-balloons/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0877 | [石子游戏](https://leetcode.com/problems/stone-game/) |  | `数组` `数学` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
@@ -210,7 +210,7 @@
 * 固定根的树形 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0543 | [二叉树的直径](https://leetcode.com/problems/diameter-of-binary-tree/) |  | `树` `深度优先搜索` `二叉树` | <font color=#15bd66>Esay</font> |
 | 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  | `树` `深度优先搜索` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | 1245 | [树的直径](https://leetcode.com/problems/tree-diameter/) |  | `树` `深度优先搜索` `广度优先搜索` `2+` | <font color=#ffb800>Medium</font> |
@@ -230,7 +230,7 @@
 * 不定根的树形 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0310 | [最小高度树](https://leetcode.com/problems/minimum-height-trees/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
 | 0834 | [树中距离之和](https://leetcode.com/problems/sum-of-distances-in-tree/) |  | `树` `深度优先搜索` `图` `1+` | <font color=#ff334b>Hard</font> |
 | 2581 | [统计可能的树根数目](https://leetcode.com/problems/count-number-of-possible-root-nodes/) |  | `树` `深度优先搜索` `哈希表` `1+` | <font color=#ff334b>Hard</font> |
@@ -238,7 +238,7 @@
 #### 状态压缩 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1879 | [两个数组最小的异或值之和](https://leetcode.com/problems/minimum-xor-sum-of-two-arrays/) |  | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | 2172 | [数组的最大与和](https://leetcode.com/problems/maximum-and-sum-of-array/) |  | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | 1947 | [最大兼容性评分和](https://leetcode.com/problems/maximum-compatibility-score-sum/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
@@ -264,7 +264,7 @@
 #### 计数 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | `数学` `动态规划` `组合数学` | <font color=#ffb800>Medium</font> |
 | 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0063) | `数组` `动态规划` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0343 | [整数拆分](https://leetcode.com/problems/integer-break/) |  | `数学` `动态规划` | <font color=#ffb800>Medium</font> |
@@ -279,7 +279,7 @@
 #### 数位 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 2376 | [统计特殊整数](https://leetcode.com/problems/count-special-integers/) |  | `数学` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0357 | [统计各位数字都不同的数字个数](https://leetcode.com/problems/count-numbers-with-unique-digits/) |  | `数学` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
 | 1012 | [至少有 1 位重复的数字](https://leetcode.com/problems/numbers-with-repeated-digits/) |  | `数学` `动态规划` | <font color=#ff334b>Hard</font> |
@@ -297,7 +297,7 @@
 #### 概率 DP
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0688 | [骑士在棋盘上的概率](https://leetcode.com/problems/knight-probability-in-chessboard/) |  | `动态规划` | <font color=#ffb800>Medium</font> |
 | 0808 | [分汤](https://leetcode.com/problems/soup-servings/) |  | `数学` `动态规划` `概率与统计` | <font color=#ffb800>Medium</font> |
 | 0837 | [新 21 点](https://leetcode.com/problems/new-21-game/) |  | `数学` `动态规划` `滑动窗口` `1+` | <font color=#ffb800>Medium</font> |

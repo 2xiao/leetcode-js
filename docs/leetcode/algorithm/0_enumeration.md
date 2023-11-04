@@ -9,7 +9,7 @@
 ## 相关题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | `数组` `哈希表` | <font color=#15bd66>Esay</font> |
 | 0204 | [计数质数](https://leetcode.com/problems/count-primes/) |  | `数组` `数学` `枚举` `1+` | <font color=#ffb800>Medium</font> |
 | 1925 | [统计平方和三元组的数目](https://leetcode.com/problems/count-square-sum-triples/) |  | `数学` `枚举` | <font color=#15bd66>Esay</font> |

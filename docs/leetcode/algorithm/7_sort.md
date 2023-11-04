@@ -340,33 +340,33 @@ function swap(arr, i, j) {
 * 冒泡排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  | `贪心` `字符串` `排序` | <font color=#ffb800>Medium</font> |
 | 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) | `数组` `双指针` | <font color=#15bd66>Esay</font> |
 
 * 选择排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
 
 * 插入排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> |
 
 * 希尔排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
 | 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  | `数组` `排序` `堆（优先队列）` | <font color=#15bd66>Esay</font> |
 
 * 归并排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
 | 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
@@ -375,14 +375,14 @@ function swap(arr, i, j) {
 * 快速排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | `数组` `哈希表` `分治` `2+` | <font color=#15bd66>Esay</font> |
 
 * 堆排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | `数组` `分治` `快速选择` `2+` | <font color=#15bd66>Esay</font> |
@@ -390,14 +390,14 @@ function swap(arr, i, j) {
 * 计数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
 | 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  | `数组` `哈希表` `计数排序` `1+` | <font color=#15bd66>Esay</font> |
 
 * 桶排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
 | 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | `数组` `桶排序` `基数排序` `1+` | <font color=#ff334b>Hard</font> |
@@ -405,14 +405,14 @@ function swap(arr, i, j) {
 * 基数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | `数组` `桶排序` `基数排序` `1+` | <font color=#ff334b>Hard</font> |
 | 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | `贪心` `数组` `计数排序` `1+` | <font color=#15bd66>Esay</font> |
 
 * 其他排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | `位运算` `数组` | <font color=#15bd66>Esay</font> |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | `数组` `排序` | <font color=#ffb800>Medium</font> |
@@ -423,7 +423,7 @@ function swap(arr, i, j) {
 #### 链表排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0148 | [排序链表](https://leetcode.com/problems/sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
 | 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表` | <font color=#15bd66>Esay</font> |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |

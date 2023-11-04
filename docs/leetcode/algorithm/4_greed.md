@@ -17,7 +17,7 @@
 ## 相关题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0455 | [分发饼干](https://leetcode.com/problems/assign-cookies/) |  | `贪心` `数组` `双指针` `1+` | <font color=#15bd66>Esay</font> |
 | 0860 | [柠檬水找零](https://leetcode.com/problems/lemonade-change/) |  | `贪心` `数组` | <font color=#15bd66>Esay</font> |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  | `数组` `排序` | <font color=#ffb800>Medium</font> |

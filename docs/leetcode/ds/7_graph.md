@@ -10,7 +10,7 @@
 #### 图的深度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0797 | [所有可能的路径](https://leetcode.com/problems/all-paths-from-source-to-target/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
 | 0695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
@@ -48,7 +48,7 @@
 #### 图的广度优先搜索
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0797 | [所有可能的路径](https://leetcode.com/problems/all-paths-from-source-to-target/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
 | 0286 | [墙与门](https://leetcode.com/problems/walls-and-gates/) |  | `广度优先搜索` `数组` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
@@ -71,7 +71,7 @@
 #### 图的拓扑排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
 | 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
 | 1136 | [并行课程](https://leetcode.com/problems/parallel-courses/) |  | `图` `拓扑排序` | <font color=#ffb800>Medium</font> |
@@ -82,7 +82,7 @@
 #### 图的最小生成树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1584 | [连接所有点的最小费用](https://leetcode.com/problems/min-cost-to-connect-all-points/) |  | `并查集` `图` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 1631 | [最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/) |  | `深度优先搜索` `广度优先搜索` `并查集` `4+` | <font color=#ffb800>Medium</font> |
 | 0778 | [水位上升的泳池中游泳](https://leetcode.com/problems/swim-in-rising-water/) |  | `深度优先搜索` `广度优先搜索` `并查集` `4+` | <font color=#ff334b>Hard</font> |
@@ -90,7 +90,7 @@
 #### 单源最短路径
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0407 | [接雨水 II](https://leetcode.com/problems/trapping-rain-water-ii/) |  | `广度优先搜索` `数组` `矩阵` `1+` | <font color=#ff334b>Hard</font> |
 | 0743 | [网络延迟时间](https://leetcode.com/problems/network-delay-time/) |  | `深度优先搜索` `广度优先搜索` `图` `2+` | <font color=#ffb800>Medium</font> |
 | 0787 | [K 站中转内最便宜的航班](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |  | `深度优先搜索` `广度优先搜索` `图` `3+` | <font color=#ffb800>Medium</font> |
@@ -100,33 +100,33 @@
 #### 多源最短路径
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0815 | [公交路线](https://leetcode.com/problems/bus-routes/) |  | `广度优先搜索` `数组` `哈希表` | <font color=#ff334b>Hard</font> |
 | 1162 | [地图分析](https://leetcode.com/problems/as-far-from-land-as-possible/) |  | `广度优先搜索` `数组` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
 
 #### 次短路径
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 2045 | [到达目的地的第二短时间](https://leetcode.com/problems/second-minimum-time-to-reach-destination/) |  | `广度优先搜索` `图` `最短路` | <font color=#ff334b>Hard</font> |
 
 #### 差分约束系统
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0995 | [K 连续位的最小翻转次数](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) |  | `位运算` `队列` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 1109 | [航班预订统计](https://leetcode.com/problems/corporate-flight-bookings/) |  | `数组` `前缀和` | <font color=#ffb800>Medium</font> |
 
 #### 二分图基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0785 | [判断二分图](https://leetcode.com/problems/is-graph-bipartite/) |  | `深度优先搜索` `广度优先搜索` `并查集` `1+` | <font color=#ffb800>Medium</font> |
 
 #### 二分图最大匹配
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | LCP 04 | [覆盖](https://leetcode.cn/problems/broken-board-dominoes/) |  | `位运算` `图` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 1947 | [最大兼容性评分和](https://leetcode.com/problems/maximum-compatibility-score-sum/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
 | 1595 | [连通两组点的最小成本](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |

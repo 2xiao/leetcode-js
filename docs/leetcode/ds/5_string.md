@@ -11,7 +11,7 @@
 #### 字符串基础题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) | `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | `哈希表` `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> |
@@ -26,7 +26,7 @@
 #### 单模式串匹配
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0028 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |  | `双指针` `字符串` `字符串匹配` | <font color=#ffb800>Medium</font> |
 | 0459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern/) |  | `字符串` `字符串匹配` | <font color=#15bd66>Esay</font> |
 | 0686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match/) |  | `字符串` `字符串匹配` | <font color=#ffb800>Medium</font> |
@@ -38,7 +38,7 @@
 #### 字典树
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0677 | [键值映射](https://leetcode.com/problems/map-sum-pairs/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0648 | [单词替换](https://leetcode.com/problems/replace-words/) |  | `字典树` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> |

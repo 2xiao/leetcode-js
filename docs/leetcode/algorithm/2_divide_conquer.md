@@ -9,7 +9,7 @@
 ## 相关题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | `数组` `二分查找` `分治` | <font color=#ff334b>Hard</font> |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
 | 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  | `数组` `分治` `动态规划` | <font color=#ffb800>Medium</font> |

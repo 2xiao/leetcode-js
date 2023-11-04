@@ -427,10 +427,41 @@ var reverseList = function (head) {
 
 #### ② 解题思路
 
+- 思路一：哈希表
+  - 最简单的思路是遍历所有节点，每次遍历节点之前，使用哈希表判断该节点是否被访问过；
+  - 如果访问过就说明存在环；
+  - 如果没访问过则将该节点添加到哈希表中，继续遍历判断；
+- 思路二：快慢指针
+  - 两个指针从同一位置同时出发，一快一慢，如果有环，那么快的一方总能追上慢的一方；
+  - 慢指针每次前进一步，快指针每次前进 n 步（n >= 2）；
+  - 如果两个指针在链表头节点以外的某一节点相遇了，那么说明链表有环；
+  - 否则，如果（快指针）到达了某个没有后继指针的节点时，那么说明没环；
+
 #### ③ 代码
 
-```jacascript
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val) {
+ *     this.val = val;
+ *     this.next = null;
+ * }
+ */
 
+/**
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+var hasCycle = function (head) {
+  let slow = head;
+  let fast = head;
+  while (fast && fast.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+    if (fast == slow) return true;
+  }
+  return false;
+};
 ```
 
 ---
@@ -649,15 +680,34 @@ var removeNthFromEnd = function (head, n) {
 
 #### ③ 代码
 
-```jacascript
-
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {ListNode}
+ */
+var middleNode = function (head) {
+  let slow = head;
+  let fast = head;
+  while (fast && fast.next) {
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+  return slow;
+};
 ```
 
 ---
 
 ### 6. LRU 缓存淘汰算法
 
-一个经典的链表应用场景，就是 LRU 缓存淘汰算法。
+另一个经典的链表应用场景，就是 LRU 缓存淘汰算法。
 
 缓存是一种提高数据读取性能的技术，在硬件设计、软件开发中都有着非常广泛的应用，比如常见的 CPU 缓存、数据库缓存、浏览器缓存等等。
 
@@ -727,7 +777,7 @@ lRUCache.get(4);    // 返回 4
 
 ```
 
-## 答题的技巧
+## 链表的技巧
 
 想要写好链表代码并不是容易的事儿，尤其是那些复杂的链表操作，比如链表反转、有序链表合并等，写的时候非常容易出错。面试中，能把“链表反转”这几行代码写对的人不足 10%。
 
@@ -781,7 +831,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 ## 相关题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) | `设计` `链表` | <font color=#ffb800>Medium</font> |
 | 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) | `链表` | <font color=#15bd66>Esay</font> |
 | 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0082) | `链表` `双指针` | <font color=#ffb800>Medium</font> |

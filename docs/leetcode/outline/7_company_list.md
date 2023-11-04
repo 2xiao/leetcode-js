@@ -5,7 +5,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 1048 | [最长字符串链](https://leetcode.com/problems/longest-string-chain/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#ffb800>Medium</font> | 29 |
 | 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  | `树` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> | 21 |
 | 0398 | [随机数索引](https://leetcode.com/problems/random-pick-index/) |  | `水塘抽样` `哈希表` `数学` `1+` | <font color=#ffb800>Medium</font> | 16 |
@@ -52,7 +52,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter/) |  | `设计` `哈希表` | <font color=#15bd66>Esay</font> | 20 |
 | 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> | 20 |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) | `哈希表` `链表` | <font color=#ffb800>Medium</font> | 19 |
@@ -109,7 +109,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> | 24 |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  | `树` `深度优先搜索` `二叉树` | <font color=#ffb800>Medium</font> | 19 |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  | `树` `深度优先搜索` `二叉树` | <font color=#ffb800>Medium</font> | 18 |
@@ -140,7 +140,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  | `树` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> | 23 |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> | 21 |
 | 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  | `数组` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> | 19 |
@@ -182,7 +182,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |  | `树` `广度优先搜索` `二叉树` | <font color=#ffb800>Medium</font> | 22 |
 | 1448 | [统计二叉树中好节点的数目](https://leetcode.com/problems/count-good-nodes-in-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `1+` | <font color=#ffb800>Medium</font> | 18 |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> | 16 |
@@ -209,7 +209,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> | 85 |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> | 82 |
 | 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表` | <font color=#15bd66>Esay</font> | 45 |
@@ -264,7 +264,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> | 61 |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> | 34 |
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | `数组` `二分查找` | <font color=#ffb800>Medium</font> | 32 |
@@ -298,7 +298,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> | 59 |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> | 40 |
 | 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  | `数学` `拒绝采样` `概率与统计` `1+` | <font color=#ffb800>Medium</font> | 32 |
@@ -336,7 +336,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | `哈希表` `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> | 410 |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> | 223 |
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) | `递归` `链表` | <font color=#ff334b>Hard</font> | 220 |
@@ -396,7 +396,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> | 76 |
 | 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> | 61 |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> | 56 |
@@ -443,7 +443,7 @@
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
-| :------ | :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ | :------: |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> | 40 |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> | 29 |
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表` | <font color=#ffb800>Medium</font> | 25 |

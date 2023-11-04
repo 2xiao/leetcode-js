@@ -11,7 +11,7 @@
 #### 固定长度窗口
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/) |  | `数组` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 0643 | [子数组最大平均数 I](https://leetcode.com/problems/maximum-average-subarray-i/) |  | `数组` `滑动窗口` | <font color=#15bd66>Esay</font> |
 | 1052 | [爱生气的书店老板](https://leetcode.com/problems/grumpy-bookstore-owner/) |  | `数组` `滑动窗口` | <font color=#ffb800>Medium</font> |
@@ -31,7 +31,7 @@
 #### 不定长度窗口
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | `数组` | <font color=#15bd66>Esay</font> |
 | 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | `数组` `动态规划` `滑动窗口` | <font color=#ffb800>Medium</font> |

@@ -9,7 +9,7 @@
 ## 相关题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
 | 0047 | [全排列 II](https://leetcode.com/problems/permutations-ii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
 | 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  | `数组` `哈希表` `回溯` `1+` | <font color=#ff334b>Hard</font> |

@@ -28,7 +28,7 @@
 * 对撞指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | `数组` `双指针` `二分查找` | <font color=#ffb800>Medium</font> |
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0345 | [反转字符串中的元音字母](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0345) | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
@@ -51,7 +51,7 @@
 * 快慢指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0026) | `数组` `双指针` | <font color=#15bd66>Esay</font> |
 | 0080 | [删除有序数组中的重复项 II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0080) | `数组` `双指针` | <font color=#ffb800>Medium</font> |
 | 0027 | [移除元素](https://leetcode.com/problems/remove-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0027) | `数组` `双指针` | <font color=#15bd66>Esay</font> |
@@ -66,7 +66,7 @@
 * 分离双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#15bd66>Esay</font> |
 | 0925 | [长按键入](https://leetcode.com/problems/long-pressed-name/) |  | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
@@ -76,7 +76,7 @@
 #### 链表双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0142) | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0160) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |

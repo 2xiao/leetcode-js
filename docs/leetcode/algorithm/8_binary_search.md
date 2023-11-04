@@ -209,7 +209,7 @@ function bsearch(arr, value) {
 #### 二分下标
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
 | 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  | `二分查找` `交互` | <font color=#15bd66>Esay</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
@@ -231,7 +231,7 @@ function bsearch(arr, value) {
 #### 二分答案
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | `数学` `二分查找` | <font color=#15bd66>Esay</font> |
 | 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | `位运算` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | `递归` `数学` | <font color=#ffb800>Medium</font> |
@@ -242,7 +242,7 @@ function bsearch(arr, value) {
 #### 复杂的二分查找问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
 | 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  | `贪心` `数组` `二分查找` `2+` | <font color=#ff334b>Hard</font> |
 | 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | `数组` `二分查找` `前缀和` `1+` | <font color=#ffb800>Medium</font> |

@@ -35,7 +35,7 @@ function f(n) {
 ## 相关题目
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0024 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0024) | `递归` `链表` | <font color=#ffb800>Medium</font> |
 | 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |

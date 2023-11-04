@@ -117,7 +117,7 @@
 #### 数组操作
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | `数组` `数学` `双指针` | <font color=#ffb800>Medium</font> |
 | 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) | `数组` `数学` | <font color=#15bd66>Esay</font> |
 | 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | `数组` `前缀和` | <font color=#15bd66>Esay</font> |
@@ -127,7 +127,7 @@
 #### 二维数组
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------ | :------ | :------ | :------ | :------ |
+| :------: | :------ | :------: | :------ | :------ |
 | 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> |
 | 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | `数组` `数学` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0073) | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
