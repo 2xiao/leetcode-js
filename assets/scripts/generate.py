@@ -275,7 +275,7 @@ def gen_tag_list(problem_path, tag_list_path, solution_path):
         slice_path = os.path.join(solution_path, idx + ".md")
 
         content = Path(tag_list_path).read_text(encoding='utf-8')
-        delim = "[`" + idx + "`](../solution/" + idx + ")"
+        delim = "[`" + idx + "`](../solution/" + idx + ".md)"
         if delim in content:
             before, after = content.split(delim)
 

@@ -14,47 +14,47 @@ title: "目录"
 
 ### 第一章 序言
 
-- [1.1 数据结构与算法](./outline/0_table)
-- [1.2 复杂度分析](./outline/1_complexity)
-- [1.3 LeetCode 题解](./outline/2_solution_list)
-- [1.4 LeetCode 题解（分类）](./outline/3_categories_list)
-- [1.5 LeetCode 题解（标签）](./outline/4_tag_list)
-- [1.6 面试经典200题](./outline/5_top_200_list)
-- [1.7 热题频次排行榜](./outline/6_frequency_list)
-- [1.8 热门企业题库](./outline/7_company_list)
+- [1.1 数据结构与算法](./outline/0_table.md)
+- [1.2 复杂度分析](./outline/1_complexity.md)
+- [1.3 LeetCode 题解](./outline/2_solution_list.md)
+- [1.4 LeetCode 题解（分类）](./outline/3_categories_list.md)
+- [1.5 LeetCode 题解（标签）](./outline/4_tag_list.md)
+- [1.6 面试经典200题](./outline/5_top_200_list.md)
+- [1.7 热题频次排行榜](./outline/6_frequency_list.md)
+- [1.8 热门企业题库](./outline/7_company_list.md)
 
 ### 第二章 数据结构专题
 
-- [2.1 数组](./ds/0_array)
-- [2.2 链表](./ds/1_linked_list)
-- [2.3 栈](./ds/2_stack)
-- [2.4 队列](./ds/3_queue)
-- [2.5 哈希表](./ds/4_hash_table)
-- [2.6 字符串](./ds/5_string)
-- [2.7 树](./ds/6_tree)
-- [2.8 图](./ds/7_graph)
+- [2.1 数组](./ds/0_array.md)
+- [2.2 链表](./ds/1_linked_list.md)
+- [2.3 栈](./ds/2_stack.md)
+- [2.4 队列](./ds/3_queue.md)
+- [2.5 哈希表](./ds/4_hash_table.md)
+- [2.6 字符串](./ds/5_string.md)
+- [2.7 树](./ds/6_tree.md)
+- [2.8 图](./ds/7_graph.md)
 
 ### 第三章 算法专题
 
-- [3.1 枚举算法](./algorithm/0_enumeration)
-- [3.2 递归算法](./algorithm/1_recursion)
-- [3.3 分治算法](./algorithm/2_divide_conquer)
-- [3.4 回溯算法](./algorithm/3_backtracking)
-- [3.5 贪心算法](./algorithm/4_greed)
-- [3.6 动态规划](./algorithm/5_dynamic_programming)
-- [3.7 位运算](./algorithm/6_bit)
-- [3.8 排序算法](./algorithm/7_sort)
-- [3.9 二分查找](./algorithm/8_binary_search)
-- [3.10 双指针](./algorithm/9_two_pointer)
-- [3.11 滑动窗口](./algorithm/10_slide_window)
+- [3.1 枚举算法](./algorithm/0_enumeration.md)
+- [3.2 递归算法](./algorithm/1_recursion.md)
+- [3.3 分治算法](./algorithm/2_divide_conquer.md)
+- [3.4 回溯算法](./algorithm/3_backtracking.md)
+- [3.5 贪心算法](./algorithm/4_greed.md)
+- [3.6 动态规划](./algorithm/5_dynamic_programming.md)
+- [3.7 位运算](./algorithm/6_bit.md)
+- [3.8 排序算法](./algorithm/7_sort.md)
+- [3.9 二分查找](./algorithm/8_binary_search.md)
+- [3.10 双指针](./algorithm/9_two_pointer.md)
+- [3.11 滑动窗口](./algorithm/10_slide_window.md)
 
 ### 第四章 LeetCode 题解
 
-- [LeetCode 题解](./solution/0001-0099)
-- [剑指 Offer](./solution/Offer)
-- [剑指 Offer II](./solution/Offer-II)
-- [面试题](./solution/Interviews)
-- [力扣杯](./solution/LCP)
+- [LeetCode 题解](./solution/0001-0099.md)
+- [剑指 Offer](./solution/Offer.md)
+- [剑指 Offer II](./solution/Offer-II.md)
+- [面试题](./solution/Interviews.md)
+- [力扣杯](./solution/LCP.md)
 
 ---
 
@@ -98,4 +98,4 @@ Github地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/l
 
 本书所有题目版权均归 [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode-cn.com/) 所有。
 
-[开始阅读 ->](./outline/0_table)
+[开始阅读 ->](./outline/0_table.md)
