@@ -125,6 +125,7 @@ h1, h2, h3, h4, h5, h6
       + p, + pre, + .custom-block
         margin-top 2rem
 
+  &:focus .header-anchor,
   &:hover .header-anchor
     opacity: 1
 
@@ -145,8 +146,10 @@ a.header-anchor
   margin-left -0.87em
   padding-right 0.23em
   margin-top 0.125em
+  user-select none
   opacity 0
 
+  &:focus,
   &:hover
     text-decoration none
 
@@ -188,7 +191,6 @@ th, td
 
     .sidebar
       top 0
-
 
 @media (min-width: ($MQMobile + 1px))
   .theme-container.no-sidebar

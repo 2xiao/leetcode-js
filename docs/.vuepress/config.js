@@ -3,6 +3,12 @@ module.exports = {
   description: "Know Your Game​​​",
   base: "/leetcode-js/",
   shouldPrefetch: () => false,
+  theme: "@vuepress/theme-default",
+  locales: {
+    "/": {
+      lang: "zh-CN",
+    },
+  },
   themeConfig: {
     repo: "2xiao/leetcode-js",
     repoLabel: "Github",
@@ -10,7 +16,9 @@ module.exports = {
     docsBranch: "master",
     editLinks: true,
     editLinkText: "帮2xiao改善此页面",
-    lastUpdated: "更新时间",
+    lastUpdated: "上次更新",
+    subSidebar: "auto",
+    smoothScroll: true,
     nav: [
       { text: "LeetCode", link: "/leetcode/" },
       { text: "React", link: "/react/" },
@@ -343,5 +351,42 @@ module.exports = {
         },
       ],
     },
+    plugins: [
+      ["@vuepress/back-to-top", true],
+      [
+        "@vuepress/pwa",
+        {
+          serviceWorker: true,
+          updatePopup: true,
+        },
+      ],
+      [
+        "@vuepress/medium-zoom",
+        {
+          selector: "img:not(.nozoom)",
+          // See: https://github.com/francoischalifour/medium-zoom#options
+          options: {
+            margin: 16,
+          },
+        },
+      ],
+      [
+        "vuepress-plugin-container",
+        {
+          type: "vue",
+          before: '<pre class="vue-container"><code>',
+          after: "</code></pre>",
+        },
+      ],
+      [
+        "vuepress-plugin-container",
+        {
+          type: "upgrade",
+          before: (info) => `<UpgradePath title="${info}">`,
+          after: "</UpgradePath>",
+        },
+      ],
+      ["vuepress-plugin-flowchart"],
+    ],
   },
 };

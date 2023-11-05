@@ -4,10 +4,18 @@
     "build": "vuepress build docs",
     "lc": "cd ./assets/scripts & py ./create_table.py"
   },
-  "dependencies": {
+"dependencies": {
     "element-ui": "^2.10.1"
   },
   "devDependencies": {
-    "vuepress": "^1.9.10"
+    "@vuepress/plugin-back-to-top": "^1.9.10",
+    "@vuepress/plugin-medium-zoom": "^1.9.10",
+    "@vuepress/theme-default": "^1.9.10",
+    "vuepress": "^1.9.10",
+    "vuepress-plugin-container": "^2.1.5",
+    "vuepress-plugin-flowchart": "^1.5.0",
+    "vuepress-plugin-seo": "^0.2.0",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-tags": "^1.0.2"
   }
 }

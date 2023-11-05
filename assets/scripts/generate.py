@@ -272,7 +272,7 @@ def gen_tag_list(problem_path, tag_list_path, solution_path):
 
     for idx, frame in frames.items():
         table = gen_markdown_table(frame, True)
-        slice_path = os.path.join(solution_path, idx + ".md")
+        slice_path = quote(os.path.join(solution_path, idx + ".md"))
 
         content = Path(tag_list_path).read_text(encoding='utf-8')
         delim = "[`" + idx + "`](../solution/" + idx + ".md)"

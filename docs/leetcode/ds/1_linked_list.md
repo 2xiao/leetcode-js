@@ -311,7 +311,7 @@ singleLinkedList {
 
 :::
 
-只要把下面这几个操作都写熟练，多写多练，之后就再也不会害怕写链表代码。
+只要把这几个操作都写熟练，多写多练，之后就再也不会害怕写链表代码。
 
 ### 1. 反转单链表
 
@@ -354,6 +354,8 @@ singleLinkedList {
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 /**
  * Definition for singly-linked list.
@@ -392,6 +394,8 @@ var reverseList = function (head) {
   return last;
 };
 ```
+
+:::
 
 ---
 
@@ -453,6 +457,8 @@ var reverseList = function (head) {
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 /**
  * Definition for singly-linked list.
@@ -477,6 +483,8 @@ var hasCycle = function (head) {
   return false;
 };
 ```
+
+:::
 
 ---
 
@@ -791,6 +799,8 @@ lRUCache.get(4);    // 返回 4
 
 ```
 
+---
+
 ### 7. 链表排序
 
 常见的排序算法有：冒泡排序、选择排序、插入排序、希尔排序、归并排序、快速排序、堆排序、计数排序、桶排序、基数排序等。
@@ -881,7 +891,7 @@ lRUCache.get(4);    // 返回 4
 - 链表中节点的数目在范围 `[0, 5 * 10^4]` 内
 - `-10^5 <= Node.val <= 10^5`
 
-#### 思路 1：链表归并排序（通过）
+#### 思路 1：归并排序（通过）
 
 1. **分割环节**：找到链表中心链节点，从中心节点将链表断开，并递归进行分割。
    1. 使用快慢指针 `fast = head.next`、`slow = head`，让 `fast` 每次移动 `2` 步，`slow` 移动 `1` 步，移动到链表末尾，从而找到链表中心链节点，即 `slow`。
@@ -941,7 +951,7 @@ class Solution:
         return self.mergeSort(head)
 ```
 
-#### 思路 2：链表计数排序（通过）
+#### 思路 2：计数排序（通过）
 
 1. 使用 `cur` 指针遍历一遍链表。找出链表中最大值 `list_max` 和最小值 `list_min`。
 2. 使用数组 `counts` 存储节点出现次数。
@@ -991,7 +1001,7 @@ class Solution:
         return self.countingSort(head)
 ```
 
-#### 思路 3：链表桶排序（通过）
+#### 思路 3：桶排序（通过）
 
 1. 使用 `cur` 指针遍历一遍链表。找出链表中最大值 `list_max` 和最小值 `list_min`。
 2. 通过 `(最大值 - 最小值) / 每个桶的大小` 计算出桶的个数，即 `bucket_count = (list_max - list_min) // bucket_size + 1` 个桶。
@@ -1099,7 +1109,7 @@ class Solution:
         return self.bucketSort(head)
 ```
 
-#### 思路 4：链表冒泡排序（超时）
+#### 思路 4：冒泡排序（超时）
 
 1. 使用三个指针 `node_i`、`node_j` 和 `tail`。其中 `node_i` 用于控制外循环次数，循环次数为链节点个数（链表长度）。`node_j` 和 `tail` 用于控制内循环次数和循环结束位置。
 
@@ -1139,7 +1149,7 @@ class Solution:
         return self.bubbleSort(head)
 ```
 
-#### 思路 5：链表选择排序（超时）
+#### 思路 5：选择排序（超时）
 
 1. 使用两个指针 `node_i`、`node_j`。`node_i` 既可以用于控制外循环次数，又可以作为当前未排序链表的第一个链节点位置。
 2. 使用 `min_node` 记录当前未排序链表中值最小的链节点。
@@ -1176,7 +1186,7 @@ class Solution:
         return self.sectionSort(head)
 ```
 
-#### 思路 6：链表插入排序（超时）
+#### 思路 6：插入排序（超时）
 
 1. 先使用哑节点 `dummy_head` 构造一个指向 `head` 的指针，使得可以从 `head` 开始遍历。
 2. 维护 `sorted_list` 为链表的已排序部分的最后一个节点，初始时，`sorted_list = head`。
@@ -1223,7 +1233,7 @@ class Solution:
         return self.insertionSort(head)
 ```
 
-#### 思路 7：链表快速排序（超时）
+#### 思路 7：快速排序（超时）
 
 1. 从链表中找到一个基准值 `pivot`，这里以头节点为基准值。
 2. 然后通过快慢指针 `node_i`、`node_j` 在链表中移动，使得 `node_i` 之前的节点值都小于基准值，`node_i` 之后的节点值都大于基准值。从而把数组拆分为左右两个部分。
@@ -1273,7 +1283,7 @@ class Solution:
         return self.quickSort(head, None)
 ```
 
-#### 思路 8：链表基数排序（解答错误，普通链表基数排序只适合非负数）
+#### 思路 8：基数排序（错误，普通链表基数排序只适合非负数）
 
 1. 使用 `cur` 指针遍历链表，获取节点值位数最长的位数 `size`。
 2. 从个位到高位遍历位数。因为 `0` ~ `9` 共有 `10` 位数字，所以建立 `10` 个桶。

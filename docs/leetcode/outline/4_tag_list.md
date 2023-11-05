@@ -87,7 +87,7 @@
     font-size: 0.85em;
     border-radius: 3px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
 }
 table th:first-of-type { width: 10%; }
 table th:nth-of-type(2) { width: 35%; }

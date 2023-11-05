@@ -13,38 +13,34 @@
     <div
       class="sidebar-mask"
       @click="toggleSidebar(false)"
-    ></div>
+    />
 
     <Sidebar
       :items="sidebarItems"
       @toggle-sidebar="toggleSidebar"
     >
-      <slot
-        name="sidebar-top"
-        slot="top"
-      />
-      <slot
-        name="sidebar-bottom"
-        slot="bottom"
-      />
+      <template #top>
+        <slot name="sidebar-top" />
+      </template>
+      <template #bottom>
+        <slot name="sidebar-bottom" />
+      </template>
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home"/>
+    <Home v-if="$page.frontmatter.home" />
 
     <Page
       v-else
       :sidebar-items="sidebarItems"
     >
-      <slot
-        name="page-top"
-        slot="top"
-      />
-      <slot
-        name="page-bottom"
-        slot="bottom"
-      />
+      <template #top>
+        <slot name="page-top" />
+      </template>
+      <template #bottom>
+        <slot name="page-bottom" />
+      </template>
     </Page>
-    <Kitty></Kitty>
+    <Kitty />
   </div>
 </template>
 
@@ -57,7 +53,15 @@ import Kitty from '@theme/components/Kitty.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Page, Sidebar, Navbar, Kitty },
+  name: 'Layout',
+
+  components: {
+    Home,
+    Page,
+    Sidebar,
+    Navbar,
+    Kitty
+  },
 
   data () {
     return {
@@ -123,6 +127,7 @@ export default {
   methods: {
     toggleSidebar (to) {
       this.isSidebarOpen = typeof to === 'boolean' ? to : !this.isSidebarOpen
+      this.$emit('toggle-sidebar', this.isSidebarOpen)
     },
 
     // side swipe
