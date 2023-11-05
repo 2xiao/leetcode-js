@@ -42,17 +42,42 @@
 
 ### 数组排序算法的复杂性
 
-| 名称         |   最优   |      平均      |     最坏     |  内存  | 稳定 | 备注                                           |
-| ------------ | :------: | :------------: | :----------: | :----: | :--: | ---------------------------------------------- |
-| **冒泡排序** |    n     |      n^2       |     n^2      |   1    | Yes  |                                                |
-| **插入排序** |    n     |      n^2       |     n^2      |   1    | Yes  |                                                |
-| **选择排序** |   n^2    |      n^2       |     n^2      |   1    |  No  |                                                |
-| **堆排序**   | n log(n) |    n log(n)    |   n log(n)   |   1    |  No  |                                                |
-| **归并排序** | n log(n) |    n log(n)    |   n log(n)   |   n    | Yes  |                                                |
-| **快速排序** | n log(n) |    n log(n)    |     n^2      | log(n) |  No  | 在 in-place 版本下，内存复杂度通常是 O(log(n)) |
-| **希尔排序** | n log(n) | 取决于差距序列 | n (log(n))^2 |   1    |  No  |                                                |
-| **计数排序** |  n + r   |     n + r      |    n + r     | n + r  | Yes  | r - 数组里最大的数                             |
-| **基数排序** |  n \* k  |     n \* k     |    n \* k    | n + k  | Yes  | k - 最长 key 的升序                            |
+<table style="width:100%">
+    <tr>
+        <th style="width:15%">排序算法</th><th style="width:15%">平均时间复杂度</th><th style="width:13%">最好情况</th><th style="width:15%">最坏情况</th><th style="width:12%">空间复杂度</th><th style="width:15%">排序方式</th><th style="width:15%">稳定性</th>
+    </tr>
+    <tr>
+        <td>冒泡排序</td><td>O(n^2)</td><td>O(n)</td><td>O(n^2)</td><td>O(1)</td><td>in-place</td><td>稳定</td>
+    </tr>
+    <tr>
+        <td>选择排序</td><td>O(n^2)</td><td>O(n^2)</td><td>O(n^2)</td><td>O(1)</td><td>in-place</td><td>不稳定</td>
+    </tr>
+    <tr>
+        <td>插入排序</td><td>O(n^2)</td><td>O(n)</td><td>O(n^2)</td><td>O(1)</td><td>in-place</td><td>稳定</td>
+    </tr>
+    <tr>
+        <td>希尔排序</td><td>O(nlogn)</td><td>O(nlog^2n)</td><td>O(nlog^2n)</td><td>O(1)</td><td>in-place</td><td>不稳定</td>
+    </tr>
+    <tr>
+        <td>归并排序</td><td>O(nlogn)</td><td>O(nlogn)</td><td>O(nlogn)</td><td>O(n)</td><td>out-place</td><td>稳定</td>
+    </tr>
+    <tr>
+        <td>快速排序</td><td>O(nlogn)</td><td>O(nlogn)</td><td>O(n^2)</td><td>O(logn)</td><td>in-place</td><td>不稳定</td>
+    </tr>
+    <tr>
+        <td>堆排序</td><td>O(nlogn)</td><td>O(nlogn)</td><td>O(nlogn)</td><td>O(1)</td><td>in-place</td><td>不稳定</td>
+    </tr>
+    <tr>
+        <td>桶排序</td><td>O(n+k)</td><td>O(n+k)</td><td>O(n^2)</td><td>O(n+k)</td><td>out-place</td><td>稳定</td>
+    </tr>
+    <tr>
+        <td>计数排序</td><td>O(n+k)</td><td>O(n+k)</td><td>O(n+k)</td><td>O(k)</td><td>out-place</td><td>稳定</td>
+    </tr>
+    <tr>
+        <td>基数排序</td><td>O(n*k)</td><td>O(n*k)</td><td>O(n*k)</td><td>O(n+k)</td><td>out-place</td><td>稳定</td>
+    </tr>
+    
+</table>
 
 ### 分析复杂度的一些规则
 

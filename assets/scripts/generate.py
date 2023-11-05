@@ -96,16 +96,16 @@ def gen_frame_items(row, df, problem_path, problem_salt: str = False):
 # 根据标题，读表，生成frame
 
 
-def gen_frame(problem_titles, problem_path):
+def gen_frame(problems, problem_path):
     df = pd.read_csv("leetcode-problems.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
     frame_cout = 0
-    for problem_title in problem_titles:
+    for item in problems:
         # 获取题目所在行
-        df_indexs = df[df['标题'] == problem_title].index.tolist()
+        df_indexs = df[df['文件名'] == item].index.tolist()
 
         if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (problem_title))
+            print('%s 没有出现在 leetcode-problems.csv 中' % (item))
             continue
         res = gen_frame_items(df_indexs[0], df, problem_path)
         frame.loc[frame_cout] = res
@@ -437,11 +437,11 @@ def gen_categories_list(problem_path, categories_origin_list_path, categories_li
                 category_h2_file_content += "* " + category_h4 + "\n\n"
                 category_file_content += "* " + category_h4 + "\n\n"
             elif title_size == "######":
-                problem_titles = title_content.split('、')
-                if not problem_titles:
+                problems = title_content.split('、')
+                if not problems:
                     continue
 
-                frame = gen_frame(problem_titles, problem_path)
+                frame = gen_frame(problems, problem_path)
                 table = gen_markdown_table(frame, False)
                 category_h2_file_content += table + "\n\n"
                 category_file_content += table + "\n\n"
@@ -483,7 +483,7 @@ def gen_template_list(problem_path, origin_list_path, list_path):
             elif title_size == "###":
                 file_content += "* " + title_content + "\n\n"
             elif title_size == "######":
-                problems = title_content.split('.')
+                problems = title_content.split('、')
                 if not problems:
                     continue
                 frame = gen_frame_with_salt(problems, problem_path)
