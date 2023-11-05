@@ -1,0 +1,223 @@
+# 1.5 LeetCode 题解（标签）
+
+**数据结构**
+
+[`数组`](../solution/array.md)
+[`矩阵`](../solution/matrix.md)
+[`链表`](../solution/linked-list.md)
+[`双向链表`](../solution/doubly-linked-list.md)
+[`栈`](../solution/stack.md)
+[`单调栈`](../solution/monotonic-stack.md)
+[`队列`](../solution/queue.md)
+[`单调队列`](../solution/monotonic-queue.md)
+[`堆（优先队列）`](../solution/heap-priority-queue.md)
+[`哈希表`](../solution/hash-table.md)
+[`字符串`](../solution/string.md)
+[`字符串匹配`](../solution/string-matching.md)
+[`树`](../solution/tree.md)
+[`二叉树`](../solution/binary-tree.md)
+[`二叉搜索树`](../solution/binary-search-tree.md)
+[`最小生成树`](../solution/minimum-spanning-tree.md)
+[`图`](../solution/graph.md)
+[`有序集合`](../solution/ordered-set.md)
+[`拓扑排序`](../solution/topological-sort.md)
+[`最短路`](../solution/shortest-path.md)
+[`强连通分量`](../solution/strongly-connected-components.md)
+[`欧拉回路`](../solution/eulerian-circuit.md)
+[`双连通分量`](../solution/biconnected-components.md)
+[`并查集`](../solution/disjoint-set-union.md)
+[`字典树`](../solution/trie.md)
+[`线段树`](../solution/segment-tree.md)
+[`树状数组`](../solution/fenwick-tree.md)
+[`后缀数组`](../solution/suffix-array.md)
+
+**算法**
+
+[`枚举`](../solution/enumeration.md)
+[`递归`](../solution/recursion.md)
+[`分治`](../solution/divide-and-conquer.md)
+<span class="blue">回溯</span>
+[`贪心`](../solution/greedy.md)
+[`动态规划`](../solution/dynamic-programming.md)
+[`排序`](../solution/sorting.md)
+[`桶排序`](../solution/bucket-sort.md)
+[`计数排序`](../solution/counting-sort.md)
+[`基数排序`](../solution/radix-sort.md)
+[`归并排序`](../solution/merge-sort.md)
+[`快速选择`](../solution/quick-select.md)
+[`二分查找`](../solution/binary-search.md)
+[`记忆化搜索`](../solution/memoization.md)
+[`深度优先搜索`](../solution/depth-first-search.md)
+[`广度优先搜索`](../solution/breadth-first-search.md)
+[`双指针`](../solution/two-pointers.md)
+[`位运算`](../solution/bit-manipulation.md)
+[`前缀和`](../solution/prefix-sum.md)
+[`计数`](../solution/counting.md)
+[`滑动窗口`](../solution/sliding-window.md)
+[`状态压缩`](../solution/state-compression.md)
+[`哈希函数`](../solution/hash-function.md)
+[`滚动哈希`](../solution/rolling-hash.md)
+[`扫描线`](../solution/sweep-line.md)
+
+**其他**
+
+[`数学`](../solution/mathematics.md)
+[`数论`](../solution/number-theory.md)
+[`几何`](../solution/geometry.md)
+[`博弈`](../solution/game-theory.md)
+[`模拟`](../solution/simulation.md)
+[`组合数学`](../solution/combinatorics.md)
+[`随机化`](../solution/randomized-algorithms.md)
+[`概率与统计`](../solution/probability-and-statistics.md)
+[`水塘抽样`](../solution/reservoir-sampling.md)
+[`拒绝采样`](../solution/rejection-sampling.md)
+[`数据库`](../solution/database.md)
+[`设计`](../solution/design.md)
+[`数据流`](../solution/data-streams.md)
+[`脑筋急转弯`](../solution/brain-teasers.md)
+[`交互`](../solution/interaction.md)
+[`迭代器`](../solution/iterators.md)
+[`多线程`](../solution/multithreading.md)
+
+<style>
+.blue {
+    background-color: #3eaf7c;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    font-size: 0.85em;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 35%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 35%; }
+table th:nth-of-type(5) { width: 10%; }
+</style>
+
+
+---
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 0017 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  | `哈希表` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0022 | [括号生成](https://leetcode.com/problems/generate-parentheses/) |  | `字符串` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  | `数组` `哈希表` `回溯` `1+` | <font color=#ff334b>Hard</font> |
+| 0039 | [组合总和](https://leetcode.com/problems/combination-sum/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0040 | [组合总和 II](https://leetcode.com/problems/combination-sum-ii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0046 | [全排列](https://leetcode.com/problems/permutations/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0047 | [全排列 II](https://leetcode.com/problems/permutations-ii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0051 | [N 皇后](https://leetcode.com/problems/n-queens/) |  | `数组` `回溯` | <font color=#ff334b>Hard</font> |
+| 0052 | [N 皇后 II](https://leetcode.com/problems/n-queens-ii/) |  | `回溯` | <font color=#ff334b>Hard</font> |
+| 0077 | [组合](https://leetcode.com/problems/combinations/) |  | `回溯` | <font color=#ffb800>Medium</font> |
+| 0078 | [子集](https://leetcode.com/problems/subsets/) |  | `位运算` `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0079 | [单词搜索](https://leetcode.com/problems/word-search/) |  | `数组` `回溯` `矩阵` | <font color=#ffb800>Medium</font> |
+| 0089 | [格雷编码](https://leetcode.com/problems/gray-code/) |  | `位运算` `数学` `回溯` | <font color=#ffb800>Medium</font> |
+| 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) |  | `位运算` `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0093 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0095 | [不同的二叉搜索树 II](https://leetcode.com/problems/unique-binary-search-trees-ii/) |  | `树` `二叉搜索树` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 0113 | [路径总和 II](https://leetcode.com/problems/path-sum-ii/) |  | `树` `深度优先搜索` `回溯` `1+` | <font color=#ffb800>Medium</font> |
+| 0126 | [单词接龙 II](https://leetcode.com/problems/word-ladder-ii/) |  | `广度优先搜索` `哈希表` `字符串` `1+` | <font color=#ff334b>Hard</font> |
+| 0131 | [分割回文串](https://leetcode.com/problems/palindrome-partitioning/) |  | `字符串` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 0140 | [单词拆分 II](https://leetcode.com/problems/word-break-ii/) |  | `字典树` `记忆化搜索` `数组` `4+` | <font color=#ff334b>Hard</font> |
+| 0212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii/) |  | `字典树` `数组` `字符串` `2+` | <font color=#ff334b>Hard</font> |
+| 0216 | [组合总和 III](https://leetcode.com/problems/combination-sum-iii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0254 | [因子的组合](https://leetcode.com/problems/factor-combinations/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 0257 | [二叉树的所有路径](https://leetcode.com/problems/binary-tree-paths/) |  | `树` `深度优先搜索` `字符串` `2+` | <font color=#15bd66>Esay</font> |
+| 0267 | [回文排列 II](https://leetcode.com/problems/palindrome-permutation-ii/) |  | `哈希表` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0282 | [给表达式添加运算符](https://leetcode.com/problems/expression-add-operators/) |  | `数学` `字符串` `回溯` | <font color=#ff334b>Hard</font> |
+| 0291 | [单词规律 II](https://leetcode.com/problems/word-pattern-ii/) |  | `哈希表` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0294 | [翻转游戏 II](https://leetcode.com/problems/flip-game-ii/) |  | `记忆化搜索` `数学` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 0301 | [删除无效的括号](https://leetcode.com/problems/remove-invalid-parentheses/) |  | `广度优先搜索` `字符串` `回溯` | <font color=#ff334b>Hard</font> |
+| 0306 | [累加数](https://leetcode.com/problems/additive-number/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0320 | [列举单词的全部缩写](https://leetcode.com/problems/generalized-abbreviation/) |  | `位运算` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0351 | [安卓系统手势解锁](https://leetcode.com/problems/android-unlock-patterns/) |  | `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 0357 | [统计各位数字都不同的数字个数](https://leetcode.com/problems/count-numbers-with-unique-digits/) |  | `数学` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 0401 | [二进制手表](https://leetcode.com/problems/binary-watch/) |  | `位运算` `回溯` | <font color=#15bd66>Esay</font> |
+| 0411 | [最短独占单词缩写](https://leetcode.com/problems/minimum-unique-word-abbreviation/) |  | `位运算` `字符串` `回溯` | <font color=#ff334b>Hard</font> |
+| 0425 | [单词方块](https://leetcode.com/problems/word-squares/) |  | `字典树` `数组` `字符串` `1+` | <font color=#ff334b>Hard</font> |
+| 0465 | [最优账单平衡](https://leetcode.com/problems/optimal-account-balancing/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
+| 0473 | [火柴拼正方形](https://leetcode.com/problems/matchsticks-to-square/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 0489 | [扫地机器人](https://leetcode.com/problems/robot-room-cleaner/) |  | `回溯` `交互` | <font color=#ff334b>Hard</font> |
+| 0491 | [递增子序列](https://leetcode.com/problems/non-decreasing-subsequences/) |  | `位运算` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
+| 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 0526 | [优美的排列](https://leetcode.com/problems/beautiful-arrangement/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 0638 | [大礼包](https://leetcode.com/problems/shopping-offers/) |  | `位运算` `记忆化搜索` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | `数组` `数学` `回溯` | <font color=#ff334b>Hard</font> |
+| 0691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word/) |  | `位运算` `数组` `字符串` `3+` | <font color=#ff334b>Hard</font> |
+| 0698 | [划分为k个相等的子集](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) |  | `位运算` `记忆化搜索` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 0784 | [字母大小写全排列](https://leetcode.com/problems/letter-case-permutation/) |  | `位运算` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0797 | [所有可能的路径](https://leetcode.com/problems/all-paths-from-source-to-target/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
+| 0816 | [模糊坐标](https://leetcode.com/problems/ambiguous-coordinates/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0842 | [将数组拆分成斐波那契序列](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 0967 | [连续差相同的数字](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) |  | `广度优先搜索` `回溯` | <font color=#ffb800>Medium</font> |
+| 0980 | [不同路径 III](https://leetcode.com/problems/unique-paths-iii/) |  | `位运算` `数组` `回溯` `1+` | <font color=#ff334b>Hard</font> |
+| 0996 | [正方形数组的数目](https://leetcode.com/problems/number-of-squareful-arrays/) |  | `位运算` `数组` `数学` `3+` | <font color=#ff334b>Hard</font> |
+| 1066 | [校园自行车分配 II](https://leetcode.com/problems/campus-bikes-ii/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 1079 | [活字印刷](https://leetcode.com/problems/letter-tile-possibilities/) |  | `哈希表` `字符串` `回溯` `1+` | <font color=#ffb800>Medium</font> |
+| 1087 | [花括号展开](https://leetcode.com/problems/brace-expansion/) |  | `广度优先搜索` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 1088 | [易混淆数 II](https://leetcode.com/problems/confusing-number-ii/) |  | `数学` `回溯` | <font color=#ff334b>Hard</font> |
+| 1096 | [花括号展开 II](https://leetcode.com/problems/brace-expansion-ii/) |  | `栈` `广度优先搜索` `字符串` `1+` | <font color=#ff334b>Hard</font> |
+| 1215 | [步进数](https://leetcode.com/problems/stepping-numbers/) |  | `广度优先搜索` `回溯` | <font color=#ffb800>Medium</font> |
+| 1219 | [黄金矿工](https://leetcode.com/problems/path-with-maximum-gold/) |  | `数组` `回溯` `矩阵` | <font color=#ffb800>Medium</font> |
+| 1238 | [循环码排列](https://leetcode.com/problems/circular-permutation-in-binary-representation/) |  | `位运算` `数学` `回溯` | <font color=#ffb800>Medium</font> |
+| 1239 | [串联字符串的最大长度](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) |  | `位运算` `数组` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 1240 | [铺瓷砖](https://leetcode.com/problems/tiling-a-rectangle-with-the-fewest-squares/) |  | `回溯` | <font color=#ff334b>Hard</font> |
+| 1255 | [得分最高的单词集合](https://leetcode.com/problems/maximum-score-words-formed-by-letters/) |  | `位运算` `数组` `字符串` `3+` | <font color=#ff334b>Hard</font> |
+| 1258 | [近义词句子](https://leetcode.com/problems/synonymous-sentences/) |  | `并查集` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
+| 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination/) |  | `设计` `字符串` `回溯` `1+` | <font color=#ffb800>Medium</font> |
+| 1307 | [口算难题](https://leetcode.com/problems/verbal-arithmetic-puzzle/) |  | `数组` `数学` `字符串` `1+` | <font color=#ff334b>Hard</font> |
+| 1415 | [长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) |  | `数组` `数学` `动态规划` `3+` | <font color=#ff334b>Hard</font> |
+| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings/) |  | `哈希表` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 1601 | [最多可达成的换楼请求数目](https://leetcode.com/problems/maximum-number-of-achievable-transfer-requests/) |  | `位运算` `数组` `回溯` `1+` | <font color=#ff334b>Hard</font> |
+| 1655 | [分配重复整数](https://leetcode.com/problems/distribute-repeating-integers/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
+| 1718 | [构建字典序最大的可行序列](https://leetcode.com/problems/construct-the-lexicographically-largest-valid-sequence/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 1723 | [完成所有工作的最短时间](https://leetcode.com/problems/find-minimum-time-to-finish-all-jobs/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
+| 1774 | [最接近目标价格的甜点成本](https://leetcode.com/problems/closest-dessert-cost/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 1799 | [N 次操作后的最大分数和](https://leetcode.com/problems/maximize-score-after-n-operations/) |  | `位运算` `数组` `数学` `4+` | <font color=#ff334b>Hard</font> |
+| 1820 | [最多邀请的个数](https://leetcode.com/problems/maximum-number-of-accepted-invitations/) |  | `数组` `回溯` `矩阵` | <font color=#ffb800>Medium</font> |
+| 1849 | [将字符串拆分为递减的连续值](https://leetcode.com/problems/splitting-a-string-into-descending-consecutive-values/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 1863 | [找出所有子集的异或总和再求和](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |  | `位运算` `数组` `数学` `2+` | <font color=#15bd66>Esay</font> |
+| 1947 | [最大兼容性评分和](https://leetcode.com/problems/maximum-compatibility-score-sum/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 1980 | [找出不同的二进制字符串](https://leetcode.com/problems/find-unique-binary-string/) |  | `数组` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 1986 | [完成任务的最少工作时间段](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 2002 | [两个回文子序列长度的最大乘积](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/) |  | `位运算` `字符串` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 2014 | [重复 K 次的最长子序列](https://leetcode.com/problems/longest-subsequence-repeated-k-times/) |  | `贪心` `字符串` `回溯` `2+` | <font color=#ff334b>Hard</font> |
+| 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets/) |  | `位运算` `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 2048 | [下一个更大的数值平衡数](https://leetcode.com/problems/next-greater-numerically-balanced-number/) |  | `数学` `回溯` `枚举` | <font color=#ffb800>Medium</font> |
+| 2056 | [棋盘上有效移动组合的数目](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard/) |  | `数组` `字符串` `回溯` `1+` | <font color=#ff334b>Hard</font> |
+| 2065 | [最大化一张图中的路径价值](https://leetcode.com/problems/maximum-path-quality-of-a-graph/) |  | `图` `数组` `回溯` | <font color=#ff334b>Hard</font> |
+| 2151 | [基于陈述统计最多好人数](https://leetcode.com/problems/maximum-good-people-based-on-statements/) |  | `位运算` `数组` `回溯` `1+` | <font color=#ff334b>Hard</font> |
+| 2152 | [穿过所有点的所需最少直线数量](https://leetcode.com/problems/minimum-number-of-lines-to-cover-points/) |  | `位运算` `几何` `数组` `5+` | <font color=#ffb800>Medium</font> |
+| 2178 | [拆分成最多数目的正偶数之和](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) |  | `贪心` `数学` `回溯` | <font color=#ffb800>Medium</font> |
+| 2305 | [公平分发饼干](https://leetcode.com/problems/fair-distribution-of-cookies/) |  | `位运算` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
+| 2375 | [根据模式串构造最小数字](https://leetcode.com/problems/construct-smallest-number-from-di-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 2397 | [被列覆盖的最多行数](https://leetcode.com/problems/maximum-rows-covered-by-columns/) |  | `位运算` `数组` `回溯` `2+` | <font color=#ffb800>Medium</font> |
+| 2597 | [美丽子集的数目](https://leetcode.com/problems/the-number-of-beautiful-subsets/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| LCP 51 | [烹饪料理](https://leetcode.cn/problems/UEcfPD/) |  | `位运算` `数组` `回溯` `1+` | <font color=#15bd66>Esay</font> |
+| LCP 58 | [积木拼接](https://leetcode.cn/problems/De4qBB/) |  | `数组` `回溯` `矩阵` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 12 | [矩阵中的路径](https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof/) |  | `数组` `回溯` `矩阵` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 34 | [二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/) |  | `树` `深度优先搜索` `回溯` `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 38 | [字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 079 | [所有子集](https://leetcode.cn/problems/TVdhkn/) |  | `位运算` `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 080 | [含有 k 个元素的组合](https://leetcode.cn/problems/uUsW3B/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 081 | [允许重复选择元素的组合](https://leetcode.cn/problems/Ygoe9J/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 082 | [含有重复元素集合的组合](https://leetcode.cn/problems/4sjJUc/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 083 | [没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 084 | [含有重复元素集合的全排列](https://leetcode.cn/problems/7p8L0Z/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 085 | [生成匹配的括号](https://leetcode.cn/problems/IDBivT/) |  | `字符串` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 087 | [复原 IP](https://leetcode.cn/problems/0on3uN/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 102 | [加减的目标值](https://leetcode.cn/problems/YaVDxD/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 110 | [所有路径](https://leetcode.cn/problems/bP4bmD/) |  | `深度优先搜索` `广度优先搜索` `图` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 04.09 | [二叉搜索树序列](https://leetcode.cn/problems/bst-sequences-lcci/) |  | `树` `二叉搜索树` `回溯` `1+` | <font color=#ff334b>Hard</font> |
+| 面试题 08.02 | [迷路的机器人](https://leetcode.cn/problems/robot-in-a-grid-lcci/) |  | `数组` `动态规划` `回溯` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 08.04 | [幂集](https://leetcode.cn/problems/power-set-lcci/) |  | `位运算` `数组` `回溯` | <font color=#ffb800>Medium</font> |
+| 面试题 08.07 | [无重复字符串的排列组合](https://leetcode.cn/problems/permutation-i-lcci/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 面试题 08.08 | [有重复字符串的排列组合](https://leetcode.cn/problems/permutation-ii-lcci/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
+| 面试题 08.09 | [括号](https://leetcode.cn/problems/bracket-lcci/) |  | `字符串` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
+| 面试题 08.12 | [八皇后](https://leetcode.cn/problems/eight-queens-lcci/) |  | `数组` `回溯` | <font color=#ff334b>Hard</font> |
+| 面试题 16.18 | [模式匹配](https://leetcode.cn/problems/pattern-matching-lcci/) |  | `数学` `字符串` `回溯` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 17.22 | [单词转换](https://leetcode.cn/problems/word-transformer-lcci/) |  | `广度优先搜索` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 17.25 | [单词矩阵](https://leetcode.cn/problems/word-rectangle-lcci/) |  | `字典树` `数组` `字符串` `1+` | <font color=#ff334b>Hard</font> |
