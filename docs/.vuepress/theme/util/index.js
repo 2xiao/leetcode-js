@@ -246,16 +246,22 @@ function resolveItem(item, pages, base, groupDepth = 1) {
 }
 
 export function isMobile() {
-  if (
-    navigator.userAgent.match(/Android/i) ||
-    navigator.userAgent.match(/webOS/i) ||
-    navigator.userAgent.match(/iPhone/i) ||
-    navigator.userAgent.match(/iPad/i) ||
-    navigator.userAgent.match(/iPod/i) ||
-    navigator.userAgent.match(/BlackBerry/i) ||
-    navigator.userAgent.match(/Windows Phone/i)
-  ) {
-    return true;
+  try {
+    const agent = window.navigator.userAgent;
+    if (
+      agent.match(/Android/i) ||
+      agent.match(/webOS/i) ||
+      agent.match(/iPhone/i) ||
+      agent.match(/iPad/i) ||
+      agent.match(/iPod/i) ||
+      agent.match(/BlackBerry/i) ||
+      agent.match(/Windows Phone/i)
+    ) {
+      return true;
+    }
+    return false;
+  } catch (err) {
+    console.log("Oops, `window` is not defined");
+    return false;
   }
-  return false;
 }
