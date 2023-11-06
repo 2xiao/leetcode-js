@@ -35,6 +35,7 @@
       v-if="shouldShowPageSidebar"
       :page-sidebar-items="pageSidebarItems"
       :sidebar-items="sidebarItems"
+      @toggle-page-sidebar="togglePageSidebar"
     />
     <Kitty />
   </div>
@@ -64,6 +65,7 @@ export default {
   data() {
     return {
       isSidebarOpen: !isMobile(),
+      isPageSidebarOpen: true,
     };
   },
 
@@ -123,6 +125,8 @@ export default {
           "sidebar-open": this.isSidebarOpen,
           "sidebar-close": !this.isSidebarOpen,
           "no-sidebar": !this.shouldShowSidebar,
+          "pagesidebar-open": this.isPageSidebarOpen,
+          "pagesidebar-close": !this.isPageSidebarOpen,
           "no-pagesidebar": !this.shouldShowPageSidebar,
         },
         userPageClass,
@@ -133,6 +137,7 @@ export default {
   mounted() {
     this.$router.afterEach(() => {
       this.isSidebarOpen = isMobile() ? false : this.isSidebarOpen;
+      this.isPageSidebarOpen = true;
     });
   },
 
@@ -140,6 +145,11 @@ export default {
     toggleSidebar(to) {
       this.isSidebarOpen = typeof to === "boolean" ? to : !this.isSidebarOpen;
       this.$emit("toggle-sidebar", this.isSidebarOpen);
+    },
+
+    togglePageSidebar(to) {
+      this.isPageSidebarOpen = typeof to === "boolean" ? to : !this.isPageSidebarOpen;
+      this.$emit("toggle-page-sidebar", this.isPageSidebarOpen);
     },
 
     // side swipe

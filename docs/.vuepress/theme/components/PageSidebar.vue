@@ -3,8 +3,11 @@
     <div class="toc-container-sidebar" ref="tocc">
       <div class="pos-box">
         <div class="scroll-box">
-          <div style="font-weight: bold; text-align: left">
+          <div class="title-box">
             {{ pageSidebarItems[0].title }}
+            <div class="close-btn" @click="$emit('toggle-page-sidebar',false)">
+              <i class="el-icon-close"></i>
+            </div>
           </div>
           <hr />
           <div class="toc-box">
@@ -52,6 +55,13 @@ export default {
   overflow-x hidden
   box-sizing border-box
   background-color #f3f5f7
+.title-box
+  display: flex
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  .close-btn
+    cursor: pointer;
 
 .toc-container-sidebar
   display: block;
@@ -70,7 +80,8 @@ export default {
         height: calc(100vh - 100px);
         overflow-y: auto;
         overflow-x: hidden;
-        width: 235px;
+        width: 232px;
+        padding-bottom: 60px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
       & > ul

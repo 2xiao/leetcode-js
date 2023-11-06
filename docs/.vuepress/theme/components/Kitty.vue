@@ -1,6 +1,7 @@
 <template>
   <div id="kitty-container" v-if="isShow">
     <el-popover
+      name="kitty-pop"
       @mousedown.native="move"
       @touchstart.native="touch"
       trigger="hover"
@@ -200,8 +201,8 @@ export default {
 
 #kitty
   position fixed !important
-  right 60px
-  top -60px
+  right -180px
+  bottom -120px
   height 300px
   width 508px
   z-index 10
