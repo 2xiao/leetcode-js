@@ -45,7 +45,6 @@ export default {
   background-color #fff
   width 250px
   position fixed
-  z-index 2
   margin 0
   top $navbarHeight
   right 0

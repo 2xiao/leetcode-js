@@ -13,7 +13,3 @@ features:
     actionText: 开始阅读 →
 footer: MIT Licensed | Copyright © 2021-present 2xiao
 ---
-
-<div style="text-align: center;">
-
-</div>

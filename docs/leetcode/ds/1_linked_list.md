@@ -535,6 +535,8 @@ var hasCycle = function (head) {
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 /**
  * Definition for singly-linked list.
@@ -567,6 +569,7 @@ var mergeTwoLists = function (list1, list2) {
   return newHead.next;
 };
 ```
+:::
 
 ---
 
@@ -621,6 +624,8 @@ var mergeTwoLists = function (list1, list2) {
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 /**
  * Definition for singly-linked list.
@@ -650,6 +655,8 @@ var removeNthFromEnd = function (head, n) {
   return res.next;
 };
 ```
+
+:::
 
 ---
 
@@ -703,6 +710,8 @@ var removeNthFromEnd = function (head, n) {
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 /**
  * Definition for singly-linked list.
@@ -725,6 +734,8 @@ var middleNode = function (head) {
   return slow;
 };
 ```
+
+:::
 
 ---
 
@@ -796,9 +807,13 @@ lRUCache.get(4);    // 返回 4
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 
 ```
+
+:::
 
 ---
 
@@ -811,6 +826,7 @@ lRUCache.get(4);    // 返回 4
 - 适合链表的排序算法：**冒泡排序**、**选择排序**、**插入排序**、**归并排序**、**快速排序**、**桶排序**、**计数排序**、**基数排序**；
 - 不适合链表的排序算法：**希尔排序**；
 - 可以用于链表排序但不建议使用的排序算法：**堆排序**；
+- 重点掌握：**插入排序**、**归并排序**；
 
 **链表排序算法的复杂性分析**：
 
@@ -845,17 +861,21 @@ lRUCache.get(4);    // 返回 4
     
 </table>
 
-> 希尔排序为什么不适合链表排序？
+::: details 希尔排序为什么不适合链表排序？
 
 **希尔排序**：希尔排序中经常涉及到对序列中第 `i + gap` 的元素进行操作，其中 `gap` 是希尔排序中当前的步长。而链表不支持随机访问的特性，导致这种操作不适合链表，因而希尔排序算法不适合进行链表排序。
 
-> 为什么不建议使用堆排序？
+:::
+
+::: details 为什么不建议使用堆排序
 
 **堆排序**：堆排序所使用的最大堆 / 最小堆结构本质上是一棵完全二叉树。而完全二叉树适合采用顺序存储结构（数组）。因为数组存储的完全二叉树可以很方便的通过下标序号来确定父亲节点和孩子节点，并且可以极大限度的节省存储空间。
 
 而链表用在存储完全二叉树的时候，因为不支持随机访问的特性，导致其寻找子节点和父亲节点会比较耗时，如果增加指向父亲节点的变量，又会浪费大量存储空间。所以堆排序算法不适合进行链表排序。
 
 如果一定要对链表进行堆排序，则可以使用额外的数组空间表示堆结构。然后将链表中各个节点的值依次添加入堆结构中，对数组进行堆排序。排序后，再按照堆中元素顺序，依次建立链表节点，构建新的链表并返回新链表头节点。
+
+:::
 
 ::: tip
 
@@ -908,6 +928,8 @@ lRUCache.get(4);    // 返回 4
 - **时间复杂度**：`O(nlogn)`
 - **空间复杂度**：`O(1)`
 
+::: details 点击查看代码
+
 ```python
 class Solution:
     def merge(self, left, right):
@@ -952,6 +974,8 @@ class Solution:
         return self.mergeSort(head)
 ```
 
+:::
+
 #### 思路 2：计数排序（通过）
 
 1. 使用 `cur` 指针遍历一遍链表。找出链表中最大值 `list_max` 和最小值 `list_min`。
@@ -964,6 +988,8 @@ class Solution:
 
 - **时间复杂度**：`O(n + k)`，其中 `k` 代表待排序链表中所有元素的值域
 - **空间复杂度**：`O(k)`
+
+::: details 点击查看代码
 
 ```python
 class Solution:
@@ -1002,6 +1028,8 @@ class Solution:
         return self.countingSort(head)
 ```
 
+:::
+
 #### 思路 3：桶排序（通过）
 
 1. 使用 `cur` 指针遍历一遍链表。找出链表中最大值 `list_max` 和最小值 `list_min`。
@@ -1013,6 +1041,8 @@ class Solution:
 
 - **时间复杂度**：`O(n)`
 - **空间复杂度**：`O(n + m)`。`m` 为桶的个数
+
+::: details 点击查看代码
 
 ```python
 class ListNode:
@@ -1110,6 +1140,8 @@ class Solution:
         return self.bucketSort(head)
 ```
 
+:::
+
 #### 思路 4：冒泡排序（超时）
 
 1. 使用三个指针 `node_i`、`node_j` 和 `tail`。其中 `node_i` 用于控制外循环次数，循环次数为链节点个数（链表长度）。`node_j` 和 `tail` 用于控制内循环次数和循环结束位置。
@@ -1126,6 +1158,8 @@ class Solution:
 
 - **时间复杂度**：`O(n^2)`。
 - **空间复杂度**：`O(1)`。
+
+::: details 点击查看代码
 
 ```python
 class Solution:
@@ -1150,6 +1184,8 @@ class Solution:
         return self.bubbleSort(head)
 ```
 
+:::
+
 #### 思路 5：选择排序（超时）
 
 1. 使用两个指针 `node_i`、`node_j`。`node_i` 既可以用于控制外循环次数，又可以作为当前未排序链表的第一个链节点位置。
@@ -1162,6 +1198,8 @@ class Solution:
 
 - **时间复杂度**：`O(n^2)`
 - **空间复杂度**：`O(1)`
+
+::: details 点击查看代码
 
 ```python
 class Solution:
@@ -1187,6 +1225,8 @@ class Solution:
         return self.sectionSort(head)
 ```
 
+:::
+
 #### 思路 6：插入排序（超时）
 
 1. 先使用哑节点 `dummy_head` 构造一个指向 `head` 的指针，使得可以从 `head` 开始遍历。
@@ -1202,6 +1242,8 @@ class Solution:
 
 - **时间复杂度**：`O(n^2)`
 - **空间复杂度**：`O(1)`
+
+::: details 点击查看代码
 
 ```python
 class Solution:
@@ -1234,6 +1276,8 @@ class Solution:
         return self.insertionSort(head)
 ```
 
+:::
+
 #### 思路 7：快速排序（超时）
 
 1. 从链表中找到一个基准值 `pivot`，这里以头节点为基准值。
@@ -1246,6 +1290,8 @@ class Solution:
 
 - **时间复杂度**：`O(nlogn)`
 - **空间复杂度**：`O(1)`
+
+::: details 点击查看代码
 
 ```python
 class Solution:
@@ -1284,6 +1330,8 @@ class Solution:
         return self.quickSort(head, None)
 ```
 
+:::
+
 #### 思路 8：基数排序（错误，普通链表基数排序只适合非负数）
 
 1. 使用 `cur` 指针遍历链表，获取节点值位数最长的位数 `size`。
@@ -1296,6 +1344,8 @@ class Solution:
 
 - **时间复杂度**：`O(n * k)`。其中 `n` 是待排序元素的个数，`k` 是数字位数。`k` 的大小取决于数字位的选择（十进制位、二进制位）和待排序元素所属数据类型全集的大小。
 - **空间复杂度**：`O(n + k)`
+
+::: details 点击查看代码
 
 ```python
 class Solution:
@@ -1332,6 +1382,8 @@ class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         return self.radixSort(head)
 ```
+
+:::
 
 ## 链表的技巧
 

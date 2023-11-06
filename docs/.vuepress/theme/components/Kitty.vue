@@ -201,15 +201,15 @@ export default {
 
 #kitty
   position fixed !important
-  right -180px
-  bottom -120px
+  right 20px
+  bottom -60px
   height 300px
   width 508px
   z-index 10
-  -webkit-transform scale(0.2)
-  -moz-transform scale(0.2)
-  -ms-transform scale(0.2)
-  transform scale(0.2)
+  -webkit-transform scale(0.3)
+  -moz-transform scale(0.3)
+  -ms-transform scale(0.3)
+  transform scale(0.3)
   -webkit-animation sprite-animation 1.2s steps(16, end) infinite
   -moz-animation sprite-animation 1.2s steps(16, end) infinite
   -ms-animation sprite-animation 1.2s steps(16, end) infinite

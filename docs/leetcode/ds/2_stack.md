@@ -3,7 +3,9 @@
 ## 栈的定义
 
 ::: tip
+
 **栈（Stack）** 是一种“操作受限”的线性表，只允许在一端插入和删除数据。后进者先出，先进者后出，这就是典型的“栈”结构。
+
 :::
 
 ![](../../../assets/images/3e20cca032c25168d3cc605fa7a53a0b.png)
@@ -72,7 +74,7 @@ class ArrayStack {
 }
 ```
 
-示例：
+::: details 点击查看示例：
 
 ```javascript
 const stack = new ArrayStack()
@@ -97,6 +99,8 @@ stack.print()
 ---栈顶---
 栈的长度： 2
 ```
+
+:::
 
 #### 空间复杂度：
 
@@ -150,9 +154,13 @@ stack.print()
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 
 ```
+
+:::
 
 ---
 
@@ -197,6 +205,8 @@ stack.print()
 
 #### ③ 代码
 
+::: details 点击查看代码
+
 ```javascript
 /**
  * @param {string} s
@@ -224,6 +234,8 @@ var isValid = function (s) {
   return stack.length === 0;
 };
 ```
+
+:::
 
 ---
 

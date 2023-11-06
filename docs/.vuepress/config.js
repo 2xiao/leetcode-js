@@ -31,44 +31,87 @@ module.exports = {
       // "/fe/": genFE(),
       "/run/": genRun(),
     },
-    plugins: [
-      ["@vuepress/back-to-top", true],
-      [
-        "@vuepress/pwa",
-        {
-          serviceWorker: true,
-          updatePopup: true,
-        },
-      ],
-      [
-        "@vuepress/medium-zoom",
-        {
-          selector: "img:not(.nozoom)",
-          // See: https://github.com/francoischalifour/medium-zoom#options
-          options: {
-            margin: 16,
-          },
-        },
-      ],
-      [
-        "vuepress-plugin-container",
-        {
-          type: "vue",
-          before: '<pre class="vue-container"><code>',
-          after: "</code></pre>",
-        },
-      ],
-      [
-        "vuepress-plugin-container",
-        {
-          type: "upgrade",
-          before: (info) => `<UpgradePath title="${info}">`,
-          after: "</UpgradePath>",
-        },
-      ],
-      ["vuepress-plugin-flowchart"],
-    ],
   },
+  plugins: [
+    ["@vuepress/back-to-top", true],
+    [
+      "@vuepress/pwa",
+      {
+        serviceWorker: true,
+        updatePopup: true,
+      },
+    ],
+    [
+      "@vuepress/medium-zoom",
+      {
+        selector: "img:not(.nozoom)",
+        // See: https://github.com/francoischalifour/medium-zoom#options
+        options: {
+          margin: 16,
+        },
+      },
+    ],
+    [
+      "vuepress-plugin-container",
+      {
+        type: "vue",
+        before: '<pre class="vue-container"><code>',
+        after: "</code></pre>",
+      },
+    ],
+    [
+      "vuepress-plugin-container",
+      {
+        type: "upgrade",
+        before: (info) => `<UpgradePath title="${info}">`,
+        after: "</UpgradePath>",
+      },
+    ],
+    ["vuepress-plugin-flowchart"],
+    // https://github.com/lorisleiva/vuepress-plugin-seo
+    [
+      "seo",
+      {
+        siteTitle: (_, $site) => $site.title,
+        title: ($page) => $page.title,
+        description: ($page) => $page.frontmatter.description,
+        author: (_, $site) => $site.themeConfig.author,
+        tags: ($page) => $page.frontmatter.tags,
+        // twitterCard: _ => 'summary_large_image',
+        type: ($page) => "article",
+        url: (_, $site, path) => ($site.themeConfig.domain || "") + path,
+        image: ($page, $site) =>
+          $page.frontmatter.image &&
+          (($site.themeConfig.domain &&
+            !$page.frontmatter.image.startsWith("http")) ||
+            "") + $page.frontmatter.image,
+        publishedAt: ($page) =>
+          $page.frontmatter.date && new Date($page.frontmatter.date),
+        modifiedAt: ($page) => $page.lastUpdated && new Date($page.lastUpdated),
+      },
+    ],
+  ],
+  head: [
+    // ico
+    ["link", { rel: "icon", href: `/favicon.ico` }],
+    // meta
+    ["meta", { name: "robots", content: "all" }],
+    ["meta", { name: "author", content: "2xiao" }],
+    ["meta", { name: "copyright", content: "2xiao" }],
+    ["meta", { name: "subject", content: "前端算法通关指南 LeetCode-JS" }],
+    ["meta", { "http-equiv": "Cache-Control", content: "no-cache, no-store, must-revalidate" }],
+    ["meta", { "http-equiv": "Pragma", content: "no-cache" }],
+    ["meta", { "http-equiv": "Expires", content: "0" }],
+    [
+      "meta",
+      {
+        name: "keywords",
+        content:
+          "LeetCode、LeetCode-JS通关指南、数据结构与算法精讲、1000+LeetCode题目详解、自己动手写React、React 源码、手写React库、肉身翻墙、如何更好地生活",
+      },
+    ],
+    ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
+  ],
 };
 
 // leetCode
@@ -172,7 +215,7 @@ function genLeetCode() {
             "/leetcode/problem/0082.md",
             "/leetcode/problem/0083.md",
             "/leetcode/problem/0086.md",
-            "/leetcode/problem/0092.md"
+            "/leetcode/problem/0092.md",
           ],
         },
         {
@@ -193,7 +236,7 @@ function genLeetCode() {
             "/leetcode/problem/0160.md",
             "/leetcode/problem/0167.md",
             "/leetcode/problem/0189.md",
-            "/leetcode/problem/0190.md"
+            "/leetcode/problem/0190.md",
           ],
         },
         {
@@ -210,7 +253,7 @@ function genLeetCode() {
             "/leetcode/problem/0238.md",
             "/leetcode/problem/0259.md",
             "/leetcode/problem/0279.md",
-            "/leetcode/problem/0283.md"
+            "/leetcode/problem/0283.md",
           ],
         },
         {
@@ -221,7 +264,7 @@ function genLeetCode() {
             "/leetcode/solution/0300-0399.md",
             "/leetcode/problem/0328.md",
             "/leetcode/problem/0344.md",
-            "/leetcode/problem/0345.md"
+            "/leetcode/problem/0345.md",
           ],
         },
         {
@@ -233,7 +276,7 @@ function genLeetCode() {
             "/leetcode/problem/0430.md",
             "/leetcode/problem/0438.md",
             "/leetcode/problem/0485.md",
-            "/leetcode/problem/0498.md"
+            "/leetcode/problem/0498.md",
           ],
         },
         {
@@ -243,7 +286,7 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/0500-0599.md",
             "/leetcode/problem/0509.md",
-            "/leetcode/problem/0567.md"
+            "/leetcode/problem/0567.md",
           ],
         },
         {
@@ -252,7 +295,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0600-0699.md",
-            "/leetcode/problem/0611.md"
+            "/leetcode/problem/0611.md",
           ],
         },
         {
@@ -262,7 +305,7 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/0700-0799.md",
             "/leetcode/problem/0707.md",
-            "/leetcode/problem/0724.md"
+            "/leetcode/problem/0724.md",
           ],
         },
         {
@@ -271,7 +314,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0800-0899.md",
-            "/leetcode/problem/0876.md"
+            "/leetcode/problem/0876.md",
           ],
         },
         {
@@ -280,7 +323,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/1000-1099.md",
-            "/leetcode/problem/1047.md"
+            "/leetcode/problem/1047.md",
           ],
         },
         {
@@ -289,7 +332,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Interviews.md",
-            "/leetcode/problem/i_03.01.md"
+            "/leetcode/problem/i_03.01.md",
           ],
         },
         {
@@ -298,7 +341,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Offer.md",
-            "/leetcode/problem/jz_offer_59_2.md"
+            "/leetcode/problem/jz_offer_59_2.md",
           ],
         },
         {
@@ -307,7 +350,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Offer-II.md",
-            "/leetcode/problem/jz_offer_II_055.md"
+            "/leetcode/problem/jz_offer_II_055.md",
           ],
         },
         {
@@ -316,9 +359,9 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/LCP.md",
-            "/leetcode/problem/LCP_53.md"
+            "/leetcode/problem/LCP_53.md",
           ],
-        },// AUTO_GEN_CONFIG_END
+        }, // AUTO_GEN_CONFIG_END
       ],
     },
   ];
