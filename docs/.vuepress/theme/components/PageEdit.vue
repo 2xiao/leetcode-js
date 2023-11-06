@@ -31,9 +31,6 @@ export default {
 
   computed: {
     lastUpdated () {
-      if(this.$page.lastUpdated){
-        return this.$page.lastUpdated.split(" ")[0]
-      }
       return this.$page.lastUpdated
     },
 

@@ -153,6 +153,8 @@ class LinkedList {
 
 ### 实现一个单向链表
 
+::: details 点击查看代码
+
 ```javascript
 class Node {
   constructor(data) {
@@ -232,11 +234,8 @@ class singleLinkedList {
     }
   }
 }
-```
 
-示例：
-
-```javascript
+// 示例：
 const list = new singleLinkedList();
 list.add(1);
 list.add(2);
@@ -266,6 +265,8 @@ singleLinkedList {
    }
 }
 ```
+
+:::
 
 ## 链表 VS 数组
 

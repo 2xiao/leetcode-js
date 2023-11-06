@@ -2,11 +2,13 @@
 title: "偶尔还是会想念北京"
 date: "2023-07-25"
 ---
+
 # 偶尔还是会想念北京
 
-<font color=gray>Last updated on 2023-07-25</font>
+<font color=gray>Published on 2023-07-25</font>
 
 现在时常怀念以前在北京的生活，一个人，一只猫，一间房。
+
 <!--more-->
 
 大部分周末是宅在家里，和猫玩耍，睡到自然醒。
