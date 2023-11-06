@@ -8,6 +8,8 @@
 
     <PageNav v-bind="{ sidebarItems }" />
     <slot name="bottom" />
+    <el-backtop><KittyTop /></el-backtop>
+
   </main>
 </template>
 
@@ -15,9 +17,10 @@
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
 import CopyRight from '@theme/components/CopyRight.vue'
+import KittyTop from './KittyTop.vue';
 
 export default {
-  components: { PageEdit, PageNav, CopyRight },
+  components: { PageEdit, PageNav, CopyRight, KittyTop },
   props: ['sidebarItems']
 }
 </script>

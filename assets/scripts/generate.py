@@ -301,7 +301,7 @@ def gen_config_js(problem_path, config_path):
     frames = {}
     content = ''
     spaces_4 = '    '
-    base_spaces_12 = '\n            '
+    base_spaces = '\n        '
     file_name = {'Offer': '剑指 Offer', 'Offer-II': '剑指 Offer II',
                  'Interviews': '面试题', 'LCP': '力扣杯'}
 
@@ -324,16 +324,16 @@ def gen_config_js(problem_path, config_path):
         frames[problem_catalog].append(path)
 
     for idx, frame in frames.items():
-        children = spaces_4 + (',' + base_spaces_12 +
+        children = spaces_4 + (',' + base_spaces +
                                spaces_4).join(map(str, frame))
         toc_path = spaces_4 + '"/leetcode/solution/' + idx + '.md",'
         title = idx
         if idx in file_name:
             title = file_name[idx]
 
-        config_item = [base_spaces_12 + '{', '  title: "' + title + '",',
+        config_item = [base_spaces + '{', '  title: "' + title + '",',
                        '  collapsable: true,', '  children: [', toc_path, children, '  ],', '},']
-        content += base_spaces_12.join(config_item)
+        content += base_spaces.join(config_item)
 
     append_config(config_path, content)
     print("Create config.js Success")

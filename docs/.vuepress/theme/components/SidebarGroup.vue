@@ -87,7 +87,7 @@ export default {
     padding-left 0.5em
   &:not(.collapsable)
     .sidebar-heading:not(.clickable)
-      cursor auto
+      cursor pointer
       color inherit
   // refine styles of nested sidebar groups
   &.is-sub-group
