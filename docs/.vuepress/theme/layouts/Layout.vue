@@ -132,7 +132,7 @@ export default {
 
   mounted() {
     this.$router.afterEach(() => {
-      this.isSidebarOpen = isMobile() ? false : true;
+      this.isSidebarOpen = isMobile() ? false : this.isSidebarOpen;
     });
   },
 
