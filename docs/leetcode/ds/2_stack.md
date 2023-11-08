@@ -10,19 +10,23 @@
 
 ![](../../../assets/images/3e20cca032c25168d3cc605fa7a53a0b.png)
 
-栈是一种 「**后进先出（Last In First Out）**」 的线性表，简称为 「LIFO 结构」。
+栈是一种 **后进先出（Last In First Out）** 的线性表，简称为 LIFO 结构。
 
 有一个非常贴切的例子，就是一摞叠在一起的盘子。我们平时放盘子的时候，都是从下往上一个一个放；取的时候，我们也是从上往下一个一个地依次取，不能从中间任意抽出。
+
+我们把栈中允许插入和删除的一端称为 **栈顶（top）**；另一端则称为 **栈底（bottom）**。当表中没有任何数据元素时，称之为 **空栈**。
+
+栈主要包含两个操作，**入栈和出栈**，入栈`push()`就是在栈顶插入一个数据；出栈`pop()`就是从栈顶删除一个数据。
 
 我们可以从两个方面来解释一下栈的定义：
 
 - 「**线性表**」
 
-栈首先是一个线性表，栈中元素具有前驱后继的线性关系。栈中元素按照 a1,a2,...,an 的次序依次进栈。栈顶元素为 an。
+  栈首先是一个线性表，栈中元素具有前驱后继的线性关系。栈中元素按照 `a1,a2,...,an` 的次序依次进栈。栈顶元素为 `an`。
 
 - 「**后进先出原则**」
 
-根据栈的定义，每次删除的总是栈中当前的栈顶元素，即最后进入栈的元素。而在进栈时，最先进入栈的元素一定在栈底，最后进入栈的元素一定在栈顶。也就是说，元素进入栈或者退出退栈是按照「后进先出（Last In First Out）」的原则进行的。
+  元素进入栈或者退出退栈是按照 **后进先出（Last In First Out）** 的原则进行的。每次删除的总是栈中当前的栈顶元素，即最后进入栈的元素。而在进栈时，最先进入栈的元素一定在栈底，最后进入栈的元素一定在栈顶。
 
 ## 栈的实现
 
@@ -30,46 +34,34 @@
 
 用数组实现的栈，我们叫作**顺序栈**，用链表实现的栈，我们叫作**链式栈**。
 
-从功能上来说，数组或链表可以完全替代栈，但特定的数据结构是对特定场景的抽象，数组或链表暴露了太多的操作接口，操作上的确灵活自由，但使用时就比较不可控，自然也就更容易出错。
-
-当某个数据集合只涉及在一端插入和删除数据，并且满足后进先出、先进后出的特性，我们就应该首选“栈”这种数据结构。比如浏览器的前进后退功能。
-
-## 栈的操作
-
-栈主要包含两个操作，**入栈和出栈**，入栈（push）就是在栈顶插入一个数据；出栈（pop）就是从栈顶删除一个数据。
+### 顺序栈
 
 ```javascript
 // 基于数组实现的顺序栈
 class ArrayStack {
-  #arr = [];
-  #size = 0;
-  size() {
-    return this.#size;
+  constructor() {
+    this._stack = []; // 栈中的数据
   }
+
   // 入栈
-  push(item) {
-    if (!item) {
-      return false;
-    }
-    this.#arr.push(item);
-    this.#size++;
-    return true;
+  push(data) {
+    this._stack.push(data);
   }
   // 出栈
   pop() {
-    var temp = this.#arr.pop();
-    if (temp) {
-      this.#size--;
-    }
-    return temp;
+    return this._stack.pop();
   }
+  // 清空栈
+  clear() {
+    this._stack = [];
+  }
+  // 获取栈中元素的数量
+  count() {
+    return this._stack.length;
+  }
+  // 打印栈
   print() {
-    console.log("---栈底---");
-    for (var item of this.#arr) {
-      console.log(item);
-    }
-    console.log("---栈顶---");
-    console.log("栈的长度：", this.#size);
+    console.log(this._stack);
   }
 }
 ```
@@ -77,27 +69,87 @@ class ArrayStack {
 ::: details 点击查看示例：
 
 ```javascript
-const stack = new ArrayStack()
-stack.push(1)
-stack.push(2)
-stack.push(3)
-stack.print()
-stack.pop()
-stack.print()
+const stack = new ArrayStack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.print();
+stack.pop();
+stack.print();
+stack.count();
 
 // 打印结果：
----栈底---
-1
-2
-3
----栈顶---
-栈的长度： 3
+// [1, 2, 3]
+// [1, 2]
+// 2
+```
 
----栈底---
-1
-2
----栈顶---
-栈的长度： 2
+:::
+
+### 链式栈
+
+```javascript
+// 定义节点类
+class Node {
+  constructor(data) {
+    this.data = data; // 节点中的数据
+    this.next = null; // 下一个节点
+  }
+}
+
+// 基于链表实现的链式栈
+class LinkedListStack {
+  constructor() {
+    this.head = null; // 栈顶元素
+    this.length = 0; // 栈中元素的个数
+  }
+  // 入栈
+  push(data) {
+    let newNode = new Node(data);
+    newNode.next = this.head;
+    this.head = newNode;
+    this.length++;
+  }
+
+  // 出栈
+  pop() {
+    let data = this.head.data;
+    this.head = this.head.next;
+    this.length--;
+    return data;
+  }
+  // 清空栈
+  clear() {
+    this.head.next = null;
+    this.head = null;
+  }
+  // 获取栈中元素的数量
+  count() {
+    return this.length;
+  }
+  // 打印栈
+  print() {
+    console.log(this.head);
+  }
+}
+```
+
+::: details 点击查看示例：
+
+```javascript
+const stack = new LinkedListStack();
+stack.push(1);
+stack.push(2);
+stack.push(3);
+stack.print();
+stack.pop();
+stack.print();
+stack.count();
+
+// 打印结果：
+// Node {data: 3, next: Node {data: 2, next: Node {data: 1, next: null}}}
+// Node {data: 2, next: Node {data: 1, next: null}}
+// 2
 ```
 
 :::
@@ -111,6 +163,10 @@ stack.print()
 不管是顺序栈还是链式栈，入栈、出栈只涉及栈顶个别数据的操作，所以时间复杂度都是 O(1)。
 
 ## 栈的应用
+
+从功能上来说，数组或链表可以完全替代栈，但特定的数据结构是对特定场景的抽象，数组或链表暴露了太多的操作接口，操作上的确灵活自由，但使用时就比较不可控，自然也就更容易出错。
+
+当某个数据集合只涉及在一端插入和删除数据，并且满足后进先出、先进后出的特性，我们就应该首选“栈”这种数据结构。比如浏览器的前进后退功能。
 
 ### 1. 表达式求值
 
@@ -136,11 +192,11 @@ stack.print()
 
 **说明**：
 
-- 1≤s.length≤3∗10^5。
-- s 由整数和算符（+、-、\*、/）组成，中间由一些空格隔开。
-- s 表示一个有效表达式。
-- 表达式中的所有整数都是非负整数，且在范围 [0,2^31−1]内。
-- 题目数据保证答案是一个 32-bit 整数。
+- `1 ≤ s.length ≤ 3∗10^5`
+- `s` 由整数和算符（`+、-、*、/`）组成，中间由一些空格隔开
+- `s` 表示一个有效表达式
+- 表达式中的所有整数都是非负整数，且在范围` [0, 2^31 − 1]`内
+- 题目数据保证答案是一个 `32-bit` 整数
 
 #### ② 解题思路
 
@@ -267,41 +323,125 @@ function add(x, y) {
 
 ![](../../../assets/images/17b6c6711e8d60b61d65fb0df5559a1c.png)
 
+---
+
+### 4. 单调栈
+
+**单调栈（Monotone Stack）** ：一种特殊的栈。在栈的先进后出规则基础上，要求从栈顶到栈底的元素是单调递增或者单调递减。
+
+::: tip
+[496. 下一个更大元素 I - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0496.html)
+:::
+
+#### ① 题目大意
+
+给定两个没有重复元素的数组 `nums1` 和 `nums2` ，其中 `nums1` 是 `nums2` 的子集。找出 `nums1` 中每个元素在 `nums2` 中的下一个比其大的值。
+
+`nums1` 中数字 `x` 的下一个更大元素是指： `x` 在 `nums2` 中对应位置的右边的第一个比 `x` 大的元素。如果不存在，对应位置输出 `-1`。
+
+请设计一个时间复杂度为 `O(nums1.length + nums2.length)` 的解决方案。
+
+**示例**：
+
+> 输入：nums1 = [4,1,2], nums2 = [1,3,4,2]
+>
+> 输出：[-1,3,-1]
+
+> 输入：nums1 = [2,4], nums2 = [1,2,3,4]
+>
+> 输出：[3,-1]
+
+**说明**：
+
+- `1 <= nums1.length <= nums2.length <= 1000`
+- `0 <= nums1[i]`, `nums2[i] <= 10^4`
+- `nums1` 和 `nums2` 中所有整数互不相同
+- `nums1` 中的所有整数同样出现在 `nums2` 中
+
+#### ② 解题思路
+
+#### ③ 代码
+
+::: details 点击查看代码
+
+```javascript
+
+```
+
+:::
+
+::: tip
+[739. 每日温度 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0739.html)
+:::
+
+#### ① 题目大意
+
+给定一个整数数组 temperatures ，表示每天的温度，返回一个数组 answer ，其中 answer[i] 是指对于第 i 天，下一个更高温度出现在几天后。如果气温在这之后都不会升高，请在该位置用 0 来代替。
+
+**示例**：
+
+> 输入：temperatures = [73,74,75,71,69,72,76,73]
+>
+> 输出：[1,1,4,2,1,1,0,0]
+
+> 输入：temperatures = [30,40,50,60]
+>
+> 输出：[1,1,1,0]
+
+> 输入：temperatures = [30,60,90]
+>
+> 输出：[1,1,0]
+
+**说明**：
+
+- `1 <= temperatures.length <= 10^5`
+- `30 <= temperatures[i] <= 100`
+
+#### ② 解题思路
+
+#### ③ 代码
+
+::: details 点击查看代码
+
+```javascript
+
+```
+
+:::
+
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
-
 
 ## 相关题目
 
 #### 栈基础题目
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
-| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
-| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
-| 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | `栈` `数组` `数学` | <font color=#ffb800>Medium</font> |
-| 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
-| 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  | `栈` `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
-| 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
-| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+|     题号      | 标题                                                                                                    |                              题解                               | 标签                     | 难度                              |
+| :-----------: | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------: | :----------------------- | :-------------------------------- |
+|     1047      | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串`            | <font color=#15bd66>Esay</font>   |
+|     0155      | [最小栈](https://leetcode.com/problems/min-stack/)                                                      |                                                                 | `栈` `设计`              | <font color=#ffb800>Medium</font> |
+|     0020      | [有效的括号](https://leetcode.com/problems/valid-parentheses/)                                          | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串`            | <font color=#15bd66>Esay</font>   |
+|     0227      | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/)                                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | `栈` `数学` `字符串`     | <font color=#ffb800>Medium</font> |
+|     0739      | [每日温度](https://leetcode.com/problems/daily-temperatures/)                                           |                                                                 | `栈` `数组` `单调栈`     | <font color=#ffb800>Medium</font> |
+|     0150      | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                     |                                                                 | `栈` `数组` `数学`       | <font color=#ffb800>Medium</font> |
+|     0232      | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/)                             |                                                                 | `栈` `设计` `队列`       | <font color=#15bd66>Esay</font>   |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)              |                                                                 | `栈` `设计` `队列`       | <font color=#15bd66>Esay</font>   |
+|     0394      | [字符串解码](https://leetcode.com/problems/decode-string/)                                              |                                                                 | `栈` `递归` `字符串`     | <font color=#ffb800>Medium</font> |
+|     0032      | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/)                                |                                                                 | `栈` `字符串` `动态规划` | <font color=#ff334b>Hard</font>   |
+|     0946      | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/)                                   |                                                                 | `栈` `数组` `模拟`       | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)                |                                                                 | `栈` `递归` `链表` `1+`  | <font color=#15bd66>Esay</font>   |
+|     0071      | [简化路径](https://leetcode.com/problems/simplify-path/)                                                |                                                                 | `栈` `字符串`            | <font color=#ffb800>Medium</font> |
 
 #### 单调栈
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
-| 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  | `栈` `设计` `数据流` `1+` | <font color=#ffb800>Medium</font> |
-| 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  | `栈` `数组` `单调栈` | <font color=#ff334b>Hard</font> |
-| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
-| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | `栈` `数组` `双指针` `2+` | <font color=#ff334b>Hard</font> |
-| 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | `栈` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
-
+| 题号 | 标题                                                                                | 题解 | 标签                        | 难度                              |
+| :--: | :---------------------------------------------------------------------------------- | :--: | :-------------------------- | :-------------------------------- |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/)                       |      | `栈` `数组` `单调栈`        | <font color=#ffb800>Medium</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/)           |      | `栈` `数组` `哈希表` `1+`   | <font color=#15bd66>Esay</font>   |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/)         |      | `栈` `数组` `单调栈`        | <font color=#ffb800>Medium</font> |
+| 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/)                    |      | `栈` `设计` `数据流` `1+`   | <font color=#ffb800>Medium</font> |
+| 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |      | `栈` `数组` `单调栈`        | <font color=#ff334b>Hard</font>   |
+| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/)             |      | `栈` `贪心` `字符串` `1+`   | <font color=#ffb800>Medium</font> |
+| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/)                        |      | `栈` `数组` `双指针` `2+`   | <font color=#ff334b>Hard</font>   |
+| 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/)                        |      | `栈` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font>   |
