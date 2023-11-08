@@ -109,11 +109,11 @@ table th:nth-of-type(5) { width: 10%; }
 | 0321 | [拼接最大数](https://leetcode.com/problems/create-maximum-number/) |  | `栈` `贪心` `单调栈` | <font color=#ff334b>Hard</font> |
 | 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0456 | [132 模式](https://leetcode.com/problems/132-pattern/) |  | `栈` `数组` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0581 | [最短无序连续子数组](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) |  | `栈` `贪心` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 0654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree/) |  | `栈` `树` `数组` `3+` | <font color=#ffb800>Medium</font> |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0768 | [最多能完成排序的块 II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) |  | `栈` `贪心` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 0769 | [最多能完成排序的块](https://leetcode.com/problems/max-chunks-to-make-sorted/) |  | `栈` `贪心` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 0853 | [车队](https://leetcode.com/problems/car-fleet/) |  | `栈` `数组` `排序` `1+` | <font color=#ffb800>Medium</font> |

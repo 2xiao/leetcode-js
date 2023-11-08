@@ -137,7 +137,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0456 | [132 模式](https://leetcode.com/problems/132-pattern/) |  | `栈` `数组` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
 | 0484 | [寻找排列](https://leetcode.com/problems/find-permutation/) |  | `栈` `贪心` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0488 | [祖玛游戏](https://leetcode.com/problems/zuma-game/) |  | `栈` `广度优先搜索` `记忆化搜索` `2+` | <font color=#ff334b>Hard</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0581 | [最短无序连续子数组](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) |  | `栈` `贪心` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 0589 | [N 叉树的前序遍历](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) |  | `栈` `树` `深度优先搜索` | <font color=#15bd66>Esay</font> |
@@ -151,7 +151,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0726 | [原子的数量](https://leetcode.com/problems/number-of-atoms/) |  | `栈` `哈希表` `字符串` `1+` | <font color=#ff334b>Hard</font> |
 | 0735 | [行星碰撞](https://leetcode.com/problems/asteroid-collision/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 0736 | [Lisp 语法解析](https://leetcode.com/problems/parse-lisp-expression/) |  | `栈` `递归` `哈希表` `1+` | <font color=#ff334b>Hard</font> |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0768 | [最多能完成排序的块 II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) |  | `栈` `贪心` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 0769 | [最多能完成排序的块](https://leetcode.com/problems/max-chunks-to-make-sorted/) |  | `栈` `贪心` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 0770 | [基本计算器 IV](https://leetcode.com/problems/basic-calculator-iv/) |  | `栈` `递归` `哈希表` `2+` | <font color=#ff334b>Hard</font> |

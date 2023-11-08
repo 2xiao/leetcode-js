@@ -332,7 +332,7 @@ def gen_config_js(problem_path, config_path):
             title = file_name[idx]
 
         config_item = [base_spaces + '{', '  title: "' + title + '",',
-                       '  collapsable: true,', '  children: [', toc_path, children, '  ],', '},']
+                       '  collapsable: true,', '  sidebarDepth: 0,', '  children: [', toc_path, children, '  ],', '},']
         content += base_spaces.join(config_item)
 
     append_config(config_path, content)

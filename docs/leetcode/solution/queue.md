@@ -111,7 +111,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0362 | [敲击计数器](https://leetcode.com/problems/design-hit-counter/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 0379 | [电话目录管理系统](https://leetcode.com/problems/design-phone-directory/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 0387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string/) |  | `队列` `哈希表` `字符串` `1+` | <font color=#15bd66>Esay</font> |
-| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
+| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0649 | [Dota2 参议院](https://leetcode.com/problems/dota2-senate/) |  | `贪心` `队列` `字符串` | <font color=#ffb800>Medium</font> |
 | 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | `队列` `数组` `二分查找` `4+` | <font color=#ff334b>Hard</font> |

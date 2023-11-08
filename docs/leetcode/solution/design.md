@@ -139,7 +139,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0535 | [TinyURL 的加密与解密](https://leetcode.com/problems/encode-and-decode-tinyurl/) |  | `设计` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0588 | [设计内存文件系统](https://leetcode.com/problems/design-in-memory-file-system/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ff334b>Hard</font> |
 | 0604 | [迭代压缩字符串](https://leetcode.com/problems/design-compressed-string-iterator/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
-| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
+| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0631 | [设计 Excel 求和公式](https://leetcode.com/problems/design-excel-sum-formula/) |  | `图` `设计` `拓扑排序` | <font color=#ff334b>Hard</font> |
 | 0635 | [设计日志存储系统](https://leetcode.com/problems/design-log-storage-system/) |  | `设计` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |

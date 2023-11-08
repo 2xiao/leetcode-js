@@ -316,7 +316,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0493 | [翻转对](https://leetcode.com/problems/reverse-pairs/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  | `数组` `动态规划` `回溯` | <font color=#ffb800>Medium</font> |
 | 0495 | [提莫攻击](https://leetcode.com/problems/teemo-attacking/) |  | `数组` `模拟` | <font color=#15bd66>Esay</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 0497 | [非重叠矩形中的随机点](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/) |  | `水塘抽样` `数组` `数学` `4+` | <font color=#ffb800>Medium</font> |
 | 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> |
 | 0500 | [键盘行](https://leetcode.com/problems/keyboard-row/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
@@ -364,7 +364,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | `贪心` `数组` `双指针` `2+` | <font color=#ffb800>Medium</font> |
 | 0616 | [给字符串添加加粗标签](https://leetcode.com/problems/add-bold-tag-in-string/) |  | `字典树` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 0621 | [任务调度器](https://leetcode.com/problems/task-scheduler/) |  | `贪心` `数组` `哈希表` `3+` | <font color=#ffb800>Medium</font> |
-| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
+| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0624 | [数组列表中的最大距离](https://leetcode.com/problems/maximum-distance-in-arrays/) |  | `贪心` `数组` | <font color=#ffb800>Medium</font> |
 | 0628 | [三个数的最大乘积](https://leetcode.com/problems/maximum-product-of-three-numbers/) |  | `数组` `数学` `排序` | <font color=#15bd66>Esay</font> |
 | 0630 | [课程表 III](https://leetcode.com/problems/course-schedule-iii/) |  | `贪心` `数组` `堆（优先队列）` | <font color=#ff334b>Hard</font> |
@@ -416,7 +416,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0734 | [句子相似性](https://leetcode.com/problems/sentence-similarity/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 0735 | [行星碰撞](https://leetcode.com/problems/asteroid-collision/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 0737 | [句子相似性 II](https://leetcode.com/problems/sentence-similarity-ii/) |  | `深度优先搜索` `广度优先搜索` `并查集` `3+` | <font color=#ffb800>Medium</font> |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0740 | [删除并获得点数](https://leetcode.com/problems/delete-and-earn/) |  | `数组` `哈希表` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0741 | [摘樱桃](https://leetcode.com/problems/cherry-pickup/) |  | `数组` `动态规划` `矩阵` | <font color=#ff334b>Hard</font> |
 | 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |

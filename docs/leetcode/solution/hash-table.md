@@ -188,7 +188,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0460 | [LFU 缓存](https://leetcode.com/problems/lfu-cache/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ff334b>Hard</font> |
 | 0480 | [滑动窗口中位数](https://leetcode.com/problems/sliding-window-median/) |  | `数组` `哈希表` `滑动窗口` `1+` | <font color=#ff334b>Hard</font> |
 | 0491 | [递增子序列](https://leetcode.com/problems/non-decreasing-subsequences/) |  | `位运算` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) |  | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 0500 | [键盘行](https://leetcode.com/problems/keyboard-row/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 0508 | [出现次数最多的子树元素和](https://leetcode.com/problems/most-frequent-subtree-sum/) |  | `树` `深度优先搜索` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0519 | [随机翻转矩阵](https://leetcode.com/problems/random-flip-matrix/) |  | `水塘抽样` `哈希表` `数学` `1+` | <font color=#ffb800>Medium</font> |
