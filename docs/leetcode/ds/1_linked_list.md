@@ -36,9 +36,9 @@
 
 单向链表只有一个方向，节点只有一个后继指针 `next` 指向后面的节点。而双向链表支持两个方向，每个节点不止有一个后继指针 `next` 指向后面的节点，还有一个前驱指针 `prev` 指向前面的节点。
 
-双向链表需要额外的两个空间来存储后继节点和前驱节点的地址。所以存储同样多的数据，双向链表要比单链表占用更多的内存空间。虽然两个指针比较浪费存储空间，但可以支持双向遍历，支持 O(1)时间复杂度的情况下找到前驱节点，这也使双向链表在某些情况下的插入、删除等操作都要比单链表简单、高效。
+双向链表需要额外的两个空间来存储后继节点和前驱节点的地址。所以存储同样多的数据，双向链表要比单链表占用更多的内存空间。虽然两个指针比较浪费存储空间，但可以支持双向遍历，支持 `O(1)` 时间复杂度的情况下找到前驱节点，这也使双向链表在某些情况下的插入、删除等操作都要比单链表简单、高效。
 
-除了插入、删除操作有优势之外，对于一个有序链表，双向链表的按值查询的效率也要比单链表高一些。因为可以记录上次查找的位置 p，每次查询时，根据要查找的值与 p 的大小关系，决定是往前还是往后查找，所以平均只需要查找一半的数据。
+除了插入、删除操作有优势之外，对于一个有序链表，双向链表的按值查询的效率也要比单链表高一些。因为可以记录上次查找的位置 `p`，每次查询时，根据要查找的值与 `p` 的大小关系，决定是往前还是往后查找，所以平均只需要查找一半的数据。
 
 这就是**用空间换时间**的设计思想。当内存空间充足的时候，如果我们更加追求代码的执行速度，我们就可以选择空间复杂度相对较高、但时间复杂度相对很低的算法或者数据结构。相反，如果内存比较紧缺，比如代码跑在手机或者单片机上，这个时候，就要反过来用时间换空间的设计思路。
 
@@ -110,52 +110,25 @@ if (head.next == null) {
 
 ## 链表的实现
 
-链表的实现包含两个类，一个是 **Node 类**，用来表示节点；另一个是 **LinkedList 类**，提供了对链表进行操作的方法。
+### 单向链表
 
-`Node` 类包含两个属性： `element` 用来保存节点上的数据，`next` 用来保存指向下一个节点的链接。
+单向链表的实现包含两个类，一个是 **Node 类**，用来表示节点；另一个是 **SingleLinkedList 类**，提供了对链表进行操作的方法。
 
-具体实现如下：
+- `Node` 类包含两个属性：`data` 保存节点上的数据，`next` 指向后一个节点；
+- `SingleLinkedList` 类包含两个属性：`head` 保存该链表的头节点，`length` 保存链表包含的节点个数，还提供了对链表进行操作的方法：
+  - `append(data)` 向链表尾部添加一个新的项；
+  - `insert(position, data)` 向链表的特定位置插入一个新的项；
+  - `getData(position)` 获取对应位置的节点；
+  - `indexOf(data)` 返回节点在链表中的索引，如果链表中没有该节点就返回 `-1`；
+  - `update(position, data)` 修改某个位置的节点；
+  - `removeAt(position)` 从链表的特定位置移除一项；
+  - `remove(data)` 从链表中移除一项；
+  - `isEmpty()` 判断链表是否为空，返回 `Boolean` 值；
+  - `count()` 返回链表包含的节点个数，与数组的 `length` 属性类似；
+  - `toString()` 将链表中节点以字符串形式返回；
 
 ```javascript
 // 节点类
-class Node {
-  constructor(data) {
-    this.data = data; // 当前节点的元素
-    this.next = null; // 下一个节点链接
-  }
-}
-```
-
-`LinkedList` 类提供了对链表进行操作的方法，包括插入节点、删除节点、查找给定的值等。值得注意的是，它只有一个 属性，那就是使用一个 `Node` 对象来保存该链表的头节点。
-
-它的构造函数的实现如下：
-
-```javascript
-// 链表类
-class LinkedList {
-  constructor() {
-    this.head = null;
-  }
-  // 插入节点
-  insert(data, target) {}
-  // 查找节点
-  find(data) {}
-  // 删除节点
-  remove(data) {}
-  // 在链尾添加节点
-  add(data) {}
-  // 显示链表
-  display() {}
-}
-```
-
-`head` 节点的 `next` 属性初始化为 `null` ，当有新元素插入时，`next` 会指向新的元素。
-
-### 实现一个单向链表
-
-::: details 点击查看代码
-
-```javascript
 class Node {
   constructor(data) {
     this.data = data;
@@ -163,56 +136,15 @@ class Node {
   }
 }
 
-// 实现一个单项链表
-class singleLinkedList {
+// 单项链表类
+class SingleLinkedList {
   constructor() {
     this.head = null;
+    this.length = 0;
   }
 
-  // 插入节点
-  insert(data, target) {
-    let node = new Node(data);
-    let current = this.head;
-    while (current.next) {
-      if (current.data === target) {
-        node.next = current.next;
-        current.next = node;
-        break;
-      }
-      current = current.next;
-    }
-  }
-  // 查找节点
-  find(data) {
-    let current = this.head;
-    while (current) {
-      if (current.data === data) {
-        return current;
-      }
-      current = current.next;
-    }
-    return null;
-  }
-  // 删除节点
-  remove(data) {
-    let current = this.head;
-    let previous = null;
-    while (current) {
-      if (current.data === data) {
-        if (previous === null) {
-          this.head = current.next;
-        } else {
-          previous.next = current.next;
-        }
-        return true;
-      }
-      previous = current;
-      current = current.next;
-    }
-    return false;
-  }
   // 在链尾添加节点
-  add(data) {
+  append(data) {
     let node = new Node(data);
     if (this.head === null) {
       this.head = node;
@@ -223,47 +155,332 @@ class singleLinkedList {
       }
       current.next = node;
     }
+    this.length++;
   }
-  // 显示链表
-  display() {
-    var current = this.head;
-    console.log(current.data);
-    while (current.next !== null) {
-      console.log(current.next.data);
-      current = current.next;
+
+  // 在指定位置（position）插入节点
+  // position = 0 表示新插入后是第一个节点
+  // position = 1 表示新插入后是第二个节点，以此类推
+  insert(position, data) {
+    if (position < 0 || position > this.length) return false;
+
+    let node = new Node(data);
+
+    let prev = new Node(0);
+    prev.next = this.head;
+    let index = 0;
+    while (index < position) {
+      prev = prev.next;
+      index++;
     }
+
+    let temp = prev.next;
+    prev.next = node;
+    node.next = temp;
+
+    if (position === 0) {
+      this.head = node;
+    }
+
+    this.length++;
+
+    return node;
+  }
+
+  // 获取指定位置（position）的元素
+  getData(position) {
+    if (position < 0 || position >= this.length) return null;
+    let prev = this.head;
+    let index = 0;
+    while (index < position) {
+      prev = prev.next;
+      index++;
+    }
+    return prev.data;
+  }
+
+  // 返回指定 data 的 index，如果没有则返回 -1
+  indexOf(data) {
+    let prev = this.head;
+    let index = 0;
+    while (prev) {
+      if (prev.data === data) return index;
+      prev = prev.next;
+      index++;
+    }
+    return -1;
+  }
+
+  // 修改指定位置（position）的节点
+  update(position, data) {
+    if (position < 0 || position >= this.length) return null;
+    let prev = this.head;
+    let index = 0;
+    while (index < position) {
+      prev = prev.next;
+      index++;
+    }
+    prev.data = data;
+  }
+
+  // 删除指定位置（position）的节点
+  removeAt(position) {
+    if (position < 0 || position >= this.length) return false;
+    let prev = new Node(0);
+    prev.next = this.head;
+    let index = 0;
+    while (index < position) {
+      prev = prev.next;
+      index++;
+    }
+    let node = prev.next;
+    prev.next = node.next;
+
+    if (position === 0) {
+      this.head = node.next;
+    }
+
+    this.length--;
+    return node;
+  }
+
+  // 删除节点
+  remove(data) {
+    return this.removeAt(this.indexOf(data));
+  }
+  // 判断链表是否为空，返回 Boolean 值
+  isEmpty() {
+    return this.length === 0;
+  }
+  // 返回链表包含的节点个数
+  count() {
+    return this.length;
+  }
+  // 将链表中节点以字符串形式返回
+  toString() {
+    let prev = this.head;
+    let res = [];
+    while (prev) {
+      res.push(prev.data);
+      prev = prev.next;
+    }
+    return res.join(",");
   }
 }
+```
 
-// 示例：
-const list = new singleLinkedList();
-list.add(1);
-list.add(2);
-list.add(3);
-list.insert(4, 2);
-list.display();
-console.dir(list, { depth: null });
+::: details 点击查看代码测试：
 
-// 打印结果：
-1
-2
-4
-3
-singleLinkedList {
-   head: Node {
-      data: 1
-      next: Node {
-         data: 2
-         next: Node {
-            data: 4
-            next: Node {
-               data: 3
-               next: null
-            }
-         }
-      }
-   }
+```javascript
+const linkedList = new SingleLinkedList();
+
+linkedList.append("A");
+linkedList.append("B");
+linkedList.append("C");
+console.log(linkedList);
+// output:
+// SingleLinkedList {
+//   head: Node {data: "A", next:
+//           Node {data: "B", next:
+//             Node {data: "C", next: null}}},
+//   length: 3}
+
+console.log(linkedList.toString()); // output: A,B,C
+
+linkedList.insert(0, "123");
+linkedList.insert(2, "456");
+console.log(linkedList.toString()); // output: 123,A,456,B,C
+
+console.log(linkedList.getData(0)); // output: 123
+console.log(linkedList.getData(1)); // output: A
+
+console.log(linkedList.indexOf("A")); // output: 1
+console.log(linkedList.indexOf("ABC")); // output: -1
+
+linkedList.update(0, "12345");
+console.log(linkedList.toString()); // output: 12345,A,456,B,C
+linkedList.update(1, "54321");
+console.log(linkedList.toString()); // output: 12345,54321,456,B,C
+
+linkedList.removeAt(3);
+console.log(linkedList.toString()); // output: 12345,54321,456,C
+
+linkedList.remove("12345");
+console.log(linkedList.toString()); // output: 54321,456,C
+
+console.log(linkedList.isEmpty()); // output: false
+console.log(linkedList.count()); // output: 3
+```
+
+:::
+
+### 双向链表
+
+双向链表相连的过程是双向的，实现原理包含两个类：
+
+一个是 **DoublyNode 类**，用来表示节点，它除了有指向后一个节点的 `next` 指针，还有指向前一个节点的 `prev` 指针，第一个节点的 `prev` 指向 `null`，最后一个节点的 `next` 指向 `null`；
+
+另一个是 **DoublyLinkedList 类**，提供了对双向链表进行操作的方法，它不仅有 `head` 指针指向第一个节点，而且有 `tail` 指针指向最后一个节点。
+
+- `DoublyNode` 类包含三个属性：`data` 储存数据，`prev` 指向前一个节点，`next` 指向后一个节点；
+- `DoublyLinkedList` 类包含三个属性：`head` 保存该链表的头节点，`tail` 保存该链表的尾节点，`length` 保存链表包含的节点个数，还提供了对双向链表进行操作的方法：
+  - `append(data)` 向链表尾部添加一个新的项；
+  - `insert(position, data)` 向链表的特定位置插入一个新的项；
+  - `getData(position)` 获取对应位置的节点；
+  - `indexOf(data)` 返回节点在链表中的索引，如果链表中没有该节点就返回 `-1`；
+  - `update(position, data)` 修改某个位置的节点；
+  - `removeAt(position)` 从链表的特定位置移除一项；
+  - `remove(data)` 从链表中移除一项；
+  - `isEmpty()` 判断链表是否为空，返回 `Boolean` 值；
+  - `count()` 返回链表包含的节点个数，与数组的 `length` 属性类似；
+  - `toString()` 将链表中节点以字符串形式返回；
+  - `backwordString()` 反向遍历节点，以字符串形式返回；
+
+```javascript
+// 双向链表的节点类（继承单向链表的节点类）
+class DoublyNode extends Node {
+  constructor(data) {
+    super(data);
+    this.prev = null;
+  }
 }
+// 双向链表类（继承单向链表类）
+class DoublyLinkedList extends SingleLinkedList {
+  constructor() {
+    super();
+    this.tail = null;
+  }
+  // 在链尾添加节点，重写 append()
+  append(data) {
+    let node = new DoublyNode(data);
+    if (this.head === null) {
+      this.head = node;
+      this.tail = node;
+    } else {
+      // 直接通过 tail 指针在链尾添加节点
+      this.tail.next = node;
+      node.prev = this.tail;
+      this.tail = node;
+    }
+    this.length++;
+  }
+
+  // 在指定位置（position）插入节点，重写 insert()
+  insert(position, data) {
+    if (position < 0 || position > this.length) return false;
+
+    let node = new DoublyNode(data);
+
+    let cur = new DoublyNode(null);
+    cur.next = this.head;
+    let index = 0;
+    while (index < position) {
+      cur = cur.next;
+      index++;
+    }
+
+    let temp = cur.next;
+    cur.next = node;
+    node.next = temp;
+    node.prev = cur;
+    temp.prev = node;
+
+    if (position === 0) {
+      this.head = node;
+      this.head.prev = null;
+    }
+    if (position === this.length) {
+      this.tail = node;
+    }
+
+    this.length++;
+
+    return node;
+  }
+
+  // 删除指定位置（position）的节点，重写 removeAt()
+  removeAt(position) {
+    if (position < 0 || position >= this.length) return false;
+    let cur = new DoublyNode(null);
+    cur.next = this.head;
+    let index = 0;
+    while (index < position) {
+      cur = cur.next;
+      index++;
+    }
+    let node = cur.next;
+    cur.next = node.next;
+    if (node.next) {
+      node.next.prev = cur;
+    }
+
+    if (position === 0) {
+      this.head = node.next;
+      this.head.prev = null;
+    }
+    if (position === this.length - 1) {
+      this.tail = this.tail.prev;
+    }
+
+    this.length--;
+    return node;
+  }
+
+  // 反向遍历节点，以字符串形式返回
+  backwordString() {
+    let cur = this.tail;
+    let res = [];
+    while (cur) {
+      res.push(cur.data);
+      cur = cur.prev;
+    }
+    return res.join(",");
+  }
+
+  // 其他方法都继承 SingleLinkedList 类的
+}
+```
+
+::: details 点击查看代码测试：
+
+```javascript
+const linkedList = new DoublyLinkedList();
+
+linkedList.append("A");
+linkedList.append("B");
+linkedList.append("C");
+console.log(linkedList.toString()); // output: A,B,C
+console.log(linkedList.backwordString()); // output: C,B,A
+
+linkedList.insert(0, "123");
+linkedList.insert(2, "456");
+console.log(linkedList.toString()); // output: 123,A,456,B,C
+console.log(linkedList.backwordString()); // output: C,B,456,A,123
+
+console.log(linkedList.getData(0)); // output: 123
+console.log(linkedList.getData(1)); // output: A
+
+console.log(linkedList.indexOf("A")); // output: 1
+console.log(linkedList.indexOf("ABC")); // output: -1
+
+linkedList.update(0, "12345");
+console.log(linkedList.toString()); // output: 12345,A,456,B,C
+console.log(linkedList.backwordString()); // output: C,B,456,A,12345
+
+linkedList.update(1, "54321");
+console.log(linkedList.toString()); // output: 12345,54321,456,B,C
+console.log(linkedList.backwordString()); // output: C,B,456,54321,12345
+
+linkedList.removeAt(3);
+console.log(linkedList.toString()); // output: 12345,54321,456,C
+console.log(linkedList.backwordString()); // output: C,456,54321,12345
+
+linkedList.remove("12345");
+console.log(linkedList.toString()); // output: 54321,456,C
+console.log(linkedList.backwordString()); // output: C,456,54321
+
+console.log(linkedList.isEmpty()); // output: false
+console.log(linkedList.count()); // output: 3
 ```
 
 :::
@@ -276,7 +493,7 @@ singleLinkedList {
 
 ![](../../../assets/images/d5d5bee4be28326ba3c28373808a62cd.png)
 
-从图中我们看到，数组需要一块连续的内存空间来存储，对内存的要求比较高。如果我们申请一个 100MB 大小的数组，当内存中没有连续的、足够大的存储空间时，即便内存的剩余总可用空间大于 100MB，仍然会申请失败。
+从图中可以看到，数组需要一块连续的内存空间来存储，对内存的要求比较高。如果我们申请一个 100MB 大小的数组，当内存中没有连续的、足够大的存储空间时，即便内存的剩余总可用空间大于 100MB，仍然会申请失败。
 
 而链表恰恰相反，它并不需要一块连续的内存空间，它通过“指针”将一组零散的内存块串联起来使用，所以如果我们申请的是 100MB 大小的链表，则不会有问题。
 
@@ -569,6 +786,7 @@ var mergeTwoLists = function (list1, list2) {
   return newHead.next;
 };
 ```
+
 :::
 
 ---
@@ -1435,46 +1653,44 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 链表基础题目
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) | `设计` `链表` | <font color=#ffb800>Medium</font> |
-| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) | `链表` | <font color=#15bd66>Esay</font> |
-| 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0082) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表` | <font color=#ffb800>Medium</font> |
-| 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) | `递归` `链表` | <font color=#ff334b>Hard</font> |
-| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0328) | `链表` | <font color=#ffb800>Medium</font> |
-| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
-| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0430) | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
-| 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) | `哈希表` `链表` | <font color=#ffb800>Medium</font> |
-| 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0061) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
+| 题号 | 标题                                                                                                |                              题解                               | 标签                             | 难度                              |
+| :--: | :-------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :------------------------------- | :-------------------------------- |
+| 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/)                                       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) | `设计` `链表`                    | <font color=#ffb800>Medium</font> |
+| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/)       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) | `链表`                           | <font color=#15bd66>Esay</font>   |
+| 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0082) | `链表` `双指针`                  | <font color=#ffb800>Medium</font> |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/)                                      | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表`                    | <font color=#15bd66>Esay</font>   |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/)                                | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表`                           | <font color=#ffb800>Medium</font> |
+| 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/)                         | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) | `递归` `链表`                    | <font color=#ff334b>Hard</font>   |
+| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/)                          | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) | `递归` `链表`                    | <font color=#15bd66>Esay</font>   |
+| 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/)                                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0328) | `链表`                           | <font color=#ffb800>Medium</font> |
+| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/)                                   | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) | `栈` `递归` `链表` `1+`          | <font color=#15bd66>Esay</font>   |
+| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)        | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0430) | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
+| 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/)                | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) | `哈希表` `链表`                  | <font color=#ffb800>Medium</font> |
+| 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/)                                              | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0061) | `链表` `双指针`                  | <font color=#ffb800>Medium</font> |
 
 #### 链表排序
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
-| 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | `链表` `排序` | <font color=#ffb800>Medium</font> |
+| 题号 | 标题                                                                      |                              题解                               | 标签                                | 难度                              |
+| :--: | :------------------------------------------------------------------------ | :-------------------------------------------------------------: | :---------------------------------- | :-------------------------------- |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/)                      | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) | `链表` `双指针` `分治` `2+`         | <font color=#ffb800>Medium</font> |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表`                       | <font color=#15bd66>Esay</font>   |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/)  | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font>   |
+| 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/)  |                                                                 | `链表` `排序`                       | <font color=#ffb800>Medium</font> |
 
 #### 链表双指针
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0142) | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
-| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0160) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
-| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | `递归` `链表` `数学` | <font color=#ffb800>Medium</font> |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
-
+|     题号      | 标题                                                                                                |                              题解                               | 标签                     | 难度                              |
+| :-----------: | :-------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :----------------------- | :-------------------------------- |
+|     0141      | [环形链表](https://leetcode.com/problems/linked-list-cycle/)                                        | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font>   |
+|     0142      | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/)                                  | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0142) | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
+|     0160      | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/)                         | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0160) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font>   |
+|     0019      | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)        | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) | `链表` `双指针`          | <font color=#ffb800>Medium</font> |
+|     0876      | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/)                          | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) | `链表` `双指针`          | <font color=#15bd66>Esay</font>   |
+| 剑指 Offer 22 | [链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |                                                                 | `链表` `双指针`          | <font color=#15bd66>Esay</font>   |
+|     0143      | [重排链表](https://leetcode.com/problems/reorder-list/)                                             | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) | `栈` `递归` `链表` `1+`  | <font color=#ffb800>Medium</font> |
+|     0002      | [两数相加](https://leetcode.com/problems/add-two-numbers/)                                          | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | `递归` `链表` `数学`     | <font color=#ffb800>Medium</font> |
+|     0445      | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/)                                    |                                                                 | `栈` `链表` `数学`       | <font color=#ffb800>Medium</font> |

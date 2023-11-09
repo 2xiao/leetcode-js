@@ -222,7 +222,7 @@ function genLeetCode() {
             "/leetcode/problem/0082.md",
             "/leetcode/problem/0083.md",
             "/leetcode/problem/0086.md",
-            "/leetcode/problem/0092.md",
+            "/leetcode/problem/0092.md"
           ],
         },
         {
@@ -243,7 +243,7 @@ function genLeetCode() {
             "/leetcode/problem/0160.md",
             "/leetcode/problem/0167.md",
             "/leetcode/problem/0189.md",
-            "/leetcode/problem/0190.md",
+            "/leetcode/problem/0190.md"
           ],
         },
         {
@@ -260,7 +260,7 @@ function genLeetCode() {
             "/leetcode/problem/0238.md",
             "/leetcode/problem/0259.md",
             "/leetcode/problem/0279.md",
-            "/leetcode/problem/0283.md",
+            "/leetcode/problem/0283.md"
           ],
         },
         {
@@ -271,7 +271,7 @@ function genLeetCode() {
             "/leetcode/solution/0300-0399.md",
             "/leetcode/problem/0328.md",
             "/leetcode/problem/0344.md",
-            "/leetcode/problem/0345.md",
+            "/leetcode/problem/0345.md"
           ],
         },
         {
@@ -284,7 +284,7 @@ function genLeetCode() {
             "/leetcode/problem/0438.md",
             "/leetcode/problem/0485.md",
             "/leetcode/problem/0496.md",
-            "/leetcode/problem/0498.md",
+            "/leetcode/problem/0498.md"
           ],
         },
         {
@@ -294,7 +294,7 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/0500-0599.md",
             "/leetcode/problem/0509.md",
-            "/leetcode/problem/0567.md",
+            "/leetcode/problem/0567.md"
           ],
         },
         {
@@ -304,7 +304,7 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/0600-0699.md",
             "/leetcode/problem/0611.md",
-            "/leetcode/problem/0622.md",
+            "/leetcode/problem/0622.md"
           ],
         },
         {
@@ -315,7 +315,7 @@ function genLeetCode() {
             "/leetcode/solution/0700-0799.md",
             "/leetcode/problem/0707.md",
             "/leetcode/problem/0724.md",
-            "/leetcode/problem/0739.md",
+            "/leetcode/problem/0739.md"
           ],
         },
         {
@@ -324,7 +324,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0800-0899.md",
-            "/leetcode/problem/0876.md",
+            "/leetcode/problem/0876.md"
           ],
         },
         {
@@ -333,7 +333,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/1000-1099.md",
-            "/leetcode/problem/1047.md",
+            "/leetcode/problem/1047.md"
           ],
         },
         {
@@ -342,7 +342,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Interviews.md",
-            "/leetcode/problem/i_03.01.md",
+            "/leetcode/problem/i_03.01.md"
           ],
         },
         {
@@ -351,7 +351,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Offer.md",
-            "/leetcode/problem/jz_offer_59_2.md",
+            "/leetcode/problem/jz_offer_59_2.md"
           ],
         },
         {
@@ -360,7 +360,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Offer-II.md",
-            "/leetcode/problem/jz_offer_II_055.md",
+            "/leetcode/problem/jz_offer_II_055.md"
           ],
         },
         {
@@ -369,9 +369,9 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/LCP.md",
-            "/leetcode/problem/LCP_53.md",
+            "/leetcode/problem/LCP_53.md"
           ],
-        }, // AUTO_GEN_CONFIG_END
+        },// AUTO_GEN_CONFIG_END
       ],
     },
   ];
