@@ -19,7 +19,7 @@ title: "目录"
 - [1.3 LeetCode 题解](./outline/2_solution_list.md)
 - [1.4 LeetCode 题解（分类）](./outline/3_categories_list.md)
 - [1.5 LeetCode 题解（标签）](./outline/4_tag_list.md)
-- [1.6 面试经典200题](./outline/5_top_200_list.md)
+- [1.6 面试经典 200 题](./outline/5_top_200_list.md)
 - [1.7 热题频次排行榜](./outline/6_frequency_list.md)
 - [1.8 热门企业题库](./outline/7_company_list.md)
 
@@ -32,7 +32,8 @@ title: "目录"
 - [2.5 哈希表](./ds/4_hash_table.md)
 - [2.6 字符串](./ds/5_string.md)
 - [2.7 树](./ds/6_tree.md)
-- [2.8 图](./ds/7_graph.md)
+- [2.8 堆](./ds/7_heap.md)
+- [2.9 图](./ds/8_graph.md)
 
 ### 第三章 算法专题
 
@@ -62,7 +63,7 @@ title: "目录"
 
 电子书地址：[https://2xiao.github.io/leetcode-js/leetcode](https://2xiao.github.io/leetcode-js/leetcode)
 
-Github地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
+Github 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
 
 按题号可以搜索到题目，每道题分四个部分解析：题目、题目大意、解题思路、代码。
 

@@ -86,32 +86,28 @@ class ArrayQueue {
   count() {
     return this._queue.length;
   }
+  // 将队列中元素以字符串形式返回
+  toString() {
+    return this._queue.join(",");
+  }
 }
 ```
 
-::: details 点击查看示例：
+::: details 点击查看代码测试：
 
 ```javascript
 const queue = new ArrayQueue();
 queue.enQueue(1);
 queue.enQueue(2);
 queue.enQueue(3);
-queue.print();
-console.log("队头：", queue.front());
-console.log("队尾：", queue.rear());
+queue.print(); // output: [1, 2, 3]
+console.log(queue.front()); // output: 1
+console.log(queue.rear()); // output: 3
 queue.deQueue();
-queue.print();
-console.log("队列中元素数量为：", queue.count());
-queue.clear();
-console.log("是否为空队：", queue.isEmpty());
-
-// 打印结果：
-// [1, 2, 3]
-// 队头： 1
-// 队尾： 3
-// [2, 3]
-// 队列中元素数量为：2
-// 是否为空队： true
+queue.print(); // output: [2, 3]
+console.log(queue.count()); // output: 2
+console.log(queue.isEmpty()); // output: false
+console.log(queue.toString()); // output: 2,3
 ```
 
 :::
@@ -143,7 +139,8 @@ class LinkedListQueue {
     this.length = 0;
   }
   // 入队
-  enQueue(node) {
+  enQueue(data) {
+    const node = new Node(data);
     if (this.isEmpty()) {
       this.head = node;
       this.tail = node;
@@ -196,29 +193,35 @@ class LinkedListQueue {
   count() {
     return this.length;
   }
+  // 将队列中元素以字符串形式返回
+  toString() {
+    let res = [];
+    let prev = this.head;
+    while (prev) {
+      res.push(prev.data);
+      prev = prev.next;
+    }
+    return res.join(",");
+  }
 }
 ```
 
-::: details 点击查看示例：
+::: details 点击查看代码测试：
 
 ```javascript
 const queue = new LinkedListQueue();
-queue.enQueue(new Node(1));
-queue.enQueue(new Node(2));
-queue.enQueue(new Node(3));
+queue.enQueue(1);
+queue.enQueue(2);
+queue.enQueue(3);
 queue.deQueue();
 queue.print();
-console.log("队列中元素数量为：", queue.count());
-console.log("队头：", queue.front());
-console.log("队尾：", queue.rear());
-console.log("是否为空队：", queue.isEmpty());
+// output: Node {data: 2, next: Node {data: 3, next: null}}
 
-// 打印结果：
-// Node {data: 2, next: Node {data: 3, next: null}}
-// 队列中元素数量为：2
-// 队头： 2
-// 队尾： 3
-// 是否为空队： false
+console.log(queue.count()); // output: 2
+console.log(queue.front()); // output: 2
+console.log(queue.rear()); // output: 3
+console.log(queue.isEmpty()); // output: false
+console.log(queue.toString()); // output: 2,3
 ```
 
 :::
@@ -246,6 +249,8 @@ console.log("是否为空队：", queue.isEmpty());
 ::: tip
 [622. 设计循环队列 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0622.html)
 :::
+
+#### ① 题目大意
 
 设计循环队列，支持如下操作：
 
@@ -277,6 +282,8 @@ circularQueue.Rear();  // 返回 4
 - 所有的值都在 `0` 至 `1000` 的范围内；
 - 操作数将在 `1` 至 `1000` 的范围内；
 - 请不要使用内置的队列库。
+
+#### ② 代码
 
 ```javascript
 /**
@@ -348,7 +355,286 @@ MyCircularQueue.prototype.isFull = function () {
 };
 ```
 
----
+## 优先队列
+
+::: tip
+**优先队列（Priority Queue）** ：一种特殊的队列。在优先队列中，元素被赋予优先级，当访问队列元素时，具有最高优先级的元素最先删除。
+:::
+
+优先队列与普通队列最大的不同点在于 **出队顺序**。
+
+- 普通队列的出队顺序跟入队顺序相关，符合 **先进先出（First in, First out）** 的规则；
+- 优先队列的出队顺序跟入队顺序无关，优先队列是按照元素的优先级来决定出队顺序的。优先级高的元素优先出队，优先级低的元素后出队。优先队列符合 **最高级先出（First in, Largest out）** 的规则；
+
+优先队列的实现方式有很多种，除了使用 **数组** 实现（顺序存储）与 **链表** 实现（链式存储）之外，最常用的是使用 **二叉堆** 实现。
+
+### 数组实现优先队列
+
+数组按优先级升序排序（ `priority` 值越小，优先级越高），入队需要遍历整个数组，插入到合适的位置，时间复杂度为 `O(n)`。出队直接返回队头元素，并删除队头元素，时间复杂度为 `O(1)`；
+
+```javascript
+// 优先队列内部的元素类
+class QueueElement {
+  constructor(element, priority) {
+    this.element = element;
+    this.priority = priority;
+  }
+}
+
+// 优先队列类（继承 ArrayQueue 类）
+class PriorityQueue extends ArrayQueue {
+  constructor() {
+    super();
+  }
+
+  // 入队，将元素按优先级加入到队列中
+  // 重写 enQueue()
+  enQueue(element, priority) {
+    // 根据传入的元素，创建 QueueElement 对象
+    const queueElement = new QueueElement(element, priority);
+
+    // 判断队列是否为空
+    if (this.isEmpty()) {
+      // 如果为空，不用判断优先级，直接添加
+      this._queue.push(queueElement);
+    } else {
+      // 定义一个变量记录是否成功添加了新元素
+      let added = false;
+
+      for (let i = 0; i < this._queue.length; i++) {
+        // 让新插入的元素进行优先级比较，priority 值越小，优先级越大
+        if (queueElement.priority < this._queue[i].priority) {
+          // 在指定的位置插入元素
+          this._queue.splice(i, 0, queueElement);
+          added = true;
+          break;
+        }
+      }
+
+      // 如果遍历完所有元素，优先级都大于新插入的元素，就将新插入的元素插入到最后
+      if (!added) {
+        this._queue.push(queueElement);
+      }
+    }
+  }
+  // 将队列中元素以字符串形式返回
+  // 重写 toString()
+  toString() {
+    let res = [];
+    for (let item of this._queue) {
+      res.push(item.element + "-" + item.priority);
+    }
+    return res.join(",");
+  }
+  // 其他属性继承 ArrayQueue 类的
+  // 出队，从队列中删除前端元素，返回删除的元素
+  deQueue() {
+    return super.deQueue();
+  }
+
+  // 查看队列是否为空
+  isEmpty() {
+    return super.isEmpty();
+  }
+
+  // 查看队列的前端元素
+  front() {
+    return super.front();
+  }
+
+  // 查看队尾元素
+  rear() {
+    return super.rear();
+  }
+
+  // 清空队列
+  clear() {
+    return super.clear();
+  }
+
+  // 打印队列
+  print() {
+    return super.print();
+  }
+
+  // 查看队列中元素的个数
+  count() {
+    return super.count();
+  }
+}
+```
+
+::: details 点击查看代码测试：
+
+```javascript
+const priorityQueue = new PriorityQueue();
+
+priorityQueue.enQueue("A", 10);
+priorityQueue.enQueue("B", 15);
+priorityQueue.enQueue("C", 11);
+priorityQueue.enQueue("D", 20);
+priorityQueue.enQueue("E", 18);
+priorityQueue.print();
+// output: [QueueElement {element: 'A', priority: 10}, QueueElement {element: 'C', priority: 11}, QueueElement {element: 'B', priority: 15}, QueueElement {element: 'E', priority: 18}, QueueElement {element: 'D', priority: 20}]
+
+priorityQueue.deQueue();
+priorityQueue.deQueue();
+priorityQueue.print();
+// output: [QueueElement {element: 'B', priority: 15}, QueueElement {element: 'E', priority: 18}, QueueElement {element: 'D', priority: 20}]
+
+console.log(priorityQueue.isEmpty()); // output: false
+console.log(priorityQueue.count()); // output: 3
+console.log(priorityQueue.toString()); // output: B-15,E-18,D-20
+```
+
+:::
+
+### 链表实现优先队列
+
+链表中的元素按照优先级排序，入队操作需要为待插入元素创建节点，并在链表中找到合适的插入位置，时间复杂度为 `O(n)`。出队操作直接返回链表队头元素，并删除队头元素，时间复杂度为 `O(1)`；
+
+```javascript
+class Node {
+  constructor(data, priority) {
+    this.data = data;
+    this.next = null;
+    this.priority = priority;
+  }
+}
+// 优先队列类（继承 LinkedListQueue 类）
+class PriorityQueue extends LinkedListQueue {
+  constructor() {
+    super();
+  }
+  // 入队，将元素按优先级加入到队列中
+  // 重写 enQueue()
+  enQueue(data, priority) {
+    const node = new Node(data, priority);
+    if (this.isEmpty()) {
+      this.head = node;
+      this.tail = node;
+    } else {
+      let prev = new Node(0, 0);
+      prev.next = this.head;
+      // 定义一个变量记录是否成功添加了新元素
+      let added = false;
+      for (let i = 0; i < this.length; i++) {
+        if (node.priority < prev.next.priority && !added) {
+          let temp = prev.next;
+          prev.next = node;
+          node.next = temp;
+          prev = node;
+          added = true;
+        }
+        prev = prev.next;
+        this.tail = prev;
+      }
+
+      // 如果遍历完所有元素，优先级都大于新插入的元素，就将新插入的元素插入到最后
+      if (!added) {
+        this.tail.next = node;
+        this.tail = this.tail.next;
+      }
+    }
+    this.length++;
+  }
+  // 将队列中元素以字符串形式返回
+  toString() {
+    let res = [];
+    let prev = this.head;
+    while (prev) {
+      res.push(prev.data + "-" + prev.priority);
+      prev = prev.next;
+    }
+    return res.join(",");
+  }
+
+  // 其他属性都继承 LinkedListQueue 类
+  // 出队，从队列中删除前端元素，返回删除的元素
+  deQueue() {
+    return super.deQueue();
+  }
+  // 判断是否为空队
+  isEmpty() {
+    return super.isEmpty();
+  }
+  // 查看队头元素
+  front() {
+    return super.front();
+  }
+  // 查看队尾元素
+  rear() {
+    return super.rear();
+  }
+  // 清空队列
+  clear() {
+    return super.clear();
+  }
+  // 打印队列
+  print() {
+    return super.print();
+  }
+  // 获取队列中元素的数量
+  count() {
+    return super.count();
+  }
+}
+```
+
+::: details 点击查看代码测试：
+
+```javascript
+const priorityQueue = new PriorityQueue();
+
+priorityQueue.enQueue("A", 10);
+priorityQueue.enQueue("B", 15);
+priorityQueue.enQueue("C", 11);
+priorityQueue.enQueue("D", 20);
+priorityQueue.enQueue("E", 18);
+priorityQueue.print();
+// output:
+// Node {data: 'A', priority: 10, next: Node {
+//         data: 'C', priority: 11, next: Node {
+//           data: 'B', priority: 15, next: Node {
+//             data: 'E', priority: 18, next: Node {
+//               data: 'D', priority: 20, next: null }}}}}
+
+priorityQueue.deQueue();
+priorityQueue.deQueue();
+priorityQueue.print();
+// output:
+// Node {data: 'B', priority: 15, next: Node {
+//         data: 'E', priority: 18, next: Node {
+//           data: 'D', priority: 20, next: null }}}
+
+console.log(priorityQueue.isEmpty()); // output: false
+console.log(priorityQueue.count()); // output: 3
+console.log(priorityQueue.toString()); // output: B-15,E-18,D-20
+```
+
+:::
+
+#### 二叉堆实现优先队列
+
+构建一个二叉堆结构，二叉堆按照优先级进行排序。入队操作就是将元素插入到二叉堆中合适位置，时间复杂度为 `O(logn)`。出队操作则返回二叉堆中优先级最大节点并删除，时间复杂度也是 `O(logn)`；
+
+关于二叉堆的讲解，详见：2.8 堆。
+
+```javascript
+
+```
+
+#### 时间复杂度
+
+三种结构实现的优先队列，入队操作和出队操作的时间复杂度总结：
+
+| 时间复杂度 |   入队    |   出队    |
+| :--------: | :-------: | :-------: |
+|    数组    |  `O(n)`   |  `O(1)`   |
+|    链表    |  `O(n)`   |  `O(1)`   |
+|   二叉堆   | `O(logn)` | `O(logn)` |
+
+## 队列的应用
 
 ### 阻塞队列
 
@@ -356,38 +642,40 @@ MyCircularQueue.prototype.isFull = function () {
 
 ### 并发队列
 
----
-
 ### 优先队列
 
-## 队列的应用
+优先队列的应用场景非常多，比如：
 
-<!-- START TABLE -->
-<!-- Please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
-
+- 数据压缩：赫夫曼编码算法；
+- 最短路径算法：Dijkstra 算法；
+- 最小生成树算法：Prim 算法；
+- 任务调度器：根据优先级执行系统任务；
+- 事件驱动仿真：顾客排队算法；
+- 排序问题：查找第 k 个最小元素；
+  <!-- START TABLE -->
+  <!-- Please keep comment here to allow auto update -->
+  <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
 ## 相关题目
 
 #### 队列基础题目
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
-| 0346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream/) |  | `设计` `队列` `数组` `1+` | <font color=#15bd66>Esay</font> |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 题号 | 标题                                                                                   |                              题解                               | 标签                      | 难度                              |
+| :--: | :------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :------------------------ | :-------------------------------- |
+| 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/)                   | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
+| 0346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream/) |                                                                 | `设计` `队列` `数组` `1+` | <font color=#15bd66>Esay</font>   |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/)            |                                                                 | `栈` `设计` `队列`        | <font color=#15bd66>Esay</font>   |
 
 #### 优先队列
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/) |  | `树` `设计` `二叉搜索树` `3+` | <font color=#15bd66>Esay</font> |
-| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  | `数组` `哈希表` `分治` `5+` | <font color=#ffb800>Medium</font> |
-| 0451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency/) |  | `哈希表` `字符串` `桶排序` `3+` | <font color=#ffb800>Medium</font> |
-| 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/) |  | `几何` `数组` `数学` `4+` | <font color=#ffb800>Medium</font> |
-| 1296 | [划分数组为连续数字的集合](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) |  | `贪心` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | `队列` `数组` `滑动窗口` `2+` | <font color=#ff334b>Hard</font> |
-| 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) |  | `设计` `双指针` `数据流` `2+` | <font color=#ff334b>Hard</font> |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
-| 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-
+| 题号 | 标题                                                                                                     |                              题解                               | 标签                                | 难度                              |
+| :--: | :------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :---------------------------------- | :-------------------------------- |
+| 0703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/)                  |                                                                 | `树` `设计` `二叉搜索树` `3+`       | <font color=#15bd66>Esay</font>   |
+| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/)                                |                                                                 | `数组` `哈希表` `分治` `5+`         | <font color=#ffb800>Medium</font> |
+| 0451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency/)                      |                                                                 | `哈希表` `字符串` `桶排序` `3+`     | <font color=#ffb800>Medium</font> |
+| 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/)                         |                                                                 | `几何` `数组` `数学` `4+`           | <font color=#ffb800>Medium</font> |
+| 1296 | [划分数组为连续数字的集合](https://leetcode.com/problems/divide-array-in-sets-of-k-consecutive-numbers/) |                                                                 | `贪心` `数组` `哈希表` `1+`         | <font color=#ffb800>Medium</font> |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/)                                  |                                                                 | `队列` `数组` `滑动窗口` `2+`       | <font color=#ff334b>Hard</font>   |
+| 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/)                            |                                                                 | `设计` `双指针` `数据流` `2+`       | <font color=#ff334b>Hard</font>   |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/)                                 | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font>   |
+| 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/)                                         |                                                                 | `树状数组` `线段树` `数组` `4+`     | <font color=#ff334b>Hard</font>   |

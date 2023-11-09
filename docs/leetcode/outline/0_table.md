@@ -12,11 +12,11 @@
 
 你并不需要掌握图里面的所有知识点。很多高级的数据结构与算法，比如二分图、最大流等，在我们平常的开发中很少会用到。
 
-我总结了 19 个最常用、最基础的数据结构与算法，不管是应付面试还是工作需要，只要集中精力逐一攻克这 19 个知识点就足够了。
+我总结了 20 个最常用、最基础的数据结构与算法，不管是应付面试还是工作需要，只要集中精力逐一攻克这 20 个知识点就足够了。
 
 ::: tip
 
-- **8 个数据结构**：[数组](../ds/0_array.md)、[链表](../ds/1_linked_list.md)、[栈](../ds/2_stack.md)、[队列](../ds/3_queue.md)、[哈希表](../ds/4_hash_table.md)、[字符串](../ds/5_string.md)、[树](../ds/6_tree.md)、[图](../ds/7_graph.md);
+- **9 个数据结构**：[数组](../ds/0_array.md)、[链表](../ds/1_linked_list.md)、[栈](../ds/2_stack.md)、[队列](../ds/3_queue.md)、[哈希表](../ds/4_hash_table.md)、[字符串](../ds/5_string.md)、[树](../ds/6_tree.md)、[堆](../ds/7_heap.md)、[图](../ds/8_graph.md);
 
 - **11 个算法**：[枚举算法](../algorithm/0_enumeration.md)、[递归算法](../algorithm/1_recursion.md)、[分治算法](../algorithm/2_divide_conquer.md)、[回溯算法](../algorithm/3_backtracking.md)、[贪心算法](../algorithm/4_greed.md)、[动态规划](../algorithm/5_dynamic_programming.md)、[位运算](../algorithm/6_bit.md)、[排序算法](../algorithm/7_sort.md)、[二分查找](../algorithm/8_binary_search.md)、[双指针](../algorithm/9_two_pointer.md)、[滑动窗口](../algorithm/10_slide_window.md);
   :::
@@ -35,7 +35,7 @@ LeetCode 题目虽然多，但如果分类别来看，其实也没多少，很�
 
 建议采用“**分类知识学习** + **核心题目** + **反复训练** + **融会贯通**”的系统性学习方法。
 
-我整理了 [**面试经典200题**](../outline/4_top_200_list.md) 和 [**LeetCode 题解（分类）**](../outline/3_categories_list.md)，建议先从这些题入手，分类别练习，点击标题可以跳转到LeetCode对应答题页面，点击题解（JS）可以查看我的答题思路和代码，遇到不熟悉的知识点可以去对应的知识点精讲学习。
+我整理了 [**面试经典 200 题**](../outline/4_top_200_list.md) 和 [**LeetCode 题解（分类）**](../outline/3_categories_list.md)，建议先从这些题入手，分类别练习，点击标题可以跳转到 LeetCode 对应答题页面，点击题解（JS）可以查看我的答题思路和代码，遇到不熟悉的知识点可以去对应的知识点精讲学习。
 
 掌握了这十几种常见算法类型的基本原理和思路，就对数据结构与算法有了一个大体的了解，即便出现很多新题，大多也能用现有知识体系去化解。
 
