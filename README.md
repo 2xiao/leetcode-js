@@ -28,7 +28,7 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 - [1.3 LeetCode 题解](https://2xiao.github.io/leetcode-js/leetcode/outline/2_solution_list)
 - [1.4 LeetCode 题解（分类）](https://2xiao.github.io/leetcode-js/leetcode/outline/3_categories_list)
 - [1.5 LeetCode 题解（标签）](https://2xiao.github.io/leetcode-js/leetcode/outline/4_tag_list)
-- [1.6 面试经典200题](https://2xiao.github.io/leetcode-js/leetcode/outline/5_top_200_list)
+- [1.6 面试经典 200 题](https://2xiao.github.io/leetcode-js/leetcode/outline/5_top_200_list)
 - [1.7 热题频次排行榜](https://2xiao.github.io/leetcode-js/leetcode/outline/6_frequency_list)
 - [1.8 热门企业题库](https://2xiao.github.io/leetcode-js/leetcode/outline/7_company_list)
 
@@ -41,7 +41,8 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 - [2.5 哈希表](https://2xiao.github.io/leetcode-js/leetcode/ds/4_hash_table)
 - [2.6 字符串](https://2xiao.github.io/leetcode-js/leetcode/ds/5_string)
 - [2.7 树](https://2xiao.github.io/leetcode-js/leetcode/ds/6_tree)
-- [2.8 图](https://2xiao.github.io/leetcode-js/leetcode/ds/7_graph)
+- [2.8 堆](https://2xiao.github.io/leetcode-js/leetcode/ds/7_heap)
+- [2.9 图](https://2xiao.github.io/leetcode-js/leetcode/ds/8_graph)
 
 ### 第三章 算法专题
 
