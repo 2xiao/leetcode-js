@@ -566,7 +566,7 @@ console.log(priorityQueue.toString()); // output: B-15,E-18,D-20
 关于二叉堆的知识点，详见：[2.8 堆](./7_heap.md)。
 
 ```javascript
-
+// TODO: 二叉堆实现
 ```
 
 #### 时间复杂度
@@ -580,6 +580,8 @@ console.log(priorityQueue.toString()); // output: B-15,E-18,D-20
 |   二叉堆   | `O(logn)` | `O(logn)` |
 
 ## 优先队列的应用
+
+<!-- TODO: 优先队列的应用 -->
 
 优先队列的应用场景非常多，比如：
 

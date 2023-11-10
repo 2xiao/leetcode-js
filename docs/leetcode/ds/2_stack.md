@@ -207,7 +207,7 @@ console.log(stack.count()); // output: 2
 ::: details 点击查看代码
 
 ```javascript
-
+// TODO: add code
 ```
 
 :::
@@ -398,12 +398,36 @@ function add(x, y) {
 
 #### ② 解题思路
 
+- 使用单调递增栈；
+- 因为 `nums1` 是 `nums2` 的子集，所以我们可以先遍历一遍 `nums2`，并构造单调递增栈；
+- 求出 `nums2` 中每个元素右侧下一个更大的元素，然后将其存储到哈希表中；
+- 再遍历一遍 `nums1`，从哈希表中取出对应结果，存放到答案数组中；
+- 这种解法的时间复杂度是 `O(n)`。
+
 #### ③ 代码
 
 ::: details 点击查看代码
 
 ```javascript
-
+/**
+ * @param {number[]} nums1
+ * @param {number[]} nums2
+ * @return {number[]}
+ */
+var nextGreaterElement = function (nums1, nums2) {
+  let map = new Map();
+  let stack = [];
+  for (let num of nums2) {
+    while (stack.length && stack[stack.length - 1] < num) {
+      map.set(stack.pop(), num);
+    }
+    stack.push(num);
+  }
+  for (let i = 0; i < nums1.length; i++) {
+    nums1[i] = map.has(nums1[i]) ? map.get(nums1[i]) : -1;
+  }
+  return nums1;
+};
 ```
 
 :::
@@ -437,12 +461,38 @@ function add(x, y) {
 
 #### ② 解题思路
 
+- 使用单调递增栈；
+- 先遍历一遍 `temperatures`，并构造单调递增栈，栈中保存元素对应的 `index`；
+- 求出 `temperatures` 中每个元素右侧下一个更大的元素，然后将其对应的 `index` 存储到哈希表中；
+- 然后再遍历一遍 `temperatures`，从哈希表中取出对应结果，将差值 `value - key` 存放到答案数组中；
+- 这种解法的时间复杂度是 `O(n)`。
+
 #### ③ 代码
 
 ::: details 点击查看代码
 
 ```javascript
-
+/**
+ * @param {number[]} temperatures
+ * @return {number[]}
+ */
+var dailyTemperatures = function (temperatures) {
+  let map = new Map();
+  let stack = [];
+  for (let i = 0; i < temperatures.length; i++) {
+    while (
+      stack.length &&
+      temperatures[stack[stack.length - 1]] < temperatures[i]
+    ) {
+      map.set(stack.pop(), i);
+    }
+    stack.push(i);
+  }
+  for (let i = 0; i < temperatures.length; i++) {
+    temperatures[i] = map.has(i) ? map.get(i) - i : 0;
+  }
+  return temperatures;
+};
 ```
 
 :::
