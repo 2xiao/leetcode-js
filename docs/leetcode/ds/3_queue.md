@@ -12,7 +12,7 @@
 
 队列跟栈一样，也是一种操作受限的线性表数据结构，栈只支持两个基本操作：**入栈** `push()` 和**出栈** `pop()`。队列最基本的操作也是两个：**入队** `enQueue()`，放一个数据到队列尾部；**出队** `deQueue()`，从队列头部取一个元素。
 
-![](../../../assets/images/9eca53f9b557b1213c5d94b94e9dce3e.png)
+![](../../../assets/images/2-4-1.png)
 
 我们把队列中允许插入的一端称为 **队尾（rear）**；把允许删除的另一端称为 **队头（front）**。当表中没有任何数据元素时，称之为 **空队**。
 
@@ -123,7 +123,7 @@ console.log(queue.toString()); // output: 2,3
 - 入队时：`tail.next= new_node, tail = tail.next`
 - 出队时：`head = head.next`
 
-![](../../../assets/images/c916fe2212f8f543ddf539296444d393.png)
+![](../../../assets/images/2-4-2.png)
 
 ```javascript
 class Node {
@@ -238,11 +238,11 @@ console.log(queue.toString()); // output: 2,3
 
 当队尾指针指向最右边时，即使在队列前面仍有空闲空间，也无法继续往队列中添加数据了，之前因为出队操作而产生空余位置没有利用上，这就造成了 **假溢出** 问题。
 
-![](../../../assets/images/dea27f2c505dd8d0b6b86e262d03430d.png)
+![](../../../assets/images/2-4-3.png)
 
 为了解决这个问题，我们可以将队列想象成为头尾相连的循环表。原本数组是有头有尾的，是一条直线。把首尾相连之后，被扳成了一个环，利用数学中的求模运算，我们能使用这些前面的空闲空间去存储新的值。
 
-![](../../../assets/images/71a41effb54ccea9dd463bde1b6abe80.png)
+![](../../../assets/images/2-4-4.png)
 
 #### 相关题目
 

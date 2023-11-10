@@ -8,7 +8,7 @@
 
 :::
 
-![](../../../assets/images/3e20cca032c25168d3cc605fa7a53a0b.png)
+![](../../../assets/images/2-3-1.png)
 
 栈是一种 **后进先出（Last In First Out）** 的线性表，简称为 LIFO 结构。
 
@@ -194,13 +194,13 @@ console.log(stack.count()); // output: 2
 
 #### ② 解题思路
 
-通过两个栈来实现。其中一个保存操作数的栈，另一个是保存运算符的栈。从左向右遍历表达式，当遇到数字，我们就直接压入操作数栈；当遇到运算符，就与运算符栈的栈顶元素进行比较。
+通过两个栈来实现。其中一个是保存操作数的栈，另一个是保存运算符的栈。从左向右遍历表达式，当遇到数字，我们就直接压入操作数栈；当遇到运算符，就与运算符栈的栈顶元素进行比较。
 
 如果比运算符栈顶元素的优先级高，就将当前运算符压入栈；如果比运算符栈顶元素的优先级低或者相同，从运算符栈中取栈顶运算符，从操作数栈的栈顶取 2 个操作数，然后进行计算，再把计算完的结果压入操作数栈，继续比较。
 
 比如：`3 + 5 * 8 - 6`：
 
-![](../../../assets/images/bc77c8d33375750f1700eb7778551600.png)
+![](../../../assets/images/2-3-2.png)
 
 #### ③ 代码
 
@@ -315,7 +315,7 @@ function add(x, y) {
 
 从代码中可以看出，main()函数调用了 add()函数，获取计算结果，并且与临时变量 a 相加，最后打印 res 的值。在执行到 add()函数时，函数调用栈的情况如下所示：
 
-![](../../../assets/images/17b6c6711e8d60b61d65fb0df5559a1c.png)
+![](../../../assets/images/2-3-3.png)
 
 ---
 
@@ -501,37 +501,35 @@ var dailyTemperatures = function (temperatures) {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 栈基础题目
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
-| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
-| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
-| 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | `栈` `数组` `数学` | <font color=#ffb800>Medium</font> |
-| 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
-| 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  | `栈` `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
-| 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
-| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+|     题号      | 标题                                                                                                    |                              题解                               | 标签                     | 难度                              |
+| :-----------: | :------------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------: | :----------------------- | :-------------------------------- |
+|     1047      | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串`            | <font color=#15bd66>Esay</font>   |
+|     0155      | [最小栈](https://leetcode.com/problems/min-stack/)                                                      |                                                                 | `栈` `设计`              | <font color=#ffb800>Medium</font> |
+|     0020      | [有效的括号](https://leetcode.com/problems/valid-parentheses/)                                          | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串`            | <font color=#15bd66>Esay</font>   |
+|     0227      | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/)                                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | `栈` `数学` `字符串`     | <font color=#ffb800>Medium</font> |
+|     0739      | [每日温度](https://leetcode.com/problems/daily-temperatures/)                                           | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈`     | <font color=#ffb800>Medium</font> |
+|     0150      | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/)                     |                                                                 | `栈` `数组` `数学`       | <font color=#ffb800>Medium</font> |
+|     0232      | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/)                             |                                                                 | `栈` `设计` `队列`       | <font color=#15bd66>Esay</font>   |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/)              |                                                                 | `栈` `设计` `队列`       | <font color=#15bd66>Esay</font>   |
+|     0394      | [字符串解码](https://leetcode.com/problems/decode-string/)                                              |                                                                 | `栈` `递归` `字符串`     | <font color=#ffb800>Medium</font> |
+|     0032      | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/)                                |                                                                 | `栈` `字符串` `动态规划` | <font color=#ff334b>Hard</font>   |
+|     0946      | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/)                                   |                                                                 | `栈` `数组` `模拟`       | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/)                |                                                                 | `栈` `递归` `链表` `1+`  | <font color=#15bd66>Esay</font>   |
+|     0071      | [简化路径](https://leetcode.com/problems/simplify-path/)                                                |                                                                 | `栈` `字符串`            | <font color=#ffb800>Medium</font> |
 
 #### 单调栈
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
-| 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  | `栈` `设计` `数据流` `1+` | <font color=#ffb800>Medium</font> |
-| 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  | `栈` `数组` `单调栈` | <font color=#ff334b>Hard</font> |
-| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
-| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | `栈` `数组` `双指针` `2+` | <font color=#ff334b>Hard</font> |
-| 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | `栈` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
-
+| 题号 | 标题                                                                                |                              题解                               | 标签                        | 难度                              |
+| :--: | :---------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :-------------------------- | :-------------------------------- |
+| 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/)                       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈`        | <font color=#ffb800>Medium</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/)           | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+`   | <font color=#15bd66>Esay</font>   |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/)         |                                                                 | `栈` `数组` `单调栈`        | <font color=#ffb800>Medium</font> |
+| 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/)                    |                                                                 | `栈` `设计` `数据流` `1+`   | <font color=#ffb800>Medium</font> |
+| 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |                                                                 | `栈` `数组` `单调栈`        | <font color=#ff334b>Hard</font>   |
+| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/)             |                                                                 | `栈` `贪心` `字符串` `1+`   | <font color=#ffb800>Medium</font> |
+| 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/)                        |                                                                 | `栈` `数组` `双指针` `2+`   | <font color=#ff334b>Hard</font>   |
+| 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/)                        |                                                                 | `栈` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font>   |
