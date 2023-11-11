@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
-    "lc": "cd ./assets/scripts & py ./create_table.py"
+    "lc": "cd ./assets/scripts & py ./entrance.py"
   },
 "dependencies": {
     "element-ui": "^2.10.1"

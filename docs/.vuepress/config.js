@@ -313,6 +313,8 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0700-0799.md",
+            "/leetcode/problem/0705.md",
+            "/leetcode/problem/0706.md",
             "/leetcode/problem/0707.md",
             "/leetcode/problem/0724.md",
             "/leetcode/problem/0739.md"

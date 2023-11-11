@@ -106,8 +106,8 @@ table th:nth-of-type(5) { width: 10%; }
 | 0535 | [TinyURL 的加密与解密](https://leetcode.com/problems/encode-and-decode-tinyurl/) |  | `设计` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree/) |  | `树` `深度优先搜索` `二叉树` `2+` | <font color=#15bd66>Esay</font> |
 | 0694 | [不同岛屿的数量](https://leetcode.com/problems/number-of-distinct-islands/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
-| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
-| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
+| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
+| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0711 | [不同岛屿的数量 II](https://leetcode.com/problems/number-of-distinct-islands-ii/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ff334b>Hard</font> |
 | 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | `数组` `二分查找` `动态规划` `3+` | <font color=#ffb800>Medium</font> |
 | 1044 | [最长重复子串](https://leetcode.com/problems/longest-duplicate-substring/) |  | `字符串` `二分查找` `后缀数组` `3+` | <font color=#ff334b>Hard</font> |

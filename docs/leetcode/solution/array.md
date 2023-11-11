@@ -399,8 +399,8 @@ table th:nth-of-type(5) { width: 10%; }
 | 0699 | [掉落的方块](https://leetcode.com/problems/falling-squares/) |  | `线段树` `数组` `有序集合` | <font color=#ff334b>Hard</font> |
 | 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  | `数组` `二分查找` `交互` | <font color=#ffb800>Medium</font> |
 | 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
-| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
+| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
+| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0710 | [黑名单中的随机数](https://leetcode.com/problems/random-pick-with-blacklist/) |  | `数组` `哈希表` `数学` `3+` | <font color=#ff334b>Hard</font> |
 | 0713 | [乘积小于 K 的子数组](https://leetcode.com/problems/subarray-product-less-than-k/) |  | `数组` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 0714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |  | `贪心` `数组` | <font color=#ffb800>Medium</font> |

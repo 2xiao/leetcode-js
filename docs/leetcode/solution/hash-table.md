@@ -224,8 +224,8 @@ table th:nth-of-type(5) { width: 10%; }
 | 0692 | [前K个高频单词](https://leetcode.com/problems/top-k-frequent-words/) |  | `字典树` `哈希表` `字符串` `4+` | <font color=#ffb800>Medium</font> |
 | 0694 | [不同岛屿的数量](https://leetcode.com/problems/number-of-distinct-islands/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
 | 0697 | [数组的度](https://leetcode.com/problems/degree-of-an-array/) |  | `数组` `哈希表` | <font color=#15bd66>Esay</font> |
-| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
-| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
+| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
+| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0710 | [黑名单中的随机数](https://leetcode.com/problems/random-pick-with-blacklist/) |  | `数组` `哈希表` `数学` `3+` | <font color=#ff334b>Hard</font> |
 | 0711 | [不同岛屿的数量 II](https://leetcode.com/problems/number-of-distinct-islands-ii/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ff334b>Hard</font> |
 | 0720 | [词典中最长的单词](https://leetcode.com/problems/longest-word-in-dictionary/) |  | `字典树` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
