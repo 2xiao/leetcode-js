@@ -345,6 +345,8 @@ function add(x, y) {
 
 最终栈中元素为 `[7, 6]`。
 
+---
+
 ### 单调递减栈
 
 **单调递减栈**：只有比栈顶元素大的元素才能直接进栈，否则需要先将栈中比当前元素大的元素出栈，再将当前元素入栈。
@@ -364,6 +366,8 @@ function add(x, y) {
 | `6` 入栈|`[2, 4, 6]`|
 
 最终栈中元素为 `[2, 4, 6]`。
+
+---
 
 ### 单调栈的应用
 
@@ -431,6 +435,8 @@ var nextGreaterElement = function (nums1, nums2) {
 ```
 
 :::
+
+---
 
 ::: tip
 [739. 每日温度 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0739.html)

@@ -997,8 +997,6 @@ lRUCache.get(4);    // 返回 4
 
 #### ② 解题思路
 
-`LRU` 是 `Least Recently Used` 的缩写，即最近最少使用，是一种常用的页面置换算法，选择最久未使用的页面予以淘汰。
-
 ![](../../../assets/images/2-2-7.png)
 
 可以维护一个有序单链表，越靠近链表尾部的节点是越早之前访问的。如上图所示：
@@ -1012,23 +1010,94 @@ lRUCache.get(4);    // 返回 4
 可以发现，LRU 更新和插入新节点都发生在链首，删除数据都发生在链尾。
 
 `LRUCache` 类有两个方法：
-- `get` 当有一个新的数据被访问时，从链表头开始顺序遍历链表：
-  - 如果此数据之前已经被缓存在链表中了，遍历得到这个数据对应的节点，并将其从原来的位置删除，然后再插入到链表的头部；
+
+- `get` 当有一个新的数据被访问时：
+  - 如果此数据之前已经被缓存在链表中了，遍历得到这个数据对应的节点，并将其从原来的位置删除，然后再插入到链表的头部，返回数据的值；
   - 如果此数据没有在缓存链表中，则返回 `-1`；
-- `put` 往链表里新增数据时，从链表头开始顺序遍历链表：
+- `put` 往链表里新增数据时：
   - 如果此数据之前已经被缓存在链表中了，更新此数据的值，并将其从原来的位置删除，再插入到链表的头部；
   - 如果此数据没有在缓存链表中，又分为两种情况：
     - 如果此时缓存未满，则将此节点直接插入到链表的头部；
     - 如果此时缓存已满，则链表尾节点删除，将新的数据节点插入链表的头部。
 
-这样就用链表实现了一个 LRU 缓存，缓存访问的时间复杂度为 O(n)，因为不管缓存有没有满，都需要遍历一遍链表。可以继续优化这个实现思路，比如引入 **散列表（Hash table）** 来记录每个数据的位置，将缓存访问的时间复杂度降到 `O(1)`。
+这样就用链表实现了一个 LRU 缓存，如果使用单向链表实现，则缓存访问的时间复杂度为 O(n)，因为不管缓存有没有满，都需要遍历一遍链表。
+
+可以继续优化这个实现思路，比如使用双向链表，并引入 **哈希表（Hash table）** 来记录每个数据的位置，将缓存访问的时间复杂度降到 `O(1)`。
 
 #### ③ 代码
 
 ::: details 点击查看代码
 
 ```javascript
-// TODO: add code
+class Node {
+  // @param {number} key
+  // @param {number} value
+  constructor(key, value) {
+    this.key = key;
+    this.value = value;
+    this.next = null;
+    this.prev = null;
+  }
+}
+
+class LRUCache {
+  // @param {number} capacity
+  constructor(capacity) {
+    this.cap = capacity;
+    this.cache = new Map();
+    this.head = new Node(0, 0);
+    this.tail = new Node(0, 0);
+    this.head.next = this.tail;
+    this.tail.prev = this.head;
+  }
+  // @param {number} key
+  // @return {number}
+  get(key) {
+    if (this.cache.has(key)) {
+      this.remove(this.cache.get(key));
+      this.insert(this.cache.get(key));
+      return this.cache.get(key).value;
+    }
+    return -1;
+  }
+  // @param {Node} node
+  remove(node) {
+    const prev = node.prev;
+    const next = node.next;
+    prev.next = next;
+    next.prev = prev;
+  }
+  // @param {Node} node
+  insert(node) {
+    const next = this.head.next;
+    this.head.next = node;
+    next.prev = node;
+    node.prev = this.head;
+    node.next = next;
+  }
+  // @param {number} key
+  // @param {number} value
+  // @return {void}
+  put(key, value) {
+    if (this.cache.has(key)) {
+      this.remove(this.cache.get(key));
+    }
+    this.cache.set(key, new Node(key, value));
+    this.insert(this.cache.get(key));
+    if (this.cache.size > this.cap) {
+      const old = this.tail.prev;
+      this.remove(old);
+      this.cache.delete(old.key);
+    }
+  }
+}
+
+/**
+ * Your LRUCache object will be instantiated and called as such:
+ * var obj = new LRUCache(capacity)
+ * var param_1 = obj.get(key)
+ * obj.put(key,value)
+ */
 ```
 
 :::
