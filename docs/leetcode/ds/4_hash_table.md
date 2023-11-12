@@ -262,8 +262,7 @@ class MyHashMap {
  */
 ```
 
-## Set 和 Map
-### Set
+## Set
 
 #### 基本用法
 

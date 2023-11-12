@@ -23,13 +23,13 @@ module.exports = {
       { text: "LeetCode", link: "/leetcode/" },
       { text: "React", link: "/react/" },
       // { text: "FE", link: "/fe/" },
-      { text: "Run", link: "/run/" },
+      { text: "Blog", link: "/blog/" },
     ],
     sidebar: {
       "/leetcode/": genLeetCode(),
       "/react/": genReact(),
       // "/fe/": genFE(),
-      "/run/": genRun(),
+      "/blog/": genBlog(),
     },
   },
   plugins: [
@@ -450,44 +450,38 @@ function genFE() {
   ];
 }
 
-// run
-function genRun() {
+// blog
+function genBlog() {
   return [
     {
       title: "在美国",
       collapsable: false,
       sidebarDepth: 0,
       children: [
-        "/run/usa/where_to_go",
-        "/run/usa/live_in_us",
-        "/run/usa/digital_nomad",
-        "/run/usa/neighbor",
-        "/run/usa/indian",
-        "/run/usa/mississippi",
-        "/run/usa/visa",
-        "/run/usa/10043",
+        "/blog/where_to_go",
+        "/blog/live_in_us",
+        "/blog/digital_nomad",
+        "/blog/neighbor",
+        "/blog/indian",
+        "/blog/mississippi",
+        "/blog/travel",
+        "/blog/10043",
       ],
-    },
-    {
-      title: "在欧洲",
-      collapsable: false,
-      sidebarDepth: 0,
-      children: ["/run/europe/0_why", "/run/europe/1_intro"],
     },
     {
       title: "在北京",
       collapsable: false,
       sidebarDepth: 0,
       children: [
-        "/run/blog/miss_bj",
-        "/run/blog/new_year",
-        "/run/blog/grandma",
-        "/run/blog/before_quit",
-        "/run/blog/go_home",
-        "/run/blog/money",
-        "/run/blog/principle",
-        "/run/blog/three_years_plan",
-        "/run/blog/work_overtime",
+        "/blog/miss_bj",
+        "/blog/new_year",
+        "/blog/grandma",
+        "/blog/before_quit",
+        "/blog/go_home",
+        "/blog/money",
+        "/blog/principle",
+        "/blog/three_years_plan",
+        "/blog/work_overtime",
       ],
     },
   ];
