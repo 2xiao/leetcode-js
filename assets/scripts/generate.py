@@ -54,13 +54,13 @@ def format_difficulty(difficulty: str, show_emoji: bool = False):
     font = ""
     emoji = ""
     if difficulty == "困难":
-        emoji = "🌶"
+        emoji = ":apple:"
         font = "<font color=#ff334b>Hard</font>"
     elif difficulty == "中等":
-        emoji = "🍊"
+        emoji = ":tangerine:"
         font = "<font color=#ffb800>Medium</font>"
     elif difficulty == "简单":
-        emoji = "🍏"
+        emoji = ":green_apple:"
         font = "<font color=#15bd66>Esay</font>"
     if show_emoji:
         return emoji + " " + font
@@ -361,7 +361,8 @@ def gen_tag_and_difficulty(problem_path):
         labels = (df.loc[df_indexs[0], "标签"]).split("、")
         for label in labels:
             label_en = tags_zh_to_en[label]
-            problem_label += " [`" + label + "`](../solution/" + label_en + ".md)"
+            problem_label += " [`" + label + \
+                "`](../solution/" + label_en + ".md)"
         problem_label += "\n\n"
         problem_difficulty = format_difficulty(
             df.loc[df_indexs[0], "难度"], True)
