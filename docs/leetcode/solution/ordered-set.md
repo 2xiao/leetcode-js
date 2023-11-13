@@ -102,7 +102,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0220) | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
 | 0327 | [区间和的个数](https://leetcode.com/problems/count-of-range-sum/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
 | 0352 | [将数据流变为多个不相交区间](https://leetcode.com/problems/data-stream-as-disjoint-intervals/) |  | `设计` `二分查找` `有序集合` | <font color=#ff334b>Hard</font> |

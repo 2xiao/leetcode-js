@@ -112,7 +112,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0253 | [会议室 II](https://leetcode.com/problems/meeting-rooms-ii/) |  | `贪心` `数组` `双指针` `3+` | <font color=#ffb800>Medium</font> |
 | 0277 | [搜寻名人](https://leetcode.com/problems/find-the-celebrity/) |  | `贪心` `图` `双指针` `1+` | <font color=#ffb800>Medium</font> |
 | 0280 | [摆动排序](https://leetcode.com/problems/wiggle-sort/) |  | `贪心` `数组` `排序` | <font color=#ffb800>Medium</font> |
-| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0316) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0321 | [拼接最大数](https://leetcode.com/problems/create-maximum-number/) |  | `栈` `贪心` `单调栈` | <font color=#ff334b>Hard</font> |
 | 0330 | [按要求补齐数组](https://leetcode.com/problems/patching-array/) |  | `贪心` `数组` | <font color=#ff334b>Hard</font> |
 | 0334 | [递增的三元子序列](https://leetcode.com/problems/increasing-triplet-subsequence/) |  | `贪心` `数组` | <font color=#ffb800>Medium</font> |
@@ -145,7 +145,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0649 | [Dota2 参议院](https://leetcode.com/problems/dota2-senate/) |  | `贪心` `队列` `字符串` | <font color=#ffb800>Medium</font> |
 | 0659 | [分割数组为连续子序列](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) |  | `贪心` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0670 | [最大交换](https://leetcode.com/problems/maximum-swap/) |  | `贪心` `数学` | <font color=#ffb800>Medium</font> |
-| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0680 | [验证回文串 II](https://leetcode.com/problems/valid-palindrome-ii/) |  | `贪心` `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) |  | `贪心` `数组` | <font color=#ffb800>Medium</font> |
 | 0738 | [单调递增的数字](https://leetcode.com/problems/monotone-increasing-digits/) |  | `贪心` `数学` | <font color=#ffb800>Medium</font> |

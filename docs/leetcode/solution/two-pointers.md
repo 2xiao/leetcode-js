@@ -179,7 +179,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0826 | [安排工作以达到最大收益](https://leetcode.com/problems/most-profit-assigning-work/) |  | `贪心` `数组` `双指针` `2+` | <font color=#ffb800>Medium</font> |
 | 0832 | [翻转图像](https://leetcode.com/problems/flipping-an-image/) |  | `数组` `双指针` `矩阵` `1+` | <font color=#15bd66>Esay</font> |
 | 0838 | [推多米诺](https://leetcode.com/problems/push-dominoes/) |  | `双指针` `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array/) |  | `数组` `双指针` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
 | 0870 | [优势洗牌](https://leetcode.com/problems/advantage-shuffle/) |  | `贪心` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) | `链表` `双指针` | <font color=#15bd66>Esay</font> |

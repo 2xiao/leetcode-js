@@ -135,8 +135,8 @@ table th:nth-of-type(5) { width: 10%; }
 | 0202 | [快乐数](https://leetcode.com/problems/happy-number/) |  | `哈希表` `数学` `双指针` | <font color=#15bd66>Esay</font> |
 | 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) |  | `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
-| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) |  | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
+| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
 | 0229 | [多数元素 II](https://leetcode.com/problems/majority-element-ii/) |  | `数组` `哈希表` `计数` `1+` | <font color=#ffb800>Medium</font> |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) |  | `哈希表` `字符串` `排序` | <font color=#15bd66>Esay</font> |
 | 0244 | [最短单词距离 II](https://leetcode.com/problems/shortest-word-distance-ii/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
@@ -606,7 +606,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer II 022 | [链表中环的入口节点](https://leetcode.cn/problems/c32eOV/) |  | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 023 | [两个链表的第一个重合节点](https://leetcode.cn/problems/3u1WK4/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 030 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 032 | [有效的变位词](https://leetcode.cn/problems/dKk3P7/) |  | `哈希表` `字符串` `排序` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 033 | [变位词组](https://leetcode.cn/problems/sfvd7V/) |  | `数组` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 034 | [外星语言是否排序](https://leetcode.cn/problems/lwyVBB/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
@@ -639,7 +639,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 面试题 16.21 | [交换和](https://leetcode.cn/problems/sum-swap-lcci/) |  | `数组` `哈希表` `二分查找` `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 16.22 | [兰顿蚂蚁](https://leetcode.cn/problems/langtons-ant-lcci/) |  | `数组` `哈希表` `字符串` `2+` | <font color=#ffb800>Medium</font> |
 | 面试题 16.24 | [数对和](https://leetcode.cn/problems/pairs-with-sum-lcci/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#ffb800>Medium</font> |
-| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_16.25) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.04 | [消失的数字](https://leetcode.cn/problems/missing-number-lcci/) |  | `位运算` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 面试题 17.05 | [字母与数字](https://leetcode.cn/problems/find-longest-subarray-lcci/) |  | `数组` `哈希表` `前缀和` | <font color=#ffb800>Medium</font> |
 | 面试题 17.07 | [婴儿名字](https://leetcode.cn/problems/baby-names-lcci/) |  | `深度优先搜索` `广度优先搜索` `并查集` `4+` | <font color=#ffb800>Medium</font> |

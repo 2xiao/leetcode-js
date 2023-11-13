@@ -107,9 +107,9 @@ table th:nth-of-type(5) { width: 10%; }
 | 0432 | [全 O(1) 的数据结构](https://leetcode.com/problems/all-oone-data-structure/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ff334b>Hard</font> |
 | 0460 | [LFU 缓存](https://leetcode.com/problems/lfu-cache/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ff334b>Hard</font> |
 | 0716 | [最大栈](https://leetcode.com/problems/max-stack/) |  | `栈` `设计` `链表` `2+` | <font color=#ff334b>Hard</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 2296 | [设计一个文本编辑器](https://leetcode.com/problems/design-a-text-editor/) |  | `栈` `设计` `链表` `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 36 | [二叉搜索树与双向链表](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof/) |  | `栈` `树` `深度优先搜索` `4+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 028 | [展平多级双向链表](https://leetcode.cn/problems/Qv1Da2/) |  | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_16.25) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |

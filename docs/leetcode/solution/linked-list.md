@@ -154,7 +154,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1265 | [逆序打印不可变链表](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) |  | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 1290 | [二进制链表转整数](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) |  | `链表` `数学` | <font color=#15bd66>Esay</font> |
 | 1367 | [二叉树中的链表](https://leetcode.com/problems/linked-list-in-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `2+` | <font color=#ffb800>Medium</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 1474 | [删除链表 M 个节点之后的 N 个节点](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) |  | `链表` | <font color=#15bd66>Esay</font> |
 | 1634 | [求两个多项式链表的和](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/) |  | `链表` `数学` `双指针` | <font color=#ffb800>Medium</font> |
 | 1669 | [合并两个链表](https://leetcode.com/problems/merge-in-between-linked-lists/) |  | `链表` | <font color=#ffb800>Medium</font> |
@@ -188,7 +188,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer II 027 | [回文链表](https://leetcode.cn/problems/aMhZSa/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 028 | [展平多级双向链表](https://leetcode.cn/problems/Qv1Da2/) |  | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 029 | [排序的循环链表](https://leetcode.cn/problems/4ueAj6/) |  | `链表` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 077 | [链表排序](https://leetcode.cn/problems/7WHec2/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 078 | [合并排序链表](https://leetcode.cn/problems/vvXgSW/) |  | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
 | 面试题 02.01 | [移除重复节点](https://leetcode.cn/problems/remove-duplicate-node-lcci/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
@@ -201,5 +201,5 @@ table th:nth-of-type(5) { width: 10%; }
 | 面试题 02.08 | [环路检测](https://leetcode.cn/problems/linked-list-cycle-lcci/) |  | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 面试题 03.03 | [堆盘子](https://leetcode.cn/problems/stack-of-plates-lcci/) |  | `栈` `设计` `链表` | <font color=#ffb800>Medium</font> |
 | 面试题 04.03 | [特定深度节点链表](https://leetcode.cn/problems/list-of-depth-lcci/) |  | `树` `广度优先搜索` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_16.25) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.12 | [BiNode](https://leetcode.cn/problems/binode-lcci/) |  | `栈` `树` `深度优先搜索` `3+` | <font color=#15bd66>Esay</font> |

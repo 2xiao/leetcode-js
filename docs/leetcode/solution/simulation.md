@@ -121,13 +121,13 @@ table th:nth-of-type(5) { width: 10%; }
 | 0592 | [分数加减运算](https://leetcode.com/problems/fraction-addition-and-subtraction/) |  | `数学` `字符串` `模拟` | <font color=#ffb800>Medium</font> |
 | 0640 | [求解方程](https://leetcode.com/problems/solve-the-equation/) |  | `数学` `字符串` `模拟` | <font color=#ffb800>Medium</font> |
 | 0657 | [机器人能否返回原点](https://leetcode.com/problems/robot-return-to-origin/) |  | `字符串` `模拟` | <font color=#15bd66>Esay</font> |
-| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) |  | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
+| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | 0723 | [粉碎糖果](https://leetcode.com/problems/candy-crush/) |  | `数组` `双指针` `矩阵` `1+` | <font color=#ffb800>Medium</font> |
 | 0735 | [行星碰撞](https://leetcode.com/problems/asteroid-collision/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 0749 | [隔离病毒](https://leetcode.com/problems/contain-virus/) |  | `深度优先搜索` `广度优先搜索` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 0755 | [倒水](https://leetcode.com/problems/pour-water/) |  | `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 0832 | [翻转图像](https://leetcode.com/problems/flipping-an-image/) |  | `数组` `双指针` `矩阵` `1+` | <font color=#15bd66>Esay</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0867 | [转置矩阵](https://leetcode.com/problems/transpose-matrix/) |  | `数组` `矩阵` `模拟` | <font color=#15bd66>Esay</font> |
 | 0874 | [模拟行走机器人](https://leetcode.com/problems/walking-robot-simulation/) |  | `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 0885 | [螺旋矩阵 III](https://leetcode.com/problems/spiral-matrix-iii/) |  | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> |
@@ -147,7 +147,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1324 | [竖直打印单词](https://leetcode.com/problems/print-words-vertically/) |  | `数组` `字符串` `模拟` | <font color=#ffb800>Medium</font> |
 | 1389 | [按既定顺序创建目标数组](https://leetcode.com/problems/create-target-array-in-the-given-order/) |  | `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | 1409 | [查询带键的排列](https://leetcode.com/problems/queries-on-a-permutation-with-key/) |  | `树状数组` `数组` `模拟` | <font color=#ffb800>Medium</font> |
-| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
+| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 1503 | [所有蚂蚁掉下来前的最后一刻](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  | `脑筋急转弯` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 1518 | [换水问题](https://leetcode.com/problems/water-bottles/) |  | `数学` `模拟` | <font color=#15bd66>Esay</font> |
 | 1535 | [找出数组游戏的赢家](https://leetcode.com/problems/find-the-winner-of-an-array-game/) |  | `数组` `模拟` | <font color=#ffb800>Medium</font> |

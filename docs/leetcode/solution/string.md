@@ -181,7 +181,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0299 | [猜数字游戏](https://leetcode.com/problems/bulls-and-cows/) |  | `哈希表` `字符串` `计数` | <font color=#ffb800>Medium</font> |
 | 0301 | [删除无效的括号](https://leetcode.com/problems/remove-invalid-parentheses/) |  | `广度优先搜索` `字符串` `回溯` | <font color=#ff334b>Hard</font> |
 | 0306 | [累加数](https://leetcode.com/problems/additive-number/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
-| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0316) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0318 | [最大单词长度乘积](https://leetcode.com/problems/maximum-product-of-word-lengths/) |  | `位运算` `数组` `字符串` | <font color=#ffb800>Medium</font> |
 | 0320 | [列举单词的全部缩写](https://leetcode.com/problems/generalized-abbreviation/) |  | `位运算` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
 | 0331 | [验证二叉树的前序序列化](https://leetcode.com/problems/verify-preorder-serialization-of-a-binary-tree/) |  | `栈` `树` `字符串` `1+` | <font color=#ffb800>Medium</font> |
@@ -268,7 +268,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0664 | [奇怪的打印机](https://leetcode.com/problems/strange-printer/) |  | `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0676 | [实现一个魔法字典](https://leetcode.com/problems/implement-magic-dictionary/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0677 | [键值映射](https://leetcode.com/problems/map-sum-pairs/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0680 | [验证回文串 II](https://leetcode.com/problems/valid-palindrome-ii/) |  | `贪心` `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0681 | [最近时刻](https://leetcode.com/problems/next-closest-time/) |  | `字符串` `枚举` | <font color=#ffb800>Medium</font> |
 | 0686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match/) |  | `字符串` `字符串匹配` | <font color=#ffb800>Medium</font> |
@@ -321,7 +321,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0839 | [相似字符串组](https://leetcode.com/problems/similar-string-groups/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ff334b>Hard</font> |
 | 0842 | [将数组拆分成斐波那契序列](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
 | 0843 | [猜猜这个单词](https://leetcode.com/problems/guess-the-word/) |  | `数组` `数学` `字符串` `2+` | <font color=#ff334b>Hard</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0848 | [字母移位](https://leetcode.com/problems/shifting-letters/) |  | `数组` `字符串` | <font color=#ffb800>Medium</font> |
 | 0854 | [相似度为 K 的字符串](https://leetcode.com/problems/k-similar-strings/) |  | `广度优先搜索` `字符串` | <font color=#ff334b>Hard</font> |
 | 0856 | [括号的分数](https://leetcode.com/problems/score-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
@@ -358,7 +358,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1002 | [查找共用字符](https://leetcode.com/problems/find-common-characters/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 1003 | [检查替换后的词是否有效](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 1016 | [子串能表示从 1 到 N 数字的二进制串](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) |  | `字符串` | <font color=#ffb800>Medium</font> |
-| 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) |  | `栈` `字符串` | <font color=#15bd66>Esay</font> |
+| 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1021) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 1023 | [驼峰式匹配](https://leetcode.com/problems/camelcase-matching/) |  | `字典树` `双指针` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 1028 | [从先序遍历还原二叉树](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) |  | `树` `深度优先搜索` `字符串` `1+` | <font color=#ff334b>Hard</font> |
 | 1032 | [字符流](https://leetcode.com/problems/stream-of-characters/) |  | `设计` `字典树` `数组` `2+` | <font color=#ff334b>Hard</font> |
@@ -400,7 +400,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1180 | [统计只含单一字母的子串](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/) |  | `数学` `字符串` | <font color=#15bd66>Esay</font> |
 | 1181 | [前后拼接](https://leetcode.com/problems/before-and-after-puzzle/) |  | `数组` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 1189 | [“气球” 的最大数量](https://leetcode.com/problems/maximum-number-of-balloons/) |  | `哈希表` `字符串` `计数` | <font color=#15bd66>Esay</font> |
-| 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+| 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1190) | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 1202 | [交换字符串中的元素](https://leetcode.com/problems/smallest-string-with-swaps/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
 | 1208 | [尽可能使字符串相等](https://leetcode.com/problems/get-equal-substrings-within-budget/) |  | `字符串` `二分查找` `前缀和` `1+` | <font color=#ffb800>Medium</font> |
 | 1209 | [删除字符串中的所有相邻重复项 II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
