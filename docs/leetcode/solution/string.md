@@ -358,7 +358,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1002 | [查找共用字符](https://leetcode.com/problems/find-common-characters/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 1003 | [检查替换后的词是否有效](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 1016 | [子串能表示从 1 到 N 数字的二进制串](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n/) |  | `字符串` | <font color=#ffb800>Medium</font> |
-| 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) |  | `栈` `字符串` | <font color=#15bd66>Esay</font> |
+| 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1021) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 1023 | [驼峰式匹配](https://leetcode.com/problems/camelcase-matching/) |  | `字典树` `双指针` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 1028 | [从先序遍历还原二叉树](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal/) |  | `树` `深度优先搜索` `字符串` `1+` | <font color=#ff334b>Hard</font> |
 | 1032 | [字符流](https://leetcode.com/problems/stream-of-characters/) |  | `设计` `字典树` `数组` `2+` | <font color=#ff334b>Hard</font> |
@@ -400,7 +400,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1180 | [统计只含单一字母的子串](https://leetcode.com/problems/count-substrings-with-only-one-distinct-letter/) |  | `数学` `字符串` | <font color=#15bd66>Esay</font> |
 | 1181 | [前后拼接](https://leetcode.com/problems/before-and-after-puzzle/) |  | `数组` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 1189 | [“气球” 的最大数量](https://leetcode.com/problems/maximum-number-of-balloons/) |  | `哈希表` `字符串` `计数` | <font color=#15bd66>Esay</font> |
-| 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+| 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1190) | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 1202 | [交换字符串中的元素](https://leetcode.com/problems/smallest-string-with-swaps/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ffb800>Medium</font> |
 | 1208 | [尽可能使字符串相等](https://leetcode.com/problems/get-equal-substrings-within-budget/) |  | `字符串` `二分查找` `前缀和` `1+` | <font color=#ffb800>Medium</font> |
 | 1209 | [删除字符串中的所有相邻重复项 II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |

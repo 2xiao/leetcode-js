@@ -325,7 +325,17 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/1000-1099.md",
+            "/leetcode/problem/1021.md",
             "/leetcode/problem/1047.md"
+          ],
+        },
+        {
+          title: "1100-1199",
+          collapsable: true,
+          sidebarDepth: 0,
+          children: [
+            "/leetcode/solution/1100-1199.md",
+            "/leetcode/problem/1190.md"
           ],
         },
         {

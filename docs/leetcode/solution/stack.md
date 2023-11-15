@@ -173,7 +173,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1006 | [笨阶乘](https://leetcode.com/problems/clumsy-factorial/) |  | `栈` `数学` `模拟` | <font color=#ffb800>Medium</font> |
 | 1008 | [前序遍历构造二叉搜索树](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) |  | `栈` `树` `二叉搜索树` `3+` | <font color=#ffb800>Medium</font> |
 | 1019 | [链表中的下一个更大节点](https://leetcode.com/problems/next-greater-node-in-linked-list/) |  | `栈` `数组` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) |  | `栈` `字符串` | <font color=#15bd66>Esay</font> |
+| 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1021) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 1063 | [有效子数组的数目](https://leetcode.com/problems/number-of-valid-subarrays/) |  | `栈` `数组` `单调栈` | <font color=#ff334b>Hard</font> |
 | 1081 | [不同字符的最小子序列](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
@@ -183,7 +183,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1124 | [表现良好的最长时间段](https://leetcode.com/problems/longest-well-performing-interval/) |  | `栈` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 1130 | [叶值的最小代价生成树](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) |  | `栈` `贪心` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 1172 | [餐盘栈](https://leetcode.com/problems/dinner-plate-stacks/) |  | `栈` `设计` `哈希表` `1+` | <font color=#ff334b>Hard</font> |
-| 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+| 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1190) | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 1209 | [删除字符串中的所有相邻重复项 II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 1214 | [查找两棵二叉搜索树之和](https://leetcode.com/problems/two-sum-bsts/) |  | `栈` `树` `深度优先搜索` `4+` | <font color=#ffb800>Medium</font> |
 | 1249 | [移除无效的括号](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
