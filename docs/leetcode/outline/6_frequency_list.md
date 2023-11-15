@@ -179,7 +179,7 @@
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> | 21 |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> | 21 |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | `数组` `数学` `回溯` | <font color=#ff334b>Hard</font> | 21 |
-| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> | 21 |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> | 21 |
 | 剑指 Offer 52 | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> | 21 |
 | 0887 | [鸡蛋掉落](https://leetcode.com/problems/super-egg-drop/) |  | `数学` `二分查找` `动态规划` | <font color=#ff334b>Hard</font> | 21 |
 | 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `1+` | <font color=#15bd66>Esay</font> | 20 |

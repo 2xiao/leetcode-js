@@ -212,7 +212,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0656 | [金币路径](https://leetcode.com/problems/coin-path/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0664 | [奇怪的打印机](https://leetcode.com/problems/strange-printer/) |  | `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) |  | `树状数组` `线段树` `数组` `1+` | <font color=#ffb800>Medium</font> |
-| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0688 | [骑士在棋盘上的概率](https://leetcode.com/problems/knight-probability-in-chessboard/) |  | `动态规划` | <font color=#ffb800>Medium</font> |
 | 0689 | [三个无重叠子数组的最大和](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word/) |  | `位运算` `数组` `字符串` `3+` | <font color=#ff334b>Hard</font> |

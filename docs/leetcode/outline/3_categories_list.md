@@ -100,7 +100,7 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  | `栈` `设计` `数据流` `1+` | <font color=#ffb800>Medium</font> |
 | 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  | `栈` `数组` `单调栈` | <font color=#ff334b>Hard</font> |
 | 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
@@ -761,7 +761,7 @@
 | 1039 | [多边形三角剖分的最低得分](https://leetcode.com/problems/minimum-score-triangulation-of-polygon/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0546 | [移除盒子](https://leetcode.com/problems/remove-boxes/) |  | `记忆化搜索` `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |  | `数学` `动态规划` `博弈` | <font color=#ffb800>Medium</font> |
-| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) |  | `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence/) |  | `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0730 | [统计不同回文子序列](https://leetcode.com/problems/count-different-palindromic-subsequences/) |  | `字符串` `动态规划` | <font color=#ff334b>Hard</font> |

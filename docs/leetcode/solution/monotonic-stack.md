@@ -110,7 +110,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0456 | [132 模式](https://leetcode.com/problems/132-pattern/) |  | `栈` `数组` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
 | 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0581 | [最短无序连续子数组](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) |  | `栈` `贪心` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 0654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree/) |  | `栈` `树` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
@@ -127,7 +127,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1081 | [不同字符的最小子序列](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 1124 | [表现良好的最长时间段](https://leetcode.com/problems/longest-well-performing-interval/) |  | `栈` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 1130 | [叶值的最小代价生成树](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values/) |  | `栈` `贪心` `数组` `2+` | <font color=#ffb800>Medium</font> |
-| 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) |  | `栈` `数组` `单调栈` | <font color=#15bd66>Esay</font> |
+| 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) | `栈` `数组` `单调栈` | <font color=#15bd66>Esay</font> |
 | 1504 | [统计全 1 子矩形](https://leetcode.com/problems/count-submatrices-with-all-ones/) |  | `栈` `数组` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
 | 1526 | [形成目标数组的子数组最少增加次数](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/) |  | `栈` `贪心` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 1574 | [删除最短的子数组使剩余数组有序](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted/) |  | `栈` `数组` `双指针` `2+` | <font color=#ffb800>Medium</font> |

@@ -179,7 +179,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1381 | [设计一个支持增量操作的栈](https://leetcode.com/problems/design-a-stack-with-increment-operation/) |  | `栈` `设计` `数组` | <font color=#ffb800>Medium</font> |
 | 1396 | [设计地铁系统](https://leetcode.com/problems/design-underground-system/) |  | `设计` `哈希表` `字符串` | <font color=#ffb800>Medium</font> |
 | 1429 | [第一个唯一数字](https://leetcode.com/problems/first-unique-number/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 1476 | [子矩形查询](https://leetcode.com/problems/subrectangle-queries/) |  | `设计` `数组` `矩阵` | <font color=#ffb800>Medium</font> |
 | 1483 | [树节点的第 K 个祖先](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/) |  | `树` `深度优先搜索` `广度优先搜索` `2+` | <font color=#ff334b>Hard</font> |
 | 1500 | [设计文件分享系统](https://leetcode.com/problems/design-a-file-sharing-system/) |  | `设计` `哈希表` `数据流` `1+` | <font color=#ffb800>Medium</font> |

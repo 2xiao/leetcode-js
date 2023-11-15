@@ -341,13 +341,49 @@ var isValid = function (s) {
 
 #### ② 解题思路
 
+使用栈来存储浏览器的访问历史，使用 `cur_index` 变量来存储当前访问的网址在栈中的位置。
+- `visit`：
+    - 先清空 `cur_index` 之后的历史记录；
+    - 将 `url` 放入栈顶；
+    - 将 `cur_index` 指向栈顶；
+- `back`：比较栈中存储的历史记录数 `n` 和 `steps` 的大小，最多只能倒退 `n` 步；
+- `forward`: 比较 `cur_index` 之后的历史记录数 `m` 和 `steps` 的大小，最多只能前进 `m` 步；
 
 #### ③ 代码
 
 ::: details 点击查看代码
 
 ```javascript
+class BrowserHistory {
+    // @param {string} homepage
+    constructor (homepage) {
+        this.history = [homepage]
+        this.cur_index = 0
+    }
 
+    // @param {string} url
+    // @return {void}
+    visit(url) {
+        // clear forward history
+        this.history = this.history.slice(0, this.cur_index + 1)
+        this.history.push(url)
+        this.cur_index++
+    }
+
+    // @param {number} steps
+    // @return {string}
+    back(steps) {
+        this.cur_index = Math.max(0, this.cur_index - steps)
+        return this.history[this.cur_index]
+    }
+
+    // @param {number} steps
+    // @return {string}
+    forward(steps) {
+        this.cur_index = Math.min(this.history.length - 1, this.cur_index + steps)
+        return this.history[this.cur_index]
+    }
+}
 ```
 
 :::
@@ -599,7 +635,7 @@ var dailyTemperatures = function (temperatures) {
 | :------: | :------ | :------: | :------ | :------ |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  | `栈` `设计` `数据流` `1+` | <font color=#ffb800>Medium</font> |
 | 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  | `栈` `数组` `单调栈` | <font color=#ff334b>Hard</font> |
 | 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |

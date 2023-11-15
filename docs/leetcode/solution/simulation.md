@@ -147,7 +147,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1324 | [竖直打印单词](https://leetcode.com/problems/print-words-vertically/) |  | `数组` `字符串` `模拟` | <font color=#ffb800>Medium</font> |
 | 1389 | [按既定顺序创建目标数组](https://leetcode.com/problems/create-target-array-in-the-given-order/) |  | `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | 1409 | [查询带键的排列](https://leetcode.com/problems/queries-on-a-permutation-with-key/) |  | `树状数组` `数组` `模拟` | <font color=#ffb800>Medium</font> |
-| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
+| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 1503 | [所有蚂蚁掉下来前的最后一刻](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  | `脑筋急转弯` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 1518 | [换水问题](https://leetcode.com/problems/water-bottles/) |  | `数学` `模拟` | <font color=#15bd66>Esay</font> |
 | 1535 | [找出数组游戏的赢家](https://leetcode.com/problems/find-the-winner-of-an-array-game/) |  | `数组` `模拟` | <font color=#ffb800>Medium</font> |

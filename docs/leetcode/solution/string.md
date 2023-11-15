@@ -268,7 +268,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0664 | [奇怪的打印机](https://leetcode.com/problems/strange-printer/) |  | `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0676 | [实现一个魔法字典](https://leetcode.com/problems/implement-magic-dictionary/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0677 | [键值映射](https://leetcode.com/problems/map-sum-pairs/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0680 | [验证回文串 II](https://leetcode.com/problems/valid-palindrome-ii/) |  | `贪心` `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0681 | [最近时刻](https://leetcode.com/problems/next-closest-time/) |  | `字符串` `枚举` | <font color=#ffb800>Medium</font> |
 | 0686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match/) |  | `字符串` `字符串匹配` | <font color=#ffb800>Medium</font> |

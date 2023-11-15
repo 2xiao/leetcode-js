@@ -111,7 +111,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1032 | [字符流](https://leetcode.com/problems/stream-of-characters/) |  | `设计` `字典树` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 1352 | [最后 K 个数的乘积](https://leetcode.com/problems/product-of-the-last-k-numbers/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 1429 | [第一个唯一数字](https://leetcode.com/problems/first-unique-number/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 1500 | [设计文件分享系统](https://leetcode.com/problems/design-a-file-sharing-system/) |  | `设计` `哈希表` `数据流` `1+` | <font color=#ffb800>Medium</font> |
 | 1656 | [设计有序流](https://leetcode.com/problems/design-an-ordered-stream/) |  | `设计` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 1670 | [设计前中后队列](https://leetcode.com/problems/design-front-middle-back-queue/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |

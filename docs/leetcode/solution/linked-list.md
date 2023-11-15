@@ -154,7 +154,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1265 | [逆序打印不可变链表](https://leetcode.com/problems/print-immutable-linked-list-in-reverse/) |  | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 1290 | [二进制链表转整数](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) |  | `链表` `数学` | <font color=#15bd66>Esay</font> |
 | 1367 | [二叉树中的链表](https://leetcode.com/problems/linked-list-in-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `2+` | <font color=#ffb800>Medium</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 1474 | [删除链表 M 个节点之后的 N 个节点](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) |  | `链表` | <font color=#15bd66>Esay</font> |
 | 1634 | [求两个多项式链表的和](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists/) |  | `链表` `数学` `双指针` | <font color=#ffb800>Medium</font> |
 | 1669 | [合并两个链表](https://leetcode.com/problems/merge-in-between-linked-lists/) |  | `链表` | <font color=#ffb800>Medium</font> |

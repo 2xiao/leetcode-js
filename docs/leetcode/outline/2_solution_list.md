@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 73 道
+已完成 78 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -63,9 +63,11 @@
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | `数组` | <font color=#15bd66>Esay</font> |
 | 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
 | 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | `递归` `记忆化搜索` `数学` `1+` | <font color=#15bd66>Esay</font> |
 | 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | `贪心` `数组` `双指针` `2+` | <font color=#ffb800>Medium</font> |
 | 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
+| 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) | `设计` `链表` | <font color=#ffb800>Medium</font> |
@@ -75,6 +77,9 @@
 | 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1021) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1190) | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) | `栈` `数组` `单调栈` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_16.25) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
 
