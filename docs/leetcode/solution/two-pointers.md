@@ -119,11 +119,11 @@ table th:nth-of-type(5) { width: 10%; }
 | 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0142) | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
+| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
 | 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) |  | `双指针` `字符串` | <font color=#ffb800>Medium</font> |
-| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0160) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
+| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 0161 | [相隔为 1 的编辑距离](https://leetcode.com/problems/one-edit-distance/) |  | `双指针` `字符串` | <font color=#ffb800>Medium</font> |
 | 0165 | [比较版本号](https://leetcode.com/problems/compare-version-numbers/) |  | `双指针` `字符串` | <font color=#ffb800>Medium</font> |
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | `数组` `双指针` `二分查找` | <font color=#ffb800>Medium</font> |
@@ -160,7 +160,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0541 | [反转字符串 II](https://leetcode.com/problems/reverse-string-ii/) |  | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
 | 0556 | [下一个更大元素 III](https://leetcode.com/problems/next-greater-element-iii/) |  | `数学` `双指针` `字符串` | <font color=#ffb800>Medium</font> |
 | 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) |  | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
-| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0567) | `哈希表` `双指针` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) |  | `哈希表` `双指针` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0581 | [最短无序连续子数组](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) |  | `栈` `贪心` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 0611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) | `贪心` `数组` `双指针` `2+` | <font color=#ffb800>Medium</font> |
 | 0633 | [平方数之和](https://leetcode.com/problems/sum-of-square-numbers/) |  | `数学` `双指针` `二分查找` | <font color=#ffb800>Medium</font> |
@@ -179,7 +179,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0826 | [安排工作以达到最大收益](https://leetcode.com/problems/most-profit-assigning-work/) |  | `贪心` `数组` `双指针` `2+` | <font color=#ffb800>Medium</font> |
 | 0832 | [翻转图像](https://leetcode.com/problems/flipping-an-image/) |  | `数组` `双指针` `矩阵` `1+` | <font color=#15bd66>Esay</font> |
 | 0838 | [推多米诺](https://leetcode.com/problems/push-dominoes/) |  | `双指针` `字符串` `动态规划` | <font color=#ffb800>Medium</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array/) |  | `数组` `双指针` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
 | 0870 | [优势洗牌](https://leetcode.com/problems/advantage-shuffle/) |  | `贪心` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) | `链表` `双指针` | <font color=#15bd66>Esay</font> |

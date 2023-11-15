@@ -162,7 +162,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0419 | [甲板上的战舰](https://leetcode.com/problems/battleships-in-a-board/) |  | `深度优先搜索` `数组` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) |  | `栈` `树` `深度优先搜索` `4+` | <font color=#ffb800>Medium</font> |
 | 0428 | [序列化和反序列化 N 叉树](https://leetcode.com/problems/serialize-and-deserialize-n-ary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `1+` | <font color=#ff334b>Hard</font> |
-| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0430) | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
+| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
 | 0431 | [将 N 叉树编码为二叉树](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `2+` | <font color=#ff334b>Hard</font> |
 | 0437 | [路径总和 III](https://leetcode.com/problems/path-sum-iii/) |  | `树` `深度优先搜索` `二叉树` | <font color=#ffb800>Medium</font> |
 | 0449 | [序列化和反序列化二叉搜索树](https://leetcode.com/problems/serialize-and-deserialize-bst/) |  | `树` `深度优先搜索` `广度优先搜索` `4+` | <font color=#ffb800>Medium</font> |

@@ -108,9 +108,9 @@ table th:nth-of-type(5) { width: 10%; }
 | 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  | `树` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 0108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) |  | `树` `二叉搜索树` `数组` `2+` | <font color=#15bd66>Esay</font> |
 | 0109 | [有序链表转换二叉搜索树](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/) |  | `树` `二叉搜索树` `链表` `2+` | <font color=#ffb800>Medium</font> |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | `数组` `哈希表` `分治` `2+` | <font color=#15bd66>Esay</font> |
-| 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0190) | `位运算` `分治` | <font color=#15bd66>Esay</font> |
+| 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  | `位运算` `分治` | <font color=#15bd66>Esay</font> |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  | `位运算` `分治` | <font color=#15bd66>Esay</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |

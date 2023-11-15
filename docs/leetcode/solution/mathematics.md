@@ -129,7 +129,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0204 | [计数质数](https://leetcode.com/problems/count-primes/) |  | `数组` `数学` `枚举` `1+` | <font color=#ffb800>Medium</font> |
 | 0223 | [矩形面积](https://leetcode.com/problems/rectangle-area/) |  | `几何` `数学` | <font color=#ffb800>Medium</font> |
 | 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) | `栈` `递归` `数学` `1+` | <font color=#ff334b>Hard</font> |
-| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
+| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0231 | [2 的幂](https://leetcode.com/problems/power-of-two/) |  | `位运算` `递归` `数学` | <font color=#15bd66>Esay</font> |
 | 0233 | [数字 1 的个数](https://leetcode.com/problems/number-of-digit-one/) |  | `递归` `数学` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0241 | [为运算表达式设计优先级](https://leetcode.com/problems/different-ways-to-add-parentheses/) |  | `递归` `记忆化搜索` `数学` `2+` | <font color=#ffb800>Medium</font> |

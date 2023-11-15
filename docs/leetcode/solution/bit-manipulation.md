@@ -109,7 +109,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | `位运算` `数组` | <font color=#15bd66>Esay</font> |
 | 0137 | [只出现一次的数字 II](https://leetcode.com/problems/single-number-ii/) |  | `位运算` `数组` | <font color=#ffb800>Medium</font> |
 | 0187 | [重复的DNA序列](https://leetcode.com/problems/repeated-dna-sequences/) |  | `位运算` `哈希表` `字符串` `3+` | <font color=#ffb800>Medium</font> |
-| 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0190) | `位运算` `分治` | <font color=#15bd66>Esay</font> |
+| 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  | `位运算` `分治` | <font color=#15bd66>Esay</font> |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  | `位运算` `分治` | <font color=#15bd66>Esay</font> |
 | 0201 | [数字范围按位与](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |  | `位运算` | <font color=#ffb800>Medium</font> |
 | 0231 | [2 的幂](https://leetcode.com/problems/power-of-two/) |  | `位运算` `递归` `数学` | <font color=#15bd66>Esay</font> |
@@ -269,7 +269,7 @@ table th:nth-of-type(5) { width: 10%; }
 | LCP 13 | [寻宝](https://leetcode.cn/problems/xun-bao/) |  | `位运算` `广度优先搜索` `数组` `3+` | <font color=#ff334b>Hard</font> |
 | LCP 49 | [环形闯关游戏](https://leetcode.cn/problems/K8GULz/) |  | `位运算` `并查集` `数组` `1+` | <font color=#ff334b>Hard</font> |
 | LCP 51 | [烹饪料理](https://leetcode.cn/problems/UEcfPD/) |  | `位运算` `数组` `回溯` `1+` | <font color=#15bd66>Esay</font> |
-| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/LCP_53) | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
+| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) |  | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | LCP 69 | [Hello LeetCode!](https://leetcode.cn/problems/rMeRt2/) |  | `位运算` `数组` `字符串` `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 15 | [二进制中1的个数](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof/) |  | `位运算` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 53 - II | [0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof/) |  | `位运算` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |

@@ -17,14 +17,14 @@
 | 1052 | [爱生气的书店老板](https://leetcode.com/problems/grumpy-bookstore-owner/) |  | `数组` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 1423 | [可获得的最大点数](https://leetcode.com/problems/maximum-points-you-can-obtain-from-cards/) |  | `数组` `前缀和` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) |  | `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> |
-| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0567) | `哈希表` `双指针` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) |  | `哈希表` `双指针` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 1100 | [长度为 K 的无重复字符子串](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters/) |  | `哈希表` `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 1151 | [最少交换次数来组合所有的 1](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together/) |  | `数组` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 1176 | [健身计划评估](https://leetcode.com/problems/diet-plan-performance/) |  | `数组` `滑动窗口` | <font color=#15bd66>Esay</font> |
-| 0438 | [找到字符串中所有字母异位词](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0438) | `哈希表` `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> |
+| 0438 | [找到字符串中所有字母异位词](https://leetcode.com/problems/find-all-anagrams-in-a-string/) |  | `哈希表` `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 0995 | [K 连续位的最小翻转次数](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips/) |  | `位运算` `队列` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | 0683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots/) |  | `树状数组` `数组` `有序集合` `1+` | <font color=#ff334b>Hard</font> |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0220) | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | `队列` `数组` `滑动窗口` `2+` | <font color=#ff334b>Hard</font> |
 | 0480 | [滑动窗口中位数](https://leetcode.com/problems/sliding-window-median/) |  | `数组` `哈希表` `滑动窗口` `1+` | <font color=#ff334b>Hard</font> |
 
@@ -35,7 +35,7 @@
 | 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | `数组` | <font color=#15bd66>Esay</font> |
 | 0487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/) |  | `数组` `动态规划` `滑动窗口` | <font color=#ffb800>Medium</font> |
-| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0076) | `哈希表` `字符串` `滑动窗口` | <font color=#ff334b>Hard</font> |
+| 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) |  | `哈希表` `字符串` `滑动窗口` | <font color=#ff334b>Hard</font> |
 | 0718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) |  | `数组` `二分查找` `动态规划` `3+` | <font color=#ffb800>Medium</font> |
 | 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | `数组` `二分查找` `前缀和` `1+` | <font color=#ffb800>Medium</font> |
 | 0862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) |  | `队列` `数组` `二分查找` `4+` | <font color=#ff334b>Hard</font> |

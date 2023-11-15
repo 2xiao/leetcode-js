@@ -149,7 +149,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer II 052 | [展平二叉搜索树](https://leetcode.cn/problems/NYBBNL/) |  | `栈` `树` `深度优先搜索` `2+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 053 | [二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8/) |  | `树` `深度优先搜索` `二叉搜索树` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 054 | [所有大于等于节点的值之和](https://leetcode.cn/problems/w6cpku/) |  | `树` `深度优先搜索` `二叉搜索树` `1+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_055) | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 056 | [二叉搜索树中两个节点之和](https://leetcode.cn/problems/opLdQZ/) |  | `树` `深度优先搜索` `广度优先搜索` `4+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 059 | [数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C/) |  | `树` `设计` `二叉搜索树` `3+` | <font color=#15bd66>Esay</font> |
 | 面试题 04.02 | [最小高度树](https://leetcode.cn/problems/minimum-height-tree-lcci/) |  | `树` `二叉搜索树` `数组` `2+` | <font color=#15bd66>Esay</font> |

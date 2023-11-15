@@ -189,7 +189,6 @@ function genLeetCode() {
             "/leetcode/problem/0002.md",
             "/leetcode/problem/0003.md",
             "/leetcode/problem/0004.md",
-            "/leetcode/problem/0005.md",
             "/leetcode/problem/0006.md",
             "/leetcode/problem/0007.md",
             "/leetcode/problem/0008.md",
@@ -217,7 +216,6 @@ function genLeetCode() {
             "/leetcode/problem/0066.md",
             "/leetcode/problem/0070.md",
             "/leetcode/problem/0073.md",
-            "/leetcode/problem/0076.md",
             "/leetcode/problem/0080.md",
             "/leetcode/problem/0082.md",
             "/leetcode/problem/0083.md",
@@ -233,17 +231,12 @@ function genLeetCode() {
             "/leetcode/solution/0100-0199.md",
             "/leetcode/problem/0120.md",
             "/leetcode/problem/0125.md",
-            "/leetcode/problem/0138.md",
             "/leetcode/problem/0141.md",
-            "/leetcode/problem/0142.md",
             "/leetcode/problem/0143.md",
             "/leetcode/problem/0146.md",
-            "/leetcode/problem/0148.md",
             "/leetcode/problem/0152.md",
-            "/leetcode/problem/0160.md",
             "/leetcode/problem/0167.md",
-            "/leetcode/problem/0189.md",
-            "/leetcode/problem/0190.md"
+            "/leetcode/problem/0189.md"
           ],
         },
         {
@@ -254,12 +247,7 @@ function genLeetCode() {
             "/leetcode/solution/0200-0299.md",
             "/leetcode/problem/0203.md",
             "/leetcode/problem/0206.md",
-            "/leetcode/problem/0217.md",
-            "/leetcode/problem/0219.md",
-            "/leetcode/problem/0220.md",
             "/leetcode/problem/0224.md",
-            "/leetcode/problem/0225.md",
-            "/leetcode/problem/0227.md",
             "/leetcode/problem/0232.md",
             "/leetcode/problem/0234.md",
             "/leetcode/problem/0238.md",
@@ -274,7 +262,6 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0300-0399.md",
-            "/leetcode/problem/0316.md",
             "/leetcode/problem/0328.md",
             "/leetcode/problem/0344.md",
             "/leetcode/problem/0345.md"
@@ -286,8 +273,6 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0400-0499.md",
-            "/leetcode/problem/0430.md",
-            "/leetcode/problem/0438.md",
             "/leetcode/problem/0485.md",
             "/leetcode/problem/0496.md",
             "/leetcode/problem/0498.md"
@@ -299,9 +284,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0500-0599.md",
-            "/leetcode/problem/0503.md",
-            "/leetcode/problem/0509.md",
-            "/leetcode/problem/0567.md"
+            "/leetcode/problem/0509.md"
           ],
         },
         {
@@ -311,9 +294,7 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/0600-0699.md",
             "/leetcode/problem/0611.md",
-            "/leetcode/problem/0622.md",
-            "/leetcode/problem/0678.md",
-            "/leetcode/problem/0682.md"
+            "/leetcode/problem/0622.md"
           ],
         },
         {
@@ -335,17 +316,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0800-0899.md",
-            "/leetcode/problem/0844.md",
             "/leetcode/problem/0876.md"
-          ],
-        },
-        {
-          title: "0900-0999",
-          collapsable: true,
-          sidebarDepth: 0,
-          children: [
-            "/leetcode/solution/0900-0999.md",
-            "/leetcode/problem/0907.md"
           ],
         },
         {
@@ -354,37 +325,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/1000-1099.md",
-            "/leetcode/problem/1021.md",
             "/leetcode/problem/1047.md"
-          ],
-        },
-        {
-          title: "1100-1199",
-          collapsable: true,
-          sidebarDepth: 0,
-          children: [
-            "/leetcode/solution/1100-1199.md",
-            "/leetcode/problem/1190.md"
-          ],
-        },
-        {
-          title: "1300-1399",
-          collapsable: true,
-          sidebarDepth: 0,
-          children: [
-            "/leetcode/solution/1300-1399.md",
-            "/leetcode/problem/1381.md"
-          ],
-        },
-        {
-          title: "1400-1499",
-          collapsable: true,
-          sidebarDepth: 0,
-          children: [
-            "/leetcode/solution/1400-1499.md",
-            "/leetcode/problem/1441.md",
-            "/leetcode/problem/1472.md",
-            "/leetcode/problem/1475.md"
           ],
         },
         {
@@ -393,17 +334,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Interviews.md",
-            "/leetcode/problem/i_03.01.md",
             "/leetcode/problem/i_16.25.md"
-          ],
-        },
-        {
-          title: "剑指 Offer",
-          collapsable: true,
-          sidebarDepth: 0,
-          children: [
-            "/leetcode/solution/Offer.md",
-            "/leetcode/problem/jz_offer_59_2.md"
           ],
         },
         {
@@ -412,17 +343,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Offer-II.md",
-            "/leetcode/problem/jz_offer_II_031.md",
-            "/leetcode/problem/jz_offer_II_055.md"
-          ],
-        },
-        {
-          title: "力扣杯",
-          collapsable: true,
-          sidebarDepth: 0,
-          children: [
-            "/leetcode/solution/LCP.md",
-            "/leetcode/problem/LCP_53.md"
+            "/leetcode/problem/jz_offer_II_031.md"
           ],
         },// AUTO_GEN_CONFIG_END
       ],

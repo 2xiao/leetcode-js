@@ -11,7 +11,7 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 0504 | [七进制数](https://leetcode.com/problems/base-7/) |  | `数学` | <font color=#15bd66>Esay</font> |
 | 0405 | [数字转换为十六进制数](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) |  | `位运算` `数学` | <font color=#15bd66>Esay</font> |
-| 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0190) | `位运算` `分治` | <font color=#15bd66>Esay</font> |
+| 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  | `位运算` `分治` | <font color=#15bd66>Esay</font> |
 | 1009 | [十进制整数的反码](https://leetcode.com/problems/complement-of-base-10-integer/) |  | `位运算` | <font color=#15bd66>Esay</font> |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  | `位运算` `分治` | <font color=#15bd66>Esay</font> |
 | 0371 | [两整数之和](https://leetcode.com/problems/sum-of-two-integers/) |  | `位运算` `数学` | <font color=#ffb800>Medium</font> |

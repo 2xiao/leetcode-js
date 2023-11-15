@@ -186,10 +186,10 @@ table th:nth-of-type(5) { width: 10%; }
 | 0213 | [打家劫舍 II](https://leetcode.com/problems/house-robber-ii/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
 | 0216 | [组合总和 III](https://leetcode.com/problems/combination-sum-iii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0220) | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
+| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) |  | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  | `数组` `动态规划` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0228 | [汇总区间](https://leetcode.com/problems/summary-ranges/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 0229 | [多数元素 II](https://leetcode.com/problems/majority-element-ii/) |  | `数组` `哈希表` `计数` `1+` | <font color=#ffb800>Medium</font> |
@@ -321,7 +321,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> |
 | 0500 | [键盘行](https://leetcode.com/problems/keyboard-row/) |  | `数组` `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 0502 | [IPO](https://leetcode.com/problems/ipo/) |  | `贪心` `数组` `排序` `1+` | <font color=#ff334b>Hard</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  | `数组` `排序` `堆（优先队列）` | <font color=#15bd66>Esay</font> |
 | 0517 | [超级洗衣机](https://leetcode.com/problems/super-washing-machines/) |  | `贪心` `数组` | <font color=#ff334b>Hard</font> |
 | 0518 | [零钱兑换 II](https://leetcode.com/problems/coin-change-ii/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
@@ -389,7 +389,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 0675 | [为高尔夫比赛砍树](https://leetcode.com/problems/cut-off-trees-for-golf-event/) |  | `广度优先搜索` `数组` `矩阵` `1+` | <font color=#ff334b>Hard</font> |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | `数组` `数学` `回溯` | <font color=#ff334b>Hard</font> |
-| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
+| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) |  | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | 0683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots/) |  | `树状数组` `数组` `有序集合` `1+` | <font color=#ff334b>Hard</font> |
 | 0689 | [三个无重叠子数组的最大和](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word/) |  | `位运算` `数组` `字符串` `3+` | <font color=#ff334b>Hard</font> |
@@ -508,7 +508,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0902 | [最大为 N 的数字组合](https://leetcode.com/problems/numbers-at-most-n-given-digit-set/) |  | `数组` `数学` `字符串` `2+` | <font color=#ff334b>Hard</font> |
 | 0904 | [水果成篮](https://leetcode.com/problems/fruit-into-baskets/) |  | `数组` `哈希表` `滑动窗口` | <font color=#ffb800>Medium</font> |
 | 0905 | [按奇偶排序数组](https://leetcode.com/problems/sort-array-by-parity/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> |
-| 0907 | [子数组的最小值之和](https://leetcode.com/problems/sum-of-subarray-minimums/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0907) | `栈` `数组` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
+| 0907 | [子数组的最小值之和](https://leetcode.com/problems/sum-of-subarray-minimums/) |  | `栈` `数组` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
 | 0908 | [最小差值 I](https://leetcode.com/problems/smallest-range-i/) |  | `数组` `数学` | <font color=#15bd66>Esay</font> |
 | 0909 | [蛇梯棋](https://leetcode.com/problems/snakes-and-ladders/) |  | `广度优先搜索` `数组` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0910 | [最小差值 II](https://leetcode.com/problems/smallest-range-ii/) |  | `贪心` `数组` `数学` `1+` | <font color=#ffb800>Medium</font> |
@@ -743,7 +743,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1368 | [使网格图至少有一条有效路径的最小代价](https://leetcode.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/) |  | `广度优先搜索` `图` `数组` `3+` | <font color=#ff334b>Hard</font> |
 | 1375 | [二进制字符串前缀一致的次数](https://leetcode.com/problems/number-of-times-binary-string-is-prefix-aligned/) |  | `数组` | <font color=#ffb800>Medium</font> |
 | 1380 | [矩阵中的幸运数](https://leetcode.com/problems/lucky-numbers-in-a-matrix/) |  | `数组` `矩阵` | <font color=#15bd66>Esay</font> |
-| 1381 | [设计一个支持增量操作的栈](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1381) | `栈` `设计` `数组` | <font color=#ffb800>Medium</font> |
+| 1381 | [设计一个支持增量操作的栈](https://leetcode.com/problems/design-a-stack-with-increment-operation/) |  | `栈` `设计` `数组` | <font color=#ffb800>Medium</font> |
 | 1383 | [最大的团队表现值](https://leetcode.com/problems/maximum-performance-of-a-team/) |  | `贪心` `数组` `排序` `1+` | <font color=#ff334b>Hard</font> |
 | 1385 | [两个数组间的距离值](https://leetcode.com/problems/find-the-distance-value-between-two-arrays/) |  | `数组` `双指针` `二分查找` `1+` | <font color=#15bd66>Esay</font> |
 | 1386 | [安排电影院座位](https://leetcode.com/problems/cinema-seat-allocation/) |  | `贪心` `位运算` `数组` `1+` | <font color=#ffb800>Medium</font> |
@@ -772,7 +772,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 1437 | [是否所有 1 都至少相隔 k 个元素](https://leetcode.com/problems/check-if-all-1s-are-at-least-length-k-places-away/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 1438 | [绝对差不超过限制的最长连续子数组](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/) |  | `队列` `数组` `有序集合` `3+` | <font color=#ffb800>Medium</font> |
 | 1439 | [有序矩阵中的第 k 个最小数组和](https://leetcode.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/) |  | `数组` `二分查找` `矩阵` `1+` | <font color=#ff334b>Hard</font> |
-| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
+| 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 1442 | [形成两个异或相等数组的三元组数目](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) |  | `位运算` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 1444 | [切披萨的方案数](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) |  | `记忆化搜索` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | 1449 | [数位成本和为目标值的最大数字](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
@@ -787,9 +787,9 @@ table th:nth-of-type(5) { width: 10%; }
 | 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) |  | `数组` `数学` `动态规划` `3+` | <font color=#ff334b>Hard</font> |
 | 1470 | [重新排列数组](https://leetcode.com/problems/shuffle-the-array/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 1471 | [数组中的 k 个最强值](https://leetcode.com/problems/the-k-strongest-values-in-an-array/) |  | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 1473 | [粉刷房子 III](https://leetcode.com/problems/paint-house-iii/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
-| 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) | `栈` `数组` `单调栈` | <font color=#15bd66>Esay</font> |
+| 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) |  | `栈` `数组` `单调栈` | <font color=#15bd66>Esay</font> |
 | 1476 | [子矩形查询](https://leetcode.com/problems/subrectangle-queries/) |  | `设计` `数组` `矩阵` | <font color=#ffb800>Medium</font> |
 | 1477 | [找两个和为目标值且不重叠的子数组](https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/) |  | `数组` `哈希表` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
 | 1478 | [安排邮筒](https://leetcode.com/problems/allocate-mailboxes/) |  | `数组` `数学` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
@@ -1538,7 +1538,7 @@ table th:nth-of-type(5) { width: 10%; }
 | LCP 50 | [宝石补给](https://leetcode.cn/problems/WHnhjV/) |  | `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | LCP 51 | [烹饪料理](https://leetcode.cn/problems/UEcfPD/) |  | `位运算` `数组` `回溯` `1+` | <font color=#15bd66>Esay</font> |
 | LCP 52 | [二叉搜索树染色](https://leetcode.cn/problems/QO5KpG/) |  | `树` `线段树` `二叉搜索树` `4+` | <font color=#ffb800>Medium</font> |
-| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/LCP_53) | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
+| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) |  | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | LCP 54 | [夺回据点](https://leetcode.cn/problems/s5kipK/) |  | `图` `数组` `双连通分量` | <font color=#ff334b>Hard</font> |
 | LCP 55 | [采集果实](https://leetcode.cn/problems/PTXy4P/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | LCP 56 | [信物传送](https://leetcode.cn/problems/6UEx57/) |  | `广度优先搜索` `图` `数组` `3+` | <font color=#ffb800>Medium</font> |
@@ -1638,7 +1638,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer II 119 | [最长连续序列](https://leetcode.cn/problems/WhsWhI/) |  | `并查集` `数组` `哈希表` | <font color=#ffb800>Medium</font> |
 | 面试题 01.07 | [旋转矩阵](https://leetcode.cn/problems/rotate-matrix-lcci/) |  | `数组` `数学` `矩阵` | <font color=#ffb800>Medium</font> |
 | 面试题 01.08 | [零矩阵](https://leetcode.cn/problems/zero-matrix-lcci/) |  | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
-| 面试题 03.01 | [三合一](https://leetcode.cn/problems/three-in-one-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_03.01) | `栈` `设计` `数组` | <font color=#15bd66>Esay</font> |
+| 面试题 03.01 | [三合一](https://leetcode.cn/problems/three-in-one-lcci/) |  | `栈` `设计` `数组` | <font color=#15bd66>Esay</font> |
 | 面试题 04.02 | [最小高度树](https://leetcode.cn/problems/minimum-height-tree-lcci/) |  | `树` `二叉搜索树` `数组` `2+` | <font color=#15bd66>Esay</font> |
 | 面试题 05.08 | [绘制直线](https://leetcode.cn/problems/draw-line-lcci/) |  | `位运算` `数组` `数学` | <font color=#ffb800>Medium</font> |
 | 面试题 08.02 | [迷路的机器人](https://leetcode.cn/problems/robot-in-a-grid-lcci/) |  | `数组` `动态规划` `回溯` `1+` | <font color=#ffb800>Medium</font> |

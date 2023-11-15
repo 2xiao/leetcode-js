@@ -113,4 +113,4 @@ table th:nth-of-type(5) { width: 10%; }
 | 2407 | [最长递增子序列 II](https://leetcode.com/problems/longest-increasing-subsequence-ii/) |  | `树状数组` `线段树` `队列` `4+` | <font color=#ff334b>Hard</font> |
 | 2444 | [统计定界子数组的数目](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) |  | `队列` `数组` `滑动窗口` `1+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) |  | `队列` `滑动窗口` `单调队列` `1+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_59_2) | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) |  | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |

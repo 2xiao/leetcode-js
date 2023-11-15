@@ -101,7 +101,7 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  | `队列` `数组` `滑动窗口` `2+` | <font color=#ff334b>Hard</font> |
 | 0281 | [锯齿迭代器](https://leetcode.com/problems/zigzag-iterator/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
@@ -144,7 +144,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 50 | [第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) |  | `队列` `哈希表` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 59 - I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) |  | `队列` `滑动窗口` `单调队列` `1+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_59_2) | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) |  | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 041 | [滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U/) |  | `设计` `队列` `数组` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 042 | [最近请求次数](https://leetcode.cn/problems/H8086Q/) |  | `设计` `队列` `数据流` | <font color=#15bd66>Esay</font> |
 | 面试题 03.04 | [化栈为队](https://leetcode.cn/problems/implement-queue-using-stacks-lcci/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |

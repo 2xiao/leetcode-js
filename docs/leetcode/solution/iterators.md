@@ -110,4 +110,4 @@ table th:nth-of-type(5) { width: 10%; }
 | 0900 | [RLE 迭代器](https://leetcode.com/problems/rle-iterator/) |  | `设计` `数组` `计数` `1+` | <font color=#ffb800>Medium</font> |
 | 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination/) |  | `设计` `字符串` `回溯` `1+` | <font color=#ffb800>Medium</font> |
 | 1586 | [二叉搜索树迭代器 II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_055) | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |

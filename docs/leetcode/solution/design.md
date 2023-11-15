@@ -107,7 +107,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 0211 | [添加与搜索单词 - 数据结构设计](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |  | `深度优先搜索` `设计` `字典树` `1+` | <font color=#ffb800>Medium</font> |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 0244 | [最短单词距离 II](https://leetcode.com/problems/shortest-word-distance-ii/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 0251 | [展开二维向量](https://leetcode.com/problems/flatten-2d-vector/) |  | `设计` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
@@ -176,10 +176,10 @@ table th:nth-of-type(5) { width: 10%; }
 | 1348 | [推文计数](https://leetcode.com/problems/tweet-counts-per-frequency/) |  | `设计` `哈希表` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
 | 1352 | [最后 K 个数的乘积](https://leetcode.com/problems/product-of-the-last-k-numbers/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 1357 | [每隔 n 个顾客打折](https://leetcode.com/problems/apply-discount-every-n-orders/) |  | `设计` `数组` `哈希表` | <font color=#ffb800>Medium</font> |
-| 1381 | [设计一个支持增量操作的栈](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1381) | `栈` `设计` `数组` | <font color=#ffb800>Medium</font> |
+| 1381 | [设计一个支持增量操作的栈](https://leetcode.com/problems/design-a-stack-with-increment-operation/) |  | `栈` `设计` `数组` | <font color=#ffb800>Medium</font> |
 | 1396 | [设计地铁系统](https://leetcode.com/problems/design-underground-system/) |  | `设计` `哈希表` `字符串` | <font color=#ffb800>Medium</font> |
 | 1429 | [第一个唯一数字](https://leetcode.com/problems/first-unique-number/) |  | `设计` `队列` `数组` `2+` | <font color=#ffb800>Medium</font> |
-| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
+| 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) |  | `栈` `设计` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 1476 | [子矩形查询](https://leetcode.com/problems/subrectangle-queries/) |  | `设计` `数组` `矩阵` | <font color=#ffb800>Medium</font> |
 | 1483 | [树节点的第 K 个祖先](https://leetcode.com/problems/kth-ancestor-of-a-tree-node/) |  | `树` `深度优先搜索` `广度优先搜索` `2+` | <font color=#ff334b>Hard</font> |
 | 1500 | [设计文件分享系统](https://leetcode.com/problems/design-a-file-sharing-system/) |  | `设计` `哈希表` `数据流` `1+` | <font color=#ffb800>Medium</font> |
@@ -227,7 +227,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer 30 | [包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/) |  | `栈` `设计` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 37 | [序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/) |  | `树` `深度优先搜索` `广度优先搜索` `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) |  | `设计` `双指针` `数据流` `2+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_59_2) | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) |  | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 013 | [二维子矩阵的和](https://leetcode.cn/problems/O4NDxx/) |  | `设计` `数组` `矩阵` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 030 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
@@ -235,13 +235,13 @@ table th:nth-of-type(5) { width: 10%; }
 | 剑指 Offer II 042 | [最近请求次数](https://leetcode.cn/problems/H8086Q/) |  | `设计` `队列` `数据流` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 043 | [往完全二叉树添加节点](https://leetcode.cn/problems/NaqhDT/) |  | `树` `广度优先搜索` `设计` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 048 | [序列化与反序列化二叉树](https://leetcode.cn/problems/h54YBf/) |  | `树` `深度优先搜索` `广度优先搜索` `3+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_055) | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 058 | [日程表](https://leetcode.cn/problems/fi9suh/) |  | `设计` `线段树` `二分查找` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 059 | [数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C/) |  | `树` `设计` `二叉搜索树` `3+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 062 | [实现前缀树](https://leetcode.cn/problems/QC3q1f/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 064 | [神奇的字典](https://leetcode.cn/problems/US1pGT/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 066 | [单词之和](https://leetcode.cn/problems/z1R5dt/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 面试题 03.01 | [三合一](https://leetcode.cn/problems/three-in-one-lcci/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/i_03.01) | `栈` `设计` `数组` | <font color=#15bd66>Esay</font> |
+| 面试题 03.01 | [三合一](https://leetcode.cn/problems/three-in-one-lcci/) |  | `栈` `设计` `数组` | <font color=#15bd66>Esay</font> |
 | 面试题 03.02 | [栈的最小值](https://leetcode.cn/problems/min-stack-lcci/) |  | `栈` `设计` | <font color=#15bd66>Esay</font> |
 | 面试题 03.03 | [堆盘子](https://leetcode.cn/problems/stack-of-plates-lcci/) |  | `栈` `设计` `链表` | <font color=#ffb800>Medium</font> |
 | 面试题 03.04 | [化栈为队](https://leetcode.cn/problems/implement-queue-using-stacks-lcci/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |

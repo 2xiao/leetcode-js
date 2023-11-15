@@ -143,5 +143,5 @@ table th:nth-of-type(5) { width: 10%; }
 | 2741 | [特别的排列](https://leetcode.com/problems/special-permutations/) |  | `位运算` `数组` `状态压缩` | <font color=#ffb800>Medium</font> |
 | LCP 04 | [覆盖](https://leetcode.cn/problems/broken-board-dominoes/) |  | `位运算` `图` `数组` `2+` | <font color=#ff334b>Hard</font> |
 | LCP 13 | [寻宝](https://leetcode.cn/problems/xun-bao/) |  | `位运算` `广度优先搜索` `数组` `3+` | <font color=#ff334b>Hard</font> |
-| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/LCP_53) | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
+| LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4/) |  | `位运算` `数组` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
 | LCP 69 | [Hello LeetCode!](https://leetcode.cn/problems/rMeRt2/) |  | `位运算` `数组` `字符串` `2+` | <font color=#ff334b>Hard</font> |

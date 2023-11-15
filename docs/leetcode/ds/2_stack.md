@@ -517,7 +517,7 @@ var dailyTemperatures = function (temperatures) {
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
-| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
+| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | `栈` `数组` `数学` | <font color=#ffb800>Medium</font> |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
@@ -534,10 +534,10 @@ var dailyTemperatures = function (temperatures) {
 | :------: | :------ | :------: | :------ | :------ |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) | `栈` `数组` `哈希表` `1+` | <font color=#15bd66>Esay</font> |
-| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
+| 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) |  | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  | `栈` `设计` `数据流` `1+` | <font color=#ffb800>Medium</font> |
 | 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  | `栈` `数组` `单调栈` | <font color=#ff334b>Hard</font> |
-| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0316) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
+| 0316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  | `栈` `数组` `双指针` `2+` | <font color=#ff334b>Hard</font> |
 | 0085 | [最大矩形](https://leetcode.com/problems/maximal-rectangle/) |  | `栈` `数组` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
 

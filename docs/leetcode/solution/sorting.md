@@ -109,13 +109,13 @@ table th:nth-of-type(5) { width: 10%; }
 | 0075 | [颜色分类](https://leetcode.com/problems/sort-colors/) |  | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> |
 | 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> |
 | 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | `链表` `排序` | <font color=#ffb800>Medium</font> |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | `数组` `桶排序` `基数排序` `1+` | <font color=#ff334b>Hard</font> |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  | `数组` `哈希表` `分治` `2+` | <font color=#15bd66>Esay</font> |
 | 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  | `贪心` `数组` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0220) | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 0229 | [多数元素 II](https://leetcode.com/problems/majority-element-ii/) |  | `数组` `哈希表` `计数` `1+` | <font color=#ffb800>Medium</font> |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) |  | `哈希表` `字符串` `排序` | <font color=#15bd66>Esay</font> |
 | 0252 | [会议室](https://leetcode.com/problems/meeting-rooms/) |  | `数组` `排序` | <font color=#15bd66>Esay</font> |

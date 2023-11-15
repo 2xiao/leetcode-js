@@ -605,7 +605,7 @@ console.log(priorityQueue.toString()); // output: B-15,E-18,D-20
 | :------: | :------ | :------: | :------ | :------ |
 | 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream/) |  | `设计` `队列` `数组` `1+` | <font color=#15bd66>Esay</font> |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 
 #### 优先队列
 
