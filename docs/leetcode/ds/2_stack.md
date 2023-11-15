@@ -160,7 +160,7 @@ console.log(stack.count()); // output: 2
 
 从功能上来说，数组或链表可以完全替代栈，但特定的数据结构是对特定场景的抽象，数组或链表暴露了太多的操作接口，操作上的确灵活自由，但使用时就比较不可控，自然也就更容易出错。
 
-当某个数据集合只涉及在一端插入和删除数据，并且满足后进先出、先进后出的特性，我们就应该首选“栈”这种数据结构。比如浏览器的前进后退功能。
+当某个数据集合只涉及在一端插入和删除数据，并且满足后进先出、先进后出的特性，我们就应该首选“栈”这种数据结构。
 
 ### 1. 表达式求值
 
@@ -289,7 +289,72 @@ var isValid = function (s) {
 
 ---
 
-### 3. 函数调用栈
+### 3. 浏览器历史记录
+另一个常见的应用场景是浏览器的前进后退功能。
+
+::: tip
+[1472. 设计浏览器历史记录 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/1472.html)
+:::
+
+#### ① 题目大意
+
+设计一个只支持单个标签页的 **浏览器** ，最开始浏览的网页是 `homepage` ，可以访问其他的网站 `url` ，也可以在浏览历史中后退 `steps` 步或前进 `steps` 步。
+
+请你实现 `BrowserHistory` 类：
+
+- `BrowserHistory(string homepage)` ，用 `homepage` 初始化浏览器类。
+- `void visit(string url)` 从当前页跳转访问 `url` 对应的页面。执行此操作会把浏览历史前进的记录全部删除。
+- `string back(int steps)` 在浏览历史中后退 `steps` 步。如果你只能在浏览历史中后退至多 `x` 步且 `steps > x` ，那么你只后退 `x` 步。请返回后退 至多 `steps` 步以后的 `url` 。
+- `string forward(int steps)` 在浏览历史中前进 `steps` 步。如果你只能在浏览历史中前进至多 x 步且 `steps > x` ，那么你只前进 `x` 步。请返回前进 至多 `steps` 步以后的 `url` 。
+
+**示例**：
+
+> BrowserHistory browserHistory = new BrowserHistory("leetcode.com");
+>
+> browserHistory.visit("google.com");       // 访问 "google.com"
+>
+> browserHistory.visit("facebook.com");     // 访问 "facebook.com"
+>
+> browserHistory.visit("youtube.com");      // 访问 "youtube.com"
+>
+> browserHistory.back(1);                   // 后退到 "facebook.com"
+>
+> browserHistory.back(1);                   // 后退到 "google.com"
+>
+> browserHistory.forward(1);                // 前进到 "facebook.com"
+>
+> browserHistory.visit("linkedin.com");     // 访问 "linkedin.com"
+>
+> browserHistory.forward(2);                // 无法前进任何步数。
+>
+> browserHistory.back(2);                   // 后退两步依次先到 "facebook.com" ，然后到 "google.com"
+>
+> browserHistory.back(7);                   // 只能后退一步到 "leetcode.com"
+
+**说明**：
+
+- `1 <= homepage.length <= 20`
+- `1 <= url.length <= 20`
+- `1 <= steps <= 100`
+- `homepage` 和 `url` 都只包含 `'.'` 或者小写英文字母。
+- 最多调用 `5000` 次 `visit，` `back` 和 `forward` 函数。
+
+#### ② 解题思路
+
+
+#### ③ 代码
+
+::: details 点击查看代码
+
+```javascript
+
+```
+
+:::
+
+---
+
+### 4. 函数调用栈
 
 还有一个比较经典的应用场景就是函数调用栈。
 
