@@ -321,7 +321,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0839 | [相似字符串组](https://leetcode.com/problems/similar-string-groups/) |  | `深度优先搜索` `广度优先搜索` `并查集` `2+` | <font color=#ff334b>Hard</font> |
 | 0842 | [将数组拆分成斐波那契序列](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) |  | `字符串` `回溯` | <font color=#ffb800>Medium</font> |
 | 0843 | [猜猜这个单词](https://leetcode.com/problems/guess-the-word/) |  | `数组` `数学` `字符串` `2+` | <font color=#ff334b>Hard</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0848 | [字母移位](https://leetcode.com/problems/shifting-letters/) |  | `数组` `字符串` | <font color=#ffb800>Medium</font> |
 | 0854 | [相似度为 K 的字符串](https://leetcode.com/problems/k-similar-strings/) |  | `广度优先搜索` `字符串` | <font color=#ff334b>Hard</font> |
 | 0856 | [括号的分数](https://leetcode.com/problems/score-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |

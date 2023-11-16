@@ -186,9 +186,9 @@ table th:nth-of-type(5) { width: 10%; }
 | 0213 | [打家劫舍 II](https://leetcode.com/problems/house-robber-ii/) |  | `数组` `动态规划` | <font color=#ffb800>Medium</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
 | 0216 | [组合总和 III](https://leetcode.com/problems/combination-sum-iii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
 | 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) |  | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
+| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
 | 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  | `数组` `动态规划` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0228 | [汇总区间](https://leetcode.com/problems/summary-ranges/) |  | `数组` | <font color=#15bd66>Esay</font> |
@@ -389,7 +389,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence/) |  | `数组` | <font color=#15bd66>Esay</font> |
 | 0675 | [为高尔夫比赛砍树](https://leetcode.com/problems/cut-off-trees-for-golf-event/) |  | `广度优先搜索` `数组` `矩阵` `1+` | <font color=#ff334b>Hard</font> |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  | `数组` `数学` `回溯` | <font color=#ff334b>Hard</font> |
-| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) |  | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
+| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | 0683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots/) |  | `树状数组` `数组` `有序集合` `1+` | <font color=#ff334b>Hard</font> |
 | 0689 | [三个无重叠子数组的最大和](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/) |  | `数组` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word/) |  | `位运算` `数组` `字符串` `3+` | <font color=#ff334b>Hard</font> |

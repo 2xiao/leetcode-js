@@ -69,7 +69,7 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#15bd66>Esay</font> |
 | 0925 | [长按键入](https://leetcode.com/problems/long-pressed-name/) |  | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler/) |  | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> |
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | `数学` `字符串` `模拟` | <font color=#15bd66>Esay</font> |
 

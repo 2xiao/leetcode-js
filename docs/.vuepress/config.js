@@ -125,7 +125,7 @@ function genLeetCode() {
   return [
     {
       title: "第一章 序章",
-      collapsable: false,
+      collapsable: true,
       sidebarDepth: 0,
       children: [
         "/leetcode/",
@@ -141,7 +141,7 @@ function genLeetCode() {
     },
     {
       title: "第二章 数据结构专题",
-      collapsable: false,
+      collapsable: true,
       sidebarDepth: 0,
       children: [
         "/leetcode/ds/0_array",
@@ -157,7 +157,7 @@ function genLeetCode() {
     },
     {
       title: "第三章 算法专题",
-      collapsable: false,
+      collapsable: true,
       sidebarDepth: 0,
       children: [
         "/leetcode/algorithm/0_enumeration",
@@ -175,7 +175,7 @@ function genLeetCode() {
     },
     {
       title: "第四章 LeetCode 题解",
-      collapsable: false,
+      collapsable: true,
       sidebarDepth: 0,
       children: [
         // AUTO_GEN_CONFIG_START
@@ -247,7 +247,10 @@ function genLeetCode() {
             "/leetcode/solution/0200-0299.md",
             "/leetcode/problem/0203.md",
             "/leetcode/problem/0206.md",
+            "/leetcode/problem/0217.md",
+            "/leetcode/problem/0219.md",
             "/leetcode/problem/0224.md",
+            "/leetcode/problem/0225.md",
             "/leetcode/problem/0232.md",
             "/leetcode/problem/0234.md",
             "/leetcode/problem/0238.md",
@@ -296,7 +299,8 @@ function genLeetCode() {
             "/leetcode/solution/0600-0699.md",
             "/leetcode/problem/0611.md",
             "/leetcode/problem/0622.md",
-            "/leetcode/problem/0678.md"
+            "/leetcode/problem/0678.md",
+            "/leetcode/problem/0682.md"
           ],
         },
         {
@@ -318,6 +322,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0800-0899.md",
+            "/leetcode/problem/0844.md",
             "/leetcode/problem/0876.md"
           ],
         },
@@ -455,6 +460,7 @@ function genBlog() {
       children: [
         "/blog/where_to_go",
         "/blog/live_in_us",
+        "/blog/run_europe",
         "/blog/digital_nomad",
         "/blog/neighbor",
         "/blog/indian",

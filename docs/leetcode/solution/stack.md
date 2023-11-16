@@ -116,7 +116,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
 | 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
 | 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) | `栈` `递归` `数学` `1+` | <font color=#ff334b>Hard</font> |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
@@ -146,7 +146,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0636 | [函数的独占时间](https://leetcode.com/problems/exclusive-time-of-functions/) |  | `栈` `数组` | <font color=#ffb800>Medium</font> |
 | 0654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree/) |  | `栈` `树` `数组` `3+` | <font color=#ffb800>Medium</font> |
 | 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
-| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) |  | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
+| 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) | `栈` `数组` `模拟` | <font color=#15bd66>Esay</font> |
 | 0716 | [最大栈](https://leetcode.com/problems/max-stack/) |  | `栈` `设计` `链表` `2+` | <font color=#ff334b>Hard</font> |
 | 0726 | [原子的数量](https://leetcode.com/problems/number-of-atoms/) |  | `栈` `哈希表` `字符串` `1+` | <font color=#ff334b>Hard</font> |
 | 0735 | [行星碰撞](https://leetcode.com/problems/asteroid-collision/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
@@ -156,7 +156,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0769 | [最多能完成排序的块](https://leetcode.com/problems/max-chunks-to-make-sorted/) |  | `栈` `贪心` `数组` `2+` | <font color=#ffb800>Medium</font> |
 | 0770 | [基本计算器 IV](https://leetcode.com/problems/basic-calculator-iv/) |  | `栈` `递归` `哈希表` `2+` | <font color=#ff334b>Hard</font> |
 | 0772 | [基本计算器 III](https://leetcode.com/problems/basic-calculator-iii/) |  | `栈` `递归` `数学` `1+` | <font color=#ff334b>Hard</font> |
-| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) |  | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
+| 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) | `栈` `双指针` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0853 | [车队](https://leetcode.com/problems/car-fleet/) |  | `栈` `数组` `排序` `1+` | <font color=#ffb800>Medium</font> |
 | 0856 | [括号的分数](https://leetcode.com/problems/score-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 0880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |

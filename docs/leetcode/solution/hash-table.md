@@ -135,8 +135,8 @@ table th:nth-of-type(5) { width: 10%; }
 | 0202 | [快乐数](https://leetcode.com/problems/happy-number/) |  | `哈希表` `数学` `双指针` | <font color=#15bd66>Esay</font> |
 | 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) |  | `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
-| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) |  | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
+| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
 | 0229 | [多数元素 II](https://leetcode.com/problems/majority-element-ii/) |  | `数组` `哈希表` `计数` `1+` | <font color=#ffb800>Medium</font> |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) |  | `哈希表` `字符串` `排序` | <font color=#15bd66>Esay</font> |
 | 0244 | [最短单词距离 II](https://leetcode.com/problems/shortest-word-distance-ii/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |

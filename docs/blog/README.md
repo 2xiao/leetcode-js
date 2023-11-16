@@ -1,5 +1,10 @@
-# 肉身翻墙
+### Hi there 👋
 
-本部分内容与肉身翻墙相关，分享包括美国生活体验、欧洲找工作经验等。
+I am **2xiao**, welcome to my blog.
 
-[开始阅读 ->](./where_to_go.md)
+### About me
+
+- 💻 Senior front-end engineer at Tencent Group.
+- 📆 4 years' development working experience.
+- 👩🏻‍🎓 Master of Electronic Science and Technology, BUPT.
+- ✍🏻 Writing blog to record my work & life.

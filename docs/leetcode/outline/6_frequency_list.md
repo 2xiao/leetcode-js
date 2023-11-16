@@ -149,7 +149,7 @@
 | 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> | 30 |
 | 0016 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0016) | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> | 29 |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | `双指针` `字符串` | <font color=#15bd66>Esay</font> | 29 |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> | 29 |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> | 29 |
 | 0135 | [分发糖果](https://leetcode.com/problems/candy/) |  | `贪心` `数组` | <font color=#ff334b>Hard</font> | 29 |
 | 0572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree/) |  | `树` `深度优先搜索` `二叉树` `2+` | <font color=#15bd66>Esay</font> | 28 |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> | 28 |

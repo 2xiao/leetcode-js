@@ -620,8 +620,8 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 | :------: | :------ | :------: | :------ | :------ |
 | 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) |  | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
-| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) |  | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) | `数组` `哈希表` `排序` | <font color=#15bd66>Esay</font> |
+| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) | `数组` `哈希表` `滑动窗口` | <font color=#15bd66>Esay</font> |
 | 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
 | 1941 | [检查是否所有字符出现次数相同](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) |  | `哈希表` `字符串` `计数` | <font color=#15bd66>Esay</font> |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  | `位运算` `数组` | <font color=#15bd66>Esay</font> |
