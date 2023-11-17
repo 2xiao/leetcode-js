@@ -106,7 +106,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0006 | [N 字形变换](https://leetcode.com/problems/zigzag-conversion/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0006) | `字符串` | <font color=#ffb800>Medium</font> |
 | 0008 | [字符串转换整数 (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0008) | `字符串` | <font color=#ffb800>Medium</font> |
 | 0010 | [正则表达式匹配](https://leetcode.com/problems/regular-expression-matching/) |  | `递归` `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
-| 0012 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) |  | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
+| 0012 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0012) | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0013 | [罗马数字转整数](https://leetcode.com/problems/roman-to-integer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0013) | `哈希表` `数学` `字符串` | <font color=#15bd66>Esay</font> |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  | `字典树` `字符串` | <font color=#15bd66>Esay</font> |
 | 0017 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  | `哈希表` `字符串` `回溯` | <font color=#ffb800>Medium</font> |

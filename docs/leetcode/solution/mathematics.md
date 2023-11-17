@@ -104,7 +104,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | `递归` `链表` `数学` | <font color=#ffb800>Medium</font> |
 | 0007 | [整数反转](https://leetcode.com/problems/reverse-integer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0007) | `数学` | <font color=#ffb800>Medium</font> |
 | 0009 | [回文数](https://leetcode.com/problems/palindrome-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0009) | `数学` | <font color=#15bd66>Esay</font> |
-| 0012 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) |  | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
+| 0012 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0012) | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0013 | [罗马数字转整数](https://leetcode.com/problems/roman-to-integer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0013) | `哈希表` `数学` `字符串` | <font color=#15bd66>Esay</font> |
 | 0029 | [两数相除](https://leetcode.com/problems/divide-two-integers/) |  | `位运算` `数学` | <font color=#ffb800>Medium</font> |
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  | `数学` `字符串` `模拟` | <font color=#ffb800>Medium</font> |

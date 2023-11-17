@@ -113,7 +113,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
+| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  | `数组` `哈希表` `回溯` `1+` | <font color=#ff334b>Hard</font> |
 | 0039 | [组合总和](https://leetcode.com/problems/combination-sum/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |
 | 0040 | [组合总和 II](https://leetcode.com/problems/combination-sum-ii/) |  | `数组` `回溯` | <font color=#ffb800>Medium</font> |

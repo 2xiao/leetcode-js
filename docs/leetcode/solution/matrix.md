@@ -101,7 +101,7 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
+| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  | `数组` `哈希表` `回溯` `1+` | <font color=#ff334b>Hard</font> |
 | 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | `数组` `数学` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> |

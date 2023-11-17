@@ -103,11 +103,11 @@ table th:nth-of-type(5) { width: 10%; }
 | :------: | :------ | :------: | :------ | :------ |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | `数组` `哈希表` | <font color=#15bd66>Esay</font> |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) | `哈希表` `字符串` `滑动窗口` | <font color=#ffb800>Medium</font> |
-| 0012 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) |  | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
+| 0012 | [整数转罗马数字](https://leetcode.com/problems/integer-to-roman/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0012) | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0013 | [罗马数字转整数](https://leetcode.com/problems/roman-to-integer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0013) | `哈希表` `数学` `字符串` | <font color=#15bd66>Esay</font> |
 | 0017 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) |  | `哈希表` `字符串` `回溯` | <font color=#ffb800>Medium</font> |
 | 0030 | [串联所有单词的子串](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |  | `哈希表` `字符串` `滑动窗口` | <font color=#ff334b>Hard</font> |
-| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
+| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  | `数组` `哈希表` `回溯` `1+` | <font color=#ff334b>Hard</font> |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  | `数组` `哈希表` | <font color=#ff334b>Hard</font> |
 | 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  | `数组` `哈希表` `字符串` `1+` | <font color=#ffb800>Medium</font> |

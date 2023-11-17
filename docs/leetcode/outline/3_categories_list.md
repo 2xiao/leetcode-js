@@ -151,7 +151,7 @@
 | 0383 | [赎金信](https://leetcode.com/problems/ransom-note/) |  | `哈希表` `字符串` `计数` | <font color=#15bd66>Esay</font> |
 | 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#15bd66>Esay</font> |
 | 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#15bd66>Esay</font> |
-| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) |  | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
+| 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) | `数组` `哈希表` `矩阵` | <font color=#ffb800>Medium</font> |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) | `数组` `哈希表` | <font color=#15bd66>Esay</font> |
 | 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> |
 | 0018 | [四数之和](https://leetcode.com/problems/4sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0018) | `数组` `双指针` `排序` | <font color=#ffb800>Medium</font> |
