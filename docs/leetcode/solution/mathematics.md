@@ -172,7 +172,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  | `数学` `字符串` `模拟` | <font color=#15bd66>Esay</font> |
 | 0423 | [从英文中重建数字](https://leetcode.com/problems/reconstruct-original-digits-from-english/) |  | `哈希表` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0441 | [排列硬币](https://leetcode.com/problems/arranging-coins/) |  | `数学` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
+| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
 | 0447 | [回旋镖的数量](https://leetcode.com/problems/number-of-boomerangs/) |  | `数组` `哈希表` `数学` | <font color=#ffb800>Medium</font> |
 | 0453 | [最小操作次数使数组元素相等](https://leetcode.com/problems/minimum-moves-to-equal-array-elements/) |  | `数组` `数学` | <font color=#ffb800>Medium</font> |
 | 0458 | [可怜的小猪](https://leetcode.com/problems/poor-pigs/) |  | `数学` `动态规划` `组合数学` | <font color=#ff334b>Hard</font> |

@@ -133,7 +133,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) |  | `栈` `树` `深度优先搜索` `4+` | <font color=#ffb800>Medium</font> |
 | 0439 | [三元表达式解析器](https://leetcode.com/problems/ternary-expression-parser/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
+| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
 | 0456 | [132 模式](https://leetcode.com/problems/132-pattern/) |  | `栈` `数组` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
 | 0484 | [寻找排列](https://leetcode.com/problems/find-permutation/) |  | `栈` `贪心` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0488 | [祖玛游戏](https://leetcode.com/problems/zuma-game/) |  | `栈` `广度优先搜索` `记忆化搜索` `2+` | <font color=#ff334b>Hard</font> |
@@ -245,7 +245,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 2736 | [最大和查询](https://leetcode.com/problems/maximum-sum-queries/) |  | `栈` `树状数组` `线段树` `4+` | <font color=#ff334b>Hard</font> |
 | 2751 | [机器人碰撞](https://leetcode.com/problems/robot-collisions/) |  | `栈` `数组` `排序` `1+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) |  | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 30 | [包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/) |  | `栈` `设计` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 31 | [栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) |  | `栈` `树` `二叉搜索树` `3+` | <font color=#ffb800>Medium</font> |

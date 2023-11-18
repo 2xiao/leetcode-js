@@ -2,7 +2,7 @@
 
 :tangerine: <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](../solution/design.md) [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) [`双向链表`](../solution/doubly-linked-list.md)
 
-### 题目
+## 题目
 
 Design a data structure that follows the constraints of a **[Least Recently Used (LRU) cache](https://en.wikipedia.org/wiki/Cache_replacement_policies#LRU)**.
 
@@ -44,7 +44,7 @@ lRUCache.get(4);    // return 4
 - `0 <= value <= 104`
 - At most `3 * 104` calls will be made to `get` and `put`.
 
-### 题目大意
+## 题目大意
 
 请你设计并实现一个满足 LRU (最近最少使用) 缓存 约束的数据结构。
 
@@ -55,7 +55,7 @@ lRUCache.get(4);    // return 4
 - `void put(int key, int value)` 如果关键字 `key` 已经存在，则变更其数据值 `value` ；如果不存在，则向缓存中插入该组 `key-value` 。如果插入操作导致关键字数量超过 `capacity` ，则应该 **逐出** 最久未使用的关键字。
 - 函数 `get` 和 `put` 必须以 `O(1)` 的平均时间复杂度运行。
 
-### 解题思路
+## 解题思路
 
 `LRU` 是 `Least Recently Used` 的缩写，即最近最少使用，是一种常用的缓存淘汰算法，选择最久未使用的页面予以淘汰。
 
@@ -86,7 +86,7 @@ lRUCache.get(4);    // return 4
 
 可以继续优化这个实现思路，比如使用双向链表，并引入 **哈希表（Hash table）** 来记录每个数据的位置，将缓存访问的时间复杂度降到 `O(1)`。
 
-### 代码
+## 代码
 
 ```javascript
 class Node {

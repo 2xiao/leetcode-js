@@ -275,7 +275,7 @@ table th:nth-of-type(5) { width: 10%; }
 | LCP 28 | [采购方案](https://leetcode.cn/problems/4xy4Wx/) |  | `数组` `双指针` `二分查找` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof/) |  | `数组` `双指针` `排序` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | `链表` `双指针` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) |  | `设计` `双指针` `数据流` `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 52 | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 57 | [和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof/) |  | `数组` `双指针` `二分查找` | <font color=#15bd66>Esay</font> |

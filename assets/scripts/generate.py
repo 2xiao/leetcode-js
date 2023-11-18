@@ -367,7 +367,7 @@ def gen_tag_and_difficulty(problem_path):
         problem_difficulty = format_difficulty(
             df.loc[df_indexs[0], "难度"], True)
 
-        delim = "### 题目\n"
+        delim = "## 题目\n"
         file_path = os.path.join(problem_path, Path(file))
         content = Path(file_path).read_text(encoding='utf-8')
         if delim in content:

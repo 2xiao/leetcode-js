@@ -278,6 +278,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/0400-0499.md",
+            "/leetcode/problem/0445.md",
             "/leetcode/problem/0485.md",
             "/leetcode/problem/0496.md",
             "/leetcode/problem/0498.md"
@@ -365,6 +366,16 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/Interviews.md",
             "/leetcode/problem/i_16.25.md"
+          ],
+        },
+        {
+          title: "剑指 Offer",
+          collapsable: true,
+          sidebarDepth: 0,
+          children: [
+            "/leetcode/solution/Offer.md",
+            "/leetcode/problem/jz_offer_09_1.md",
+            "/leetcode/problem/jz_offer_22_1.md"
           ],
         },
         {

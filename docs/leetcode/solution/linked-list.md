@@ -136,7 +136,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) |  | `栈` `树` `深度优先搜索` `4+` | <font color=#ffb800>Medium</font> |
 | 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
 | 0432 | [全 O(1) 的数据结构](https://leetcode.com/problems/all-oone-data-structure/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ff334b>Hard</font> |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) |  | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
+| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
 | 0460 | [LFU 缓存](https://leetcode.com/problems/lfu-cache/) |  | `设计` `哈希表` `链表` `1+` | <font color=#ff334b>Hard</font> |
 | 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
 | 0641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
@@ -173,7 +173,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 2487 | [从链表中移除节点](https://leetcode.com/problems/remove-nodes-from-linked-list/) |  | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 18 | [删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/) |  | `链表` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) |  | `链表` `双指针` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 24 | [反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/) |  | `递归` `链表` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 25 | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) |  | `递归` `链表` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 35 | [复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof/) |  | `哈希表` `链表` | <font color=#ffb800>Medium</font> |
