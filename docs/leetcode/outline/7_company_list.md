@@ -10,7 +10,7 @@
 | 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  | `树` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> | 21 |
 | 0398 | [随机数索引](https://leetcode.com/problems/random-pick-index/) |  | `水塘抽样` `哈希表` `数学` `1+` | <font color=#ffb800>Medium</font> | 16 |
 | 0317 | [离建筑物最近的距离](https://leetcode.com/problems/shortest-distance-from-all-buildings/) |  | `广度优先搜索` `数组` `矩阵` | <font color=#ff334b>Hard</font> | 16 |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> | 16 |
+| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> | 16 |
 | 0840 | [矩阵中的幻方](https://leetcode.com/problems/magic-squares-in-grid/) |  | `数组` `数学` `矩阵` | <font color=#ffb800>Medium</font> | 16 |
 | 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | `栈` `数组` `数学` | <font color=#ffb800>Medium</font> | 15 |
 | 1272 | [删除区间](https://leetcode.com/problems/remove-interval/) |  | `数组` | <font color=#ffb800>Medium</font> | 15 |
@@ -173,7 +173,7 @@
 | 0348 | [设计井字棋](https://leetcode.com/problems/design-tic-tac-toe/) |  | `设计` `数组` `哈希表` `1+` | <font color=#ffb800>Medium</font> | 4 |
 | 0799 | [香槟塔](https://leetcode.com/problems/champagne-tower/) |  | `动态规划` | <font color=#ffb800>Medium</font> | 3 |
 | 0387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string/) |  | `队列` `哈希表` `字符串` `1+` | <font color=#15bd66>Esay</font> | 3 |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> | 3 |
+| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) | `栈` `设计` | <font color=#ffb800>Medium</font> | 3 |
 | 0140 | [单词拆分 II](https://leetcode.com/problems/word-break-ii/) |  | `字典树` `记忆化搜索` `数组` `4+` | <font color=#ff334b>Hard</font> | 2 |
 | 0828 | [统计子串中的唯一字符](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string/) |  | `哈希表` `字符串` `动态规划` | <font color=#ff334b>Hard</font> | 2 |
 
@@ -255,9 +255,9 @@
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> | 13 |
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | `数组` `矩阵` `模拟` | <font color=#ffb800>Medium</font> | 13 |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) |  | `广度优先搜索` `数组` `动态规划` | <font color=#ffb800>Medium</font> | 13 |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> | 13 |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> | 13 |
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  | `数学` `字符串` `模拟` | <font color=#ffb800>Medium</font> | 13 |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> | 12 |
+| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) | `栈` `设计` | <font color=#ffb800>Medium</font> | 12 |
 
 
 ## 百度
@@ -385,9 +385,9 @@
 | 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> | 32 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  | `并查集` `数组` `哈希表` | <font color=#ffb800>Medium</font> | 30 |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> | 26 |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> | 25 |
+| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) | `栈` `设计` | <font color=#ffb800>Medium</font> | 25 |
 | 0264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii/) |  | `哈希表` `数学` `动态规划` `1+` | <font color=#ffb800>Medium</font> | 24 |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> | 24 |
+| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> | 24 |
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | `数组` `数学` `双指针` | <font color=#ffb800>Medium</font> | 22 |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) | `双指针` `字符串` | <font color=#15bd66>Esay</font> | 22 |
 
@@ -426,7 +426,7 @@
 | 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) | `链表` `双指针` | <font color=#ffb800>Medium</font> | 19 |
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) | `递归` `链表` | <font color=#ff334b>Hard</font> | 18 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> | 18 |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> | 18 |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> | 18 |
 | 0121 | [买卖股票的最佳时机](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> | 17 |
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) |  | `树` `深度优先搜索` `二叉树` | <font color=#ffb800>Medium</font> | 17 |
 | 0144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/) |  | `栈` `树` `深度优先搜索` `1+` | <font color=#15bd66>Esay</font> | 17 |

@@ -141,7 +141,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 2528 | [最大化城市的最小供电站数目](https://leetcode.com/problems/maximize-the-minimum-powered-city/) |  | `贪心` `队列` `数组` `3+` | <font color=#ff334b>Hard</font> |
 | 2534 | [通过门的时间](https://leetcode.com/problems/time-taken-to-cross-the-door/) |  | `队列` `数组` `模拟` | <font color=#ff334b>Hard</font> |
 | LCP 23 | [魔术排列](https://leetcode.cn/problems/er94lq/) |  | `队列` `数组` `模拟` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 50 | [第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof/) |  | `队列` `哈希表` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 59 - I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) |  | `队列` `滑动窗口` `单调队列` `1+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) |  | `设计` `队列` `单调队列` | <font color=#ffb800>Medium</font> |

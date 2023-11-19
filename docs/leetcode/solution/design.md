@@ -102,7 +102,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) | `设计` `哈希表` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
+| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) | `栈` `设计` | <font color=#ffb800>Medium</font> |
 | 0170 | [两数之和 III - 数据结构设计](https://leetcode.com/problems/two-sum-iii-data-structure-design/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
 | 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  | `设计` `字典树` `哈希表` `1+` | <font color=#ffb800>Medium</font> |
@@ -223,7 +223,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 2642 | [设计可以求最短路径的图类](https://leetcode.com/problems/design-graph-with-shortest-path-calculator/) |  | `图` `设计` `最短路` `1+` | <font color=#ff334b>Hard</font> |
 | 2671 | [频率跟踪器](https://leetcode.com/problems/frequency-tracker/) |  | `设计` `哈希表` | <font color=#ffb800>Medium</font> |
 | LCP 27 | [黑盒光线反射](https://leetcode.cn/problems/IQvJ9i/) |  | `设计` `线段树` `数学` `1+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 30 | [包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof/) |  | `栈` `设计` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 37 | [序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/) |  | `树` `深度优先搜索` `广度优先搜索` `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof/) |  | `设计` `双指针` `数据流` `2+` | <font color=#ff334b>Hard</font> |

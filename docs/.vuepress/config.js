@@ -237,6 +237,7 @@ function genLeetCode() {
             "/leetcode/problem/0143.md",
             "/leetcode/problem/0146.md",
             "/leetcode/problem/0152.md",
+            "/leetcode/problem/0155.md",
             "/leetcode/problem/0167.md",
             "/leetcode/problem/0189.md"
           ],
@@ -269,7 +270,8 @@ function genLeetCode() {
             "/leetcode/solution/0300-0399.md",
             "/leetcode/problem/0328.md",
             "/leetcode/problem/0344.md",
-            "/leetcode/problem/0345.md"
+            "/leetcode/problem/0345.md",
+            "/leetcode/problem/0394.md"
           ],
         },
         {
@@ -326,7 +328,8 @@ function genLeetCode() {
           children: [
             "/leetcode/solution/0800-0899.md",
             "/leetcode/problem/0844.md",
-            "/leetcode/problem/0876.md"
+            "/leetcode/problem/0876.md",
+            "/leetcode/problem/0880.md"
           ],
         },
         {

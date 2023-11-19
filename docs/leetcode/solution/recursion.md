@@ -124,7 +124,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0326 | [3 的幂](https://leetcode.com/problems/power-of-three/) |  | `递归` `数学` | <font color=#15bd66>Esay</font> |
 | 0342 | [4的幂](https://leetcode.com/problems/power-of-four/) |  | `位运算` `递归` `数学` | <font color=#15bd66>Esay</font> |
 | 0390 | [消除游戏](https://leetcode.com/problems/elimination-game/) |  | `递归` `数学` | <font color=#ffb800>Medium</font> |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
+| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
 | 0439 | [三元表达式解析器](https://leetcode.com/problems/ternary-expression-parser/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
 | 0486 | [预测赢家](https://leetcode.com/problems/predict-the-winner/) |  | `递归` `数组` `数学` `2+` | <font color=#ffb800>Medium</font> |
 | 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | `递归` `记忆化搜索` `数学` `1+` | <font color=#15bd66>Esay</font> |

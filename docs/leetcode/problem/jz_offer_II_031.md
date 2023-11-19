@@ -1,4 +1,4 @@
-# [剑指 Offer II 31. 最近最少使用缓存](https://leetcode.cn/problems/kTOapQ/)
+# [剑指 Offer II 31. 最近最少使用缓存](https://leetcode.cn/problems/OrIXps/)
 
 :tangerine: <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](../solution/design.md) [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) [`双向链表`](../solution/doubly-linked-list.md)
 

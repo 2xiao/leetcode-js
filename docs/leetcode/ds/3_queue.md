@@ -93,7 +93,7 @@ class ArrayQueue {
 }
 ```
 
-::: details 点击查看代码测试：
+::: details 👉 查看代码测试 👈
 
 ```javascript
 const queue = new ArrayQueue();
@@ -206,7 +206,7 @@ class LinkedListQueue {
 }
 ```
 
-::: details 点击查看代码测试：
+::: details 👉 查看代码测试 👈
 
 ```javascript
 const queue = new LinkedListQueue();
@@ -430,7 +430,7 @@ class PriorityQueue extends ArrayQueue {
 }
 ```
 
-::: details 点击查看代码测试：
+::: details 👉 查看代码测试 👈
 
 ```javascript
 const priorityQueue = new PriorityQueue();
@@ -526,7 +526,7 @@ class PriorityQueue extends LinkedListQueue {
 }
 ```
 
-::: details 点击查看代码测试：
+::: details 👉 查看代码测试 👈
 
 ```javascript
 const priorityQueue = new PriorityQueue();

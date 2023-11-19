@@ -66,7 +66,7 @@ class ArrayStack {
 }
 ```
 
-::: details 点击查看代码测试：
+::: details 👉 查看代码测试 👈
 
 ```javascript
 const stack = new ArrayStack();
@@ -129,7 +129,7 @@ class LinkedListStack {
 }
 ```
 
-::: details 点击查看代码测试：
+::: details 👉 查看代码测试 👈
 
 ```javascript
 const stack = new LinkedListStack();
@@ -204,7 +204,7 @@ console.log(stack.count()); // output: 2
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉 查看代码 👈
 
 ```javascript
 // TODO: add code
@@ -255,7 +255,7 @@ console.log(stack.count()); // output: 2
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉 查看代码 👈
 
 ```javascript
 /**
@@ -290,6 +290,7 @@ var isValid = function (s) {
 ---
 
 ### 3. 浏览器历史记录
+
 另一个常见的应用场景是浏览器的前进后退功能。
 
 ::: tip
@@ -311,25 +312,25 @@ var isValid = function (s) {
 
 > BrowserHistory browserHistory = new BrowserHistory("leetcode.com");
 >
-> browserHistory.visit("google.com");       // 访问 "google.com"
+> browserHistory.visit("google.com"); // 访问 "google.com"
 >
-> browserHistory.visit("facebook.com");     // 访问 "facebook.com"
+> browserHistory.visit("facebook.com"); // 访问 "facebook.com"
 >
-> browserHistory.visit("youtube.com");      // 访问 "youtube.com"
+> browserHistory.visit("youtube.com"); // 访问 "youtube.com"
 >
-> browserHistory.back(1);                   // 后退到 "facebook.com"
+> browserHistory.back(1); // 后退到 "facebook.com"
 >
-> browserHistory.back(1);                   // 后退到 "google.com"
+> browserHistory.back(1); // 后退到 "google.com"
 >
-> browserHistory.forward(1);                // 前进到 "facebook.com"
+> browserHistory.forward(1); // 前进到 "facebook.com"
 >
-> browserHistory.visit("linkedin.com");     // 访问 "linkedin.com"
+> browserHistory.visit("linkedin.com"); // 访问 "linkedin.com"
 >
-> browserHistory.forward(2);                // 无法前进任何步数。
+> browserHistory.forward(2); // 无法前进任何步数。
 >
-> browserHistory.back(2);                   // 后退两步依次先到 "facebook.com" ，然后到 "google.com"
+> browserHistory.back(2); // 后退两步依次先到 "facebook.com" ，然后到 "google.com"
 >
-> browserHistory.back(7);                   // 只能后退一步到 "leetcode.com"
+> browserHistory.back(7); // 只能后退一步到 "leetcode.com"
 
 **说明**：
 
@@ -342,47 +343,48 @@ var isValid = function (s) {
 #### ② 解题思路
 
 使用栈来存储浏览器的访问历史，使用 `cur_index` 变量来存储当前访问的网址在栈中的位置。
+
 - `visit`：
-    - 先清空 `cur_index` 之后的历史记录；
-    - 将 `url` 放入栈顶；
-    - 将 `cur_index` 指向栈顶；
+  - 先清空 `cur_index` 之后的历史记录；
+  - 将 `url` 放入栈顶；
+  - 将 `cur_index` 指向栈顶；
 - `back`：比较栈中存储的历史记录数 `n` 和 `steps` 的大小，最多只能倒退 `n` 步；
 - `forward`: 比较 `cur_index` 之后的历史记录数 `m` 和 `steps` 的大小，最多只能前进 `m` 步；
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉 查看代码 👈
 
 ```javascript
 class BrowserHistory {
-    // @param {string} homepage
-    constructor (homepage) {
-        this.history = [homepage]
-        this.cur_index = 0
-    }
+  // @param {string} homepage
+  constructor(homepage) {
+    this.history = [homepage];
+    this.cur_index = 0;
+  }
 
-    // @param {string} url
-    // @return {void}
-    visit(url) {
-        // clear forward history
-        this.history = this.history.slice(0, this.cur_index + 1)
-        this.history.push(url)
-        this.cur_index++
-    }
+  // @param {string} url
+  // @return {void}
+  visit(url) {
+    // clear forward history
+    this.history = this.history.slice(0, this.cur_index + 1);
+    this.history.push(url);
+    this.cur_index++;
+  }
 
-    // @param {number} steps
-    // @return {string}
-    back(steps) {
-        this.cur_index = Math.max(0, this.cur_index - steps)
-        return this.history[this.cur_index]
-    }
+  // @param {number} steps
+  // @return {string}
+  back(steps) {
+    this.cur_index = Math.max(0, this.cur_index - steps);
+    return this.history[this.cur_index];
+  }
 
-    // @param {number} steps
-    // @return {string}
-    forward(steps) {
-        this.cur_index = Math.min(this.history.length - 1, this.cur_index + steps)
-        return this.history[this.cur_index]
-    }
+  // @param {number} steps
+  // @return {string}
+  forward(steps) {
+    this.cur_index = Math.min(this.history.length - 1, this.cur_index + steps);
+    return this.history[this.cur_index];
+  }
 }
 ```
 
@@ -511,7 +513,7 @@ function add(x, y) {
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉 查看代码 👈
 
 ```javascript
 /**
@@ -576,7 +578,7 @@ var nextGreaterElement = function (nums1, nums2) {
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉 查看代码 👈
 
 ```javascript
 /**
@@ -616,14 +618,14 @@ var dailyTemperatures = function (temperatures) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
-| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) |  | `栈` `设计` | <font color=#ffb800>Medium</font> |
+| 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) | `栈` `设计` | <font color=#ffb800>Medium</font> |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) | `栈` `字符串` | <font color=#15bd66>Esay</font> |
 | 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  | `栈` `数学` `字符串` | <font color=#ffb800>Medium</font> |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) | `栈` `数组` `单调栈` | <font color=#ffb800>Medium</font> |
 | 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  | `栈` `数组` `数学` | <font color=#ffb800>Medium</font> |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) | `栈` `设计` `队列` | <font color=#15bd66>Esay</font> |
+| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
 | 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  | `栈` `字符串` `动态规划` | <font color=#ff334b>Hard</font> |
 | 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) |  | `栈` `数组` `模拟` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |

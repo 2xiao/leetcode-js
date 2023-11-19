@@ -196,7 +196,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0388 | [文件的最长绝对路径](https://leetcode.com/problems/longest-absolute-file-path/) |  | `栈` `深度优先搜索` `字符串` | <font color=#ffb800>Medium</font> |
 | 0389 | [找不同](https://leetcode.com/problems/find-the-difference/) |  | `位运算` `哈希表` `字符串` `1+` | <font color=#15bd66>Esay</font> |
 | 0392 | [判断子序列](https://leetcode.com/problems/is-subsequence/) |  | `双指针` `字符串` `动态规划` | <font color=#15bd66>Esay</font> |
-| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) |  | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
+| 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) | `栈` `递归` `字符串` | <font color=#ffb800>Medium</font> |
 | 0395 | [至少有 K 个重复字符的最长子串](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/) |  | `哈希表` `字符串` `分治` `1+` | <font color=#ffb800>Medium</font> |
 | 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  | `栈` `贪心` `字符串` `1+` | <font color=#ffb800>Medium</font> |
 | 0408 | [有效单词缩写](https://leetcode.com/problems/valid-word-abbreviation/) |  | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
@@ -326,7 +326,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0854 | [相似度为 K 的字符串](https://leetcode.com/problems/k-similar-strings/) |  | `广度优先搜索` `字符串` | <font color=#ff334b>Hard</font> |
 | 0856 | [括号的分数](https://leetcode.com/problems/score-of-parentheses/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 0859 | [亲密字符串](https://leetcode.com/problems/buddy-strings/) |  | `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
-| 0880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index/) |  | `栈` `字符串` | <font color=#ffb800>Medium</font> |
+| 0880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0880) | `栈` `字符串` | <font color=#ffb800>Medium</font> |
 | 0884 | [两句话中的不常见单词](https://leetcode.com/problems/uncommon-words-from-two-sentences/) |  | `哈希表` `字符串` | <font color=#15bd66>Esay</font> |
 | 0890 | [查找和替换模式](https://leetcode.com/problems/find-and-replace-pattern/) |  | `数组` `哈希表` `字符串` | <font color=#ffb800>Medium</font> |
 | 0893 | [特殊等价字符串组](https://leetcode.com/problems/groups-of-special-equivalent-strings/) |  | `数组` `哈希表` `字符串` | <font color=#ffb800>Medium</font> |

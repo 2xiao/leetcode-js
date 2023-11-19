@@ -127,7 +127,7 @@ if (head.next == null) {
   - `count()` 返回链表包含的节点个数，与数组的 `length` 属性类似；
   - `toString()` 将链表中节点以字符串形式返回；
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 // 节点类
@@ -330,7 +330,7 @@ console.log(linkedList.count()); // output: 3
   - `toString()` 将链表中节点以字符串形式返回；
   - `backwordString()` 反向遍历节点，以字符串形式返回；
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 // 双向链表的节点类（继承单向链表的节点类）
@@ -555,7 +555,7 @@ console.log(linkedList.count()); // output: 3
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 /**
@@ -658,7 +658,7 @@ var reverseList = function (head) {
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 /**
@@ -735,7 +735,7 @@ var hasCycle = function (head) {
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 /**
@@ -825,7 +825,7 @@ var mergeTwoLists = function (list1, list2) {
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 /**
@@ -911,7 +911,7 @@ var removeNthFromEnd = function (head, n) {
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 /**
@@ -1026,7 +1026,7 @@ lRUCache.get(4);    // 返回 4
 
 #### ③ 代码
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```javascript
 class Node {
@@ -1138,7 +1138,7 @@ class LRUCache {
 - **时间复杂度**：`O(n^2)`。
 - **空间复杂度**：`O(1)`。
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1180,7 +1180,7 @@ class Solution:
 - **时间复杂度**：`O(n^2)`
 - **空间复杂度**：`O(1)`
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1226,7 +1226,7 @@ class Solution:
 - **时间复杂度**：`O(n^2)`
 - **空间复杂度**：`O(1)`
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1279,7 +1279,7 @@ class Solution:
 - **时间复杂度**：`O(nlogn)`
 - **空间复杂度**：`O(1)`
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1342,7 +1342,7 @@ class Solution:
 - **时间复杂度**：`O(nlogn)`
 - **空间复杂度**：`O(1)`
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1397,7 +1397,7 @@ class Solution:
 - **时间复杂度**：`O(n)`
 - **空间复杂度**：`O(n + m)`。`m` 为桶的个数
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class ListNode:
@@ -1512,7 +1512,7 @@ class Solution:
 - **时间复杂度**：`O(n + k)`，其中 `k` 代表待排序链表中所有元素的值域
 - **空间复杂度**：`O(k)`
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1568,7 +1568,7 @@ class Solution:
 - **时间复杂度**：`O(n * k)`。其中 `n` 是待排序元素的个数，`k` 是数字位数。`k` 的大小取决于数字位的选择（十进制位、二进制位）和待排序元素所属数据类型全集的大小。
 - **空间复杂度**：`O(n + k)`
 
-::: details 点击查看代码
+::: details 👉查看代码👈
 
 ```python
 class Solution:
@@ -1747,7 +1747,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 | 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/Offer/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
 | 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
 | 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | `递归` `链表` `数学` | <font color=#ffb800>Medium</font> |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
