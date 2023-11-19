@@ -132,11 +132,8 @@ function genLeetCode() {
         "/leetcode/outline/0_table",
         "/leetcode/outline/1_complexity",
         "/leetcode/outline/2_solution_list",
-        "/leetcode/outline/3_categories_list",
+        "/leetcode/outline/3_study_plan",
         "/leetcode/outline/4_tag_list",
-        "/leetcode/outline/5_top_200_list",
-        "/leetcode/outline/6_frequency_list",
-        "/leetcode/outline/7_company_list",
       ],
     },
     {
