@@ -1,8 +1,6 @@
 # [剑指 Offer 4. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
 
-::: warning
-**注意：** 本题与 LeetCode [第 240 题](./0240.md) 相同。
-:::
+:tangerine: <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) [`矩阵`](../solution/matrix.md)
 
 ## 题目
 
@@ -31,6 +29,10 @@
 
 - `0 <= n <= 1000`
 - `0 <= m <= 1000`
+
+::: warning
+**注意：** 本题与 LeetCode [第 240 题](./0240.md) 相同。
+:::
 
 ## 解题思路
 

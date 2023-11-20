@@ -1,10 +1,4 @@
-# [剑指 Offer II 022. 链表中环的入口节点](https://leetcode.cn/problems/c32eOV/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 22. 链表中环的入口节点](https://leetcode.cn/problems/c32eOV/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

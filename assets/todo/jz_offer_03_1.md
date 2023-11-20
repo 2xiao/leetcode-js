@@ -1,10 +1,4 @@
-# [剑指 Offer 03. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer 3. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

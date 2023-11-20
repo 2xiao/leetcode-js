@@ -1,4 +1,4 @@
-# [剑指 Offer 04. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
+# [剑指 Offer 4. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
 
 ::: warning
 **注意：** 本题与 LeetCode [第 240 题](./0240.md) 相同。

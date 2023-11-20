@@ -1,10 +1,4 @@
-# [剑指 Offer II 060. 出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 60. 出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

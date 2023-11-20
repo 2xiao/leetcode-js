@@ -1,10 +1,4 @@
-# [剑指 Offer II 042. 最近请求次数](https://leetcode.cn/problems/H8086Q/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 42. 最近请求次数](https://leetcode.cn/problems/H8086Q/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

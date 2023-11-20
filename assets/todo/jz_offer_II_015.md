@@ -1,10 +1,4 @@
-# [剑指 Offer II 015. 字符串中的所有变位词](https://leetcode.cn/problems/VabMRr/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 15. 字符串中的所有变位词](https://leetcode.cn/problems/VabMRr/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

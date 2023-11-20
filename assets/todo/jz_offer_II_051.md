@@ -1,10 +1,4 @@
-# [剑指 Offer II 051. 节点之和最大的路径](https://leetcode.cn/problems/jC7MId/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 51. 节点之和最大的路径](https://leetcode.cn/problems/jC7MId/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

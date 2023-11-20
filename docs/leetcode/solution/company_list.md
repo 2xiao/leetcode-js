@@ -3,7 +3,7 @@ title: "热门企业题库"
 ---
 
 <p align="center">
-  <img src="../../../assets/images/home-6.png" class="plan_banner nozoom" alt="plan" width="100%"/>
+  <img src="../../../assets/images/home-6.png" class="plan_banner nozoom" alt="plan" width="60%"/>
 </p>
 
 ## 谷歌

@@ -1,10 +1,4 @@
-# [剑指 Offer II 001. 整数除法](https://leetcode.cn/problems/xoh6Oh/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 1. 整数除法](https://leetcode.cn/problems/xoh6Oh/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

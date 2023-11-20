@@ -1,10 +1,4 @@
-# [剑指 Offer II 026. 重排链表](https://leetcode.cn/problems/LGjMqU/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 26. 重排链表](https://leetcode.cn/problems/LGjMqU/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

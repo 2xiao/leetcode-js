@@ -1,10 +1,4 @@
-# [剑指 Offer II 077. 链表排序](https://leetcode.cn/problems/7WHec2/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 77. 链表排序](https://leetcode.cn/problems/7WHec2/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

@@ -1,10 +1,4 @@
-# [剑指 Offer II 090. 环形房屋偷盗](https://leetcode.cn/problems/PzWKhm/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 90. 环形房屋偷盗](https://leetcode.cn/problems/PzWKhm/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

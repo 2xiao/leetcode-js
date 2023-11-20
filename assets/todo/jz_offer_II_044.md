@@ -1,10 +1,4 @@
-# [剑指 Offer II 044. 二叉树每层的最大值](https://leetcode.cn/problems/hPov7L/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 44. 二叉树每层的最大值](https://leetcode.cn/problems/hPov7L/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

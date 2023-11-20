@@ -1,10 +1,4 @@
-# [剑指 Offer II 002. 二进制加法](https://leetcode.cn/problems/JFETK5/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 2. 二进制加法](https://leetcode.cn/problems/JFETK5/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

@@ -3,7 +3,7 @@ title: "面试高频 200 题"
 ---
 
 <p align="center">
-  <img src="../../../assets/images/home-1.png" class="plan_banner nozoom" alt="plan" width="100%"/>
+  <img src="../../../assets/images/home-1.png" class="plan_banner nozoom" alt="plan" width="60%"/>
 </p>
 
 ## 数组

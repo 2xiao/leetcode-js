@@ -1,10 +1,4 @@
-# [剑指 Offer II 087. 复原 IP](https://leetcode.cn/problems/0on3uN/)
-
-::: warning
-
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
-
-:::
+# [剑指 Offer II 87. 复原 IP](https://leetcode.cn/problems/0on3uN/)
 
 ## 题目
 
@@ -15,6 +9,12 @@
 :::
 
 **Constraints:**
+
+::: warning
+
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+
+:::
 
 ## 解题思路
 

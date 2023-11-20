@@ -3,7 +3,7 @@ title: "剑指 Offer 题解"
 ---
 
 <p align="center">
-  <img src="../../../assets/images/home-7.png" class="plan_banner nozoom" alt="plan" width="100%"/>
+  <img src="../../../assets/images/home-7.png" class="plan_banner nozoom" alt="plan" width="60%"/>
 </p>
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
