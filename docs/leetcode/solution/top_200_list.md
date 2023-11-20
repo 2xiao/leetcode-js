@@ -97,7 +97,7 @@
 | 0442 | [数组中重复的数据](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> | 19 |
 | 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) |  |  [`数组`](../solution/array.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> | 21 |
 | 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `3+` | <font color=#15bd66>Esay</font> | 16 |
-| 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> | 16 |
+| 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> | 16 |
 
 
 ## 字符串

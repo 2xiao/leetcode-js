@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 91 道
+已完成 92 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -91,6 +91,7 @@
 | 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) |  [`栈`](../solution/stack.md) [`数组`](../solution/array.md) [`模拟`](../solution/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) |  [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`数组`](../solution/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) |  [`栈`](../solution/stack.md) [`数组`](../solution/array.md) [`单调栈`](../solution/monotonic-stack.md) | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) |  [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`队列`](../solution/queue.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) |  [`设计`](../solution/design.md) [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |

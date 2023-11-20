@@ -4,6 +4,8 @@
 ## 链表
 
 
+* 单链表
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -33,6 +35,8 @@
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#ff334b>Hard</font> |
 
 
+* 双链表
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -47,6 +51,8 @@
 ## 树
 
 
+* 遍历
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -60,6 +66,8 @@
 | 0107 | [二叉树的层序遍历 II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) |  |  [`树`](../solution/tree.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`二叉树`](../solution/binary-tree.md) | <font color=#ffb800>Medium</font> |
 
 
+* 构造
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -71,6 +79,8 @@
 | 1008 | [前序遍历构造二叉搜索树](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal/) |  |  [`栈`](../solution/stack.md) [`树`](../solution/tree.md) [`二叉搜索树`](../solution/binary-search-tree.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 
+
+* 路径 | 深度 | 翻转
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -99,6 +109,8 @@
 | 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 
 
+* 二叉搜索树
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -111,6 +123,8 @@
 | 0099 | [恢复二叉搜索树](https://leetcode.com/problems/recover-binary-search-tree/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`二叉搜索树`](../solution/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 
 
+* 字典树
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -120,6 +134,8 @@
 | 0421 | [数组中两个数的最大异或值](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array/) |  |  [`位运算`](../solution/bit-manipulation.md) [`字典树`](../solution/trie.md) [`数组`](../solution/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii/) |  |  [`字典树`](../solution/trie.md) [`数组`](../solution/array.md) [`字符串`](../solution/string.md) `2+` | <font color=#ff334b>Hard</font> |
 
+
+* 线段树
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -138,6 +154,8 @@
 
 ## 栈
 
+
+* 基础
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -167,6 +185,8 @@
 | 0726 | [原子的数量](https://leetcode.com/problems/number-of-atoms/) |  |  [`栈`](../solution/stack.md) [`哈希表`](../solution/hash-table.md) [`字符串`](../solution/string.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
+* 单调栈
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -183,6 +203,8 @@
 
 ## 堆
 
+
+* 基础
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -306,6 +328,8 @@
 ## 动态规划
 
 
+* 一维
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -326,6 +350,8 @@
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) |  |  [`数组`](../solution/array.md) [`动态规划`](../solution/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 
+
+* 二维
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -350,6 +376,8 @@
 ## 图论
 
 
+* DFS
+
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -364,6 +392,8 @@
 | 0417 | [太平洋大西洋水流问题](https://leetcode.com/problems/pacific-atlantic-water-flow/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`数组`](../solution/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0679 | [24 点游戏](https://leetcode.com/problems/24-game/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`回溯`](../solution/backtracking.md) | <font color=#ff334b>Hard</font> |
 
+
+* BFS
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -385,6 +415,8 @@
 | 0827 | [最大人工岛](https://leetcode.com/problems/making-a-large-island/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0787 | [K 站中转内最便宜的航班](https://leetcode.com/problems/cheapest-flights-within-k-stops/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`图`](../solution/graph.md) `3+` | <font color=#ffb800>Medium</font> |
 
+
+* 拓扑排序
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |

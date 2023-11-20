@@ -374,6 +374,7 @@ function genLeetCode() {
           sidebarDepth: 0,
           children: [
             "/leetcode/solution/Offer.md",
+            "/leetcode/problem/jz_offer_03_1.md",
             "/leetcode/problem/jz_offer_09_1.md",
             "/leetcode/problem/jz_offer_22_1.md"
           ],
