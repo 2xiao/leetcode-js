@@ -3,7 +3,7 @@ title: "面试进阶 300 题"
 ---
 
 <p align="center">
-  <img src="../../../assets/images/home-5.png" class="plan nozoom" alt="plan" width="100%"/>
+  <img src="../../../assets/images/home-5.png" class="plan_banner nozoom" alt="plan" width="100%"/>
 </p>
 
 ## 链表
@@ -568,7 +568,7 @@ table th:nth-of-type(2) { width: 30%; }
 table th:nth-of-type(3) { width: 15%; }
 table th:nth-of-type(4) { width: 30%; }
 table th:nth-of-type(5) { width: 15%; }
-.plan {
+.plan_banner {
     border-radius: 5px;
 } 
 </style>
