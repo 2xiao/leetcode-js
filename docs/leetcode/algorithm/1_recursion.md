@@ -36,20 +36,20 @@ function f(n) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) | `双指针` `字符串` | <font color=#15bd66>Esay</font> |
-| 0024 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0024) | `递归` `链表` | <font color=#ffb800>Medium</font> |
-| 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |
-| 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  | `数组` `动态规划` | <font color=#15bd66>Esay</font> |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表` | <font color=#ffb800>Medium</font> |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) | `递归` `记忆化搜索` `数学` `1+` | <font color=#15bd66>Esay</font> |
-| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) | `记忆化搜索` `数学` `动态规划` | <font color=#15bd66>Esay</font> |
-| 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `1+` | <font color=#15bd66>Esay</font> |
-| 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  | `树` `深度优先搜索` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
-| 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) |  | `树` `深度优先搜索` `广度优先搜索` `1+` | <font color=#15bd66>Esay</font> |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | `递归` `数学` | <font color=#ffb800>Medium</font> |
-| 0779 | [第K个语法符号](https://leetcode.com/problems/k-th-symbol-in-grammar/) |  | `位运算` `递归` `数学` | <font color=#ffb800>Medium</font> |
-| 0095 | [不同的二叉搜索树 II](https://leetcode.com/problems/unique-binary-search-trees-ii/) |  | `树` `二叉搜索树` `动态规划` `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |  | `递归` `数学` | <font color=#15bd66>Esay</font> |
+| 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) |  [`双指针`](../solution/two-pointers.md) [`字符串`](../solution/string.md) | <font color=#15bd66>Esay</font> |
+| 0024 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0024) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle/) |  |  [`数组`](../solution/array.md) [`动态规划`](../solution/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
+| 0119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii/) |  |  [`数组`](../solution/array.md) [`动态规划`](../solution/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) |  [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0509) |  [`递归`](../solution/recursion.md) [`记忆化搜索`](../solution/memoization.md) [`数学`](../solution/mathematics.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) |  [`记忆化搜索`](../solution/memoization.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
+| 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  |  [`递归`](../solution/recursion.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0779 | [第K个语法符号](https://leetcode.com/problems/k-th-symbol-in-grammar/) |  |  [`位运算`](../solution/bit-manipulation.md) [`递归`](../solution/recursion.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0095 | [不同的二叉搜索树 II](https://leetcode.com/problems/unique-binary-search-trees-ii/) |  |  [`树`](../solution/tree.md) [`二叉搜索树`](../solution/binary-search-tree.md) [`动态规划`](../solution/dynamic-programming.md) `2+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/) |  |  [`递归`](../solution/recursion.md) [`数学`](../solution/mathematics.md) | <font color=#15bd66>Esay</font> |
 

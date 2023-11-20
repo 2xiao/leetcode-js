@@ -101,17 +101,17 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
-| 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0327 | [区间和的个数](https://leetcode.com/problems/count-of-range-sum/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0493 | [翻转对](https://leetcode.com/problems/reverse-pairs/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
-| 1649 | [通过指令创建有序数组](https://leetcode.com/problems/create-sorted-array-through-instructions/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 2031 | [1 比 0 多的子数组个数](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ffb800>Medium</font> |
-| 2179 | [统计数组中好三元组数目](https://leetcode.com/problems/count-good-triplets-in-an-array/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 2426 | [满足不等式的数对数目](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 2519 | [统计 K-Big 索引的数量](https://leetcode.com/problems/count-the-number-of-k-big-indices/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 077 | [链表排序](https://leetcode.cn/problems/7WHec2/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 078 | [合并排序链表](https://leetcode.cn/problems/vvXgSW/) |  | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](../solution/linked-list.md) [`分治`](../solution/divide-and-conquer.md) [`堆（优先队列）`](../solution/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) [`分治`](../solution/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 0327 | [区间和的个数](https://leetcode.com/problems/count-of-range-sum/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 0493 | [翻转对](https://leetcode.com/problems/reverse-pairs/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`桶排序`](../solution/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
+| 1649 | [通过指令创建有序数组](https://leetcode.com/problems/create-sorted-array-through-instructions/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 2031 | [1 比 0 多的子数组个数](https://leetcode.com/problems/count-subarrays-with-more-ones-than-zeros/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ffb800>Medium</font> |
+| 2179 | [统计数组中好三元组数目](https://leetcode.com/problems/count-good-triplets-in-an-array/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 2426 | [满足不等式的数对数目](https://leetcode.com/problems/number-of-pairs-satisfying-inequality/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 2519 | [统计 K-Big 索引的数量](https://leetcode.com/problems/count-the-number-of-k-big-indices/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer II 077 | [链表排序](https://leetcode.cn/problems/7WHec2/) |  |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) [`分治`](../solution/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 078 | [合并排序链表](https://leetcode.cn/problems/vvXgSW/) |  |  [`链表`](../solution/linked-list.md) [`分治`](../solution/divide-and-conquer.md) [`堆（优先队列）`](../solution/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |

@@ -101,9 +101,9 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0274 | [H 指数](https://leetcode.com/problems/h-index/) |  | `数组` `计数排序` `排序` | <font color=#ffb800>Medium</font> |
-| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  | `贪心` `数组` `计数排序` `1+` | <font color=#15bd66>Esay</font> |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
-| 1051 | [高度检查器](https://leetcode.com/problems/height-checker/) |  | `数组` `计数排序` `排序` | <font color=#15bd66>Esay</font> |
-| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  | `数组` `哈希表` `计数排序` `1+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer II 075 | [数组相对排序](https://leetcode.cn/problems/0H97ZC/) |  | `数组` `哈希表` `计数排序` `1+` | <font color=#15bd66>Esay</font> |
+| 0274 | [H 指数](https://leetcode.com/problems/h-index/) |  |  [`数组`](../solution/array.md) [`计数排序`](../solution/counting-sort.md) [`排序`](../solution/sorting.md) | <font color=#ffb800>Medium</font> |
+| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  |  [`贪心`](../solution/greedy.md) [`数组`](../solution/array.md) [`计数排序`](../solution/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`桶排序`](../solution/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
+| 1051 | [高度检查器](https://leetcode.com/problems/height-checker/) |  |  [`数组`](../solution/array.md) [`计数排序`](../solution/counting-sort.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> |
+| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`计数排序`](../solution/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer II 075 | [数组相对排序](https://leetcode.cn/problems/0H97ZC/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`计数排序`](../solution/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |

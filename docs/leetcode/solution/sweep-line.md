@@ -101,7 +101,7 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  | `树状数组` `线段树` `数组` `4+` | <font color=#ff334b>Hard</font> |
-| 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/) |  | `数组` `扫描线` | <font color=#ff334b>Hard</font> |
-| 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/) |  | `线段树` `数组` `有序集合` `1+` | <font color=#ff334b>Hard</font> |
-| 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query/) |  | `数组` `二分查找` `排序` `2+` | <font color=#ff334b>Hard</font> |
+| 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  |  [`树状数组`](../solution/fenwick-tree.md) [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/) |  |  [`数组`](../solution/array.md) [`扫描线`](../solution/sweep-line.md) | <font color=#ff334b>Hard</font> |
+| 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/) |  |  [`线段树`](../solution/segment-tree.md) [`数组`](../solution/array.md) [`有序集合`](../solution/ordered-set.md) `1+` | <font color=#ff334b>Hard</font> |
+| 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`排序`](../solution/sorting.md) `2+` | <font color=#ff334b>Hard</font> |

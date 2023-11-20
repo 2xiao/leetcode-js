@@ -101,17 +101,17 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
-| 0381 | [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ff334b>Hard</font> |
-| 0382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node/) |  | `水塘抽样` `链表` `数学` `1+` | <font color=#ffb800>Medium</font> |
-| 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  | `数组` `数学` `随机化` | <font color=#ffb800>Medium</font> |
-| 0398 | [随机数索引](https://leetcode.com/problems/random-pick-index/) |  | `水塘抽样` `哈希表` `数学` `1+` | <font color=#ffb800>Medium</font> |
-| 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  | `数学` `拒绝采样` `概率与统计` `1+` | <font color=#ffb800>Medium</font> |
-| 0478 | [在圆内随机生成点](https://leetcode.com/problems/generate-random-point-in-a-circle/) |  | `几何` `数学` `拒绝采样` `1+` | <font color=#ffb800>Medium</font> |
-| 0497 | [非重叠矩形中的随机点](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/) |  | `水塘抽样` `数组` `数学` `4+` | <font color=#ffb800>Medium</font> |
-| 0519 | [随机翻转矩阵](https://leetcode.com/problems/random-flip-matrix/) |  | `水塘抽样` `哈希表` `数学` `1+` | <font color=#ffb800>Medium</font> |
-| 0528 | [按权重随机选择](https://leetcode.com/problems/random-pick-with-weight/) |  | `数组` `数学` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
-| 0710 | [黑名单中的随机数](https://leetcode.com/problems/random-pick-with-blacklist/) |  | `数组` `哈希表` `数学` `3+` | <font color=#ff334b>Hard</font> |
-| 1515 | [服务中心的最佳位置](https://leetcode.com/problems/best-position-for-a-service-centre/) |  | `几何` `数学` `随机化` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 030 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu/) |  | `设计` `数组` `哈希表` `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 071 | [按权重生成随机数](https://leetcode.cn/problems/cuyjEf/) |  | `数组` `数学` `二分查找` `2+` | <font color=#ffb800>Medium</font> |
+| 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0381 | [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `2+` | <font color=#ff334b>Hard</font> |
+| 0382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node/) |  |  [`水塘抽样`](../solution/reservoir-sampling.md) [`链表`](../solution/linked-list.md) [`数学`](../solution/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`随机化`](../solution/randomized-algorithms.md) | <font color=#ffb800>Medium</font> |
+| 0398 | [随机数索引](https://leetcode.com/problems/random-pick-index/) |  |  [`水塘抽样`](../solution/reservoir-sampling.md) [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  |  [`数学`](../solution/mathematics.md) [`拒绝采样`](../solution/rejection-sampling.md) [`概率与统计`](../solution/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0478 | [在圆内随机生成点](https://leetcode.com/problems/generate-random-point-in-a-circle/) |  |  [`几何`](../solution/geometry.md) [`数学`](../solution/mathematics.md) [`拒绝采样`](../solution/rejection-sampling.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0497 | [非重叠矩形中的随机点](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/) |  |  [`水塘抽样`](../solution/reservoir-sampling.md) [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) `4+` | <font color=#ffb800>Medium</font> |
+| 0519 | [随机翻转矩阵](https://leetcode.com/problems/random-flip-matrix/) |  |  [`水塘抽样`](../solution/reservoir-sampling.md) [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0528 | [按权重随机选择](https://leetcode.com/problems/random-pick-with-weight/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`二分查找`](../solution/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0710 | [黑名单中的随机数](https://leetcode.com/problems/random-pick-with-blacklist/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) `3+` | <font color=#ff334b>Hard</font> |
+| 1515 | [服务中心的最佳位置](https://leetcode.com/problems/best-position-for-a-service-centre/) |  |  [`几何`](../solution/geometry.md) [`数学`](../solution/mathematics.md) [`随机化`](../solution/randomized-algorithms.md) | <font color=#ff334b>Hard</font> |
+| 剑指 Offer II 030 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 071 | [按权重生成随机数](https://leetcode.cn/problems/cuyjEf/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`二分查找`](../solution/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |

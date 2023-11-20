@@ -101,11 +101,11 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | `数组` `桶排序` `基数排序` `1+` | <font color=#ff334b>Hard</font> |
-| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ff334b>Hard</font> |
-| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  | `数组` `哈希表` `分治` `5+` | <font color=#ffb800>Medium</font> |
-| 0451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency/) |  | `哈希表` `字符串` `桶排序` `3+` | <font color=#ffb800>Medium</font> |
-| 0692 | [前K个高频单词](https://leetcode.com/problems/top-k-frequent-words/) |  | `字典树` `哈希表` `字符串` `4+` | <font color=#ffb800>Medium</font> |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 057 | [值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu/) |  | `数组` `桶排序` `有序集合` `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 060 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/) |  | `数组` `哈希表` `分治` `5+` | <font color=#ffb800>Medium</font> |
+| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  |  [`数组`](../solution/array.md) [`桶排序`](../solution/bucket-sort.md) [`基数排序`](../solution/radix-sort.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  |  [`数组`](../solution/array.md) [`桶排序`](../solution/bucket-sort.md) [`有序集合`](../solution/ordered-set.md) `2+` | <font color=#ff334b>Hard</font> |
+| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`分治`](../solution/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
+| 0451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency/) |  |  [`哈希表`](../solution/hash-table.md) [`字符串`](../solution/string.md) [`桶排序`](../solution/bucket-sort.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0692 | [前K个高频单词](https://leetcode.com/problems/top-k-frequent-words/) |  |  [`字典树`](../solution/trie.md) [`哈希表`](../solution/hash-table.md) [`字符串`](../solution/string.md) `4+` | <font color=#ffb800>Medium</font> |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`桶排序`](../solution/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 057 | [值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu/) |  |  [`数组`](../solution/array.md) [`桶排序`](../solution/bucket-sort.md) [`有序集合`](../solution/ordered-set.md) `2+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 060 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`分治`](../solution/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |

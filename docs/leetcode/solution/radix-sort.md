@@ -101,6 +101,6 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  | `数组` `桶排序` `基数排序` `1+` | <font color=#ff334b>Hard</font> |
-| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  | `数组` `分治` `桶排序` `5+` | <font color=#ffb800>Medium</font> |
-| 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number/) |  | `数组` `字符串` `分治` `4+` | <font color=#ffb800>Medium</font> |
+| 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  |  [`数组`](../solution/array.md) [`桶排序`](../solution/bucket-sort.md) [`基数排序`](../solution/radix-sort.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`桶排序`](../solution/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
+| 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number/) |  |  [`数组`](../solution/array.md) [`字符串`](../solution/string.md) [`分治`](../solution/divide-and-conquer.md) `4+` | <font color=#ffb800>Medium</font> |

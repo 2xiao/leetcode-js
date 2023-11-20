@@ -101,6 +101,6 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0332 | [重新安排行程](https://leetcode.com/problems/reconstruct-itinerary/) |  | `深度优先搜索` `图` `欧拉回路` | <font color=#ff334b>Hard</font> |
-| 0753 | [破解保险箱](https://leetcode.com/problems/cracking-the-safe/) |  | `深度优先搜索` `图` `欧拉回路` | <font color=#ff334b>Hard</font> |
-| 2097 | [合法重新排列数对](https://leetcode.com/problems/valid-arrangement-of-pairs/) |  | `深度优先搜索` `图` `欧拉回路` | <font color=#ff334b>Hard</font> |
+| 0332 | [重新安排行程](https://leetcode.com/problems/reconstruct-itinerary/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`图`](../solution/graph.md) [`欧拉回路`](../solution/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
+| 0753 | [破解保险箱](https://leetcode.com/problems/cracking-the-safe/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`图`](../solution/graph.md) [`欧拉回路`](../solution/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
+| 2097 | [合法重新排列数对](https://leetcode.com/problems/valid-arrangement-of-pairs/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`图`](../solution/graph.md) [`欧拉回路`](../solution/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |

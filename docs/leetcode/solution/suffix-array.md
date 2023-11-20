@@ -101,9 +101,9 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1044 | [最长重复子串](https://leetcode.com/problems/longest-duplicate-substring/) |  | `字符串` `二分查找` `后缀数组` `3+` | <font color=#ff334b>Hard</font> |
-| 1062 | [最长重复子串](https://leetcode.com/problems/longest-repeating-substring/) |  | `字符串` `二分查找` `动态规划` `3+` | <font color=#ffb800>Medium</font> |
-| 1698 | [字符串的不同子字符串个数](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/) |  | `字典树` `字符串` `后缀数组` `2+` | <font color=#ffb800>Medium</font> |
-| 1923 | [最长公共子路径](https://leetcode.com/problems/longest-common-subpath/) |  | `数组` `二分查找` `后缀数组` `2+` | <font color=#ff334b>Hard</font> |
-| 1977 | [划分数字的方案数](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) |  | `字符串` `动态规划` `后缀数组` | <font color=#ff334b>Hard</font> |
-| 2223 | [构造字符串的总得分和](https://leetcode.com/problems/sum-of-scores-of-built-strings/) |  | `字符串` `二分查找` `字符串匹配` `3+` | <font color=#ff334b>Hard</font> |
+| 1044 | [最长重复子串](https://leetcode.com/problems/longest-duplicate-substring/) |  |  [`字符串`](../solution/string.md) [`二分查找`](../solution/binary-search.md) [`后缀数组`](../solution/suffix-array.md) `3+` | <font color=#ff334b>Hard</font> |
+| 1062 | [最长重复子串](https://leetcode.com/problems/longest-repeating-substring/) |  |  [`字符串`](../solution/string.md) [`二分查找`](../solution/binary-search.md) [`动态规划`](../solution/dynamic-programming.md) `3+` | <font color=#ffb800>Medium</font> |
+| 1698 | [字符串的不同子字符串个数](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string/) |  |  [`字典树`](../solution/trie.md) [`字符串`](../solution/string.md) [`后缀数组`](../solution/suffix-array.md) `2+` | <font color=#ffb800>Medium</font> |
+| 1923 | [最长公共子路径](https://leetcode.com/problems/longest-common-subpath/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`后缀数组`](../solution/suffix-array.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1977 | [划分数字的方案数](https://leetcode.com/problems/number-of-ways-to-separate-numbers/) |  |  [`字符串`](../solution/string.md) [`动态规划`](../solution/dynamic-programming.md) [`后缀数组`](../solution/suffix-array.md) | <font color=#ff334b>Hard</font> |
+| 2223 | [构造字符串的总得分和](https://leetcode.com/problems/sum-of-scores-of-built-strings/) |  |  [`字符串`](../solution/string.md) [`二分查找`](../solution/binary-search.md) [`字符串匹配`](../solution/string-matching.md) `3+` | <font color=#ff334b>Hard</font> |

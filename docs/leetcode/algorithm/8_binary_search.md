@@ -210,50 +210,50 @@ function bsearch(arr, value) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  | `二分查找` `交互` | <font color=#15bd66>Esay</font> |
-| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) | `数组` `双指针` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  | `数组` `二分查找` | <font color=#ff334b>Hard</font> |
-| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) |  | `二分查找` `交互` | <font color=#15bd66>Esay</font> |
-| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  | `数组` `二分查找` `交互` | <font color=#ff334b>Hard</font> |
-| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  | `数组` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) | `数组` `二分查找` `分治` | <font color=#ff334b>Hard</font> |
-| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  | `数组` `二分查找` `矩阵` | <font color=#ffb800>Medium</font> |
-| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  | `数组` `二分查找` `分治` `1+` | <font color=#ffb800>Medium</font> |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  |  [`二分查找`](../solution/binary-search.md) [`交互`](../solution/interaction.md) | <font color=#15bd66>Esay</font> |
+| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) |  [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ff334b>Hard</font> |
+| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) |  |  [`二分查找`](../solution/binary-search.md) [`交互`](../solution/interaction.md) | <font color=#15bd66>Esay</font> |
+| 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`交互`](../solution/interaction.md) | <font color=#ff334b>Hard</font> |
+| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#ff334b>Hard</font> |
+| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`矩阵`](../solution/matrix.md) | <font color=#ffb800>Medium</font> |
+| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
 
 #### 二分答案
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  | `数学` `二分查找` | <font color=#15bd66>Esay</font> |
-| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | `位运算` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  | `递归` `数学` | <font color=#ffb800>Medium</font> |
-| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  | `数学` `二分查找` | <font color=#15bd66>Esay</font> |
-| 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  | `数组` `二分查找` `排序` | <font color=#ffb800>Medium</font> |
-| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  | `数学` `二分查找` | <font color=#ffb800>Medium</font> |
+| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](../solution/mathematics.md) [`二分查找`](../solution/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  |  [`递归`](../solution/recursion.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  |  [`数学`](../solution/mathematics.md) [`二分查找`](../solution/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`排序`](../solution/sorting.md) | <font color=#ffb800>Medium</font> |
+| 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  |  [`数学`](../solution/mathematics.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
 
 #### 复杂的二分查找问题
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  | `贪心` `数组` `二分查找` `2+` | <font color=#ff334b>Hard</font> |
-| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  | `数组` `二分查找` `前缀和` `1+` | <font color=#ffb800>Medium</font> |
-| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  | `数组` `双指针` `二分查找` `3+` | <font color=#ffb800>Medium</font> |
-| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  | `树` `深度优先搜索` `二叉搜索树` `2+` | <font color=#15bd66>Esay</font> |
-| 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  | `数组` `二分查找` `交互` | <font color=#ffb800>Medium</font> |
-| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#15bd66>Esay</font> |
-| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  | `数组` `哈希表` `双指针` `2+` | <font color=#15bd66>Esay</font> |
-| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  | `位运算` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
-| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  | `数组` `双指针` `二分查找` `1+` | <font color=#ff334b>Hard</font> |
-| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0259) | `数组` `双指针` `二分查找` `1+` | <font color=#ffb800>Medium</font> |
-| 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
-| 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  | `数组` `二分查找` | <font color=#ffb800>Medium</font> |
+| 0875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  |  [`贪心`](../solution/greedy.md) [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`前缀和`](../solution/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  |  [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) [`二分查找`](../solution/binary-search.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`二叉搜索树`](../solution/binary-search-tree.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`交互`](../solution/interaction.md) | <font color=#ffb800>Medium</font> |
+| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`双指针`](../solution/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`双指针`](../solution/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  |  [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) [`二分查找`](../solution/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0259) |  [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) [`二分查找`](../solution/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
 

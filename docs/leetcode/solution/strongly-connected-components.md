@@ -101,5 +101,5 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  | `并查集` `图` `最小生成树` `2+` | <font color=#ff334b>Hard</font> |
-| 1568 | [使陆地分离的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) |  | `深度优先搜索` `广度优先搜索` `数组` `2+` | <font color=#ff334b>Hard</font> |
+| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) [`最小生成树`](../solution/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1568 | [使陆地分离的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`数组`](../solution/array.md) `2+` | <font color=#ff334b>Hard</font> |

@@ -5,6 +5,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 from urllib.parse import quote
+import const
 
 # 根据 frame 生成 Markdown 表格
 
@@ -66,6 +67,17 @@ def format_difficulty(difficulty: str, show_emoji: bool = False):
         return emoji + " " + font
     return font
 
+
+def format_label(labels: str):
+    tags = np.array(labels.split("、"))
+    res = ''
+    for tag in tags[:3]:
+        tag_en = const.tags_zh_to_en[tag]
+        res += " [`" + tag + "`](../solution/" + tag_en + ".md)"
+    if len(tags) > 3:
+        res += " `" + str(len(tags) - 3) + "+`"
+    return res
+
 # 格式化每一个frame items
 
 
@@ -80,10 +92,7 @@ def gen_frame_items(row, df, problem_path, problem_salt: str = False):
     else:
         problem_solution_link = ""
 
-    label = np.array((df.loc[row, "标签"]).split("、"))
-    problem_label = "`" + ("` `").join(label[:3]) + "`"
-    if len(label) > 3:
-        problem_label += " `" + str(len(label) - 3) + "+`"
+    problem_label = format_label(df.loc[row, "标签"])
     problem_difficulty = format_difficulty(df.loc[row, "难度"])
     res = [problem_id, problem_link, problem_solution_link,
            problem_label, problem_difficulty]

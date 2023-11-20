@@ -101,14 +101,14 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
-| 0324 | [摆动排序 II](https://leetcode.com/problems/wiggle-sort-ii/) |  | `数组` `分治` `快速选择` `1+` | <font color=#ffb800>Medium</font> |
-| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  | `数组` `哈希表` `分治` `5+` | <font color=#ffb800>Medium</font> |
-| 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/) |  | `几何` `数组` `数学` `4+` | <font color=#ffb800>Medium</font> |
-| 1738 | [找出第 K 大的异或坐标值](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) |  | `位运算` `数组` `分治` `4+` | <font color=#ffb800>Medium</font> |
-| 1985 | [找出数组中的第 K 大整数](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) |  | `数组` `字符串` `分治` `3+` | <font color=#ffb800>Medium</font> |
-| 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number/) |  | `数组` `字符串` `分治` `4+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  | `数组` `分治` `快速选择` `2+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer II 060 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/) |  | `数组` `哈希表` `分治` `5+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 076 | [数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
-| 面试题 17.14 | [最小K个数](https://leetcode.cn/problems/smallest-k-lcci/) |  | `数组` `分治` `快速选择` `2+` | <font color=#ffb800>Medium</font> |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`快速选择`](../solution/quick-select.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0324 | [摆动排序 II](https://leetcode.com/problems/wiggle-sort-ii/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`快速选择`](../solution/quick-select.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`分治`](../solution/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
+| 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/) |  |  [`几何`](../solution/geometry.md) [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) `4+` | <font color=#ffb800>Medium</font> |
+| 1738 | [找出第 K 大的异或坐标值](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) `4+` | <font color=#ffb800>Medium</font> |
+| 1985 | [找出数组中的第 K 大整数](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array/) |  |  [`数组`](../solution/array.md) [`字符串`](../solution/string.md) [`分治`](../solution/divide-and-conquer.md) `3+` | <font color=#ffb800>Medium</font> |
+| 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number/) |  |  [`数组`](../solution/array.md) [`字符串`](../solution/string.md) [`分治`](../solution/divide-and-conquer.md) `4+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`快速选择`](../solution/quick-select.md) `2+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer II 060 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`分治`](../solution/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 076 | [数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`快速选择`](../solution/quick-select.md) `2+` | <font color=#ffb800>Medium</font> |
+| 面试题 17.14 | [最小K个数](https://leetcode.cn/problems/smallest-k-lcci/) |  |  [`数组`](../solution/array.md) [`分治`](../solution/divide-and-conquer.md) [`快速选择`](../solution/quick-select.md) `2+` | <font color=#ffb800>Medium</font> |

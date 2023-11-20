@@ -101,12 +101,12 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  | `数学` `拒绝采样` `概率与统计` `1+` | <font color=#ffb800>Medium</font> |
-| 0808 | [分汤](https://leetcode.com/problems/soup-servings/) |  | `数学` `动态规划` `概率与统计` | <font color=#ffb800>Medium</font> |
-| 0837 | [新 21 点](https://leetcode.com/problems/new-21-game/) |  | `数学` `动态规划` `滑动窗口` `1+` | <font color=#ffb800>Medium</font> |
-| 1093 | [大样本统计](https://leetcode.com/problems/statistics-from-a-large-sample/) |  | `数组` `数学` `概率与统计` | <font color=#ffb800>Medium</font> |
-| 1227 | [飞机座位分配概率](https://leetcode.com/problems/airplane-seat-assignment-probability/) |  | `脑筋急转弯` `数学` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
-| 1230 | [抛掷硬币](https://leetcode.com/problems/toss-strange-coins/) |  | `数学` `动态规划` `概率与统计` | <font color=#ffb800>Medium</font> |
-| 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) |  | `数组` `数学` `动态规划` `3+` | <font color=#ff334b>Hard</font> |
-| LCP 11 | [期望个数统计](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji/) |  | `数组` `哈希表` `数学` `1+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/) |  | `数学` `动态规划` `概率与统计` | <font color=#ffb800>Medium</font> |
+| 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  |  [`数学`](../solution/mathematics.md) [`拒绝采样`](../solution/rejection-sampling.md) [`概率与统计`](../solution/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0808 | [分汤](https://leetcode.com/problems/soup-servings/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`概率与统计`](../solution/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
+| 0837 | [新 21 点](https://leetcode.com/problems/new-21-game/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`滑动窗口`](../solution/sliding-window.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1093 | [大样本统计](https://leetcode.com/problems/statistics-from-a-large-sample/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`概率与统计`](../solution/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
+| 1227 | [飞机座位分配概率](https://leetcode.com/problems/airplane-seat-assignment-probability/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1230 | [抛掷硬币](https://leetcode.com/problems/toss-strange-coins/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`概率与统计`](../solution/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
+| 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `3+` | <font color=#ff334b>Hard</font> |
+| LCP 11 | [期望个数统计](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) `1+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`概率与统计`](../solution/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |

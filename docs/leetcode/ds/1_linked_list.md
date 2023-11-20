@@ -1716,39 +1716,39 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) | `设计` `链表` | <font color=#ffb800>Medium</font> |
-| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) | `链表` | <font color=#15bd66>Esay</font> |
-| 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0082) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) | `链表` | <font color=#ffb800>Medium</font> |
-| 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) | `递归` `链表` | <font color=#ff334b>Hard</font> |
-| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0328) | `链表` | <font color=#ffb800>Medium</font> |
-| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) | `栈` `递归` `链表` `1+` | <font color=#15bd66>Esay</font> |
-| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  | `深度优先搜索` `链表` `双向链表` | <font color=#ffb800>Medium</font> |
-| 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  | `哈希表` `链表` | <font color=#ffb800>Medium</font> |
-| 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0061) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
+| 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) |  [`设计`](../solution/design.md) [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) |  [`链表`](../solution/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0082) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) |  [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#ff334b>Hard</font> |
+| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0328) |  [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) |  [`栈`](../solution/stack.md) [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`链表`](../solution/linked-list.md) [`双向链表`](../solution/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) |  |  [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0061) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#ffb800>Medium</font> |
 
 #### 链表排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  | `链表` `双指针` `分治` `2+` | <font color=#ffb800>Medium</font> |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) | `递归` `链表` | <font color=#15bd66>Esay</font> |
-| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) | `链表` `分治` `堆（优先队列）` `1+` | <font color=#ff334b>Hard</font> |
-| 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  | `链表` `排序` | <font color=#ffb800>Medium</font> |
+| 0148 | [排序链表](https://leetcode.com/problems/sort-list/) |  |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) [`分治`](../solution/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](../solution/linked-list.md) [`分治`](../solution/divide-and-conquer.md) [`堆（优先队列）`](../solution/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) |  |  [`链表`](../solution/linked-list.md) [`排序`](../solution/sorting.md) | <font color=#ffb800>Medium</font> |
 
 #### 链表双指针
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  | `哈希表` `链表` `双指针` | <font color=#ffb800>Medium</font> |
-| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  | `哈希表` `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) | `链表` `双指针` | <font color=#ffb800>Medium</font> |
-| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) | `链表` `双指针` | <font color=#15bd66>Esay</font> |
-| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) | `栈` `递归` `链表` `1+` | <font color=#ffb800>Medium</font> |
-| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) | `递归` `链表` `数学` | <font color=#ffb800>Medium</font> |
-| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) | `栈` `链表` `数学` | <font color=#ffb800>Medium</font> |
+| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) |  [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) |  |  [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) |  |  [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) |  [`栈`](../solution/stack.md) [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) |  [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) |  [`栈`](../solution/stack.md) [`链表`](../solution/linked-list.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
 

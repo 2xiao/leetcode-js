@@ -101,21 +101,21 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0292 | [Nim 游戏](https://leetcode.com/problems/nim-game/) |  | `脑筋急转弯` `数学` `博弈` | <font color=#15bd66>Esay</font> |
-| 0319 | [灯泡开关](https://leetcode.com/problems/bulb-switcher/) |  | `脑筋急转弯` `数学` | <font color=#ffb800>Medium</font> |
-| 0810 | [黑板异或游戏](https://leetcode.com/problems/chalkboard-xor-game/) |  | `位运算` `脑筋急转弯` `数组` `2+` | <font color=#ff334b>Hard</font> |
-| 1025 | [除数博弈](https://leetcode.com/problems/divisor-game/) |  | `脑筋急转弯` `数学` `动态规划` `1+` | <font color=#15bd66>Esay</font> |
-| 1033 | [移动石子直到连续](https://leetcode.com/problems/moving-stones-until-consecutive/) |  | `脑筋急转弯` `数学` | <font color=#ffb800>Medium</font> |
-| 1227 | [飞机座位分配概率](https://leetcode.com/problems/airplane-seat-assignment-probability/) |  | `脑筋急转弯` `数学` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
-| 1503 | [所有蚂蚁掉下来前的最后一刻](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  | `脑筋急转弯` `数组` `模拟` | <font color=#ffb800>Medium</font> |
-| 1908 | [Nim 游戏 II](https://leetcode.com/problems/game-of-nim/) |  | `位运算` `脑筋急转弯` `数组` `3+` | <font color=#ffb800>Medium</font> |
-| 2396 | [严格回文的数字](https://leetcode.com/problems/strictly-palindromic-number/) |  | `脑筋急转弯` `数学` `双指针` | <font color=#ffb800>Medium</font> |
-| 2419 | [按位与最大的最长子数组](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) |  | `位运算` `脑筋急转弯` `数组` | <font color=#ffb800>Medium</font> |
-| 2425 | [所有数对的异或和](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) |  | `位运算` `脑筋急转弯` `数组` | <font color=#ffb800>Medium</font> |
-| 2505 | [所有子序列和的按位或](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/) |  | `位运算` `脑筋急转弯` `数组` `1+` | <font color=#ffb800>Medium</font> |
-| 2568 | [最小无法得到的或值](https://leetcode.com/problems/minimum-impossible-or/) |  | `位运算` `脑筋急转弯` `数组` | <font color=#ffb800>Medium</font> |
-| 2731 | [移动机器人](https://leetcode.com/problems/movement-of-robots/) |  | `脑筋急转弯` `数组` `前缀和` `1+` | <font color=#ffb800>Medium</font> |
-| 2745 | [构造最长的新字符串](https://leetcode.com/problems/construct-the-longest-new-string/) |  | `贪心` `脑筋急转弯` `数学` | <font color=#ffb800>Medium</font> |
-| 2749 | [得到整数零需要执行的最少操作数](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) |  | `位运算` `脑筋急转弯` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof/) |  | `位运算` `递归` `脑筋急转弯` | <font color=#ffb800>Medium</font> |
-| 面试题 16.07 | [最大数值](https://leetcode.cn/problems/maximum-lcci/) |  | `位运算` `脑筋急转弯` `数学` | <font color=#15bd66>Esay</font> |
+| 0292 | [Nim 游戏](https://leetcode.com/problems/nim-game/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) [`博弈`](../solution/game-theory.md) | <font color=#15bd66>Esay</font> |
+| 0319 | [灯泡开关](https://leetcode.com/problems/bulb-switcher/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0810 | [黑板异或游戏](https://leetcode.com/problems/chalkboard-xor-game/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1025 | [除数博弈](https://leetcode.com/problems/divisor-game/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#15bd66>Esay</font> |
+| 1033 | [移动石子直到连续](https://leetcode.com/problems/moving-stones-until-consecutive/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 1227 | [飞机座位分配概率](https://leetcode.com/problems/airplane-seat-assignment-probability/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1503 | [所有蚂蚁掉下来前的最后一刻](https://leetcode.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) [`模拟`](../solution/simulation.md) | <font color=#ffb800>Medium</font> |
+| 1908 | [Nim 游戏 II](https://leetcode.com/problems/game-of-nim/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) `3+` | <font color=#ffb800>Medium</font> |
+| 2396 | [严格回文的数字](https://leetcode.com/problems/strictly-palindromic-number/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) [`双指针`](../solution/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 2419 | [按位与最大的最长子数组](https://leetcode.com/problems/longest-subarray-with-maximum-bitwise-and/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
+| 2425 | [所有数对的异或和](https://leetcode.com/problems/bitwise-xor-of-all-pairings/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
+| 2505 | [所有子序列和的按位或](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2568 | [最小无法得到的或值](https://leetcode.com/problems/minimum-impossible-or/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
+| 2731 | [移动机器人](https://leetcode.com/problems/movement-of-robots/) |  |  [`脑筋急转弯`](../solution/brain-teasers.md) [`数组`](../solution/array.md) [`前缀和`](../solution/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2745 | [构造最长的新字符串](https://leetcode.com/problems/construct-the-longest-new-string/) |  |  [`贪心`](../solution/greedy.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 2749 | [得到整数零需要执行的最少操作数](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof/) |  |  [`位运算`](../solution/bit-manipulation.md) [`递归`](../solution/recursion.md) [`脑筋急转弯`](../solution/brain-teasers.md) | <font color=#ffb800>Medium</font> |
+| 面试题 16.07 | [最大数值](https://leetcode.cn/problems/maximum-lcci/) |  |  [`位运算`](../solution/bit-manipulation.md) [`脑筋急转弯`](../solution/brain-teasers.md) [`数学`](../solution/mathematics.md) | <font color=#15bd66>Esay</font> |

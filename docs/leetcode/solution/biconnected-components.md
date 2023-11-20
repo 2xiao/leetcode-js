@@ -101,5 +101,5 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1192 | [查找集群内的关键连接](https://leetcode.com/problems/critical-connections-in-a-network/) |  | `深度优先搜索` `图` `双连通分量` | <font color=#ff334b>Hard</font> |
-| LCP 54 | [夺回据点](https://leetcode.cn/problems/s5kipK/) |  | `图` `数组` `双连通分量` | <font color=#ff334b>Hard</font> |
+| 1192 | [查找集群内的关键连接](https://leetcode.com/problems/critical-connections-in-a-network/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`图`](../solution/graph.md) [`双连通分量`](../solution/biconnected-components.md) | <font color=#ff334b>Hard</font> |
+| LCP 54 | [夺回据点](https://leetcode.cn/problems/s5kipK/) |  |  [`图`](../solution/graph.md) [`数组`](../solution/array.md) [`双连通分量`](../solution/biconnected-components.md) | <font color=#ff334b>Hard</font> |

@@ -101,13 +101,13 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
-| 0251 | [展开二维向量](https://leetcode.com/problems/flatten-2d-vector/) |  | `设计` `数组` `双指针` `1+` | <font color=#ffb800>Medium</font> |
-| 0281 | [锯齿迭代器](https://leetcode.com/problems/zigzag-iterator/) |  | `设计` `队列` `数组` `1+` | <font color=#ffb800>Medium</font> |
-| 0284 | [顶端迭代器](https://leetcode.com/problems/peeking-iterator/) |  | `设计` `数组` `迭代器` | <font color=#ffb800>Medium</font> |
-| 0341 | [扁平化嵌套列表迭代器](https://leetcode.com/problems/flatten-nested-list-iterator/) |  | `栈` `树` `深度优先搜索` `3+` | <font color=#ffb800>Medium</font> |
-| 0604 | [迭代压缩字符串](https://leetcode.com/problems/design-compressed-string-iterator/) |  | `设计` `数组` `哈希表` `2+` | <font color=#15bd66>Esay</font> |
-| 0900 | [RLE 迭代器](https://leetcode.com/problems/rle-iterator/) |  | `设计` `数组` `计数` `1+` | <font color=#ffb800>Medium</font> |
-| 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination/) |  | `设计` `字符串` `回溯` `1+` | <font color=#ffb800>Medium</font> |
-| 1586 | [二叉搜索树迭代器 II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  | `栈` `树` `设计` `3+` | <font color=#ffb800>Medium</font> |
+| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  |  [`栈`](../solution/stack.md) [`树`](../solution/tree.md) [`设计`](../solution/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0251 | [展开二维向量](https://leetcode.com/problems/flatten-2d-vector/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0281 | [锯齿迭代器](https://leetcode.com/problems/zigzag-iterator/) |  |  [`设计`](../solution/design.md) [`队列`](../solution/queue.md) [`数组`](../solution/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0284 | [顶端迭代器](https://leetcode.com/problems/peeking-iterator/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`迭代器`](../solution/iterators.md) | <font color=#ffb800>Medium</font> |
+| 0341 | [扁平化嵌套列表迭代器](https://leetcode.com/problems/flatten-nested-list-iterator/) |  |  [`栈`](../solution/stack.md) [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0604 | [迭代压缩字符串](https://leetcode.com/problems/design-compressed-string-iterator/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0900 | [RLE 迭代器](https://leetcode.com/problems/rle-iterator/) |  |  [`设计`](../solution/design.md) [`数组`](../solution/array.md) [`计数`](../solution/counting.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination/) |  |  [`设计`](../solution/design.md) [`字符串`](../solution/string.md) [`回溯`](../solution/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1586 | [二叉搜索树迭代器 II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) |  |  [`栈`](../solution/stack.md) [`树`](../solution/tree.md) [`设计`](../solution/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  |  [`栈`](../solution/stack.md) [`树`](../solution/tree.md) [`设计`](../solution/design.md) `3+` | <font color=#ffb800>Medium</font> |

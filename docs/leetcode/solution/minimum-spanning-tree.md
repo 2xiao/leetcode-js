@@ -101,8 +101,8 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1135 | [最低成本联通所有城市](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) |  | `并查集` `图` `最小生成树` `1+` | <font color=#ffb800>Medium</font> |
-| 1168 | [水资源分配优化](https://leetcode.com/problems/optimize-water-distribution-in-a-village/) |  | `并查集` `图` `最小生成树` | <font color=#ff334b>Hard</font> |
-| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  | `并查集` `图` `最小生成树` `2+` | <font color=#ff334b>Hard</font> |
-| 1584 | [连接所有点的最小费用](https://leetcode.com/problems/min-cost-to-connect-all-points/) |  | `并查集` `图` `数组` `1+` | <font color=#ffb800>Medium</font> |
-| 1724 | [检查边长度限制的路径是否存在 II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/) |  | `并查集` `图` `最小生成树` | <font color=#ff334b>Hard</font> |
+| 1135 | [最低成本联通所有城市](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) [`最小生成树`](../solution/minimum-spanning-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1168 | [水资源分配优化](https://leetcode.com/problems/optimize-water-distribution-in-a-village/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) [`最小生成树`](../solution/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |
+| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) [`最小生成树`](../solution/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1584 | [连接所有点的最小费用](https://leetcode.com/problems/min-cost-to-connect-all-points/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) [`数组`](../solution/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1724 | [检查边长度限制的路径是否存在 II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) [`最小生成树`](../solution/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |

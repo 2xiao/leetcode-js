@@ -101,25 +101,25 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) | `数学` `动态规划` `组合数学` | <font color=#ffb800>Medium</font> |
-| 0458 | [可怜的小猪](https://leetcode.com/problems/poor-pigs/) |  | `数学` `动态规划` `组合数学` | <font color=#ff334b>Hard</font> |
-| 0920 | [播放列表的数量](https://leetcode.com/problems/number-of-music-playlists/) |  | `数学` `动态规划` `组合数学` | <font color=#ff334b>Hard</font> |
-| 1359 | [有效的快递序列数目](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) |  | `数学` `动态规划` `组合数学` | <font color=#ff334b>Hard</font> |
-| 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) |  | `数组` `数学` `动态规划` `3+` | <font color=#ff334b>Hard</font> |
-| 1569 | [将子数组重新排序得到同一个二叉搜索树的方案数](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) |  | `树` `并查集` `二叉搜索树` `7+` | <font color=#ff334b>Hard</font> |
-| 1641 | [统计字典序元音字符串的数目](https://leetcode.com/problems/count-sorted-vowel-strings/) |  | `数学` `动态规划` `组合数学` | <font color=#ffb800>Medium</font> |
-| 1643 | [第 K 条最小指令](https://leetcode.com/problems/kth-smallest-instructions/) |  | `数组` `数学` `动态规划` `1+` | <font color=#ff334b>Hard</font> |
-| 1735 | [生成乘积数组的方案数](https://leetcode.com/problems/count-ways-to-make-array-with-product/) |  | `数组` `数学` `动态规划` `2+` | <font color=#ff334b>Hard</font> |
-| 1830 | [使字符串有序的最少操作次数](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/) |  | `数学` `字符串` `组合数学` | <font color=#ff334b>Hard</font> |
-| 1863 | [找出所有子集的异或总和再求和](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |  | `位运算` `数组` `数学` `2+` | <font color=#15bd66>Esay</font> |
-| 1866 | [恰有 K 根木棍可以看到的排列数目](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) |  | `数学` `动态规划` `组合数学` | <font color=#ff334b>Hard</font> |
-| 1916 | [统计为蚁群构筑房间的不同顺序](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/) |  | `树` `图` `拓扑排序` `3+` | <font color=#ff334b>Hard</font> |
-| 2063 | [所有子字符串中的元音](https://leetcode.com/problems/vowels-of-all-substrings/) |  | `数学` `字符串` `动态规划` `1+` | <font color=#ffb800>Medium</font> |
-| 2221 | [数组的三角和](https://leetcode.com/problems/find-triangular-sum-of-an-array/) |  | `数组` `数学` `组合数学` `1+` | <font color=#ffb800>Medium</font> |
-| 2338 | [统计理想数组的数目](https://leetcode.com/problems/count-the-number-of-ideal-arrays/) |  | `数学` `动态规划` `组合数学` `1+` | <font color=#ff334b>Hard</font> |
-| 2400 | [恰好移动 k 步到达某一位置的方法数目](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) |  | `数学` `动态规划` `组合数学` | <font color=#ffb800>Medium</font> |
-| 2514 | [统计同位异构字符串数目](https://leetcode.com/problems/count-anagrams/) |  | `哈希表` `数学` `字符串` `2+` | <font color=#ff334b>Hard</font> |
-| 2539 | [好子序列的个数](https://leetcode.com/problems/count-the-number-of-good-subsequences/) |  | `哈希表` `数学` `字符串` `2+` | <font color=#ffb800>Medium</font> |
-| LCP 25 | [古董键盘](https://leetcode.cn/problems/Uh984O/) |  | `数学` `动态规划` `组合数学` | <font color=#ff334b>Hard</font> |
-| LCP 37 | [最小矩形面积](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji/) |  | `贪心` `几何` `数组` `3+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 098 | [路径的数目](https://leetcode.cn/problems/2AoeFn/) |  | `数学` `动态规划` `组合数学` | <font color=#ffb800>Medium</font> |
+| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 0458 | [可怜的小猪](https://leetcode.com/problems/poor-pigs/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ff334b>Hard</font> |
+| 0920 | [播放列表的数量](https://leetcode.com/problems/number-of-music-playlists/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ff334b>Hard</font> |
+| 1359 | [有效的快递序列数目](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ff334b>Hard</font> |
+| 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `3+` | <font color=#ff334b>Hard</font> |
+| 1569 | [将子数组重新排序得到同一个二叉搜索树的方案数](https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/) |  |  [`树`](../solution/tree.md) [`并查集`](../solution/disjoint-set-union.md) [`二叉搜索树`](../solution/binary-search-tree.md) `7+` | <font color=#ff334b>Hard</font> |
+| 1641 | [统计字典序元音字符串的数目](https://leetcode.com/problems/count-sorted-vowel-strings/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 1643 | [第 K 条最小指令](https://leetcode.com/problems/kth-smallest-instructions/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
+| 1735 | [生成乘积数组的方案数](https://leetcode.com/problems/count-ways-to-make-array-with-product/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1830 | [使字符串有序的最少操作次数](https://leetcode.com/problems/minimum-number-of-operations-to-make-string-sorted/) |  |  [`数学`](../solution/mathematics.md) [`字符串`](../solution/string.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ff334b>Hard</font> |
+| 1863 | [找出所有子集的异或总和再求和](https://leetcode.com/problems/sum-of-all-subset-xor-totals/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) `2+` | <font color=#15bd66>Esay</font> |
+| 1866 | [恰有 K 根木棍可以看到的排列数目](https://leetcode.com/problems/number-of-ways-to-rearrange-sticks-with-k-sticks-visible/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ff334b>Hard</font> |
+| 1916 | [统计为蚁群构筑房间的不同顺序](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/) |  |  [`树`](../solution/tree.md) [`图`](../solution/graph.md) [`拓扑排序`](../solution/topological-sort.md) `3+` | <font color=#ff334b>Hard</font> |
+| 2063 | [所有子字符串中的元音](https://leetcode.com/problems/vowels-of-all-substrings/) |  |  [`数学`](../solution/mathematics.md) [`字符串`](../solution/string.md) [`动态规划`](../solution/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2221 | [数组的三角和](https://leetcode.com/problems/find-triangular-sum-of-an-array/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`组合数学`](../solution/combinatorics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2338 | [统计理想数组的数目](https://leetcode.com/problems/count-the-number-of-ideal-arrays/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) `1+` | <font color=#ff334b>Hard</font> |
+| 2400 | [恰好移动 k 步到达某一位置的方法数目](https://leetcode.com/problems/number-of-ways-to-reach-a-position-after-exactly-k-steps/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 2514 | [统计同位异构字符串数目](https://leetcode.com/problems/count-anagrams/) |  |  [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) [`字符串`](../solution/string.md) `2+` | <font color=#ff334b>Hard</font> |
+| 2539 | [好子序列的个数](https://leetcode.com/problems/count-the-number-of-good-subsequences/) |  |  [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) [`字符串`](../solution/string.md) `2+` | <font color=#ffb800>Medium</font> |
+| LCP 25 | [古董键盘](https://leetcode.cn/problems/Uh984O/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ff334b>Hard</font> |
+| LCP 37 | [最小矩形面积](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji/) |  |  [`贪心`](../solution/greedy.md) [`几何`](../solution/geometry.md) [`数组`](../solution/array.md) `3+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer II 098 | [路径的数目](https://leetcode.cn/problems/2AoeFn/) |  |  [`数学`](../solution/mathematics.md) [`动态规划`](../solution/dynamic-programming.md) [`组合数学`](../solution/combinatorics.md) | <font color=#ffb800>Medium</font> |
