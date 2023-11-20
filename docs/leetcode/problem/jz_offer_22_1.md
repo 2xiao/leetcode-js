@@ -1,5 +1,9 @@
 # [剑指 Offer 22. 链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/)
 
+::: warning
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+:::
+
 :green_apple: <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md)
 
 ## 题目

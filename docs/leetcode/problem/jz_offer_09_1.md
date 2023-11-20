@@ -1,10 +1,12 @@
 # [剑指 Offer 09. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
 
+::: warning
+**注意：** 本题与 LeetCode [第 232 题](./0232.md) 相同。
+:::
+
 :green_apple: <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`队列`](../solution/queue.md)
 
 ## 题目
-
-> **注意：** 本题与 LeetCode [第 232 题](./0232.md) 相同。
 
 使用两个栈实现先入先出队列。需要实现对应的两个函数：
 
