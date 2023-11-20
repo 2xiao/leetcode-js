@@ -1,4 +1,10 @@
-# 热门企业题库
+---
+title: "热门企业题库"
+---
+
+<p align="center">
+  <img src="../../../assets/images/home-6.png" class="plan nozoom" alt="plan" width="100%"/>
+</p>
 
 ## 谷歌
 
@@ -58,4 +64,7 @@ table th:nth-of-type(3) { width: 10%; }
 table th:nth-of-type(4) { width: 30%; }
 table th:nth-of-type(5) { width: 10%; }
 table th:nth-of-type(6) { width: 10%; }
+.plan {
+    border-radius: 5px;
+} 
 </style>

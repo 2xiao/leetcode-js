@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "vuepress dev docs",
+    "dev": "vuepress dev docs --temp .temp",
     "build": "vuepress build docs",
     "lc": "cd ./assets/scripts & py ./entrance.py"
   },

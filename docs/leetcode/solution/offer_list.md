@@ -1,5 +1,10 @@
-# 剑指 Offer 题解
+---
+title: "剑指 Offer 题解"
+---
 
+<p align="center">
+  <img src="../../../assets/images/home-7.png" class="plan nozoom" alt="plan" width="100%"/>
+</p>
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -79,3 +84,14 @@
 | 剑指 Offer 68 - I | [二叉搜索树的最近公共祖先](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`二叉搜索树`](../solution/binary-search-tree.md) `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 68 - II | [二叉树的最近公共祖先](https://leetcode.cn/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof/) |  |  [`树`](../solution/tree.md) [`深度优先搜索`](../solution/depth-first-search.md) [`二叉树`](../solution/binary-tree.md) | <font color=#15bd66>Esay</font> |
 
+
+<style>
+table th:first-of-type { width: 20%; }
+table th:nth-of-type(2) { width: 30%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 30%; }
+table th:nth-of-type(5) { width: 10%; }
+.plan {
+    border-radius: 5px;
+} 
+</style>

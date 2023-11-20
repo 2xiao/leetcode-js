@@ -1,5 +1,10 @@
-# CodeTop 热题排行榜
+---
+title: "CodeTop 热题排行榜"
+---
 
+<p align="center">
+  <img src="../../../assets/images/home-3.png" class="plan nozoom" alt="plan" width="100%"/>
+</p>
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
@@ -229,4 +234,7 @@ table th:nth-of-type(3) { width: 10%; }
 table th:nth-of-type(4) { width: 30%; }
 table th:nth-of-type(5) { width: 10%; }
 table th:nth-of-type(6) { width: 10%; }
+.plan {
+    border-radius: 5px;
+} 
 </style>

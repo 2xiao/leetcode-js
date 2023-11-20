@@ -1,4 +1,10 @@
-# 面试经典 150 题
+---
+title: "面试经典 150 题"
+---
+
+<p align="center">
+  <img src="../../../assets/images/home-2.png" class="plan nozoom" alt="plan" width="100%"/>
+</p>
 
 ## Array / String
 
@@ -97,3 +103,14 @@
 数据来源： [LeetCode Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
 
 :::
+
+<style>
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 30%; }
+table th:nth-of-type(3) { width: 15%; }
+table th:nth-of-type(4) { width: 30%; }
+table th:nth-of-type(5) { width: 15%; }
+.plan {
+    border-radius: 5px;
+} 
+</style>

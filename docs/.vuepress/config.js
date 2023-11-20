@@ -99,6 +99,7 @@ module.exports = {
     ["meta", { name: "author", content: "2xiao" }],
     ["meta", { name: "copyright", content: "2xiao" }],
     ["meta", { name: "subject", content: "前端算法通关指南 LeetCode-JS" }],
+    ["meta", { name: "description", content: "前端算法通关指南 LeetCode-JS" }],
     [
       "meta",
       {
