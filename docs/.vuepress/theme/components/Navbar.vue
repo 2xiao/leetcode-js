@@ -8,7 +8,7 @@
     >
       <img
         v-if="$site.themeConfig.logo"
-        class="logo"
+        class="logo nozoom"
         :src="$withBase($site.themeConfig.logo)"
         :alt="$siteTitle"
       >

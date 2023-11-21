@@ -9,7 +9,7 @@ title: "剑指 Offer 题解"
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 04 | [二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) |  |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 04 | [二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_04_1) |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 05 | [替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/) |  |  [`字符串`](../solution/string.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) |  |  [`栈`](../solution/stack.md) [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 07 | [重建二叉树](https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/) |  |  [`树`](../solution/tree.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |

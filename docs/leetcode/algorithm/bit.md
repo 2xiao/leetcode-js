@@ -18,7 +18,7 @@
 | 0089 | [格雷编码](https://leetcode.com/problems/gray-code/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数学`](../solution/mathematics.md) [`回溯`](../solution/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0201 | [数字范围按位与](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |  |  [`位运算`](../solution/bit-manipulation.md) | <font color=#ffb800>Medium</font> |
 | 0338 | [比特位计数](https://leetcode.com/problems/counting-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`动态规划`](../solution/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
 | 0137 | [只出现一次的数字 II](https://leetcode.com/problems/single-number-ii/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
 | 0260 | [只出现一次的数字 III](https://leetcode.com/problems/single-number-iii/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
 | 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `3+` | <font color=#15bd66>Esay</font> |

@@ -1,4 +1,4 @@
-# 2.7 树
+# 2.6 树
 
 
 
@@ -128,5 +128,5 @@
 | 1202 | [交换字符串中的元素](https://leetcode.com/problems/smallest-string-with-swaps/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0947 | [移除最多的同行或同列石头](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) [`图`](../solution/graph.md) | <font color=#ffb800>Medium</font> |
 | 0803 | [打砖块](https://leetcode.com/problems/bricks-falling-when-hit/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`矩阵`](../solution/matrix.md) | <font color=#ff334b>Hard</font> |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
 

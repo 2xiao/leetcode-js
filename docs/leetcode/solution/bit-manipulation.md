@@ -106,7 +106,7 @@ table th:nth-of-type(5) { width: 10%; }
 | 0078 | [子集](https://leetcode.com/problems/subsets/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`回溯`](../solution/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0089 | [格雷编码](https://leetcode.com/problems/gray-code/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数学`](../solution/mathematics.md) [`回溯`](../solution/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`回溯`](../solution/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
 | 0137 | [只出现一次的数字 II](https://leetcode.com/problems/single-number-ii/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
 | 0187 | [重复的DNA序列](https://leetcode.com/problems/repeated-dna-sequences/) |  |  [`位运算`](../solution/bit-manipulation.md) [`哈希表`](../solution/hash-table.md) [`字符串`](../solution/string.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |

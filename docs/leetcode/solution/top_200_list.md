@@ -95,9 +95,9 @@ title: "面试高频 200 题"
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#15bd66>Esay</font> | 232 |
 | 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) |  [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) [`排序`](../solution/sorting.md) | <font color=#ffb800>Medium</font> | 310 |
-| 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ff334b>Hard</font> | 97 |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> | 56 |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> | 45 |
+| 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0041) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ff334b>Hard</font> | 97 |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> | 56 |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> | 45 |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) |  |  [`哈希表`](../solution/hash-table.md) [`字符串`](../solution/string.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> | 17 |
 | 0442 | [数组中重复的数据](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> | 19 |
 | 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) |  |  [`数组`](../solution/array.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> | 21 |
@@ -197,7 +197,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> | 56 |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> | 56 |
 
 
 ## 图
@@ -364,7 +364,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> | 45 |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> | 45 |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#15bd66>Esay</font> | 17 |
 | 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) `3+` | <font color=#15bd66>Esay</font> | 16 |
 
@@ -462,7 +462,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> | 45 |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> | 45 |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  |  [`数组`](../solution/array.md) [`排序`](../solution/sorting.md) | <font color=#ffb800>Medium</font> | 125 |
 | 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  |  [`贪心`](../solution/greedy.md) [`数组`](../solution/array.md) [`字符串`](../solution/string.md) `1+` | <font color=#ffb800>Medium</font> | 51 |
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`随机化`](../solution/randomized-algorithms.md) | <font color=#ffb800>Medium</font> | 28 |

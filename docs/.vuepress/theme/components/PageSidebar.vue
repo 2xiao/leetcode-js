@@ -59,6 +59,7 @@ export default {
   align-items: center;
   justify-content: space-between;
   font-weight: bold;
+  padding: 0 15px;
   .close-btn
     cursor: pointer;
 
@@ -69,17 +70,18 @@ export default {
   background: #fff;
   margin-left: 5px;
   .pos-box
-    padding: 15px;
+    padding: 15px 0;
     .scroll-box
       overflow-x: hidden;
       overflow-y: hidden;
       hr
         margin-top: 0.5rem
+        margin-bottom: 0
       .toc-box
         height: calc(100vh - 100px);
         overflow-y: auto;
         overflow-x: hidden;
-        width: 232px;
+        width: 245px;
         padding-bottom: 60px;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
@@ -97,6 +99,7 @@ export default {
           margin-top: 0;
         & > ul > li
           padding-left: 15px;
+
 
 @media (max-width: $MQNarrow)
   .page-sidebar

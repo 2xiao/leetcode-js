@@ -33,6 +33,22 @@ body
   .page
     padding-right 0
 
+
+::-webkit-scrollbar
+  width: 6px;
+  height: 6px;
+
+::-webkit-scrollbar-track-piece 
+  border-radius: 6px;
+  background: rgba(0,0,0,.1);
+
+::-webkit-scrollbar-thumb
+  border-radius: 6px;
+  background: $accentColor;
+
+::-webkit-scrollbar-thumb:active
+  background: lighten($accentColor, 10%)
+
 .navbar
   position fixed
   z-index 20

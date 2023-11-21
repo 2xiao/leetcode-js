@@ -267,7 +267,7 @@ title: "面试进阶 300 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`分治`](../solution/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
 | 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
@@ -445,7 +445,7 @@ title: "面试进阶 300 题"
 | 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1319 | [连通网络的操作次数](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0684 | [冗余连接](https://leetcode.com/problems/redundant-connection/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 0765 | [情侣牵手](https://leetcode.com/problems/couples-holding-hands/) |  |  [`贪心`](../solution/greedy.md) [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) `2+` | <font color=#ff334b>Hard</font> |
 
 

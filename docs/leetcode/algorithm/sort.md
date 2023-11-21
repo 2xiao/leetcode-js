@@ -415,7 +415,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  |  [`数组`](../solution/array.md) [`排序`](../solution/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  |  [`贪心`](../solution/greedy.md) [`数组`](../solution/array.md) [`字符串`](../solution/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`随机化`](../solution/randomized-algorithms.md) | <font color=#ffb800>Medium</font> |

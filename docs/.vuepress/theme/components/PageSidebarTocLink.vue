@@ -113,8 +113,7 @@ function renderExternal(h, to, text) {
 ul.toc-sidebar-links
   margin: 0px;
   padding-inline-start: 0px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding: 8px 12px;
   >li
     display: block;
     padding: 0px;
@@ -122,7 +121,6 @@ ul.toc-sidebar-links
     line-height: 20px;
     min-height: 5px;
     margin-left: 0;
-    margin-right: 12px;
     border-radius: 6px;
     transition: background 33.333ms linear 0s;
     color: rgb(31, 35, 40);

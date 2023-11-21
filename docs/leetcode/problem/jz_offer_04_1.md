@@ -1,6 +1,6 @@
 # [剑指 Offer 4. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/)
 
-:tangerine: <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) [`矩阵`](../solution/matrix.md)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) [`矩阵`](../solution/matrix.md)
 
 ## 题目
 

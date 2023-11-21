@@ -1,6 +1,6 @@
 # [剑指 Offer 9. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
 
-:green_apple: <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`队列`](../solution/queue.md)
+🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`队列`](../solution/queue.md)
 
 ## 题目
 

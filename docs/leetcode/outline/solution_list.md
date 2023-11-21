@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 92 道
+已完成 96 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -28,6 +28,7 @@
 | 0027 | [移除元素](https://leetcode.com/problems/remove-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0027) |  [`数组`](../solution/array.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`矩阵`](../solution/matrix.md) | <font color=#ffb800>Medium</font> |
+| 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0041) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ff334b>Hard</font> |
 | 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) |  [`数组`](../solution/array.md) [`数学`](../solution/mathematics.md) [`矩阵`](../solution/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) |  [`数组`](../solution/array.md) [`矩阵`](../solution/matrix.md) [`模拟`](../solution/simulation.md) | <font color=#ffb800>Medium</font> |
 | 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0059) |  [`数组`](../solution/array.md) [`矩阵`](../solution/matrix.md) [`模拟`](../solution/simulation.md) | <font color=#ffb800>Medium</font> |
@@ -44,6 +45,8 @@
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) |  [`链表`](../solution/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0120 | [三角形最小路径和](https://leetcode.com/problems/triangle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0120) |  [`数组`](../solution/array.md) [`动态规划`](../solution/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) |  [`双指针`](../solution/two-pointers.md) [`字符串`](../solution/string.md) | <font color=#15bd66>Esay</font> |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
 | 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) |  [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) |  [`栈`](../solution/stack.md) [`递归`](../solution/recursion.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) |  [`设计`](../solution/design.md) [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -92,6 +95,7 @@
 | 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) |  [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`数组`](../solution/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) |  [`栈`](../solution/stack.md) [`数组`](../solution/array.md) [`单调栈`](../solution/monotonic-stack.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`排序`](../solution/sorting.md) | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 04 | [二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_04_1) |  [`数组`](../solution/array.md) [`二分查找`](../solution/binary-search.md) [`分治`](../solution/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) |  [`栈`](../solution/stack.md) [`设计`](../solution/design.md) [`队列`](../solution/queue.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) |  [`链表`](../solution/linked-list.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) |  [`设计`](../solution/design.md) [`哈希表`](../solution/hash-table.md) [`链表`](../solution/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |

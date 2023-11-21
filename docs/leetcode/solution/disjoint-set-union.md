@@ -101,7 +101,7 @@ table th:nth-of-type(5) { width: 10%; }
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 0130 | [被围绕的区域](https://leetcode.com/problems/surrounded-regions/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0261 | [以图判树](https://leetcode.com/problems/graph-valid-tree/) |  |  [`深度优先搜索`](../solution/depth-first-search.md) [`广度优先搜索`](../solution/breadth-first-search.md) [`并查集`](../solution/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |

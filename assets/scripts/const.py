@@ -2,8 +2,8 @@
 problem_path = '../../docs/leetcode/problem/'
 config_path = '../../docs/.vuepress/config.js'
 solution_path = '../../docs/leetcode/solution/'
-solotion_list_path = '../../docs/leetcode/outline/2_solution_list.md'
-tag_list_path = '../../docs/leetcode/outline/4_tag_list.md'
+solotion_list_path = '../../docs/leetcode/outline/solution_list.md'
+tag_list_path = '../../docs/leetcode/outline/tag_list.md'
 categories_path = '../origins/categories_list.md'
 origin_path = '../origins/'
 

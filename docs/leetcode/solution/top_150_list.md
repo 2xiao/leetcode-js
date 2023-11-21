@@ -85,7 +85,7 @@ title: "面试经典 150 题"
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#15bd66>Esay</font> |
 | 0202 | [快乐数](https://leetcode.com/problems/happy-number/) |  |  [`哈希表`](../solution/hash-table.md) [`数学`](../solution/mathematics.md) [`双指针`](../solution/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) |  [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) [`滑动窗口`](../solution/sliding-window.md) | <font color=#15bd66>Esay</font> |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) |  |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](../solution/disjoint-set-union.md) [`数组`](../solution/array.md) [`哈希表`](../solution/hash-table.md) | <font color=#ffb800>Medium</font> |
 
 
 ## Intervals
@@ -271,7 +271,7 @@ title: "面试经典 150 题"
 | 0067 | [二进制求和](https://leetcode.com/problems/add-binary/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数学`](../solution/mathematics.md) [`字符串`](../solution/string.md) `1+` | <font color=#15bd66>Esay</font> |
 | 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  |  [`位运算`](../solution/bit-manipulation.md) [`分治`](../solution/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#15bd66>Esay</font> |
 | 0137 | [只出现一次的数字 II](https://leetcode.com/problems/single-number-ii/) |  |  [`位运算`](../solution/bit-manipulation.md) [`数组`](../solution/array.md) | <font color=#ffb800>Medium</font> |
 | 0201 | [数字范围按位与](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |  |  [`位运算`](../solution/bit-manipulation.md) | <font color=#ffb800>Medium</font> |
 
