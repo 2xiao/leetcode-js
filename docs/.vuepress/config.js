@@ -33,6 +33,9 @@ module.exports = {
       "/blog/": genBlog(),
     },
   },
+  markdown: {
+    lineNumbers: true,
+  },
   plugins: [
     ["@vuepress/back-to-top", true],
     [
