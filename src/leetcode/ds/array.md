@@ -8,7 +8,7 @@
 
 但在 JavaScript 里，数组中可以保存不同类型的值（大多数语言都没这个能力）。但我们还是要遵守最佳实践，别这么做。
 
-![](/assets/image/2-1-1.png)
+![](../../../assets/image/2-1-1.png)
 
 ```javascript
 // 一维数组：
@@ -54,13 +54,13 @@
 
 数组也是采用了顺序存储结构，并且存储的数据都是相同类型的。
 
-![](/assets/image/2-1-2.png)
+![](../../../assets/image/2-1-2.png)
 
 与它相对立的是**非线性表**，比如**二叉树、堆、图**等。
 
 在非线性表中，数据之间并不是简单的前后关系。
 
-![](/assets/image/2-1-3.png)
+![](../../../assets/image/2-1-3.png)
 
 ## 数组的操作
 
@@ -120,7 +120,7 @@
 
 例如：数组 a 中存储了如下 5 个元素：a，b，c，d，e。要将元素 x 插入到第 3 个位置。只需将 c 放入到 a[5]，将 a[2]赋值为 x 即可。最后数组中的元素如下： a，b，x，d，e，c。
 
-![](/assets/image/2-1-4.png)
+![](../../../assets/image/2-1-4.png)
 
 利用这种处理技巧，在特定场景下，在第 k 个位置插入一个元素的时间复杂度就会降为 O(1)。这个处理思想在**快排**中也会用到。
 
@@ -151,27 +151,25 @@
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 数组操作
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
-| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
-| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
+| 题号 | 标题                                                                                |                              题解                               | 标签                                                                                                                                      | 难度                              |
+| :--: | :---------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/)                             | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) | [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 0066 | [加一](https://leetcode.com/problems/plus-one/)                                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) | [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md)                                                   | <font color=#15bd66>Esay</font>   |
+| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/)               | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) | [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                                                  | <font color=#15bd66>Esay</font>   |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/)            | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) | [`数组`](/leetcode/outline/tag/array.md)                                                                                                  | <font color=#15bd66>Esay</font>   |
+| 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) | [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                                                  | <font color=#ffb800>Medium</font> |
 
 #### 二维数组
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0073) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0059) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-
+| 题号 | 标题                                                           |                              题解                               | 标签                                                                                                                               | 难度                              |
+| :--: | :------------------------------------------------------------- | :-------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0498) | [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md)   | <font color=#ffb800>Medium</font> |
+| 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/)        | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) | [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`矩阵`](/leetcode/outline/tag/matrix.md)  | <font color=#ffb800>Medium</font> |
+| 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/)   | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0073) | [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/)       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) | [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md)   | <font color=#ffb800>Medium</font> |
+| 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0059) | [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md)   | <font color=#ffb800>Medium</font> |
+| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/)        |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md)   | <font color=#ffb800>Medium</font> |

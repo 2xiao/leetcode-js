@@ -3,7 +3,7 @@ title: "自己动手写 React"
 ---
 
 <p align="center">
-  <img src="/assets/image/react-logo.png" alt="logo" height="360"/>
+  <img src="../../assets/image/react-logo.png" alt="logo" height="360"/>
 </p>
 <p align="center"><font size=5><b>《自己动手写 React》</b></font></p>
 <p align="center"><font color=gray>深入理解 React 源码，手把手带你构建自己的 React 库。</font></p>
