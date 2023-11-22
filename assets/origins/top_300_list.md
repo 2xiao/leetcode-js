@@ -3,7 +3,7 @@ title: "面试进阶 300 题"
 ---
 
 <p align="center">
-  <img src="../../../assets/images/home-5.png" class="plan_banner nozoom" alt="plan" width="60%"/>
+  <img src="/assets/image/home-5.png" class="plan_banner nozoom" alt="plan" width="60%"/>
 </p>
 
 ## 链表

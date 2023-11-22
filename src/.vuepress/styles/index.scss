@@ -1,1 +1,21 @@
 // place your custom styles here
+// a code
+//   color #fff
+
+$text-color: #2c3e50;
+$text-color-dark: #abb2bf;
+
+p{a{code{
+    color: $text-color;
+}}}
+td{a{code{
+    color: $text-color;
+}}}
+html[data-theme=dark] #app {
+    p{a{code{
+        color: $text-color-dark;
+    }}}
+    td{a{code{
+        color: $text-color-dark;
+    }}}
+}

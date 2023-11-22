@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-problem_path = '../../docs/leetcode/problem/'
-config_path = '../../docs/.vuepress/config.js'
-solution_path = '../../docs/leetcode/solution/'
-solotion_list_path = '../../docs/leetcode/outline/solution_list.md'
-tag_list_path = '../../docs/leetcode/outline/tag_list.md'
+leetcode_path = '../../src/leetcode/'
+problem_path = '../../src/leetcode/problem/'
+config_path = '../../src/.vuepress/sidebar.ts'
+solution_path = '../../src/leetcode/solution/'
+solotion_list_path = '../../src/leetcode/outline/solution_list.md'
+plan_list_path = '../../src/leetcode/outline/plan/'
+tag_list_path = '../../src/leetcode/outline/tag/'
+tag_list_readme = '../../src/leetcode/outline/tag/README.md'
+tag_absolute_path = '/leetcode/outline/tag/'
 categories_path = '../origins/categories_list.md'
 origin_path = '../origins/'
 

@@ -26,8 +26,8 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 - [1.1 数据结构与算法](https://2xiao.github.io/leetcode-js/leetcode/outline/table)
 - [1.2 复杂度分析](https://2xiao.github.io/leetcode-js/leetcode/outline/complexity)
 - [1.3 LeetCode 题解](https://2xiao.github.io/leetcode-js/leetcode/outline/solution_list)
-- [1.4 学习计划](https://2xiao.github.io/leetcode-js/leetcode/outline/study_plan)
-- [1.5 题解标签](https://2xiao.github.io/leetcode-js/leetcode/outline/tag_list)
+- [1.4 学习计划](https://2xiao.github.io/leetcode-js/leetcode/outline/plan/)
+- [1.5 题解标签](https://2xiao.github.io/leetcode-js/leetcode/outline/tag/)
 
 ### 第二章 数据结构专题
 

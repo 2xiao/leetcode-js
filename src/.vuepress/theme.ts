@@ -1,14 +1,16 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
+import navbar from "./navbar.js";
+import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
+  pure: true,
+  hostname: "https://2xiao.github.io",
 
   author: {
     name: "2xiao",
     url: "https://github.com/2xiao",
   },
+  pageInfo: false,
 
   iconAssets: "fontawesome-with-brands",
 
@@ -16,75 +18,41 @@ export default hopeTheme({
 
   repo: "2xiao/leetcode-js",
 
+  docsBranch: 'master',
+
   docsDir: "src",
 
-  // locales: {
-  //   "/": {
-  //     // navbar
-  //     navbar: enNavbar,
-
-  //     // sidebar
-  //     sidebar: enSidebar,
-
-  //     footer: "",
-
-  //     displayFooter: true,
-
-  //     metaLocales: {
-  //       editLink: "Edit this page on GitHub",
-  //     },
-  //   },
-
-  //   /**
-  //    * Chinese locale config
-  //    */
-  //   "/zh/": {
-  //     // navbar
-  //     navbar: zhNavbar,
-
-  //     // sidebar
-  //     sidebar: zhSidebar,
-
-  //     footer: "",
-
-  //     displayFooter: true,
-
-  //     // page meta
-  //     metaLocales: {
-  //       editLink: "在 GitHub 上编辑此页",
-  //     },
-  //   },
-  // },
   // navbar
-  navbar: zhNavbar,
+  navbar,
 
   // sidebar
-  sidebar: zhSidebar,
+  sidebar,
 
+  print: false,
+  
   footer: "",
 
   displayFooter: true,
+
+  encrypt: {
+    config: {
+      // "/demo/encrypt.html": ["1234"],
+    },
+  },
 
   // page meta
   metaLocales: {
     editLink: "在 GitHub 上编辑此页",
   },
 
-  encrypt: {
-    config: {
-      // "/demo/encrypt.html": ["1234"],
-      // "/zh/demo/encrypt.html": ["1234"],
-    },
-  },
-
   plugins: {
     // You should generate and use your own comment service
     comment: {
       provider: "Giscus",
-      repo: "vuepress-theme-hope/giscus-discussions",
-      repoId: "R_kgDOG_Pt2A",
+      repo: "2xiao/leetcode-js",
+      repoId: "R_kgDOKUwcng",
       category: "Announcements",
-      categoryId: "DIC_kwDOG_Pt2M4COD69",
+      categoryId: "DIC_kwDOKUwcns4CbI2r",
     },
 
     // All features are enabled for demo, only preserve features you need here

@@ -73,7 +73,7 @@ def format_label(labels: str):
     res = ''
     for tag in tags[:3]:
         tag_en = const.tags_zh_to_en[tag]
-        res += " [`" + tag + "`](../solution/" + tag_en + ".md)"
+        res += " [`" + tag + "`](" + const.tag_absolute_path + tag_en + ".md)"
     if len(tags) > 3:
         res += " `" + str(len(tags) - 3) + "+`"
     return res

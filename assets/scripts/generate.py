@@ -45,51 +45,6 @@ def gen_solution_list():
     return frame_cout
 
 
-# 自动生成第四章题解的切片索引
-
-
-def gen_slice_list():
-    files = os.listdir(const.problem_path)
-
-    frames = {}
-    file_name = {'Offer': '剑指 Offer', 'Offer-II': '剑指 Offer II',
-                 'Interviews': '面试题', 'LCP': '力扣杯'}
-    df = pd.read_csv("leetcode-problems.csv")
-
-    for file in files:
-        # 判断是否是文件夹
-        if ".md" not in file:
-            continue
-
-        # 获取题目所在行
-        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
-        if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
-            continue
-
-        problem_catalog = df.loc[df_indexs[0], "所在目录"]
-        if problem_catalog not in frames:
-            frames[problem_catalog] = pd.DataFrame(
-                columns=['题号', '标题', '题解', '标签', '难度'])
-        frame = frames[problem_catalog]
-        frame.loc[len(frame.index)] = utils.gen_frame_items(
-            df_indexs[0], df, const.problem_path)
-
-    for idx, frame in frames.items():
-        table = utils.gen_markdown_table(frame, True)
-        slice_path = os.path.join(const.solution_path, idx + ".md")
-        with open(slice_path, 'w', encoding='utf-8') as f:
-            if idx not in file_name:
-                f.writelines(
-                    '---\ntitle: "索引"\n---\n\n### LeetCode 第 {} 题\n\n'.format(idx))
-            else:
-                f.writelines(
-                    '---\ntitle: "索引"\n---\n\n### {}\n\n'.format(file_name[idx]))
-            f.write(table)
-        f.close()
-    print("Create Slice List Success")
-
-
 # 生成LeetCode题解按标签分类的列表
 
 def gen_tag_list():
@@ -113,15 +68,18 @@ def gen_tag_list():
     for idx, frame in frames.items():
         table = utils.gen_markdown_table(frame, True)
         tag_en = const.tags_zh_to_en[idx]
-        slice_path = os.path.join(const.solution_path, tag_en + ".md")
 
-        content = Path(const.tag_list_path).read_text(encoding='utf-8')
-        delim = "[`" + idx + "`](../solution/" + tag_en + ".md)"
+        content = Path(const.tag_list_readme).read_text(encoding='utf-8')
+
+        old_title = "# 1.5 题解标签"
+        delim = "[`" + idx + "`](" + const.tag_absolute_path + tag_en + ".md)"
+        if old_title in content:
+            _, content = content.split(old_title)
         if delim in content:
             before, after = content.split(delim)
-
-        content = before + '<span class="blue">' + idx + '</span>' + after
-
+        content = "# " + idx + before + '<span class="blue">' + idx + '</span>' + after
+        
+        slice_path = os.path.join(const.tag_list_path, tag_en + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:
             f.write(content)
             f.writelines('\n\n---\n\n')
@@ -160,19 +118,18 @@ def gen_config_js():
         problem_catalog = df.loc[df_indexs[0], "所在目录"]
         if problem_catalog not in frames:
             frames[problem_catalog] = []
-        path = '"/leetcode/problem/' + Path(file).stem + '.md"'
-        frames[problem_catalog].append(path)
+        frames[problem_catalog].append('"' + Path(file).stem + '"')
 
     for idx, frame in frames.items():
         children = spaces_4 + (',' + base_spaces +
                                spaces_4).join(map(str, frame))
-        toc_path = spaces_4 + '"/leetcode/solution/' + idx + '.md",'
+        # toc_path = spaces_4 + '"/leetcode/solution/' + idx + '.md",'
         title = idx
         if idx in file_name:
             title = file_name[idx]
 
-        config_item = [base_spaces + '{', '  title: "' + title + '",',
-                       '  collapsable: true,', '  sidebarDepth: 0,', '  children: [', toc_path, children, '  ],', '},']
+        config_item = [base_spaces + '{', '  text: "' + title + '",',
+                       '  collapsible: true,', '  children: [', children, '  ],', '},']
         content += base_spaces.join(config_item)
 
     utils.append_config(const.config_path, content)
@@ -202,7 +159,7 @@ def gen_tag_and_difficulty():
         for label in labels:
             label_en = const.tags_zh_to_en[label]
             problem_label += " [`" + label + \
-                "`](../solution/" + label_en + ".md)"
+                "`](" + const.tag_absolute_path + label_en + ".md)"
         problem_label += "\n\n"
         problem_difficulty = utils.format_difficulty(
             df.loc[df_indexs[0], "难度"], True)
@@ -226,7 +183,7 @@ def gen_tag_and_difficulty():
     print("Add Tag and Difficulty to Problems Success")
 
 
-# 生成第二、三章里每个知识点的相关题目 
+# 生成第二、三章里每个知识点的相关题目
 
 
 def gen_categories_list():
@@ -252,7 +209,7 @@ def gen_categories_list():
                 match1 = pattern1.match(title_content)
                 if match1:
                     _, category_h2_path = match1.group(1, 2)
-                    category_h2_path = '../../docs/leetcode/' + category_h2_path
+                    category_h2_path = const.leetcode_path + category_h2_path
                     category_h2_file_content += "\n\n## 相关题目\n\n"
             elif title_size == "###":
                 category_h2_file_content += "#### " + title_content + "\n\n"
@@ -276,9 +233,9 @@ def gen_categories_list():
 # 生成学习计划
 
 
-def gen_template_list(plan_name, salt=True):
+def gen_plan_list(plan_name, salt=True):
     origin_path = const.origin_path + plan_name
-    list_path = const.solution_path + plan_name
+    list_path = const.plan_list_path + plan_name
 
     f = open(origin_path, encoding='utf-8')
     lines = f.readlines()

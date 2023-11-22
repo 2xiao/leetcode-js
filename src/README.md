@@ -1,20 +1,20 @@
 ---
 home: true
 icon: home
-title: Project home
-heroImage: /logo.svg
+title: 前端算法通关指南
+heroImage: assets/image/logo.svg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: Project name
-tagline: You can place the description of the project here.
+heroText: 前端算法通关指南
+heroFullScreen: true
+tagline: Know Your Game.
 actions:
-  - text: How to Use
-    icon: lightbulb
-    link: ./demo/
+  - text: 🧭 LeetCode-JS 通关指南
+    link: ./leetcode/
     type: primary
 
-  - text: Docs
-    link: ./guide/
+  - text: 🍭 自己动手写 React
+    link: ./react/
 ---
