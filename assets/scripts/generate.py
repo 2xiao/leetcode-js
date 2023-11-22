@@ -34,12 +34,15 @@ def gen_solution_list():
         frame_cout += 1
 
     table = utils.gen_markdown_table(frame, True)
+    content = "已完成 {} 道\n\n".format(frame_cout) + table + "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n"
     with open(const.solotion_list_path, 'w', encoding='utf-8') as f:
         f.writelines("# 1.3 LeetCode 题解\n\n")
-        f.writelines("已完成 {} 道\n\n".format(frame_cout))
-        f.write(table)
-        f.writelines(
-            "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n")
+        f.write(content)
+    f.close()
+
+    with open(const.problem_readme, 'w', encoding='utf-8') as f:
+        f.writelines("# 第四章 LeetCode 题解\n\n")
+        f.write(content)
     f.close()
     print("Create Solutions List Success")
     return frame_cout

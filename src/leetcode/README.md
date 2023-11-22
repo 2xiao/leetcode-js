@@ -48,11 +48,7 @@ title: "LeetCode-JS 通关指南"
 
 ### 第四章 LeetCode 题解
 
-- [LeetCode 题解](./solution/0001-0099.md)
-- [剑指 Offer](./solution/Offer.md)
-- [剑指 Offer II](./solution/Offer-II.md)
-- [面试题](./solution/Interviews.md)
-- [力扣杯](./solution/LCP.md)
+- [LeetCode 题解](./problem/)
 
 ---
 

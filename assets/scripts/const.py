@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 leetcode_path = '../../src/leetcode/'
 problem_path = '../../src/leetcode/problem/'
+problem_readme = '../../src/leetcode/problem/README.md'
 config_path = '../../src/.vuepress/sidebar.ts'
 solution_path = '../../src/leetcode/solution/'
 solotion_list_path = '../../src/leetcode/outline/solution_list.md'
