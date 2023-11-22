@@ -3,7 +3,7 @@ title: "面试经典 150 题"
 ---
 
 <p align="center">
-  <img src="/leetcode-js/assets/image/home-2.png" class="plan_banner nozoom" alt="plan" width="60%"/>
+  <img src="/assets/image/home-2.png" class="plan_banner nozoom" alt="plan" width="60%"/>
 </p>
 
 ## Array / String

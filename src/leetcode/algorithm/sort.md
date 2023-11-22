@@ -62,8 +62,8 @@
 ## 冒泡排序（Bubble Sort）
 
 冒泡排序只会操作相邻的两个数据。每次冒泡操作都会对**相邻的两个元素进行比较**，看是否满足大小关系要求。如果不满足就让它俩互换。一次冒泡会让至少一个元素移动到它应该在的位置，重复 n 次，就完成了 n 个数据的排序工作。
-![](/leetcode-js/assets/image/3-8-1.png)
-![](/leetcode-js/assets/image/3-8-2.png)
+![](/assets/image/3-8-1.png)
+![](/assets/image/3-8-2.png)
 
 ```javascript
 function bubbleSort(arr) {
@@ -88,7 +88,7 @@ function bubbleSort(arr) {
 
 选择排序将数组中的数据分为两个区间，已排序区间和未排序区间。每次会从未排序区间中**找到最小的元素**，将其放到已排序区间的末尾，共执行 n - 1 轮。
 
-![](/leetcode-js/assets/image/3-8-3.png)
+![](/assets/image/3-8-3.png)
 
 ```javascript
 function selectionSort(arr) {
@@ -115,7 +115,7 @@ function selectionSort(arr) {
 ## 插入排序（Insertion Sort）
 
 插入排序将数组中的数据分为两个区间，已排序区间和未排序区间。初始已排序区间只有一个元素，就是数组的第一个元素。插入算法的核心思想是取未排序区间中的元素，在已排序区间中**找到合适的插入位置将其插入**，并保证已排序区间数据一直有序。重复这个过程，直到未排序区间中元素为空，算法结束。
-![](/leetcode-js/assets/image/3-8-4.png)
+![](/assets/image/3-8-4.png)
 
 ```javascript
 function insertionSort(arr) {
@@ -176,7 +176,7 @@ function shellSort(arr) {
 
 - 合：把两个字数组合并成一个有序数组，直到全部子数组合并完毕，合并前先准备一个空数组，存放合并之后的结果，然后不断取出两个子数组的第一个元素，比较他们的大小，小的先进入之前准备的空数组中，然后继续遍历其他元素，直到子数组中的元素都完成遍历
 
-![](/leetcode-js/assets/image/3-8-5.png)
+![](/assets/image/3-8-5.png)
 
 ```javascript
 function mergeSort(arr) {
@@ -264,7 +264,7 @@ function swap(arr, i, j) {
 }
 ```
 
-![](/leetcode-js/assets/image/3-8-6.png)
+![](/assets/image/3-8-6.png)
 
 快排和归并用的都是分治思想，递推公式和递归代码也非常相似，它们的区别是：
 
@@ -275,7 +275,7 @@ function swap(arr, i, j) {
 
 桶排序，顾名思义，会用到“桶”，核心思想是将要排序的数据分到几个有序的桶里，每个桶里的数据再单独进行排序。桶内排完序之后，再把每个桶里的数据按照顺序依次取出，组成的序列就是有序的了。
 
-![](/leetcode-js/assets/image/3-8-7.png)
+![](/assets/image/3-8-7.png)
 
 桶排序的时间复杂度是 O(n)。如果要排序的数据有 n 个，我们把它们均匀地划分到 m 个桶内，每个桶里就有 k=n/m 个元素。每个桶内部使用快速排序，时间复杂度为 O(k _ logk)。m 个桶排序的时间复杂度就是 O(m _ k * logk)，因为 k=n/m，所以整个桶排序的时间复杂度就是 O(n*log(n/m))。当桶的个数 m 接近数据个数 n 时，log(n/m)就是一个非常小的常量，这个时候桶排序的时间复杂度接近 O(n)。
 

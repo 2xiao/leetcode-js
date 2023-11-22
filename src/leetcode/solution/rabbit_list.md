@@ -3,7 +3,7 @@ title: "海外兔热题排行榜"
 ---
 
 <p align="center">
-  <img src="/leetcode-js/assets/image/home-4.png" class="plan_banner nozoom" alt="plan" width="60%"/>
+  <img src="/assets/image/home-4.png" class="plan_banner nozoom" alt="plan" width="60%"/>
 </p>
 
 |        题号        | 标题                                                                                                                                 |                              题解                               | 标签                                                                                                                                                         | 难度                              | 频次 |

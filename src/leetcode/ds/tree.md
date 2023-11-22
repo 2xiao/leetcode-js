@@ -2,7 +2,7 @@
 
 ## 树的定义
 
-![](/leetcode-js/assets/image/2-6-1.png)
+![](/assets/image/2-6-1.png)
 
 ## 二叉树
 

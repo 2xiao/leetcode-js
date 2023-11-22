@@ -8,7 +8,7 @@
 
 :::
 
-![](/leetcode-js/assets/image/2-3-1.png)
+![](/assets/image/2-3-1.png)
 
 栈是一种 **后进先出（Last In First Out）** 的线性表，简称为 LIFO 结构。
 
@@ -200,7 +200,7 @@ console.log(stack.count()); // output: 2
 
 比如：`3 + 5 * 8 - 6`：
 
-![](/leetcode-js/assets/image/2-3-2.png)
+![](/assets/image/2-3-2.png)
 
 #### ③ 代码
 
@@ -418,7 +418,7 @@ function add(x, y) {
 
 从代码中可以看出，main()函数调用了 add()函数，获取计算结果，并且与临时变量 a 相加，最后打印 res 的值。在执行到 add()函数时，函数调用栈的情况如下所示：
 
-![](/leetcode-js/assets/image/2-3-3.png)
+![](/assets/image/2-3-3.png)
 
 ---
 
