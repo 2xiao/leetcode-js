@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/leetcode-js/sitemap.xml
+Sitemap: https://2xiao.github.io/leetcode-js/sitemap.xml
