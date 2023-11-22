@@ -1,7 +1,7 @@
 import { sidebar } from "vuepress-theme-hope";
 
 export const zhSidebar = sidebar({
-  "/zh/leetcode/": [
+  "leetcode/": [
     "",
     {
       text: "第一章 序章",
@@ -28,6 +28,6 @@ export const zhSidebar = sidebar({
       children: "structure",
     },
   ],
-  "/zh/react": "structure",
-  "/zh/blog": "structure",
+  "react": "structure",
+  "blog": "structure",
 });

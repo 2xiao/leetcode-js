@@ -7,14 +7,14 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "en-US",
-      title: "LeetCode-JS",
-      description: "Know Your Game",
-    },
-    "/zh/": {
-      lang: "zh-CN",
       title: "前端算法通关指南",
       description: "Know Your Game",
     },
+    // "/zh/": {
+    //   lang: "zh-CN",
+    //   title: "前端算法通关指南",
+    //   description: "Know Your Game",
+    // },
   },
 
   theme,

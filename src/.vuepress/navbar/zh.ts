@@ -5,18 +5,18 @@ export const zhNavbar = navbar([
     text: "LeetCode-JS 通关指南",
     icon: "laptop-code",
     prefix: "leetcode/",
-    link: "/zh/leetcode/"
+    link: "/leetcode/"
   },
   {
     text: "自己动手写 React",
     icon: "laptop-code",
     prefix: "react/",
-    link: "/zh/react/"
+    link: "/react/"
   },
   {
     text: "博客",
     icon: "laptop-code",
     prefix: "blog/",
-    link: "/zh/blog/"
+    link: "/blog/"
   },
 ]);
