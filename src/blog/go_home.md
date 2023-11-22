@@ -1,3 +1,9 @@
+---
+title: "回到小镇的一些感受"
+date: 2021-10-17 00:00:00
+category: "在北京"
+---
+
 # 回到小镇的一些感受
 
 <font color=gray>Published on 2021-10-17</font>

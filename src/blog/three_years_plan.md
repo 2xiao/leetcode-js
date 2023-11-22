@@ -1,3 +1,9 @@
+---
+title: "未来三年的计划"
+date: 2019-04-15 00:00:00
+category: "在北京"
+---
+
 # 未来三年的计划
 
 <font color=gray>Published on 2019-04-15</font>

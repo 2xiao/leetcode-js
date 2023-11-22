@@ -5,7 +5,7 @@ export default sidebar({
     "",
     {
       text: "第一章 序章",
-      icon: "laptop-code",
+      icon: "book",
       prefix: "outline/",
       children: [
         "table",
@@ -235,5 +235,4 @@ export default sidebar({
     },
   ],
   "/react/": "structure",
-  "/blog/": "structure",
 });

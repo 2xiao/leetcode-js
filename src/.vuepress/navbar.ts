@@ -3,19 +3,19 @@ import { navbar } from "vuepress-theme-hope";
 export default navbar([
   {
     text: "LeetCode-JS 通关指南",
-    icon: "laptop-code",
+    icon: "code",
     prefix: "/leetcode/",
     link: "/leetcode/"
   },
   {
     text: "自己动手写 React",
-    icon: "laptop-code",
+    icon: "react",
     prefix: "/react/",
     link: "/react/"
   },
   {
     text: "博客",
-    icon: "laptop-code",
+    icon: "blog",
     prefix: "/blog/",
     link: "/blog/"
   },

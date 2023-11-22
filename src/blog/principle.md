@@ -1,4 +1,11 @@
-# 一个改变人生的选择
+---
+title: "如何做人生的重要决策"
+date: 2019-05-08 00:00:00
+category: "在北京"
+star: 1
+---
+
+# 如何做人生的重要决策
 
 <font color=gray>Published on 2019-05-08</font>
 

@@ -1,4 +1,10 @@
-# 关于加班
+---
+title: "谈谈加班和内卷"
+date: 2019-03-30 00:00:00
+category: "在北京"
+---
+
+# 谈谈加班和内卷
 
 <font color=gray>Published on 2019-03-30</font>
 

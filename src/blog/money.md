@@ -1,3 +1,9 @@
+---
+title: "我和金钱的关系"
+date: 2021-08-29 00:00:00
+category: "在北京"
+---
+
 # 我和金钱的关系
 
 <font color=gray>Published on 2021-08-29</font>

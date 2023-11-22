@@ -1,3 +1,9 @@
+---
+title: "新年的一件小事"
+date: 2022-01-01 00:00:00
+category: "在北京"
+---
+
 # 新年的一件小事
 
 <font color=gray>Published on 2022-01-01</font>

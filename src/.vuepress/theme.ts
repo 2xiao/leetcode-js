@@ -12,7 +12,7 @@ export default hopeTheme({
   },
   pageInfo: false,
 
-  iconAssets: "fontawesome-with-brands",
+  iconAssets: "iconfont",
 
   logo: "assets/image/logo.png",
 
@@ -53,6 +53,11 @@ export default hopeTheme({
       repoId: "R_kgDOKUwcng",
       category: "Announcements",
       categoryId: "DIC_kwDOKUwcns4CbI2r",
+    },
+
+    blog: {
+      excerptLength: 100,
+      filter: (page) => Boolean(page.filePathRelative?.startsWith('blog/')) && !page.frontmatter.home,
     },
 
     // All features are enabled for demo, only preserve features you need here
