@@ -256,7 +256,7 @@ title: "海外兔热题排行榜"
 |        0249        | [移位字符串分组](https://leetcode.com/problems/group-shifted-strings/)                                                               |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md)                                                       | <font color=#ffb800>Medium</font> |  2   |
 |        0487        | [最大连续 1 的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii/)                                                       |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md)                                  | <font color=#ffb800>Medium</font> |  1   |
 
-::: tip
+::: info
 
 数据来源：[Overseas Rabbit | 海外兔](https://osjobs.net/topk/)
 

@@ -220,7 +220,7 @@ title: "CodeTop 热题排行榜"
 |   剑指 Offer 11    | [旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)                                        |                                                                          | [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md)                                                                                              | <font color=#15bd66>Esay</font>   |  17  |
 |        0191        | [位 1 的个数](https://leetcode.com/problems/number-of-1-bits/)                                                                       |                                                                          | [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md)                                                                                | <font color=#15bd66>Esay</font>   |  17  |
 
-::: tip
+::: info
 
 数据来源：[CodeTop | 企业题库](https://codetop.cc/home)
 

@@ -6,9 +6,9 @@
 
 **Example:**
 
-::: tip
+```
 
-:::
+```
 
 **Constraints:**
 

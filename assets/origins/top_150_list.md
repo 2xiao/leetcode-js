@@ -98,7 +98,7 @@ title: "面试经典 150 题"
 
 ###### 0120、0064、0063、0005、0097、0072、0123、0188、0221
 
-::: tip
+::: info
 
 数据来源： [LeetCode Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
 

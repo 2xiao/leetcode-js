@@ -454,7 +454,7 @@ title: "热门企业题库"
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)     |                                                                 | [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                     | <font color=#ffb800>Medium</font> |  11  |
 | 0300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence/)                       |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)                   | <font color=#ffb800>Medium</font> |  11  |
 
-::: tip
+::: info
 数据来源：
 
 - [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)

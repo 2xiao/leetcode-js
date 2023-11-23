@@ -12,17 +12,19 @@
 **Example:**
 
 ```
-输入：`["CQueue","appendTail","deleteHead","deleteHead"]`, `[[], [3], [], []]`
+输入：["CQueue","appendTail","deleteHead","deleteHead"], [[], [3], [], []]
 
-输出：`[null,null,3,-1]
+输出：[null,null,3,-1]
 ```
 
 **Constraints:**
 
 - `1 <= values <= 10000`
 - 最多会对 `appendTail`、`deleteHead` 进行 `10000` 次调用
-``` warning
-**注意：** 本题与 LeetCode [第 232 题](./0232.md) 相同。```
+
+::: warning
+**注意：** 本题与 LeetCode [第 232 题](./0232.md) 相同。
+:::
 
 ## 解题思路
 

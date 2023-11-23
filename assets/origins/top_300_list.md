@@ -130,7 +130,7 @@ title: "面试进阶 300 题"
 
 ###### 1232、1266、0892、1401、0963、0587、1515
 
-::: tip
+::: info
 
 数据来源： [Leetcode-retag](https://github.com/resumejob/Leetcode-retag)
 

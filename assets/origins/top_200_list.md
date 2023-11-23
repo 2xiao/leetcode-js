@@ -226,7 +226,7 @@ title: "面试高频 200 题"
 
 ###### [111]0031、[19]0556、[68]0470
 
-::: tip
+::: info
 数据来源：
 
 - [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)

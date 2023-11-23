@@ -4,9 +4,9 @@
 
 **Example:**
 
-::: tip
+```
 
-:::
+```
 
 **Constraints:**
 

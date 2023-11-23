@@ -9,18 +9,20 @@
 **示例 1：**
 
 ```
-输入：`head = [2,4,7,8], cnt = 1`
+输入：head = [2,4,7,8], cnt = 1
 
-输出：`8
+输出：8
 ```
 
 **提示：**
 
 - `1 <= head.length <= 100`
 - `0 <= head[i] <= 100`
-- `1 <= cnt <= head.length
-``` warning
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。```
+- `1 <= cnt <= head.length`
+
+::: warning
+**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+:::
 
 ## 解题思路
 

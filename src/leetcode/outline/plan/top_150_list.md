@@ -271,7 +271,7 @@ title: "面试经典 150 题"
 | 0188 | [买卖股票的最佳时机 IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/)   |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)                                           | <font color=#ff334b>Hard</font>   |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/)                                  |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 
-::: tip
+::: info
 
 数据来源： [LeetCode Top Interview 150](https://leetcode.com/studyplan/top-interview-150/)
 

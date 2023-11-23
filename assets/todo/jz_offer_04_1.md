@@ -13,19 +13,19 @@
 
 **Example:**
 
-::: tip
+```
 输入：`matrix = [[2,3,6,8],[4,5,8,9],[5,9,10,12]]`, `target = 8`
 
 输出：`true`
-:::
+```
 
 **Example:**
 
-::: tip
+```
 输入：`matrix = [[1,3,5],[2,5,7]]`, `target = 4`
 
 输出：`false`
-:::
+```
 
 **Constraints:**
 

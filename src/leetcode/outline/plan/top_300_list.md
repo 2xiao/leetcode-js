@@ -494,7 +494,7 @@ title: "面试进阶 300 题"
 | 0587 | [安装栅栏](https://leetcode.com/problems/erect-the-fence/)                              |      | [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md)                   | <font color=#ff334b>Hard</font>   |
 | 1515 | [服务中心的最佳位置](https://leetcode.com/problems/best-position-for-a-service-centre/) |      | [`几何`](/leetcode/outline/tag/geometry.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) | <font color=#ff334b>Hard</font>   |
 
-::: tip
+::: info
 
 数据来源： [Leetcode-retag](https://github.com/resumejob/Leetcode-retag)
 
