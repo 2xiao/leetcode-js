@@ -9,7 +9,7 @@ export default defineUserConfig({
   description: "Know Your Game",
 
   theme,
-
+  
   // Enable it with pwa
   // shouldPrefetch: false,
 });

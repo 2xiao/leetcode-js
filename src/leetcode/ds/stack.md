@@ -2,7 +2,7 @@
 
 ## 栈的定义
 
-::: tip
+::: info 定义
 
 **栈（Stack）** 是一种“操作受限”的线性表，只允许在一端插入和删除数据。后进者先出，先进者后出，这就是典型的“栈”结构。
 
@@ -166,11 +166,11 @@ console.log(stack.count()); // output: 2
 
 一个常见的应用场景是，编译器利用栈来实现表达式求值。
 
-::: tip
-[227. 基本计算器 II - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0227.html)
-:::
+:::: md-demo 相关题目
 
-#### ① 题目大意
+#### 📌 [227. 基本计算器 II - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0227.html)
+
+#### 💻 **题目大意**
 
 给定一个字符串表达式 s，表达式中所有整数为非负整数，运算符只有 +、-、\*、/，没有括号。实现一个基本计算器来计算并返回它的值。
 
@@ -192,7 +192,7 @@ console.log(stack.count()); // output: 2
 - 表达式中的所有整数都是非负整数，且在范围` [0, 2^31 − 1]`内
 - 题目数据保证答案是一个 `32-bit` 整数
 
-#### ② 解题思路
+#### 💡 **解题思路**
 
 通过两个栈来实现。其中一个是保存操作数的栈，另一个是保存运算符的栈。从左向右遍历表达式，当遇到数字，我们就直接压入操作数栈；当遇到运算符，就与运算符栈的栈顶元素进行比较。
 
@@ -202,7 +202,7 @@ console.log(stack.count()); // output: 2
 
 ![](../../../assets/image/2-3-2.png)
 
-#### ③ 代码
+#### 💎 **代码**
 
 ::: details 👉 查看代码 👈
 
@@ -212,17 +212,17 @@ console.log(stack.count()); // output: 2
 
 :::
 
----
+::::
 
 ### 2. 括号匹配
 
 还可以借助栈来检查表达式中的括号是否匹配。
 
-::: tip
-[20. 有效的括号 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0020.html)
-:::
+:::: md-demo 相关题目
 
-#### ① 题目大意
+#### 📌 [20. 有效的括号 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0020.html)
+
+#### 💻 **题目大意**
 
 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串 s 是否有效（即括号是否匹配）。
 
@@ -243,7 +243,7 @@ console.log(stack.count()); // output: 2
 - 左括号必须用相同类型的右括号闭合。
 - 左括号必须以正确的顺序闭合。
 
-#### ② 解题思路
+#### 💡 **解题思路**
 
 用栈来保存未匹配的左括号，从左到右依次扫描字符串。当扫描到左括号时，则将其压入栈中；
 
@@ -253,7 +253,7 @@ console.log(stack.count()); // output: 2
 
 当所有的括号都扫描完成之后，如果栈为空，则说明字符串为合法格式；否则，说明有未匹配的左括号，为非法格式。
 
-#### ③ 代码
+#### 💎 **代码**
 
 ::: details 👉 查看代码 👈
 
@@ -287,17 +287,17 @@ var isValid = function (s) {
 
 :::
 
----
+::::
 
 ### 3. 浏览器历史记录
 
 另一个常见的应用场景是浏览器的前进后退功能。
 
-::: tip
-[1472. 设计浏览器历史记录 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/1472.html)
-:::
+:::: md-demo 相关题目
 
-#### ① 题目大意
+#### 📌 [1472. 设计浏览器历史记录 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/1472.html)
+
+#### 💻 **题目大意**
 
 设计一个只支持单个标签页的 **浏览器** ，最开始浏览的网页是 `homepage` ，可以访问其他的网站 `url` ，也可以在浏览历史中后退 `steps` 步或前进 `steps` 步。
 
@@ -340,7 +340,7 @@ var isValid = function (s) {
 - `homepage` 和 `url` 都只包含 `'.'` 或者小写英文字母。
 - 最多调用 `5000` 次 `visit，` `back` 和 `forward` 函数。
 
-#### ② 解题思路
+#### 💡 **解题思路**
 
 使用栈来存储浏览器的访问历史，使用 `cur_index` 变量来存储当前访问的网址在栈中的位置。
 
@@ -351,7 +351,7 @@ var isValid = function (s) {
 - `back`：比较栈中存储的历史记录数 `n` 和 `steps` 的大小，最多只能倒退 `n` 步；
 - `forward`: 比较 `cur_index` 之后的历史记录数 `m` 和 `steps` 的大小，最多只能前进 `m` 步；
 
-#### ③ 代码
+#### 💎 **代码**
 
 ::: details 👉 查看代码 👈
 
@@ -390,7 +390,7 @@ class BrowserHistory {
 
 :::
 
----
+::::
 
 ### 4. 函数调用栈
 
@@ -420,11 +420,9 @@ function add(x, y) {
 
 ![](../../../assets/image/2-3-3.png)
 
----
-
 ## 单调栈
 
-::: tip
+::: info 定义
 **单调栈（Monotone Stack）** ：一种特殊的栈。在栈的先进后出规则基础上，要求从栈顶到栈底的元素是单调递增或者单调递减。
 :::
 
@@ -474,11 +472,11 @@ function add(x, y) {
 
 ### 1. 下一个更大元素
 
-::: tip
-[496. 下一个更大元素 I - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0496.html)
-:::
+:::: md-demo 相关题目
 
-#### ① 题目大意
+#### 📌 [496. 下一个更大元素 I - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0496.html)
+
+#### 💻 **题目大意**
 
 给定两个没有重复元素的数组 `nums1` 和 `nums2` ，其中 `nums1` 是 `nums2` 的子集。找出 `nums1` 中每个元素在 `nums2` 中的下一个比其大的值。
 
@@ -503,7 +501,7 @@ function add(x, y) {
 - `nums1` 和 `nums2` 中所有整数互不相同
 - `nums1` 中的所有整数同样出现在 `nums2` 中
 
-#### ② 解题思路
+#### 💡 **解题思路**
 
 - 使用单调递增栈；
 - 因为 `nums1` 是 `nums2` 的子集，所以我们可以先遍历一遍 `nums2`，并构造单调递增栈；
@@ -511,7 +509,7 @@ function add(x, y) {
 - 再遍历一遍 `nums1`，从哈希表中取出对应结果，存放到答案数组中；
 - 这种解法的时间复杂度是 `O(n)`。
 
-#### ③ 代码
+#### 💎 **代码**
 
 ::: details 👉 查看代码 👈
 
@@ -539,13 +537,15 @@ var nextGreaterElement = function (nums1, nums2) {
 
 :::
 
+::::
+
 ### 2. 每日温度
 
-::: tip
-[739. 每日温度 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0739.html)
-:::
+:::: md-demo 相关题目
 
-#### ① 题目大意
+#### 📌 [739. 每日温度 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0739.html)
+
+#### 💻 **题目大意**
 
 给定一个整数数组 temperatures ，表示每天的温度，返回一个数组 answer ，其中 answer[i] 是指对于第 i 天，下一个更高温度出现在几天后。如果气温在这之后都不会升高，请在该位置用 0 来代替。
 
@@ -568,7 +568,7 @@ var nextGreaterElement = function (nums1, nums2) {
 - `1 <= temperatures.length <= 10^5`
 - `30 <= temperatures[i] <= 100`
 
-#### ② 解题思路
+#### 💡 **解题思路**
 
 - 使用单调递增栈；
 - 先遍历一遍 `temperatures`，并构造单调递增栈，栈中保存元素对应的 `index`；
@@ -576,7 +576,7 @@ var nextGreaterElement = function (nums1, nums2) {
 - 然后再遍历一遍 `temperatures`，从哈希表中取出对应结果，将差值 `value - key` 存放到答案数组中；
 - 这种解法的时间复杂度是 `O(n)`。
 
-#### ③ 代码
+#### 💎 **代码**
 
 ::: details 👉 查看代码 👈
 
@@ -605,6 +605,8 @@ var dailyTemperatures = function (temperatures) {
 ```
 
 :::
+
+::::
 
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->

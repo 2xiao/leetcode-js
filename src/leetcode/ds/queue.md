@@ -2,7 +2,7 @@
 
 ## 队列的定义
 
-::: tip
+::: info 定义
 
 **队列（Queue）** ：一种线性表数据结构，是一种只允许在表的一端进行插入操作，而在表的另一端进行删除操作的线性表。
 
@@ -230,7 +230,7 @@ console.log(queue.toString()); // output: 2,3
 
 ### 循环队列
 
-::: tip
+::: info 定义
 **循环队列（Circular Queue）** 是一种线性数据结构，其操作表现基于 FIFO（先进先出）原则，并且队尾被连接在队首之后，以形成一个循环。它也被称为“环形缓冲器”。
 :::
 
@@ -244,13 +244,12 @@ console.log(queue.toString()); // output: 2,3
 
 ![](../../../assets/image/2-4-4.png)
 
-#### 相关题目
+:::: md-demo 相关题目
 
-::: tip
-[622. 设计循环队列 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0622.html)
-:::
+#### 📌 [622. 设计循环队列 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0622.html)
 
-#### ① 题目大意
+
+#### 💻 **题目大意**
 
 设计循环队列，支持如下操作：
 
@@ -355,9 +354,11 @@ MyCircularQueue.prototype.isFull = function () {
 };
 ```
 
+::::
+
 ## 优先队列
 
-::: tip
+::: info 定义
 **优先队列（Priority Queue）** ：一种特殊的队列。在优先队列中，元素被赋予优先级，当访问队列元素时，具有最高优先级的元素最先删除。
 :::
 

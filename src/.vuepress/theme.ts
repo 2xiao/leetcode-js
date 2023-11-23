@@ -18,7 +18,7 @@ export default hopeTheme({
 
   repo: "2xiao/leetcode-js",
 
-  docsBranch: 'master',
+  docsBranch: "master",
 
   docsDir: "src",
 
@@ -29,7 +29,7 @@ export default hopeTheme({
   sidebar,
 
   print: false,
-  
+
   footer: "",
 
   displayFooter: true,
@@ -57,7 +57,9 @@ export default hopeTheme({
 
     blog: {
       excerptLength: 100,
-      filter: (page) => Boolean(page.filePathRelative?.startsWith('blog/')) && !page.frontmatter.home,
+      filter: (page) =>
+        Boolean(page.filePathRelative?.startsWith("blog/")) &&
+        !page.frontmatter.home,
     },
 
     // All features are enabled for demo, only preserve features you need here
@@ -127,6 +129,7 @@ export default hopeTheme({
       sup: true,
       tabs: true,
       vPre: true,
+      container: true,
 
       // install @vue/repl before enabling it
       // vuePlayground: true,
