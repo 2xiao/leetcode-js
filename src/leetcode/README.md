@@ -14,7 +14,7 @@ title: "LeetCode-JS 通关指南"
 
 ### 第一章 序言
 
-- [1.1 数据结构与算法](./outline/table.md)
+- [1.1 数据结构与算法](./outline/intro.md)
 - [1.2 复杂度分析](./outline/complexity.md)
 - [1.3 LeetCode 题解](./outline/solution_list.md)
 - [1.4 学习计划](./outline/plan/)
@@ -92,4 +92,4 @@ Github 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 
 本书所有题目版权均归 [LeetCode](https://leetcode.com/) 和 [力扣中国](https://leetcode-cn.com/) 所有。
 
-[开始阅读 ->](./outline/table.md)
+[开始阅读 ->](./outline/intro.md)

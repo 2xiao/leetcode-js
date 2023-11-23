@@ -2,7 +2,7 @@
 title: "面试经典 150 题"
 ---
 
-![](../../../../assets/image/home-2.png =500x)
+![](../../../../assets/image/plan-2.png =500x)
 
 ## Array / String
 

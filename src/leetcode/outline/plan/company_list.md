@@ -2,7 +2,7 @@
 title: "热门企业题库"
 ---
 
-![](../../../../assets/image/home-6.png =500x)
+![](../../../../assets/image/plan-6.png =500x)
 
 ## 谷歌
 

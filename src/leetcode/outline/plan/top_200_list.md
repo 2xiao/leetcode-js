@@ -2,7 +2,7 @@
 title: "面试高频 200 题"
 ---
 
-![](../../../../assets/image/home-1.png =500x)
+![](../../../../assets/image/plan-1.png =500x)
 
 ## 数组
 
