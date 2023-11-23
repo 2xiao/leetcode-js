@@ -12,6 +12,7 @@ tag_absolute_path = '/leetcode/outline/tag/'
 categories_path = '../origins/categories_list.md'
 origin_path = '../origins/'
 
+tag_list_css = '\n\n<style>\n.blue {\n    background-color: #096dd9;\n    padding: 0.25rem 0.5rem;\n    margin: 0;\n    font-size: 0.85em;\n    border-radius: 3px;\n    color: white;\n    font-weight: 500;\n}\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n'
 tags_zh_to_en = {
     '数组': 'array',
     '矩阵': 'matrix',

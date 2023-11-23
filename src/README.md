@@ -1,13 +1,13 @@
 ---
 home: true
 icon: home
-title: 前端算法通关指南
-heroImage: assets/image/logo.svg
+title: LeetCode-JS
+heroImage: assets/image/leetcode-js-logo.png
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 前端算法通关指南
+heroText: LeetCode-JS
 heroFullScreen: true
 tagline: Know Your Game.
 actions:

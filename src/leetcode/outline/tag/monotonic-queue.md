@@ -1,5 +1,7 @@
 # 单调队列
 
+::: details 全部标签
+
 **数据结构**
 
 [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) [`栈`](/leetcode/outline/tag/stack.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) [`队列`](/leetcode/outline/tag/queue.md) <span class="blue">单调队列</span> [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) [`图`](/leetcode/outline/tag/graph.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`最短路`](/leetcode/outline/tag/shortest-path.md) [`强连通分量`](/leetcode/outline/tag/strongly-connected-components.md) [`欧拉回路`](/leetcode/outline/tag/eulerian-circuit.md) [`双连通分量`](/leetcode/outline/tag/biconnected-components.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`字典树`](/leetcode/outline/tag/trie.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md)
@@ -12,23 +14,7 @@
 
 [`数学`](/leetcode/outline/tag/mathematics.md) [`数论`](/leetcode/outline/tag/number-theory.md) [`几何`](/leetcode/outline/tag/geometry.md) [`博弈`](/leetcode/outline/tag/game-theory.md) [`模拟`](/leetcode/outline/tag/simulation.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`数据库`](/leetcode/outline/tag/database.md) [`设计`](/leetcode/outline/tag/design.md) [`数据流`](/leetcode/outline/tag/data-streams.md) [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`交互`](/leetcode/outline/tag/interaction.md) [`迭代器`](/leetcode/outline/tag/iterators.md) [`多线程`](/leetcode/outline/tag/multithreading.md)
 
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>
-
+:::
 
 ---
 
@@ -47,3 +33,20 @@ table th:nth-of-type(5) { width: 10%; }
 | 2444 | [统计定界子数组的数目](https://leetcode.com/problems/count-subarrays-with-fixed-bounds/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `1+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
+
+<style>
+.blue {
+    background-color: #096dd9;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    font-size: 0.85em;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 35%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 35%; }
+table th:nth-of-type(5) { width: 10%; }
+</style>

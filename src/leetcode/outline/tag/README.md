@@ -12,19 +12,3 @@
 
 [`数学`](/leetcode/outline/tag/mathematics.md) [`数论`](/leetcode/outline/tag/number-theory.md) [`几何`](/leetcode/outline/tag/geometry.md) [`博弈`](/leetcode/outline/tag/game-theory.md) [`模拟`](/leetcode/outline/tag/simulation.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`数据库`](/leetcode/outline/tag/database.md) [`设计`](/leetcode/outline/tag/design.md) [`数据流`](/leetcode/outline/tag/data-streams.md) [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`交互`](/leetcode/outline/tag/interaction.md) [`迭代器`](/leetcode/outline/tag/iterators.md) [`多线程`](/leetcode/outline/tag/multithreading.md)
 
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

@@ -1,5 +1,7 @@
 # 计数
 
+::: details 全部标签
+
 **数据结构**
 
 [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) [`栈`](/leetcode/outline/tag/stack.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) [`图`](/leetcode/outline/tag/graph.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`最短路`](/leetcode/outline/tag/shortest-path.md) [`强连通分量`](/leetcode/outline/tag/strongly-connected-components.md) [`欧拉回路`](/leetcode/outline/tag/eulerian-circuit.md) [`双连通分量`](/leetcode/outline/tag/biconnected-components.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`字典树`](/leetcode/outline/tag/trie.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md)
@@ -12,23 +14,7 @@
 
 [`数学`](/leetcode/outline/tag/mathematics.md) [`数论`](/leetcode/outline/tag/number-theory.md) [`几何`](/leetcode/outline/tag/geometry.md) [`博弈`](/leetcode/outline/tag/game-theory.md) [`模拟`](/leetcode/outline/tag/simulation.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`数据库`](/leetcode/outline/tag/database.md) [`设计`](/leetcode/outline/tag/design.md) [`数据流`](/leetcode/outline/tag/data-streams.md) [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`交互`](/leetcode/outline/tag/interaction.md) [`迭代器`](/leetcode/outline/tag/iterators.md) [`多线程`](/leetcode/outline/tag/multithreading.md)
 
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>
-
+:::
 
 ---
 
@@ -143,3 +129,20 @@ table th:nth-of-type(5) { width: 10%; }
 | 面试题 16.24 | [数对和](https://leetcode.cn/problems/pairs-with-sum-lcci/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.07 | [婴儿名字](https://leetcode.cn/problems/baby-names-lcci/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `4+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.10 | [主要元素](https://leetcode.cn/problems/find-majority-element-lcci/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Esay</font> |
+
+<style>
+.blue {
+    background-color: #096dd9;
+    padding: 0.25rem 0.5rem;
+    margin: 0;
+    font-size: 0.85em;
+    border-radius: 3px;
+    color: white;
+    font-weight: 500;
+}
+table th:first-of-type { width: 10%; }
+table th:nth-of-type(2) { width: 35%; }
+table th:nth-of-type(3) { width: 10%; }
+table th:nth-of-type(4) { width: 35%; }
+table th:nth-of-type(5) { width: 10%; }
+</style>

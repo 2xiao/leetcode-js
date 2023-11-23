@@ -1,5 +1,7 @@
 # 最小生成树
 
+::: details 全部标签
+
 **数据结构**
 
 [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) [`栈`](/leetcode/outline/tag/stack.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) <span class="blue">最小生成树</span> [`图`](/leetcode/outline/tag/graph.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`最短路`](/leetcode/outline/tag/shortest-path.md) [`强连通分量`](/leetcode/outline/tag/strongly-connected-components.md) [`欧拉回路`](/leetcode/outline/tag/eulerian-circuit.md) [`双连通分量`](/leetcode/outline/tag/biconnected-components.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`字典树`](/leetcode/outline/tag/trie.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md)
@@ -11,6 +13,18 @@
 **其他**
 
 [`数学`](/leetcode/outline/tag/mathematics.md) [`数论`](/leetcode/outline/tag/number-theory.md) [`几何`](/leetcode/outline/tag/geometry.md) [`博弈`](/leetcode/outline/tag/game-theory.md) [`模拟`](/leetcode/outline/tag/simulation.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`数据库`](/leetcode/outline/tag/database.md) [`设计`](/leetcode/outline/tag/design.md) [`数据流`](/leetcode/outline/tag/data-streams.md) [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`交互`](/leetcode/outline/tag/interaction.md) [`迭代器`](/leetcode/outline/tag/iterators.md) [`多线程`](/leetcode/outline/tag/multithreading.md)
+
+:::
+
+---
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 1135 | [最低成本联通所有城市](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1168 | [水资源分配优化](https://leetcode.com/problems/optimize-water-distribution-in-a-village/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |
+| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1584 | [连接所有点的最小费用](https://leetcode.com/problems/min-cost-to-connect-all-points/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1724 | [检查边长度限制的路径是否存在 II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |
 
 <style>
 .blue {
@@ -28,14 +42,3 @@ table th:nth-of-type(3) { width: 10%; }
 table th:nth-of-type(4) { width: 35%; }
 table th:nth-of-type(5) { width: 10%; }
 </style>
-
-
----
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 1135 | [最低成本联通所有城市](https://leetcode.com/problems/connecting-cities-with-minimum-cost/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1168 | [水资源分配优化](https://leetcode.com/problems/optimize-water-distribution-in-a-village/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |
-| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
-| 1584 | [连接所有点的最小费用](https://leetcode.com/problems/min-cost-to-connect-all-points/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1724 | [检查边长度限制的路径是否存在 II](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |

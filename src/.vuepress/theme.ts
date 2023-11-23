@@ -92,6 +92,8 @@ export default hopeTheme({
       imgSize: true,
       include: true,
 
+      tasklist: true,
+
       // install katex before enabling it
       // katex: true,
 

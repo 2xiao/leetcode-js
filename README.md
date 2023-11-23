@@ -1,4 +1,4 @@
-# 前端算法通关指南 (LeetCode-JS)
+# LeetCode-JS
 
 ## 项目简介
 

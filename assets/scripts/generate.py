@@ -80,13 +80,14 @@ def gen_tag_list():
             _, content = content.split(old_title)
         if delim in content:
             before, after = content.split(delim)
-        content = "# " + idx + before + '<span class="blue">' + idx + '</span>' + after
+        content = "# " + idx + '\n\n::: details 全部标签' + before + '<span class="blue">' + idx + '</span>' + after + ':::'
         
         slice_path = os.path.join(const.tag_list_path, tag_en + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:
             f.write(content)
             f.writelines('\n\n---\n\n')
             f.write(table)
+            f.write(const.tag_list_css)
         f.close()
 
     print("Create Tag List Success")

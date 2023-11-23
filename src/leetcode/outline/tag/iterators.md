@@ -1,5 +1,7 @@
 # 迭代器
 
+::: details 全部标签
+
 **数据结构**
 
 [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) [`栈`](/leetcode/outline/tag/stack.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) [`图`](/leetcode/outline/tag/graph.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`最短路`](/leetcode/outline/tag/shortest-path.md) [`强连通分量`](/leetcode/outline/tag/strongly-connected-components.md) [`欧拉回路`](/leetcode/outline/tag/eulerian-circuit.md) [`双连通分量`](/leetcode/outline/tag/biconnected-components.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`字典树`](/leetcode/outline/tag/trie.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md)
@@ -11,6 +13,23 @@
 **其他**
 
 [`数学`](/leetcode/outline/tag/mathematics.md) [`数论`](/leetcode/outline/tag/number-theory.md) [`几何`](/leetcode/outline/tag/geometry.md) [`博弈`](/leetcode/outline/tag/game-theory.md) [`模拟`](/leetcode/outline/tag/simulation.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`数据库`](/leetcode/outline/tag/database.md) [`设计`](/leetcode/outline/tag/design.md) [`数据流`](/leetcode/outline/tag/data-streams.md) [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`交互`](/leetcode/outline/tag/interaction.md) <span class="blue">迭代器</span> [`多线程`](/leetcode/outline/tag/multithreading.md)
+
+:::
+
+---
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0251 | [展开二维向量](https://leetcode.com/problems/flatten-2d-vector/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0281 | [锯齿迭代器](https://leetcode.com/problems/zigzag-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0284 | [顶端迭代器](https://leetcode.com/problems/peeking-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`迭代器`](/leetcode/outline/tag/iterators.md) | <font color=#ffb800>Medium</font> |
+| 0341 | [扁平化嵌套列表迭代器](https://leetcode.com/problems/flatten-nested-list-iterator/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0604 | [迭代压缩字符串](https://leetcode.com/problems/design-compressed-string-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0900 | [RLE 迭代器](https://leetcode.com/problems/rle-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1586 | [二叉搜索树迭代器 II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
 
 <style>
 .blue {
@@ -28,19 +47,3 @@ table th:nth-of-type(3) { width: 10%; }
 table th:nth-of-type(4) { width: 35%; }
 table th:nth-of-type(5) { width: 10%; }
 </style>
-
-
----
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
-| 0251 | [展开二维向量](https://leetcode.com/problems/flatten-2d-vector/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0281 | [锯齿迭代器](https://leetcode.com/problems/zigzag-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0284 | [顶端迭代器](https://leetcode.com/problems/peeking-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`迭代器`](/leetcode/outline/tag/iterators.md) | <font color=#ffb800>Medium</font> |
-| 0341 | [扁平化嵌套列表迭代器](https://leetcode.com/problems/flatten-nested-list-iterator/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `3+` | <font color=#ffb800>Medium</font> |
-| 0604 | [迭代压缩字符串](https://leetcode.com/problems/design-compressed-string-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0900 | [RLE 迭代器](https://leetcode.com/problems/rle-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1586 | [二叉搜索树迭代器 II](https://leetcode.com/problems/binary-search-tree-iterator-ii/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 055 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |

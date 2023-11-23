@@ -2,9 +2,7 @@
 title: "面试经典 150 题"
 ---
 
-<p align="center">
-  <img src="../../../../assets/image/home-2.png" class="plan_banner nozoom" alt="plan" width="60%"/>
-</p>
+![](../../../../assets/image/home-2.png =500x)
 
 ## Array / String
 
@@ -329,7 +327,5 @@ table th:nth-of-type(2) { width: 30%; }
 table th:nth-of-type(3) { width: 15%; }
 table th:nth-of-type(4) { width: 30%; }
 table th:nth-of-type(5) { width: 15%; }
-.plan_banner {
-    border-radius: 5px;
-} 
+
 </style>

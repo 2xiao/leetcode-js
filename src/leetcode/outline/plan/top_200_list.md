@@ -2,9 +2,7 @@
 title: "面试高频 200 题"
 ---
 
-<p align="center">
-  <img src="../../../../assets/image/home-1.png" class="plan_banner nozoom" alt="plan" width="60%"/>
-</p>
+![](../../../../assets/image/home-1.png =500x)
 
 ## 数组
 
@@ -660,7 +658,5 @@ table th:nth-of-type(3) { width: 10%; }
 table th:nth-of-type(4) { width: 30%; }
 table th:nth-of-type(5) { width: 10%; }
 table th:nth-of-type(6) { width: 10%; }
-.plan_banner {
-    border-radius: 5px;
-} 
+
 </style>

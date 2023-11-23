@@ -2,9 +2,7 @@
 title: "剑指 Offer 题解"
 ---
 
-<p align="center">
-  <img src="../../../../assets/image/home-7.png" class="plan_banner nozoom" alt="plan" width="60%"/>
-</p>
+![](../../../../assets/image/home-7.png =500x)
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -91,7 +89,5 @@ table th:nth-of-type(2) { width: 30%; }
 table th:nth-of-type(3) { width: 10%; }
 table th:nth-of-type(4) { width: 30%; }
 table th:nth-of-type(5) { width: 10%; }
-.plan_banner {
-    border-radius: 5px;
-} 
+
 </style>
