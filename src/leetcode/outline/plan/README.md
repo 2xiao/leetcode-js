@@ -45,7 +45,9 @@
     margin: 10px 0;
     border-radius: 5px;
     height: 9rem;
-
+}
+.plan:hover {
+  box-shadow: 0 2px 12px #f0f1f2;
 }
 </style>
 </html>

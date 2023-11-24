@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0380) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0381 | [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node/) |  |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) | <font color=#ffb800>Medium</font> |

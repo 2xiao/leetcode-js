@@ -1,5 +1,6 @@
 ---
 title: "LeetCode-JS 通关指南"
+icon: "code"
 ---
 
 <p align="center">

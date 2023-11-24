@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
 | 0229 | [多数元素 II](https://leetcode.com/problems/majority-element-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0299 | [猜数字游戏](https://leetcode.com/problems/bulls-and-cows/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#ffb800>Medium</font> |
 | 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |

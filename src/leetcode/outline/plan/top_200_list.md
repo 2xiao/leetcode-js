@@ -96,7 +96,7 @@ title: "面试高频 200 题"
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0041) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ff334b>Hard</font> | 97 |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> | 56 |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> | 45 |
-| 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 17 |
+| 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0242) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 17 |
 | 0442 | [数组中重复的数据](https://leetcode.com/problems/find-all-duplicates-in-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> | 19 |
 | 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 21 |
 | 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `3+` | <font color=#15bd66>Esay</font> | 16 |
@@ -117,7 +117,7 @@ title: "面试高频 200 题"
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> | 17 |
 | 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> | 17 |
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Esay</font> | 166 |
-| 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 81 |
+| 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0151) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 81 |
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> | 82 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> | 58 |
 
@@ -283,7 +283,7 @@ title: "面试高频 200 题"
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> | 117 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> | 173 |
 | 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 261 |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> | 61 |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> | 61 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> | 58 |
 | 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#ffb800>Medium</font> | 16 |
 
@@ -408,7 +408,7 @@ title: "面试高频 200 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> | 16 |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 204 |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0088) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 204 |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> | 37 |
 
 
@@ -418,7 +418,7 @@ title: "面试高频 200 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> | 16 |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> | 61 |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> | 61 |
 
 
 * 堆排序
@@ -541,7 +541,7 @@ title: "面试高频 200 题"
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0026) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> | 35 |
 | 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> | 49 |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 204 |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0088) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> | 204 |
 
 
 * 分离双指针

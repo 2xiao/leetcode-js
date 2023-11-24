@@ -369,7 +369,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0088) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 
@@ -378,7 +378,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
 
 * 堆排序
 
