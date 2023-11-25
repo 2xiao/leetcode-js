@@ -45,6 +45,15 @@ export default hopeTheme({
     editLink: "在 GitHub 上编辑此页",
   },
 
+  blog: {
+    medias: {
+      Twitter: "https://twitter.com/xiaoxiaoinus",
+      GitHub: "https://github.com/2xiao",
+      BiliBili: "https://space.bilibili.com/497200280",
+      Linkedin: "https://www.linkedin.com/in/wuxiaoxiaojs/"
+    },
+  },
+
   plugins: {
     // You should generate and use your own comment service
     comment: {
