@@ -299,6 +299,29 @@ set3.add({});
 set3.size // 2
 ```
 
+判断是否包括一个键，Object 结构和 Set 结构写法的不同。
+
+```javascript
+// 对象的写法
+const properties = {
+  'width': 1,
+  'height': 1
+};
+
+if (properties[someName]) {
+  // do something
+}
+
+// Set的写法
+const properties = new Set();
+
+properties.add('width');
+properties.add('height');
+
+if (properties.has(someName)) {
+  // do something
+}
+```
 ### 属性和方法
 
 `Set` 结构的实例有以下属性：

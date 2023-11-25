@@ -164,9 +164,9 @@ def gen_tag_and_difficulty():
             label_en = const.tags_zh_to_en[label]
             problem_label += " [`" + label + \
                 "`](" + const.tag_absolute_path + label_en + ".md)"
-        problem_label += "\n\n"
         problem_difficulty = utils.format_difficulty(
             df.loc[df_indexs[0], "难度"], True)
+        problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + df.loc[df_indexs[0], "链接"] + ")\n\n"
 
         delim = "## 题目\n"
         file_path = os.path.join(const.problem_path, Path(file))
@@ -180,7 +180,7 @@ def gen_tag_and_difficulty():
                 continue
 
             content, after = content.split(delim)
-            content += problem_difficulty + problem_label + delim + after
+            content += problem_difficulty + problem_label + problem_link + delim + after
             Path(file_path).write_text(content, encoding='utf-8')
         else:
             print("Fail to Add Tag and Difficulty to Problem：", file)
