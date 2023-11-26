@@ -83,12 +83,13 @@ def format_label(labels: str):
 
 def gen_frame_items(row, df, problem_path, problem_salt: str = False):
     problem_id = df.loc[row, "序号"]
+    problem_file_name = df.loc[row, "文件名"]
     problem_link = "[" + df.loc[row, "标题末尾"] + "](" + df.loc[row, "链接"] + ")"
 
     problem_solution_path = os.path.join(
-        problem_path, df.loc[row, "文件名"] + ".md")
+        problem_path, problem_file_name + ".md")
     if os.path.exists(problem_solution_path):
-        problem_solution_link = "[JS](" + df.loc[row, "网站题解链接"] + ")"
+        problem_solution_link = "[JS](" + const.problem_online_path + problem_file_name + ")"
     else:
         problem_solution_link = ""
 

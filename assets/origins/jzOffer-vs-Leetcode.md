@@ -4,17 +4,17 @@
 ## 本帖记录剑指offer在leetcode主站的原题。
 1. 无
 2. 无
-3. 数组中重复的数字 -> （中文版） https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
+3. 数组中重复的数字 -> **（中文版）** https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
 4. 二维数组中的查找 -> https://leetcode.com/problems/search-a-2d-matrix-ii/
-5. 替换空格 -> （中文版） https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
-6. 从尾到头打印链表 -> （中文版） https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
+5. 替换空格 -> **（中文版）** https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/
+6. 从尾到头打印链表 -> **（中文版）** https://leetcode-cn.com/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
 7. 重建二叉树 -> https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
 8. 暂无
 9. 用两个栈实现队列 -> https://leetcode.com/problems/implement-queue-using-stacks/
 10. 斐波那契数列/青蛙跳台阶 -> https://leetcode.com/problems/fibonacci-number/
 11. 旋转数组的最小数字 -> https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/
 12. √矩阵中的路径 -> https://leetcode.com/problems/word-search/
-13. 机器人的运动范围 -> 没找到 -> （中文版）https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
+13. 机器人的运动范围 -> 没找到 -> **（中文版）**https://leetcode-cn.com/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof/
 14. 剪绳子（dp） -> https://leetcode-cn.com/problems/integer-break/）
 15. √二进制中1的个数 -> https://leetcode.com/problems/number-of-1-bits/ ->（升级版）https://leetcode.com/problems/counting-bits/
 16. √数值的整数次方（溢出） -> https://leetcode.com/problems/powx-n/
@@ -48,7 +48,7 @@
 44. √数字序列中某一位的数字 -> https://leetcode.com/problems/nth-digit/
 45. √把数组排成最小的数 -> https://leetcode.com/problems/largest-number/
 46. √把数字翻译成字符串 -> (递归or动归) https://leetcode.com/problems/decode-ways/
-47. 礼物最大值 -> 未找到 -> （中文版） https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/
+47. 礼物最大值 -> 未找到 -> **（中文版）** https://leetcode-cn.com/problems/li-wu-de-zui-da-jie-zhi-lcof/
 48. √最长不含重复字符的子字符串 -> https://leetcode.com/problems/longest-substring-without-repeating-characters/
 49. √丑数 -> （有更好的解法）https://leetcode.com/problems/ugly-number-ii/
 50. √第一个只出现一次的字符 ->  https://leetcode.com/problems/first-unique-character-in-a-string/
@@ -61,12 +61,12 @@
 57. 和为S的数字 —> https://leetcode.com/problems/two-sum/
 58. 翻转字符串 -> https://leetcode.com/problems/reverse-words-in-a-string/
 59. 队列的最大值 -> https://leetcode.com/problems/sliding-window-maximum/
-60. n个骰子的点数 -> （中文版）https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/
-61. 扑克牌中的顺子 -> （中文版）https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
-62. 圆圈中最后剩下的数字 -> （中文版） https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/
+60. n个骰子的点数 -> **（中文版）**https://leetcode-cn.com/problems/nge-tou-zi-de-dian-shu-lcof/
+61. 扑克牌中的顺子 -> **（中文版）**https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
+62. 圆圈中最后剩下的数字 -> **（中文版）** https://leetcode-cn.com/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof/
 63. 股票的最大利润 -> https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-64. 求1+2+…+n -> （中文版） https://leetcode-cn.com/problems/qiu-12n-lcof/
-65. 不用加减乘除做加法 -> （中文版） https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/
-66. 构建乘积数组 -> （中文版） https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/
+64. 求1+2+…+n -> **（中文版）** https://leetcode-cn.com/problems/qiu-12n-lcof/
+65. 不用加减乘除做加法 -> **（中文版）** https://leetcode-cn.com/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof/
+66. 构建乘积数组 -> **（中文版）** https://leetcode-cn.com/problems/gou-jian-cheng-ji-shu-zu-lcof/
 67. 把字符串转换成整数 -> https://leetcode.com/problems/string-to-integer-atoi/
 68. 二叉搜索树的最近公共祖先 -> https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/

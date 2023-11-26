@@ -4,6 +4,7 @@
 
 $text-color: #2c3e50;
 $text-color-dark: #abb2bf;
+$navbar-height: 3.75rem;
 
 p{a{code{
     color: $text-color;
@@ -22,4 +23,8 @@ html[data-theme=dark] #app {
 
 .vp-md-demo-display {
     padding: 8px 18px;
+}
+
+.vp-article-list {
+    padding-top: calc($navbar-height + 0.8rem);
 }
