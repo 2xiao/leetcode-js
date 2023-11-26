@@ -44,6 +44,12 @@ lRUCache.get(4);    // return 4
 - `0 <= value <= 104`
 - At most `3 * 104` calls will be made to `get` and `put`.
 
+::: warning
+
+**注意：** 本题与 LeetCode [第 146 题](./0146.md) 相同。
+
+:::
+
 ## 题目大意
 
 请你设计并实现一个满足 LRU (最近最少使用) 缓存 约束的数据结构。

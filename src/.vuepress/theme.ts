@@ -16,6 +16,8 @@ export default hopeTheme({
 
   logo: "assets/image/logo.png",
 
+  favicon: "favicon.ico",
+
   repo: "2xiao/leetcode-js",
 
   docsBranch: "master",
@@ -50,7 +52,7 @@ export default hopeTheme({
       Twitter: "https://twitter.com/xiaoxiaoinus",
       GitHub: "https://github.com/2xiao",
       BiliBili: "https://space.bilibili.com/497200280",
-      Linkedin: "https://www.linkedin.com/in/wuxiaoxiaojs/"
+      Linkedin: "https://www.linkedin.com/in/wuxiaoxiaojs/",
     },
   },
 

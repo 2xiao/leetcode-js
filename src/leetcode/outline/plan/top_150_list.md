@@ -283,7 +283,7 @@ title: "面试经典 150 题"
 | 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
 | 0172 | [阶乘后的零](https://leetcode.com/problems/factorial-trailing-zeroes/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
-| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) |  |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0050) |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
