@@ -103,7 +103,7 @@ title: "面试经典 150 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
-| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0071) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) | <font color=#ffb800>Medium</font> |
 | 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ff334b>Hard</font> |

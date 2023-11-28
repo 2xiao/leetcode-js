@@ -50,7 +50,7 @@ title: "面试高频 200 题"
 | 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 66 |
 | 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> | 81 |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> | 46 |
-| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 21 |
+| 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0071) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 21 |
 
 
 * 单调栈
