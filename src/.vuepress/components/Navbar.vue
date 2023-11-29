@@ -1,9 +1,7 @@
 <template>
-  <CommonWrapper>
-    <NormalPage>
-    </NormalPage>
+  <Navbar>
     <!-- 使用插槽引入组件 -->
-    <template #navbarEndBefore>
+    <template #endBefore>
       <div class="magic-icon" @dblclick="jumpToPage">
         🎄
         <!-- <HopeIcon class="icon" icon="linter" /> -->
@@ -15,16 +13,14 @@
         </div>
       </div>
     </template>
-  </CommonWrapper>
+  </Navbar>
 </template>
 
 <script setup lang="ts">
 import { useRouter } from "vue-router";
-import NormalPage from "vuepress-theme-hope/components/NormalPage.js";
-import CommonWrapper from "vuepress-theme-hope/components/CommonWrapper.js";
+import Navbar from "vuepress-theme-hope/modules/navbar/components/Navbar.js";
 import { ZXYWords } from "../zxy.js";
-
-
+console.log('loaded navbar')
 const words = getRandomWords(ZXYWords)
 const emoji = getRandomWords(['✨', '🍭', '🍃', '🏝', '🎉', '💫'])
 const router = useRouter()
