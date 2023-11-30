@@ -17,7 +17,7 @@ export default hopeTheme(
 
     logo: "assets/image/logo.png",
 
-    favicon: "favicon.ico",
+    favicon: "assets/image/logo.png",
 
     repo: "2xiao/leetcode-js",
 

@@ -33,7 +33,6 @@
 
 ![](../../../assets/image/2-6-3.png)
 
-
 ### 满二叉树
 
 ::: info 定义
@@ -88,7 +87,7 @@
 
 ![](../../../assets/image/2-6-8.png)
 
-实际上，二叉树的前、中、后序遍历就是一个递归的过程。写递归代码的关键，就是看能不能写出递推公式，而写递推公式的关键就是，如果要解决问题 A，就假设子问题 B、C 已经解决，然后再来看如何利用 B、C 来解决 A。
+实际上，二叉树的前、中、后序遍历就是一个递归的过程。写递归代码的关键，就是看能不能写出递推公式，而写递推公式的关键就是，如果要解决问题 A，就假设子问题 B、C 已经解决，然后再来看如何利用 B、C 来解决 A。递推公式如下：
 
 ```javascript
 // 前序遍历：
@@ -117,19 +116,275 @@ postOrder = (r) => {
 
 二叉树的遍历中，每个节点最多会被访问两次，所以遍历操作的时间复杂度，跟节点的个数 `n` 成正比，即二叉树遍历的时间复杂度是 `O(n)` 。
 
+### 前序遍历
+
 :::: md-demo 相关题目
 
-📌 [144. 二叉树的前序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0144.html)
+#### 📌 [144. 二叉树的前序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0144.html)
 
-📌 [145. 二叉树的后序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0145.html)
+#### 💻 **题目大意**
 
-📌 [94. 二叉树的中序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0094.html)
+给你二叉树的根节点 `root` ，返回它节点值的 **前序** 遍历。
 
-📌 [102. 二叉树的层序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0102.html)
+**进阶**：递归算法很简单，你可以通过迭代算法完成吗？
+
+#### 💡 **解题思路**
+
+思路一：递归
+
+前序遍历是指，对于树中的任意节点来说，先打印这个节点，然后再打印它的左子树，最后打印它的右子树。而在访问左子树或者右子树的时候，按照同样的方式遍历，直到遍历完整棵树。因此整个遍历过程天然具有递归的性质，可以直接用递归函数来模拟这一过程。
+
+- 先将 `root` 节点的值加入答案
+- 再递归调用 `preorderTraversal(root.left)` 来遍历 `root` 节点的左子树
+- 最后递归调用 `preorderTraversal(root.right)` 来遍历 `root` 节点的右子树即可
+- 递归终止的条件为碰到空节点
+
+思路二：迭代
+
+也可以用迭代的方式实现思路一的递归函数，两种方式是等价的，区别在于递归的时候隐式地维护了一个栈，而迭代的时候需要显式地将这个栈模拟出来，其余的实现与细节都相同，具体可以参考下面的代码。
+
+#### 💎 **代码**
+
+::: code-tabs
+@tab 思路一：递归
+
+```javascript
+var preorderTraversal = function (root) {
+  let res = [];
+  if (root == null) return res;
+  res.push(root.val);
+  res.push(...preorderTraversal(root.left));
+  res.push(...preorderTraversal(root.right));
+  return res;
+};
+```
+
+@tab 思路二：迭代
+
+```javascript
+var preorderTraversal = function (root) {
+  let res = [];
+  if (root == null) return res;
+  let stack = [root];
+  while (stack.length) {
+    let node = stack.pop();
+    res.push(node.val);
+    if (node.right) stack.push(node.right);
+    if (node.left) stack.push(node.left);
+  }
+  return res;
+};
+```
+
+:::
+
+::::
+
+### 后序遍历
+
+:::: md-demo 相关题目
+
+#### 📌 [145. 二叉树的后序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0145.html)
+
+#### 💻 **题目大意**
+
+给你二叉树的根节点 `root` ，返回它节点值的 **后序** 遍历。
+
+**进阶**：递归算法很简单，你可以通过迭代算法完成吗？
+
+#### 💡 **解题思路**
+
+思路一：递归
+
+原理和前序遍历一样，前序遍历是中左右，后续遍历是左右中。
+
+思路二：迭代
+
+原理和前序遍历一样，只需要调整一下前序遍历的代码顺序，变成中右左，然后再反转 res 数组，输出的结果顺序就是左右中了。
+
+#### 💎 **代码**
+
+::: code-tabs
+@tab 思路一：递归
+
+```javascript
+var postorderTraversal = function (root) {
+  let res = [];
+  if (root == null) return res;
+  res.push(...postorderTraversal(root.left));
+  res.push(...postorderTraversal(root.right));
+  res.push(root.val);
+  return res;
+};
+```
+
+@tab 思路二：迭代
+
+```javascript
+var postorderTraversal = function (root) {
+  let res = [];
+  if (root == null) return res;
+  let stack = [root];
+  while (stack.length) {
+    let node = stack.pop();
+    res.unshift(node.val);
+    if (node.left) stack.push(node.left);
+    if (node.right) stack.push(node.right);
+  }
+  return res;
+};
+```
+
+:::
+
+::::
+
+### 中序遍历
+
+:::: md-demo 相关题目
+
+#### 📌 [94. 二叉树的中序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0094.html)
+
+#### 💻 **题目大意**
+
+给你二叉树的根节点 `root` ，返回它节点值的 **中序** 遍历。
+
+**进阶**：递归算法很简单，你可以通过迭代算法完成吗？
+
+#### 💡 **解题思路**
+
+思路一：递归
+
+原理和前序遍历一样，前序遍历是中左右，中续遍历是左中右。
+
+思路二：迭代
+
+中序遍历是左中右，先访问的是二叉树顶部的节点，然后一层一层向下访问，直到到达树左面的最底部，再开始处理节点（也就是在把节点的数值放进 res 数组中），这就造成了处理顺序和访问顺序是不一致的。那么在使用迭代法写中序遍历，就需要借用指针的遍历来帮助访问节点，栈则用来处理节点上的元素。
+
+#### 💎 **代码**
+
+::: code-tabs
+@tab 思路一：递归
+
+```javascript
+var inorderTraversal = function (root) {
+  let res = [];
+  if (root == null) return res;
+  res.push(...inorderTraversal(root.left));
+  res.push(root.val);
+  res.push(...inorderTraversal(root.right));
+  return res;
+};
+```
+
+@tab 思路二：迭代
+
+```javascript
+var inorderTraversal = function (root) {
+  let res = [];
+  if (root == null) return res;
+  let stack = [];
+  let cur = root;
+  while (cur != null || stack.length) {
+    if (cur != null) {
+      stack.push(cur);
+      cur = cur.left;
+    } else {
+      cur = stack.pop();
+      res.push(cur.val);
+      cur = cur.right;
+    }
+  }
+  return res;
+};
+```
+
+:::
+
+::::
+
+### 层序遍历
+
+:::: md-demo 相关题目
+
+#### 📌 [102. 二叉树的层序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0102.html)
+
+#### 💻 **题目大意**
+
+给你二叉树的根节点 `root` ，返回它节点值的 **层序** 遍历。（即逐层地，从左到右访问所有节点）。
+
+#### 💡 **解题思路**
+
+思路一：广度优先遍历(BFS)
+
+使用队列实现
+
+1. 首先将根节点放入队列中；
+2. 更新队列的长度 `len` ，遍历队列的前 `len` 个节点；
+3. 如果该节点存在直接子节点，将直接子节点加入队列中，并将节点的值存入一个临时数组中；
+4. 将队列的前 `len` 个节点出队，此时队列中都是下一层的子节点，将临时数组加入返回值中；
+5. 重复步骤 2、3、4，直至队列为空；
+
+思路二：深度优先遍历(DFS)
+
+1. 维护一个递归函数，参数为节点和该节点的深度
+2. 先将根节点与深度 0 传入递归函数
+3. 将节点放入 index 与深度对应的数组内
+4. 将节点的左子节点和右子节点分别传入递归函数，深度 +1
+5. 重复步骤 3、4，直至子节点为空
+
+#### 💎 **代码**
+
+::: code-tabs
+@tab 思路一：广度优先遍历(BFS)
+
+```javascript
+var levelOrder = function (root) {
+  let res = [];
+  if (root == null) return res;
+  let queue = [root];
+
+  while (queue.length) {
+    let len = queue.length;
+    let temp = [];
+    for (let i = 0; i < len; i++) {
+      if (queue[i].left) queue.push(queue[i].left);
+      if (queue[i].right) queue.push(queue[i].right);
+      temp.push(queue[i].val);
+    }
+    queue = queue.slice(len);
+    res.push(temp);
+  }
+  return res;
+};
+```
+
+@tab 思路二：深度优先遍历(DFS)
+
+```javascript
+var levelOrder = function (root) {
+  let res = [];
+  const traverse = (node, deep) => {
+    if (node == null) return;
+    if (res.length == deep) {
+      res[deep] = [node.val];
+    } else {
+      res[deep].push(node.val);
+    }
+    traverse(node.left, deep + 1);
+    traverse(node.right, deep + 1);
+  };
+  traverse(root, 0);
+  return res;
+};
+```
+
+:::
 
 ::::
 
 ## 二叉树的还原
+
 二叉树的还原：指的是通过二叉树的遍历序列，还原出对应的二叉树。
 
 单凭 前序遍历序列 或 后序遍历序列 或 中序遍历序列 是 **无法** 恢复一棵二叉树的。
@@ -138,13 +393,114 @@ postOrder = (r) => {
 
 需要注意的是：如果已知二叉树的**前序序列和后序序列，不能唯一地确定**一棵二叉树。这是因为没有中序遍历序列无法确定左右部分，也就无法进行子序列的分割。
 
+二叉树的构造问题一般都是使用「分解问题」的思路：**构造整棵树 = 根节点 + 构造左子树 + 构造右子树**。
+
 :::: md-demo 相关题目
 
-📌 [105. 从前序与中序遍历序列构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0105.html)
+#### 📌 [105. 从前序与中序遍历序列构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0105.html)
 
-📌 [106. 从中序与后序遍历序列构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0106.html)
+#### 💻 **题目大意**
 
-📌 [889. 根据前序和后序遍历构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0889.html)
+根据一棵树的前序遍历与中序遍历构造二叉树。你可以假设树中没有重复的元素。
+
+#### 💡 **解题思路**
+
+构造二叉树，第一件事一定是找根节点，然后想办法构造左右子树。
+
+前序遍历结果第一个就是根节点的值，然后再根据中序遍历结果确定左右子树的节点。
+
+![](../../../assets/image/2-6-10.png)
+
+不断的递归直到所有的树都生成完成。
+
+递归时直接传入需要的 slice 范围作为输入, 可以避免申请对应 inorder 索引的内存。
+
+#### 💎 **代码**
+
+```javascript
+var buildTree = function (preorder, inorder) {
+  if (preorder.length == 0) return null;
+  let root = new TreeNode(preorder[0]);
+  for (let i = 0; i < preorder.length; i++) {
+    if (inorder[i] === root.val) {
+      root.left = buildTree(preorder.slice(1, i + 1), inorder.slice(0, i));
+      root.right = buildTree(preorder.slice(i + 1), inorder.slice(i + 1));
+      break;
+    }
+  }
+  return root;
+};
+```
+
+类似的题目还有 [106. 从中序与后序遍历序列构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0106.html) 和 [889. 根据前序和后序遍历构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0889.html)，原理类似，详见题解。
+
+::::
+
+:::: md-demo 相关题目
+
+#### 📌 [654. 最大二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0654.html)
+
+#### 💻 **题目大意**
+
+给定一个不重复的整数数组 `nums` 。 最大二叉树 可以用下面的算法从 `nums` 递归地构建:
+
+1. 创建一个根节点，其值为 `nums` 中的最大值。
+2. 递归地在最大值 左边 的 子数组前缀上 构建左子树。
+3. 递归地在最大值 右边 的 子数组后缀上 构建右子树。
+
+返回 `nums` 构建的 最大二叉树 。
+
+**示例 1**：
+
+```
+输入：nums = [3,2,1,6,0,5]
+输出：[6,3,5,null,2,0,null,null,1]
+```
+
+**解释**：递归调用如下所示：
+
+- [3,2,1,6,0,5] 中的最大值是 6 ，左边部分是 [3,2,1] ，右边部分是 [0,5] 。
+  - [3,2,1] 中的最大值是 3 ，左边部分是 [] ，右边部分是 [2,1] 。
+    - 空数组，无子节点。
+    - [2,1] 中的最大值是 2 ，左边部分是 [] ，右边部分是 [1] 。
+      - 空数组，无子节点。
+      - 只有一个元素，所以子节点是一个值为 1 的节点。
+  - [0,5] 中的最大值是 5 ，左边部分是 [0] ，右边部分是 [] 。
+    - 只有一个元素，所以子节点是一个值为 0 的节点。
+    - 空数组，无子节点。
+
+**示例 2**：
+
+```
+输入：nums = [3,2,1]
+输出：[3,null,2,null,1]
+```
+
+#### 💡 **解题思路**
+
+每个二叉树节点都可以认为是一棵子树的根节点，对于根节点，首先要做的当然是把想办法把自己先构造出来，然后想办法构造自己的左右子树。
+
+所以，我们要遍历数组把找到最大值 `max`，从而把根节点 `root` 做出来，然后对 `max` 左边的数组和右边的数组进行递归构建，作为 `root` 的左右子树。
+
+#### 💎 **代码**
+
+```javascript
+var constructMaximumBinaryTree = function (nums) {
+  if (nums.length == 0) return null;
+  let max = nums[0];
+  let maxIndex = 0;
+  for (let i = 0; i < nums.length; i++) {
+    if (nums[i] > max) {
+      max = nums[i];
+      maxIndex = i;
+    }
+  }
+  let root = new TreeNode(max);
+  root.left = constructMaximumBinaryTree(nums.slice(0, maxIndex));
+  root.right = constructMaximumBinaryTree(nums.slice(maxIndex + 1));
+  return root;
+};
+```
 
 ::::
 
@@ -162,8 +518,11 @@ postOrder = (r) => {
 二叉查找树是二叉树中最常用的一种类型，也叫二叉搜索树。二叉查找树最大的特点就是，支持动态数据集合的快速插入、删除、查找操作。
 
 ### 1. 查找操作
+
 ### 2. 插入操作
+
 ### 2. 删除操作
+
 ### 4. 其他操作
 
 支持重复数据的二叉查找树
@@ -188,9 +547,9 @@ postOrder = (r) => {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0144) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0094) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
 | 0145 | [二叉树的后序遍历](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0145) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0102 | [二叉树的层序遍历](https://leetcode.com/problems/binary-tree-level-order-traversal/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
+| 0102 | [二叉树的层序遍历](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0102) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0107 | [二叉树的层序遍历 II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
@@ -214,9 +573,9 @@ postOrder = (r) => {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0105) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0106) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0889) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 
 #### 二叉搜索树
 

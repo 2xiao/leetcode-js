@@ -20,7 +20,7 @@
 import { useRouter } from "vue-router";
 import Navbar from "vuepress-theme-hope/modules/navbar/components/Navbar.js";
 import { ZXYWords } from "../zxy.js";
-console.log('loaded navbar')
+
 const words = getRandomWords(ZXYWords)
 const emoji = getRandomWords(['✨', '🍭', '🍃', '🏝', '🎉', '💫'])
 const router = useRouter()

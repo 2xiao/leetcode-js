@@ -29,6 +29,9 @@
 
 ## 代码
 
+::: code-tabs
+@tab 思路一：栈
+
 ```javascript
 /**
  * Definition for singly-linked list.
@@ -41,7 +44,6 @@
  * @param {ListNode} head
  * @return {number[]}
  */
-// 思路一：栈
 var reverseBookList = function (head) {
   if (!head) return [];
   let stack = [];
@@ -51,8 +53,22 @@ var reverseBookList = function (head) {
   }
   return stack.reverse();
 };
+```
 
-// 思路二：递归
+@tab 思路二：递归
+
+```javascript
+/**
+ * Definition for singly-linked list.
+ * function ListNode(val, next) {
+ *     this.val = (val===undefined ? 0 : val)
+ *     this.next = (next===undefined ? null : next)
+ * }
+ */
+/**
+ * @param {ListNode} head
+ * @return {number[]}
+ */
 var reverseBookList = function (head) {
   if (!head) return [];
   let stack = [];
@@ -61,3 +77,5 @@ var reverseBookList = function (head) {
   return res;
 };
 ```
+
+:::
