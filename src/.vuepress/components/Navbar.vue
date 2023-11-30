@@ -5,7 +5,7 @@
       <div class="magic-icon" @dblclick="jumpToPage">
         🎄
         <!-- <HopeIcon class="icon" icon="linter" /> -->
-        <div class="nav-dropdown">
+        <div class="magic-dropdown">
           <div class="cover">
             <p class="title">{{ emoji }} 今日咒语</p>
             <p class="word">{{ words }}</p>
@@ -48,11 +48,11 @@ function jumpToPage() {
   color: #096dd9;
 }
 
-.magic-icon:hover .nav-dropdown {
+.magic-icon:hover .magic-dropdown {
   display: block;
 }
 
-.nav-dropdown {
+.magic-dropdown {
   display: none;
   position: absolute;
   top: 100%;

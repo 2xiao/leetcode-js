@@ -1,6 +1,8 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
+import navbar from "./navbar.ts";
+import sidebar from "./sidebar.ts";
+import { enNavbar, zhNavbar } from "./navbar/index.ts";
+import { enSidebar, zhSidebar } from "./sidebar/index.ts";
 
 export default hopeTheme(
   {
@@ -25,18 +27,44 @@ export default hopeTheme(
 
     docsDir: "src",
 
-    // navbar
-    navbar,
+    // // navbar
+    // navbar,
 
-    // sidebar
-    sidebar,
+    // // sidebar
+    // sidebar,
 
     print: false,
 
     footer: "",
 
     displayFooter: true,
-
+    locales: {
+      /**
+       * Chinese locale config
+       */
+      "/": {
+        // navbar
+        navbar: zhNavbar,
+        // sidebar
+        sidebar: zhSidebar,
+        // page meta
+        metaLocales: {
+          editLink: "在 GitHub 上编辑此页",
+        },
+      },
+      /**
+       * English locale config
+       */
+      "/en/": {
+        // navbar
+        navbar: enNavbar,
+        // sidebar
+        sidebar: enSidebar,
+        metaLocales: {
+          editLink: "Edit this page on GitHub",
+        },
+      },
+    },
     encrypt: {
       config: {
         // "/demo/encrypt.html": ["1234"],
@@ -70,8 +98,10 @@ export default hopeTheme(
       blog: {
         excerptLength: 100,
         filter: (page) =>
-          Boolean(page.filePathRelative?.startsWith("blog/")) &&
-          !page.frontmatter.home,
+          Boolean(
+            page.filePathRelative?.startsWith("blog/") ||
+              page.filePathRelative?.startsWith("en/blog/")
+          ) && !page.frontmatter.home,
       },
 
       // All features are enabled for demo, only preserve features you need here

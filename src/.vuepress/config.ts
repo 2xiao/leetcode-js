@@ -4,10 +4,18 @@ import theme from "./theme.js";
 
 export default defineUserConfig({
   base: "/leetcode-js/",
-
-  lang: "en-US",
-  title: "LeetCode-JS",
-  description: "Know Your Game",
+  locales: {
+    "/": {
+      lang: "zh-CN",
+      title: "LeetCode-JS",
+      description: "写给前端工程师的算法通关指南.",
+    },
+    "/en/": {
+      lang: "en-US",
+      title: "LeetCode-JS",
+      description: "Know Your Game",
+    },
+  },
 
   theme,
   alias: {
