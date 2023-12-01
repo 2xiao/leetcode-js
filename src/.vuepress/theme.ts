@@ -27,53 +27,55 @@ export default hopeTheme(
 
     docsDir: "src",
 
-    // // navbar
-    // navbar,
+    // navbar
+    navbar,
 
-    // // sidebar
-    // sidebar,
+    // sidebar
+    sidebar,
+
+    // page meta
+    metaLocales: {
+      editLink: "在 GitHub 上编辑此页",
+    },
 
     print: false,
 
     footer: "",
 
     displayFooter: true,
-    locales: {
-      /**
-       * Chinese locale config
-       */
-      "/": {
-        // navbar
-        navbar: zhNavbar,
-        // sidebar
-        sidebar: zhSidebar,
-        // page meta
-        metaLocales: {
-          editLink: "在 GitHub 上编辑此页",
-        },
-      },
-      /**
-       * English locale config
-       */
-      "/en/": {
-        // navbar
-        navbar: enNavbar,
-        // sidebar
-        sidebar: enSidebar,
-        metaLocales: {
-          editLink: "Edit this page on GitHub",
-        },
-      },
-    },
+
+    // locales: {
+    //   /**
+    //    * Chinese locale config
+    //    */
+    //   "/": {
+    //     // navbar
+    //     navbar: zhNavbar,
+    //     // sidebar
+    //     sidebar: zhSidebar,
+    //     // page meta
+    //     metaLocales: {
+    //       editLink: "在 GitHub 上编辑此页",
+    //     },
+    //   },
+    //   /**
+    //    * English locale config
+    //    */
+    //   "/en/": {
+    //     // navbar
+    //     navbar: enNavbar,
+    //     // sidebar
+    //     sidebar: enSidebar,
+    //     metaLocales: {
+    //       editLink: "Edit this page on GitHub",
+    //     },
+    //   },
+    // },
+
     encrypt: {
       config: {
         // "/demo/encrypt.html": ["1234"],
       },
-    },
-
-    // page meta
-    metaLocales: {
-      editLink: "在 GitHub 上编辑此页",
     },
 
     blog: {
