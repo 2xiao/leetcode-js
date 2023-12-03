@@ -89,7 +89,8 @@ export default sidebar({
             "0086",
             "0088",
             "0092",
-            "0094"
+            "0094",
+            "0098"
           ],
         },
         {
@@ -128,6 +129,7 @@ export default sidebar({
             "0155",
             "0167",
             "0169",
+            "0173",
             "0189",
             "0199"
           ],
@@ -205,6 +207,8 @@ export default sidebar({
           text: "0700-0799",
           collapsible: true,
           children: [
+            "0700",
+            "0701",
             "0705",
             "0706",
             "0707",
