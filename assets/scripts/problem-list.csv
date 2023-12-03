@@ -1,0 +1,127 @@
+id,frontedId,fileName,catalog,title,titleCN,slug,difficulty,tags
+3163,2913,2913,2900-2999,Subarrays Distinct Element Sum of Squares I,Subarrays Distinct Element Sum of Squares I,subarrays-distinct-element-sum-of-squares-i,Easy,Array;Hash Table;
+3176,2908,2908,2900-2999,Minimum Sum of Mountain Triplets I,Minimum Sum of Mountain Triplets I,minimum-sum-of-mountain-triplets-i,Easy,Array;
+3191,2925,2925,2900-2999,Maximum Score After Applying Operations on a Tree,Maximum Score After Applying Operations on a Tree,maximum-score-after-applying-operations-on-a-tree,Medium,Dynamic Programming;Tree;Depth-First Search;
+3171,2918,2918,2900-2999,Minimum Equal Sum of Two Arrays After Replacing Zeros,Minimum Equal Sum of Two Arrays After Replacing Zeros,minimum-equal-sum-of-two-arrays-after-replacing-zeros,Medium,Array;Greedy;
+3200,2930,2930,2900-2999,Number of Strings Which Can Be Rearranged to Contain Substring,Number of Strings Which Can Be Rearranged to Contain Substring,number-of-strings-which-can-be-rearranged-to-contain-substring,Medium,Math;Dynamic Programming;Combinatorics;
+3179,2920,2920,2900-2999,Maximum Points After Collecting Coins From All Nodes,Maximum Points After Collecting Coins From All Nodes,maximum-points-after-collecting-coins-from-all-nodes,Hard,Array;Dynamic Programming;Bit Manipulation;Tree;Depth-First Search;
+3223,2953,2953,2900-2999,Count Complete Substrings,Count Complete Substrings,count-complete-substrings,Medium,
+3142,2901,2901,2900-2999,Longest Unequal Adjacent Groups Subsequence II,Longest Unequal Adjacent Groups Subsequence II,longest-unequal-adjacent-groups-subsequence-ii,Medium,Array;String;Dynamic Programming;
+3140,2876,2876,2800-2899,Count Visited Nodes in a Directed Graph,Count Visited Nodes in a Directed Graph,count-visited-nodes-in-a-directed-graph,Hard,Dynamic Programming;Graph;Memoization;
+3153,2897,2897,2800-2899,Apply Operations on Array to Maximize Sum of Squares,Apply Operations on Array to Maximize Sum of Squares,apply-operations-on-array-to-maximize-sum-of-squares,Hard,Array;Hash Table;Greedy;Bit Manipulation;
+3151,2895,2895,2800-2899,Minimum Processing Time,Minimum Processing Time,minimum-processing-time,Medium,Array;Greedy;Sorting;
+3106,2915,2915,2900-2999,Length of the Longest Subsequence That Sums to Target,Length of the Longest Subsequence That Sums to Target,length-of-the-longest-subsequence-that-sums-to-target,Medium,Array;Dynamic Programming;
+3207,2937,2937,2900-2999,Make Three Strings Equal,Make Three Strings Equal,make-three-strings-equal,Easy,String;
+3183,2917,2917,2900-2999,Find the K-or of an Array,Find the K-or of an Array,find-the-k-or-of-an-array,Easy,Array;Bit Manipulation;
+3104,2860,2860,2800-2899,Happy Students,Happy Students,happy-students,Medium,Array;Sorting;Enumeration;
+3192,2939,2939,2900-2999,Maximum Xor Product,Maximum Xor Product,maximum-xor-product,Medium,Math;Greedy;Bit Manipulation;
+3094,2870,2870,2800-2899,Minimum Number of Operations to Make Array Empty,Minimum Number of Operations to Make Array Empty,minimum-number-of-operations-to-make-array-empty,Medium,Array;Hash Table;Greedy;Counting;
+3152,2874,2874,2800-2899,Maximum Value of an Ordered Triplet II,Maximum Value of an Ordered Triplet II,maximum-value-of-an-ordered-triplet-ii,Medium,Array;
+3107,2931,2931,2900-2999,Maximum Spending After Buying Items,Maximum Spending After Buying Items,maximum-spending-after-buying-items,Hard,Array;Greedy;Sorting;Heap (Priority Queue);
+3114,2865,2865,2800-2899,Beautiful Towers I,Beautiful Towers I,beautiful-towers-i,Medium,Array;Stack;Monotonic Stack;
+3174,2914,2914,2900-2999,Minimum Number of Changes to Make Binary String Beautiful,Minimum Number of Changes to Make Binary String Beautiful,minimum-number-of-changes-to-make-binary-string-beautiful,Medium,String;Greedy;
+3195,2938,2938,2900-2999,Separate Black and White Balls,Separate Black and White Balls,separate-black-and-white-balls,Medium,Two Pointers;String;Greedy;
+3211,2945,2945,2900-2999,Find Maximum Non-decreasing Array Length,Find Maximum Non-decreasing Array Length,find-maximum-non-decreasing-array-length,Hard,Array;Binary Search;Dynamic Programming;Stack;Queue;Monotonic Stack;Monotonic Queue;
+3181,2940,2940,2900-2999,Find Building Where Alice and Bob Can Meet,Find Building Where Alice and Bob Can Meet,find-building-where-alice-and-bob-can-meet,Hard,Array;Binary Search;Stack;Binary Indexed Tree;Segment Tree;Heap (Priority Queue);Monotonic Stack;
+3154,2873,2873,2800-2899,Maximum Value of an Ordered Triplet I,Maximum Value of an Ordered Triplet I,maximum-value-of-an-ordered-triplet-i,Easy,Array;
+3139,2916,2916,2900-2999,Subarrays Distinct Element Sum of Squares II,Subarrays Distinct Element Sum of Squares II,subarrays-distinct-element-sum-of-squares-ii,Hard,Array;Dynamic Programming;Binary Indexed Tree;Segment Tree;
+3150,2904,2904,2900-2999,Shortest and Lexicographically Smallest Beautiful String,Shortest and Lexicographically Smallest Beautiful String,shortest-and-lexicographically-smallest-beautiful-string,Medium,String;Sliding Window;
+3190,2934,2934,2900-2999,Minimum Operations to Maximize Last Elements in Arrays,Minimum Operations to Maximize Last Elements in Arrays,minimum-operations-to-maximize-last-elements-in-arrays,Medium,Array;Greedy;
+3186,2909,2909,2900-2999,Minimum Sum of Mountain Triplets II,Minimum Sum of Mountain Triplets II,minimum-sum-of-mountain-triplets-ii,Medium,Array;
+3189,2924,2924,2900-2999,Find Champion II,Find Champion II,find-champion-ii,Medium,Graph;
+3194,2942,2942,2900-2999,Find Words Containing Character,Find Words Containing Character,find-words-containing-character,Easy,Array;String;
+3202,2933,2933,2900-2999,High-Access Employees,High-Access Employees,high-access-employees,Medium,Array;Hash Table;String;Sorting;
+3208,2949,2949,2900-2999,Count Beautiful Substrings II,Count Beautiful Substrings II,count-beautiful-substrings-ii,Hard,Hash Table;Math;String;Number Theory;Prefix Sum;
+3210,2947,2947,2900-2999,Count Beautiful Substrings I,Count Beautiful Substrings I,count-beautiful-substrings-i,Medium,String;Enumeration;Prefix Sum;
+3141,2875,2875,2800-2899,Minimum Size Subarray in Infinite Array,Minimum Size Subarray in Infinite Array,minimum-size-subarray-in-infinite-array,Medium,Array;Hash Table;Sliding Window;Prefix Sum;
+3201,2929,2929,2900-2999,Distribute Candies Among Children II,Distribute Candies Among Children II,distribute-candies-among-children-ii,Medium,Math;Combinatorics;Enumeration;
+3172,2894,2894,2800-2899,Divisible and Non-divisible Sums Difference,Divisible and Non-divisible Sums Difference,divisible-and-non-divisible-sums-difference,Easy,Math;
+3112,2867,2867,2800-2899,Count Valid Paths in a Tree,Count Valid Paths in a Tree,count-valid-paths-in-a-tree,Hard,Math;Dynamic Programming;Tree;Depth-First Search;Number Theory;
+3095,2861,2861,2800-2899,Maximum Number of Alloys,Maximum Number of Alloys,maximum-number-of-alloys,Medium,Array;Binary Search;
+3219,2948,2948,2900-2999,Make Lexicographically Smallest Array by Swapping Elements,Make Lexicographically Smallest Array by Swapping Elements,make-lexicographically-smallest-array-by-swapping-elements,Medium,Array;Union Find;Sorting;
+3178,2919,2919,2900-2999,Minimum Increment Operations to Make Array Beautiful,Minimum Increment Operations to Make Array Beautiful,minimum-increment-operations-to-make-array-beautiful,Medium,Array;Dynamic Programming;
+3081,2856,2856,2800-2899,Minimum Array Length After Pair Removals,Minimum Array Length After Pair Removals,minimum-array-length-after-pair-removals,Medium,Array;Hash Table;Two Pointers;Binary Search;Greedy;Counting;
+3091,2902,2902,2900-2999,Count of Sub-Multisets With Bounded Sum,Count of Sub-Multisets With Bounded Sum,count-of-sub-multisets-with-bounded-sum,Hard,Array;Hash Table;Dynamic Programming;Sliding Window;
+3093,2859,2859,2800-2899,Sum of Values at Indices With K Set Bits,Sum of Values at Indices With K Set Bits,sum-of-values-at-indices-with-k-set-bits,Easy,Array;Bit Manipulation;
+3075,2883,2883,2800-2899,Drop Missing Data,Drop Missing Data,drop-missing-data,Easy,
+3074,2880,2880,2800-2899,Select Data,Select Data,select-data,Easy,
+3063,2891,2891,2800-2899,Method Chaining,Method Chaining,method-chaining,Easy,
+3209,2944,2944,2900-2999,Minimum Number of Coins for Fruits,Minimum Number of Coins for Fruits,minimum-number-of-coins-for-fruits,Medium,Array;Dynamic Programming;Queue;Monotonic Queue;
+3224,2954,2954,2900-2999,Count the Number of Infection Sequences,Count the Number of Infection Sequences,count-the-number-of-infection-sequences,Hard,
+3062,2877,2877,2800-2899,Create a DataFrame from List,Create a DataFrame from List,create-a-dataframe-from-list,Easy,
+3113,2866,2866,2800-2899,Beautiful Towers II,Beautiful Towers II,beautiful-towers-ii,Medium,Array;Stack;Monotonic Stack;
+3166,2910,2910,2900-2999,Minimum Number of Groups to Create a Valid Assignment,Minimum Number of Groups to Create a Valid Assignment,minimum-number-of-groups-to-create-a-valid-assignment,Medium,Array;Hash Table;Greedy;
+3231,2952,2952,2900-2999,Minimum Number of Coins to be Added,Minimum Number of Coins to be Added,minimum-number-of-coins-to-be-added,Medium,
+3143,2900,2900,2900-2999,Longest Unequal Adjacent Groups Subsequence I,Longest Unequal Adjacent Groups Subsequence I,longest-unequal-adjacent-groups-subsequence-i,Medium,Array;String;Dynamic Programming;Greedy;
+3214,2943,2943,2900-2999,Maximize Area of Square Hole in Grid,Maximize Area of Square Hole in Grid,maximize-area-of-square-hole-in-grid,Medium,Array;Sorting;
+3215,2946,2946,2900-2999,Matrix Similarity After Cyclic Shifts,Matrix Similarity After Cyclic Shifts,matrix-similarity-after-cyclic-shifts,Easy,Array;Math;Matrix;Simulation;
+3199,2928,2928,2900-2999,Distribute Candies Among Children I,Distribute Candies Among Children I,distribute-candies-among-children-i,Easy,Math;Combinatorics;Enumeration;
+3170,2905,2905,2900-2999,Find Indices With Index and Value Difference II,Find Indices With Index and Value Difference II,find-indices-with-index-and-value-difference-ii,Medium,Array;
+3105,2858,2858,2800-2899,Minimum Edge Reversals So Every Node Is Reachable,Minimum Edge Reversals So Every Node Is Reachable,minimum-edge-reversals-so-every-node-is-reachable,Hard,Dynamic Programming;Depth-First Search;Breadth-First Search;Graph;
+3165,2903,2903,2900-2999,Find Indices With Index and Value Difference I,Find Indices With Index and Value Difference I,find-indices-with-index-and-value-difference-i,Easy,Array;
+3184,2926,2926,2900-2999,Maximum Balanced Subsequence Sum,Maximum Balanced Subsequence Sum,maximum-balanced-subsequence-sum,Hard,Array;Binary Search;Dynamic Programming;Binary Indexed Tree;Segment Tree;
+3164,2899,2899,2800-2899,Last Visited Integers,Last Visited Integers,last-visited-integers,Easy,Array;String;Simulation;
+3188,2923,2923,2900-2999,Find Champion I,Find Champion I,find-champion-i,Easy,Array;Matrix;
+3193,2932,2932,2900-2999,Maximum Strong Pair XOR I,Maximum Strong Pair XOR I,maximum-strong-pair-xor-i,Easy,Array;Hash Table;Bit Manipulation;Trie;Sliding Window;
+3221,2951,2951,2900-2999,Find the Peaks,Find the Peaks,find-the-peaks,Easy,
+3197,2935,2935,2900-2999,Maximum Strong Pair XOR II,Maximum Strong Pair XOR II,maximum-strong-pair-xor-ii,Hard,Array;Hash Table;Bit Manipulation;Trie;Sliding Window;
+3047,2862,2862,2800-2899,Maximum Element-Sum of a Complete Subset of Indices,Maximum Element-Sum of a Complete Subset of Indices,maximum-element-sum-of-a-complete-subset-of-indices,Hard,Array;Math;Number Theory;
+3056,2849,2849,2800-2899,Determine if a Cell Is Reachable at a Given Time,Determine if a Cell Is Reachable at a Given Time,determine-if-a-cell-is-reachable-at-a-given-time,Medium,Math;
+3045,2855,2855,2800-2899,Minimum Right Shifts to Sort the Array,Minimum Right Shifts to Sort the Array,minimum-right-shifts-to-sort-the-array,Easy,Array;
+3057,2842,2842,2800-2899,Count K-Subsequences of a String With Maximum Beauty,Count K-Subsequences of a String With Maximum Beauty,count-k-subsequences-of-a-string-with-maximum-beauty,Hard,Hash Table;Math;String;Greedy;Combinatorics;
+3033,2896,2896,2800-2899,Apply Operations to Make Two Strings Equal,Apply Operations to Make Two Strings Equal,apply-operations-to-make-two-strings-equal,Medium,String;Dynamic Programming;
+3076,2878,2878,2800-2899,Get the Size of a DataFrame,Get the Size of a DataFrame,get-the-size-of-a-dataframe,Easy,
+3080,2871,2871,2800-2899,Split Array Into Maximum Number of Subarrays,Split Array Into Maximum Number of Subarrays,split-array-into-maximum-number-of-subarrays,Medium,Array;Greedy;Bit Manipulation;
+3072,2889,2889,2800-2899,Reshape Data: Pivot,Reshape Data: Pivot,reshape-data-pivot,Easy,
+3070,2887,2887,2800-2899,Fill Missing Data,Fill Missing Data,fill-missing-data,Easy,
+3058,2872,2872,2800-2899,Maximum Number of K-Divisible Components,Maximum Number of K-Divisible Components,maximum-number-of-k-divisible-components,Hard,Dynamic Programming;Tree;Depth-First Search;
+2955,2806,2806,2800-2899,Account Balance After Rounded Purchase,Account Balance After Rounded Purchase,account-balance-after-rounded-purchase,Easy,Math;
+3031,2906,2906,2900-2999,Construct Product Matrix,Construct Product Matrix,construct-product-matrix,Medium,Array;Matrix;Prefix Sum;
+3025,2835,2835,2800-2899,Minimum Operations to Form Subsequence With Target Sum,Minimum Operations to Form Subsequence With Target Sum,minimum-operations-to-form-subsequence-with-target-sum,Hard,Array;Greedy;Bit Manipulation;
+2978,2840,2840,2800-2899,Check if Strings Can be Made Equal With Operations II,Check if Strings Can be Made Equal With Operations II,check-if-strings-can-be-made-equal-with-operations-ii,Medium,Hash Table;String;Sorting;
+3065,2879,2879,2800-2899,Display the First Three Rows,Display the First Three Rows,display-the-first-three-rows,Easy,
+3071,2882,2882,2800-2899,Drop Duplicate Rows,Drop Duplicate Rows,drop-duplicate-rows,Easy,
+3019,2833,2833,2800-2899,Furthest Point From Origin,Furthest Point From Origin,furthest-point-from-origin,Easy,Array;Counting;
+3069,2886,2886,2800-2899,Change Data Type,Change Data Type,change-data-type,Easy,
+3067,2884,2884,2800-2899,Modify Columns,Modify Columns,modify-columns,Easy,
+3066,2881,2881,2800-2899,Create a New Column,Create a New Column,create-a-new-column,Easy,
+3092,2850,2850,2800-2899,Minimum Moves to Spread Stones Over Grid,Minimum Moves to Spread Stones Over Grid,minimum-moves-to-spread-stones-over-grid,Medium,Array;Dynamic Programming;Breadth-First Search;Matrix;
+2917,2824,2824,2800-2899,Count Pairs Whose Sum is Less than Target,Count Pairs Whose Sum is Less than Target,count-pairs-whose-sum-is-less-than-target,Easy,Array;Two Pointers;Sorting;
+3064,2888,2888,2800-2899,Reshape Data: Concatenate,Reshape Data: Concatenate,reshape-data-concatenate,Easy,
+3068,2885,2885,2800-2899,Rename Columns,Rename Columns,rename-columns,Easy,
+2919,2790,2790,2700-2799,Maximum Number of Groups With Increasing Length,Maximum Number of Groups With Increasing Length,maximum-number-of-groups-with-increasing-length,Hard,Array;Math;Binary Search;Greedy;Sorting;
+3079,2846,2846,2800-2899,Minimum Edge Weight Equilibrium Queries in a Tree,Minimum Edge Weight Equilibrium Queries in a Tree,minimum-edge-weight-equilibrium-queries-in-a-tree,Hard,Array;Tree;Graph;Strongly Connected Component;
+3073,2890,2890,2800-2899,Reshape Data: Melt,Reshape Data: Melt,reshape-data-melt,Easy,
+2914,2812,2812,2800-2899,Find the Safest Path in a Grid,Find the Safest Path in a Grid,find-the-safest-path-in-a-grid,Medium,Array;Binary Search;Breadth-First Search;Union Find;Matrix;
+3000,2817,2817,2800-2899,Minimum Absolute Difference Between Elements With Constraint,Minimum Absolute Difference Between Elements With Constraint,minimum-absolute-difference-between-elements-with-constraint,Medium,Array;Binary Search;Ordered Set;
+2916,2811,2811,2800-2899,Check if it is Possible to Split Array,Check if it is Possible to Split Array,check-if-it-is-possible-to-split-array,Medium,Array;Dynamic Programming;Greedy;
+2891,2779,2779,2700-2799,Maximum Beauty of an Array After Applying Operation,Maximum Beauty of an Array After Applying Operation,maximum-beauty-of-an-array-after-applying-operation,Medium,Array;Binary Search;Sliding Window;Sorting;
+3001,2818,2818,2800-2899,Apply Operations to Maximize Score,Apply Operations to Maximize Score,apply-operations-to-maximize-score,Hard,Array;Math;Stack;Greedy;Monotonic Stack;Number Theory;
+2893,2786,2786,2700-2799,Visit Array Positions to Maximize Score,Visit Array Positions to Maximize Score,visit-array-positions-to-maximize-score,Medium,Array;Dynamic Programming;
+2887,2785,2785,2700-2799,Sort Vowels in a String,Sort Vowels in a String,sort-vowels-in-a-string,Medium,String;Sorting;
+2979,2830,2830,2800-2899,Maximize the Profit as the Salesman,Maximize the Profit as the Salesman,maximize-the-profit-as-the-salesman,Medium,Array;Binary Search;Dynamic Programming;Sorting;
+2886,2810,2810,2800-2899,Faulty Keyboard,Faulty Keyboard,faulty-keyboard,Easy,String;Simulation;
+3044,2869,2869,2800-2899,Minimum Operations to Collect Elements,Minimum Operations to Collect Elements,minimum-operations-to-collect-elements,Easy,Array;Hash Table;
+3026,2834,2834,2800-2899,Find the Minimum Possible Sum of a Beautiful Array,Find the Minimum Possible Sum of a Beautiful Array,find-the-minimum-possible-sum-of-a-beautiful-array,Medium,Math;Greedy;
+3032,2836,2836,2800-2899,Maximize Value of Function in a Ball Passing Game,Maximize Value of Function in a Ball Passing Game,maximize-value-of-function-in-a-ball-passing-game,Hard,Array;Dynamic Programming;Bit Manipulation;
+2999,2839,2839,2800-2899,Check if Strings Can be Made Equal With Operations I,Check if Strings Can be Made Equal With Operations I,check-if-strings-can-be-made-equal-with-operations-i,Easy,String;
+3046,2844,2844,2800-2899,Minimum Operations to Make a Special Number,Minimum Operations to Make a Special Number,minimum-operations-to-make-a-special-number,Medium,Math;String;Greedy;Enumeration;
+2883,2767,2767,2700-2799,Partition String Into Minimum Beautiful Substrings,Partition String Into Minimum Beautiful Substrings,partition-string-into-minimum-beautiful-substrings,Medium,Hash Table;String;Dynamic Programming;Backtracking;
+2998,2843,2843,2800-2899,  Count Symmetric Integers,  Count Symmetric Integers,count-symmetric-integers,Easy,Math;Enumeration;
+2977,2828,2828,2800-2899,Check if a String Is an Acronym of Words,Check if a String Is an Acronym of Words,check-if-a-string-is-an-acronym-of-words,Easy,Array;String;
+2953,2857,2857,2800-2899,Count Pairs of Points With Distance k,Count Pairs of Points With Distance k,count-pairs-of-points-with-distance-k,Medium,Array;Hash Table;Bit Manipulation;
+3055,2864,2864,2800-2899,Maximum Odd Binary Number,Maximum Odd Binary Number,maximum-odd-binary-number,Easy,Math;String;Greedy;
+3034,2848,2848,2800-2899,Points That Intersect With Cars,Points That Intersect With Cars,points-that-intersect-with-cars,Easy,Hash Table;Math;Prefix Sum;
+3024,2851,2851,2800-2899,String Transformation,String Transformation,string-transformation,Hard,Math;String;Dynamic Programming;String Matching;
+2952,2809,2809,2800-2899,Minimum Time to Make Array Sum At Most x,Minimum Time to Make Array Sum At Most x,minimum-time-to-make-array-sum-at-most-x,Hard,Array;Dynamic Programming;Sorting;
+3018,2825,2825,2800-2899,Make String a Subsequence Using Cyclic Increments,Make String a Subsequence Using Cyclic Increments,make-string-a-subsequence-using-cyclic-increments,Medium,Two Pointers;String;
+3017,2827,2827,2800-2899,Number of Beautiful Integers in the Range,Number of Beautiful Integers in the Range,number-of-beautiful-integers-in-the-range,Hard,Math;Dynamic Programming;
+2905,2791,2791,2700-2799,Count Paths That Can Form a Palindrome in a Tree,Count Paths That Can Form a Palindrome in a Tree,count-paths-that-can-form-a-palindrome-in-a-tree,Hard,Dynamic Programming;Bit Manipulation;Tree;Depth-First Search;Bitmask;
+2888,2780,2780,2700-2799,Minimum Index of a Valid Split,Minimum Index of a Valid Split,minimum-index-of-a-valid-split,Medium,Array;Hash Table;Sorting;
+2894,2813,2813,2800-2899,Maximum Elegance of a K-Length Subsequence,Maximum Elegance of a K-Length Subsequence,maximum-elegance-of-a-k-length-subsequence,Hard,Array;Hash Table;Greedy;Sorting;Heap (Priority Queue);
+2882,2787,2787,2700-2799,Ways to Express an Integer as Sum of Powers,Ways to Express an Integer as Sum of Powers,ways-to-express-an-integer-as-sum-of-powers,Medium,Dynamic Programming;
+2892,2784,2784,2700-2799,Check if Array is Good,Check if Array is Good,check-if-array-is-good,Easy,Array;Hash Table;Sorting;
+2879,2911,2911,2900-2999,Minimum Changes to Make K Semi-palindromes,Minimum Changes to Make K Semi-palindromes,minimum-changes-to-make-k-semi-palindromes,Hard,Two Pointers;String;Dynamic Programming;
+2884,2781,2781,2700-2799,Length of the Longest Valid Substring,Length of the Longest Valid Substring,length-of-the-longest-valid-substring,Hard,Array;Hash Table;String;Sliding Window;
+2878,2772,2772,2700-2799,Apply Operations to Make All Array Elements Equal to Zero,Apply Operations to Make All Array Elements Equal to Zero,apply-operations-to-make-all-array-elements-equal-to-zero,Medium,Array;Prefix Sum;
+2866,2760,2760,2700-2799,Longest Even Odd Subarray With Threshold,Longest Even Odd Subarray With Threshold,longest-even-odd-subarray-with-threshold,Easy,Array;Sliding Window;
