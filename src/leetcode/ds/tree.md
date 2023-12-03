@@ -508,32 +508,322 @@ var constructMaximumBinaryTree = function (nums) {
 
 ::: info 定义
 
-**二叉查找树（Binary Search Tree）** ：在树中的任意一个节点，其左子树中的每个节点的值，都要小于这个节点的值，而右子树节点的值都大于这个节点的值。
+**二叉查找树（Binary Search Tree）** ：也叫二叉搜索树，在二叉查找树中，每个节点的左子树节点值都小于该节点的值，而右子树节点值都大于该节点的值。
 :::
 
 下图是几个二叉查找树的例子：
 
 ![](../../../assets/image/2-6-9.png)
 
-二叉查找树是二叉树中最常用的一种类型，也叫二叉搜索树。二叉查找树最大的特点就是，支持动态数据集合的快速插入、删除、查找操作。
+二叉查找树（BST）是二叉树中最常用的一种类型。二叉查找树最大的特点就是，支持动态数据集合的快速插入、删除、查找操作。在实际应用中常用于快速查找和有序插入的场景，具有良好的平均时间复杂度。
 
-### 1. 查找操作
+下面我们来看下，这些操作是如何实现的。
 
-### 2. 插入操作
+首先，我们需要定义二叉查找树的节点：
 
-### 2. 删除操作
+```javascript
+class TreeNode {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
+}
+```
 
-### 4. 其他操作
+这里，`TreeNode` 类代表了二叉查找树中的一个节点，包括节点的值、左子树和右子树。
 
-支持重复数据的二叉查找树
+接下来，我们创建一个 `BinarySearchTree` 类，用于实现二叉查找树的基本操作：
+
+```javascript
+class BinarySearchTree {
+  constructor() {
+    this.root = null;
+  }
+  // ...(各种操作方法)
+}
+```
+
+### 1. 插入操作
+
+插入操作是向二叉查找树中插入新值的过程，通常涉及递归，因为我们需要找到新节点应该放置的位置。以下是增加节点的原理：
+
+1. 如果树为空（即根节点为 `null`），则新节点将成为树的根。
+2. 如果树不为空，我们从树的根节点开始，比较新节点的值与当前节点的值。
+   - 如果新节点的值小于当前节点的值，则递归地将新节点插入到当前节点的左子树中。
+   - 如果新节点的值大于当前节点的值，则递归地将新节点插入到当前节点的右子树中。
+   - 如果新节点的值等于当前节点的值，通常可以选择将新节点丢弃，或者将其放在左子树或右子树中，取决于具体的实现策略。
+
+```javascript
+class BinarySearchTree {
+  // ...（之前的代码）
+
+  insert(value) {
+    this.root = this._insert(this.root, value);
+  }
+
+  _insert(node, value) {
+    if (!node) {
+      return new TreeNode(value);
+    }
+
+    if (value < node.value) {
+      node.left = this._insert(node.left, value);
+    } else if (value > node.value) {
+      node.right = this._insert(node.right, value);
+    }
+
+    return node;
+  }
+}
+```
+
+### 2. 查找操作
+
+查找操作是在二叉查找树中搜索特定值的过程。它是通过递归地比较节点的值和目标值来实现的。以下是查找节点的原理：
+
+1. 从根节点开始，比较目标值与当前节点的值。
+
+   - 如果目标值小于当前节点的值，则在左子树中继续查找。
+   - 如果目标值大于当前节点的值，则在右子树中继续查找。
+   - 如果目标值等于当前节点的值，找到了目标节点。
+
+2. 重复上述步骤，直到找到目标节点或达到叶子节点（节点没有左子树和右子树）为止。
+
+```javascript
+class BinarySearchTree {
+  // ...（之前的代码）
+
+  search(value) {
+    return this._search(this.root, value);
+  }
+
+  _search(node, value) {
+    if (!node || node.value === value) {
+      return node;
+    }
+
+    if (value < node.value) {
+      return this._search(node.left, value);
+    } else {
+      return this._search(node.right, value);
+    }
+  }
+}
+```
+
+这两个基本操作是二叉查找树的核心。通过递归的方式，我们能够有效地在树中进行插入和查找操作。
+
+### 3. 删除操作
+
+为了删除一个节点，我们需要分几种情况讨论：
+
+1. 如果节点是叶子节点（没有左子树和右子树），直接删除即可。
+2. 如果节点只有一个子节点，将该节点替换为其子节点。
+3. 如果节点有两个子节点，找到右子树中的最小值节点，用该节点的值替换要删除的节点的值，然后递归地删除右子树中的最小值节点。
+
+```javascript
+class BinarySearchTree {
+  // ...（之前的代码）
+
+  delete(value) {
+    this.root = this._delete(this.root, value);
+  }
+
+  _delete(node, value) {
+    if (!node) {
+      return null;
+    }
+
+    if (value < node.value) {
+      node.left = this._delete(node.left, value);
+    } else if (value > node.value) {
+      node.right = this._delete(node.right, value);
+    } else {
+      // Node to be deleted found
+
+      // Case 1 & 2: No child or one child
+      if (!node.left) {
+        return node.right;
+      } else if (!node.right) {
+        return node.left;
+      }
+
+      // Case 3: Two children
+      const minRight = this._findMin(node.right);
+      node.value = minRight.value;
+      node.right = this._delete(node.right, minRight.value);
+    }
+
+    return node;
+  }
+
+  _findMin(node) {
+    while (node.left) {
+      node = node.left;
+    }
+    return node;
+  }
+}
+```
+
+### 4. 遍历操作
+
+二叉查找树的遍历操作包括前序遍历、中序遍历和后序遍历，每一种遍历方式都有其特定的应用场景：
+
+- 中序遍历用于按顺序获取有序数据；
+- 前序遍历常用于复制或序列化二叉树；
+- 后序遍历则常用于释放资源。
+
+中序遍历是二叉查找树最常用的遍历方式。它按照从小到大的顺序遍历树中的节点，**输出结果是有序的，时间复杂度是 O(n)，非常高效** 。因此，二叉查找树也叫作二叉排序树。
+
+```javascript
+class BinarySearchTree {
+  // ...（之前的代码）
+
+  inOrderTraversal(callback) {
+    this._inOrderTraversal(this.root, callback);
+  }
+
+  _inOrderTraversal(node, callback) {
+    if (node) {
+      this._inOrderTraversal(node.left, callback);
+      callback(node.value);
+      this._inOrderTraversal(node.right, callback);
+    }
+  }
+}
+```
+
+遍历的时间复杂度是 `O(n)`，其中 `n` 是树中节点的数量，这是因为遍历需要访问所有节点。
+
+::: details 👉 查看代码测试 👈
+
+```javascript
+// 创建二叉查找树
+const bst = new BinarySearchTree();
+
+// 插入节点
+bst.insert(5);
+bst.insert(3);
+bst.insert(7);
+bst.insert(2);
+bst.insert(4);
+bst.insert(6);
+bst.insert(8);
+
+// 查找节点
+const searchResult = bst.search(4);
+console.log(searchResult ? `Found: ${searchResult.value}` : "Not Found");
+
+// 中序遍历
+console.log("\nIn-order traversal:");
+bst.inOrderTraversal((value) => console.log(value));
+
+// 删除节点
+bst.delete(3);
+
+// 中序遍历查看删除后的结果
+console.log("\nIn-order traversal after deletion:");
+bst.inOrderTraversal((value) => console.log(value));
+
+// 运行结果：
+// Found: 4
+
+// In-order traversal:
+// 2
+// 4
+// 5
+// 6
+// 7
+// 8
+
+// In-order traversal after deletion:
+// 2
+// 4
+// 5
+// 6
+// 7
+// 8
+```
+
+:::
+
+除了插入、删除、查找、遍历操作之外，二叉查找树还可以支持快速地查找最大节点和最小节点、前驱节点和后继节点。
 
 ### 复杂度分析
 
+- 平均情况下，二叉查找树的插入、查找和删除操作的时间复杂度是 `O(log n)`。
+- 最坏情况下，如果树是非平衡的，这些操作的时间复杂度会退化到 `O(n)`。
+- 遍历操作的时间复杂度始终为 `O(n)`，因为需要访问所有节点。
+
+因此，保持二叉查找树的平衡对于维护高效性能是非常重要的。平衡二叉查找树的实现（如 AVL 树或红黑树）确保了在各种操作中都能保持较小的树高度，从而提供了可靠的性能。
+
 ## 平衡二叉查找树
 
-## 红黑树
+::: info 定义
+
+**平衡二叉查找树（Balanced Binary Search Tree）** ：是一种特殊的二叉查找树，其所有节点满足以下平衡性质：对于树中的每个节点，其左子树和右子树的高度差不超过 `1` 。
+:::
+
+![](../../../assets/image/2-6-11.png)
+
+在非平衡的二叉查找树中，最坏情况下可能会导致树的高度接近线性，使得查找、插入和删除等操作的时间复杂度变为 `O(n)` 。而平衡二叉查找树能够保持较小的高度，确保这些操作的平均时间复杂度保持在 `O(log n)` 水平，提高了性能。
+
+通过自动保持树的平衡性，确保在各种操作中具有较低的时间复杂度。常见的平衡二叉查找树实现包括 AVL 树和红黑树。
+
+学习 AVL 树和红黑树的关键在于理解它们的平衡性质、平衡因子以及插入、删除等操作时的调整策略。
+
+### AVL 树
+
+AVL 树是一种自平衡二叉查找树，由两位前苏联的数学家 Adelson-Velsky 和 Landis 在 1962 年提出。AVL 树通过在每次插入或删除操作后进行旋转操作，保持了树的平衡性。
+
+#### 平衡因子
+
+在 AVL 树中，每个节点都有一个平衡因子（Balance Factor），定义为其左子树的高度减去右子树的高度。平衡因子的值只能是 `-1`、`0` 或 `1`。平衡因子的目标是保持所有节点的平衡因子在这个范围内。通过旋转操作，AVL 树确保所有节点的平衡因子在这个范围内，从而保持平衡。
+
+#### 插入操作
+
+在插入新节点时，需要逐级更新从插入点到树根的所有节点的平衡因子，并检查是否破坏了 AVL 树的平衡性。如果发现某个节点的平衡因子超出了范围，就需要通过旋转操作来修复。
+
+#### 旋转操作
+
+AVL 树通过四种基本的旋转操作来维护平衡：
+
+1. **左旋（Left Rotation）：** 将一个节点的右子树提升为新的根，原根成为新根的左子树。
+2. **右旋（Right Rotation）：** 将一个节点的左子树提升为新的根，原根成为新根的右子树。
+3. **左-右旋转（Left-Right Rotation）：** 先对左子树进行左旋，然后再对根节点进行右旋。
+4. **右-左旋转（Right-Left Rotation）：** 先对右子树进行右旋，然后再对根节点进行左旋。
+
+通过这些旋转操作，AVL 树能够在插入节点后保持平衡。
+
+### 红黑树
+
+红黑树（Red-Black Tree）简称 R-B Tree，是另一种自平衡二叉查找树，它引入了颜色标记来确保平衡性，每个节点都被标记为红色或黑色。红黑树的平衡性质主要通过以下几点来维护：
+
+1. **根节点是黑色的。**
+2. **所有叶子节点（NIL 节点）都是黑色的。**
+3. **如果一个节点是红色的，则它的两个子节点都是黑色的。**
+4. **从任意节点到其每个叶子的路径都包含相同数量的黑色节点。**
+
+![](../../../assets/image/2-6-12.png)
+
+#### 插入操作
+
+在红黑树中，插入节点时，首先按照二叉查找树的方式插入节点，然后通过一系列的颜色调整和旋转来保持红黑树的性质。
+
+#### 旋转操作
+
+红黑树的旋转操作包括左旋和右旋，与 AVL 树相似。旋转操作的目的是通过重新组织树的结构来保持平衡性。
+
+![](../../../assets/image/2-6-13.png)
+
+红黑树相对于 AVL 树的优势在于，由于不需要保持严格的平衡，红黑树的旋转操作较少，插入和删除节点时的性能更为稳定。
+
+红黑树的高度近似 `2log2n`，所以它是近似平衡，插入、删除、查找操作的时间复杂度都是 `O(logn)`。
 
 ## 递归树
+
 
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
@@ -566,8 +856,8 @@ var constructMaximumBinaryTree = function (nums) {
 | 0100 | [相同的树](https://leetcode.com/problems/same-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0100) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
 | 0116 | [填充每个节点的下一个右侧节点指针](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0116) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0117 | [填充每个节点的下一个右侧节点指针 II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0117) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
-| 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0297) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
+| 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0114) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 
 #### 二叉树的还原
 
