@@ -438,7 +438,7 @@ class LeetcodeCrawler():
 
         text_path = os.path.join(path, "{:0>4d}.md".format(question['frontedId']))
         with open(text_path, 'w', encoding='utf-8') as f:
-            f.write("# [{}. {}](".format(question['frontedId'], question['title']) + "https://leetcode.com/problems/{})\n".format(question['slug']))
+            f.write("# [{}. {}](".format(question['frontedId'], question['title']) + "https://leetcode.com/problems/{}/)\n".format(question['slug']))
             f.write("\n## 题目\n\n")
             text = question['content']
             similar = json.loads(question['similar'])
