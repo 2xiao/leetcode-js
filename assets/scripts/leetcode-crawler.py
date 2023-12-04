@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env py
 # -*- coding: utf-8 -*-
 
 import sqlite3
@@ -13,6 +13,7 @@ import re
 import argparse,sys
 import threading
 import pandas as pd
+import const
 
 
 db_path = 'leetcode.db'
@@ -276,6 +277,7 @@ class LeetcodeCrawler():
             has_get_code = filters.__contains__('code')
             self.generate_question_markdown(question_detail, path, has_get_code)
         cursor.close()
+
     def generate_questions_list(self):
         def getCatalog(id):
             cata = (int(id) // 100) * 100
@@ -300,7 +302,7 @@ class LeetcodeCrawler():
 
             df_indexs = df[df['英文标题'] == row[3]].index.tolist()
             if df_indexs:
-                question_detail['cn-title'] = df.loc[df_indexs[0], "标题末尾"]
+                question_detail['titleCN'] = df.loc[df_indexs[0], "标题末尾"]
             
             tags = ''
             tag_cursor = self.conn.cursor()
@@ -445,15 +447,21 @@ class LeetcodeCrawler():
             # .replace("**Input:**", "Input:").replace("**Output:**", "Output:").replace('**Explanation:**', 'Explanation:').replace('\n    ', '    ')
             f.write(content)
             
-            f.write("\n## 题目大意\n\n## 解题思路\n\n## 代码\n\n```javascript\n\n```\n\n## 相关题目\n\n::: details 相关题目\n")
+            f.write("\n## 题目大意\n\n## 解题思路\n\n## 代码\n\n```javascript\n\n```\n\n## 相关题目\n\n:::: md-demo 相关题目\n")
             
             for similar_item in similar:
                 df_indexs = df[df['slug'] == similar_item['titleSlug']].index.tolist()
                 if not df_indexs:
-                    print('%s 没有出现在 leetcode-problems.csv 中' % (similar_item['titleSlug']))
-                    continue
-                # f.write("- [{}. {}](./{}.md)".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN", df.loc[df_indexs[0], "fileName"]]) + '\n')
-            f.write(":::\n")
+                    problem_link = "- [🔒 {}](https://leetcode.com/problems/{})".format(similar_item['title'], similar_item['titleSlug'])
+                else:
+                    problem_path = os.path.join(const.problem_path, "{:0>4d}".format(df.loc[df_indexs[0], "fileName"]) + ".md")
+                    if os.path.exists(problem_path):
+                        problem_link = "- [{}. {}](./{:0>4d}.md)".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], df.loc[df_indexs[0], "fileName"])
+                    else:
+                        problem_link = "- [{}. {}](https://leetcode.com/problems/{})".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], similar_item['titleSlug'])
+                
+                f.write(problem_link + '\n')
+            f.write("\n::::\n")
 
             if self.is_login and has_get_code:
                 sql = "SELECT code, language FROM last_ac_submission_record WHERE question_slug = ? ORDER BY timestamp"
@@ -594,7 +602,7 @@ if __name__=='__main__':
     #     test.get_ac_question_submission(filters)
     #     test.generate_questions_submission(args.output, filters)
       
-    test.generate_questions_markdown(args.output, filters)
     # test.generate_questions_list()
+    test.generate_questions_markdown(args.output, filters)
    
     test.close_db()
