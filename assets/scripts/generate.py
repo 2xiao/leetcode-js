@@ -187,6 +187,33 @@ def gen_tag_and_difficulty():
     print("Add Tag and Difficulty to Problems Success")
 
 
+def gen_md():
+    files = os.listdir(const.problem_path)
+
+    for file in files:
+        # 判断是否是文件夹
+        if ".md" not in file:
+            continue
+
+        spider_path = os.path.join('../output/', Path(file))
+        if not os.path.exists(spider_path):
+            print('%s 没有出现在 output 中' % (spider_path))
+            continue
+
+        spider_content = Path(spider_path).read_text(encoding='utf-8')
+
+        delim1 = "## 题目大意"
+        spider_content, _ = spider_content.split(delim1)
+
+        file_path = os.path.join(const.problem_path, Path(file))
+        content = Path(file_path).read_text(encoding='utf-8')
+
+        _, after = content.split(delim1)
+        content = spider_content + delim1 + after
+        Path(file_path).write_text(content, encoding='utf-8')
+    print("Add content to Problems Success")
+
+
 # 生成第二、三章里每个知识点的相关题目
 
 
