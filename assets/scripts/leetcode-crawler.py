@@ -434,7 +434,7 @@ class LeetcodeCrawler():
         cursor.close()
 
     def generate_question_markdown(self, question, path, has_get_code):
-        df = pd.read_csv("problem-list.csv")
+        df = pd.read_csv("problem-list.csv", dtype={'fileName': str})
 
         text_path = os.path.join(path, "{:0>4d}.md".format(question['frontedId']))
         with open(text_path, 'w', encoding='utf-8') as f:
@@ -454,9 +454,9 @@ class LeetcodeCrawler():
                 if not df_indexs:
                     problem_link = "- [🔒 {}](https://leetcode.com/problems/{})".format(similar_item['title'], similar_item['titleSlug'])
                 else:
-                    problem_path = os.path.join(const.problem_path, "{:0>4d}".format(df.loc[df_indexs[0], "fileName"]) + ".md")
+                    problem_path = os.path.join(const.problem_path, df.loc[df_indexs[0], "fileName"] + ".md")
                     if os.path.exists(problem_path):
-                        problem_link = "- [{}. {}](./{:0>4d}.md)".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], df.loc[df_indexs[0], "fileName"])
+                        problem_link = "- [{}. {}](./{}.md)".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], df.loc[df_indexs[0], "fileName"])
                     else:
                         problem_link = "- [{}. {}](https://leetcode.com/problems/{})".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], similar_item['titleSlug'])
                 
