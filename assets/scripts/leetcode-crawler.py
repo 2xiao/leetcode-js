@@ -443,8 +443,7 @@ class LeetcodeCrawler():
             text = question['content']
             similar = json.loads(question['similar'])
 
-            content = html2text.html2text(text)
-            # .replace("**Input:**", "Input:").replace("**Output:**", "Output:").replace('**Explanation:**', 'Explanation:').replace('\n    ', '    ')
+            content = html2text.html2text(text).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ')
             f.write(content)
             
             f.write("\n## 题目大意\n\n## 解题思路\n\n## 代码\n\n```javascript\n\n```\n\n## 相关题目\n\n:::: md-demo 相关题目\n")
