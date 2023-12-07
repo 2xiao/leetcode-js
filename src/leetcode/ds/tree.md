@@ -818,7 +818,229 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 
 红黑树的高度近似 `2log n`，所以它是近似平衡，插入、删除、查找操作的时间复杂度都是 `O(log n)`。
 
-## 递归树
+## 线段树
+
+::: info 定义
+
+**线段树（Segment Tree）** ：是一种解决范围查询问题的数据结构，主要用于处理数组中的子区间问题，如范围和、最小值、最大值等。
+:::
+
+线段树是一种高效的数据结构，特别适用于需要频繁进行范围查询操作的场景。
+
+![](../../../assets/image/2-6-14.png)
+
+### 构建线段树
+
+线段树的节点通常包含以下信息：
+
+- `start`：表示节点对应区间的起始位置。
+- `end`：表示节点对应区间的结束位置。
+- `sum`、`min`、`max` 等：表示节点对应区间的信息。
+
+以下是一个简单的线段树节点的 JavaScript 实现：
+
+```javascript
+class SegmentTreeNode {
+  constructor(start, end) {
+    this.start = start;
+    this.end = end;
+    this.sum = 0; // 例如，表示区间和
+    this.left = null;
+    this.right = null;
+  }
+}
+```
+
+构建线段树的过程涉及将数组划分为不同的区间，并在每个节点上存储对应区间的信息。
+
+线段树通常被构造为满二叉树，它的高度是对数级别的，从而使得范围查询的时间复杂度保持在 `O(log n)` 的水平，其中 `n` 是待处理区间的长度。
+
+```javascript
+function buildSegmentTree(nums, start, end) {
+  if (start === end) {
+    return new SegmentTreeNode(start, end);
+  }
+
+  const mid = Math.floor((start + end) / 2);
+  const left = buildSegmentTree(nums, start, mid);
+  const right = buildSegmentTree(nums, mid + 1, end);
+
+  const root = new SegmentTreeNode(start, end);
+  root.left = left;
+  root.right = right;
+
+  // 根据具体问题更新根节点的信息
+  root.sum = left.sum + right.sum;
+
+  return root;
+}
+```
+
+### 更新操作
+
+更新操作用于修改原始数组的值，并相应地更新线段树节点的信息。通常使用递归实现。
+
+```javascript
+function update(root, index, val) {
+  if (root.start === root.end) {
+    root.sum = val; // 例如，表示区间和
+    return;
+  }
+
+  const mid = Math.floor((root.start + root.end) / 2);
+  if (index <= mid) {
+    update(root.left, index, val);
+  } else {
+    update(root.right, index, val);
+  }
+
+  // 更新根节点的信息
+  root.sum = root.left.sum + root.right.sum;
+}
+```
+
+### 查询操作
+
+查询操作用于获取数组某个范围内的信息，比如求和、最小值、最大值等。同样使用递归实现。
+
+```javascript
+function query(root, queryStart, queryEnd) {
+  if (root.end < queryStart || root.start > queryEnd) {
+    return 0; // 例如，表示区间和
+  }
+
+  if (root.start >= queryStart && root.end <= queryEnd) {
+    return root.sum; // 例如，表示区间和
+  }
+
+  const mid = Math.floor((root.start + root.end) / 2);
+  const leftSum = query(root.left, queryStart, Math.min(mid, queryEnd));
+  const rightSum = query(root.right, Math.max(mid + 1, queryStart), queryEnd);
+
+  return leftSum + rightSum;
+}
+```
+
+:::: md-demo 相关题目
+
+#### 📌 [307. 区域和检索 - 数组可修改 - LeetCode](https://2xiao.github.io/leetcode-js/leetcode/problem/0307.html)
+
+#### 💻 **题目大意**
+
+给定一个整数数组 `nums`，请你完成两类查询：
+
+1. **更新** 数组 `nums` 下标对应的值
+2. 返回数组 `nums` 中索引 `left` 和 `right` （包含 `left` 和 `right`）之间的 `nums` 元素的 **和** ，其中 `left <= right`
+
+实现 `NumArray` 类：
+
+- `NumArray(int[] nums)` 使用数组 `nums` 初始化对象
+- `void update(int index, int val)` 将 `nums[index]` 的值 **更新** 为 `val`
+- `int sumRange(int i, int j)` 返回数组 `nums` 中索引 `left` 和 `right` 之间的元素的 总和 ，包含 `left` 和 `right` 两点（也就是 `nums[left] + nums[left + 1] + ... + nums[right]` ）
+
+**示例 ：**
+
+> 输入：
+>
+> ["NumArray", "sumRange", "update", "sumRange"]
+>
+> [[[1, 3, 5]], [0, 2], [1, 2], [0, 2]]
+>
+> 输出：
+>
+> [null, 9, null, 8]
+>
+> 解释：
+>
+> NumArray numArray = new NumArray([1, 3, 5]);
+>
+> numArray.sumRange(0, 2); // 返回 1 + 3 + 5 = 9
+>
+> numArray.update(1, 2); // nums = [1,2,5]
+>
+> numArray.sumRange(0, 2); // 返回 1 + 2 + 5 = 8
+
+#### 💡 **解题思路**
+
+可以通过线段树来解决：
+
+1. **初始化：** 在 `NumArray` 类的构造函数中，首先将输入的数组 `nums` 存储起来，并构建一个线段树，表示整个数组的和。每个线段树节点包含一个区间的起始位置、结束位置和该区间的和。
+
+2. **更新操作：** 当调用 `update` 方法时，根据给定的索引和新的值，更新数组 `nums` 对应位置的值，并在线段树中更新对应的节点的值。这个更新过程是通过递归地向下更新线段树节点实现的。
+
+3. **区间和查询：** 当调用 `sumRange` 方法时，需要查询数组中指定区间 `[i, j]` 的和。在线段树中，可以通过递归地查询左右子树来获得区间 `[i, j]` 的和：
+   - 如果当前节点的区间完全包含在 `[i, j]` 中，则直接返回该节点的和。
+   - 否则，根据当前节点的中点将查询区间 `[i, j]` 分为左右两部分，递归地查询左右子树，并将两部分的和相加。
+
+#### 💎 **代码**
+
+```javascript
+class NumArray {
+  // @param {number[]} nums
+  constructor(nums) {
+    this.nums = nums;
+    this.segmentTree = this.buildSegmentTree(nums, 0, nums.length - 1);
+  }
+  // @param {number[]} nums
+  // @param {number} start
+  // @param {number} end
+  buildSegmentTree(nums, start, end) {
+    if (start == end) {
+      return { start, end, left: null, right: null, sum: nums[start] };
+    }
+    const mid = Math.floor((start + end) / 2);
+    const left = this.buildSegmentTree(nums, start, mid);
+    const right = this.buildSegmentTree(nums, mid + 1, end);
+    const sum = left.sum + right.sum;
+    return { start, end, left, right, sum };
+  }
+
+  // @param {number} index
+  // @param {number} val
+  // @return {void}
+  update(index, val) {
+    this.updateSegmentTree(this.segmentTree, index, val);
+  }
+
+  updateSegmentTree(root, index, val) {
+    if (root.start == root.end) {
+      root.sum = val;
+      return;
+    }
+    const mid = Math.floor((root.start + root.end) / 2);
+    if (index <= mid) {
+      this.updateSegmentTree(root.left, index, val);
+    } else {
+      this.updateSegmentTree(root.right, index, val);
+    }
+    root.sum =
+      (root.left ? root.left.sum : 0) + (root.right ? root.right.sum : 0);
+  }
+
+  // @param {number} left
+  // @param {number} right
+  // @return {number}
+  sumRange(left, right) {
+    return this.querySegmentTree(this.segmentTree, left, right);
+  }
+
+  querySegmentTree(root, start, end) {
+    if (root.start > end || root.end < start) return 0;
+    if (root.start >= start && root.end <= end) return root.sum;
+
+    const mid = Math.floor((root.start + root.end) / 2);
+    const leftSum = this.querySegmentTree(root.left, start, Math.min(mid, end));
+    const rightSum = this.querySegmentTree(
+      root.right,
+      Math.max(mid + 1, start),
+      end
+    );
+    return leftSum + rightSum;
+  }
+}
+```
+
+::::
 
 
 <!-- START TABLE -->
@@ -886,8 +1108,8 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
-| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
+| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0307) |  [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
 * 区间更新
@@ -921,8 +1143,8 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
-| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
+| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0307) |  [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) |  |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
 | 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
