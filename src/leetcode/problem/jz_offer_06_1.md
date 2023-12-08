@@ -34,13 +34,6 @@
 
 ```javascript
 /**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
  * @param {ListNode} head
  * @return {number[]}
  */
@@ -58,13 +51,6 @@ var reverseBookList = function (head) {
 @tab 思路二：递归
 
 ```javascript
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
 /**
  * @param {ListNode} head
  * @return {number[]}

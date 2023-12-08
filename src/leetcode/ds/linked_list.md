@@ -557,13 +557,6 @@ console.log(linkedList.count()); // output: 3
 
 ```javascript
 /**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
  * @param {ListNode} head
  * @return {ListNode}
  */
@@ -658,14 +651,6 @@ var reverseList = function (head) {
 
 ```javascript
 /**
- * Definition for singly-linked list.
- * function ListNode(val) {
- *     this.val = val;
- *     this.next = null;
- * }
- */
-
-/**
  * @param {ListNode} head
  * @return {boolean}
  */
@@ -732,13 +717,6 @@ var hasCycle = function (head) {
 ::: details 👉 查看代码 👈
 
 ```javascript
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
 /**
  * @param {ListNode} list1
  * @param {ListNode} list2
@@ -821,13 +799,6 @@ var mergeTwoLists = function (list1, list2) {
 
 ```javascript
 /**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
-/**
  * @param {ListNode} head
  * @param {number} n
  * @return {ListNode}
@@ -904,13 +875,6 @@ var removeNthFromEnd = function (head, n) {
 ::: details 👉 查看代码 👈
 
 ```javascript
-/**
- * Definition for singly-linked list.
- * function ListNode(val, next) {
- *     this.val = (val===undefined ? 0 : val)
- *     this.next = (next===undefined ? null : next)
- * }
- */
 /**
  * @param {ListNode} head
  * @return {ListNode}
