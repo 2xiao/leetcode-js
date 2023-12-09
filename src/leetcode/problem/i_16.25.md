@@ -41,12 +41,12 @@ lRUCache.get(4);    // return 4
 
 - `1 <= capacity <= 3000`
 - `0 <= key <= 3000`
-- `0 <= value <= 104`
-- At most `3 * 104` calls will be made to `get` and `put`.
+- `0 <= value <= 10^4`
+- At most `3 * 10^4` calls will be made to `get` and `put`.
 
 ::: warning
 
-**注意：** 本题与 LeetCode [第 146 题](./0146.md) 相同。
+本题与 LeetCode [第 146 题](./0146.md) 相同。
 
 :::
 
