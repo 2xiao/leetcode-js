@@ -492,8 +492,8 @@ title: "面试高频 200 题"
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 220 |
 | 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 60 |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> | 117 |
-| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> | 35 |
-| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> | 61 |
+| 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0074) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> | 35 |
+| 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0240) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> | 61 |
 
 
 * 二分答案

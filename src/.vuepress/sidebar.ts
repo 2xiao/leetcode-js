@@ -82,6 +82,7 @@ export default sidebar({
             "0070",
             "0071",
             "0073",
+            "0074",
             "0076",
             "0080",
             "0082",
@@ -133,6 +134,7 @@ export default sidebar({
             "0153",
             "0154",
             "0155",
+            "0156",
             "0167",
             "0169",
             "0173",
@@ -159,9 +161,11 @@ export default sidebar({
             "0236",
             "0237",
             "0238",
+            "0240",
             "0242",
             "0257",
             "0259",
+            "0272",
             "0279",
             "0283",
             "0297"
@@ -218,6 +222,7 @@ export default sidebar({
             "0622",
             "0637",
             "0654",
+            "0658",
             "0678",
             "0682"
           ],
@@ -294,6 +299,13 @@ export default sidebar({
           ],
         },
         {
+          text: "2400-2499",
+          collapsible: true,
+          children: [
+            "2468"
+          ],
+        },
+        {
           text: "面试题",
           collapsible: true,
           children: [
@@ -305,9 +317,13 @@ export default sidebar({
           collapsible: true,
           children: [
             "jz_offer_03_1",
+            "jz_offer_04_1",
             "jz_offer_05_1",
             "jz_offer_06_1",
+            "jz_offer_07_1",
             "jz_offer_09_1",
+            "jz_offer_10_1",
+            "jz_offer_10_2",
             "jz_offer_11_1",
             "jz_offer_16_1",
             "jz_offer_17_1",
