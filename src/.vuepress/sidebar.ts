@@ -165,7 +165,6 @@ export default sidebar({
             "0242",
             "0257",
             "0259",
-            "0272",
             "0279",
             "0283",
             "0297"
@@ -222,7 +221,6 @@ export default sidebar({
             "0622",
             "0637",
             "0654",
-            "0658",
             "0678",
             "0682"
           ],
@@ -296,13 +294,6 @@ export default sidebar({
           collapsible: true,
           children: [
             "2196"
-          ],
-        },
-        {
-          text: "2400-2499",
-          collapsible: true,
-          children: [
-            "2468"
           ],
         },
         {
