@@ -80,7 +80,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> | 25 |
+| 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0347) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> | 25 |
 | 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 98 |
 | 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`数据流`](/leetcode/outline/tag/data-streams.md) `2+` | <font color=#ff334b>Hard</font> | 26 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> | 173 |
@@ -383,7 +383,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> | 420 |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0215) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> | 420 |
 
 
 * 插入排序
@@ -427,7 +427,7 @@ title: "面试高频 200 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> | 16 |
-| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> | 420 |
+| 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0215) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> | 420 |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#15bd66>Esay</font> | 36 |
 
 
