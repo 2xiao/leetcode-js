@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 189 道
+已完成 190 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -127,6 +127,7 @@
 | 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0347) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
 | 0355 | [设计推特](https://leetcode.com/problems/design-twitter/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0355) |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0366 | [寻找二叉树的叶子节点](https://leetcode.com/problems/find-leaves-of-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0366) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
+| 0373 | [查找和最小的 K 对数字](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0373) |  [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0380) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0392 | [判断子序列](https://leetcode.com/problems/is-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0392) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
 | 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
