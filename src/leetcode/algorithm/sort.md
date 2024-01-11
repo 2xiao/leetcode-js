@@ -362,7 +362,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#15bd66>Esay</font> |
+| 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0506) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#15bd66>Esay</font> |
 
 * 归并排序
 
