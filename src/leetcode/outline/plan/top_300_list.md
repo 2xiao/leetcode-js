@@ -233,7 +233,7 @@ title: "面试进阶 300 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
-| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
 | 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
@@ -534,7 +534,7 @@ title: "面试进阶 300 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0292 | [Nim 游戏](https://leetcode.com/problems/nim-game/) |  |  [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#15bd66>Esay</font> |
-| 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
+| 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0375) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
 | 0486 | [预测赢家](https://leetcode.com/problems/predict-the-winner/) |  |  [`递归`](/leetcode/outline/tag/recursion.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0464 | [我能赢吗](https://leetcode.com/problems/can-i-win/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0877 | [石子游戏](https://leetcode.com/problems/stone-game/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |

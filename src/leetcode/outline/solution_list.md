@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 192 道
+已完成 195 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -128,6 +128,8 @@
 | 0355 | [设计推特](https://leetcode.com/problems/design-twitter/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0355) |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0366 | [寻找二叉树的叶子节点](https://leetcode.com/problems/find-leaves-of-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0366) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0373 | [查找和最小的 K 对数字](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0373) |  [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
+| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0374) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Esay</font> |
+| 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0375) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
 | 0378 | [有序矩阵中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0378) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`矩阵`](/leetcode/outline/tag/matrix.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0380) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0392 | [判断子序列](https://leetcode.com/problems/is-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0392) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
@@ -158,6 +160,7 @@
 | 0700 | [二叉搜索树中的搜索](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0700) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#15bd66>Esay</font> |
 | 0701 | [二叉搜索树中的插入操作](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0701) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0703) |  [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Esay</font> |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
 | 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
 | 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) |  [`设计`](/leetcode/outline/tag/design.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |

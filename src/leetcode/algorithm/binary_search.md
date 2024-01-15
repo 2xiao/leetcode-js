@@ -210,8 +210,8 @@ function bsearch(arr, value) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
-| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) |  |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Esay</font> |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0374) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Esay</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
