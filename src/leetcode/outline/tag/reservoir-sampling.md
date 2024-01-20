@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node/) |  |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0382) |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0398 | [随机数索引](https://leetcode.com/problems/random-pick-index/) |  |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0497 | [非重叠矩形中的随机点](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles/) |  |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) `4+` | <font color=#ffb800>Medium</font> |
 | 0519 | [随机翻转矩阵](https://leetcode.com/problems/random-flip-matrix/) |  |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
