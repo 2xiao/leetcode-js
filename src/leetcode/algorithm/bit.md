@@ -13,7 +13,7 @@
 | 0405 | [数字转换为十六进制数](https://leetcode.com/problems/convert-a-number-to-hexadecimal/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
 | 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
 | 1009 | [十进制整数的反码](https://leetcode.com/problems/complement-of-base-10-integer/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) | <font color=#15bd66>Esay</font> |
-| 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
+| 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0191) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#15bd66>Esay</font> |
 | 0371 | [两整数之和](https://leetcode.com/problems/sum-of-two-integers/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0089 | [格雷编码](https://leetcode.com/problems/gray-code/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0201 | [数字范围按位与](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) | <font color=#ffb800>Medium</font> |

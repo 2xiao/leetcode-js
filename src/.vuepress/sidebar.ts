@@ -52,6 +52,7 @@ export default sidebar({
             "0007",
             "0008",
             "0009",
+            "0010",
             "0011",
             "0012",
             "0013",
@@ -148,6 +149,7 @@ export default sidebar({
             "0169",
             "0173",
             "0189",
+            "0191",
             "0199"
           ],
         },
@@ -343,10 +345,12 @@ export default sidebar({
             "jz_offer_10_1",
             "jz_offer_10_2",
             "jz_offer_11_1",
+            "jz_offer_15_1",
             "jz_offer_16_1",
             "jz_offer_17_1",
             "jz_offer_18_1",
             "jz_offer_22_1",
+            "jz_offer_24_1",
             "jz_offer_54_1"
           ],
         },

@@ -21,7 +21,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 0010 | [正则表达式匹配](https://leetcode.com/problems/regular-expression-matching/) |  |  [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 0010 | [正则表达式匹配](https://leetcode.com/problems/regular-expression-matching/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0010) |  [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0022 | [括号生成](https://leetcode.com/problems/generate-parentheses/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
