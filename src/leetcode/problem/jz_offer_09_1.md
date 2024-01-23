@@ -11,11 +11,9 @@
 
 **Example:**
 
-```
-输入：["CQueue","appendTail","deleteHead","deleteHead"], [[], [3], [], []]
-
-输出：[null,null,3,-1]
-```
+> 输入：["CQueue","appendTail","deleteHead","deleteHead"], [[], [3], [], []]
+>
+> 输出：[null,null,3,-1]
 
 **Constraints:**
 

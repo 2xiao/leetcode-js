@@ -372,7 +372,7 @@ title: "面试进阶 300 题"
 | 0072 | [编辑距离](https://leetcode.com/problems/edit-distance/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0887 | [鸡蛋掉落](https://leetcode.com/problems/super-egg-drop/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0132 | [分割回文串 II](https://leetcode.com/problems/palindrome-partitioning-ii/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 0044 | [通配符匹配](https://leetcode.com/problems/wildcard-matching/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0044 | [通配符匹配](https://leetcode.com/problems/wildcard-matching/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0044) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 
 

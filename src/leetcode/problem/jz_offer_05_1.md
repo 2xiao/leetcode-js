@@ -8,10 +8,9 @@
 
 **Example:**
 
-```
-输入：path = "a.aef.qerf.bb"
-输出："a aef qerf bb"
-```
+> 输入：path = "a.aef.qerf.bb"
+>
+> 输出："a aef qerf bb"
 
 **Constraints:**
 
