@@ -88,6 +88,7 @@ export default sidebar({
             "0073",
             "0074",
             "0076",
+            "0079",
             "0080",
             "0081",
             "0082",
@@ -192,6 +193,7 @@ export default sidebar({
             "0307",
             "0316",
             "0328",
+            "0343",
             "0344",
             "0345",
             "0346",
@@ -346,6 +348,8 @@ export default sidebar({
             "jz_offer_10_1",
             "jz_offer_10_2",
             "jz_offer_11_1",
+            "jz_offer_12_1",
+            "jz_offer_13_1",
             "jz_offer_14_1",
             "jz_offer_14_2",
             "jz_offer_15_1",
@@ -355,7 +359,9 @@ export default sidebar({
             "jz_offer_19_1",
             "jz_offer_22_1",
             "jz_offer_24_1",
-            "jz_offer_54_1"
+            "jz_offer_25_1",
+            "jz_offer_54_1",
+            "jz_offer_58_1"
           ],
         },
         {
