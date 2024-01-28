@@ -1,39 +1,36 @@
-# [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
+# [剑指 Offer 28. 对称的二叉树](https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.com/problems/symmetric-tree/)
+🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/)
 
 ## 题目
 
-Given the `root` of a binary tree, _check whether it is a mirror of itself_ (i.e., symmetric around its center).
+请设计一个函数判断一棵二叉树是否 **轴对称** 。
 
-**Example 1:**
+**示例 1：**
+![](https://pic.leetcode.cn/1694689008-JaaRdV-%E8%BD%B4%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%911.png)
 
-![](https://assets.leetcode.com/uploads/2021/02/19/symtree1.jpg)
-
-> Input: root = [1,2,2,3,4,4,3]
+> 输入：root = [6,7,7,8,9,9,8]
 >
-> Output: true
-
-**Example 2:**
-
-![](https://assets.leetcode.com/uploads/2021/02/19/symtree2.jpg)
-
-> Input: root = [1,2,2,null,3,null,3]
+> 输出：true
 >
-> Output: false
+> 解释：从图中可看出树是轴对称的。
 
-**Constraints:**
+**示例 2：**
+![](https://pic.leetcode.cn/1694689054-vENzHe-%E8%BD%B4%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%912.png)
 
-- The number of nodes in the tree is in the range `[1, 1000]`.
-- `-100 <= Node.val <= 100`
+> 输入：root = [1,2,2,null,3,null,3]
+>
+> 输出：false
+>
+> 解释：从图中可看出最后一层的节点不对称。
 
-**Follow up:** Could you solve it both recursively and iteratively?
+**提示：**
 
-## 题目大意
+- `0 <= 节点个数 <= 1000`
 
-给你一个二叉树的根节点 `root` ， 检查它是否轴对称。
-
-**进阶**：你可以运用递归和迭代两种方法解决这个问题吗？
+::: warning
+**注意：** 本题与 LeetCode [第 101 题](./0101.md) 相同。
+:::
 
 ## 解题思路
 
@@ -58,6 +55,7 @@ Given the `root` of a binary tree, _check whether it is a mirror of itself_ (i.e
 ## 代码
 
 ::: code-tabs
+
 @tab 思路一：递归
 
 ```javascript

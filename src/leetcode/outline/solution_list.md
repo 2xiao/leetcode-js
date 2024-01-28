@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 225 道
+已完成 229 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -225,6 +225,10 @@
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 24 | [反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_24_1) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 25 | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_25_1) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 26 | [树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_26_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 27 | [二叉树的镜像](https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_27_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 28 | [对称的二叉树](https://leetcode.cn/problems/dui-cheng-de-er-cha-shu-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_28_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 29 | [顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_29_1) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 54 | [二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_54_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 58 - I | [翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_58_1) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
