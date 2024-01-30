@@ -472,7 +472,7 @@ title: "面试进阶 300 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
+| 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0946) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 0767 | [重构字符串](https://leetcode.com/problems/reorganize-string/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0373 | [查找和最小的 K 对数字](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0373) |  [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 0313 | [超级丑数](https://leetcode.com/problems/super-ugly-number/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
