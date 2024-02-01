@@ -1,51 +1,46 @@
-# [113. Path Sum II](https://leetcode.com/problems/path-sum-ii/)
+# [剑指 Offer 34. 二叉树中和为某一值的路径](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`回溯`](/leetcode/outline/tag/backtracking.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.com/problems/path-sum-ii/)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`回溯`](/leetcode/outline/tag/backtracking.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-shu-zhong-he-wei-mou-yi-zhi-de-lu-jing-lcof/)
 
 ## 题目
 
-Given the `root` of a binary tree and an integer `targetSum`, return _all **root-to-leaf** paths where the sum of the node values in the path equals _ `targetSum` _. Each path should be returned as a list of the node **values** , not node references_.
+给你二叉树的根节点 `root` 和一个整数目标和 `targetSum` ，找出所有 **从根节点到叶子节点** 路径总和等于给定目标和的路径。
 
-A **root-to-leaf** path is a path starting from the root and ending at any
-leaf node. A **leaf** is a node with no children.
+**叶子节点** 是指没有子节点的节点。
 
-**Example 1:**
+**示例 1：**
 
 ![](https://assets.leetcode.com/uploads/2021/01/18/pathsumii1.jpg)
 
-> Input: root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
+> 输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
 >
-> Output: [[5,4,11,2],[5,8,4,5]]
+> 输出：[[5,4,11,2],[5,8,4,5]]
 >
-> Explanation: There are two paths whose sum equals targetSum:
->
-> 5 + 4 + 11 + 2 = 22
->
-> 5 + 8 + 4 + 5 = 22
+> 解释: 5 + 4 + 11 + 2 = 22；5 + 8 + 4 + 5 = 22
 
-**Example 2:**
+**示例 2：**
 
 ![](https://assets.leetcode.com/uploads/2021/01/18/pathsum2.jpg)
 
-> Input: root = [1,2,3], targetSum = 5
+> 输入：root = [1,2,3], targetSum = 5
 >
-> Output: []
+> 输出：[]
 
-**Example 3:**
+**示例 3：**
 
-> Input: root = [1,2], targetSum = 0
+> 输入：root = [1,2], targetSum = 0
 >
-> Output: []
+> 输出：[]
 
-**Constraints:**
+**提示：**
 
-- The number of nodes in the tree is in the range `[0, 5000]`.
+- 树中节点总数在范围 `[0, 5000]` 内
 - `-1000 <= Node.val <= 1000`
 - `-1000 <= targetSum <= 1000`
 
-## 题目大意
-
-给定一个二叉树和一个目标和，找到所有从根节点到叶子节点路径总和等于给定目标和的路径。说明: 叶子节点是指没有子节点的节点。
+::: warning
+本题与 LeetCode [第 113 题](./0113.md) 相同。
+:::
 
 ## 解题思路
 
@@ -76,7 +71,7 @@ leaf node. A **leaf** is a node with no children.
  * @param {number} targetSum
  * @return {number[][]}
  */
-var pathSum = function (root, targetSum) {
+var pathTarget = function (root, targetSum) {
 	let res = [];
 	let path = [];
 	const dfs = (node, sum) => {
@@ -113,19 +108,19 @@ var pathSum = function (root, targetSum) {
  * @param {number} targetSum
  * @return {number[][]}
  */
-var pathSum = function (root, targetSum) {
+var pathTarget = function (root, targetSum) {
 	let res = [];
 	if (!root) return res;
 	if (!root.left && !root.right && root.val == targetSum) {
 		return [[root.val]];
 	}
-	let tempLeft = pathSum(root.left, targetSum - root.val);
+	let tempLeft = pathTarget(root.left, targetSum - root.val);
 	if (tempLeft.length) {
 		for (let i of tempLeft) {
 			res.push([root.val, ...i]);
 		}
 	}
-	let tempRight = pathSum(root.right, targetSum - root.val);
+	let tempRight = pathTarget(root.right, targetSum - root.val);
 	if (tempRight.length) {
 		for (let i of tempRight) {
 			res.push([root.val, ...i]);
@@ -136,15 +131,3 @@ var pathSum = function (root, targetSum) {
 ```
 
 :::
-
-## 相关题目
-
-:::: md-demo 相关题目
-
-- [112. 路径总和](./0112.md)
-- [257. 二叉树的所有路径](./0257.md)
-- [437. 路径总和 III](https://leetcode.com/problems/path-sum-iii)
-- [🔒 Path Sum IV](https://leetcode.com/problems/path-sum-iv)
-- [2096. 从二叉树一个节点到另一个节点每一步的方向](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another)
-
-::::

@@ -30,7 +30,7 @@
 - `-5000 <= Node.val <= 5000`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 206 题](./0206.md) 相同。
+本题与 LeetCode [第 206 题](./0206.md) 相同。
 :::
 
 ## 解题思路
@@ -65,16 +65,16 @@
  * @return {ListNode}
  */
 var reverseList = function (head) {
-  let prev = null;
-  let cur = head;
+	let prev = null;
+	let cur = head;
 
-  while (cur !== null) {
-    let next = cur.next;
-    cur.next = prev;
-    prev = cur;
-    cur = next;
-  }
-  return prev;
+	while (cur !== null) {
+		let next = cur.next;
+		cur.next = prev;
+		prev = cur;
+		cur = next;
+	}
+	return prev;
 };
 ```
 
@@ -86,13 +86,13 @@ var reverseList = function (head) {
  * @return {ListNode}
  */
 var reverseList = function (head) {
-  if (head === null || head.next === null) {
-    return head;
-  }
-  const last = reverseList(head.next);
-  head.next.next = head;
-  head.next = null;
-  return last;
+	if (head === null || head.next === null) {
+		return head;
+	}
+	const last = reverseList(head.next);
+	head.next.next = head;
+	head.next = null;
+	return last;
 };
 ```
 

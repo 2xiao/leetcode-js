@@ -35,7 +35,7 @@
 - `putIn` 是 `takeOut` 的排列。
 
 ::: warning
-**注意：** 本题与 LeetCode [第 946 题](./0946.md) 相同。
+本题与 LeetCode [第 946 题](./0946.md) 相同。
 :::
 
 ## 解题思路
@@ -57,16 +57,16 @@
  * @return {boolean}
  */
 var validateBookSequences = function (putIn, takeOut) {
-  let stack = [];
-  let popIndex = 0;
+	let stack = [];
+	let popIndex = 0;
 
-  for (let item of putIn) {
-    stack.push(item);
-    while (stack.length > 0 && stack[stack.length - 1] == takeOut[popIndex]) {
-      stack.pop();
-      popIndex++;
-    }
-  }
-  return stack.length == 0;
+	for (let item of putIn) {
+		stack.push(item);
+		while (stack.length > 0 && stack[stack.length - 1] == takeOut[popIndex]) {
+			stack.pop();
+			popIndex++;
+		}
+	}
+	return stack.length == 0;
 };
 ```

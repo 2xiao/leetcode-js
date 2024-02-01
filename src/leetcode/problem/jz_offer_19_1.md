@@ -44,7 +44,7 @@
 - 保证每次出现字符 `*` 时，前面都匹配到有效的字符
 
 ::: warning
-**注意：** 本题与 LeetCode [第 10 题](./0010.md) 相同。
+本题与 LeetCode [第 10 题](./0010.md) 相同。
 :::
 
 ## 解题思路
@@ -69,29 +69,29 @@
  * @return {boolean}
  */
 var articleMatch = function (s, p) {
-  const match = (i, j) => {
-    return s[i - 1] == p[j - 1] || p[j - 1] == ".";
-  };
-  const m = s.length;
-  const n = p.length;
-  const dp = new Array(m + 1)
-    .fill(false)
-    .map(() => new Array(n + 1).fill(false));
-  dp[0][0] = true;
-  for (let j = 1; j <= n; j++) {
-    if (p[j - 1] == "*") {
-      dp[0][j] = dp[0][j - 2];
-    }
-  }
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      if (match(i, j)) {
-        dp[i][j] = dp[i - 1][j - 1];
-      } else if (p[j - 1] == "*") {
-        dp[i][j] = dp[i][j - 2] || (match(i, j - 1) && dp[i - 1][j]);
-      }
-    }
-  }
-  return dp[m][n];
+	const match = (i, j) => {
+		return s[i - 1] == p[j - 1] || p[j - 1] == '.';
+	};
+	const m = s.length;
+	const n = p.length;
+	const dp = new Array(m + 1)
+		.fill(false)
+		.map(() => new Array(n + 1).fill(false));
+	dp[0][0] = true;
+	for (let j = 1; j <= n; j++) {
+		if (p[j - 1] == '*') {
+			dp[0][j] = dp[0][j - 2];
+		}
+	}
+	for (let i = 1; i <= m; i++) {
+		for (let j = 1; j <= n; j++) {
+			if (match(i, j)) {
+				dp[i][j] = dp[i - 1][j - 1];
+			} else if (p[j - 1] == '*') {
+				dp[i][j] = dp[i][j - 2] || (match(i, j - 1) && dp[i - 1][j]);
+			}
+		}
+	}
+	return dp[m][n];
 };
 ```

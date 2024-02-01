@@ -35,7 +35,7 @@
 - 数组中每个数的值：`0 ≤ val ≤ 10000`
 
 ::: warning
-**注意：** 原题与 LeetCode 题目有细微差别，原题要保证奇数和奇数，偶数和偶数之间的相对位置不变；但是 LeetCode 题目并无此要求，下面的解题思路按照原题要求作答。
+原题与 LeetCode 题目有细微差别，原题要保证奇数和奇数，偶数和偶数之间的相对位置不变；但是 LeetCode 题目并无此要求，下面的解题思路按照原题要求作答。
 :::
 
 ## 解题思路
@@ -93,16 +93,16 @@
  * @return {number[]}
  */
 var trainingPlan = function (actions) {
-  let oddArr = [];
-  let evenArr = [];
-  for (let i = 0; i < actions.length; i++) {
-    if (actions[i] % 2 == 1) {
-      oddArr.push(actions[i]);
-    } else {
-      evenArr.push(actions[i]);
-    }
-  }
-  return [...oddArr, ...evenArr];
+	let oddArr = [];
+	let evenArr = [];
+	for (let i = 0; i < actions.length; i++) {
+		if (actions[i] % 2 == 1) {
+			oddArr.push(actions[i]);
+		} else {
+			evenArr.push(actions[i]);
+		}
+	}
+	return [...oddArr, ...evenArr];
 };
 ```
 
@@ -114,16 +114,16 @@ var trainingPlan = function (actions) {
  * @return {number[]}
  */
 var trainingPlan = function (actions) {
-  let cur = 0;
-  let odd = 0;
-  while (cur < actions.length) {
-    if (actions[cur] % 2 == 1) {
-      [actions[odd], actions[cur]] = [actions[cur], actions[odd]];
-      odd++;
-    }
-    cur++;
-  }
-  return actions;
+	let cur = 0;
+	let odd = 0;
+	while (cur < actions.length) {
+		if (actions[cur] % 2 == 1) {
+			[actions[odd], actions[cur]] = [actions[cur], actions[odd]];
+			odd++;
+		}
+		cur++;
+	}
+	return actions;
 };
 ```
 

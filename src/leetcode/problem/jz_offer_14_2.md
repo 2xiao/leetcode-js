@@ -19,7 +19,7 @@
 - `2 <= bamboo_len <= 1000`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 343 题](./0343.md) 相同。
+本题与 LeetCode [第 343 题](./0343.md) 相同。
 :::
 
 ## 解题思路
@@ -48,23 +48,23 @@
  * @return {number}
  */
 var cuttingBamboo = function (bamboo_len) {
-  // 定义状态数组
-  const dp = new Array(bamboo_len + 1).fill(BigInt(0));
-  const MOD = BigInt(1e9 + 7);
+	// 定义状态数组
+	const dp = new Array(bamboo_len + 1).fill(BigInt(0));
+	const MOD = BigInt(1e9 + 7);
 
-  // 初始状态
-  dp[2] = BigInt(1);
+	// 初始状态
+	dp[2] = BigInt(1);
 
-  // 计算状态转移
-  for (let i = 3; i <= bamboo_len; i++) {
-    for (let j = 1; j < i; j++) {
-      dp[i] = max(dp[i], BigInt(j) * dp[i - j], BigInt(j) * BigInt(i - j));
-    }
-  }
-  return Number(dp[bamboo_len] % MOD);
+	// 计算状态转移
+	for (let i = 3; i <= bamboo_len; i++) {
+		for (let j = 1; j < i; j++) {
+			dp[i] = max(dp[i], BigInt(j) * dp[i - j], BigInt(j) * BigInt(i - j));
+		}
+	}
+	return Number(dp[bamboo_len] % MOD);
 };
 
 var max = function (...args) {
-  return args.reduce((max, curr) => (curr > max ? curr : max), args[0]);
+	return args.reduce((max, curr) => (curr > max ? curr : max), args[0]);
 };
 ```

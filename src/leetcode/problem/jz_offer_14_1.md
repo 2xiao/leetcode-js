@@ -17,7 +17,7 @@
 - `2 <= bamboo_len <= 58`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 343 题](./0343.md) 相同。
+本题与 LeetCode [第 343 题](./0343.md) 相同。
 :::
 
 ## 解题思路
@@ -40,20 +40,20 @@
  * @return {number}
  */
 var cuttingBamboo = function (bamboo_len) {
-  // 定义状态数组
-  const dp = new Array(bamboo_len + 1).fill(0);
+	// 定义状态数组
+	const dp = new Array(bamboo_len + 1).fill(0);
 
-  // 初始状态
-  dp[2] = 1;
+	// 初始状态
+	dp[2] = 1;
 
-  // 计算状态转移
-  for (let i = 3; i <= bamboo_len; i++) {
-    let curMax = 0;
-    for (let j = 1; j < i; j++) {
-      curMax = Math.max(curMax, Math.max(j * dp[i - j], j * (i - j)));
-    }
-    dp[i] = curMax;
-  }
-  return dp[bamboo_len];
+	// 计算状态转移
+	for (let i = 3; i <= bamboo_len; i++) {
+		let curMax = 0;
+		for (let j = 1; j < i; j++) {
+			curMax = Math.max(curMax, Math.max(j * dp[i - j], j * (i - j)));
+		}
+		dp[i] = curMax;
+	}
+	return dp[bamboo_len];
 };
 ```

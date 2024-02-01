@@ -29,7 +29,7 @@
 - `0 <= 节点个数 <= 1000`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 101 题](./0101.md) 相同。
+本题与 LeetCode [第 101 题](./0101.md) 相同。
 :::
 
 ## 解题思路
@@ -60,17 +60,17 @@
 
 ```javascript
 var isSymmetric = function (root) {
-  if (root == null) return true;
-  const isMirror = (left, right) => {
-    if (!left && !right) return true;
-    if (!left || !right) return false;
-    return (
-      left.val == right.val &&
-      isMirror(left.left, right.right) &&
-      isMirror(left.right, right.left)
-    );
-  };
-  return isMirror(root.left, root.right);
+	if (root == null) return true;
+	const isMirror = (left, right) => {
+		if (!left && !right) return true;
+		if (!left || !right) return false;
+		return (
+			left.val == right.val &&
+			isMirror(left.left, right.right) &&
+			isMirror(left.right, right.left)
+		);
+	};
+	return isMirror(root.left, root.right);
 };
 ```
 
@@ -78,16 +78,16 @@ var isSymmetric = function (root) {
 
 ```javascript
 var isSymmetric = function (root) {
-  if (!root) return true;
-  let queue = [[root.left, root.right]];
-  while (queue.length) {
-    const [left, right] = queue.shift();
-    if (!left && !right) continue;
-    if (!left || !right || left.val !== right.val) return false;
-    queue.push([left.left, right.right]);
-    queue.push([left.right, right.left]);
-  }
-  return true;
+	if (!root) return true;
+	let queue = [[root.left, root.right]];
+	while (queue.length) {
+		const [left, right] = queue.shift();
+		if (!left && !right) continue;
+		if (!left || !right || left.val !== right.val) return false;
+		queue.push([left.left, right.right]);
+		queue.push([left.right, right.left]);
+	}
+	return true;
 };
 ```
 
@@ -95,28 +95,28 @@ var isSymmetric = function (root) {
 
 ```javascript
 var isSymmetric = function (root) {
-  if (root == null) return true;
+	if (root == null) return true;
 
-  // 翻转二叉树
-  const invert = (root) => {
-    if (root == null) return null;
-    let temp = root.left;
-    root.left = invert(root.right);
-    root.right = invert(temp);
-    return root;
-  };
+	// 翻转二叉树
+	const invert = (root) => {
+		if (root == null) return null;
+		let temp = root.left;
+		root.left = invert(root.right);
+		root.right = invert(temp);
+		return root;
+	};
 
-  // 两棵树是否全等
-  const isSame = (p, q) => {
-    if (p == null && q == null) return true;
-    else if (p != null && q != null) {
-      if (p.val != q.val) return false;
-      return isSame(p.left, q.left) && isSame(p.right, q.right);
-    }
-    return false;
-  };
+	// 两棵树是否全等
+	const isSame = (p, q) => {
+		if (p == null && q == null) return true;
+		else if (p != null && q != null) {
+			if (p.val != q.val) return false;
+			return isSame(p.left, q.left) && isSame(p.right, q.right);
+		}
+		return false;
+	};
 
-  return isSame(invert(root.left), root.right);
+	return isSame(invert(root.left), root.right);
 };
 ```
 

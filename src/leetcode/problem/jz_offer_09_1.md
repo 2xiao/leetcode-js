@@ -21,7 +21,7 @@
 - 最多会对 `appendTail`、`deleteHead` 进行 `10000` 次调用
 
 ::: warning
-**注意：** 本题与 LeetCode [第 232 题](./0232.md) 相同。
+本题与 LeetCode [第 232 题](./0232.md) 相同。
 :::
 
 ## 解题思路
@@ -32,26 +32,26 @@
 
 ```javascript
 class CQueue {
-  constructor() {
-    this.push_stack = [];
-    this.pop_stack = [];
-  }
-  // @param {number} value
-  // @return {void}
-  appendTail(value) {
-    this.push_stack.push(value);
-  }
-  // @return {number}
-  deleteHead() {
-    if (this.pop_stack.length + this.push_stack.length === 0) return -1;
-    if (this.pop_stack.length > 0) {
-      return this.pop_stack.pop();
-    }
-    while (this.push_stack.length > 0) {
-      this.pop_stack.push(this.push_stack.pop());
-    }
-    return this.pop_stack.pop();
-  }
+	constructor() {
+		this.push_stack = [];
+		this.pop_stack = [];
+	}
+	// @param {number} value
+	// @return {void}
+	appendTail(value) {
+		this.push_stack.push(value);
+	}
+	// @return {number}
+	deleteHead() {
+		if (this.pop_stack.length + this.push_stack.length === 0) return -1;
+		if (this.pop_stack.length > 0) {
+			return this.pop_stack.pop();
+		}
+		while (this.push_stack.length > 0) {
+			this.pop_stack.push(this.push_stack.pop());
+		}
+		return this.pop_stack.pop();
+	}
 }
 /**
  * Your CQueue object will be instantiated and called as such:

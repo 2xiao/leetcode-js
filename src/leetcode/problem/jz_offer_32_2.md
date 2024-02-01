@@ -19,7 +19,7 @@
 - `节点总数 <= 1000`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 102 题](./0102.md) 相同。
+本题与 LeetCode [第 102 题](./0102.md) 相同。
 :::
 
 ## 解题思路
@@ -54,22 +54,22 @@
  * @return {number[][]}
  */
 var decorateRecord = function (root) {
-  let res = [];
-  if (root == null) return res;
-  let queue = [root];
+	let res = [];
+	if (root == null) return res;
+	let queue = [root];
 
-  while (queue.length) {
-    let len = queue.length;
-    let temp = [];
-    for (let i = 0; i < len; i++) {
-      if (queue[i].left) queue.push(queue[i].left);
-      if (queue[i].right) queue.push(queue[i].right);
-      temp.push(queue[i].val);
-    }
-    queue = queue.slice(len);
-    res.push(temp);
-  }
-  return res;
+	while (queue.length) {
+		let len = queue.length;
+		let temp = [];
+		for (let i = 0; i < len; i++) {
+			if (queue[i].left) queue.push(queue[i].left);
+			if (queue[i].right) queue.push(queue[i].right);
+			temp.push(queue[i].val);
+		}
+		queue = queue.slice(len);
+		res.push(temp);
+	}
+	return res;
 };
 ```
 
@@ -82,19 +82,19 @@ var decorateRecord = function (root) {
  * @return {number[][]}
  */
 var decorateRecord = function (root) {
-  let res = [];
-  const traverse = (node, deep) => {
-    if (node == null) return;
-    if (res.length == deep) {
-      res[deep] = [node.val];
-    } else {
-      res[deep].push(node.val);
-    }
-    traverse(node.left, deep + 1);
-    traverse(node.right, deep + 1);
-  };
-  traverse(root, 0);
-  return res;
+	let res = [];
+	const traverse = (node, deep) => {
+		if (node == null) return;
+		if (res.length == deep) {
+			res[deep] = [node.val];
+		} else {
+			res[deep].push(node.val);
+		}
+		traverse(node.left, deep + 1);
+		traverse(node.right, deep + 1);
+	};
+	traverse(root, 0);
+	return res;
 };
 ```
 

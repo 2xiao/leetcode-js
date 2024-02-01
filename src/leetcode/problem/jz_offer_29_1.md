@@ -26,7 +26,7 @@
 - `0 <= array[i].length <= 100`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 54 题](./0054.md) 相同。
+本题与 LeetCode [第 54 题](./0054.md) 相同。
 :::
 
 ## 解题思路
@@ -44,37 +44,37 @@
  * @return {number[]}
  */
 var spiralArray = function (array) {
-  if (!array[0]) return array;
-  let res = [];
-  const m = array.length;
-  const n = array[0].length;
-  let left = 0;
-  let right = n - 1;
-  let top = 0;
-  let bottom = m - 1;
-  let count = 0;
-  while (count < m * n) {
-    for (let i = left; i <= right; i++) {
-      res[count] = array[top][i];
-      count++;
-    }
-    top++;
-    for (let i = top; i <= bottom; i++) {
-      res[count] = array[i][right];
-      count++;
-    }
-    right--;
-    for (let i = right; i >= left; i--) {
-      res[count] = array[bottom][i];
-      count++;
-    }
-    bottom--;
-    for (let i = bottom; i >= top; i--) {
-      res[count] = array[i][left];
-      count++;
-    }
-    left++;
-  }
-  return res.slice(0, m * n);
+	if (!array[0]) return array;
+	let res = [];
+	const m = array.length;
+	const n = array[0].length;
+	let left = 0;
+	let right = n - 1;
+	let top = 0;
+	let bottom = m - 1;
+	let count = 0;
+	while (count < m * n) {
+		for (let i = left; i <= right; i++) {
+			res[count] = array[top][i];
+			count++;
+		}
+		top++;
+		for (let i = top; i <= bottom; i++) {
+			res[count] = array[i][right];
+			count++;
+		}
+		right--;
+		for (let i = right; i >= left; i--) {
+			res[count] = array[bottom][i];
+			count++;
+		}
+		bottom--;
+		for (let i = bottom; i >= top; i--) {
+			res[count] = array[i][left];
+			count++;
+		}
+		left++;
+	}
+	return res.slice(0, m * n);
 };
 ```

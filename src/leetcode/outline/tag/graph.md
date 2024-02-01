@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0261 | [以图判树](https://leetcode.com/problems/graph-valid-tree/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |

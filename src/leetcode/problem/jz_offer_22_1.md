@@ -19,7 +19,7 @@
 - `1 <= cnt <= head.length`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 19 题](./0019.md) 相同。
+本题与 LeetCode [第 19 题](./0019.md) 相同。
 :::
 
 ## 解题思路
@@ -35,15 +35,15 @@
  * @return {ListNode}
  */
 var trainingPlan = function (head, cnt) {
-  let fast = head;
-  let slow = head;
-  for (let i = 0; i < cnt; i++) {
-    fast = fast.next;
-  }
-  while (fast) {
-    fast = fast.next;
-    slow = slow.next;
-  }
-  return slow;
+	let fast = head;
+	let slow = head;
+	for (let i = 0; i < cnt; i++) {
+		fast = fast.next;
+	}
+	while (fast) {
+		fast = fast.next;
+		slow = slow.next;
+	}
+	return slow;
 };
 ```

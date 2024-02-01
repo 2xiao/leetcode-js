@@ -19,7 +19,7 @@
 - `-100 <= Node.val <= 100`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 226 题](./0226.md) 相同。
+本题与 LeetCode [第 226 题](./0226.md) 相同。
 :::
 
 ## 解题思路
@@ -40,10 +40,10 @@
  * @return {TreeNode}
  */
 var mirrorTree = function (root) {
-  if (!root) return null;
-  let temp = root.left;
-  root.left = mirrorTree(root.right);
-  root.right = mirrorTree(temp);
-  return root;
+	if (!root) return null;
+	let temp = root.left;
+	root.left = mirrorTree(root.right);
+	root.right = mirrorTree(temp);
+	return root;
 };
 ```

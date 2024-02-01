@@ -508,7 +508,7 @@ title: "面试进阶 300 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 
 

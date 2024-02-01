@@ -236,7 +236,7 @@ title: "面试高频 200 题"
 | 0572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0572) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) `2+` | <font color=#15bd66>Esay</font> | 28 |
 | 0100 | [相同的树](https://leetcode.com/problems/same-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0100) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> | 16 |
 | 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0111) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> | 20 |
-| 剑指 Offer 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 16 |
+| 剑指 Offer 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_32_3) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 16 |
 
 
 * 图的拓扑排序
@@ -285,7 +285,7 @@ title: "面试高频 200 题"
 | 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 261 |
 | 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> | 61 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> | 58 |
-| 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#ffb800>Medium</font> | 16 |
+| 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_33_1) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#ffb800>Medium</font> | 16 |
 
 
 ## 回溯算法

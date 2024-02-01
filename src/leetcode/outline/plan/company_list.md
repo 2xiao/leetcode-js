@@ -57,7 +57,7 @@ title: "热门企业题库"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Esay</font> | 20 |
-| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 20 |
+| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 20 |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> | 19 |
 | 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> | 19 |
 | 1268 | [搜索推荐系统](https://leetcode.com/problems/search-suggestions-system/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 18 |

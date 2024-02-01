@@ -31,7 +31,7 @@
 - `0 <= 链表长度 <= 1000`
 
 ::: warning
-**注意：** 本题与 LeetCode [第 21 题](./0021.md) 相同。
+本题与 LeetCode [第 21 题](./0021.md) 相同。
 :::
 
 ## 解题思路
@@ -53,19 +53,19 @@
  * @return {ListNode}
  */
 var trainningPlan = function (l1, l2) {
-  let res = new ListNode();
-  let cur = res;
-  while (l1 && l2) {
-    if (l1.val <= l2.val) {
-      cur.next = l1;
-      l1 = l1.next;
-    } else {
-      cur.next = l2;
-      l2 = l2.next;
-    }
-    cur = cur.next;
-  }
-  cur.next = l1 == null ? l2 : l1;
-  return res.next;
+	let res = new ListNode();
+	let cur = res;
+	while (l1 && l2) {
+		if (l1.val <= l2.val) {
+			cur.next = l1;
+			l1 = l1.next;
+		} else {
+			cur.next = l2;
+			l2 = l2.next;
+		}
+		cur = cur.next;
+	}
+	cur.next = l1 == null ? l2 : l1;
+	return res.next;
 };
 ```

@@ -31,7 +31,7 @@
 > 解释: 如果两个单词间有多余的空格，将反转后单词间的空格减少到只含一个。
 
 ::: warning
-**注意：** 本题与 LeetCode [第 151 题](./0151.md) 相同。
+本题与 LeetCode [第 151 题](./0151.md) 相同。
 :::
 
 ## 解题思路
@@ -57,10 +57,10 @@
  */
 // 非原地反转
 var reverseWords = function (s) {
-  return s
-    .split(" ")
-    .reverse()
-    .filter((i) => i != "")
-    .join(" ");
+	return s
+		.split(' ')
+		.reverse()
+		.filter((i) => i != '')
+		.join(' ');
 };
 ```
