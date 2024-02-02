@@ -483,7 +483,7 @@ title: "面试进阶 300 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0046 | [全排列](https://leetcode.com/problems/permutations/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 0046 | [全排列](https://leetcode.com/problems/permutations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0046) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0022 | [括号生成](https://leetcode.com/problems/generate-parentheses/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0093 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0078 | [子集](https://leetcode.com/problems/subsets/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
@@ -497,7 +497,7 @@ title: "面试进阶 300 题"
 | 0842 | [将数组拆分成斐波那契序列](https://leetcode.com/problems/split-array-into-fibonacci-sequence/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0216 | [组合总和 III](https://leetcode.com/problems/combination-sum-iii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0089 | [格雷编码](https://leetcode.com/problems/gray-code/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 0051 | [N 皇后](https://leetcode.com/problems/n-queens/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
+| 0051 | [N 皇后](https://leetcode.com/problems/n-queens/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0051) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
 | 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0126 | [单词接龙 II](https://leetcode.com/problems/word-ladder-ii/) |  |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1659 | [最大化网格幸福感](https://leetcode.com/problems/maximize-grid-happiness/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
