@@ -10,7 +10,7 @@
     "docs:dev": "vuepress dev src",
     "docs:update-package": "npx vp-update",
     "dev": "vuepress dev src",
-    "lc": "cd ./assets/scripts & python ./entrance.py",
+    "lc": "cd ./assets/scripts & py ./entrance.py",
     "spider": "cd ./assets/scripts & py ./leetcode-crawler.py ../output -v"
   },
   "devDependencies": {
