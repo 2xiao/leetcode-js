@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 247 道
+已完成 250 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -32,10 +32,12 @@
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0034) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0035) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 0040 | [组合总和 II](https://leetcode.com/problems/combination-sum-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0040) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0041) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ff334b>Hard</font> |
 | 0042 | [接雨水](https://leetcode.com/problems/trapping-rain-water/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0042) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0044 | [通配符匹配](https://leetcode.com/problems/wildcard-matching/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0044) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0046 | [全排列](https://leetcode.com/problems/permutations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0046) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 0047 | [全排列 II](https://leetcode.com/problems/permutations-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0047) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0050) |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0051 | [N 皇后](https://leetcode.com/problems/n-queens/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0051) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
@@ -60,6 +62,7 @@
 | 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
 | 0086 | [分隔链表](https://leetcode.com/problems/partition-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0086) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0088) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
+| 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0090) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0094) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
 | 0095 | [不同的二叉搜索树 II](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0095) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `2+` | <font color=#ffb800>Medium</font> |

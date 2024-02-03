@@ -25,5 +25,5 @@
 | 1349 | [参加考试的最大学生数](https://leetcode.com/problems/maximum-students-taking-exam/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0645 | [错误的集合](https://leetcode.com/problems/set-mismatch/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#15bd66>Esay</font> |
 | 0078 | [子集](https://leetcode.com/problems/subsets/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0078) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 0090 | [子集 II](https://leetcode.com/problems/subsets-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0090) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 

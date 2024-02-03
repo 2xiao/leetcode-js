@@ -40,6 +40,7 @@ var goodsOrder = function (goods) {
 
 	// 首先将商品字符串排序，确保相同的字符相邻
 	const soredGoods = goods.split('').sort().join('');
+
 	const backtrack = (word) => {
 		// 如果当前路径长度等于商品总数，则将当前排列加入结果集
 		if (word.length == len) {
