@@ -74,11 +74,15 @@
  */
 var copyRandomList = function (head) {
 	let clone = new Map();
+
+	// 第一次遍历，专门克隆节点
 	for (let p = head; p !== null; p = p.next) {
 		if (!clone.has(p)) {
 			clone.set(p, new Node(p.val));
 		}
 	}
+
+	// 第二次遍历，专门组装节点
 	for (let p = head; p !== null; p = p.next) {
 		if (p.next !== null) {
 			clone.get(p).next = clone.get(p.next);

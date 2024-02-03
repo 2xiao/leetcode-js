@@ -253,7 +253,7 @@ title: "面试高频 200 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Esay</font> | 232 |
-| 0078 | [子集](https://leetcode.com/problems/subsets/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 85 |
+| 0078 | [子集](https://leetcode.com/problems/subsets/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0078) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 85 |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> | 68 |
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> | 49 |
 
@@ -297,7 +297,7 @@ title: "面试高频 200 题"
 | 0047 | [全排列 II](https://leetcode.com/problems/permutations-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 40 |
 | 0037 | [解数独](https://leetcode.com/problems/sudoku-solver/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+` | <font color=#ff334b>Hard</font> | 18 |
 | 0022 | [括号生成](https://leetcode.com/problems/generate-parentheses/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 105 |
-| 0078 | [子集](https://leetcode.com/problems/subsets/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 85 |
+| 0078 | [子集](https://leetcode.com/problems/subsets/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0078) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 85 |
 | 0039 | [组合总和](https://leetcode.com/problems/combination-sum/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 68 |
 | 0040 | [组合总和 II](https://leetcode.com/problems/combination-sum-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 35 |
 | 0093 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 114 |
