@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 257 道
+已完成 258 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -257,6 +257,7 @@
 | 剑指 Offer 37 | [序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_37_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 38 | [字符串的排列](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_38_1) |  [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 39 | [数组中出现次数超过一半的数字](https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_39_1) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 52 | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_52_1) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 54 | [二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_54_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer 58 - I | [翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_58_1) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 031 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_031) |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
