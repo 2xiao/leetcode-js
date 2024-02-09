@@ -395,11 +395,13 @@ export default sidebar({
             "jz_offer_38_1",
             "jz_offer_39_1",
             "jz_offer_42_1",
+            "jz_offer_47_1",
             "jz_offer_50_1",
             "jz_offer_52_1",
             "jz_offer_53_1",
             "jz_offer_53_2",
             "jz_offer_54_1",
+            "jz_offer_55_1",
             "jz_offer_58_1"
           ],
         },
