@@ -296,7 +296,7 @@ title: "面试经典 150 题"
 | 0198 | [打家劫舍](https://leetcode.com/problems/house-robber/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0139 | [单词拆分](https://leetcode.com/problems/word-break/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0322) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 0300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0300) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 
 
 ## Multidimensional DP
@@ -309,7 +309,7 @@ title: "面试经典 150 题"
 | 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0063) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0097 | [交错字符串](https://leetcode.com/problems/interleaving-string/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 0072 | [编辑距离](https://leetcode.com/problems/edit-distance/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 0072 | [编辑距离](https://leetcode.com/problems/edit-distance/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0072) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0188 | [买卖股票的最佳时机 IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
