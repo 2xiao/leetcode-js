@@ -303,7 +303,7 @@
 | 1111 | [有效括号的嵌套深度](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1119 | [删去字符串中的元音](https://leetcode.com/problems/remove-vowels-from-a-string/) |  |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 1138 | [字母板上的路径](https://leetcode.com/problems/alphabet-board-path/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1143) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1147 | [段式回文](https://leetcode.com/problems/longest-chunked-palindrome-decomposition/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) `3+` | <font color=#ff334b>Hard</font> |
 | 1153 | [字符串转化](https://leetcode.com/problems/string-transforms-into-another-string/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 1154 | [一年中的第几天](https://leetcode.com/problems/day-of-the-year/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |

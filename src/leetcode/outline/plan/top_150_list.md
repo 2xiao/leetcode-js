@@ -232,7 +232,7 @@ title: "面试经典 150 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0053) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0954 | [二倍数对数组](https://leetcode.com/problems/array-of-doubled-pairs/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 
 

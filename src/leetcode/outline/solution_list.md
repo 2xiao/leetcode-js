@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 268 道
+已完成 270 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -45,6 +45,7 @@
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0050) |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0051 | [N 皇后](https://leetcode.com/problems/n-queens/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0051) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
 | 0052 | [N 皇后 II](https://leetcode.com/problems/n-queens-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0052) |  [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
+| 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0053) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 0058 | [最后一个单词的长度](https://leetcode.com/problems/length-of-last-word/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0058) |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 0059 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0059) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
@@ -217,6 +218,7 @@
 | 1021 | [删除最外层的括号](https://leetcode.com/problems/remove-outermost-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1021) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 1081 | [不同字符的最小子序列](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1081) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1143) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1190) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
