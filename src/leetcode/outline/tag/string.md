@@ -21,7 +21,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
-| 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0006 | [N 字形变换](https://leetcode.com/problems/zigzag-conversion/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0006) |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0008 | [字符串转换整数 (atoi)](https://leetcode.com/problems/string-to-integer-atoi/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0008) |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0010 | [正则表达式匹配](https://leetcode.com/problems/regular-expression-matching/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0010) |  [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
@@ -149,7 +149,7 @@
 | 0488 | [祖玛游戏](https://leetcode.com/problems/zuma-game/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0500 | [键盘行](https://leetcode.com/problems/keyboard-row/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 0514 | [自由之路](https://leetcode.com/problems/freedom-trail/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
-| 0516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0516) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0520 | [检测大写字母](https://leetcode.com/problems/detect-capital/) |  |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 0521 | [最长特殊序列 Ⅰ](https://leetcode.com/problems/longest-uncommon-subsequence-i/) |  |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 0522 | [最长特殊序列 II](https://leetcode.com/problems/longest-uncommon-subsequence-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
