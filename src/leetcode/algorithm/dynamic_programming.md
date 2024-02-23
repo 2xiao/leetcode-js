@@ -153,7 +153,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0416) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0494 | [目标和](https://leetcode.com/problems/target-sum/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 

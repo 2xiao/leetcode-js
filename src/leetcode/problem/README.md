@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 275 道
+已完成 276 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -174,6 +174,7 @@
 | 0382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0382) |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0392 | [判断子序列](https://leetcode.com/problems/is-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0392) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
 | 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 0416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0416) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0426) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
 | 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0430) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) |  [`栈`](/leetcode/outline/tag/stack.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
