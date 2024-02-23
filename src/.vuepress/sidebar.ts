@@ -244,6 +244,7 @@ export default sidebar({
             "0445",
             "0450",
             "0451",
+            "0474",
             "0485",
             "0496",
             "0498"
@@ -427,7 +428,8 @@ export default sidebar({
           text: "剑指 Offer II",
           collapsible: true,
           children: [
-            "jz_offer_II_031"
+            "jz_offer_II_031",
+            "jz_offer_II_101"
           ],
         },// AUTO_GEN_CONFIG_END
       ],

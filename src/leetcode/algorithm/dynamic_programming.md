@@ -182,7 +182,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0474 | [一和零](https://leetcode.com/problems/ones-and-zeroes/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0474 | [一和零](https://leetcode.com/problems/ones-and-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0474) |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0879 | [盈利计划](https://leetcode.com/problems/profitable-schemes/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1995 | [统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`枚举`](/leetcode/outline/tag/enumeration.md) | <font color=#15bd66>Esay</font> |
 

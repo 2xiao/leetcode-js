@@ -1,37 +1,37 @@
-# [416. Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/)
+# [剑指 Offer II 101. 分割等和子集](https://leetcode.cn/problems/NUPfPr/)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.com/problems/partition-equal-subset-sum/)
+🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/NUPfPr/)
 
 ## 题目
 
-Given an integer array `nums`, return `true` _if you can partition the array
-into two subsets such that the sum of the elements in both subsets is equal
-or_`false` _otherwise_.
+给定一个非空的正整数数组 nums ，请判断能否将这些数字分成元素和相等的两部分。
 
-**Example 1:**
+**示例 1：**
 
-> Input: nums = [1,5,11,5]
+> 输入：nums = [1,5,11,5]
 >
-> Output: true
+> 输出：true
 >
-> Explanation: The array can be partitioned as [1, 5, 5] and [11].
+> 解释：nums 可以分割成 [1, 5, 5] 和 [11] 。
 
-**Example 2:**
+**示例 2：**
 
-> Input: nums = [1,2,3,5]
+> 输入：nums = [1,2,3,5]
 >
-> Output: false
+> 输出：false
 >
-> Explanation: The array cannot be partitioned into equal sum subsets.
+> 解释：nums 不可以分为和相等的两部分
 
-**Constraints:**
+**提示：**
 
 - `1 <= nums.length <= 200`
 - `1 <= nums[i] <= 100`
 
-## 题目大意
+::: warning
 
-给你一个 **只包含正整数** 的 **非空** 数组 `nums` 。请你判断是否可以将这个数组分割成两个子集，使得两个子集的元素和相等。
+本题与 LeetCode [第 416 题](./0416.md) 相同。
+
+:::
 
 ## 解题思路
 
@@ -58,9 +58,10 @@ or_`false` _otherwise_.
 注意到 `dp[i][j]` 都是通过上一行 `dp[i-1][..]` 转移过来的，再之前所有行的数据都不会再使用了。所以，我们可以对动态规划进行状态压缩，将二维 `dp` 数组压缩为一维，节约空间复杂度：
 
 - `dp[j]` 表示是否可以使用当前元素得到和为 `j` 的子集。
-- 遍历 `nums` 数组中的每个数字 `num`，并更新 `dp` 数组。需要注意的是 `j` 应该从后往前反向遍历，确保了我们在更新当前状态时所依赖的状态已经被正确计算。
+- 遍历数组中的每个数字 `num`，并更新 `dp` 数组。需要注意的是 `j` 应该从后往前反向遍历，确保了我们在更新当前状态时所依赖的状态已经被正确计算。
 - 对于每个 `j` 从 `target` 到 `num`，根据 `dp[j]` 和 `dp[j - num]` 的值来更新 `dp[j]`。
 - 最终结果存储在 `dp[target]` 中。如果为 `true`，表示存在一个和为 `target` 的子集，即数组可以被分割成两个和相等的子集。
+- 唯一
 
 ## 代码
 
@@ -143,17 +144,3 @@ function canPartition(nums) {
 ```
 
 :::
-
-## 相关题目
-
-:::: md-demo 相关题目
-
-- [698. 划分为 k 个相等的子集](https://leetcode.com/problems/partition-to-k-equal-sum-subsets)
-- [1981. 最小化目标值与所选元素的差](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements)
-- [2025. 分割数组的最多方案数](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array)
-- [2035. 将数组分成两个数组并最小化数组和的差](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference)
-- [2395. 和相等的子数组](https://leetcode.com/problems/find-subarrays-with-equal-sum)
-- [2518. 好分区的数目](https://leetcode.com/problems/number-of-great-partitions)
-- [2578. 最小和分割](https://leetcode.com/problems/split-with-minimum-sum)
-
-::::

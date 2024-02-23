@@ -154,7 +154,7 @@
 | 剑指 Offer 31 | [栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_31_1) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 002 | [二进制加法](https://leetcode.cn/problems/JFETK5/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Esay</font> |
 | 剑指 Offer II 037 | [小行星碰撞](https://leetcode.cn/problems/XagZNi/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 101 | [分割等和子集](https://leetcode.cn/problems/NUPfPr/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Esay</font> |
+| 剑指 Offer II 101 | [分割等和子集](https://leetcode.cn/problems/NUPfPr/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_101) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Esay</font> |
 | 面试题 16.22 | [兰顿蚂蚁](https://leetcode.cn/problems/langtons-ant-lcci/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#ffb800>Medium</font> |
 
 <style>
