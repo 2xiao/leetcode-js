@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 280 道
+已完成 281 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -219,6 +219,7 @@
 | 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 0880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0880) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0889) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0931) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0946) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 0958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0958) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0973) |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) `4+` | <font color=#ffb800>Medium</font> |
