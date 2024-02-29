@@ -1,66 +1,37 @@
-# [121. Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+# [剑指 Offer 63. 股票的最大利润](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof/)
 
 ## 题目
 
-You are given an array `prices` where `prices[i]` is the price of a given
-stock on the `ith` day.
+数组 `prices` 记录了某芯片近期的交易价格，其中 `prices[i]` 表示的 `i` 天该芯片的价格。你只能选择 **某一天** 买入芯片，并选择在 **未来的某一个不同的日子** 卖出该芯片。请设计一个算法计算并返回你从这笔交易中能获取的最大利润。
 
-You want to maximize your profit by choosing a **single day** to buy one stock
-and choosing a **different day in the future** to sell that stock.
-
-Return _the maximum profit you can achieve from this transaction_. If you
-cannot achieve any profit, return `0`.
-
-**Example 1:**
-
-> Input: prices = [7,1,5,3,6,4]
->
-> Output: 5
->
-> Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
->
-> Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
-
-**Example 2:**
-
-> Input: prices = [7,6,4,3,1]
->
-> Output: 0
->
-> Explanation: In this case, no transactions are done and the max profit = 0.
-
-**Constraints:**
-
-- `1 <= prices.length <= 10^5`
-- `0 <= prices[i] <= 10^4`
-
-## 题目大意
-
-给定一个数组 `prices` ，它的第 `i` 个元素 `prices[i]` 表示一支给定股票第 `i` 天的价格。
-
-你只能选择 **某一天** 买入这只股票，并选择在 **未来的某一个不同的日子** 卖出该股票。设计一个算法来计算你所能获取的最大利润。
-
-返回你可以从这笔交易中获取的最大利润。如果你不能获取任何利润，返回 `0` 。
+如果你不能获取任何利润，返回 `0`。
 
 **示例 1：**
 
-> 输入：[7,1,5,3,6,4]
+> 输入：prices = [3, 6, 2, 9, 8, 5]
 >
-> 输出：5
+> 输出：7
 >
-> 解释：在第 2 天（股票价格 = 1）的时候买入，在第 5 天（股票价格 = 6）的时候卖出，最大利润 = 6-1 = 5 。
->
-> 注意利润不能是 7-1 = 6, 因为卖出价格需要大于买入价格；同时，你不能在买入前卖出股票。
+> 解释：在第 3 天（芯片价格 = 2）买入，在第 4 天（芯片价格 = 9）卖出，最大利润 = 9 - 2 = 7。
 
 **示例 2：**
 
-> 输入：prices = [7,6,4,3,1]
+> 输入：prices = [8, 12, 15, 7, 3, 10]
 >
-> 输出：0
+> 输出：7
 >
-> 解释：在这种情况下, 没有交易完成, 所以最大利润为 0。
+> 解释：在第 5 天（芯片价格 = 3）买入，在第 6 天（芯片价格 = 10）卖出，最大利润 = 10 - 3 = 7。
+
+**提示：**
+
+- `0 <= prices.length <= 10^5`
+- `0 <= prices[i] <= 10^4`
+
+::: warning
+本题与 LeetCode [第 121 题](./0121.md) 相同。
+:::
 
 ## 解题思路
 
@@ -109,7 +80,7 @@ cannot achieve any profit, return `0`.
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function (prices) {
+var bestTiming = function (prices) {
 	const n = prices.length;
 	const dp = new Array(n).fill(0).map(() => new Array(2).fill(0));
 	for (let i = 0; i < n; i++) {
@@ -132,7 +103,7 @@ var maxProfit = function (prices) {
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function (prices) {
+var bestTiming = function (prices) {
 	let min_price = prices[0];
 	let max_profit = 0;
 	for (let price of prices) {
@@ -144,18 +115,3 @@ var maxProfit = function (prices) {
 ```
 
 :::
-
-## 相关题目
-
-:::: md-demo 相关题目
-
-- [53. 最大子数组和](https://leetcode.com/problems/maximum-subarray)
-- [122. 买卖股票的最佳时机 II](./0122.md)
-- [123. 买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii)
-- [188. 买卖股票的最佳时机 IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv)
-- [309. 最佳买卖股票时机含冷冻期](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown)
-- [2012. 数组美丽值求和](https://leetcode.com/problems/sum-of-beauty-in-the-array)
-- [2016. 增量元素之间的最大差值](https://leetcode.com/problems/maximum-difference-between-increasing-elements)
-- [🔒 Maximum Profit From Trading Stocks](https://leetcode.com/problems/maximum-profit-from-trading-stocks)
-
-::::
