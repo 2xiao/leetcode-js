@@ -312,7 +312,7 @@ title: "面试经典 150 题"
 | 0072 | [编辑距离](https://leetcode.com/problems/edit-distance/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0072) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0123) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0188 | [买卖股票的最佳时机 IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0188) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 0221 | [最大正方形](https://leetcode.com/problems/maximal-square/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0221) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 
 
 ::: info
