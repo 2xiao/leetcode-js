@@ -215,7 +215,7 @@
 | 1118 | [一月有多少天](https://leetcode.com/problems/number-of-days-in-a-month/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
 | 1131 | [绝对值表达式的最大值](https://leetcode.com/problems/maximum-of-absolute-value-expression/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 1134 | [阿姆斯特朗数](https://leetcode.com/problems/armstrong-number/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
-| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) |  |  [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
+| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1137) |  [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Esay</font> |
 | 1140 | [石子游戏 II](https://leetcode.com/problems/stone-game-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1154 | [一年中的第几天](https://leetcode.com/problems/day-of-the-year/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 1175 | [质数排列](https://leetcode.com/problems/prime-arrangements/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
