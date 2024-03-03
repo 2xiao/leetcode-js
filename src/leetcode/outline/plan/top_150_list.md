@@ -75,13 +75,13 @@ title: "面试经典 150 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0383 | [赎金信](https://leetcode.com/problems/ransom-note/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Esay</font> |
+| 0383 | [赎金信](https://leetcode.com/problems/ransom-note/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0383) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Esay</font> |
 | 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
-| 0290 | [单词规律](https://leetcode.com/problems/word-pattern/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
+| 0290 | [单词规律](https://leetcode.com/problems/word-pattern/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0290) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0242) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
 | 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Esay</font> |
-| 0202 | [快乐数](https://leetcode.com/problems/happy-number/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0202 | [快乐数](https://leetcode.com/problems/happy-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0202) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
 | 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#15bd66>Esay</font> |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 
