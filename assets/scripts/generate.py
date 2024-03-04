@@ -124,10 +124,9 @@ def gen_config_js():
             frames[problem_catalog] = []
         frames[problem_catalog].append('"' + Path(file).stem + '"')
 
-    for idx, frame in frames.items():
+    for idx, frame in sorted(frames.items(), key=lambda item: (item[0], item[1])):
         children = spaces_4 + (',' + base_spaces +
-                               spaces_4).join(map(str, frame))
-        # toc_path = spaces_4 + '"/leetcode/solution/' + idx + '.md",'
+                               spaces_4).join(map(str, sorted(frame)))
         title = idx
         if idx in file_name:
             title = file_name[idx]

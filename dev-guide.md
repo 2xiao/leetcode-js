@@ -4,7 +4,6 @@
 
 - git
 - [nodejs](https://nodejs.org/en/download)
-- [python 3](https://www.python.org/downloads/)
 
 2. 拉取代码
 
@@ -37,6 +36,15 @@ npm run dev
 
 6. 使用脚本更新 LeetCode 题解统计
 
+安装依赖
+
+- [python 3](https://www.python.org/downloads/)
+- pandas: `pip3 install pandas`
+
+运行脚本
+
 ```
-npm run lc
+cd ./assets/scripts
+
+python3 ./entrance.py
 ```
