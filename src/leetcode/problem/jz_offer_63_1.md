@@ -73,7 +73,7 @@
 ## 代码
 
 ::: code-tabs
-@tab 思路一：动态规划
+@tab 动态规划
 
 ```javascript
 /**
@@ -96,7 +96,7 @@ var bestTiming = function (prices) {
 };
 ```
 
-@tab 思路二：动态规划-状态压缩
+@tab 动态规划-状态压缩
 
 ```javascript
 /**

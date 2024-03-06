@@ -45,7 +45,7 @@
 ## 代码
 
 ::: code-tabs
-@tab 思路一：广度优先遍历(BFS)
+@tab 广度优先遍历(BFS)
 
 ```javascript
 // 思路一：广度优先遍历(BFS)
@@ -73,7 +73,7 @@ var decorateRecord = function (root) {
 };
 ```
 
-@tab 思路二：深度优先遍历(DFS)
+@tab 深度优先遍历(DFS)
 
 ```javascript
 // 思路二：深度优先遍历(DFS)

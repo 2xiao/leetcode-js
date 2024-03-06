@@ -60,7 +60,7 @@
 
 ::: code-tabs
 
-@tab 思路一：循环
+@tab 循环
 
 ```javascript
 /**
@@ -78,7 +78,7 @@ var hammingWeight = function (n) {
 };
 ```
 
-@tab 思路二：位运算
+@tab 位运算
 
 ```javascript
 /**

@@ -92,25 +92,25 @@
 ```javascript
 // 前序遍历：
 preOrder = (r) => {
-  if (r == null) return;
-  console.log(r);
-  preOrder(r.left);
-  preOrder(r.right);
+	if (r == null) return;
+	console.log(r);
+	preOrder(r.left);
+	preOrder(r.right);
 };
 
 // 中序遍历：
 inOrder = (r) => {
-  if (r == null) return;
-  inOrder(r.left);
-  console.log(r);
-  inOrder(r.right);
+	if (r == null) return;
+	inOrder(r.left);
+	console.log(r);
+	inOrder(r.right);
 };
 // 后序遍历：
 postOrder = (r) => {
-  if (r == null) return;
-  postOrder(r.left);
-  postOrder(r.right);
-  console.log(r);
+	if (r == null) return;
+	postOrder(r.left);
+	postOrder(r.right);
+	console.log(r);
 };
 ```
 
@@ -146,33 +146,33 @@ postOrder = (r) => {
 #### 💎 **代码**
 
 ::: code-tabs
-@tab 思路一：递归
+@tab 递归
 
 ```javascript
 var preorderTraversal = function (root) {
-  let res = [];
-  if (root == null) return res;
-  res.push(root.val);
-  res.push(...preorderTraversal(root.left));
-  res.push(...preorderTraversal(root.right));
-  return res;
+	let res = [];
+	if (root == null) return res;
+	res.push(root.val);
+	res.push(...preorderTraversal(root.left));
+	res.push(...preorderTraversal(root.right));
+	return res;
 };
 ```
 
-@tab 思路二：迭代
+@tab 迭代
 
 ```javascript
 var preorderTraversal = function (root) {
-  let res = [];
-  if (root == null) return res;
-  let stack = [root];
-  while (stack.length) {
-    let node = stack.pop();
-    res.push(node.val);
-    if (node.right) stack.push(node.right);
-    if (node.left) stack.push(node.left);
-  }
-  return res;
+	let res = [];
+	if (root == null) return res;
+	let stack = [root];
+	while (stack.length) {
+		let node = stack.pop();
+		res.push(node.val);
+		if (node.right) stack.push(node.right);
+		if (node.left) stack.push(node.left);
+	}
+	return res;
 };
 ```
 
@@ -205,33 +205,33 @@ var preorderTraversal = function (root) {
 #### 💎 **代码**
 
 ::: code-tabs
-@tab 思路一：递归
+@tab 递归
 
 ```javascript
 var postorderTraversal = function (root) {
-  let res = [];
-  if (root == null) return res;
-  res.push(...postorderTraversal(root.left));
-  res.push(...postorderTraversal(root.right));
-  res.push(root.val);
-  return res;
+	let res = [];
+	if (root == null) return res;
+	res.push(...postorderTraversal(root.left));
+	res.push(...postorderTraversal(root.right));
+	res.push(root.val);
+	return res;
 };
 ```
 
-@tab 思路二：迭代
+@tab 迭代
 
 ```javascript
 var postorderTraversal = function (root) {
-  let res = [];
-  if (root == null) return res;
-  let stack = [root];
-  while (stack.length) {
-    let node = stack.pop();
-    res.unshift(node.val);
-    if (node.left) stack.push(node.left);
-    if (node.right) stack.push(node.right);
-  }
-  return res;
+	let res = [];
+	if (root == null) return res;
+	let stack = [root];
+	while (stack.length) {
+		let node = stack.pop();
+		res.unshift(node.val);
+		if (node.left) stack.push(node.left);
+		if (node.right) stack.push(node.right);
+	}
+	return res;
 };
 ```
 
@@ -264,38 +264,38 @@ var postorderTraversal = function (root) {
 #### 💎 **代码**
 
 ::: code-tabs
-@tab 思路一：递归
+@tab 递归
 
 ```javascript
 var inorderTraversal = function (root) {
-  let res = [];
-  if (root == null) return res;
-  res.push(...inorderTraversal(root.left));
-  res.push(root.val);
-  res.push(...inorderTraversal(root.right));
-  return res;
+	let res = [];
+	if (root == null) return res;
+	res.push(...inorderTraversal(root.left));
+	res.push(root.val);
+	res.push(...inorderTraversal(root.right));
+	return res;
 };
 ```
 
-@tab 思路二：迭代
+@tab 迭代
 
 ```javascript
 var inorderTraversal = function (root) {
-  let res = [];
-  if (root == null) return res;
-  let stack = [];
-  let cur = root;
-  while (cur != null || stack.length) {
-    if (cur != null) {
-      stack.push(cur);
-      cur = cur.left;
-    } else {
-      cur = stack.pop();
-      res.push(cur.val);
-      cur = cur.right;
-    }
-  }
-  return res;
+	let res = [];
+	if (root == null) return res;
+	let stack = [];
+	let cur = root;
+	while (cur != null || stack.length) {
+		if (cur != null) {
+			stack.push(cur);
+			cur = cur.left;
+		} else {
+			cur = stack.pop();
+			res.push(cur.val);
+			cur = cur.right;
+		}
+	}
+	return res;
 };
 ```
 
@@ -336,46 +336,46 @@ var inorderTraversal = function (root) {
 #### 💎 **代码**
 
 ::: code-tabs
-@tab 思路一：广度优先遍历(BFS)
+@tab 广度优先遍历(BFS)
 
 ```javascript
 var levelOrder = function (root) {
-  let res = [];
-  if (root == null) return res;
-  let queue = [root];
+	let res = [];
+	if (root == null) return res;
+	let queue = [root];
 
-  while (queue.length) {
-    let len = queue.length;
-    let temp = [];
-    for (let i = 0; i < len; i++) {
-      if (queue[i].left) queue.push(queue[i].left);
-      if (queue[i].right) queue.push(queue[i].right);
-      temp.push(queue[i].val);
-    }
-    queue = queue.slice(len);
-    res.push(temp);
-  }
-  return res;
+	while (queue.length) {
+		let len = queue.length;
+		let temp = [];
+		for (let i = 0; i < len; i++) {
+			if (queue[i].left) queue.push(queue[i].left);
+			if (queue[i].right) queue.push(queue[i].right);
+			temp.push(queue[i].val);
+		}
+		queue = queue.slice(len);
+		res.push(temp);
+	}
+	return res;
 };
 ```
 
-@tab 思路二：深度优先遍历(DFS)
+@tab 深度优先遍历(DFS)
 
 ```javascript
 var levelOrder = function (root) {
-  let res = [];
-  const traverse = (node, deep) => {
-    if (node == null) return;
-    if (res.length == deep) {
-      res[deep] = [node.val];
-    } else {
-      res[deep].push(node.val);
-    }
-    traverse(node.left, deep + 1);
-    traverse(node.right, deep + 1);
-  };
-  traverse(root, 0);
-  return res;
+	let res = [];
+	const traverse = (node, deep) => {
+		if (node == null) return;
+		if (res.length == deep) {
+			res[deep] = [node.val];
+		} else {
+			res[deep].push(node.val);
+		}
+		traverse(node.left, deep + 1);
+		traverse(node.right, deep + 1);
+	};
+	traverse(root, 0);
+	return res;
 };
 ```
 
@@ -419,16 +419,16 @@ var levelOrder = function (root) {
 
 ```javascript
 var buildTree = function (preorder, inorder) {
-  if (preorder.length == 0) return null;
-  let root = new TreeNode(preorder[0]);
-  for (let i = 0; i < preorder.length; i++) {
-    if (inorder[i] === root.val) {
-      root.left = buildTree(preorder.slice(1, i + 1), inorder.slice(0, i));
-      root.right = buildTree(preorder.slice(i + 1), inorder.slice(i + 1));
-      break;
-    }
-  }
-  return root;
+	if (preorder.length == 0) return null;
+	let root = new TreeNode(preorder[0]);
+	for (let i = 0; i < preorder.length; i++) {
+		if (inorder[i] === root.val) {
+			root.left = buildTree(preorder.slice(1, i + 1), inorder.slice(0, i));
+			root.right = buildTree(preorder.slice(i + 1), inorder.slice(i + 1));
+			break;
+		}
+	}
+	return root;
 };
 ```
 
@@ -486,19 +486,19 @@ var buildTree = function (preorder, inorder) {
 
 ```javascript
 var constructMaximumBinaryTree = function (nums) {
-  if (nums.length == 0) return null;
-  let max = nums[0];
-  let maxIndex = 0;
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] > max) {
-      max = nums[i];
-      maxIndex = i;
-    }
-  }
-  let root = new TreeNode(max);
-  root.left = constructMaximumBinaryTree(nums.slice(0, maxIndex));
-  root.right = constructMaximumBinaryTree(nums.slice(maxIndex + 1));
-  return root;
+	if (nums.length == 0) return null;
+	let max = nums[0];
+	let maxIndex = 0;
+	for (let i = 0; i < nums.length; i++) {
+		if (nums[i] > max) {
+			max = nums[i];
+			maxIndex = i;
+		}
+	}
+	let root = new TreeNode(max);
+	root.left = constructMaximumBinaryTree(nums.slice(0, maxIndex));
+	root.right = constructMaximumBinaryTree(nums.slice(maxIndex + 1));
+	return root;
 };
 ```
 
@@ -523,11 +523,11 @@ var constructMaximumBinaryTree = function (nums) {
 
 ```javascript
 class TreeNode {
-  constructor(value) {
-    this.value = value;
-    this.left = null;
-    this.right = null;
-  }
+	constructor(value) {
+		this.value = value;
+		this.left = null;
+		this.right = null;
+	}
 }
 ```
 
@@ -537,10 +537,10 @@ class TreeNode {
 
 ```javascript
 class BinarySearchTree {
-  constructor() {
-    this.root = null;
-  }
-  // ...(各种操作方法)
+	constructor() {
+		this.root = null;
+	}
+	// ...(各种操作方法)
 }
 ```
 
@@ -556,25 +556,25 @@ class BinarySearchTree {
 
 ```javascript
 class BinarySearchTree {
-  // ...（之前的代码）
+	// ...（之前的代码）
 
-  insert(value) {
-    this.root = this._insert(this.root, value);
-  }
+	insert(value) {
+		this.root = this._insert(this.root, value);
+	}
 
-  _insert(node, value) {
-    if (!node) {
-      return new TreeNode(value);
-    }
+	_insert(node, value) {
+		if (!node) {
+			return new TreeNode(value);
+		}
 
-    if (value < node.value) {
-      node.left = this._insert(node.left, value);
-    } else if (value > node.value) {
-      node.right = this._insert(node.right, value);
-    }
+		if (value < node.value) {
+			node.left = this._insert(node.left, value);
+		} else if (value > node.value) {
+			node.right = this._insert(node.right, value);
+		}
 
-    return node;
-  }
+		return node;
+	}
 }
 ```
 
@@ -592,23 +592,23 @@ class BinarySearchTree {
 
 ```javascript
 class BinarySearchTree {
-  // ...（之前的代码）
+	// ...（之前的代码）
 
-  search(value) {
-    return this._search(this.root, value);
-  }
+	search(value) {
+		return this._search(this.root, value);
+	}
 
-  _search(node, value) {
-    if (!node || node.value === value) {
-      return node;
-    }
+	_search(node, value) {
+		if (!node || node.value === value) {
+			return node;
+		}
 
-    if (value < node.value) {
-      return this._search(node.left, value);
-    } else {
-      return this._search(node.right, value);
-    }
-  }
+		if (value < node.value) {
+			return this._search(node.left, value);
+		} else {
+			return this._search(node.right, value);
+		}
+	}
 }
 ```
 
@@ -624,46 +624,46 @@ class BinarySearchTree {
 
 ```javascript
 class BinarySearchTree {
-  // ...（之前的代码）
+	// ...（之前的代码）
 
-  delete(value) {
-    this.root = this._delete(this.root, value);
-  }
+	delete(value) {
+		this.root = this._delete(this.root, value);
+	}
 
-  _delete(node, value) {
-    if (!node) {
-      return null;
-    }
+	_delete(node, value) {
+		if (!node) {
+			return null;
+		}
 
-    if (value < node.value) {
-      node.left = this._delete(node.left, value);
-    } else if (value > node.value) {
-      node.right = this._delete(node.right, value);
-    } else {
-      // Node to be deleted found
+		if (value < node.value) {
+			node.left = this._delete(node.left, value);
+		} else if (value > node.value) {
+			node.right = this._delete(node.right, value);
+		} else {
+			// Node to be deleted found
 
-      // Case 1 & 2: No child or one child
-      if (!node.left) {
-        return node.right;
-      } else if (!node.right) {
-        return node.left;
-      }
+			// Case 1 & 2: No child or one child
+			if (!node.left) {
+				return node.right;
+			} else if (!node.right) {
+				return node.left;
+			}
 
-      // Case 3: Two children
-      const minRight = this._findMin(node.right);
-      node.value = minRight.value;
-      node.right = this._delete(node.right, minRight.value);
-    }
+			// Case 3: Two children
+			const minRight = this._findMin(node.right);
+			node.value = minRight.value;
+			node.right = this._delete(node.right, minRight.value);
+		}
 
-    return node;
-  }
+		return node;
+	}
 
-  _findMin(node) {
-    while (node.left) {
-      node = node.left;
-    }
-    return node;
-  }
+	_findMin(node) {
+		while (node.left) {
+			node = node.left;
+		}
+		return node;
+	}
 }
 ```
 
@@ -675,19 +675,19 @@ class BinarySearchTree {
 
 ```javascript
 class BinarySearchTree {
-  // ...（之前的代码）
+	// ...（之前的代码）
 
-  inOrderTraversal(callback) {
-    this._inOrderTraversal(this.root, callback);
-  }
+	inOrderTraversal(callback) {
+		this._inOrderTraversal(this.root, callback);
+	}
 
-  _inOrderTraversal(node, callback) {
-    if (node) {
-      this._inOrderTraversal(node.left, callback);
-      callback(node.value);
-      this._inOrderTraversal(node.right, callback);
-    }
-  }
+	_inOrderTraversal(node, callback) {
+		if (node) {
+			this._inOrderTraversal(node.left, callback);
+			callback(node.value);
+			this._inOrderTraversal(node.right, callback);
+		}
+	}
 }
 ```
 
@@ -710,17 +710,17 @@ bst.insert(8);
 
 // 查找节点
 const searchResult = bst.search(4);
-console.log(searchResult ? `Found: ${searchResult.value}` : "Not Found");
+console.log(searchResult ? `Found: ${searchResult.value}` : 'Not Found');
 
 // 中序遍历
-console.log("\nIn-order traversal:");
+console.log('\nIn-order traversal:');
 bst.inOrderTraversal((value) => console.log(value));
 
 // 删除节点
 bst.delete(3);
 
 // 中序遍历查看删除后的结果
-console.log("\nIn-order traversal after deletion:");
+console.log('\nIn-order traversal after deletion:');
 bst.inOrderTraversal((value) => console.log(value));
 
 // 运行结果：
@@ -841,13 +841,13 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 
 ```javascript
 class SegmentTreeNode {
-  constructor(start, end) {
-    this.start = start;
-    this.end = end;
-    this.sum = 0; // 例如，表示区间和
-    this.left = null;
-    this.right = null;
-  }
+	constructor(start, end) {
+		this.start = start;
+		this.end = end;
+		this.sum = 0; // 例如，表示区间和
+		this.left = null;
+		this.right = null;
+	}
 }
 ```
 
@@ -857,22 +857,22 @@ class SegmentTreeNode {
 
 ```javascript
 function buildSegmentTree(nums, start, end) {
-  if (start === end) {
-    return new SegmentTreeNode(start, end);
-  }
+	if (start === end) {
+		return new SegmentTreeNode(start, end);
+	}
 
-  const mid = Math.floor((start + end) / 2);
-  const left = buildSegmentTree(nums, start, mid);
-  const right = buildSegmentTree(nums, mid + 1, end);
+	const mid = Math.floor((start + end) / 2);
+	const left = buildSegmentTree(nums, start, mid);
+	const right = buildSegmentTree(nums, mid + 1, end);
 
-  const root = new SegmentTreeNode(start, end);
-  root.left = left;
-  root.right = right;
+	const root = new SegmentTreeNode(start, end);
+	root.left = left;
+	root.right = right;
 
-  // 根据具体问题更新根节点的信息
-  root.sum = left.sum + right.sum;
+	// 根据具体问题更新根节点的信息
+	root.sum = left.sum + right.sum;
 
-  return root;
+	return root;
 }
 ```
 
@@ -882,20 +882,20 @@ function buildSegmentTree(nums, start, end) {
 
 ```javascript
 function update(root, index, val) {
-  if (root.start === root.end) {
-    root.sum = val; // 例如，表示区间和
-    return;
-  }
+	if (root.start === root.end) {
+		root.sum = val; // 例如，表示区间和
+		return;
+	}
 
-  const mid = Math.floor((root.start + root.end) / 2);
-  if (index <= mid) {
-    update(root.left, index, val);
-  } else {
-    update(root.right, index, val);
-  }
+	const mid = Math.floor((root.start + root.end) / 2);
+	if (index <= mid) {
+		update(root.left, index, val);
+	} else {
+		update(root.right, index, val);
+	}
 
-  // 更新根节点的信息
-  root.sum = root.left.sum + root.right.sum;
+	// 更新根节点的信息
+	root.sum = root.left.sum + root.right.sum;
 }
 ```
 
@@ -905,19 +905,19 @@ function update(root, index, val) {
 
 ```javascript
 function query(root, queryStart, queryEnd) {
-  if (root.end < queryStart || root.start > queryEnd) {
-    return 0; // 例如，表示区间和
-  }
+	if (root.end < queryStart || root.start > queryEnd) {
+		return 0; // 例如，表示区间和
+	}
 
-  if (root.start >= queryStart && root.end <= queryEnd) {
-    return root.sum; // 例如，表示区间和
-  }
+	if (root.start >= queryStart && root.end <= queryEnd) {
+		return root.sum; // 例如，表示区间和
+	}
 
-  const mid = Math.floor((root.start + root.end) / 2);
-  const leftSum = query(root.left, queryStart, Math.min(mid, queryEnd));
-  const rightSum = query(root.right, Math.max(mid + 1, queryStart), queryEnd);
+	const mid = Math.floor((root.start + root.end) / 2);
+	const leftSum = query(root.left, queryStart, Math.min(mid, queryEnd));
+	const rightSum = query(root.right, Math.max(mid + 1, queryStart), queryEnd);
 
-  return leftSum + rightSum;
+	return leftSum + rightSum;
 }
 ```
 
@@ -976,197 +976,194 @@ function query(root, queryStart, queryEnd) {
 
 ```javascript
 class NumArray {
-  // @param {number[]} nums
-  constructor(nums) {
-    this.nums = nums;
-    this.segmentTree = this.buildSegmentTree(nums, 0, nums.length - 1);
-  }
-  // @param {number[]} nums
-  // @param {number} start
-  // @param {number} end
-  buildSegmentTree(nums, start, end) {
-    if (start == end) {
-      return { start, end, left: null, right: null, sum: nums[start] };
-    }
-    const mid = Math.floor((start + end) / 2);
-    const left = this.buildSegmentTree(nums, start, mid);
-    const right = this.buildSegmentTree(nums, mid + 1, end);
-    const sum = left.sum + right.sum;
-    return { start, end, left, right, sum };
-  }
+	// @param {number[]} nums
+	constructor(nums) {
+		this.nums = nums;
+		this.segmentTree = this.buildSegmentTree(nums, 0, nums.length - 1);
+	}
+	// @param {number[]} nums
+	// @param {number} start
+	// @param {number} end
+	buildSegmentTree(nums, start, end) {
+		if (start == end) {
+			return { start, end, left: null, right: null, sum: nums[start] };
+		}
+		const mid = Math.floor((start + end) / 2);
+		const left = this.buildSegmentTree(nums, start, mid);
+		const right = this.buildSegmentTree(nums, mid + 1, end);
+		const sum = left.sum + right.sum;
+		return { start, end, left, right, sum };
+	}
 
-  // @param {number} index
-  // @param {number} val
-  // @return {void}
-  update(index, val) {
-    this.updateSegmentTree(this.segmentTree, index, val);
-  }
+	// @param {number} index
+	// @param {number} val
+	// @return {void}
+	update(index, val) {
+		this.updateSegmentTree(this.segmentTree, index, val);
+	}
 
-  updateSegmentTree(root, index, val) {
-    if (root.start == root.end) {
-      root.sum = val;
-      return;
-    }
-    const mid = Math.floor((root.start + root.end) / 2);
-    if (index <= mid) {
-      this.updateSegmentTree(root.left, index, val);
-    } else {
-      this.updateSegmentTree(root.right, index, val);
-    }
-    root.sum =
-      (root.left ? root.left.sum : 0) + (root.right ? root.right.sum : 0);
-  }
+	updateSegmentTree(root, index, val) {
+		if (root.start == root.end) {
+			root.sum = val;
+			return;
+		}
+		const mid = Math.floor((root.start + root.end) / 2);
+		if (index <= mid) {
+			this.updateSegmentTree(root.left, index, val);
+		} else {
+			this.updateSegmentTree(root.right, index, val);
+		}
+		root.sum =
+			(root.left ? root.left.sum : 0) + (root.right ? root.right.sum : 0);
+	}
 
-  // @param {number} left
-  // @param {number} right
-  // @return {number}
-  sumRange(left, right) {
-    return this.querySegmentTree(this.segmentTree, left, right);
-  }
+	// @param {number} left
+	// @param {number} right
+	// @return {number}
+	sumRange(left, right) {
+		return this.querySegmentTree(this.segmentTree, left, right);
+	}
 
-  querySegmentTree(root, start, end) {
-    if (root.start > end || root.end < start) return 0;
-    if (root.start >= start && root.end <= end) return root.sum;
+	querySegmentTree(root, start, end) {
+		if (root.start > end || root.end < start) return 0;
+		if (root.start >= start && root.end <= end) return root.sum;
 
-    const mid = Math.floor((root.start + root.end) / 2);
-    const leftSum = this.querySegmentTree(root.left, start, Math.min(mid, end));
-    const rightSum = this.querySegmentTree(
-      root.right,
-      Math.max(mid + 1, start),
-      end
-    );
-    return leftSum + rightSum;
-  }
+		const mid = Math.floor((root.start + root.end) / 2);
+		const leftSum = this.querySegmentTree(root.left, start, Math.min(mid, end));
+		const rightSum = this.querySegmentTree(
+			root.right,
+			Math.max(mid + 1, start),
+			end
+		);
+		return leftSum + rightSum;
+	}
 }
 ```
 
 ::::
 
-
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
-
 
 ## 相关题目
 
 #### 二叉树的遍历
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0144) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0094) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0145 | [二叉树的后序遍历](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0145) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0102 | [二叉树的层序遍历](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0102) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0103) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0107 | [二叉树的层序遍历 II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0107) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0104) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0111) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
-| 0101 | [对称二叉树](https://leetcode.com/problems/symmetric-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0101) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0112 | [路径总和](https://leetcode.com/problems/path-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0112) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0113 | [路径总和 II](https://leetcode.com/problems/path-sum-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0113) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0236) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0199 | [二叉树的右视图](https://leetcode.com/problems/binary-tree-right-side-view/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0199) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0226) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0958) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0572) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0100 | [相同的树](https://leetcode.com/problems/same-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0100) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0116 | [填充每个节点的下一个右侧节点指针](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0116) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0117 | [填充每个节点的下一个右侧节点指针 II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0117) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0297) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
-| 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0114) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 题号 | 标题                                                                                                                 |                              题解                               | 标签                                                                                                                                                                     | 难度                              |
+| :--: | :------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/)                                    | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0144) | [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+`                          | <font color=#15bd66>Esay</font>   |
+| 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/)                                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0094) | [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+`                          | <font color=#15bd66>Esay</font>   |
+| 0145 | [二叉树的后序遍历](https://leetcode.com/problems/binary-tree-postorder-traversal/)                                   | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0145) | [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+`                          | <font color=#15bd66>Esay</font>   |
+| 0102 | [二叉树的层序遍历](https://leetcode.com/problems/binary-tree-level-order-traversal/)                                 | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0102) | [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#ffb800>Medium</font> |
+| 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/)                    | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0103) | [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#ffb800>Medium</font> |
+| 0107 | [二叉树的层序遍历 II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/)                           | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0107) | [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#ffb800>Medium</font> |
+| 0104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree/)                                      | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0104) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font>   |
+| 0111 | [二叉树的最小深度](https://leetcode.com/problems/minimum-depth-of-binary-tree/)                                      | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0111) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font>   |
+| 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/)                                  |                                                                 | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+`      | <font color=#ff334b>Hard</font>   |
+| 0101 | [对称二叉树](https://leetcode.com/problems/symmetric-tree/)                                                          | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0101) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font>   |
+| 0112 | [路径总和](https://leetcode.com/problems/path-sum/)                                                                  | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0112) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font>   |
+| 0113 | [路径总和 II](https://leetcode.com/problems/path-sum-ii/)                                                            | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0113) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+`                 | <font color=#ffb800>Medium</font> |
+| 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)                       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0236) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                     | <font color=#ffb800>Medium</font> |
+| 0199 | [二叉树的右视图](https://leetcode.com/problems/binary-tree-right-side-view/)                                         | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0199) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/)                                                      | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0226) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font>   |
+| 0958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree/)                             | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0958) | [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#ffb800>Medium</font> |
+| 0572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree/)                                             | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0572) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) `2+`                | <font color=#15bd66>Esay</font>   |
+| 0100 | [相同的树](https://leetcode.com/problems/same-tree/)                                                                 | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0100) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Esay</font>   |
+| 0116 | [填充每个节点的下一个右侧节点指针](https://leetcode.com/problems/populating-next-right-pointers-in-each-node/)       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0116) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0117 | [填充每个节点的下一个右侧节点指针 II](https://leetcode.com/problems/populating-next-right-pointers-in-each-node-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0117) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)                     | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0297) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font>   |
+| 0114 | [二叉树展开为链表](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/)                                | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0114) | [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `2+`                          | <font color=#ffb800>Medium</font> |
 
 #### 二叉树的还原
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0105) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0106) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0889) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 题号 | 标题                                                                                                                        |                              题解                               | 标签                                                                                                                                | 难度                              |
+| :--: | :-------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)  | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0105) | [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0106 | [从中序与后序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0106) | [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal/)  | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0889) | [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 
 #### 二叉搜索树
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0098 | [验证二叉搜索树](https://leetcode.com/problems/validate-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0098) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0173) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
-| 0700 | [二叉搜索树中的搜索](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0700) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#15bd66>Esay</font> |
-| 0701 | [二叉搜索树中的插入操作](https://leetcode.com/problems/insert-into-a-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0701) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0450 | [删除二叉搜索树中的节点](https://leetcode.com/problems/delete-node-in-a-bst/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0450) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
-| 0703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0703) |  [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 54 | [二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_54_1) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0230 | [二叉搜索树中第K小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0230) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0235 | [二叉搜索树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0235) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0426) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
-| 0108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0108) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`数组`](/leetcode/outline/tag/array.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0110 | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0110) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#15bd66>Esay</font> |
+|     题号      | 标题                                                                                                                       |                                   题解                                   | 标签                                                                                                                                                                 | 难度                              |
+| :-----------: | :------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+|     0098      | [验证二叉搜索树](https://leetcode.com/problems/validate-binary-search-tree/)                                               |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0098)      | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+|     0173      | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/)                                             |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0173)      | [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+`                                          | <font color=#ffb800>Medium</font> |
+|     0700      | [二叉搜索树中的搜索](https://leetcode.com/problems/search-in-a-binary-search-tree/)                                        |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0700)      | [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#15bd66>Esay</font>   |
+|     0701      | [二叉搜索树中的插入操作](https://leetcode.com/problems/insert-into-a-binary-search-tree/)                                  |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0701)      | [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#ffb800>Medium</font> |
+|     0450      | [删除二叉搜索树中的节点](https://leetcode.com/problems/delete-node-in-a-bst/)                                              |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0450)      | [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                   | <font color=#ffb800>Medium</font> |
+|     0703      | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/)                                    |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0703)      | [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+`                     | <font color=#15bd66>Esay</font>   |
+| 剑指 Offer 54 | [二叉搜索树的第 k 大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)                        | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_54_1) | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Esay</font>   |
+|     0230      | [二叉搜索树中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)                                  |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0230)      | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+|     0235      | [二叉搜索树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)                  |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0235)      | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+|     0426      | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0426)      | [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `4+`                      | <font color=#ffb800>Medium</font> |
+|     0108      | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)                    |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0108)      | [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`数组`](/leetcode/outline/tag/array.md) `2+`                      | <font color=#15bd66>Esay</font>   |
+|     0110      | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree/)                                                          |     [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0110)      | [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)                 | <font color=#15bd66>Esay</font>   |
 
 #### 线段树
 
-* 单点更新
+- 单点更新
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
-| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0307) |  [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0354) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
+| 题号 | 标题                                                                                |                              题解                               | 标签                                                                                                                                                          | 难度                              |
+| :--: | :---------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------- |
+| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) | [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                            | <font color=#15bd66>Esay</font>   |
+| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/)   | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0307) | [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+`          | <font color=#ffb800>Medium</font> |
+| 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/)         | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0354) | [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font>   |
 
-* 区间更新
+- 区间更新
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0370 | [区间加法](https://leetcode.com/problems/range-addition/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 1109 | [航班预订统计](https://leetcode.com/problems/corporate-flight-bookings/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) |  |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
-| 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`排序`](/leetcode/outline/tag/sorting.md) `2+` | <font color=#ff334b>Hard</font> |
+| 题号 | 标题                                                                                                           | 题解 | 标签                                                                                                                                                | 难度                              |
+| :--: | :------------------------------------------------------------------------------------------------------------- | :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0370 | [区间加法](https://leetcode.com/problems/range-addition/)                                                      |      | [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                                                            | <font color=#ffb800>Medium</font> |
+| 1109 | [航班预订统计](https://leetcode.com/problems/corporate-flight-bookings/)                                       |      | [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                                                            | <font color=#ffb800>Medium</font> |
+| 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) |      | [`数组`](/leetcode/outline/tag/array.md)                                                                                                            | <font color=#15bd66>Esay</font>   |
+| 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                |      | [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/)                                     |      | [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)      | <font color=#ffb800>Medium</font> |
+| 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query/)                |      | [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`排序`](/leetcode/outline/tag/sorting.md) `2+`       | <font color=#ff334b>Hard</font>   |
 
-* 区间合并
+- 区间合并
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0729 | [我的日程安排表 I](https://leetcode.com/problems/my-calendar-i/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0732 | [我的日程安排表 III](https://leetcode.com/problems/my-calendar-iii/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
+| 题号 | 标题                                                                 | 题解 | 标签                                                                                                                                                  | 难度                              |
+| :--: | :------------------------------------------------------------------- | :--: | :---------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0729 | [我的日程安排表 I](https://leetcode.com/problems/my-calendar-i/)     |      | [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii/)   |      | [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0732 | [我的日程安排表 III](https://leetcode.com/problems/my-calendar-iii/) |      | [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font>   |
 
-* 扫描线问题
+- 扫描线问题
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
-| 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`扫描线`](/leetcode/outline/tag/sweep-line.md) | <font color=#ff334b>Hard</font> |
-| 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/) |  |  [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) `1+` | <font color=#ff334b>Hard</font> |
+| 题号 | 标题                                                             | 题解 | 标签                                                                                                                                                | 难度                            |
+| :--: | :--------------------------------------------------------------- | :--: | :-------------------------------------------------------------------------------------------------------------------------------------------------- | :------------------------------ |
+| 0218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem/) |      | [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 0391 | [完美矩形](https://leetcode.com/problems/perfect-rectangle/)     |      | [`数组`](/leetcode/outline/tag/array.md) [`扫描线`](/leetcode/outline/tag/sweep-line.md)                                                            | <font color=#ff334b>Hard</font> |
+| 0850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii/)  |      | [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) `1+`  | <font color=#ff334b>Hard</font> |
 
 #### 树状数组
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
-| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0307) |  [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
-| 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/) |  |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
-| 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0354) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
-| 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 1893 | [检查是否区域内所有整数都被覆盖](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
+| 题号 | 标题                                                                                                              |                              题解                               | 标签                                                                                                                                                          | 难度                              |
+| :--: | :---------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------ | :-------------------------------- |
+| 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/)                               | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) | [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                            | <font color=#15bd66>Esay</font>   |
+| 0307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable/)                                 | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0307) | [`设计`](/leetcode/outline/tag/design.md) [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) `1+`          | <font color=#ffb800>Medium</font> |
+| 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/)                  |                                                                 | [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+`           | <font color=#ff334b>Hard</font>   |
+| 1450 | [在既定时间做作业的学生人数](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time/)    |                                                                 | [`数组`](/leetcode/outline/tag/array.md)                                                                                                                      | <font color=#15bd66>Esay</font>   |
+| 0354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes/)                                       | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0354) | [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font>   |
+| 0673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence/)                   |                                                                 | [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `1+`           | <font color=#ffb800>Medium</font> |
+| 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray/)                                        |                                                                 | [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                | <font color=#ffb800>Medium</font> |
+| 1893 | [检查是否区域内所有整数都被覆盖](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered/) |                                                                 | [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)                      | <font color=#15bd66>Esay</font>   |
 
 #### 并查集
 
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0990 | [等式方程的可满足性](https://leetcode.com/problems/satisfiability-of-equality-equations/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0547 | [省份数量](https://leetcode.com/problems/number-of-provinces/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0684 | [冗余连接](https://leetcode.com/problems/redundant-connection/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1319 | [连通网络的操作次数](https://leetcode.com/problems/number-of-operations-to-make-network-connected/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0765 | [情侣牵手](https://leetcode.com/problems/couples-holding-hands/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ff334b>Hard</font> |
-| 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
-| 0959 | [由斜杠划分区域](https://leetcode.com/problems/regions-cut-by-slashes/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1631 | [最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `4+` | <font color=#ffb800>Medium</font> |
-| 0778 | [水位上升的泳池中游泳](https://leetcode.com/problems/swim-in-rising-water/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `4+` | <font color=#ff334b>Hard</font> |
-| 1202 | [交换字符串中的元素](https://leetcode.com/problems/smallest-string-with-swaps/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0947 | [移除最多的同行或同列石头](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) | <font color=#ffb800>Medium</font> |
-| 0803 | [打砖块](https://leetcode.com/problems/bricks-falling-when-hit/) |  |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ff334b>Hard</font> |
-| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
-
+| 题号 | 标题                                                                                                   |                              题解                               | 标签                                                                                                                                                                                       | 难度                              |
+| :--: | :----------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------- |
+| 0990 | [等式方程的可满足性](https://leetcode.com/problems/satisfiability-of-equality-equations/)              |                                                                 | [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md) [`数组`](/leetcode/outline/tag/array.md) `1+`                                               | <font color=#ffb800>Medium</font> |
+| 0547 | [省份数量](https://leetcode.com/problems/number-of-provinces/)                                         |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0684 | [冗余连接](https://leetcode.com/problems/redundant-connection/)                                        |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1319 | [连通网络的操作次数](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)    |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0765 | [情侣牵手](https://leetcode.com/problems/couples-holding-hands/)                                       |                                                                 | [`贪心`](/leetcode/outline/tag/greedy.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+`               | <font color=#ff334b>Hard</font>   |
+| 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/)                                           |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0959 | [由斜杠划分区域](https://leetcode.com/problems/regions-cut-by-slashes/)                                |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1631 | [最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort/)                            |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `4+` | <font color=#ffb800>Medium</font> |
+| 0778 | [水位上升的泳池中游泳](https://leetcode.com/problems/swim-in-rising-water/)                            |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `4+` | <font color=#ff334b>Hard</font>   |
+| 1202 | [交换字符串中的元素](https://leetcode.com/problems/smallest-string-with-swaps/)                        |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0947 | [移除最多的同行或同列石头](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/) |                                                                 | [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`图`](/leetcode/outline/tag/graph.md)                               | <font color=#ffb800>Medium</font> |
+| 0803 | [打砖块](https://leetcode.com/problems/bricks-falling-when-hit/)                                       |                                                                 | [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md)                                                 | <font color=#ff334b>Hard</font>   |
+| 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/)                            | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) | [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md)                                           | <font color=#ffb800>Medium</font> |

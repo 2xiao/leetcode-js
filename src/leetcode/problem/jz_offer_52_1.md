@@ -89,7 +89,7 @@
 
 ::: code-tabs
 
-@tab 思路一：双指针
+@tab 双指针
 
 ```javascript
 /**
@@ -116,7 +116,7 @@ var getIntersectionNode = function (headA, headB) {
 };
 ```
 
-@tab 思路二：双指针
+@tab 双指针
 
 ```javascript
 /**

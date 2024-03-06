@@ -57,7 +57,7 @@
 
 ::: code-tabs
 
-@tab 思路一：循环
+@tab 循环
 
 ```javascript
 /**
@@ -78,7 +78,7 @@ var reverseList = function (head) {
 };
 ```
 
-@tab 思路二：递归
+@tab 递归
 
 ```javascript
 /**

@@ -67,7 +67,7 @@
 
 ::: code-tabs
 
-@tab 思路一：动态规划
+@tab 动态规划
 
 ```javascript
 /**
@@ -110,7 +110,7 @@ function canPartition(nums) {
 }
 ```
 
-@tab 思路二：压缩状态的动态规划
+@tab 压缩状态的动态规划
 
 ```javascript
 /**

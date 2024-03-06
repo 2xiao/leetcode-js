@@ -56,7 +56,7 @@
 
 ::: code-tabs
 
-@tab 思路一：递归
+@tab 递归
 
 ```javascript
 var isSymmetric = function (root) {
@@ -74,7 +74,7 @@ var isSymmetric = function (root) {
 };
 ```
 
-@tab 思路二：迭代
+@tab 迭代
 
 ```javascript
 var isSymmetric = function (root) {
@@ -91,7 +91,7 @@ var isSymmetric = function (root) {
 };
 ```
 
-@tab 思路三：翻转二叉树
+@tab 翻转二叉树
 
 ```javascript
 var isSymmetric = function (root) {

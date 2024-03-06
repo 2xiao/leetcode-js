@@ -29,7 +29,7 @@
 ## 代码
 
 ::: code-tabs
-@tab 思路一：栈
+@tab 栈
 
 ```javascript
 /**
@@ -37,17 +37,17 @@
  * @return {number[]}
  */
 var reverseBookList = function (head) {
-  if (!head) return [];
-  let stack = [];
-  while (head) {
-    stack.push(head.val);
-    head = head.next;
-  }
-  return stack.reverse();
+	if (!head) return [];
+	let stack = [];
+	while (head) {
+		stack.push(head.val);
+		head = head.next;
+	}
+	return stack.reverse();
 };
 ```
 
-@tab 思路二：递归
+@tab 递归
 
 ```javascript
 /**
@@ -55,11 +55,11 @@ var reverseBookList = function (head) {
  * @return {number[]}
  */
 var reverseBookList = function (head) {
-  if (!head) return [];
-  let stack = [];
-  let res = reverseBookList(head.next);
-  res.push(head.val);
-  return res;
+	if (!head) return [];
+	let stack = [];
+	let res = reverseBookList(head.next);
+	res.push(head.val);
+	return res;
 };
 ```
 

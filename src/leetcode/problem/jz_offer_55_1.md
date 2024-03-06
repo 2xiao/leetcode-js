@@ -44,7 +44,7 @@
 ## 代码
 
 ::: code-tabs
-@tab 思路一：递归
+@tab 递归
 
 ```javascript
 /**
@@ -57,7 +57,7 @@ var calculateDepth = function (root) {
 };
 ```
 
-@tab 思路二：回溯
+@tab 回溯
 
 ```javascript
 var calculateDepth = function (root) {

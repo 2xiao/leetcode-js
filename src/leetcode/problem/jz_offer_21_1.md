@@ -85,7 +85,7 @@
 
 ::: code-tabs
 
-@tab 思路一：合并奇偶数组
+@tab 合并奇偶数组
 
 ```javascript
 /**
@@ -106,7 +106,7 @@ var trainingPlan = function (actions) {
 };
 ```
 
-@tab 思路二：双指针
+@tab 双指针
 
 ```javascript
 /**

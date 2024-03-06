@@ -63,7 +63,7 @@
 
 ::: code-tabs
 
-@tab 思路一：DFS
+@tab DFS
 
 ```javascript
 /**
@@ -100,7 +100,7 @@ var pathTarget = function (root, targetSum) {
 };
 ```
 
-@tab 思路二：递归
+@tab 递归
 
 ```javascript
 /**
