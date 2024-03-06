@@ -7,7 +7,7 @@ icon: 'react'
   <img src="../../assets/image/react-logo.png" alt="logo" height="360"/>
 </p>
 <p align="center"><font size=5><b>《自己动手写 React》</b></font></p>
-<p align="center"><font color=gray>深入理解 React 源码，手把手带你构建自己的 React 库。</font></p>
+<p align="center"><font color=gray>深入理解 React 源码，带你从零实现 React v18 的核心功能，构建自己的 React 库。</font></p>
 
 ---
 
