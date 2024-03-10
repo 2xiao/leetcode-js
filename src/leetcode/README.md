@@ -1,6 +1,6 @@
 ---
-title: "LeetCode-JS 通关指南"
-icon: "code"
+title: 'LeetCode-JS 通关指南'
+icon: 'code'
 ---
 
 <p align="center">
@@ -13,7 +13,7 @@ icon: "code"
 
 ### 目录
 
-### 第一章 序言
+#### 第一章 序言
 
 - [1.1 数据结构与算法](./outline/intro.md)
 - [1.2 复杂度分析](./outline/complexity.md)
@@ -21,7 +21,7 @@ icon: "code"
 - [1.4 学习计划](./outline/plan/)
 - [1.5 题解标签](./outline/tag/)
 
-### 第二章 数据结构专题
+#### 第二章 数据结构专题
 
 - [2.1 数组](./ds/array.md)
 - [2.2 链表](./ds/linked_list.md)
@@ -33,7 +33,7 @@ icon: "code"
 - [2.8 图](./ds/graph.md)
 - [2.9 字符串](./ds/string.md)
 
-### 第三章 算法专题
+#### 第三章 算法专题
 
 - [3.1 枚举算法](./algorithm/enumeration.md)
 - [3.2 递归算法](./algorithm/recursion.md)
@@ -47,7 +47,7 @@ icon: "code"
 - [3.10 双指针](./algorithm/two_pointer.md)
 - [3.11 滑动窗口](./algorithm/slide_window.md)
 
-### 第四章 LeetCode 题解
+#### 第四章 LeetCode 题解
 
 - [LeetCode 题解](./problem/)
 

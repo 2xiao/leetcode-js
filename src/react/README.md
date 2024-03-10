@@ -21,6 +21,7 @@ icon: 'react'
 - [6. 实现 DOM 树更新](./6.md)
 - [7. 实现 ReactDOM](./7.md)
 - [8. 实现 useState](./8.md)
+- [9. 接入测试框架](./9.md)
 
 ---
 
