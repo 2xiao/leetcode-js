@@ -17,8 +17,8 @@ icon: 'react'
 - [2. 实现 JSX](./2.md)
 - [3. 实现 Reconciler](./3.md)
 - [4. 实现更新机制](./4.md)
-- [5. 实现组件树更新](./5.md)
-- [6. 实现 DOM 树更新](./6.md)
+- [5. 实现 Render 阶段](./5.md)
+- [6. 实现 Commit 阶段](./6.md)
 - [7. 实现 ReactDOM](./7.md)
 - [8. 实现 useState](./8.md)
 - [9. 接入测试框架](./9.md)
@@ -28,6 +28,7 @@ icon: 'react'
 - [13. 实现 Fragment](./13.md)
 - [14. 实现同步调度流程](./14.md)
 - [15. 实现 useEffect](./15.md)
+- [16. 实现 Noop Renderer](./16.md)
 
 ---
 
