@@ -531,7 +531,7 @@ var permuteUnique = function (nums) {
 			}
 			track.push(nums[i]);
 			used[i] = true;
-			backtrack(i + 1);
+			backtrack();
 			track.pop();
 			used[i] = false;
 		}

@@ -21,7 +21,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> |
-| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0033) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0034) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0035) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
 | 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
