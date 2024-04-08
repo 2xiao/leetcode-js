@@ -461,4 +461,5 @@ export default sidebar({
     },
   ],
   "/react/": "structure",
+  "/interview/": "structure",
 });

@@ -14,6 +14,12 @@ export default navbar([
     link: "/react/"
   },
   {
+    text: "前端面试题",
+    icon: "creative",
+    prefix: "/interview/",
+    link: "/interview/"
+  },
+  {
     text: "博客",
     icon: "blog",
     prefix: "/blog/",
