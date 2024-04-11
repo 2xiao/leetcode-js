@@ -562,12 +562,42 @@ const salva = new Person('Salva');
 
 :::
 
-## 7. 讲一讲原型链
+## 7. == 和 === 的区别是什么？
 
-## 8. typeof 与 instanceof 区别是什么？
+## 8. 什么是原型? 什么是原型链？
 
-## 9. 说说你对事件循环的理解？
+## 9. 什么是作用域? 什么是作用域链?
 
-## 10. 如何实现一个 Promise ？
+## 10. typeof 与 instanceof 区别是什么？
 
-## 11. ES Module 和 CommonJS 的区别是什么？
+## 11. 说说你对事件循环的理解？
+
+## 12. JS 是如何处理异步的？
+
+## 13. 如何实现一个 Promise ？
+
+## 14. async/await 的错误捕获方式
+
+## 15. ES6、ES7、ES8、ES9、ES10 分别有什么新特性？
+
+## 16. ES Module 和 CommonJS 的区别是什么？
+
+## 17. 对比 import、import() 和 requrie 的区别
+
+## 18. 如何实现防抖和节流？
+
+## 19. 深拷贝浅拷贝的区别是什么？
+
+## 20. 闭包
+
+## 21. Cookie、sessionStorage、localStorage 的区别是什么？
+
+## 22. 讲一讲 AJAX 原理？
+
+## 23. JS 中 this 的情况
+
+## 24. Event Loop 的执行顺序是什么？
+
+## 25. 对比各种继承
+
+## 26. 自检题
