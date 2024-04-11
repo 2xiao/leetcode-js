@@ -12,6 +12,14 @@ p{a{code{
 td{a{code{
     color: $text-color;
 }}}
+.hint-container.details {
+    border: 0.1rem solid #eee;
+    background-color: #fff;
+    overflow: hidden;
+}
+.hint-container.details summary {
+    background-color: #eee;
+}
 html[data-theme=dark] #app {
     p{a{code{
         color: $text-color-dark;
@@ -19,6 +27,14 @@ html[data-theme=dark] #app {
     td{a{code{
         color: $text-color-dark;
     }}}
+    .hint-container.details {
+        border: 0.1rem solid #333;
+        background-color: #0d1117;
+        overflow: hidden;
+    }
+    .hint-container.details summary {
+        background-color: #333;
+    }
 }
 
 .vp-md-demo-display {
@@ -32,3 +48,4 @@ html[data-theme=dark] #app {
 .vp-md-demo-code-wrapper {
     display: none;
 }
+

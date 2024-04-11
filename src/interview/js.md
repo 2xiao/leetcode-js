@@ -5,9 +5,9 @@ order: 1
 headerDepth: 1
 ---
 
-## apply、call、bind 的区别是什么？
+## 1. apply、call、bind 的区别是什么？
 
-::: details 答案
+::: details 查看答案
 
 `call`、`apply`、`bind`作用是改变函数执行时的上下文，简而言之就是改变函数运行时的 `this` 指向
 
@@ -35,7 +35,7 @@ setTimeout(obj.say, 0); // lucy，this 指向 window 对象
 setTimeout(obj.say.bind(obj), 0); // martin，this指向obj对象
 ```
 
-### apply
+<h3># apply</h3>
 
 `apply`接受两个参数，第一个参数是`this`的指向，第二个参数是函数接受的参数，以数组的形式传入
 
@@ -60,7 +60,7 @@ fn.apply(null, [1, 2]); // this指向window
 fn.apply(undefined, [1, 2]); // this指向window
 ```
 
-### call
+<h3># call</h3>
 
 `call`方法的第一个参数也是`this`的指向，后面传入的是一个参数列表
 
@@ -85,7 +85,7 @@ fn.call(null, [1, 2]); // this指向window
 fn.call(undefined, [1, 2]); // this指向window
 ```
 
-### bind
+<h3># bind</h3>
 
 `bind` 方法和 `call` 很相似，第一参数也是 `this` 的指向，后面传入的也是一个参数列表(但是这个参数列表可以分多次传入)
 
@@ -113,9 +113,9 @@ fn(1, 2); // this 指向 window
 
 :::
 
-## 如何实现一个 `bind` ？
+## 2. 如何实现一个 bind ？
 
-::: details 答案
+::: details 查看答案
 
 实现`bind`的步骤，我们可以分解成为三部分：
 
@@ -156,13 +156,13 @@ Function.prototype.myBind = function (context) {
 
 :::
 
-## 数组方法中哪些会改变原数组，哪些不会？
+## 3. 数组方法中哪些会改变原数组，哪些不会？
 
-::: details 答案
+::: details 查看答案
 
 `let arr = ['a', 'b', 'c', 'd'];`
 
-### 改变原数组的：
+<h3># 改变原数组的：</h3>
 
 - `shift`：将第一个元素删除并且返回删除元素，空即为 `undefined`
 
@@ -257,7 +257,7 @@ a = arr.map((i) => (i.m = 3)); // 注意返回值的差异
 console.log(a); // [3, 3]
 ```
 
-### 不改变原数组的：
+<h3># 不改变原数组的：</h3>
 
 - `concat`：用于合并两个或多个数组，不会更改原数组，而是返回一个新数组
 
@@ -319,9 +319,213 @@ console.log(arr); // ['a', 'b', 'c', 'd']
 
 :::
 
-## 使用 `new` 时发生了什么？
+## 4. var、let、const 的区别是什么？
 
-::: details 答案
+::: details 查看答案
+`var`、`let`、`const`三者区别可以围绕下面五点展开：
+
+- 变量提升
+- 暂时性死区
+- 块级作用域
+- 重复声明
+- 修改声明的变量
+
+<h3># var</h3>
+
+在 ES5 中，顶层对象的属性和全局变量是等价的，用`var`声明的变量既是全局变量，也是顶层变量
+
+注意：顶层对象，在浏览器环境指的是`window`对象，在 `Node` 指的是`global`对象
+
+```js
+var a = 10;
+console.log(window.a); // 10
+```
+
+使用`var`声明的变量存在变量提升的情况
+
+```js
+console.log(a); // undefined
+var a = 20;
+```
+
+在编译阶段，编译器会将其变成以下执行
+
+```js
+var a;
+console.log(a);
+a = 20;
+```
+
+使用`var`，我们能够对一个变量进行多次声明，后面声明的变量会覆盖前面的变量声明
+
+```js
+var a = 20;
+var a = 30;
+console.log(a); // 30
+```
+
+在函数中使用使用`var`声明变量时候，该变量是局部的
+
+```js
+var a = 20;
+function change() {
+	var a = 30;
+}
+change();
+console.log(a); // 20
+```
+
+而如果在函数内不使用`var`，该变量是全局的
+
+```js
+var a = 20;
+function change() {
+	a = 30;
+}
+change();
+console.log(a); // 30
+```
+
+<h3># let</h3>
+
+`let`是`ES6`新增的命令，用来声明变量
+
+用法类似于`var`，但是所声明的变量，只在`let`命令所在的代码块内有效
+
+```js
+{
+	let a = 20;
+}
+console.log(a); // ReferenceError: a is not defined.
+```
+
+不存在变量提升
+
+```js
+console.log(a); // ReferenceError
+let a = 2;
+```
+
+这表示在声明它之前，变量`a`是不存在的，这时如果用到它，就会抛出一个错误
+
+只要块级作用域内存在`let`命令，这个区域就不再受外部影响
+
+```js
+var a = 123;
+if (true) {
+	a = 'abc'; // ReferenceError
+	let a;
+}
+```
+
+使用`let`声明变量前，该变量都不可用，也就是大家常说的“暂时性死区”
+
+最后，`let`不允许在相同作用域中重复声明，注意，是相同作用域中
+
+```js
+let a = 20;
+let a = 30;
+// Uncaught SyntaxError: Identifier 'a' has already been declared
+```
+
+下面这种情况是不会报错的
+
+```js
+let a = 20;
+{
+	let a = 30;
+}
+```
+
+因此，我们不能在函数内部重新声明参数
+
+```js
+function func(arg) {
+	let arg;
+}
+func();
+// Uncaught SyntaxError: Identifier 'arg' has already been declared
+```
+
+<h3># const</h3>
+
+`const`声明一个只读的常量，一旦声明，常量的值就不能改变
+
+```js
+const a = 1;
+a = 3;
+// TypeError: Assignment to constant variable.
+```
+
+这意味着，`const`一旦声明变量，就必须立即初始化，不能留到以后赋值
+
+```js
+const a;
+// SyntaxError: Missing initializer in const declaration
+```
+
+如果之前用`var`或`let`声明过变量，再用`const`声明同样会报错
+
+```js
+var a = 20;
+let b = 20;
+const a = 30; // 报错
+const b = 30; // 报错
+```
+
+`const`实际上保证的并不是变量的值不得改动，而是变量指向的那个内存地址所保存的数据不得改动
+
+对于简单类型的数据，值就保存在变量指向的那个内存地址，因此等同于常量
+
+对于复杂类型的数据，变量指向的内存地址，保存的只是一个指向实际数据的指针，`const`只能保证这个指针是固定的，并不能确保改变量的结构不变
+
+```js
+const foo = {};
+
+// 为 foo 添加一个属性，可以成功
+foo.prop = 123;
+foo.prop; // 123
+
+// 将 foo 指向另一个对象，就会报错
+foo = {}; // TypeError: "foo" is read-only
+```
+
+其它情况，`const`与`let`一致
+
+:::
+
+## 5. 如何遍历对象的属性？
+
+::: details 查看答案
+
+ES6 一共有 5 种方法可以遍历对象的属性：
+
+- `for...in`：循环遍历对象自身的和继承的可枚举属性（不含 Symbol 属性）
+
+- `Object.keys(obj)`：返回一个数组，包括对象自身的（不含继承的）所有可枚举属性（不含 Symbol 属性）的键名
+
+- `Object.getOwnPropertyNames(obj)`：回一个数组，包含对象自身的所有属性（不含 Symbol 属性，但是包括不可枚举属性）的键名
+
+- `Object.getOwnPropertySymbols(obj)`：返回一个数组，包含对象自身的所有 Symbol 属性的键名
+
+- `Reflect.ownKeys(obj)`：返回一个数组，包含对象自身的（不含继承的）所有键名，不管键名是 Symbol 或字符串，也不管是否可枚举
+
+上述遍历，都遵守同样的属性遍历的次序规则：
+
+- 首先遍历所有数值键，按照数值升序排列
+- 其次遍历所有字符串键，按照加入时间升序排列
+- 最后遍历所有 Symbol 键，按照加入时间升序排
+
+```js
+Reflect.ownKeys({ [Symbol()]: 0, b: 0, 10: 0, 2: 0, a: 0 });
+// ['2', '10', 'b', 'a', Symbol()]
+```
+
+:::
+
+## 6. 使用 new 操作符时发生了什么？
+
+::: details 查看答案
 
 当你使用 `new` 关键字调用一个构造函数时，它将：
 
@@ -358,6 +562,12 @@ const salva = new Person('Salva');
 
 :::
 
-## 讲一讲原型链
+## 7. 讲一讲原型链
 
-## 如何实现一个 `Promise` ？
+## 8. typeof 与 instanceof 区别是什么？
+
+## 9. 说说你对事件循环的理解？
+
+## 10. 如何实现一个 Promise ？
+
+## 11. ES Module 和 CommonJS 的区别是什么？
