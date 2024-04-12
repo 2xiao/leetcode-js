@@ -1140,10 +1140,9 @@ const promise = new MyPromise((resolve, reject) => {
 `Promise.resolve` 默认产生一个成功的 `Promise`。
 
 ```javascript
-static resolve(data) {
-  return new MyPromise((resolve, reject) => {
-    resolve(data);
-  })
+static resolve(value) {
+  if(value instanceof MyPromise) return value;
+  return new MyPromise((resolve) => resolve(value));
 }
 ```
 
@@ -1152,10 +1151,8 @@ static resolve(data) {
 `Promise.reject` 默认产生一个失败的 `Promise`。
 
 ```javascript
-static reject(data) {
-  return new MyPromise((resolve, reject) => {
-    reject(data);
-  })
+static reject(reason) {
+  return new MyPromise((resolve, reject) => reject(reason));
 }
 ```
 
@@ -1164,8 +1161,8 @@ static reject(data) {
 `Promise.prototype.catch` 用来捕获 `Promise` 的异常，就相当于一个没有成功的 `then`。
 
 ```javascript
-MyPromise.prototype.catch = function (errCallback) {
-	return this.then(null, errCallback);
+MyPromise.prototype.catch = function (rejectFn) {
+	return this.then(null, rejectFn);
 };
 ```
 
@@ -1180,14 +1177,11 @@ MyPromise.prototype.catch = function (errCallback) {
 ```javascript
 MyPromise.prototype.finally = function (callback) {
 	return this.then(
-		(value) => {
-			return MyPromise.resolve(callback()).then(() => value);
-		},
-		(reason) => {
-			return MyPromise.resolve(callback()).then(() => {
+		(value) => MyPromise.resolve(callback()).then(() => value),
+		(reason) =>
+			MyPromise.resolve(callback()).then(() => {
 				throw reason;
-			});
-		}
+			})
 	);
 };
 ```
@@ -1197,33 +1191,34 @@ MyPromise.prototype.finally = function (callback) {
 `Promise.all` 用于解决并发问题，多个异步并发获取最终的结果，如果有一个失败则失败。
 
 ```javascript
-MyPromise.all = function (values) {
-	if (!Array.isArray(values)) {
-		const type = typeof values;
-		return new TypeError(`TypeError: ${type} ${values} is not iterable`);
+static all(promiseArr) {
+  if (!Array.isArray(promiseArr)) {
+		const type = typeof promiseArr;
+		return new TypeError(`TypeError: ${type} ${promiseArr} is not iterable`);
 	}
 
+	let index = 0;
+	let result = [];
 	return new MyPromise((resolve, reject) => {
-		let resultArr = [];
-		let orderIndex = 0;
-		const processResultByKey = (value, index) => {
-			resultArr[index] = value;
-			if (++orderIndex === values.length) {
-				resolve(resultArr);
-			}
-		};
-		for (let i = 0; i < values.length; i++) {
-			let value = values[i];
-			if (value && typeof value.then === 'function') {
-				value.then((value) => {
-					processResultByKey(value, i);
-				}, reject);
-			} else {
-				processResultByKey(value, i);
-			}
-		}
+		promiseArr.forEach((p, i) => {
+			// Promise.resolve(p) 用于处理传入值不为 Promise 的情况
+			MyPromise.resolve(p).then(
+				(val) => {
+					index++;
+					result[i] = val;
+					// 所有 then 执行后, resolve 结果
+					if (index === promiseArr.length) {
+						resolve(result);
+					}
+				},
+				(err) => {
+					// 有一个 Promise 被 reject 时，MyPromise 的状态变为 reject
+					reject(err);
+				}
+			);
+		});
 	});
-};
+}
 ```
 
 测试一下：
@@ -1254,23 +1249,27 @@ Promise.all([1, 2, 3, p1, p2]).then(
 
 <h3># 支持 Promise.race</h3>
 
-`Promise.race` 用于处理多个请求，多个异步并发，谁先完成就采用谁的结果。
+`Promise.race` 用于处理多个请求，一旦迭代器中的某个 `Promise` 解决或拒绝，就会返回一个解决或拒绝的 `Promise`。
 
 ```javascript
-MyPromise.race = function (promises) {
+// static
+function race(promiseArr) {
 	return new MyPromise((resolve, reject) => {
-		// for 循环一起执行
-		for (let i = 0; i < promises.length; i++) {
-			let val = promises[i];
-			if (val && typeof val.then === 'function') {
-				val.then(resolve, reject);
-			} else {
-				// 普通值
-				resolve(val);
-			}
+		// 同时执行 Promise ，如果有一个 Promise 的状态发生改变，就更新 MyPromise 的状态
+		for (let p of promiseArr) {
+			// Promise.resolve(p) 用于处理传入值不为 Promise 的情况
+			MyPromise.resolve(p).then(
+				(value) => {
+					// 注意这个 resolve 是上边 new MyPromise 的
+					resolve(value);
+				},
+				(err) => {
+					reject(err);
+				}
+			);
 		}
 	});
-};
+}
 ```
 
 :::
