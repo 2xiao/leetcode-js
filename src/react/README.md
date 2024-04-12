@@ -1,6 +1,7 @@
 ---
 title: '自己动手写 React'
 icon: 'react'
+headerDepth: 0
 ---
 
 <p align="center">

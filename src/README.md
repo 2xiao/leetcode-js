@@ -9,12 +9,15 @@ bgImageStyle:
   background-attachment: fixed
 heroText: LeetCode-JS
 heroFullScreen: true
-tagline: 写给前端工程师的算法通关指南.
+tagline: LeetCode 算法 + React 源码 + 前端八股文 = Offer
 actions:
-  - text: 🧭 LeetCode-JS 通关指南
+  - text: 🧭 LeetCode 通关指南
     link: ./leetcode/
     type: primary
 
-  - text: 🍭 自己动手写 React
+  - text: 🍭 手写 React 源码
     link: ./react/
+
+  - text: 🔥 前端面试题
+    link: ./interview/
 ---
