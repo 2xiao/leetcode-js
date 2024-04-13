@@ -970,9 +970,9 @@ const PENDING = 'PENDING';
 const FULFILLED = 'FULFILLED';
 const REJECTED = 'REJECTED';
 
-const resolvePromise = (promise2, x, resolve, reject) => {
+const resolvePromise = (newPromise, x, resolve, reject) => {
 	// 自己等待自己完成是错误的实现，用一个类型错误，结束掉 promise
-	if (promise2 === x) {
+	if (newPromise === x) {
 		return reject(
 			new TypeError('Chaining cycle detected for promise #<MyPromise>')
 		);
@@ -994,7 +994,7 @@ const resolvePromise = (promise2, x, resolve, reject) => {
 						if (called) return;
 						called = true;
 						// 递归解析的过程（因为可能 promise 中还有 promise）
-						resolvePromise(promise2, y, resolve, reject);
+						resolvePromise(newPromise, y, resolve, reject);
 					},
 					(r) => {
 						// 只要失败就 reject
@@ -1064,13 +1064,13 @@ class MyPromise {
 						throw err;
 				  };
 		// 每次调用 then 都返回一个新的 promise
-		let promise2 = new MyPromise((resolve, reject) => {
+		let newPromise = new MyPromise((resolve, reject) => {
 			if (this.status === FULFILLED) {
 				queueMicrotask(() => {
 					try {
 						let x = onFulfilled(this.value);
 						// x可能是一个proimise
-						resolvePromise(promise2, x, resolve, reject);
+						resolvePromise(newPromise, x, resolve, reject);
 					} catch (e) {
 						reject(e);
 					}
@@ -1081,7 +1081,7 @@ class MyPromise {
 				queueMicrotask(() => {
 					try {
 						let x = onRejected(this.reason);
-						resolvePromise(promise2, x, resolve, reject);
+						resolvePromise(newPromise, x, resolve, reject);
 					} catch (e) {
 						reject(e);
 					}
@@ -1093,7 +1093,7 @@ class MyPromise {
 					queueMicrotask(() => {
 						try {
 							let x = onFulfilled(this.value);
-							resolvePromise(promise2, x, resolve, reject);
+							resolvePromise(newPromise, x, resolve, reject);
 						} catch (e) {
 							reject(e);
 						}
@@ -1104,7 +1104,7 @@ class MyPromise {
 					queueMicrotask(() => {
 						try {
 							let x = onRejected(this.reason);
-							resolvePromise(promise2, x, resolve, reject);
+							resolvePromise(newPromise, x, resolve, reject);
 						} catch (e) {
 							reject(e);
 						}
@@ -1113,7 +1113,7 @@ class MyPromise {
 			}
 		});
 
-		return promise2;
+		return newPromise;
 	}
 }
 ```
@@ -1135,23 +1135,23 @@ const promise = new MyPromise((resolve, reject) => {
 
 原生的 `Promise` 是 V8 引擎提供的微任务，这里我们使用 `queueMicrotask` 来实现微任务机制。
 
-<h3># 支持 Promise.resolve</h3>
+<h3># 支持 Promise.prototype.resolve</h3>
 
-`Promise.resolve` 默认产生一个成功的 `Promise`。
+`Promise.prototype.resolve` 默认产生一个成功的 `Promise`。
 
 ```javascript
-static resolve(value) {
+resolve(value) {
   if(value instanceof MyPromise) return value;
   return new MyPromise((resolve) => resolve(value));
 }
 ```
 
-<h3># 支持 Promise.reject</h3>
+<h3># 支持 Promise.prototype.reject</h3>
 
-`Promise.reject` 默认产生一个失败的 `Promise`。
+`Promise.prototype.reject` 默认产生一个失败的 `Promise`。
 
 ```javascript
-static reject(reason) {
+reject(reason) {
   return new MyPromise((resolve, reject) => reject(reason));
 }
 ```
@@ -1224,19 +1224,19 @@ static all(promiseArr) {
 测试一下：
 
 ```javascript
-let p1 = new Promise((resolve, reject) => {
+let p1 = new MyPromise((resolve, reject) => {
 	setTimeout(() => {
 		resolve('ok1');
 	}, 1000);
 });
 
-let p2 = new Promise((resolve, reject) => {
+let p2 = new MyPromise((resolve, reject) => {
 	setTimeout(() => {
-		reject('ok2');
+		resolve('ok2');
 	}, 2000);
 });
 
-Promise.all([1, 2, 3, p1, p2]).then(
+MyPromise.all([1, 2, 3, p1, p2]).then(
 	(data) => {
 		console.log('resolve', data);
 	},
@@ -1252,8 +1252,7 @@ Promise.all([1, 2, 3, p1, p2]).then(
 `Promise.race` 用于处理多个请求，一旦迭代器中的某个 `Promise` 解决或拒绝，就会返回一个解决或拒绝的 `Promise`。
 
 ```javascript
-// static
-function race(promiseArr) {
+static race(promiseArr) {
 	return new MyPromise((resolve, reject) => {
 		// 同时执行 Promise ，如果有一个 Promise 的状态发生改变，就更新 MyPromise 的状态
 		for (let p of promiseArr) {
@@ -1272,49 +1271,428 @@ function race(promiseArr) {
 }
 ```
 
+<h3># 完整代码</h3>
+
+:::details 完整代码
+
+```javascript
+const PENDING = 'PENDING';
+const FULFILLED = 'FULFILLED';
+const REJECTED = 'REJECTED';
+
+const resolvePromise = (newPromise, x, resolve, reject) => {
+	// 自己等待自己完成是错误的实现，用一个类型错误，结束掉 promise
+	if (newPromise === x) {
+		return reject(
+			new TypeError('Chaining cycle detected for promise #<MyPromise>')
+		);
+	}
+	// 只能调用一次
+	let called;
+	// 后续的条件要严格判断 保证代码能和别的库一起使用
+	if ((typeof x === 'object' && x != null) || typeof x === 'function') {
+		try {
+			// 避免 reject 和 resolve 同时调用的情况
+			let then = x.then;
+			if (typeof then === 'function') {
+				// 不要写成 x.then，直接 then.call 就可以了
+				// 因为 x.then 会再次取值，Object.defineProperty
+				then.call(
+					x,
+					(y) => {
+						// 根据 promise 的状态决定是 resolve 还是 reject
+						if (called) return;
+						called = true;
+						// 递归解析的过程（因为可能 promise 中还有 promise）
+						resolvePromise(newPromise, y, resolve, reject);
+					},
+					(r) => {
+						// 只要失败就 reject
+						if (called) return;
+						called = true;
+						reject(r);
+					}
+				);
+			} else {
+				// 如果 x.then 是个普通值就直接返回 resolve 作为结果
+				resolve(x);
+			}
+		} catch (e) {
+			if (called) return;
+			called = true;
+			reject(e);
+		}
+	} else {
+		// 如果 x 是个普通值就直接返回 resolve 作为结果
+		resolve(x);
+	}
+};
+
+class MyPromise {
+	constructor(executor) {
+		this.status = PENDING;
+		this.value = undefined;
+		this.reason = undefined;
+		this.onResolvedCallbacks = [];
+		this.onRejectedCallbacks = [];
+
+		let resolve = (value) => {
+			if (value instanceof Promise) {
+				return value.then(resolve, reject);
+			}
+
+			if (this.status === PENDING) {
+				this.status = FULFILLED;
+				this.value = value;
+				this.onResolvedCallbacks.forEach((fn) => fn());
+			}
+		};
+
+		let reject = (reason) => {
+			if (this.status === PENDING) {
+				this.status = REJECTED;
+				this.reason = reason;
+				this.onRejectedCallbacks.forEach((fn) => fn());
+			}
+		};
+
+		try {
+			executor(resolve, reject);
+		} catch (error) {
+			reject(error);
+		}
+	}
+
+	then(onFulfilled, onRejected) {
+		// 解决 onFufilled，onRejected 没有传值的问题
+		onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : (v) => v;
+		// 因为错误的值要让后面访问到，这里也要抛出个错误
+		onRejected =
+			typeof onRejected === 'function'
+				? onRejected
+				: (err) => {
+						throw err;
+				  };
+		// 每次调用 then 都返回一个新的 promise
+		let newPromise = new MyPromise((resolve, reject) => {
+			if (this.status === FULFILLED) {
+				queueMicrotask(() => {
+					try {
+						let x = onFulfilled(this.value);
+						// x可能是一个proimise
+						resolvePromise(newPromise, x, resolve, reject);
+					} catch (e) {
+						reject(e);
+					}
+				});
+			}
+
+			if (this.status === REJECTED) {
+				queueMicrotask(() => {
+					try {
+						let x = onRejected(this.reason);
+						resolvePromise(newPromise, x, resolve, reject);
+					} catch (e) {
+						reject(e);
+					}
+				});
+			}
+
+			if (this.status === PENDING) {
+				this.onResolvedCallbacks.push(() => {
+					queueMicrotask(() => {
+						try {
+							let x = onFulfilled(this.value);
+							resolvePromise(newPromise, x, resolve, reject);
+						} catch (e) {
+							reject(e);
+						}
+					});
+				});
+
+				this.onRejectedCallbacks.push(() => {
+					queueMicrotask(() => {
+						try {
+							let x = onRejected(this.reason);
+							resolvePromise(newPromise, x, resolve, reject);
+						} catch (e) {
+							reject(e);
+						}
+					});
+				});
+			}
+		});
+
+		return newPromise;
+	}
+
+	catch(rejectFn) {
+		return this.then(null, rejectFn);
+	}
+
+	finally(callback) {
+		return this.then(
+			(value) => MyPromise.resolve(callback()).then(() => value),
+			(reason) =>
+				MyPromise.resolve(callback()).then(() => {
+					throw reason;
+				})
+		);
+	}
+
+	resolve(value) {
+		if (value instanceof MyPromise) return value;
+		return new MyPromise((resolve) => resolve(value));
+	}
+
+	reject(reason) {
+		return new MyPromise((resolve, reject) => reject(reason));
+	}
+
+	static all(promiseArr) {
+		if (!Array.isArray(promiseArr)) {
+			const type = typeof promiseArr;
+			return new TypeError(`TypeError: ${type} ${promiseArr} is not iterable`);
+		}
+
+		let index = 0;
+		let result = [];
+		return new MyPromise((resolve, reject) => {
+			promiseArr.forEach((p, i) => {
+				// Promise.resolve(p) 用于处理传入值不为 Promise 的情况
+				MyPromise.resolve(p).then(
+					(val) => {
+						index++;
+						result[i] = val;
+						// 所有 then 执行后, resolve 结果
+						if (index === promiseArr.length) {
+							resolve(result);
+						}
+					},
+					(err) => {
+						// 有一个 Promise 被 reject 时，MyPromise 的状态变为 reject
+						reject(err);
+					}
+				);
+			});
+		});
+	}
+
+	static race(promiseArr) {
+		return new MyPromise((resolve, reject) => {
+			// 同时执行 Promise ，如果有一个 Promise 的状态发生改变，就更新 MyPromise 的状态
+			for (let p of promiseArr) {
+				// Promise.resolve(p) 用于处理传入值不为 Promise 的情况
+				MyPromise.resolve(p).then(
+					(value) => {
+						// 注意这个 resolve 是上边 new MyPromise 的
+						resolve(value);
+					},
+					(err) => {
+						reject(err);
+					}
+				);
+			}
+		});
+	}
+}
+```
+
 :::
 
-## 14. async/await 的错误捕获方式
+## 14. 如何实现 async/await ？
 
 ::: details 查看答案(todo)
 :::
 
-## 15. ES6、ES7、ES8、ES9、ES10 分别有什么新特性？
+## 15. 如何实现一个 AJAX ？
+
+::: details 查看答案
+
+`AJAX `全称(Async Javascript and XML)。
+
+即异步的` JavaScript` 和` XML`，是一种创建交互式网页应用的网页开发技术，可以在不重新加载整个网页的情况下，与服务器交换数据，并且更新部分网页。
+
+`Ajax`的原理简单来说通过`XmlHttpRequest`对象来向服务器发异步请求，从服务器获得数据，然后用`JavaScript`来操作`DOM`而更新页面。
+
+浏览器发送`HTTP`请求后，可以接着做其他事情，等收到`XHR`返回来的数据再进行操作。
+
+实现 `Ajax `异步交互需要服务器逻辑进行配合，需要完成以下步骤：
+
+- 创建 `Ajax `的核心对象 `XMLHttpRequest `对象
+- 通过 `XMLHttpRequest` 对象的 `open()` 方法与服务端建立连接
+- 构建请求所需的数据内容，并通过` XMLHttpRequest` 对象的 `send()` 方法发送给服务器端
+- 通过 `XMLHttpRequest` 对象提供的 `onreadystatechange` 事件监听服务器端你的通信状态
+- 接受并处理服务端向客户端响应的数据结果
+- 将处理结果更新到 `HTML `页面中
+
+<h3># 创建 XMLHttpRequest 对象</h3>
+
+通过`XMLHttpRequest()` 构造函数用于初始化一个 `XMLHttpRequest` 实例对象
+
+```javascript
+const xhr = new XMLHttpRequest();
+```
+
+<h3># 与服务器建立连接</h3>
+
+通过 `XMLHttpRequest` 对象的 `open()` 方法与服务器建立连接
+
+```javascript
+xhr.open(method, url, [async][, user][, password])
+```
+
+参数说明：
+
+- `method`：表示当前的请求方式，常见的有`GET`、`POST`
+
+- `url`：服务端地址
+
+- `async`：布尔值，表示是否异步执行操作，默认为`true`
+
+- `user`: 可选的用户名用于认证用途；默认为`null
+
+- `password`: 可选的密码用于认证用途，默认为`null
+
+<h3># 给服务端发送数据</h3>
+
+通过 `XMLHttpRequest` 对象的 `send()` 方法，将客户端页面的数据发送给服务端
+
+```javascript
+xhr.send([body]);
+```
+
+`body`: 在 `XHR` 请求中要发送的数据体，如果不传递数据则为 `null`
+
+如果使用`GET`请求发送数据的时候，需要注意如下：
+
+- 将请求数据添加到`open()`方法中的`url`地址中
+- 发送请求数据中的`send()`方法中参数设置为`null`
+
+<h3># 绑定 onreadystatechange 事件</h3>
+
+`onreadystatechange` 事件用于监听服务器端的通信状态，主要监听的属性为`XMLHttpRequest.readyState`，`XMLHttpRequest.readyState`属性有五个状态，如下图显示：
+
+| 值  | 状态                           | 描述                                          |
+| --- | ------------------------------ | --------------------------------------------- |
+| 0   | UNSENT(未打开)                 | open()方法还未被调用                          |
+| 1   | OPENED(未发送)                 | send()方法还未被调用                          |
+| 2   | HEADERS_RECEIVED(已获取响应头) | send()方法已被调用，响应头和响应状态已返回    |
+| 3   | LOADING(正在下载响应体)        | 响应体下载中，responseText 中已经获取部分数据 |
+| 4   | DONE(请求完成)                 | 整个请求过程已完毕                            |
+
+只要 `readyState `属性值一变化，就会触发一次 `readystatechange` 事件。
+
+`XMLHttpRequest.responseText`属性用于接收服务器端的响应结果。
+
+举个例子：
+
+```javascript
+const request = new XMLHttpRequest();
+request.onreadystatechange = function (e) {
+	if (request.readyState === 4) {
+		// 整个请求过程完毕
+		if (request.status >= 200 && request.status <= 300) {
+			console.log(request.responseText); // 服务端返回的结果
+		} else if (request.status >= 400) {
+			console.log('错误信息：' + request.status);
+		}
+	}
+};
+request.open('POST', 'http://xxxx');
+request.send();
+```
+
+<h3># 完整实现</h3>
+
+通过上面对`XMLHttpRequest `对象的了解，下面来封装一个简单的`ajax`请求：
+
+```javascript
+// 封装一个ajax请求
+function ajax(options) {
+  // 创建XMLHttpRequest对象
+  const xhr = new XMLHttpRequest()
+
+  // 初始化参数的内容
+  options = options || {}
+  options.type = (options.type || 'GET').toUpperCase()
+  options.dataType = options.dataType || 'json'
+  const params = options.data
+
+  // 发送请求
+  if (options.type === 'GET') {
+    xhr.open('GET', options.url + '?' + params, true)
+    xhr.send(null)
+  } else if (options.type === 'POST') {
+    xhr.open('POST', options.url, true)
+    xhr.send(params)
+
+  // 接收请求
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      let status = xhr.status
+      if (status >= 200 && status < 300) {
+        options.success && options.success(xhr.responseText, xhr.responseXML)
+      } else {
+        options.fail && options.fail(status)
+      }
+    }
+  }
+}
+```
+
+使用方式如下：
+
+```javascript
+ajax({
+	type: 'post',
+	dataType: 'json',
+	data: {},
+	url: 'https://xxxx',
+	success: function (text, xml) {
+		// 请求成功后的回调函数
+		console.log(text);
+	},
+	fail: function (status) {
+		// 请求失败后的回调函数
+		console.log(status);
+	}
+});
+```
+
+:::
+
+## 16. ES6、ES7、ES8、ES9、ES10 分别有什么新特性？
 
 ::: details 查看答案(todo)
 :::
 
-## 16. ES Module 和 CommonJS 的区别是什么？
+## 17. ES Module 和 CommonJS 的区别是什么？
 
 ::: details 查看答案(todo)
 :::
 
-## 17. 对比 import、import() 和 requrie 的区别
+## 18. 对比 import、import() 和 requrie 的区别
 
 ::: details 查看答案(todo)
 :::
 
-## 18. 如何实现防抖和节流？
+## 19. 如何实现防抖和节流？
 
 ::: details 查看答案(todo)
 :::
 
-## 19. 深拷贝浅拷贝的区别是什么？
+## 20. 深拷贝浅拷贝的区别是什么？
 
 ::: details 查看答案(todo)
 :::
 
-## 20. 闭包
+## 21. 闭包
 
 ::: details 查看答案(todo)
 :::
 
-## 21. Cookie、sessionStorage、localStorage 的区别是什么？
-
-::: details 查看答案(todo)
-:::
-
-## 22. 讲一讲 AJAX 的原理？
+## 22. Cookie、sessionStorage、localStorage 的区别是什么？
 
 ::: details 查看答案(todo)
 :::
