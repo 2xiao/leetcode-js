@@ -752,16 +752,6 @@ getType(/123/g); //"RegExp" toString返回
 
 :::
 
-## 11. 说说你对事件循环的理解？
-
-::: details 查看答案(todo)
-:::
-
-## 12. JS 是如何处理异步的？
-
-::: details 查看答案(todo)
-:::
-
 ## 13. 如何实现一个 Promise ？
 
 ::: details 查看答案
@@ -1501,6 +1491,31 @@ class MyPromise {
 :::
 
 ## 14. 如何实现 async/await ？
+
+::: details 查看答案(todo)
+:::
+
+## 11. 说说你对事件循环的理解？
+
+::: details 查看答案(todo)
+event loop 的执行顺序：
+
+- 一开始整个脚本作为一个宏任务执行
+- 执行过程中同步代码直接执行，宏任务进入宏任务队列，微任务进入微任务队列
+- 当前宏任务执行完出队，检查微任务列表，有则依次执行，直到全部执行完
+- 执行浏览器 UI 线程的渲染工作
+- 检查是否有 Web Worker 任务，有则执行
+- 执行完本轮的宏任务，回到 2，依此循环，直到宏任务和微任务队列都为空
+
+**微任务包括**：`MutationObserver`、`Promise.then()`或`reject()`、以 `Promise`为基础开发的其它技术，比如`fetch API`、`V8`的垃圾回收过程、`Node`独有的`process.nextTick`、`async await`。
+
+**宏任务包括**：`script` 、`setTimeout`、`setInterval` 、`setImmediate` 、`I/O` 、`UI rendering`
+
+:::
+
+### Promise 的几道基础题
+
+## 12. JS 是如何处理异步的？
 
 ::: details 查看答案(todo)
 :::
