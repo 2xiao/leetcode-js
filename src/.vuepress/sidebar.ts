@@ -454,6 +454,7 @@ export default sidebar({
           text: "剑指 Offer II",
           collapsible: true,
           children: [
+            "jz_offer_II_027",
             "jz_offer_II_031",
             "jz_offer_II_101"
           ],
