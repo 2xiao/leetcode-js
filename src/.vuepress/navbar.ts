@@ -8,10 +8,16 @@ export default navbar([
 		link: '/leetcode/'
 	},
 	{
-		text: '手写 React 源码',
+		text: 'React 源码',
 		icon: 'react',
 		prefix: '/react/',
 		link: '/react/'
+	},
+	{
+		text: 'Vue 源码',
+		icon: 'vue',
+		prefix: '/vue/',
+		link: '/vue/'
 	},
 	{
 		text: '前端面试题',

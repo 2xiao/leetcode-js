@@ -9,14 +9,17 @@ bgImageStyle:
   background-attachment: fixed
 heroText: LeetCode-JS
 heroFullScreen: true
-tagline: LeetCode 算法 + React 源码 + 前端八股文 = Offer
+tagline: LeetCode 算法 + 框架源码 + 前端八股文 = Offer
 actions:
   - text: 🧭 LeetCode 通关指南
     link: ./leetcode/
     type: primary
 
-  - text: 🍭 手写 React 源码
+  - text: 🍭 React 源码
     link: ./react/
+
+  - text: 🤡 Vue 源码
+    link: ./vue/
 
   - text: 🔥 前端面试题
     link: ./interview/

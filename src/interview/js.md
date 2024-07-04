@@ -257,6 +257,14 @@ a = arr.map((i) => (i.m = 3)); // 注意返回值的差异
 console.log(a); // [3, 3]
 ```
 
+- `forEach`：对数组的每个元素执行一次给定的函数
+
+```javascript
+let a = arr.forEach((i) => i + 'e');
+console.log(a); // undefined
+console.log(arr); // ['a', 'b', 'c', 'd']
+```
+
 <h3># 不改变原数组的：</h3>
 
 - `concat`：用于合并两个或多个数组，不会更改原数组，而是返回一个新数组
@@ -288,14 +296,6 @@ console.log(arr); // ['a', 'b', 'c', 'd']
 ```javascript
 let a = arr.filter((i) => i > 'b');
 console.log(a); // ['c', 'd']
-console.log(arr); // ['a', 'b', 'c', 'd']
-```
-
-- `forEach`：对数组的每个元素执行一次给定的函数
-
-```javascript
-let a = arr.forEach((i) => i + 'e');
-console.log(a); // undefined
 console.log(arr); // ['a', 'b', 'c', 'd']
 ```
 
@@ -568,9 +568,9 @@ const salva = new Person('Salva');
 
 JavaScript 提供三种不同的值比较运算：
 
-- `==` —— 宽松相等，将执行类型转换，并且对 NaN、-0 和 +0 进行特殊处理，故 NaN != NaN，且 -0 == +0；
-- `===` —— 严格相等，不进行类型转换，也对 NaN、-0 和 +0 进行特殊处理；
-- `Object.is()` —— 不进行类型转换，也不对 NaN、-0 和 +0 进行特殊处理；
+- `==` 宽松相等，将执行类型转换，并且对 NaN、-0 和 +0 进行特殊处理，故 NaN != NaN，且 -0 == +0；
+- `===` 严格相等，不进行类型转换，也对 NaN、-0 和 +0 进行特殊处理；
+- `Object.is()` 不进行类型转换，也不对 NaN、-0 和 +0 进行特殊处理；
 
 ```javascript
 console.log(-0 == +0); // true

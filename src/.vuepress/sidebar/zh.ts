@@ -261,4 +261,5 @@ export const zhSidebar = sidebar({
     },
   ],
   "/react/": "structure",
+  "/vue/": "structure",
 });

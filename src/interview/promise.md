@@ -366,6 +366,7 @@ setTimeout(() => {
 }, 2000);
 ```
 
+```
 'promise1 里的内容'
 'promise1' Promise{<pending>}
 'promise2' Promise{<pending>}
@@ -375,24 +376,24 @@ test5.html:102 Uncaught (in promise) Error: error!!! at test.html:102
 'promise1' Promise{<resolved>: "success"}
 'promise2' Promise{<rejected>: Error: error!!!}
 
-````
+```
 
-[#](#_3-promise中的then、catch、finally) 3. Promise中的then、catch、finally
--------------------------------------------------------------------
+[#](#_3-promise中的then、catch、finally) 3. Promise 中的 then、catch、finally
 
-*   Promise的状态一经改变就不能再改变
-*   .then和.catch都会返回一个新的Promise
-*   catch不管被连接到哪里，都能捕获上层的错误
-*   在Promise中，返回任意一个非 promise 的值都会被包裹成 promise 对象，例如return 2会被包装为return Promise.resolve(2)
-*   Promise 的 .then 或者 .catch 可以被调用多次, 当如果Promise内部的状态一经改变，并且有了一个值，那么后续每次调用.then或者.catch的时候都会直接拿到该值
-*   .then 或者 .catch 中 return 一个 error 对象并不会抛出错误，所以不会被后续的 .catch 捕获
-*   .then 或 .catch 返回的值不能是 promise 本身，否则会造成死循环
-*   .then 或者 .catch 的参数期望是函数，传入非函数则会发生值穿透
-*   .then方法是能接收两个参数的，第一个是处理成功的函数，第二个是处理失败的函数，再某些时候你可以认为catch是.then第二个参数的简便写法
-*   .finally方法也是返回一个Promise，他在Promise结束的时候，无论结果为resolved还是rejected，都会执行里面的回调函数
+- Promise 的状态一经改变就不能再改变
+- .then 和.catch 都会返回一个新的 Promise
+- catch 不管被连接到哪里，都能捕获上层的错误
+- 在 Promise 中，返回任意一个非 promise 的值都会被包裹成 promise 对象，例如 return 2 会被包装为 return Promise.resolve(2)
+- Promise 的 .then 或者 .catch 可以被调用多次, 当如果 Promise 内部的状态一经改变，并且有了一个值，那么后续每次调用.then 或者.catch 的时候都会直接拿到该值
+- .then 或者 .catch 中 return 一个 error 对象并不会抛出错误，所以不会被后续的 .catch 捕获
+- .then 或 .catch 返回的值不能是 promise 本身，否则会造成死循环
+- .then 或者 .catch 的参数期望是函数，传入非函数则会发生值穿透
+- .then 方法是能接收两个参数的，第一个是处理成功的函数，第二个是处理失败的函数，再某些时候你可以认为 catch 是.then 第二个参数的简便写法
+- .finally 方法也是返回一个 Promise，他在 Promise 结束的时候，无论结果为 resolved 还是 rejected，都会执行里面的回调函数
 
 ### [#](#_3-1-题目一) 3.1 题目一
-```javascript
+
+````javascript
 const promise = new Promise((resolve, reject) => {
     resolve("success1");
     reject("error");

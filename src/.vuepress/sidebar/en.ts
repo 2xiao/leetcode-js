@@ -261,4 +261,5 @@ export const enSidebar = sidebar({
     },
   ],
   "/en/react/": "structure",
+  "/en/vue/": "structure",
 });
