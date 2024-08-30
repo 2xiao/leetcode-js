@@ -1,6 +1,6 @@
 # [剑指 Offer 18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`链表`](/leetcode/outline/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/leetcode/outline/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof/)
 
 ## 题目
 
@@ -48,14 +48,14 @@
  * @return {ListNode}
  */
 var deleteNode = function (head, val) {
-  if (head.val == val) return head.next;
-  let prev = head;
-  while (prev.next) {
-    if (prev.next.val == val) {
-      prev.next = prev.next.next;
-      return head;
-    }
-    prev = prev.next;
-  }
+	if (head.val == val) return head.next;
+	let prev = head;
+	while (prev.next) {
+		if (prev.next.val == val) {
+			prev.next = prev.next.next;
+			return head;
+		}
+		prev = prev.next;
+	}
 };
 ```

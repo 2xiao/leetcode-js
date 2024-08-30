@@ -39,30 +39,30 @@
 ```javascript
 // 基于数组实现的顺序栈
 class ArrayStack {
-  constructor() {
-    this._stack = []; // 栈中的数据
-  }
+	constructor() {
+		this._stack = []; // 栈中的数据
+	}
 
-  // 入栈
-  push(data) {
-    this._stack.push(data);
-  }
-  // 出栈
-  pop() {
-    return this._stack.pop();
-  }
-  // 清空栈
-  clear() {
-    this._stack = [];
-  }
-  // 获取栈中元素的数量
-  count() {
-    return this._stack.length;
-  }
-  // 打印栈
-  print() {
-    console.log(this._stack);
-  }
+	// 入栈
+	push(data) {
+		this._stack.push(data);
+	}
+	// 出栈
+	pop() {
+		return this._stack.pop();
+	}
+	// 清空栈
+	clear() {
+		this._stack = [];
+	}
+	// 获取栈中元素的数量
+	count() {
+		return this._stack.length;
+	}
+	// 打印栈
+	print() {
+		console.log(this._stack);
+	}
 }
 ```
 
@@ -86,46 +86,46 @@ console.log(stack.count()); // output: 2
 ```javascript
 // 定义节点类
 class Node {
-  constructor(data) {
-    this.data = data; // 节点中的数据
-    this.next = null; // 下一个节点
-  }
+	constructor(data) {
+		this.data = data; // 节点中的数据
+		this.next = null; // 下一个节点
+	}
 }
 
 // 基于链表实现的链式栈
 class LinkedListStack {
-  constructor() {
-    this.head = null; // 栈顶元素
-    this.length = 0; // 栈中元素的个数
-  }
-  // 入栈
-  push(data) {
-    let newNode = new Node(data);
-    newNode.next = this.head;
-    this.head = newNode;
-    this.length++;
-  }
+	constructor() {
+		this.head = null; // 栈顶元素
+		this.length = 0; // 栈中元素的个数
+	}
+	// 入栈
+	push(data) {
+		let newNode = new Node(data);
+		newNode.next = this.head;
+		this.head = newNode;
+		this.length++;
+	}
 
-  // 出栈
-  pop() {
-    let data = this.head.data;
-    this.head = this.head.next;
-    this.length--;
-    return data;
-  }
-  // 清空栈
-  clear() {
-    this.head.next = null;
-    this.head = null;
-  }
-  // 获取栈中元素的数量
-  count() {
-    return this.length;
-  }
-  // 打印栈
-  print() {
-    console.log(this.head);
-  }
+	// 出栈
+	pop() {
+		let data = this.head.data;
+		this.head = this.head.next;
+		this.length--;
+		return data;
+	}
+	// 清空栈
+	clear() {
+		this.head.next = null;
+		this.head = null;
+	}
+	// 获取栈中元素的数量
+	count() {
+		return this.length;
+	}
+	// 打印栈
+	print() {
+		console.log(this.head);
+	}
 }
 ```
 
@@ -263,25 +263,25 @@ console.log(stack.count()); // output: 2
  * @return {boolean}
  */
 var isValid = function (s) {
-  const len = s.length;
-  if (len === 0) return true;
+	const len = s.length;
+	if (len === 0) return true;
 
-  let stack = [];
-  for (let i = 0; i < len; i++) {
-    let v = s[i];
-    if (v === "{" || v === "(" || v === "[") {
-      stack.push(v);
-    } else if (
-      (v === "}") & (stack.length > 0) & (stack[stack.length - 1] === "{") ||
-      (v === ")") & (stack.length > 0) & (stack[stack.length - 1] === "(") ||
-      (v === "]") & (stack.length > 0) & (stack[stack.length - 1] === "[")
-    ) {
-      stack.pop();
-    } else {
-      return false;
-    }
-  }
-  return stack.length === 0;
+	let stack = [];
+	for (let i = 0; i < len; i++) {
+		let v = s[i];
+		if (v === '{' || v === '(' || v === '[') {
+			stack.push(v);
+		} else if (
+			(v === '}') & (stack.length > 0) & (stack[stack.length - 1] === '{') ||
+			(v === ')') & (stack.length > 0) & (stack[stack.length - 1] === '(') ||
+			(v === ']') & (stack.length > 0) & (stack[stack.length - 1] === '[')
+		) {
+			stack.pop();
+		} else {
+			return false;
+		}
+	}
+	return stack.length === 0;
 };
 ```
 
@@ -357,34 +357,34 @@ var isValid = function (s) {
 
 ```javascript
 class BrowserHistory {
-  // @param {string} homepage
-  constructor(homepage) {
-    this.history = [homepage];
-    this.cur_index = 0;
-  }
+	// @param {string} homepage
+	constructor(homepage) {
+		this.history = [homepage];
+		this.cur_index = 0;
+	}
 
-  // @param {string} url
-  // @return {void}
-  visit(url) {
-    // clear forward history
-    this.history = this.history.slice(0, this.cur_index + 1);
-    this.history.push(url);
-    this.cur_index++;
-  }
+	// @param {string} url
+	// @return {void}
+	visit(url) {
+		// clear forward history
+		this.history = this.history.slice(0, this.cur_index + 1);
+		this.history.push(url);
+		this.cur_index++;
+	}
 
-  // @param {number} steps
-  // @return {string}
-  back(steps) {
-    this.cur_index = Math.max(0, this.cur_index - steps);
-    return this.history[this.cur_index];
-  }
+	// @param {number} steps
+	// @return {string}
+	back(steps) {
+		this.cur_index = Math.max(0, this.cur_index - steps);
+		return this.history[this.cur_index];
+	}
 
-  // @param {number} steps
-  // @return {string}
-  forward(steps) {
-    this.cur_index = Math.min(this.history.length - 1, this.cur_index + steps);
-    return this.history[this.cur_index];
-  }
+	// @param {number} steps
+	// @return {string}
+	forward(steps) {
+		this.cur_index = Math.min(this.history.length - 1, this.cur_index + steps);
+		return this.history[this.cur_index];
+	}
 }
 ```
 
@@ -520,18 +520,18 @@ function add(x, y) {
  * @return {number[]}
  */
 var nextGreaterElement = function (nums1, nums2) {
-  let map = new Map();
-  let stack = [];
-  for (let num of nums2) {
-    while (stack.length && stack[stack.length - 1] < num) {
-      map.set(stack.pop(), num);
-    }
-    stack.push(num);
-  }
-  for (let i = 0; i < nums1.length; i++) {
-    nums1[i] = map.has(nums1[i]) ? map.get(nums1[i]) : -1;
-  }
-  return nums1;
+	let map = new Map();
+	let stack = [];
+	for (let num of nums2) {
+		while (stack.length && stack[stack.length - 1] < num) {
+			map.set(stack.pop(), num);
+		}
+		stack.push(num);
+	}
+	for (let i = 0; i < nums1.length; i++) {
+		nums1[i] = map.has(nums1[i]) ? map.get(nums1[i]) : -1;
+	}
+	return nums1;
 };
 ```
 
@@ -586,21 +586,21 @@ var nextGreaterElement = function (nums1, nums2) {
  * @return {number[]}
  */
 var dailyTemperatures = function (temperatures) {
-  let map = new Map();
-  let stack = [];
-  for (let i = 0; i < temperatures.length; i++) {
-    while (
-      stack.length &&
-      temperatures[stack[stack.length - 1]] < temperatures[i]
-    ) {
-      map.set(stack.pop(), i);
-    }
-    stack.push(i);
-  }
-  for (let i = 0; i < temperatures.length; i++) {
-    temperatures[i] = map.has(i) ? map.get(i) - i : 0;
-  }
-  return temperatures;
+	let map = new Map();
+	let stack = [];
+	for (let i = 0; i < temperatures.length; i++) {
+		while (
+			stack.length &&
+			temperatures[stack[stack.length - 1]] < temperatures[i]
+		) {
+			map.set(stack.pop(), i);
+		}
+		stack.push(i);
+	}
+	for (let i = 0; i < temperatures.length; i++) {
+		temperatures[i] = map.has(i) ? map.get(i) - i : 0;
+	}
+	return temperatures;
 };
 ```
 
@@ -619,18 +619,18 @@ var dailyTemperatures = function (temperatures) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0155 | [最小栈](https://leetcode.com/problems/min-stack/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0155) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) | <font color=#ffb800>Medium</font> |
-| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
+| 0020 | [有效的括号](https://leetcode.com/problems/valid-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 | 0150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0150) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
-| 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Esay</font> |
+| 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_09_1) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
 | 0394 | [字符串解码](https://leetcode.com/problems/decode-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0032 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0946) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_06_1) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_06_1) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0071) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 
 #### 单调栈
@@ -638,7 +638,7 @@ var dailyTemperatures = function (temperatures) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
-| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0503) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 | 0901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`数据流`](/leetcode/outline/tag/data-streams.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0084 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ff334b>Hard</font> |

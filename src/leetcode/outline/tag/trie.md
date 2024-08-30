@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
+| 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0139 | [单词拆分](https://leetcode.com/problems/word-break/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0139) |  [`字典树`](/leetcode/outline/tag/trie.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0140 | [单词拆分 II](https://leetcode.com/problems/word-break-ii/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -47,7 +47,7 @@
 | 0820 | [单词的压缩编码](https://leetcode.com/problems/short-encoding-of-words/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1023 | [驼峰式匹配](https://leetcode.com/problems/camelcase-matching/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1032 | [字符流](https://leetcode.com/problems/stream-of-characters/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
-| 1065 | [字符串的索引对](https://leetcode.com/problems/index-pairs-of-a-string/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Esay</font> |
+| 1065 | [字符串的索引对](https://leetcode.com/problems/index-pairs-of-a-string/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 1166 | [设计文件系统](https://leetcode.com/problems/design-file-system/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1178 | [猜字谜](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |

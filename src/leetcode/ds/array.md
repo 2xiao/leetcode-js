@@ -84,14 +84,14 @@
   ```js
   let myArray3 = [1, 2, 3, 4, 5, 6];
   // 修改 索引 1 的位置的元素为 AA
-  myArray2.splice(1, 1, "AA");
+  myArray2.splice(1, 1, 'AA');
   console.log(myArray3); //--> [1, "AA", 3, 4, 5, 6]
   ```
 - 修改指定索引位置的几个元素 `array.splice(index, number, item)`
   ```js
   let myArray4 = [1, 2, 3, 4, 5, 6, 7];
   // 在 索引 2 的位置起，修改两个元素为 AA BB
-  myArray2.splice(2, 2, "AA", "BB");
+  myArray2.splice(2, 2, 'AA', 'BB');
   console.log(myArray3); //--> [1, 2, "AA", "BB", 5, 6, 7]
   ```
 
@@ -106,7 +106,7 @@
   ```js
   let myArray = [1, 2, 3];
   // 在 索引 0 的位置，插入 A
-  myArray.splice(0, 0, "A");
+  myArray.splice(0, 0, 'A');
   console.log(myArray); //--> ['A', 1, 2, 3]
   ```
 
@@ -159,9 +159,9 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0189 | [轮转数组](https://leetcode.com/problems/rotate-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0189) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Esay</font> |
-| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Esay</font> |
-| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
+| 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Easy</font> |
+| 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
+| 0485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0485) |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 
 #### 二维数组

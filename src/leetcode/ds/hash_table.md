@@ -109,49 +109,49 @@ myHashSet.contains(2); // return False, (already removed)
 
 ```javascript
 class MyHashSet {
-  constructor() {
-    this.base = 769;
-    this.data = new Array(this.base).fill(0).map(() => new Array());
-  }
+	constructor() {
+		this.base = 769;
+		this.data = new Array(this.base).fill(0).map(() => new Array());
+	}
 
-  // @param {number} key
-  // @return {number}
-  hash(key) {
-    return key % this.base;
-  }
+	// @param {number} key
+	// @return {number}
+	hash(key) {
+		return key % this.base;
+	}
 
-  // @param {number} key
-  // @return {void}
-  add(key) {
-    const h = this.hash(key);
-    for (let item of this.data[h]) {
-      if (item === key) return;
-    }
-    this.data[h].push(key);
-  }
+	// @param {number} key
+	// @return {void}
+	add(key) {
+		const h = this.hash(key);
+		for (let item of this.data[h]) {
+			if (item === key) return;
+		}
+		this.data[h].push(key);
+	}
 
-  // @param {number} key
-  // @return {void}
-  remove(key) {
-    const h = this.hash(key);
-    const hList = this.data[h];
-    for (let i = 0; i < hList.length; i++) {
-      if (hList[i] === key) {
-        hList.splice(i, 1);
-        return;
-      }
-    }
-  }
+	// @param {number} key
+	// @return {void}
+	remove(key) {
+		const h = this.hash(key);
+		const hList = this.data[h];
+		for (let i = 0; i < hList.length; i++) {
+			if (hList[i] === key) {
+				hList.splice(i, 1);
+				return;
+			}
+		}
+	}
 
-  // @param {number} key
-  // @return {boolean}
-  contains(key) {
-    const h = this.hash(key);
-    for (let item of this.data[h]) {
-      if (item === key) return true;
-    }
-    return false;
-  }
+	// @param {number} key
+	// @return {boolean}
+	contains(key) {
+		const h = this.hash(key);
+		for (let item of this.data[h]) {
+			if (item === key) return true;
+		}
+		return false;
+	}
 }
 
 /**
@@ -213,53 +213,53 @@ myHashMap.get(2);    // return -1 (i.e., not found), The map is now [[1,1]]
 
 ```javascript
 class MyHashMap {
-  constructor() {
-    this.base = 769;
-    this.data = new Array(this.base).fill(0).map(() => new Array());
-  }
+	constructor() {
+		this.base = 769;
+		this.data = new Array(this.base).fill(0).map(() => new Array());
+	}
 
-  // @param {number} key
-  // @return {number}
-  hash(key) {
-    return key % this.base;
-  }
+	// @param {number} key
+	// @return {number}
+	hash(key) {
+		return key % this.base;
+	}
 
-  // @param {number} key
-  // @param {number} value
-  // @return {void}
-  put(key, value) {
-    const h = this.hash(key);
-    for (let item of this.data[h]) {
-      if (item[0] === key) {
-        item[1] = value;
-        return;
-      }
-    }
-    this.data[h].push([key, value]);
-  }
+	// @param {number} key
+	// @param {number} value
+	// @return {void}
+	put(key, value) {
+		const h = this.hash(key);
+		for (let item of this.data[h]) {
+			if (item[0] === key) {
+				item[1] = value;
+				return;
+			}
+		}
+		this.data[h].push([key, value]);
+	}
 
-  // @param {number} key
-  // @return {number}
-  get(key) {
-    const h = this.hash(key);
-    for (let item of this.data[h]) {
-      if (item[0] === key) return item[1];
-    }
-    return -1;
-  }
+	// @param {number} key
+	// @return {number}
+	get(key) {
+		const h = this.hash(key);
+		for (let item of this.data[h]) {
+			if (item[0] === key) return item[1];
+		}
+		return -1;
+	}
 
-  // @param {number} key
-  // @return {void}
-  remove(key) {
-    const h = this.hash(key);
-    const hList = this.data[h];
-    for (let i = 0; i < hList.length; i++) {
-      if (hList[i][0] === key) {
-        hList.splice(i, 1);
-        return;
-      }
-    }
-  }
+	// @param {number} key
+	// @return {void}
+	remove(key) {
+		const h = this.hash(key);
+		const hList = this.data[h];
+		for (let i = 0; i < hList.length; i++) {
+			if (hList[i][0] === key) {
+				hList.splice(i, 1);
+				return;
+			}
+		}
+	}
 }
 /**
  * Your MyHashMap object will be instantiated and called as such:
@@ -304,12 +304,12 @@ set3.size // 2
 ```javascript
 // 对象的写法
 const properties = {
-  'width': 1,
-  'height': 1
+	width: 1,
+	height: 1
 };
 
 if (properties[someName]) {
-  // do something
+	// do something
 }
 
 // Set的写法
@@ -319,9 +319,10 @@ properties.add('width');
 properties.add('height');
 
 if (properties.has(someName)) {
-  // do something
+	// do something
 }
 ```
+
 ### 属性和方法
 
 `Set` 结构的实例有以下属性：
@@ -356,7 +357,7 @@ if (properties.has(someName)) {
 
 ```javascript
 // 去除数组的重复成员
-let set = new Set(["red", "green", "blue", "green"]);
+let set = new Set(['red', 'green', 'blue', 'green']);
 let arr = [...set];
 // ['red', 'green', 'blue']
 
@@ -367,7 +368,7 @@ let arr2 = Array.from(set);
 上面的方法也可以用于，去除字符串里面的重复字符。
 
 ```javascript
-[...new Set("ababbc")].join("");
+[...new Set('ababbc')].join('');
 // "abc"
 ```
 
@@ -435,22 +436,22 @@ JavaScript 的对象（`Object`），本质上是键值对的集合（`Hash` 结
 ```javascript
 // 用数组初始化
 const map = new Map([
-  ["name", "张三"],
-  ["title", "Author"],
+	['name', '张三'],
+	['title', 'Author']
 ]);
 
 // 用 Set 初始化
 const set = new Set([
-  ["foo", 1],
-  ["bar", 2],
+	['foo', 1],
+	['bar', 2]
 ]);
 const m1 = new Map(set);
-m1.get("foo"); // 1
+m1.get('foo'); // 1
 
 // 用 Map 初始化
-const m2 = new Map([["baz", 3]]);
+const m2 = new Map([['baz', 3]]);
 const m3 = new Map(m2);
-m3.get("baz"); // 3
+m3.get('baz'); // 3
 
 // 键值为数字
 map.set(-0, 123);
@@ -458,7 +459,7 @@ map.get(+0); // 123
 
 // 键值为布尔值
 map.set(true, 1);
-map.set("true", 2);
+map.set('true', 2);
 map.get(true); // 1
 
 // 键值为undefined null
@@ -472,8 +473,8 @@ map.get(NaN); // 123
 
 // 键值为对象
 // 非同一个数组实例，内存地址不一样
-map.set(["a"], 555);
-map.get(["a"]); // undefined
+map.set(['a'], 555);
+map.get(['a']); // undefined
 ```
 
 ### 属性和方法
@@ -520,16 +521,16 @@ const myMap = new Map().set(true, 7).set({ foo: 3 }, ["abc"]);
 结合数组的`map`方法、`filter`方法，可以实现 `Map` 的遍历和过滤（`Map` 本身没有`map`和`filter`方法）。`Map` 有一个`forEach`方法，与数组的`forEach`方法类似，也可以实现遍历
 
 ```javascript
-const map0 = new Map().set(1, "a").set(2, "b").set(3, "c");
+const map0 = new Map().set(1, 'a').set(2, 'b').set(3, 'c');
 
 const map1 = new Map([...map0].filter(([k, v]) => k < 3));
 // 产生 Map 结构 {1 => 'a', 2 => 'b'}
 
-const map2 = new Map([...map0].map(([k, v]) => [k * 2, "_" + v]));
+const map2 = new Map([...map0].map(([k, v]) => [k * 2, '_' + v]));
 // 产生 Map 结构 {2 => '_a', 4 => '_b', 6 => '_c'}
 
 map.forEach(function (value, key, map) {
-  console.log("Key: %s, Value: %s", key, value);
+	console.log('Key: %s, Value: %s', key, value);
 });
 ```
 
@@ -539,8 +540,8 @@ map.forEach(function (value, key, map) {
 
 ```javascript
 new Map([
-  [true, 7],
-  [{ foo: 3 }, ["abc"]],
+	[true, 7],
+	[{ foo: 3 }, ['abc']]
 ]);
 // Map {
 //   true => 7,
@@ -554,14 +555,14 @@ new Map([
 
 ```javascript
 function strMapToObj(strMap) {
-  let obj = Object.create(null);
-  for (let [k, v] of strMap) {
-    obj[k] = v;
-  }
-  return obj;
+	let obj = Object.create(null);
+	for (let [k, v] of strMap) {
+		obj[k] = v;
+	}
+	return obj;
 }
 
-const myMap = new Map().set("yes", true).set("no", false);
+const myMap = new Map().set('yes', true).set('no', false);
 strMapToObj(myMap);
 // { yes: true, no: false }
 ```
@@ -581,11 +582,11 @@ let map = new Map(Object.entries(obj));
 
 ```javascript
 function objToStrMap(obj) {
-  let strMap = new Map();
-  for (let k of Object.keys(obj)) {
-    strMap.set(k, obj[k]);
-  }
-  return strMap;
+	let strMap = new Map();
+	for (let k of Object.keys(obj)) {
+		strMap.set(k, obj[k]);
+	}
+	return strMap;
 }
 
 objToStrMap({ yes: true, no: false });
@@ -598,10 +599,10 @@ objToStrMap({ yes: true, no: false });
 
 ```javascript
 function strMapToJson(strMap) {
-  return JSON.stringify(strMapToObj(strMap));
+	return JSON.stringify(strMapToObj(strMap));
 }
 
-let myMap = new Map().set("yes", true).set("no", false);
+let myMap = new Map().set('yes', true).set('no', false);
 strMapToJson(myMap);
 // '{"yes":true,"no":false}'
 ```
@@ -610,10 +611,10 @@ strMapToJson(myMap);
 
 ```javascript
 function mapToArrayJson(map) {
-  return JSON.stringify([...map]);
+	return JSON.stringify([...map]);
 }
 
-let myMap = new Map().set(true, 7).set({ foo: 3 }, ["abc"]);
+let myMap = new Map().set(true, 7).set({ foo: 3 }, ['abc']);
 mapToArrayJson(myMap);
 // '[[true,7],[{"foo":3},["abc"]]]'
 ```
@@ -624,7 +625,7 @@ mapToArrayJson(myMap);
 
 ```javascript
 function jsonToStrMap(jsonStr) {
-  return objToStrMap(JSON.parse(jsonStr));
+	return objToStrMap(JSON.parse(jsonStr));
 }
 
 jsonToStrMap('{"yes": true, "no": false}');
@@ -635,7 +636,7 @@ jsonToStrMap('{"yes": true, "no": false}');
 
 ```javascript
 function jsonToMap(jsonStr) {
-  return new Map(JSON.parse(jsonStr));
+	return new Map(JSON.parse(jsonStr));
 }
 
 jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
@@ -651,36 +652,36 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
-| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#15bd66>Esay</font> |
+| 0705 | [设计哈希集合](https://leetcode.com/problems/design-hashset/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0705) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
+| 0706 | [设计哈希映射](https://leetcode.com/problems/design-hashmap/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0706) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#15bd66>Easy</font> |
 | 0220 | [存在重复元素 III](https://leetcode.com/problems/contains-duplicate-iii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) `2+` | <font color=#ff334b>Hard</font> |
-| 1941 | [检查是否所有字符出现次数相同](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Esay</font> |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
-| 0383 | [赎金信](https://leetcode.com/problems/ransom-note/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0383) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Esay</font> |
-| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
+| 1941 | [检查是否所有字符出现次数相同](https://leetcode.com/problems/check-if-all-characters-have-equal-number-of-occurrences/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Easy</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
+| 0383 | [赎金信](https://leetcode.com/problems/ransom-note/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0383) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Easy</font> |
+| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
+| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Esay</font> |
+| 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
 | 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0018 | [四数之和](https://leetcode.com/problems/4sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0018) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0454 | [四数相加 II](https://leetcode.com/problems/4sum-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 0041 | [缺失的第一个正数](https://leetcode.com/problems/first-missing-positive/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0041) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ff334b>Hard</font> |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
-| 0202 | [快乐数](https://leetcode.com/problems/happy-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0202) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
-| 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0242) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
-| 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
+| 0202 | [快乐数](https://leetcode.com/problems/happy-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0202) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0242) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0442 | [数组中重复的数据](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0442) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_61_1) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
-| 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0268) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `3+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_61_1) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0268) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `3+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 0451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0451) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0599 | [两个列表的最小索引总和](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Esay</font> |
-| 0387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0599 | [两个列表的最小索引总和](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 0387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0447 | [回旋镖的数量](https://leetcode.com/problems/number-of-boomerangs/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
-| 0359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Esay</font> |
+| 0359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
 | 0811 | [子域名访问计数](https://leetcode.com/problems/subdomain-visit-count/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 

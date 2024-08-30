@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0292 | [Nim 游戏](https://leetcode.com/problems/nim-game/) |  |  [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#15bd66>Esay</font> |
+| 0292 | [Nim 游戏](https://leetcode.com/problems/nim-game/) |  |  [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#15bd66>Easy</font> |
 | 0294 | [翻转游戏 II](https://leetcode.com/problems/flip-game-ii/) |  |  [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0375) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
 | 0464 | [我能赢吗](https://leetcode.com/problems/can-i-win/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) `3+` | <font color=#ffb800>Medium</font> |
@@ -29,7 +29,7 @@
 | 0843 | [猜猜这个单词](https://leetcode.com/problems/guess-the-word/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0877 | [石子游戏](https://leetcode.com/problems/stone-game/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0913 | [猫和老鼠](https://leetcode.com/problems/cat-and-mouse/) |  |  [`图`](/leetcode/outline/tag/graph.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) `3+` | <font color=#ff334b>Hard</font> |
-| 1025 | [除数博弈](https://leetcode.com/problems/divisor-game/) |  |  [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#15bd66>Esay</font> |
+| 1025 | [除数博弈](https://leetcode.com/problems/divisor-game/) |  |  [`脑筋急转弯`](/leetcode/outline/tag/brain-teasers.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#15bd66>Easy</font> |
 | 1140 | [石子游戏 II](https://leetcode.com/problems/stone-game-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1406 | [石子游戏 III](https://leetcode.com/problems/stone-game-iii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1510 | [石子游戏 IV](https://leetcode.com/problems/stone-game-iv/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#ff334b>Hard</font> |

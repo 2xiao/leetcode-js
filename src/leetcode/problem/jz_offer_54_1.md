@@ -1,6 +1,6 @@
 # [剑指 Offer 54. 二叉搜索树的第 k 大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof/)
 
 ## 题目
 
@@ -53,19 +53,19 @@
  * @return {number}
  */
 var findTargetNode = function (root, cnt) {
-  let i = 0;
-  let res;
-  const traverse = (root) => {
-    if (!root) return null;
-    traverse(root.right);
-    i++;
-    if (i == cnt) {
-      res = root.val;
-      return;
-    }
-    traverse(root.left);
-  };
-  traverse(root);
-  return res;
+	let i = 0;
+	let res;
+	const traverse = (root) => {
+		if (!root) return null;
+		traverse(root.right);
+		i++;
+		if (i == cnt) {
+			res = root.val;
+			return;
+		}
+		traverse(root.left);
+	};
+	traverse(root);
+	return res;
 };
 ```

@@ -21,11 +21,11 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0274 | [H 指数](https://leetcode.com/problems/h-index/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 1051 | [高度检查器](https://leetcode.com/problems/height-checker/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
-| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
-| 剑指 Offer II 075 | [数组相对排序](https://leetcode.cn/problems/0H97ZC/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
+| 1051 | [高度检查器](https://leetcode.com/problems/height-checker/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer II 075 | [数组相对排序](https://leetcode.cn/problems/0H97ZC/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 
 <style>
 .blue {

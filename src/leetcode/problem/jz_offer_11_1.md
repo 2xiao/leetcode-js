@@ -1,6 +1,6 @@
 # [剑指 Offer 11. 旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/)
 
 ## 题目
 
@@ -51,18 +51,18 @@
  * @return {number}
  */
 var stockManagement = function (stock) {
-  let left = 0,
-    right = stock.length - 1;
-  while (left < right) {
-    let mid = Math.floor((left + right) / 2);
-    if (stock[mid] > stock[right]) {
-      left = mid + 1;
-    } else if (stock[mid] < stock[right]) {
-      right = mid;
-    } else {
-      right--;
-    }
-  }
-  return stock[left];
+	let left = 0,
+		right = stock.length - 1;
+	while (left < right) {
+		let mid = Math.floor((left + right) / 2);
+		if (stock[mid] > stock[right]) {
+			left = mid + 1;
+		} else if (stock[mid] < stock[right]) {
+			right = mid;
+		} else {
+			right--;
+		}
+	}
+	return stock[left];
 };
 ```

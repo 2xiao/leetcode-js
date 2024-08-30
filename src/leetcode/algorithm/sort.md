@@ -67,18 +67,18 @@
 
 ```javascript
 function bubbleSort(arr) {
-  let n = arr.length;
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n - 1 - i; j++) {
-      if (arr[j] > arr[j + 1]) {
-        // 相邻数据比较
-        let temp = arr[j + 1]; // 交换
-        arr[j + 1] = arr[j];
-        arr[j] = temp;
-      }
-    }
-  }
-  return arr;
+	let n = arr.length;
+	for (let i = 0; i < n; i++) {
+		for (let j = 0; j < n - 1 - i; j++) {
+			if (arr[j] > arr[j + 1]) {
+				// 相邻数据比较
+				let temp = arr[j + 1]; // 交换
+				arr[j + 1] = arr[j];
+				arr[j] = temp;
+			}
+		}
+	}
+	return arr;
 }
 ```
 
@@ -92,21 +92,21 @@ function bubbleSort(arr) {
 
 ```javascript
 function selectionSort(arr) {
-  const n = arr.length;
-  let temp, minIndex;
-  for (let i = 0; i < n - 1; i++) {
-    minIndex = i;
-    for (let j = i + 1; j < n; j++) {
-      if (arr[j] < arr[minIndex]) {
-        // 寻找最小值
-        minIndex = j; // 暂存最小值的索引
-      }
-    }
-    temp = arr[i]; // 将最小值和第一个未排序的数交换
-    arr[i] = arr[minIndex];
-    arr[minIndex] = temp;
-  }
-  return arr;
+	const n = arr.length;
+	let temp, minIndex;
+	for (let i = 0; i < n - 1; i++) {
+		minIndex = i;
+		for (let j = i + 1; j < n; j++) {
+			if (arr[j] < arr[minIndex]) {
+				// 寻找最小值
+				minIndex = j; // 暂存最小值的索引
+			}
+		}
+		temp = arr[i]; // 将最小值和第一个未排序的数交换
+		arr[i] = arr[minIndex];
+		arr[minIndex] = temp;
+	}
+	return arr;
 }
 ```
 
@@ -119,19 +119,19 @@ function selectionSort(arr) {
 
 ```javascript
 function insertionSort(arr) {
-  for (let i = 1; i < arr.length; i++) {
-    // 当前要处理的数
-    let temp = arr[i];
-    let j = i - 1;
-    while (j >= 0 && arr[j] > temp) {
-      // 如果前一个数大于后一个数,将前一个数往后移一位
-      arr[j + 1] = arr[j];
-      j--;
-    }
-    // 此时的j是要处理的数排序后应该在的位置
-    arr[j + 1] = temp;
-  }
-  return arr;
+	for (let i = 1; i < arr.length; i++) {
+		// 当前要处理的数
+		let temp = arr[i];
+		let j = i - 1;
+		while (j >= 0 && arr[j] > temp) {
+			// 如果前一个数大于后一个数,将前一个数往后移一位
+			arr[j + 1] = arr[j];
+			j--;
+		}
+		// 此时的j是要处理的数排序后应该在的位置
+		arr[j + 1] = temp;
+	}
+	return arr;
 }
 ```
 
@@ -150,17 +150,17 @@ function insertionSort(arr) {
 
 ```javascript
 function shellSort(arr) {
-  for (let gap = arr.length >> 1; gap > 0; gap >>= 1) {
-    for (let i = gap; i < arr.length; i++) {
-      let temp = arr[i],
-        j;
-      for (j = i - gap; j >= 0 && arr[j] > temp; j -= gap) {
-        arr[j + gap] = arr[j];
-      }
-      arr[j + gap] = temp;
-    }
-  }
-  return arr;
+	for (let gap = arr.length >> 1; gap > 0; gap >>= 1) {
+		for (let i = gap; i < arr.length; i++) {
+			let temp = arr[i],
+				j;
+			for (j = i - gap; j >= 0 && arr[j] > temp; j -= gap) {
+				arr[j + gap] = arr[j];
+			}
+			arr[j + gap] = temp;
+		}
+	}
+	return arr;
 }
 ```
 
@@ -180,33 +180,33 @@ function shellSort(arr) {
 
 ```javascript
 function mergeSort(arr) {
-  //采用自上而下的递归方法
-  var len = arr.length;
-  if (len < 2) {
-    return arr;
-  }
-  var middle = Math.floor(len / 2),
-    left = arr.slice(0, middle),
-    right = arr.slice(middle);
-  return merge(mergeSort(left), mergeSort(right));
+	//采用自上而下的递归方法
+	var len = arr.length;
+	if (len < 2) {
+		return arr;
+	}
+	var middle = Math.floor(len / 2),
+		left = arr.slice(0, middle),
+		right = arr.slice(middle);
+	return merge(mergeSort(left), mergeSort(right));
 }
 
 function merge(left, right) {
-  var result = [];
+	var result = [];
 
-  while (left.length && right.length) {
-    if (left[0] <= right[0]) {
-      result.push(left.shift());
-    } else {
-      result.push(right.shift());
-    }
-  }
+	while (left.length && right.length) {
+		if (left[0] <= right[0]) {
+			result.push(left.shift());
+		} else {
+			result.push(right.shift());
+		}
+	}
 
-  while (left.length) result.push(left.shift());
+	while (left.length) result.push(left.shift());
 
-  while (right.length) result.push(right.shift());
+	while (right.length) result.push(right.shift());
 
-  return result;
+	return result;
 }
 ```
 
@@ -227,40 +227,40 @@ function merge(left, right) {
 
 ```javascript
 function quickSort(arr, left, right) {
-  var len = arr.length,
-    partitionIndex,
-    left = typeof left != "number" ? 0 : left,
-    right = typeof right != "number" ? len - 1 : right;
+	var len = arr.length,
+		partitionIndex,
+		left = typeof left != 'number' ? 0 : left,
+		right = typeof right != 'number' ? len - 1 : right;
 
-  if (left < right) {
-    partitionIndex = partition(arr, left, right);
-    quickSort(arr, left, partitionIndex - 1);
-    quickSort(arr, partitionIndex + 1, right);
-  }
-  return arr;
+	if (left < right) {
+		partitionIndex = partition(arr, left, right);
+		quickSort(arr, left, partitionIndex - 1);
+		quickSort(arr, partitionIndex + 1, right);
+	}
+	return arr;
 }
 
 //分区操作
 function partition(arr, left, right) {
-  // 设定基准值位置 pivot
-  // 当然也可以选择最右边的元素为基准
-  // 也可以随机选择然后和最左或最右元素交换
-  var pivot = left,
-    index = pivot + 1;
-  for (var i = index; i <= right; i++) {
-    if (arr[i] < arr[pivot]) {
-      swap(arr, i, index);
-      index++;
-    }
-  }
-  swap(arr, pivot, index - 1);
-  return index - 1;
+	// 设定基准值位置 pivot
+	// 当然也可以选择最右边的元素为基准
+	// 也可以随机选择然后和最左或最右元素交换
+	var pivot = left,
+		index = pivot + 1;
+	for (var i = index; i <= right; i++) {
+		if (arr[i] < arr[pivot]) {
+			swap(arr, i, index);
+			index++;
+		}
+	}
+	swap(arr, pivot, index - 1);
+	return index - 1;
 }
 
 function swap(arr, i, j) {
-  var temp = arr[i];
-  arr[i] = arr[j];
-  arr[j] = temp;
+	var temp = arr[i];
+	arr[i] = arr[j];
+	arr[j] = temp;
 }
 ```
 
@@ -343,7 +343,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 
 * 选择排序
 
@@ -362,14 +362,14 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0506) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#15bd66>Esay</font> |
+| 0506 | [相对名次](https://leetcode.com/problems/relative-ranks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0506) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#15bd66>Easy</font> |
 
 * 归并排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0088) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
+| 0088 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0088) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 0315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) |  |  [`树状数组`](/leetcode/outline/tag/fenwick-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 
@@ -378,7 +378,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0169 | [多数元素](https://leetcode.com/problems/majority-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0169) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#15bd66>Easy</font> |
 
 * 堆排序
 
@@ -386,14 +386,14 @@ function swap(arr, i, j) {
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0215) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#15bd66>Esay</font> |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#15bd66>Easy</font> |
 
 * 计数排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0912 | [排序数组](https://leetcode.com/problems/sort-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
+| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 
 * 桶排序
 
@@ -408,14 +408,14 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0164 | [最大间距](https://leetcode.com/problems/maximum-gap/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) [`基数排序`](/leetcode/outline/tag/radix-sort.md) `1+` | <font color=#ff334b>Hard</font> |
-| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0561 | [数组拆分](https://leetcode.com/problems/array-partition/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 
 * 其他排序
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Esay</font> |
-| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Esay</font> |
+| 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) | <font color=#ffb800>Medium</font> |

@@ -11,21 +11,21 @@
 ```javascript
 // 二分查找的循环实现
 function bsearch(arr, value) {
-  let low = 0;
-  let high = arr.length - 1;
+	let low = 0;
+	let high = arr.length - 1;
 
-  while (low <= high) {
-    let mid = low + Math.floor((high - low) / 2);
-    if (arr[mid] == value) {
-      return mid;
-    } else if (arr[mid] < value) {
-      low = mid + 1;
-    } else {
-      high = mid - 1;
-    }
-  }
+	while (low <= high) {
+		let mid = low + Math.floor((high - low) / 2);
+		if (arr[mid] == value) {
+			return mid;
+		} else if (arr[mid] < value) {
+			low = mid + 1;
+		} else {
+			high = mid - 1;
+		}
+	}
 
-  return -1;
+	return -1;
 }
 ```
 
@@ -48,20 +48,20 @@ function bsearch(arr, value) {
 ```javascript
 // 二分查找的递归实现
 function bsearch(arr, value) {
-  return bsearchInternally(arr, 0, arr.length - 1, value);
+	return bsearchInternally(arr, 0, arr.length - 1, value);
 }
 
 function bsearchInternally(arr, low, high, value) {
-  if (low > high) return -1;
+	if (low > high) return -1;
 
-  let mid = low + Math.floor((high - low) / 2);
-  if (arr[mid] == value) {
-    return mid;
-  } else if (arr[mid] < value) {
-    return bsearchInternally(arr, mid + 1, high, value);
-  } else {
-    return bsearchInternally(arr, low, mid - 1, value);
-  }
+	let mid = low + Math.floor((high - low) / 2);
+	if (arr[mid] == value) {
+		return mid;
+	} else if (arr[mid] < value) {
+		return bsearchInternally(arr, mid + 1, high, value);
+	} else {
+		return bsearchInternally(arr, low, mid - 1, value);
+	}
 }
 ```
 
@@ -103,22 +103,22 @@ function bsearchInternally(arr, low, high, value) {
 
 ```javascript
 function bsearch(arr, value) {
-  let low = 0;
-  let high = arr.length - 1;
-  while (low <= high) {
-    let mid = low + Math.floor((high - low) / 2);
-    if (arr[mid] > value) {
-      low = mid + 1;
-    } else if (arr[mid] < value) {
-      high = mid - 1;
-    } else {
-      if (mid === 0 || arr[mid - 1] != value) {
-        return mid;
-      }
-      high = mid - 1;
-    }
-  }
-  return -1;
+	let low = 0;
+	let high = arr.length - 1;
+	while (low <= high) {
+		let mid = low + Math.floor((high - low) / 2);
+		if (arr[mid] > value) {
+			low = mid + 1;
+		} else if (arr[mid] < value) {
+			high = mid - 1;
+		} else {
+			if (mid === 0 || arr[mid - 1] != value) {
+				return mid;
+			}
+			high = mid - 1;
+		}
+	}
+	return -1;
 }
 ```
 
@@ -128,22 +128,22 @@ function bsearch(arr, value) {
 
 ```javascript
 function bsearch(arr, value) {
-  let low = 0;
-  let high = arr.length - 1;
-  while (low <= high) {
-    let mid = low + Math.floor((high - low) / 2);
-    if (arr[mid] > value) {
-      low = mid + 1;
-    } else if (arr[mid] < value) {
-      high = mid - 1;
-    } else {
-      if (mid === arr.length - 1 || arr[mid + 1] != value) {
-        return mid;
-      }
-      low = mid + 1;
-    }
-  }
-  return -1;
+	let low = 0;
+	let high = arr.length - 1;
+	while (low <= high) {
+		let mid = low + Math.floor((high - low) / 2);
+		if (arr[mid] > value) {
+			low = mid + 1;
+		} else if (arr[mid] < value) {
+			high = mid - 1;
+		} else {
+			if (mid === arr.length - 1 || arr[mid + 1] != value) {
+				return mid;
+			}
+			low = mid + 1;
+		}
+	}
+	return -1;
 }
 ```
 
@@ -157,20 +157,20 @@ function bsearch(arr, value) {
 
 ```javascript
 function bsearch(arr, value) {
-  let low = 0;
-  let high = arr.length - 1;
-  while (low <= high) {
-    let mid = low + Math.floor((high - low) / 2);
-    if (arr[mid] < value) {
-      low = mid + 1;
-    } else {
-      if (mid === 0 || arr[mid - 1] < value) {
-        return mid;
-      }
-      high = mid - 1;
-    }
-  }
-  return -1;
+	let low = 0;
+	let high = arr.length - 1;
+	while (low <= high) {
+		let mid = low + Math.floor((high - low) / 2);
+		if (arr[mid] < value) {
+			low = mid + 1;
+		} else {
+			if (mid === 0 || arr[mid - 1] < value) {
+				return mid;
+			}
+			high = mid - 1;
+		}
+	}
+	return -1;
 }
 ```
 
@@ -182,20 +182,20 @@ function bsearch(arr, value) {
 
 ```javascript
 function bsearch(arr, value) {
-  let low = 0;
-  let high = arr.length - 1;
-  while (low <= high) {
-    let mid = low + Math.floor((high - low) / 2);
-    if (arr[mid] > value) {
-      high = mid - 1;
-    } else {
-      if (mid === arr.length - 1 || arr[mid + 1] > value) {
-        return mid;
-      }
-      low = mid + 1;
-    }
-  }
-  return -1;
+	let low = 0;
+	let high = arr.length - 1;
+	while (low <= high) {
+		let mid = low + Math.floor((high - low) / 2);
+		if (arr[mid] > value) {
+			high = mid - 1;
+		} else {
+			if (mid === arr.length - 1 || arr[mid + 1] > value) {
+				return mid;
+			}
+			low = mid + 1;
+		}
+	}
+	return -1;
 }
 ```
 
@@ -210,20 +210,20 @@ function bsearch(arr, value) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
-| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0374) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Esay</font> |
-| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0035) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0704 | [二分查找](https://leetcode.com/problems/binary-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
+| 0374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0374) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Easy</font> |
+| 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0035) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0034) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0167 | [两数之和 II - 输入有序数组](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0167) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0153) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0154) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
 | 0033 | [搜索旋转排序数组](https://leetcode.com/problems/search-in-rotated-sorted-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0081 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0081) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
-| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0278) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Esay</font> |
+| 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0278) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Easy</font> |
 | 0162 | [寻找峰值](https://leetcode.com/problems/find-peak-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0162) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#ff334b>Hard</font> |
-| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> |
 | 0074 | [搜索二维矩阵](https://leetcode.com/problems/search-a-2d-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0074) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0240) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -232,10 +232,10 @@ function bsearch(arr, value) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0050 | [Pow(x, n)](https://leetcode.com/problems/powx-n/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0050) |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
-| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Esay</font> |
+| 0367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0400 | [第 N 位数字](https://leetcode.com/problems/nth-digit/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 
@@ -247,10 +247,10 @@ function bsearch(arr, value) {
 | 0410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `3+` | <font color=#ffb800>Medium</font> |
-| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `2+` | <font color=#15bd66>Easy</font> |
 | 0702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#ffb800>Medium</font> |
-| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
-| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Esay</font> |
+| 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
+| 0350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
 | 0287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0259) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |

@@ -62,7 +62,7 @@ def format_difficulty(difficulty: str, show_emoji: bool = False):
         font = "<font color=#ffb800>Medium</font>"
     elif difficulty == "简单":
         emoji = "🟢"
-        font = "<font color=#15bd66>Esay</font>"
+        font = "<font color=#15bd66>Easy</font>"
     if show_emoji:
         return emoji + " " + font
     return font

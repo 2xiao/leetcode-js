@@ -1,6 +1,6 @@
 # [剑指 Offer 17. 打印从 1 到最大的 n 位数](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof/)
 
 ## 题目
 
@@ -34,12 +34,12 @@
  * @return {number[]}
  */
 var countNumbers = function (cnt) {
-  let max = Number(new Array(cnt).fill(9).join(""));
-  let res = [];
-  let i = 0;
-  while (i++ < max) {
-    res.push(i);
-  }
-  return res;
+	let max = Number(new Array(cnt).fill(9).join(''));
+	let res = [];
+	let i = 0;
+	while (i++ < max) {
+		res.push(i);
+	}
+	return res;
 };
 ```

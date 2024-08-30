@@ -38,58 +38,58 @@
 
 ```javascript
 class ArrayQueue {
-  constructor() {
-    this._queue = [];
-  }
-  // 入队
-  enQueue(data) {
-    this._queue.push(data);
-  }
-  // 出队
-  deQueue() {
-    if (this.isEmpty()) {
-      console.log("This queue is empty");
-      return null;
-    }
-    return this._queue.shift();
-  }
-  // 判断是否为空队
-  isEmpty() {
-    return this._queue.length === 0;
-  }
-  // 查看队头元素
-  front() {
-    if (this.isEmpty()) {
-      console.log("This queue is empty");
-      return null;
-    }
-    return this._queue[0];
-  }
-  // 查看队尾元素
-  rear() {
-    if (this.isEmpty()) {
-      console.log("This queue is empty");
-      return null;
-    }
-    return this._queue[this.count() - 1];
-  }
-  // 清空队列
-  clear() {
-    delete this._queue;
-    this._queue = [];
-  }
-  // 打印队列
-  print() {
-    console.log(this._queue);
-  }
-  // 获取队列中元素的数量
-  count() {
-    return this._queue.length;
-  }
-  // 将队列中元素以字符串形式返回
-  toString() {
-    return this._queue.join(",");
-  }
+	constructor() {
+		this._queue = [];
+	}
+	// 入队
+	enQueue(data) {
+		this._queue.push(data);
+	}
+	// 出队
+	deQueue() {
+		if (this.isEmpty()) {
+			console.log('This queue is empty');
+			return null;
+		}
+		return this._queue.shift();
+	}
+	// 判断是否为空队
+	isEmpty() {
+		return this._queue.length === 0;
+	}
+	// 查看队头元素
+	front() {
+		if (this.isEmpty()) {
+			console.log('This queue is empty');
+			return null;
+		}
+		return this._queue[0];
+	}
+	// 查看队尾元素
+	rear() {
+		if (this.isEmpty()) {
+			console.log('This queue is empty');
+			return null;
+		}
+		return this._queue[this.count() - 1];
+	}
+	// 清空队列
+	clear() {
+		delete this._queue;
+		this._queue = [];
+	}
+	// 打印队列
+	print() {
+		console.log(this._queue);
+	}
+	// 获取队列中元素的数量
+	count() {
+		return this._queue.length;
+	}
+	// 将队列中元素以字符串形式返回
+	toString() {
+		return this._queue.join(',');
+	}
 }
 ```
 
@@ -127,82 +127,82 @@ console.log(queue.toString()); // output: 2,3
 
 ```javascript
 class Node {
-  constructor(data) {
-    this.data = data; // 节点中的数据
-    this.next = null; // 下一个节点
-  }
+	constructor(data) {
+		this.data = data; // 节点中的数据
+		this.next = null; // 下一个节点
+	}
 }
 class LinkedListQueue {
-  constructor() {
-    this.head = null;
-    this.tail = null;
-    this.length = 0;
-  }
-  // 入队
-  enQueue(data) {
-    const node = new Node(data);
-    if (this.isEmpty()) {
-      this.head = node;
-      this.tail = node;
-    } else {
-      this.tail.next = node;
-      this.tail = this.tail.next;
-    }
-    this.length++;
-  }
-  // 出队
-  deQueue() {
-    if (this.isEmpty()) return null;
-    let cur = this.head;
-    this.head = this.head.next;
-    this.length--;
-    return cur;
-  }
-  // 判断是否为空队
-  isEmpty() {
-    return this.length === 0;
-  }
-  // 查看队头元素
-  front() {
-    if (this.isEmpty()) {
-      console.log("This queue is empty");
-      return null;
-    }
-    return this.head.data;
-  }
-  // 查看队尾元素
-  rear() {
-    if (this.isEmpty()) {
-      console.log("This queue is empty");
-      return null;
-    }
-    return this.tail.data;
-  }
-  // 清空队列
-  clear() {
-    this.tail = null;
-    this.head.next = null;
-    this.head = null;
-    this.length = 0;
-  }
-  // 打印队列
-  print() {
-    console.log(this.head);
-  }
-  // 获取队列中元素的数量
-  count() {
-    return this.length;
-  }
-  // 将队列中元素以字符串形式返回
-  toString() {
-    let res = [];
-    let prev = this.head;
-    while (prev) {
-      res.push(prev.data);
-      prev = prev.next;
-    }
-    return res.join(",");
-  }
+	constructor() {
+		this.head = null;
+		this.tail = null;
+		this.length = 0;
+	}
+	// 入队
+	enQueue(data) {
+		const node = new Node(data);
+		if (this.isEmpty()) {
+			this.head = node;
+			this.tail = node;
+		} else {
+			this.tail.next = node;
+			this.tail = this.tail.next;
+		}
+		this.length++;
+	}
+	// 出队
+	deQueue() {
+		if (this.isEmpty()) return null;
+		let cur = this.head;
+		this.head = this.head.next;
+		this.length--;
+		return cur;
+	}
+	// 判断是否为空队
+	isEmpty() {
+		return this.length === 0;
+	}
+	// 查看队头元素
+	front() {
+		if (this.isEmpty()) {
+			console.log('This queue is empty');
+			return null;
+		}
+		return this.head.data;
+	}
+	// 查看队尾元素
+	rear() {
+		if (this.isEmpty()) {
+			console.log('This queue is empty');
+			return null;
+		}
+		return this.tail.data;
+	}
+	// 清空队列
+	clear() {
+		this.tail = null;
+		this.head.next = null;
+		this.head = null;
+		this.length = 0;
+	}
+	// 打印队列
+	print() {
+		console.log(this.head);
+	}
+	// 获取队列中元素的数量
+	count() {
+		return this.length;
+	}
+	// 将队列中元素以字符串形式返回
+	toString() {
+		let res = [];
+		let prev = this.head;
+		while (prev) {
+			res.push(prev.data);
+			prev = prev.next;
+		}
+		return res.join(',');
+	}
 }
 ```
 
@@ -288,10 +288,10 @@ circularQueue.Rear();  // 返回 4
  * @param {number} k
  */
 var MyCircularQueue = function (k) {
-  this.queue = new Array(k);
-  this.head = 0;
-  this.tail = 0;
-  this.size = k;
+	this.queue = new Array(k);
+	this.head = 0;
+	this.tail = 0;
+	this.size = k;
 };
 
 /**
@@ -299,57 +299,57 @@ var MyCircularQueue = function (k) {
  * @return {boolean}
  */
 MyCircularQueue.prototype.enQueue = function (value) {
-  if (this.isFull()) return false;
-  this.queue[this.tail] = value;
-  // 将 tail 指向队尾的下一个空间
-  this.tail = (this.tail + 1) % this.size;
-  return true;
+	if (this.isFull()) return false;
+	this.queue[this.tail] = value;
+	// 将 tail 指向队尾的下一个空间
+	this.tail = (this.tail + 1) % this.size;
+	return true;
 };
 
 /**
  * @return {boolean}
  */
 MyCircularQueue.prototype.deQueue = function () {
-  if (this.isEmpty()) return false;
-  this.queue[this.head] = null;
-  // 将 head 指向新的队头
-  this.head = (this.head + 1) % this.size;
-  return true;
+	if (this.isEmpty()) return false;
+	this.queue[this.head] = null;
+	// 将 head 指向新的队头
+	this.head = (this.head + 1) % this.size;
+	return true;
 };
 
 /**
  * @return {number}
  */
 MyCircularQueue.prototype.Front = function () {
-  return this.isEmpty() ? -1 : this.queue[this.head];
+	return this.isEmpty() ? -1 : this.queue[this.head];
 };
 
 /**
  * @return {number}
  */
 MyCircularQueue.prototype.Rear = function () {
-  // 因为 tail 指向队尾的下一个空间，所以要分情况处理
-  // 若 tail == 0，那队尾应该在 size - 1
-  // 其他情况，队尾在 tail - 1
-  let index = this.tail === 0 ? this.size - 1 : this.tail - 1;
-  return this.isEmpty() ? -1 : this.queue[index];
+	// 因为 tail 指向队尾的下一个空间，所以要分情况处理
+	// 若 tail == 0，那队尾应该在 size - 1
+	// 其他情况，队尾在 tail - 1
+	let index = this.tail === 0 ? this.size - 1 : this.tail - 1;
+	return this.isEmpty() ? -1 : this.queue[index];
 };
 
 /**
  * @return {boolean}
  */
 MyCircularQueue.prototype.isEmpty = function () {
-  // head == tail 时，有两种情况
-  // 一种是队列为空，此时 queue[head] 为null
-  // 一种是队列满了，此时 queue[head] 有值
-  return this.head === this.tail && !this.queue[this.head];
+	// head == tail 时，有两种情况
+	// 一种是队列为空，此时 queue[head] 为null
+	// 一种是队列满了，此时 queue[head] 有值
+	return this.head === this.tail && !this.queue[this.head];
 };
 
 /**
  * @return {boolean}
  */
 MyCircularQueue.prototype.isFull = function () {
-  return this.head === this.tail && !!this.queue[this.head];
+	return this.head === this.tail && !!this.queue[this.head];
 };
 ```
 
@@ -375,58 +375,58 @@ MyCircularQueue.prototype.isFull = function () {
 ```javascript
 // 优先队列内部的元素类
 class QueueElement {
-  constructor(data, priority) {
-    this.data = data;
-    this.priority = priority;
-  }
+	constructor(data, priority) {
+		this.data = data;
+		this.priority = priority;
+	}
 }
 
 // 优先队列类（继承 ArrayQueue 类）
 class PriorityQueue extends ArrayQueue {
-  constructor() {
-    super();
-  }
+	constructor() {
+		super();
+	}
 
-  // 入队，将元素按优先级加入到队列中
-  // 重写 enQueue()
-  enQueue(data, priority) {
-    // 根据传入的元素，创建 QueueElement 对象
-    const queueElement = new QueueElement(data, priority);
+	// 入队，将元素按优先级加入到队列中
+	// 重写 enQueue()
+	enQueue(data, priority) {
+		// 根据传入的元素，创建 QueueElement 对象
+		const queueElement = new QueueElement(data, priority);
 
-    // 判断队列是否为空
-    if (this.isEmpty()) {
-      // 如果为空，不用判断优先级，直接添加
-      this._queue.push(queueElement);
-    } else {
-      // 定义一个变量记录是否成功添加了新元素
-      let added = false;
+		// 判断队列是否为空
+		if (this.isEmpty()) {
+			// 如果为空，不用判断优先级，直接添加
+			this._queue.push(queueElement);
+		} else {
+			// 定义一个变量记录是否成功添加了新元素
+			let added = false;
 
-      for (let i = 0; i < this._queue.length; i++) {
-        // 让新插入的元素进行优先级比较，priority 值越小，优先级越大
-        if (queueElement.priority < this._queue[i].priority) {
-          // 在指定的位置插入元素
-          this._queue.splice(i, 0, queueElement);
-          added = true;
-          break;
-        }
-      }
+			for (let i = 0; i < this._queue.length; i++) {
+				// 让新插入的元素进行优先级比较，priority 值越小，优先级越大
+				if (queueElement.priority < this._queue[i].priority) {
+					// 在指定的位置插入元素
+					this._queue.splice(i, 0, queueElement);
+					added = true;
+					break;
+				}
+			}
 
-      // 如果遍历完所有元素，优先级都大于新插入的元素，就将新插入的元素插入到最后
-      if (!added) {
-        this._queue.push(queueElement);
-      }
-    }
-  }
-  // 将队列中元素以字符串形式返回
-  // 重写 toString()
-  toString() {
-    let res = [];
-    for (let item of this._queue) {
-      res.push(item.data + "-" + item.priority);
-    }
-    return res.join(",");
-  }
-  // 其他属性继承 ArrayQueue 类的
+			// 如果遍历完所有元素，优先级都大于新插入的元素，就将新插入的元素插入到最后
+			if (!added) {
+				this._queue.push(queueElement);
+			}
+		}
+	}
+	// 将队列中元素以字符串形式返回
+	// 重写 toString()
+	toString() {
+		let res = [];
+		for (let item of this._queue) {
+			res.push(item.data + '-' + item.priority);
+		}
+		return res.join(',');
+	}
+	// 其他属性继承 ArrayQueue 类的
 }
 ```
 
@@ -435,11 +435,11 @@ class PriorityQueue extends ArrayQueue {
 ```javascript
 const priorityQueue = new PriorityQueue();
 
-priorityQueue.enQueue("A", 10);
-priorityQueue.enQueue("B", 15);
-priorityQueue.enQueue("C", 11);
-priorityQueue.enQueue("D", 20);
-priorityQueue.enQueue("E", 18);
+priorityQueue.enQueue('A', 10);
+priorityQueue.enQueue('B', 15);
+priorityQueue.enQueue('C', 11);
+priorityQueue.enQueue('D', 20);
+priorityQueue.enQueue('E', 18);
 priorityQueue.print();
 // output:
 // [QueueElement {data: 'A', priority: 10},
@@ -469,60 +469,60 @@ console.log(priorityQueue.toString()); // output: B-15,E-18,D-20
 
 ```javascript
 class Node {
-  constructor(data, priority) {
-    this.data = data;
-    this.next = null;
-    this.priority = priority;
-  }
+	constructor(data, priority) {
+		this.data = data;
+		this.next = null;
+		this.priority = priority;
+	}
 }
 // 优先队列类（继承 LinkedListQueue 类）
 class PriorityQueue extends LinkedListQueue {
-  constructor() {
-    super();
-  }
-  // 入队，将元素按优先级加入到队列中
-  // 重写 enQueue()
-  enQueue(data, priority) {
-    const node = new Node(data, priority);
-    if (this.isEmpty()) {
-      this.head = node;
-      this.tail = node;
-    } else {
-      let prev = new Node(0, 0);
-      prev.next = this.head;
-      // 定义一个变量记录是否成功添加了新元素
-      let added = false;
-      for (let i = 0; i < this.length; i++) {
-        if (node.priority < prev.next.priority && !added) {
-          let temp = prev.next;
-          prev.next = node;
-          node.next = temp;
-          prev = node;
-          added = true;
-        }
-        prev = prev.next;
-        this.tail = prev;
-      }
+	constructor() {
+		super();
+	}
+	// 入队，将元素按优先级加入到队列中
+	// 重写 enQueue()
+	enQueue(data, priority) {
+		const node = new Node(data, priority);
+		if (this.isEmpty()) {
+			this.head = node;
+			this.tail = node;
+		} else {
+			let prev = new Node(0, 0);
+			prev.next = this.head;
+			// 定义一个变量记录是否成功添加了新元素
+			let added = false;
+			for (let i = 0; i < this.length; i++) {
+				if (node.priority < prev.next.priority && !added) {
+					let temp = prev.next;
+					prev.next = node;
+					node.next = temp;
+					prev = node;
+					added = true;
+				}
+				prev = prev.next;
+				this.tail = prev;
+			}
 
-      // 如果遍历完所有元素，优先级都大于新插入的元素，就将新插入的元素插入到最后
-      if (!added) {
-        this.tail.next = node;
-        this.tail = this.tail.next;
-      }
-    }
-    this.length++;
-  }
-  // 将队列中元素以字符串形式返回
-  toString() {
-    let res = [];
-    let prev = this.head;
-    while (prev) {
-      res.push(prev.data + "-" + prev.priority);
-      prev = prev.next;
-    }
-    return res.join(",");
-  }
-  // 其他属性都继承 LinkedListQueue 类
+			// 如果遍历完所有元素，优先级都大于新插入的元素，就将新插入的元素插入到最后
+			if (!added) {
+				this.tail.next = node;
+				this.tail = this.tail.next;
+			}
+		}
+		this.length++;
+	}
+	// 将队列中元素以字符串形式返回
+	toString() {
+		let res = [];
+		let prev = this.head;
+		while (prev) {
+			res.push(prev.data + '-' + prev.priority);
+			prev = prev.next;
+		}
+		return res.join(',');
+	}
+	// 其他属性都继承 LinkedListQueue 类
 }
 ```
 
@@ -531,11 +531,11 @@ class PriorityQueue extends LinkedListQueue {
 ```javascript
 const priorityQueue = new PriorityQueue();
 
-priorityQueue.enQueue("A", 10);
-priorityQueue.enQueue("B", 15);
-priorityQueue.enQueue("C", 11);
-priorityQueue.enQueue("D", 20);
-priorityQueue.enQueue("E", 18);
+priorityQueue.enQueue('A', 10);
+priorityQueue.enQueue('B', 15);
+priorityQueue.enQueue('C', 11);
+priorityQueue.enQueue('D', 20);
+priorityQueue.enQueue('E', 18);
 priorityQueue.print();
 // output:
 // Node {data: 'A', priority: 10, next: Node {
@@ -569,98 +569,98 @@ Java 中的优先队列就是基于堆实现的，是一个小顶堆。往优先
 
 ```javascript
 class PriorityQueue extends ArrayQueue {
-  constructor() {
-    super();
-  }
+	constructor() {
+		super();
+	}
 
-  enQueue(data, priority) {
-    const queueElement = new QueueElement(data, priority);
-    this._queue.push(queueElement);
-    this._heapifyUp();
-  }
+	enQueue(data, priority) {
+		const queueElement = new QueueElement(data, priority);
+		this._queue.push(queueElement);
+		this._heapifyUp();
+	}
 
-  deQueue() {
-    if (this._queue.length === 0) {
-      return null;
-    }
+	deQueue() {
+		if (this._queue.length === 0) {
+			return null;
+		}
 
-    const highestPriority = this._queue[0];
-    const last = this._queue.pop();
+		const highestPriority = this._queue[0];
+		const last = this._queue.pop();
 
-    if (this._queue.length > 0) {
-      this._queue[0] = last;
-      this._heapifyDown(0);
-    }
+		if (this._queue.length > 0) {
+			this._queue[0] = last;
+			this._heapifyDown(0);
+		}
 
-    return highestPriority;
-  }
+		return highestPriority;
+	}
 
-  _heapifyUp() {
-    let cur = this._queue.length - 1;
+	_heapifyUp() {
+		let cur = this._queue.length - 1;
 
-    while (cur > 0) {
-      const parent = Math.floor((cur - 1) / 2);
-      if (this._queue[cur].priority > this._queue[parent].priority) {
-        [this._queue[cur], this._queue[parent]] = [
-          this._queue[parent],
-          this._queue[cur],
-        ];
-        cur = parent;
-      } else {
-        break;
-      }
-    }
-  }
+		while (cur > 0) {
+			const parent = Math.floor((cur - 1) / 2);
+			if (this._queue[cur].priority > this._queue[parent].priority) {
+				[this._queue[cur], this._queue[parent]] = [
+					this._queue[parent],
+					this._queue[cur]
+				];
+				cur = parent;
+			} else {
+				break;
+			}
+		}
+	}
 
-  _heapifyDown(index) {
-    let cur = 0;
+	_heapifyDown(index) {
+		let cur = 0;
 
-    while (true) {
-      const leftChild = 2 * cur + 1;
-      const rightChild = 2 * cur + 2;
-      let next = null;
+		while (true) {
+			const leftChild = 2 * cur + 1;
+			const rightChild = 2 * cur + 2;
+			let next = null;
 
-      if (
-        leftChild < this._queue.length &&
-        this._queue[leftChild].priority > this._queue[cur].priority
-      ) {
-        next = leftChild;
-      }
+			if (
+				leftChild < this._queue.length &&
+				this._queue[leftChild].priority > this._queue[cur].priority
+			) {
+				next = leftChild;
+			}
 
-      if (
-        rightChild < this._queue.length &&
-        this._queue[rightChild].priority > this._queue[cur].priority
-      ) {
-        next =
-          this._queue[rightChild].priority > this._queue[leftChild].priority
-            ? rightChild
-            : leftChild;
-      }
+			if (
+				rightChild < this._queue.length &&
+				this._queue[rightChild].priority > this._queue[cur].priority
+			) {
+				next =
+					this._queue[rightChild].priority > this._queue[leftChild].priority
+						? rightChild
+						: leftChild;
+			}
 
-      if (
-        next !== null &&
-        this._queue[cur].priority < this._queue[next].priority
-      ) {
-        [this._queue[cur], this._queue[next]] = [
-          this._queue[next],
-          this._queue[cur],
-        ];
-        cur = next;
-      } else {
-        break;
-      }
-    }
-  }
-  // 将队列中元素以字符串形式返回
-  // 重写 toString()
-  toString() {
-    let res = [];
-    for (let item of this._queue) {
-      res.push(item.data + "-" + item.priority);
-    }
-    return res.join(",");
-  }
-  // 其他属性都继承 ArrayQueue 类
+			if (
+				next !== null &&
+				this._queue[cur].priority < this._queue[next].priority
+			) {
+				[this._queue[cur], this._queue[next]] = [
+					this._queue[next],
+					this._queue[cur]
+				];
+				cur = next;
+			} else {
+				break;
+			}
+		}
+	}
+	// 将队列中元素以字符串形式返回
+	// 重写 toString()
+	toString() {
+		let res = [];
+		for (let item of this._queue) {
+			res.push(item.data + '-' + item.priority);
+		}
+		return res.join(',');
+	}
+	// 其他属性都继承 ArrayQueue 类
 }
 ```
 
@@ -669,11 +669,11 @@ class PriorityQueue extends ArrayQueue {
 ```javascript
 const priorityQueue = new PriorityQueue();
 
-priorityQueue.enQueue("A", 10);
-priorityQueue.enQueue("B", 15);
-priorityQueue.enQueue("C", 11);
-priorityQueue.enQueue("D", 20);
-priorityQueue.enQueue("E", 18);
+priorityQueue.enQueue('A', 10);
+priorityQueue.enQueue('B', 15);
+priorityQueue.enQueue('C', 11);
+priorityQueue.enQueue('D', 20);
+priorityQueue.enQueue('E', 18);
 priorityQueue.toString();
 // output: 'D-20,E-18,C-11,A-10,B-15'
 
@@ -721,14 +721,14 @@ console.log(priorityQueue.count()); // output: 3
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0346) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#15bd66>Esay</font> |
-| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Esay</font> |
+| 0346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0346) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
+| 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
 
 #### 优先队列
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0703) |  [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Esay</font> |
+| 0703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0703) |  [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Easy</font> |
 | 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0347) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
 | 0451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0451) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0973) |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) `4+` | <font color=#ffb800>Medium</font> |

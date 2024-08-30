@@ -70,7 +70,7 @@ p.next = new_node;
 ```js
 // 其中 head 表示链表的头节点
 if (head == null) {
-  head = new_node;
+	head = new_node;
 }
 ```
 
@@ -84,7 +84,7 @@ if (head == null) {
 
 ```js
 if (head.next == null) {
-  head = null;
+	head = null;
 }
 ```
 
@@ -132,134 +132,134 @@ if (head.next == null) {
 ```javascript
 // 节点类
 class Node {
-  constructor(data) {
-    this.data = data;
-    this.next = null;
-  }
+	constructor(data) {
+		this.data = data;
+		this.next = null;
+	}
 }
 
 // 单项链表类
 class SingleLinkedList {
-  constructor() {
-    this.head = null;
-    this.length = 0;
-  }
+	constructor() {
+		this.head = null;
+		this.length = 0;
+	}
 
-  // 在链尾添加节点
-  append(data) {
-    let node = new Node(data);
-    if (this.head === null) {
-      this.head = node;
-    } else {
-      let current = this.head;
-      while (current.next) {
-        current = current.next;
-      }
-      current.next = node;
-    }
-    this.length++;
-  }
+	// 在链尾添加节点
+	append(data) {
+		let node = new Node(data);
+		if (this.head === null) {
+			this.head = node;
+		} else {
+			let current = this.head;
+			while (current.next) {
+				current = current.next;
+			}
+			current.next = node;
+		}
+		this.length++;
+	}
 
-  // 在指定位置（position）插入节点
-  // position = 0 表示新插入后是第一个节点
-  // position = 1 表示新插入后是第二个节点，以此类推
-  insert(position, data) {
-    if (position < 0 || position > this.length) return false;
-    let node = new Node(data);
-    let prev = new Node(0);
-    prev.next = this.head;
-    let index = 0;
-    while (index < position) {
-      prev = prev.next;
-      index++;
-    }
-    let temp = prev.next;
-    prev.next = node;
-    node.next = temp;
-    if (position === 0) {
-      this.head = node;
-    }
-    this.length++;
-    return node;
-  }
+	// 在指定位置（position）插入节点
+	// position = 0 表示新插入后是第一个节点
+	// position = 1 表示新插入后是第二个节点，以此类推
+	insert(position, data) {
+		if (position < 0 || position > this.length) return false;
+		let node = new Node(data);
+		let prev = new Node(0);
+		prev.next = this.head;
+		let index = 0;
+		while (index < position) {
+			prev = prev.next;
+			index++;
+		}
+		let temp = prev.next;
+		prev.next = node;
+		node.next = temp;
+		if (position === 0) {
+			this.head = node;
+		}
+		this.length++;
+		return node;
+	}
 
-  // 获取指定位置（position）的元素
-  getData(position) {
-    if (position < 0 || position >= this.length) return null;
-    let prev = this.head;
-    let index = 0;
-    while (index < position) {
-      prev = prev.next;
-      index++;
-    }
-    return prev.data;
-  }
+	// 获取指定位置（position）的元素
+	getData(position) {
+		if (position < 0 || position >= this.length) return null;
+		let prev = this.head;
+		let index = 0;
+		while (index < position) {
+			prev = prev.next;
+			index++;
+		}
+		return prev.data;
+	}
 
-  // 返回指定 data 的 index，如果没有则返回 -1
-  indexOf(data) {
-    let prev = this.head;
-    let index = 0;
-    while (prev) {
-      if (prev.data === data) return index;
-      prev = prev.next;
-      index++;
-    }
-    return -1;
-  }
+	// 返回指定 data 的 index，如果没有则返回 -1
+	indexOf(data) {
+		let prev = this.head;
+		let index = 0;
+		while (prev) {
+			if (prev.data === data) return index;
+			prev = prev.next;
+			index++;
+		}
+		return -1;
+	}
 
-  // 修改指定位置（position）的节点
-  update(position, data) {
-    if (position < 0 || position >= this.length) return null;
-    let prev = this.head;
-    let index = 0;
-    while (index < position) {
-      prev = prev.next;
-      index++;
-    }
-    prev.data = data;
-  }
+	// 修改指定位置（position）的节点
+	update(position, data) {
+		if (position < 0 || position >= this.length) return null;
+		let prev = this.head;
+		let index = 0;
+		while (index < position) {
+			prev = prev.next;
+			index++;
+		}
+		prev.data = data;
+	}
 
-  // 删除指定位置（position）的节点
-  removeAt(position) {
-    if (position < 0 || position >= this.length) return false;
-    let prev = new Node(0);
-    prev.next = this.head;
-    let index = 0;
-    while (index < position) {
-      prev = prev.next;
-      index++;
-    }
-    let node = prev.next;
-    prev.next = node.next;
-    if (position === 0) {
-      this.head = node.next;
-    }
-    this.length--;
-    return node;
-  }
+	// 删除指定位置（position）的节点
+	removeAt(position) {
+		if (position < 0 || position >= this.length) return false;
+		let prev = new Node(0);
+		prev.next = this.head;
+		let index = 0;
+		while (index < position) {
+			prev = prev.next;
+			index++;
+		}
+		let node = prev.next;
+		prev.next = node.next;
+		if (position === 0) {
+			this.head = node.next;
+		}
+		this.length--;
+		return node;
+	}
 
-  // 删除节点
-  remove(data) {
-    return this.removeAt(this.indexOf(data));
-  }
-  // 判断链表是否为空，返回 Boolean 值
-  isEmpty() {
-    return this.length === 0;
-  }
-  // 返回链表包含的节点个数
-  count() {
-    return this.length;
-  }
-  // 将链表中节点以字符串形式返回
-  toString() {
-    let prev = this.head;
-    let res = [];
-    while (prev) {
-      res.push(prev.data);
-      prev = prev.next;
-    }
-    return res.join(",");
-  }
+	// 删除节点
+	remove(data) {
+		return this.removeAt(this.indexOf(data));
+	}
+	// 判断链表是否为空，返回 Boolean 值
+	isEmpty() {
+		return this.length === 0;
+	}
+	// 返回链表包含的节点个数
+	count() {
+		return this.length;
+	}
+	// 将链表中节点以字符串形式返回
+	toString() {
+		let prev = this.head;
+		let res = [];
+		while (prev) {
+			res.push(prev.data);
+			prev = prev.next;
+		}
+		return res.join(',');
+	}
 }
 ```
 
@@ -268,9 +268,9 @@ class SingleLinkedList {
 ```javascript
 const linkedList = new SingleLinkedList();
 
-linkedList.append("A");
-linkedList.append("B");
-linkedList.append("C");
+linkedList.append('A');
+linkedList.append('B');
+linkedList.append('C');
 console.log(linkedList);
 // output:
 // SingleLinkedList {
@@ -281,25 +281,25 @@ console.log(linkedList);
 
 console.log(linkedList.toString()); // output: A,B,C
 
-linkedList.insert(0, "123");
-linkedList.insert(2, "456");
+linkedList.insert(0, '123');
+linkedList.insert(2, '456');
 console.log(linkedList.toString()); // output: 123,A,456,B,C
 
 console.log(linkedList.getData(0)); // output: 123
 console.log(linkedList.getData(1)); // output: A
 
-console.log(linkedList.indexOf("A")); // output: 1
-console.log(linkedList.indexOf("ABC")); // output: -1
+console.log(linkedList.indexOf('A')); // output: 1
+console.log(linkedList.indexOf('ABC')); // output: -1
 
-linkedList.update(0, "12345");
+linkedList.update(0, '12345');
 console.log(linkedList.toString()); // output: 12345,A,456,B,C
-linkedList.update(1, "54321");
+linkedList.update(1, '54321');
 console.log(linkedList.toString()); // output: 12345,54321,456,B,C
 
 linkedList.removeAt(3);
 console.log(linkedList.toString()); // output: 12345,54321,456,C
 
-linkedList.remove("12345");
+linkedList.remove('12345');
 console.log(linkedList.toString()); // output: 54321,456,C
 
 console.log(linkedList.isEmpty()); // output: false
@@ -335,97 +335,97 @@ console.log(linkedList.count()); // output: 3
 ```javascript
 // 双向链表的节点类（继承单向链表的节点类）
 class DoublyNode extends Node {
-  constructor(data) {
-    super(data);
-    this.prev = null;
-  }
+	constructor(data) {
+		super(data);
+		this.prev = null;
+	}
 }
 // 双向链表类（继承单向链表类）
 class DoublyLinkedList extends SingleLinkedList {
-  constructor() {
-    super();
-    this.tail = null;
-  }
-  // 在链尾添加节点，重写 append()
-  append(data) {
-    let node = new DoublyNode(data);
-    if (this.head === null) {
-      this.head = node;
-      this.tail = node;
-    } else {
-      // 直接通过 tail 指针在链尾添加节点
-      this.tail.next = node;
-      node.prev = this.tail;
-      this.tail = node;
-    }
-    this.length++;
-  }
+	constructor() {
+		super();
+		this.tail = null;
+	}
+	// 在链尾添加节点，重写 append()
+	append(data) {
+		let node = new DoublyNode(data);
+		if (this.head === null) {
+			this.head = node;
+			this.tail = node;
+		} else {
+			// 直接通过 tail 指针在链尾添加节点
+			this.tail.next = node;
+			node.prev = this.tail;
+			this.tail = node;
+		}
+		this.length++;
+	}
 
-  // 在指定位置（position）插入节点，重写 insert()
-  insert(position, data) {
-    if (position < 0 || position > this.length) return false;
-    let node = new DoublyNode(data);
-    let cur = new DoublyNode(null);
-    cur.next = this.head;
-    let index = 0;
-    while (index < position) {
-      cur = cur.next;
-      index++;
-    }
-    let temp = cur.next;
-    cur.next = node;
-    node.next = temp;
-    node.prev = cur;
-    temp.prev = node;
-    if (position === 0) {
-      this.head = node;
-      this.head.prev = null;
-    }
-    if (position === this.length) {
-      this.tail = node;
-    }
-    this.length++;
-    return node;
-  }
+	// 在指定位置（position）插入节点，重写 insert()
+	insert(position, data) {
+		if (position < 0 || position > this.length) return false;
+		let node = new DoublyNode(data);
+		let cur = new DoublyNode(null);
+		cur.next = this.head;
+		let index = 0;
+		while (index < position) {
+			cur = cur.next;
+			index++;
+		}
+		let temp = cur.next;
+		cur.next = node;
+		node.next = temp;
+		node.prev = cur;
+		temp.prev = node;
+		if (position === 0) {
+			this.head = node;
+			this.head.prev = null;
+		}
+		if (position === this.length) {
+			this.tail = node;
+		}
+		this.length++;
+		return node;
+	}
 
-  // 删除指定位置（position）的节点，重写 removeAt()
-  removeAt(position) {
-    if (position < 0 || position >= this.length) return false;
-    let cur = new DoublyNode(null);
-    cur.next = this.head;
-    let index = 0;
-    while (index < position) {
-      cur = cur.next;
-      index++;
-    }
-    let node = cur.next;
-    cur.next = node.next;
-    if (node.next) {
-      node.next.prev = cur;
-    }
-    if (position === 0) {
-      this.head = node.next;
-      this.head.prev = null;
-    }
-    if (position === this.length - 1) {
-      this.tail = this.tail.prev;
-    }
-    this.length--;
-    return node;
-  }
+	// 删除指定位置（position）的节点，重写 removeAt()
+	removeAt(position) {
+		if (position < 0 || position >= this.length) return false;
+		let cur = new DoublyNode(null);
+		cur.next = this.head;
+		let index = 0;
+		while (index < position) {
+			cur = cur.next;
+			index++;
+		}
+		let node = cur.next;
+		cur.next = node.next;
+		if (node.next) {
+			node.next.prev = cur;
+		}
+		if (position === 0) {
+			this.head = node.next;
+			this.head.prev = null;
+		}
+		if (position === this.length - 1) {
+			this.tail = this.tail.prev;
+		}
+		this.length--;
+		return node;
+	}
 
-  // 反向遍历节点，以字符串形式返回
-  backwordString() {
-    let cur = this.tail;
-    let res = [];
-    while (cur) {
-      res.push(cur.data);
-      cur = cur.prev;
-    }
-    return res.join(",");
-  }
+	// 反向遍历节点，以字符串形式返回
+	backwordString() {
+		let cur = this.tail;
+		let res = [];
+		while (cur) {
+			res.push(cur.data);
+			cur = cur.prev;
+		}
+		return res.join(',');
+	}
 
-  // 其他方法都继承 SingleLinkedList 类的
+	// 其他方法都继承 SingleLinkedList 类的
 }
 ```
 
@@ -434,28 +434,28 @@ class DoublyLinkedList extends SingleLinkedList {
 ```javascript
 const linkedList = new DoublyLinkedList();
 
-linkedList.append("A");
-linkedList.append("B");
-linkedList.append("C");
+linkedList.append('A');
+linkedList.append('B');
+linkedList.append('C');
 console.log(linkedList.toString()); // output: A,B,C
 console.log(linkedList.backwordString()); // output: C,B,A
 
-linkedList.insert(0, "123");
-linkedList.insert(2, "456");
+linkedList.insert(0, '123');
+linkedList.insert(2, '456');
 console.log(linkedList.toString()); // output: 123,A,456,B,C
 console.log(linkedList.backwordString()); // output: C,B,456,A,123
 
 console.log(linkedList.getData(0)); // output: 123
 console.log(linkedList.getData(1)); // output: A
 
-console.log(linkedList.indexOf("A")); // output: 1
-console.log(linkedList.indexOf("ABC")); // output: -1
+console.log(linkedList.indexOf('A')); // output: 1
+console.log(linkedList.indexOf('ABC')); // output: -1
 
-linkedList.update(0, "12345");
+linkedList.update(0, '12345');
 console.log(linkedList.toString()); // output: 12345,A,456,B,C
 console.log(linkedList.backwordString()); // output: C,B,456,A,12345
 
-linkedList.update(1, "54321");
+linkedList.update(1, '54321');
 console.log(linkedList.toString()); // output: 12345,54321,456,B,C
 console.log(linkedList.backwordString()); // output: C,B,456,54321,12345
 
@@ -463,7 +463,7 @@ linkedList.removeAt(3);
 console.log(linkedList.toString()); // output: 12345,54321,456,C
 console.log(linkedList.backwordString()); // output: C,456,54321,12345
 
-linkedList.remove("12345");
+linkedList.remove('12345');
 console.log(linkedList.toString()); // output: 54321,456,C
 console.log(linkedList.backwordString()); // output: C,456,54321
 
@@ -563,27 +563,27 @@ console.log(linkedList.count()); // output: 3
 
 // 循环实现
 var reverseList = function (head) {
-  let prev = null;
-  let cur = head;
+	let prev = null;
+	let cur = head;
 
-  while (cur !== null) {
-    let next = cur.next;
-    cur.next = prev;
-    prev = cur;
-    cur = next;
-  }
-  return prev;
+	while (cur !== null) {
+		let next = cur.next;
+		cur.next = prev;
+		prev = cur;
+		cur = next;
+	}
+	return prev;
 };
 
 // 递归实现
 var reverseList = function (head) {
-  if (head === null || head.next === null) {
-    return head;
-  }
-  const last = reverseList(head.next);
-  head.next.next = head;
-  head.next = null;
-  return last;
+	if (head === null || head.next === null) {
+		return head;
+	}
+	const last = reverseList(head.next);
+	head.next.next = head;
+	head.next = null;
+	return last;
 };
 ```
 
@@ -655,14 +655,14 @@ var reverseList = function (head) {
  * @return {boolean}
  */
 var hasCycle = function (head) {
-  let slow = head;
-  let fast = head;
-  while (fast && fast.next) {
-    slow = slow.next;
-    fast = fast.next.next;
-    if (fast == slow) return true;
-  }
-  return false;
+	let slow = head;
+	let fast = head;
+	while (fast && fast.next) {
+		slow = slow.next;
+		fast = fast.next.next;
+		if (fast == slow) return true;
+	}
+	return false;
 };
 ```
 
@@ -723,22 +723,22 @@ var hasCycle = function (head) {
  * @return {ListNode}
  */
 var mergeTwoLists = function (list1, list2) {
-  const newHead = new ListNode();
-  let prev = newHead;
+	const newHead = new ListNode();
+	let prev = newHead;
 
-  while (list1 && list2) {
-    if (list1.val < list2.val) {
-      prev.next = list1;
-      list1 = list1.next;
-    } else {
-      prev.next = list2;
-      list2 = list2.next;
-    }
-    prev = prev.next;
-  }
+	while (list1 && list2) {
+		if (list1.val < list2.val) {
+			prev.next = list1;
+			list1 = list1.next;
+		} else {
+			prev.next = list2;
+			list2 = list2.next;
+		}
+		prev = prev.next;
+	}
 
-  prev.next = list1 != null ? list1 : list2;
-  return newHead.next;
+	prev.next = list1 != null ? list1 : list2;
+	return newHead.next;
 };
 ```
 
@@ -804,19 +804,19 @@ var mergeTwoLists = function (list1, list2) {
  * @return {ListNode}
  */
 var removeNthFromEnd = function (head, n) {
-  let res = new ListNode(0, head);
-  let slow = res;
-  let fast = head;
-  while (n) {
-    fast = fast.next;
-    n--;
-  }
-  while (fast) {
-    slow = slow.next;
-    fast = fast.next;
-  }
-  slow.next = slow.next.next;
-  return res.next;
+	let res = new ListNode(0, head);
+	let slow = res;
+	let fast = head;
+	while (n) {
+		fast = fast.next;
+		n--;
+	}
+	while (fast) {
+		slow = slow.next;
+		fast = fast.next;
+	}
+	slow.next = slow.next.next;
+	return res.next;
 };
 ```
 
@@ -880,13 +880,13 @@ var removeNthFromEnd = function (head, n) {
  * @return {ListNode}
  */
 var middleNode = function (head) {
-  let slow = head;
-  let fast = head;
-  while (fast && fast.next) {
-    slow = slow.next;
-    fast = fast.next.next;
-  }
-  return slow;
+	let slow = head;
+	let fast = head;
+	while (fast && fast.next) {
+		slow = slow.next;
+		fast = fast.next.next;
+	}
+	return slow;
 };
 ```
 
@@ -982,66 +982,66 @@ lRUCache.get(4);    // 返回 4
 
 ```javascript
 class Node {
-  // @param {number} key
-  // @param {number} value
-  constructor(key, value) {
-    this.key = key;
-    this.value = value;
-    this.next = null;
-    this.prev = null;
-  }
+	// @param {number} key
+	// @param {number} value
+	constructor(key, value) {
+		this.key = key;
+		this.value = value;
+		this.next = null;
+		this.prev = null;
+	}
 }
 
 class LRUCache {
-  // @param {number} capacity
-  constructor(capacity) {
-    this.cap = capacity;
-    this.cache = new Map();
-    this.head = new Node(0, 0);
-    this.tail = new Node(0, 0);
-    this.head.next = this.tail;
-    this.tail.prev = this.head;
-  }
-  // @param {number} key
-  // @return {number}
-  get(key) {
-    if (this.cache.has(key)) {
-      this.remove(this.cache.get(key));
-      this.insert(this.cache.get(key));
-      return this.cache.get(key).value;
-    }
-    return -1;
-  }
-  // @param {Node} node
-  remove(node) {
-    const prev = node.prev;
-    const next = node.next;
-    prev.next = next;
-    next.prev = prev;
-  }
-  // @param {Node} node
-  insert(node) {
-    const next = this.head.next;
-    this.head.next = node;
-    next.prev = node;
-    node.prev = this.head;
-    node.next = next;
-  }
-  // @param {number} key
-  // @param {number} value
-  // @return {void}
-  put(key, value) {
-    if (this.cache.has(key)) {
-      this.remove(this.cache.get(key));
-    }
-    this.cache.set(key, new Node(key, value));
-    this.insert(this.cache.get(key));
-    if (this.cache.size > this.cap) {
-      const old = this.tail.prev;
-      this.remove(old);
-      this.cache.delete(old.key);
-    }
-  }
+	// @param {number} capacity
+	constructor(capacity) {
+		this.cap = capacity;
+		this.cache = new Map();
+		this.head = new Node(0, 0);
+		this.tail = new Node(0, 0);
+		this.head.next = this.tail;
+		this.tail.prev = this.head;
+	}
+	// @param {number} key
+	// @return {number}
+	get(key) {
+		if (this.cache.has(key)) {
+			this.remove(this.cache.get(key));
+			this.insert(this.cache.get(key));
+			return this.cache.get(key).value;
+		}
+		return -1;
+	}
+	// @param {Node} node
+	remove(node) {
+		const prev = node.prev;
+		const next = node.next;
+		prev.next = next;
+		next.prev = prev;
+	}
+	// @param {Node} node
+	insert(node) {
+		const next = this.head.next;
+		this.head.next = node;
+		next.prev = node;
+		node.prev = this.head;
+		node.next = next;
+	}
+	// @param {number} key
+	// @param {number} value
+	// @return {void}
+	put(key, value) {
+		if (this.cache.has(key)) {
+			this.remove(this.cache.get(key));
+		}
+		this.cache.set(key, new Node(key, value));
+		this.insert(this.cache.get(key));
+		if (this.cache.size > this.cap) {
+			const old = this.tail.prev;
+			this.remove(old);
+			this.cache.delete(old.key);
+		}
+	}
 }
 
 /**
@@ -1673,14 +1673,14 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0707 | [设计链表](https://leetcode.com/problems/design-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) |  [`设计`](/leetcode/outline/tag/design.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0083 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0083) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 0082 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0082) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 0092 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ff334b>Hard</font> |
-| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 0328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0328) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Esay</font> |
+| 0234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0234) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0430) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0061 | [旋转链表](https://leetcode.com/problems/rotate-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0061) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
@@ -1690,7 +1690,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0148 | [排序链表](https://leetcode.com/problems/sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Esay</font> |
+| 0021 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0147) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 
@@ -1698,12 +1698,12 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0141 | [环形链表](https://leetcode.com/problems/linked-list-cycle/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0142) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0160) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0160) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0019 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0019) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Esay</font> |
+| 0876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_22_1) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0143 | [重排链表](https://leetcode.com/problems/reorder-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0143) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0002 | [两数相加](https://leetcode.com/problems/add-two-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0002) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) |  [`栈`](/leetcode/outline/tag/stack.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |

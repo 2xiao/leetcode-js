@@ -1,6 +1,6 @@
 # [剑指 Offer 10 - I. 斐波那契数列](https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof/)
 
 ## 题目
 
@@ -72,10 +72,10 @@
 ```javascript
 // 解法一 暴力递归法 时间复杂度 O(2^n)，空间复杂度 O(n)
 var fib = function (n) {
-  if (n <= 1) {
-    return n;
-  }
-  return (fib(n - 1) + fib(n - 2)) % 1000000007;
+	if (n <= 1) {
+		return n;
+	}
+	return (fib(n - 1) + fib(n - 2)) % 1000000007;
 };
 ```
 
@@ -84,14 +84,14 @@ var fib = function (n) {
 ```javascript
 // 解法二 自底向上的记忆化搜索 时间复杂度 O(n)，空间复杂度 O(n)
 var fib = function (n) {
-  if (n <= 1) {
-    return n;
-  }
-  const arr = [0, 1];
-  for (let i = 2; i <= n; i++) {
-    arr[i] = (arr[i - 1] + arr[i - 2]) % 1000000007;
-  }
-  return arr[n];
+	if (n <= 1) {
+		return n;
+	}
+	const arr = [0, 1];
+	for (let i = 2; i <= n; i++) {
+		arr[i] = (arr[i - 1] + arr[i - 2]) % 1000000007;
+	}
+	return arr[n];
 };
 ```
 
@@ -100,15 +100,15 @@ var fib = function (n) {
 ```javascript
 // 解法三 自顶向下的记忆化搜索 时间复杂度 O(n)，空间复杂度 O(n)
 var fib = function (n) {
-  let map = new Map();
-  const helper = (n) => {
-    if (n < 2) return n;
-    if (!map.has(n)) {
-      map.set(n, (helper(n - 1) + helper(n - 2)) % 1000000007);
-    }
-    return map.get(n);
-  };
-  return helper(n);
+	let map = new Map();
+	const helper = (n) => {
+		if (n < 2) return n;
+		if (!map.has(n)) {
+			map.set(n, (helper(n - 1) + helper(n - 2)) % 1000000007);
+		}
+		return map.get(n);
+	};
+	return helper(n);
 };
 ```
 
@@ -117,16 +117,16 @@ var fib = function (n) {
 ```javascript
 // 解法四 滚动数组优化版的 dp，节约内存空间 时间复杂度 O(n)，空间复杂度 O(1)
 var fib = function (n) {
-  if (n <= 1) return n;
-  let result = 0;
-  let prev1 = 0;
-  let prev2 = 1;
-  for (let i = 2; i <= n; i++) {
-    result = (prev1 + prev2) % 1000000007;
-    prev1 = prev2;
-    prev2 = result;
-  }
-  return result;
+	if (n <= 1) return n;
+	let result = 0;
+	let prev1 = 0;
+	let prev2 = 1;
+	for (let i = 2; i <= n; i++) {
+		result = (prev1 + prev2) % 1000000007;
+		prev1 = prev2;
+		prev2 = result;
+	}
+	return result;
 };
 ```
 

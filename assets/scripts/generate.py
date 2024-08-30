@@ -175,7 +175,7 @@ def gen_tag_and_difficulty():
                 continue
             if "<font color=#ffb800>Medium</font>" in content:
                 continue
-            if "<font color=#15bd66>Esay</font>" in content:
+            if "<font color=#15bd66>Easy</font>" in content:
                 continue
 
             content, after = content.split(delim)

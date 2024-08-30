@@ -1,6 +1,6 @@
 # [剑指 Offer 5. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
 
 ## 题目
 
@@ -28,10 +28,10 @@
  * @return {string}
  */
 var pathEncryption = function (path) {
-  let res = "";
-  for (let i of path) {
-    res += i === "." ? " " : i;
-  }
-  return res;
+	let res = '';
+	for (let i of path) {
+		res += i === '.' ? ' ' : i;
+	}
+	return res;
 };
 ```

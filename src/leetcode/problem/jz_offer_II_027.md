@@ -1,6 +1,6 @@
 # [剑指 Offer II 27. 回文链表](https://leetcode.cn/problems/aMhZSa/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/aMhZSa/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/aMhZSa/)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer 3. 数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 
-🟢 <font color=#15bd66>Esay</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
 
 ## 题目
 
@@ -31,11 +31,11 @@
  * @return {number}
  */
 var findRepeatDocument = function (documents) {
-  let map = new Map();
-  for (let i of documents) {
-    if (map.has(i)) return i;
-    map.set(i, true);
-  }
-  return -1;
+	let map = new Map();
+	for (let i of documents) {
+		if (map.has(i)) return i;
+		map.set(i, true);
+	}
+	return -1;
 };
 ```
