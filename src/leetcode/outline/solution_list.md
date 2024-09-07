@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 308 道
+已完成 310 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -160,6 +160,8 @@
 | 0259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0259) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0264) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0268 | [丢失的数字](https://leetcode.com/problems/missing-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0268) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `3+` | <font color=#15bd66>Easy</font> |
+| 0274 | [H 指数](https://leetcode.com/problems/h-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0274) |  [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 0275 | [H 指数 II](https://leetcode.com/problems/h-index-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0275) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0278) |  [`二分查找`](/leetcode/outline/tag/binary-search.md) [`交互`](/leetcode/outline/tag/interaction.md) | <font color=#15bd66>Easy</font> |
 | 0279 | [完全平方数](https://leetcode.com/problems/perfect-squares/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0279) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0283 | [移动零](https://leetcode.com/problems/move-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0283) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
