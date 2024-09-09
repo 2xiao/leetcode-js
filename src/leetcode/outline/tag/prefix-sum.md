@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0209) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 0253 | [会议室 II](https://leetcode.com/problems/meeting-rooms-ii/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |

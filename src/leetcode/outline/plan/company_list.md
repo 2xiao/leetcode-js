@@ -134,7 +134,7 @@ title: "热门企业题库"
 | 0309 | [最佳买卖股票时机含冷冻期](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0309) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 12 |
 | 0867 | [转置矩阵](https://leetcode.com/problems/transpose-matrix/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> | 12 |
 | 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`数据流`](/leetcode/outline/tag/data-streams.md) `2+` | <font color=#ff334b>Hard</font> | 12 |
-| 0135 | [分发糖果](https://leetcode.com/problems/candy/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ff334b>Hard</font> | 11 |
+| 0135 | [分发糖果](https://leetcode.com/problems/candy/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0135) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ff334b>Hard</font> | 11 |
 | 0560 | [和为 K 的子数组](https://leetcode.com/problems/subarray-sum-equals-k/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> | 11 |
 | 0186 | [反转字符串中的单词 II](https://leetcode.com/problems/reverse-words-in-a-string-ii/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 7 |
 

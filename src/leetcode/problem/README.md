@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 310 道
+已完成 312 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -106,6 +106,7 @@
 | 0131 | [分割回文串](https://leetcode.com/problems/palindrome-partitioning/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0131) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0134 | [加油站](https://leetcode.com/problems/gas-station/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0134) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
+| 0135 | [分发糖果](https://leetcode.com/problems/candy/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0135) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ff334b>Hard</font> |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 0138 | [复制带随机指针的链表](https://leetcode.com/problems/copy-list-with-random-pointer/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0138) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0139 | [单词拆分](https://leetcode.com/problems/word-break/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0139) |  [`字典树`](/leetcode/outline/tag/trie.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
@@ -138,6 +139,7 @@
 | 0202 | [快乐数](https://leetcode.com/problems/happy-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0202) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 0206 | [反转链表](https://leetcode.com/problems/reverse-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0209) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0215) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0216 | [组合总和 III](https://leetcode.com/problems/combination-sum-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0216) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0217 | [存在重复元素](https://leetcode.com/problems/contains-duplicate/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0217) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
