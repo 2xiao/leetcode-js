@@ -90,7 +90,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0028 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
+| 0028 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0028) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
 | 0459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
 | 0686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
 | 1668 | [最大重复子字符串](https://leetcode.com/problems/maximum-repeating-substring/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |

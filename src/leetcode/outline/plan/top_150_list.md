@@ -31,8 +31,8 @@ title: "面试经典 150 题"
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0151) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0006 | [N 字形变换](https://leetcode.com/problems/zigzag-conversion/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0006) |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 0028 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
-| 0068 | [文本左右对齐](https://leetcode.com/problems/text-justification/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ff334b>Hard</font> |
+| 0028 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0028) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
+| 0068 | [文本左右对齐](https://leetcode.com/problems/text-justification/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0068) |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ff334b>Hard</font> |
 
 
 ## Two Pointers

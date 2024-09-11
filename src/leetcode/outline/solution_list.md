@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 312 道
+已完成 314 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -31,6 +31,7 @@
 | 0025 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0025) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ff334b>Hard</font> |
 | 0026 | [删除有序数组中的重复项](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0026) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0027 | [移除元素](https://leetcode.com/problems/remove-element/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0027) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 0028 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0028) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0034) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0035) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0036 | [有效的数独](https://leetcode.com/problems/valid-sudoku/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
@@ -56,6 +57,7 @@
 | 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0063) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0064 | [最小路径和](https://leetcode.com/problems/minimum-path-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0064) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Easy</font> |
+| 0068 | [文本左右对齐](https://leetcode.com/problems/text-justification/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0068) |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ff334b>Hard</font> |
 | 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) |  [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0071) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0072 | [编辑距离](https://leetcode.com/problems/edit-distance/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0072) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
