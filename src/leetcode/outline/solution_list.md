@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 314 道
+已完成 316 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -200,6 +200,7 @@
 | 0416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0416) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0426) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
 | 0430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0430) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
+| 0438 | [找到字符串中所有字母异位词](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0438) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 0442 | [数组中重复的数据](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0442) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 0445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0445) |  [`栈`](/leetcode/outline/tag/stack.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0450 | [删除二叉搜索树中的节点](https://leetcode.com/problems/delete-node-in-a-bst/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0450) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
@@ -218,6 +219,7 @@
 | 0530 | [二叉搜索树的最小绝对差](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0530) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#15bd66>Easy</font> |
 | 0543 | [二叉树的直径](https://leetcode.com/problems/diameter-of-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0543) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#15bd66>Easy</font> |
 | 0559 | [N 叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0559) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) | <font color=#15bd66>Easy</font> |
+| 0567 | [字符串的排列](https://leetcode.com/problems/permutation-in-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0567) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0572) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) `2+` | <font color=#15bd66>Easy</font> |
 | 0583 | [两个字符串的删除操作](https://leetcode.com/problems/delete-operation-for-two-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0583) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0589 | [N 叉树的前序遍历](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0589) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) | <font color=#15bd66>Easy</font> |

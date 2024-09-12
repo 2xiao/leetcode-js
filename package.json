@@ -10,8 +10,8 @@
     "docs:dev": "vuepress dev src",
     "docs:update-package": "npx vp-update",
     "dev": "vuepress dev src",
-    "lc": "cd ./assets/scripts & python3 ./entrance.py",
-    "spider": "cd ./assets/scripts & py ./leetcode-crawler.py ../output -v"
+    "lc": "cd ./assets/scripts && python3 ./entrance.py",
+    "spider": "cd ./assets/scripts && py ./leetcode-crawler.py ../output -v"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
