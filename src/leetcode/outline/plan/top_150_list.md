@@ -54,7 +54,7 @@ title: "面试经典 150 题"
 | :------: | :------ | :------: | :------ | :------ |
 | 0209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0209) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
-| 0030 | [串联所有单词的子串](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
+| 0030 | [串联所有单词的子串](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0030) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
 | 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0076) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
 
 
