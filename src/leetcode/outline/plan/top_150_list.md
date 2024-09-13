@@ -67,7 +67,7 @@ title: "面试经典 150 题"
 | 0054 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0054) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 0048 | [旋转图像](https://leetcode.com/problems/rotate-image/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0048) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0073 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0073) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
+| 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0289) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 
 
 ## Hashmap
@@ -76,10 +76,10 @@ title: "面试经典 150 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 0383 | [赎金信](https://leetcode.com/problems/ransom-note/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0383) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#15bd66>Easy</font> |
-| 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0205) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0290 | [单词规律](https://leetcode.com/problems/word-pattern/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0290) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0242) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
-| 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0049 | [字母异位词分组](https://leetcode.com/problems/group-anagrams/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0049) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0001 | [两数之和](https://leetcode.com/problems/two-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
 | 0202 | [快乐数](https://leetcode.com/problems/happy-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0202) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0219 | [存在重复元素 II](https://leetcode.com/problems/contains-duplicate-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0219) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#15bd66>Easy</font> |
