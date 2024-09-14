@@ -23,7 +23,7 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 0455 | [分发饼干](https://leetcode.com/problems/assign-cookies/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0860 | [柠檬水找零](https://leetcode.com/problems/lemonade-change/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
-| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0056) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0435 | [无重叠区间](https://leetcode.com/problems/non-overlapping-intervals/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0452 | [用最少数量的箭引爆气球](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 0055 | [跳跃游戏](https://leetcode.com/problems/jump-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0055) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |

@@ -311,7 +311,7 @@ title: "面试高频 200 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0053) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 261 |
-| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 125 |
+| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0056) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 125 |
 | 0122 | [买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0122) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> | 56 |
 | 0055 | [跳跃游戏](https://leetcode.com/problems/jump-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0055) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 38 |
 | 0402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits/) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> | 44 |
@@ -461,7 +461,7 @@ title: "面试高频 200 题"
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> | 45 |
-| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 125 |
+| 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0056) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 125 |
 | 0179 | [最大数](https://leetcode.com/problems/largest-number/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> | 51 |
 | 0384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`随机化`](/leetcode/outline/tag/randomized-algorithms.md) | <font color=#ffb800>Medium</font> | 28 |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 18 |
