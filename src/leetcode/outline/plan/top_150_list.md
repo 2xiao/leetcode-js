@@ -93,8 +93,8 @@ title: "面试经典 150 题"
 | :------: | :------ | :------: | :------ | :------ |
 | 0228 | [汇总区间](https://leetcode.com/problems/summary-ranges/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0228) |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 0056 | [合并区间](https://leetcode.com/problems/merge-intervals/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0056) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 0057 | [插入区间](https://leetcode.com/problems/insert-interval/) |  |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
-| 0452 | [用最少数量的箭引爆气球](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 0057 | [插入区间](https://leetcode.com/problems/insert-interval/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0057) |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
+| 0452 | [用最少数量的箭引爆气球](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0452) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 
 
 ## Stack
