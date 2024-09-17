@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 326 道
+已完成 327 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -61,6 +61,7 @@
 | 0063 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0063) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0064 | [最小路径和](https://leetcode.com/problems/minimum-path-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0064) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0066 | [加一](https://leetcode.com/problems/plus-one/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0066) |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#15bd66>Easy</font> |
+| 0067 | [二进制求和](https://leetcode.com/problems/add-binary/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0067) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0068 | [文本左右对齐](https://leetcode.com/problems/text-justification/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0068) |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ff334b>Hard</font> |
 | 0070 | [爬楼梯](https://leetcode.com/problems/climbing-stairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) |  [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 0071 | [简化路径](https://leetcode.com/problems/simplify-path/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0071) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |

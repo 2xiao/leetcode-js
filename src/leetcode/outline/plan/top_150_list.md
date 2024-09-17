@@ -266,7 +266,7 @@ title: "面试经典 150 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0067 | [二进制求和](https://leetcode.com/problems/add-binary/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 0067 | [二进制求和](https://leetcode.com/problems/add-binary/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0067) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0190 | [颠倒二进制位](https://leetcode.com/problems/reverse-bits/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#15bd66>Easy</font> |
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0191) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#15bd66>Easy</font> |
 | 0136 | [只出现一次的数字](https://leetcode.com/problems/single-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
