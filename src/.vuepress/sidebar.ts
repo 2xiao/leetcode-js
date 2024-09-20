@@ -12,8 +12,20 @@ export default sidebar({
 				'solution_list',
 				{
 					text: '1.4 学习计划',
-					link: 'plan/README.md',
-					activeMatch: '^/leetcode/outline/plan'
+					prefix: 'plan/',
+					collapsible: true,
+					children: [
+						'top_150_list',
+						'top_200_list',
+						'top_300_list',
+						'offer_list',
+						'offer2_list',
+						'codetop_list',
+						'rabbit_list',
+						'company_list'
+					]
+					// link: 'plan/README.md',
+					// activeMatch: '^/leetcode/outline/plan'
 				},
 				{
 					text: '1.5 题解标签',
@@ -153,6 +165,7 @@ export default sidebar({
             "0121",
             "0122",
             "0123",
+            "0124",
             "0125",
             "0128",
             "0129",

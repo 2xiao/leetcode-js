@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 331 道
+已完成 332 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -107,6 +107,7 @@
 | 0121 | [买卖股票的最佳时机](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0121) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 0122 | [买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0122) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 0123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0123) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 0124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0124) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 0129 | [求根节点到叶节点数字之和](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0129) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
