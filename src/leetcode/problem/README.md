@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 332 道
+已完成 334 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -111,6 +111,7 @@
 | 0125 | [验证回文串](https://leetcode.com/problems/valid-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 0129 | [求根节点到叶节点数字之和](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0129) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
+| 0130 | [被围绕的区域](https://leetcode.com/problems/surrounded-regions/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0130) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0131 | [分割回文串](https://leetcode.com/problems/palindrome-partitioning/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0131) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0134 | [加油站](https://leetcode.com/problems/gas-station/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0134) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
@@ -144,6 +145,7 @@
 | 0191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0191) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#15bd66>Easy</font> |
 | 0198 | [打家劫舍](https://leetcode.com/problems/house-robber/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0198) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0199 | [二叉树的右视图](https://leetcode.com/problems/binary-tree-right-side-view/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0199) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0202 | [快乐数](https://leetcode.com/problems/happy-number/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0202) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 0203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0203) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 0205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0205) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |

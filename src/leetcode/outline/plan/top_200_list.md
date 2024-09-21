@@ -206,7 +206,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> | 211 |
+| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> | 211 |
 | 0695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> | 56 |
 | 0144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0144) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Easy</font> | 78 |
 | 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0094) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Easy</font> | 124 |
@@ -227,7 +227,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> | 211 |
+| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> | 211 |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0322) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 84 |
 | 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 43 |
 | 0199 | [二叉树的右视图](https://leetcode.com/problems/binary-tree-right-side-view/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0199) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> | 118 |
