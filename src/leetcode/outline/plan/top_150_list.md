@@ -178,9 +178,9 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0211 | [添加与搜索单词 - 数据结构设计](https://leetcode.com/problems/design-add-and-search-words-data-structure/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
+| 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0208) |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0211 | [添加与搜索单词 - 数据结构设计](https://leetcode.com/problems/design-add-and-search-words-data-structure/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0211) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0212) |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
 
 
 ## 图
@@ -206,7 +206,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ |
 | 0945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0945) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0433 | [最小基因变化](https://leetcode.com/problems/minimum-genetic-mutation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0433) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 0127 | [单词接龙](https://leetcode.com/problems/word-ladder/) |  |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ff334b>Hard</font> |
+| 0127 | [单词接龙](https://leetcode.com/problems/word-ladder/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0127) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ff334b>Hard</font> |
 
 
 ## 回溯

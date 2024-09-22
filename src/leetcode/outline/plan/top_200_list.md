@@ -136,7 +136,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> | 27 |
+| 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0208) |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> | 27 |
 | 0440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) | <font color=#ff334b>Hard</font> | 33 |
 
 
