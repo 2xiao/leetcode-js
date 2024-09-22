@@ -1,5 +1,6 @@
 ---
 title: "剑指 Offer 题解"
+headerDepth: 0
 ---
 
 ![](../../../../assets/image/plan-7.png =500x)

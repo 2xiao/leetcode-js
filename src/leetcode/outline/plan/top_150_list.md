@@ -1,10 +1,11 @@
 ---
-title: "面试经典 150 题"
+title: '面试经典 150 题'
+headerDepth: 0
 ---
 
 ![](../../../../assets/image/plan-2.png =500x)
 
-## Array / String
+## 数组 / 字符串
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -35,7 +36,7 @@ title: "面试经典 150 题"
 | 0068 | [文本左右对齐](https://leetcode.com/problems/text-justification/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0068) |  [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ff334b>Hard</font> |
 
 
-## Two Pointers
+## 双指针
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -47,7 +48,7 @@ title: "面试经典 150 题"
 | 0015 | [三数之和](https://leetcode.com/problems/3sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0015) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 
 
-## Sliding Window
+## 滑动窗口
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -58,7 +59,7 @@ title: "面试经典 150 题"
 | 0076 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0076) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
 
 
-## Matrix
+## 矩阵
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -70,7 +71,7 @@ title: "面试经典 150 题"
 | 0289 | [生命游戏](https://leetcode.com/problems/game-of-life/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0289) |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 
 
-## Hashmap
+## 哈希表
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -86,7 +87,7 @@ title: "面试经典 150 题"
 | 0128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 
 
-## Intervals
+## 间隔
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -97,7 +98,7 @@ title: "面试经典 150 题"
 | 0452 | [用最少数量的箭引爆气球](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0452) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 
 
-## Stack
+## 栈
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -109,7 +110,7 @@ title: "面试经典 150 题"
 | 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
-## Linked List
+## 链表
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -127,7 +128,10 @@ title: "面试经典 150 题"
 | 0146 | [LRU 缓存](https://leetcode.com/problems/lru-cache/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0146) |  [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 
 
-## Binary Tree General
+## 树
+
+
+* 二叉树
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -148,7 +152,7 @@ title: "面试经典 150 题"
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0236) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 
 
-## Binary Tree BFS
+* 二叉树的广度优先搜索
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -159,7 +163,7 @@ title: "面试经典 150 题"
 | 0103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0103) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 
 
-## Binary Search Tree
+* 二叉搜索树
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -169,30 +173,7 @@ title: "面试经典 150 题"
 | 0098 | [验证二叉搜索树](https://leetcode.com/problems/validate-binary-search-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0098) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 
 
-## Graph General
-
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0130 | [被围绕的区域](https://leetcode.com/problems/surrounded-regions/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0130) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
-| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
-| 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
-
-
-## Graph BFS
-
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0433 | [最小基因变化](https://leetcode.com/problems/minimum-genetic-mutation/) |  |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 0127 | [单词接龙](https://leetcode.com/problems/word-ladder/) |  |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ff334b>Hard</font> |
-
-
-## Trie
+* 前缀树
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -202,7 +183,33 @@ title: "面试经典 150 题"
 | 0212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
 
 
-## Backtracking
+## 图
+
+
+* 图的深度优先搜索
+
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0130 | [被围绕的区域](https://leetcode.com/problems/surrounded-regions/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0130) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> |
+| 0133 | [克隆图](https://leetcode.com/problems/clone-graph/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0399) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0207 | [课程表](https://leetcode.com/problems/course-schedule/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0207) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0210) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+
+
+* 图的广度优先搜索
+
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 0945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0945) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0433 | [最小基因变化](https://leetcode.com/problems/minimum-genetic-mutation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0433) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 0127 | [单词接龙](https://leetcode.com/problems/word-ladder/) |  |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ff334b>Hard</font> |
+
+
+## 回溯
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -216,7 +223,7 @@ title: "面试经典 150 题"
 | 0079 | [单词搜索](https://leetcode.com/problems/word-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0079) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 
 
-## Divide & Conquer
+## 分治
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -227,16 +234,7 @@ title: "面试经典 150 题"
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
-## Kadane's Algorithm
-
-
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0053) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 0954 | [二倍数对数组](https://leetcode.com/problems/array-of-doubled-pairs/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-
-
-## Binary Search
+## 二分查找
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -250,7 +248,7 @@ title: "面试经典 150 题"
 | 0004 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> |
 
 
-## Heap
+## 堆
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -261,7 +259,7 @@ title: "面试经典 150 题"
 | 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`数据流`](/leetcode/outline/tag/data-streams.md) `2+` | <font color=#ff334b>Hard</font> |
 
 
-## Bit Manipulation
+## 位运算
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -274,7 +272,7 @@ title: "面试经典 150 题"
 | 0201 | [数字范围按位与](https://leetcode.com/problems/bitwise-and-of-numbers-range/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) | <font color=#ffb800>Medium</font> |
 
 
-## Math
+## 数学
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -287,7 +285,19 @@ title: "面试经典 150 题"
 | 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
-## 1D DP
+## 动态规划
+
+
+* Kadane 算法
+
+
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 0053 | [最大子数组和](https://leetcode.com/problems/maximum-subarray/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0053) |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 0954 | [二倍数对数组](https://leetcode.com/problems/array-of-doubled-pairs/) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
+
+
+* 一维
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -299,7 +309,7 @@ title: "面试经典 150 题"
 | 0300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0300) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 
 
-## Multidimensional DP
+* 多维
 
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |

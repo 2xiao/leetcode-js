@@ -1,5 +1,6 @@
 ---
 title: "面试高频 200 题"
+headerDepth: 0
 ---
 
 ![](../../../../assets/image/plan-1.png =500x)
@@ -229,7 +230,7 @@ title: "面试高频 200 题"
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0200 | [岛屿数量](https://leetcode.com/problems/number-of-islands/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `2+` | <font color=#ffb800>Medium</font> | 211 |
 | 0322 | [零钱兑换](https://leetcode.com/problems/coin-change/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0322) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 84 |
-| 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 43 |
+| 0207 | [课程表](https://leetcode.com/problems/course-schedule/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0207) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 43 |
 | 0199 | [二叉树的右视图](https://leetcode.com/problems/binary-tree-right-side-view/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0199) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> | 118 |
 | 0662 | [二叉树最大宽度](https://leetcode.com/problems/maximum-width-of-binary-tree/) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> | 57 |
 | 0958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0958) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 42 |
@@ -244,7 +245,7 @@ title: "面试高频 200 题"
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 19 |
+| 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0210) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 19 |
 
 
 ## 枚举算法

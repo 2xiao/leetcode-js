@@ -214,7 +214,9 @@ export default sidebar({
             "0203",
             "0205",
             "0206",
+            "0207",
             "0209",
+            "0210",
             "0215",
             "0216",
             "0217",
@@ -277,7 +279,8 @@ export default sidebar({
             "0382",
             "0383",
             "0392",
-            "0394"
+            "0394",
+            "0399"
           ],
         },
         {
@@ -287,6 +290,7 @@ export default sidebar({
             "0416",
             "0426",
             "0430",
+            "0433",
             "0438",
             "0442",
             "0445",
@@ -366,6 +370,7 @@ export default sidebar({
           collapsible: true,
           children: [
             "0931",
+            "0945",
             "0946",
             "0958",
             "0973",
@@ -509,6 +514,7 @@ export default sidebar({
           children: [
             "jz_offer_II_027",
             "jz_offer_II_031",
+            "jz_offer_II_074",
             "jz_offer_II_101"
           ],
         },// AUTO_GEN_CONFIG_END

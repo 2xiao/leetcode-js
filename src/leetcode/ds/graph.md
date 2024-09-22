@@ -72,8 +72,8 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0207 | [课程表](https://leetcode.com/problems/course-schedule/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
-| 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0207 | [课程表](https://leetcode.com/problems/course-schedule/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0207) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 0210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0210) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1136 | [并行课程](https://leetcode.com/problems/parallel-courses/) |  |  [`图`](/leetcode/outline/tag/graph.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) | <font color=#ffb800>Medium</font> |
 | 2050 | [并行课程 III](https://leetcode.com/problems/parallel-courses-iii/) |  |  [`图`](/leetcode/outline/tag/graph.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0802 | [找到最终的安全状态](https://leetcode.com/problems/find-eventual-safe-states/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |

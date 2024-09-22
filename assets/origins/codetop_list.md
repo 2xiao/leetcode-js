@@ -1,5 +1,6 @@
 ---
-title: "CodeTop 热题排行榜"
+title: 'CodeTop 热题排行榜'
+headerDepth: 0
 ---
 
 ![](../../../../assets/image/plan-3.png =500x)

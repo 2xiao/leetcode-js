@@ -1,5 +1,6 @@
 ---
-title: "海外兔热题排行榜"
+title: '海外兔热题排行榜'
+headerDepth: 0
 ---
 
 ![](../../../../assets/image/plan-4.png =500x)

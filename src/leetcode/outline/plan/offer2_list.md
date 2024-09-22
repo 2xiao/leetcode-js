@@ -1,5 +1,6 @@
 ---
 title: "剑指 Offer II 题解"
+headerDepth: 0
 ---
 
 ![](../../../../assets/image/plan-8.png =500x)
@@ -79,7 +80,7 @@ title: "剑指 Offer II 题解"
 | 剑指 Offer II 071 | [按权重生成随机数](https://leetcode.cn/problems/cuyjEf/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 072 | [求平方根](https://leetcode.cn/problems/jJ0w9p/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 073 | [狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 074 | [合并区间](https://leetcode.cn/problems/SsGoHC/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 074 | [合并区间](https://leetcode.cn/problems/SsGoHC/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_II_074) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 075 | [数组相对排序](https://leetcode.cn/problems/0H97ZC/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 076 | [数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 077 | [链表排序](https://leetcode.cn/problems/7WHec2/) |  |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
