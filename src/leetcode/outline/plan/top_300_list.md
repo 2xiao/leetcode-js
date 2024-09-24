@@ -233,7 +233,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
+| 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0069) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0704 | [二分查找](https://leetcode.com/problems/binary-search/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0035 | [搜索插入位置](https://leetcode.com/problems/search-insert-position/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0035) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 0349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
@@ -526,7 +526,7 @@ headerDepth: 0
 | 0029 | [两数相除](https://leetcode.com/problems/divide-two-integers/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0343 | [整数拆分](https://leetcode.com/problems/integer-break/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0343) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0166 | [分数到小数](https://leetcode.com/problems/fraction-to-recurring-decimal/) |  |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0149) |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
 ## 极大极小化

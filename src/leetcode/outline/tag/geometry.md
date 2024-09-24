@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
+| 0149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0149) |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0223 | [矩形面积](https://leetcode.com/problems/rectangle-area/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0335 | [路径交叉](https://leetcode.com/problems/self-crossing/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ff334b>Hard</font> |
 | 0469 | [凸多边形](https://leetcode.com/problems/convex-polygon/) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
