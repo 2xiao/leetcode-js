@@ -177,6 +177,7 @@ export default sidebar({
             "0134",
             "0135",
             "0136",
+            "0137",
             "0138",
             "0139",
             "0141",
@@ -202,6 +203,7 @@ export default sidebar({
             "0174",
             "0188",
             "0189",
+            "0190",
             "0191",
             "0198",
             "0199"
@@ -212,6 +214,7 @@ export default sidebar({
           collapsible: true,
           children: [
             "0200",
+            "0201",
             "0202",
             "0203",
             "0205",
@@ -252,6 +255,7 @@ export default sidebar({
             "0283",
             "0289",
             "0290",
+            "0295",
             "0297"
           ],
         },
@@ -313,6 +317,7 @@ export default sidebar({
           text: "0500-0599",
           collapsible: true,
           children: [
+            "0502",
             "0503",
             "0506",
             "0509",
