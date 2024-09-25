@@ -50,31 +50,31 @@
 
 ```javascript
 class MaxHeap {
-  constructor() {
-    this.heap = [];
-  }
+	constructor() {
+		this.heap = [];
+	}
 
-  insert(value) {
-    this.heap.push(value);
-    this._heapifyUp();
-  }
+	insert(value) {
+		this.heap.push(value);
+		this._heapifyUp();
+	}
 
-  _heapifyUp() {
-    let cur = this.heap.length - 1;
+	_heapifyUp() {
+		let cur = this.heap.length - 1;
 
-    while (cur > 0) {
-      const parent = Math.floor((cur - 1) / 2);
-      if (this.heap[cur] > this.heap[parent]) {
-        [this.heap[cur], this.heap[parent]] = [
-          this.heap[parent],
-          this.heap[cur],
-        ];
-        cur = parent;
-      } else {
-        break;
-      }
-    }
-  }
+		while (cur > 0) {
+			const parent = Math.floor((cur - 1) / 2);
+			if (this.heap[cur] > this.heap[parent]) {
+				[this.heap[cur], this.heap[parent]] = [
+					this.heap[parent],
+					this.heap[cur]
+				];
+				cur = parent;
+			} else {
+				break;
+			}
+		}
+	}
 }
 
 // Example usage
@@ -106,55 +106,55 @@ console.log(maxHeap.heap); // Output: [10, 5, 3]
 
 ```javascript
 class MaxHeap {
-  // ...（之前的代码）
+	// ...（之前的代码）
 
-  extractMax() {
-    if (this.heap.length === 0) {
-      return null;
-    }
+	extractMax() {
+		if (this.heap.length === 0) {
+			return null;
+		}
 
-    const max = this.heap[0];
-    const last = this.heap.pop();
+		const max = this.heap[0];
+		const last = this.heap.pop();
 
-    if (this.heap.length > 0) {
-      this.heap[0] = last;
-      this._heapifyDown();
-    }
+		if (this.heap.length > 0) {
+			this.heap[0] = last;
+			this._heapifyDown();
+		}
 
-    return max;
-  }
+		return max;
+	}
 
-  _heapifyDown() {
-    let cur = 0;
+	_heapifyDown() {
+		let cur = 0;
 
-    while (true) {
-      const leftChild = 2 * cur + 1;
-      const rightChild = 2 * cur + 2;
-      let next = null;
+		while (true) {
+			const leftChild = 2 * cur + 1;
+			const rightChild = 2 * cur + 2;
+			let next = null;
 
-      if (
-        leftChild < this.heap.length &&
-        this.heap[leftChild] > this.heap[cur]
-      ) {
-        next = leftChild;
-      }
+			if (
+				leftChild < this.heap.length &&
+				this.heap[leftChild] > this.heap[cur]
+			) {
+				next = leftChild;
+			}
 
-      if (
-        rightChild < this.heap.length &&
-        this.heap[rightChild] > this.heap[cur]
-      ) {
-        next =
-          this.heap[rightChild] > this.heap[leftChild] ? rightChild : leftChild;
-      }
+			if (
+				rightChild < this.heap.length &&
+				this.heap[rightChild] > this.heap[cur]
+			) {
+				next =
+					this.heap[rightChild] > this.heap[leftChild] ? rightChild : leftChild;
+			}
 
-      if (next !== null && this.heap[cur] < this.heap[next]) {
-        [this.heap[cur], this.heap[next]] = [this.heap[next], this.heap[cur]];
-        cur = next;
-      } else {
-        break;
-      }
-    }
-  }
+			if (next !== null && this.heap[cur] < this.heap[next]) {
+				[this.heap[cur], this.heap[next]] = [this.heap[next], this.heap[cur]];
+				cur = next;
+			} else {
+				break;
+			}
+		}
+	}
 }
 
 // Example usage
@@ -179,16 +179,16 @@ console.log(maxHeap.heap); // Output: [5, 3]
 
 ```javascript
 class MaxHeap {
-  // ...（之前的代码）
+	// ...（之前的代码）
 
-  buildHeap(arr) {
-    this.heap = arr;
-    const lastNonLeaf = Math.floor((this.heap.length - 2) / 2);
+	buildHeap(arr) {
+		this.heap = arr;
+		const lastNonLeaf = Math.floor((this.heap.length - 2) / 2);
 
-    for (let i = lastNonLeaf; i >= 0; i--) {
-      this._heapifyDown(i);
-    }
-  }
+		for (let i = lastNonLeaf; i >= 0; i--) {
+			this._heapifyDown(i);
+		}
+	}
 }
 
 // Example usage
@@ -216,11 +216,11 @@ console.log(maxHeap.heap); // Output: [10, 5, 8, 3, 4]
 
 ```javascript
 function buildHeap(arr) {
-  const lastNonLeaf = Math.floor((arr.length - 2) / 2);
+	const lastNonLeaf = Math.floor((arr.length - 2) / 2);
 
-  for (let i = lastNonLeaf; i >= 0; i--) {
-    heapifyDown(arr, i, arr.length);
-  }
+	for (let i = lastNonLeaf; i >= 0; i--) {
+		heapifyDown(arr, i, arr.length);
+	}
 }
 
 // Example usage
@@ -241,12 +241,12 @@ console.log(arrayToSort); // Output: [10, 5, 8, 3, 4]
 
 ```javascript
 function heapSort(arr) {
-  buildHeap(arr);
+	buildHeap(arr);
 
-  for (let i = arr.length - 1; i > 0; i--) {
-    [arr[0], arr[i]] = [arr[i], arr[0]];
-    heapifyDown(arr, 0, i);
-  }
+	for (let i = arr.length - 1; i > 0; i--) {
+		[arr[0], arr[i]] = [arr[i], arr[0]];
+		heapifyDown(arr, 0, i);
+	}
 }
 
 // Example usage
@@ -263,47 +263,47 @@ console.log(arrayToSort); // Output: [3, 4, 5, 8, 10]
 
 ```javascript
 class PriorityQueue {
-  constructor() {
-    this.heap = [];
-  }
+	constructor() {
+		this.heap = [];
+	}
 
-  enqueue(item) {
-    this.heap.push(item);
-    this._heapifyUp();
-  }
+	enqueue(item) {
+		this.heap.push(item);
+		this._heapifyUp();
+	}
 
-  dequeue() {
-    if (this.heap.length === 0) {
-      return null;
-    }
+	dequeue() {
+		if (this.heap.length === 0) {
+			return null;
+		}
 
-    const highestPriority = this.heap[0];
-    const last = this.heap.pop();
+		const highestPriority = this.heap[0];
+		const last = this.heap.pop();
 
-    if (this.heap.length > 0) {
-      this.heap[0] = last;
-      this._heapifyDown(0);
-    }
+		if (this.heap.length > 0) {
+			this.heap[0] = last;
+			this._heapifyDown(0);
+		}
 
-    return highestPriority;
-  }
+		return highestPriority;
+	}
 
-  _heapifyUp() {
-    // Similar to the previous MaxHeap example
-    // ...
-  }
+	_heapifyUp() {
+		// Similar to the previous MaxHeap example
+		// ...
+	}
 
-  _heapifyDown(index) {
-    // Similar to the previous MaxHeap example
-    // ...
-  }
+	_heapifyDown(index) {
+		// Similar to the previous MaxHeap example
+		// ...
+	}
 }
 
 // Example usage
 const priorityQueue = new PriorityQueue();
-priorityQueue.enqueue({ value: "Task A", priority: 2 });
-priorityQueue.enqueue({ value: "Task B", priority: 1 });
-priorityQueue.enqueue({ value: "Task C", priority: 3 });
+priorityQueue.enqueue({ value: 'Task A', priority: 2 });
+priorityQueue.enqueue({ value: 'Task B', priority: 1 });
+priorityQueue.enqueue({ value: 'Task C', priority: 3 });
 
 console.log(priorityQueue.dequeue()); // Output: { value: "Task C", priority: 3 }
 console.log(priorityQueue.dequeue()); // Output: { value: "Task A", priority: 2 }
@@ -360,59 +360,59 @@ console.log(priorityQueue.dequeue()); // Output: { value: "Task A", priority: 2 
 
 ```javascript
 class KthLargest {
-  // @param {number} k
-  // @param {number[]} nums
-  constructor(k, nums) {
-    this.k = k;
-    this.heap = [];
-    for (let i of nums) {
-      this.add(i);
-    }
-  }
-  // @param {number} val
-  // @return {number}
-  add(val) {
-    if (this.heap.length < this.k) {
-      this.heap.push(val);
-      this.heapifyUp(this.heap.length - 1);
-    } else if (this.heap[0] < val) {
-      this.heap[0] = val;
-      this.heapifyDown(0);
-    }
-    return this.heap[0];
-  }
+	// @param {number} k
+	// @param {number[]} nums
+	constructor(k, nums) {
+		this.k = k;
+		this.heap = [];
+		for (let i of nums) {
+			this.add(i);
+		}
+	}
+	// @param {number} val
+	// @return {number}
+	add(val) {
+		if (this.heap.length < this.k) {
+			this.heap.push(val);
+			this.heapifyUp(this.heap.length - 1);
+		} else if (this.heap[0] < val) {
+			this.heap[0] = val;
+			this.heapifyDown(0);
+		}
+		return this.heap[0];
+	}
 
-  heapifyUp(index) {
-    while (index > 0) {
-      const parent = Math.floor((index - 1) / 2);
-      if (this.heap[parent] > this.heap[index]) {
-        [this.heap[parent], this.heap[index]] = [
-          this.heap[index],
-          this.heap[parent],
-        ];
-        index = parent;
-      } else {
-        break;
-      }
-    }
-  }
+	heapifyUp(index) {
+		while (index > 0) {
+			const parent = Math.floor((index - 1) / 2);
+			if (this.heap[parent] > this.heap[index]) {
+				[this.heap[parent], this.heap[index]] = [
+					this.heap[index],
+					this.heap[parent]
+				];
+				index = parent;
+			} else {
+				break;
+			}
+		}
+	}
 
-  heapifyDown(index) {
-    const left = 2 * index + 1;
-    const right = 2 * index + 2;
-    let min = index;
+	heapifyDown(index) {
+		const left = 2 * index + 1;
+		const right = 2 * index + 2;
+		let min = index;
 
-    if (left < this.heap.length && this.heap[left] < this.heap[min]) {
-      min = left;
-    }
-    if (right < this.heap.length && this.heap[right] < this.heap[min]) {
-      min = right;
-    }
-    if (min !== index) {
-      [this.heap[min], this.heap[index]] = [this.heap[index], this.heap[min]];
-      this.heapifyDown(min);
-    }
-  }
+		if (left < this.heap.length && this.heap[left] < this.heap[min]) {
+			min = left;
+		}
+		if (right < this.heap.length && this.heap[right] < this.heap[min]) {
+			min = right;
+		}
+		if (min !== index) {
+			[this.heap[min], this.heap[index]] = [this.heap[index], this.heap[min]];
+			this.heapifyDown(min);
+		}
+	}
 }
 ```
 
@@ -420,50 +420,134 @@ class KthLargest {
 
 ### 求中位数
 
+:::: md-demo 相关题目
+
+#### 📌 [295. 数据流的中位数 - LeetCode](https://leetcode.com/problems/find-median-from-data-stream/)
+
+#### 💻 **题目大意**
+
+中位数是有序整数列表中的中间值。如果列表的大小是偶数，则没有中间值，中位数是两个中间值的平均值。
+
+- 例如 `arr = [2,3,4]` 的中位数是 `3` 。
+- 例如 `arr = [2,3]` 的中位数是 `(2 + 3) / 2 = 2.5` 。
+
+实现 `MedianFinder` 类:
+
+- `MedianFinder()` 初始化 `MedianFinder` 对象。
+
+- `void addNum(int num)` 将数据流中的整数 `num` 添加到数据结构中。
+
+- `double findMedian()` 返回到目前为止所有元素的中位数。与实际答案相差 `10^-5` 以内的答案将被接受。
+
+#### 💡 **解题思路**
+
+可以使用两个堆来解决问题。
+
+- 初始化一个小顶堆 `small` 和一个大顶堆 `large` 来存储数据；
+- 求中位数：
+  - 当两个堆的长度一样时，两个堆顶的平均数就是中位数；
+  - 当两个堆的长度不一样时，更长的那个堆的堆顶就是中位数；
+- 添加数据：
+  - 如果小顶堆 `small` 的数据比大顶堆 `large` 的数据多，那么将数据添加到 `small` 中，再将 `small` 的堆顶（也即最小值）推出，推入到 `large` 中，如此便可以保证 `small` 中的数据都大于 `large` 中的数；
+  - 反之，如果小顶堆 `small` 的数据比大顶堆 `large` 的数据少，那么将数据添加到 `large` 中，再将 `large` 的堆顶（也即最大值）推出，推入到 `small` 中，如此便可以保证 `small` 中的数据都大于 `large` 中的数；
+
+#### 💎 **代码**
+
+```javascript
+var MedianFinder = function () {
+	// 小顶堆
+	this.small = new MinPriorityQueue();
+	// 大顶堆
+	this.large = new MaxPriorityQueue();
+};
+
+/**
+ * @param {number} num
+ * @return {void}
+ */
+MedianFinder.prototype.addNum = function (num) {
+	if (this.small.size() >= this.large.size()) {
+		this.small.insert(num);
+		this.large.insert(this.small.pop());
+	} else {
+		this.large.insert(num);
+		this.small.insert(this.large.pop());
+	}
+};
+
+/**
+ * @return {number}
+ */
+MedianFinder.prototype.findMedian = function () {
+	const lenSmall = this.small.size(),
+		lenLarge = this.large.size();
+
+	// 如果元素不一样多，多的那个堆的堆顶元素就是中位数
+	if (lenSmall > lenLarge) {
+		return this.small.heap[0];
+	} else if (lenSmall < lenLarge) {
+		return this.large.heap[0];
+	}
+
+	// 如果元素一样多，两个堆堆顶元素的平均数是中位数
+	return (this.small.heap[0] + this.large.heap[0]) / 2;
+};
+
+class MaxPriorityQueue {
+	// ...
+}
+
+class MinPriorityQueue {
+	// ...
+}
+```
+
+::::
+
 ### Dijkstra 算法
 
 Dijkstra 算法是一种用于计算图中最短路径的贪心算法。在算法的实现中，使用了基于最小堆的优先队列来高效地选择下一个要探索的节点。
 
 ```javascript
 function dijkstra(graph, start) {
-  const distances = {};
-  const priorityQueue = new PriorityQueue();
+	const distances = {};
+	const priorityQueue = new PriorityQueue();
 
-  // Initialize distances and enqueue the start node
-  for (const vertex in graph) {
-    distances[vertex] = Infinity;
-  }
-  distances[start] = 0;
-  priorityQueue.enqueue({ node: start, distance: 0 });
+	// Initialize distances and enqueue the start node
+	for (const vertex in graph) {
+		distances[vertex] = Infinity;
+	}
+	distances[start] = 0;
+	priorityQueue.enqueue({ node: start, distance: 0 });
 
-  while (priorityQueue.heap.length > 0) {
-    const { node, distance } = priorityQueue.dequeue();
+	while (priorityQueue.heap.length > 0) {
+		const { node, distance } = priorityQueue.dequeue();
 
-    if (distance > distances[node]) {
-      continue;
-    }
+		if (distance > distances[node]) {
+			continue;
+		}
 
-    for (const neighbor in graph[node]) {
-      const newDistance = distance + graph[node][neighbor];
-      if (newDistance < distances[neighbor]) {
-        distances[neighbor] = newDistance;
-        priorityQueue.enqueue({ node: neighbor, distance: newDistance });
-      }
-    }
-  }
+		for (const neighbor in graph[node]) {
+			const newDistance = distance + graph[node][neighbor];
+			if (newDistance < distances[neighbor]) {
+				distances[neighbor] = newDistance;
+				priorityQueue.enqueue({ node: neighbor, distance: newDistance });
+			}
+		}
+	}
 
-  return distances;
+	return distances;
 }
 
 // Example usage
 const weightedGraph = {
-  A: { B: 1, C: 4 },
-  B: { A: 1, C: 2, D: 5 },
-  C: { A: 4, B: 2, D: 1 },
-  D: { B: 5, C: 1 },
+	A: { B: 1, C: 4 },
+	B: { A: 1, C: 2, D: 5 },
+	C: { A: 4, B: 2, D: 1 },
+	D: { B: 5, C: 1 }
 };
 
-console.log(dijkstra(weightedGraph, "A"));
+console.log(dijkstra(weightedGraph, 'A'));
 // Output: { A: 0, B: 1, C: 3, D: 4 }
 ```
 

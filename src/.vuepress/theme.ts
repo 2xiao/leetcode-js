@@ -80,7 +80,6 @@ export default hopeTheme(
 
 		blog: {
 			medias: {
-				Twitter: 'https://twitter.com/xiaoxiaoinus',
 				GitHub: 'https://github.com/2xiao',
 				BiliBili: 'https://space.bilibili.com/497200280',
 				Linkedin: 'https://www.linkedin.com/in/wuxiaoxiaojs/'
