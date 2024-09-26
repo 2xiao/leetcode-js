@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 356 道
+已完成 358 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -271,6 +271,7 @@
 | 0712 | [两个字符串的最小ASCII删除和](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0712) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 0714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0714) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 0724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0724) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
+| 0729 | [我的日程安排表 I](https://leetcode.com/problems/my-calendar-i/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0729) |  [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0739 | [每日温度](https://leetcode.com/problems/daily-temperatures/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 | 0772 | [基本计算器 III](https://leetcode.com/problems/basic-calculator-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0772) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0783 | [二叉搜索树节点最小距离](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0783) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#15bd66>Easy</font> |
@@ -281,6 +282,7 @@
 | 0931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0931) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 0945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0945) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0946) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
+| 0954 | [二倍数对数组](https://leetcode.com/problems/array-of-doubled-pairs/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0954) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0958) |  [`树`](/leetcode/outline/tag/tree.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0973) |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/mathematics.md) `4+` | <font color=#ffb800>Medium</font> |
 | 0986 | [区间列表的交集](https://leetcode.com/problems/interval-list-intersections/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0986) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
