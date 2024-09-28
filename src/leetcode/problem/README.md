@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 359 道
+已完成 361 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -174,6 +174,7 @@
 | 0224 | [基本计算器](https://leetcode.com/problems/basic-calculator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0224) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/mathematics.md) `1+` | <font color=#ff334b>Hard</font> |
 | 0225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0225) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
 | 0226 | [翻转二叉树](https://leetcode.com/problems/invert-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0226) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
+| 0227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0227) |  [`栈`](/leetcode/outline/tag/stack.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 0228 | [汇总区间](https://leetcode.com/problems/summary-ranges/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0228) |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 0230 | [二叉搜索树中第K小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0230) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0232) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
@@ -258,6 +259,7 @@
 | 0617 | [合并二叉树](https://leetcode.com/problems/merge-two-binary-trees/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0617) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0637 | [二叉树的层平均值](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0637) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
+| 0641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0641) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0654) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0682 | [棒球比赛](https://leetcode.com/problems/baseball-game/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
