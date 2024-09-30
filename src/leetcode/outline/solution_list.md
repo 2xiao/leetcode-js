@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 364 道
+已完成 366 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -185,6 +185,7 @@
 | 0236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0236) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 0237 | [删除链表中的节点](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0237) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 0238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0238) |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0239) |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0240 | [搜索二维矩阵 II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0240) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0242) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 0257 | [二叉树的所有路径](https://leetcode.com/problems/binary-tree-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0257) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#15bd66>Easy</font> |
@@ -302,6 +303,7 @@
 | 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1190) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1288 | [删除被覆盖区间](https://leetcode.com/problems/remove-covered-intervals/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1288) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 1312 | [让字符串成为回文串的最少插入次数](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1312) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 1381 | [设计一个支持增量操作的栈](https://leetcode.com/problems/design-a-stack-with-increment-operation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1381) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#15bd66>Easy</font> |

@@ -439,7 +439,7 @@ headerDepth: 0
 | 0069 | [x 的平方根](https://leetcode.com/problems/sqrtx/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0069) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 15 |
 | 0094 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0094) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Easy</font> | 14 |
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1143) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 14 |
-| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 14 |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0239) |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 14 |
 | 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`快速选择`](/leetcode/outline/tag/quick-select.md) `2+` | <font color=#15bd66>Easy</font> | 13 |
 
 

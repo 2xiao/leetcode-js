@@ -82,7 +82,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0347) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> | 25 |
-| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 98 |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0239) |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 98 |
 | 0295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0295) |  [`设计`](/leetcode/outline/tag/design.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`数据流`](/leetcode/outline/tag/data-streams.md) `2+` | <font color=#ff334b>Hard</font> | 26 |
 | 0023 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0023) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> | 173 |
 
@@ -576,7 +576,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 98 |
+| 0239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0239) |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 98 |
 
 
 * 不定长度窗口
