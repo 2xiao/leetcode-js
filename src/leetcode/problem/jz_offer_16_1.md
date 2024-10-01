@@ -42,7 +42,10 @@
 
 用递归的方式，不断的将 `n` 二分下去，注意 `n` 的正负、奇偶。
 
-时间复杂度 O(log n)，空间复杂度 O(1)。
+#### 复杂度分析
+
+- **时间复杂度**: `O(log n)`，二分法。
+- **空间复杂度**: `O(1)`。
 
 ## 代码
 
@@ -53,17 +56,17 @@
  * @return {number}
  */
 var myPow = function (x, n) {
-  if (n == 0) return 1;
-  if (n == 1) return x;
-  if (n < 0) {
-    x = 1 / x;
-    n = -n;
-  }
-  let temp = myPow(x, Math.floor(n / 2));
-  if (n % 2 == 1) {
-    return temp * temp * x;
-  } else {
-    return temp * temp;
-  }
+	if (n == 0) return 1;
+	if (n == 1) return x;
+	if (n < 0) {
+		x = 1 / x;
+		n = -n;
+	}
+	let temp = myPow(x, Math.floor(n / 2));
+	if (n % 2 == 1) {
+		return temp * temp * x;
+	} else {
+		return temp * temp;
+	}
 };
 ```

@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 366 道
+已完成 367 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -307,6 +307,7 @@
 | 1441 | [用栈操作构建数组](https://leetcode.com/problems/build-an-array-with-stack-operations/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1441) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1472 | [设计浏览器历史记录](https://leetcode.com/problems/design-browser-history/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1472) |  [`栈`](/leetcode/outline/tag/stack.md) [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1475 | [商品折扣后的最终价格](https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1475) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#15bd66>Easy</font> |
+| 1497 | [检查数组对是否可以被 k 整除](https://leetcode.com/problems/check-if-array-pairs-are-divisible-by-k/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1497) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数`](/leetcode/outline/tag/counting.md) | <font color=#ffb800>Medium</font> |
 | 1522 | [N 叉树的直径](https://leetcode.com/problems/diameter-of-n-ary-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/1522) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) | <font color=#ffb800>Medium</font> |
 | 2196 | [根据描述创建二叉树](https://leetcode.com/problems/create-binary-tree-from-descriptions/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/2196) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `3+` | <font color=#ffb800>Medium</font> |
 | 2259 | [移除指定数字得到的最大结果](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/2259) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) [`枚举`](/leetcode/outline/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
