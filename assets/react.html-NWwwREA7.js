@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,b as r}from"./app-8tKF5c1t.js";const o={},s=e("h2",{id:"渲染列表时-key-的作用是什么",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#渲染列表时-key-的作用是什么","aria-hidden":"true"},"#"),r(" 渲染列表时 key 的作用是什么")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(o,[["render",_],["__file","react.html.vue"]]);export{l as default};
