@@ -71,5 +71,5 @@
 | 0925 | [长按键入](https://leetcode.com/problems/long-pressed-name/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 0844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0844) |  [`栈`](/leetcode/outline/tag/stack.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
+| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0415) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 

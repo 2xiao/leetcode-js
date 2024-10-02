@@ -116,8 +116,8 @@ headerDepth: 0
 | 0005 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) |  [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 222 |
 | 0003 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> | 642 |
 | 0344 | [反转字符串](https://leetcode.com/problems/reverse-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 17 |
-| 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 17 |
-| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> | 166 |
+| 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0557) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 17 |
+| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0415) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> | 166 |
 | 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0151) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 81 |
 | 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> | 82 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 58 |
@@ -550,7 +550,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> | 166 |
+| 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0415) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> | 166 |
 
 
 * 链表双指针

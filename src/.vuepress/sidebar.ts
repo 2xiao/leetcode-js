@@ -304,6 +304,7 @@ export default sidebar({
           text: "0400-0499",
           collapsible: true,
           children: [
+            "0415",
             "0416",
             "0426",
             "0430",
@@ -335,6 +336,7 @@ export default sidebar({
             "0518",
             "0530",
             "0543",
+            "0557",
             "0559",
             "0567",
             "0572",
@@ -433,6 +435,7 @@ export default sidebar({
           collapsible: true,
           children: [
             "1312",
+            "1331",
             "1381"
           ],
         },
