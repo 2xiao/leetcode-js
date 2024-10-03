@@ -119,7 +119,7 @@ headerDepth: 0
 | 0557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0557) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 17 |
 | 0415 | [字符串相加](https://leetcode.com/problems/add-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0415) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> | 166 |
 | 0151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0151) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 81 |
-| 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> | 82 |
+| 0043 | [字符串相乘](https://leetcode.com/problems/multiply-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0043) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> | 82 |
 | 0014 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 58 |
 
 
@@ -128,7 +128,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern/) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> | 18 |
+| 0459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0459) |  [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> | 18 |
 
 
 * 字典树
@@ -137,7 +137,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 0208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0208) |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> | 27 |
-| 0440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) |  |  [`字典树`](/leetcode/outline/tag/trie.md) | <font color=#ff334b>Hard</font> | 33 |
+| 0440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0440) |  [`字典树`](/leetcode/outline/tag/trie.md) | <font color=#ff334b>Hard</font> | 33 |
 
 
 ## 树
