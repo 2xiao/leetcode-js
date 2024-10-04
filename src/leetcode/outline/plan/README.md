@@ -1,6 +1,5 @@
 # 1.4 学习计划
 
-<html>
 <div class="plan-box box1">
   <div class='img-box'>
     <a href="./top_150_list.html">
@@ -86,4 +85,3 @@
   }
 }
 </style>
-</html>

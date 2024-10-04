@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 374 道
+已完成 375 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -322,6 +322,7 @@
 | 2261 | [含最多 K 个可整除元素的子数组](https://leetcode.com/problems/k-divisible-elements-subarrays/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/2261) |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `3+` | <font color=#ffb800>Medium</font> |
 | 2262 | [字符串的总引力](https://leetcode.com/problems/total-appeal-of-a-string/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/2262) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/2416) |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
+| 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/2491) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 04 | [二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_04_1) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 05 | [替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_05_1) |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
