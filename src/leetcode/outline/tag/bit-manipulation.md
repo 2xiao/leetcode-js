@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0029 | [两数相除](https://leetcode.com/problems/divide-two-integers/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
+| 0029 | [两数相除](https://leetcode.com/problems/divide-two-integers/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0029) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) | <font color=#ffb800>Medium</font> |
 | 0067 | [二进制求和](https://leetcode.com/problems/add-binary/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0067) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 0078 | [子集](https://leetcode.com/problems/subsets/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0078) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 0089 | [格雷编码](https://leetcode.com/problems/gray-code/) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |

@@ -640,7 +640,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 0031 | [下一个排列](https://leetcode.com/problems/next-permutation/) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> | 111 |
+| 0031 | [下一个排列](https://leetcode.com/problems/next-permutation/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0031) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> | 111 |
 | 0556 | [下一个更大元素 III](https://leetcode.com/problems/next-greater-element-iii/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 19 |
 | 0470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> | 68 |
 
