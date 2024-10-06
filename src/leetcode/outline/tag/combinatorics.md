@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 0062 | [不同路径](https://leetcode.com/problems/unique-paths/) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
 | 0458 | [可怜的小猪](https://leetcode.com/problems/poor-pigs/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |
 | 0920 | [播放列表的数量](https://leetcode.com/problems/number-of-music-playlists/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |
 | 1359 | [有效的快递序列数目](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options/) |  |  [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |

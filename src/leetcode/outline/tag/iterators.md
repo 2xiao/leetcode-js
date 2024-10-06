@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0173) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator/) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0173) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0251 | [展开二维向量](https://leetcode.com/problems/flatten-2d-vector/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0281 | [锯齿迭代器](https://leetcode.com/problems/zigzag-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 0284 | [顶端迭代器](https://leetcode.com/problems/peeking-iterator/) |  |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`迭代器`](/leetcode/outline/tag/iterators.md) | <font color=#ffb800>Medium</font> |

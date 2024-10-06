@@ -20,7 +20,7 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/) | [JS](https://2xiao.github.io/leetcode-js/leetcode/problem/0399) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
+| 0399 | [除法求值](https://leetcode.com/problems/evaluate-division/) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0399) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/disjoint-set-union.md) `3+` | <font color=#ffb800>Medium</font> |
 | 0499 | [迷宫 III](https://leetcode.com/problems/the-maze-iii/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `2+` | <font color=#ff334b>Hard</font> |
 | 0505 | [迷宫 II](https://leetcode.com/problems/the-maze-ii/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `2+` | <font color=#ffb800>Medium</font> |
 | 0743 | [网络延迟时间](https://leetcode.com/problems/network-delay-time/) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `2+` | <font color=#ffb800>Medium</font> |
