@@ -14,7 +14,7 @@ import argparse,sys
 import threading
 import pandas as pd
 import const
-
+import utils
 
 db_path = 'leetcode.db'
 user_agent = r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
@@ -46,9 +46,9 @@ class insetQuestionThread(threading.Thread):
                 session = requests.Session()
                 headers = {'User-Agent': user_agent, 'Connection': 
                     'keep-alive', 'Content-Type': 'application/json',
-                    'Referer': 'https://leetcode.com/problems/' + self.title_slug}
+                    'Referer': 'https://leetcode.cn/problems/' + self.title_slug}
 
-                url = "https://leetcode.com/graphql"
+                url = "https://leetcode.cn/graphql"
                 params = {'operationName': "getQuestionDetail",
                     'variables': {'titleSlug': self.title_slug},
                     'query': '''query getQuestionDetail($titleSlug: String!) {
@@ -63,9 +63,12 @@ class insetQuestionThread(threading.Thread):
                             similarQuestions
                             categoryTitle
                             topicTags {
-                            name
-                            slug
-                        }
+                                name
+                                slug
+                                translatedName
+                            }
+                            translatedTitle
+                            translatedContent
                     }
                 }'''
                 }
@@ -74,14 +77,18 @@ class insetQuestionThread(threading.Thread):
                     
                 question_detail = ()
                 resp = session.post(url, data = json_data, headers = headers, timeout = 10)
+                resp.encoding = 'utf8'
                 content = resp.json()
                 questionId = content['data']['question']['questionId']
-                if questionId == '1':
-                    print(content)
+                topicTags = content['data']['question']['topicTags']
 
                 tags = []
-                for tag in content['data']['question']['topicTags']:
-                    tags.append(tag['name'])
+                if topicTags != None:
+                    for tag in topicTags:
+                        tag_str = tag['name'] + '|' + tag['slug'] + '|'
+                        if tag['translatedName'] != None:
+                            tag_str = tag_str + tag['translatedName']
+                        tags.append(tag_str)
                 
                 if content['data']['question']['content'] != None:
                     question_detail = (questionId, 
@@ -91,12 +98,12 @@ class insetQuestionThread(threading.Thread):
                                 content['data']['question']['difficulty'],
                                 content['data']['question']['content'],
                                 content['data']['question']['similarQuestions'],
+                                content['data']['question']['translatedTitle'],
+                                content['data']['question']['translatedContent'],
+                                ','.join(tags),
                                 self.status)
                     threadLock.acquire()
-                    cursor.execute('INSERT INTO question (id, frontend_id, title, slug, difficulty, content, similar, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?)', question_detail)
-                    for tag in tags:
-                        question_tag = (questionId, tag)
-                        cursor.execute('INSERT INTO question_tag (question_id, tag) VALUES (?, ?)', question_tag)
+                    cursor.execute('INSERT INTO question (id, frontend_id, title, slug, difficulty, content, similar, title_cn, content_cn, tags, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', question_detail)
                     conn.commit()
                     print("insert question [%s] success" %(self.title_slug))
                     threadLock.release()
@@ -115,7 +122,7 @@ class LeetcodeCrawler():
     
     # 获取到 token
     def get_csrftoken(self):
-        url = 'https://leetcode.com'
+        url = 'https://leetcode.cn'
         cookies = self.session.get(url).cookies
         for cookie in cookies:
             if cookie.name == 'csrftoken':
@@ -124,7 +131,7 @@ class LeetcodeCrawler():
 
     # 登陆 leetcode 账号
     def login(self, username, password):
-        url = "https://leetcode.com/accounts/login"
+        url = "https://leetcode.cn/accounts/login"
         
         params_data = {
             'csrfmiddlewaretoken': self.csrftoken,
@@ -132,8 +139,8 @@ class LeetcodeCrawler():
             'password':password,
             'next': 'problems'
         }
-        headers = {'User-Agent': user_agent, 'Connection': 'keep-alive', 'Referer': 'https://leetcode.com/accounts/login/',
-        "origin": "https://leetcode.com"}
+        headers = {'User-Agent': user_agent, 'Connection': 'keep-alive', 'Referer': 'https://leetcode.cn/accounts/login/',
+        "origin": "https://leetcode.cn"}
         m = MultipartEncoder(params_data)   
 
         headers['Content-Type'] = m.content_type
@@ -143,7 +150,7 @@ class LeetcodeCrawler():
 
     def get_problems(self, filters):
     
-        url = "https://leetcode.com/api/problems/all/"
+        url = "https://leetcode.cn/api/problems/all/"
 
         headers = {'User-Agent': user_agent, 'Connection': 'keep-alive'}
         resp = self.session.get(url, headers = headers, timeout = 10)
@@ -152,7 +159,6 @@ class LeetcodeCrawler():
 
         question_update_list = []
         threads = []
-        # print(question_list)
         cursor = self.conn.cursor()
 
         for question in question_list['stat_status_pairs']:
@@ -191,7 +197,7 @@ class LeetcodeCrawler():
                 while True:  
                     #判断正在运行的线程数量,如果小于5则退出while循环,  
                     #进入for循环启动新的进程.否则就一直在while循环进入死循环  
-                    if(len(threading.enumerate()) < 60):  
+                    if(len(threading.enumerate()) < 7):  
                         break  
             
                 # 添加线程到线程列表
@@ -221,6 +227,9 @@ class LeetcodeCrawler():
                     difficulty         CHAR(10)    NOT NULL,
                     content            TEXT        NOT NULL,
                     similar            TEXT        NOT NULL,
+                    title_cn           CHAR(50)    NOT NULL,
+                    content_cn         TEXT        NOT NULL,
+                    tags               TEXT        NOT NULL,
                     status             CHAR(10));''')
         
         query_table_exists = "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name = 'last_ac_submission_record';"
@@ -234,13 +243,6 @@ class LeetcodeCrawler():
                     code               TEXT,
                     runtime            CHAR(10));''')
 
-        query_table_exists = "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name = 'question_tag';"
-        cursor.execute(query_table_exists)
-        if cursor.fetchone()[0] == 0:
-            cursor.execute('''CREATE TABLE question_tag
-                    (question_id      INT       NOT NULL,
-                    tag      CHAR(30)    NOT NULL);''')
-
         cursor.close()
 
     def generate_questions_markdown(self, path, filters):
@@ -251,68 +253,46 @@ class LeetcodeCrawler():
         for row in cursor:
             question_detail = {
                 'id': row[0],
-                'frontedId': row[1],
-                'title': row[2],
                 'slug': row[3],
                 'difficulty': row[4],
                 'content': row[5],
                 'similar': row[6],
-                'status': row[7]
+                'contentCN': row[8],
+                'tags': row[9],
+                'status': row[10],
+                'fileName': utils.getFileName(row[1], row[3]),
+                'catalog': utils.getCatalog(row[1], row[3]),
+                'link': utils.getLink(row[1], row[3]),
+                'frontedId': utils.getFrontedId(row[1], row[3]),
+                'title': utils.getTitle(row[2], row[3]),
+                'titleCN': utils.getTitle(row[7], row[3]),
             }  
 
             if not self.filter_question(question_detail, filters):
                 continue
-            tags = ''
-            tag_cursor = self.conn.cursor()
-            tag_cursor.execute('SELECT tag FROM question_tag WHERE question_id = ?', (row[0],))     
-            tag_list = tag_cursor.fetchall()
-
-            for tag in tag_list:
-                tags += tag[0] + ', '
-        
-            if len(tags) > 2:
-                tags = tags[:-2]
-            question_detail['tags'] = tags
             
             has_get_code = filters.__contains__('code')
             self.generate_question_markdown(question_detail, path, has_get_code)
         cursor.close()
 
     def generate_questions_list(self):
-        def getCatalog(id):
-            cata = (int(id) // 100) * 100
-            return "{:0>4d}-{:0>4d}".format(cata, cata + 99)
-
-        df = pd.read_csv("leetcode-problems.csv")
+        
+        
         file_name = 'problem-list.csv'
         cursor = self.conn.cursor()
         cursor.execute("SELECT * FROM question")
         res = []
         for row in cursor:
             question_detail = {
-                'id': row[0],
-                'frontedId': row[1],
-                'fileName': "{:0>4d}".format(row[1]),
-                'catalog': getCatalog(row[1]),
-                'title': row[2],
-                'titleCN': row[2],
+                'frontedId': utils.getFrontedId(row[1], row[3]),
+                'fileName': utils.getFileName(row[1], row[3]),
+                'catalog': utils.getCatalog(row[1], row[3]),
+                'title': utils.getTitle(row[2], row[3]),
+                'titleCN': utils.getTitle(row[7], row[3]),
                 'slug': row[3],
+                'tags': row[9],
                 'difficulty': row[4],
             }
-
-            df_indexs = df[df['英文标题'] == row[3]].index.tolist()
-            if df_indexs:
-                question_detail['titleCN'] = df.loc[df_indexs[0], "标题末尾"]
-            
-            tags = ''
-            tag_cursor = self.conn.cursor()
-            tag_cursor.execute('SELECT tag FROM question_tag WHERE question_id = ?', (row[0],))     
-            tag_list = tag_cursor.fetchall()
-
-            for tag in tag_list:
-                tags += tag[0] + ';'
-        
-            question_detail['tags'] = tags
             res.append(question_detail)
 
 
@@ -335,186 +315,47 @@ class LeetcodeCrawler():
             if filters['status'] != question_detail['status']:
                 return False
             
-        tag_cursor = self.conn.cursor()
-        tag_cursor.execute('SELECT tag FROM question_tag WHERE question_id = ?', (question_detail['id'],))     
-        tag_list = tag_cursor.fetchall()
-        tag_cursor.close()
-        if filters.get('tags'):
-            tag_count = 0
-            for tag in tag_list:
-                if tag[0] in filters['tags']:
-                    tag_count += 1
-            if tag_count != len(filters['tags']):
-                return False
         return True
                 
 
-    def get_ac_question_submission(self, filters):
-        if not self.is_login:
-            return 
-        sql = "SELECT id,slug,difficulty,status FROM question WHERE status = 'ac';"
-        cursor = self.conn.cursor()
-        cursor.execute(sql)
-        results = cursor.fetchall()
-
-        threads = []
-
-        slug_list = []
-        for row in results:
-            question_detail = {
-                'id': row[0],
-                'slug': row[1],
-                'difficulty': row[2],
-                'status': row[3]
-            }  
-
-            if not self.filter_question(question_detail, filters):
-                continue
-            slug = question_detail['slug']
-            slug_list.append(question_detail['slug'])
-            IS_SUCCESS = False
-            while not IS_SUCCESS:
-                try:
-                    url = "https://leetcode.com/graphql"
-                    params = {'operationName': "Submissions",
-                        'variables':{"offset":0, "limit":20, "lastKey": '', "questionSlug": slug},
-                            'query': '''query Submissions($offset: Int!, $limit: Int!, $lastKey: String, $questionSlug: String!) {
-                                submissionList(offset: $offset, limit: $limit, lastKey: $lastKey, questionSlug: $questionSlug) {
-                                lastKey
-                                hasNext
-                                submissions {
-                                    id
-                                    statusDisplay
-                                    lang
-                                    runtime
-                                    timestamp
-                                    url
-                                    isPending
-                                    __typename
-                                }
-                                __typename
-                            }
-                        }'''
-                    }
-
-                    json_data = json.dumps(params).encode('utf8')
-
-                    headers = {'User-Agent': user_agent, 'Connection': 'keep-alive', 'Referer': 'https://leetcode.com/accounts/login/',
-                        "Content-Type": "application/json", 'x-csrftoken': self.csrftoken}  
-                    resp = self.session.post(url, data = json_data, headers = headers, timeout = 10)
-                    content = resp.json()
-                    for submission in content['data']['submissionList']['submissions']:
-                        if submission['statusDisplay'] == "Accepted":   
-                            cursor.execute("SELECT COUNT(*) FROM last_ac_submission_record WHERE id =" + str(submission['id']))
-                            if cursor.fetchone()[0] == 0:
-                                IS_GET_SUBMISSION_SUCCESS = False
-                                while not IS_GET_SUBMISSION_SUCCESS:
-                                    code_content = self.session.get("https://leetcode.com" + submission['url'], headers = headers, timeout = 10)
-
-                                    pattern = re.compile(
-                                        r'submissionCode: \'(?P<code>.*)\',\n  editCodeUrl', re.S
-                                    )
-                                    m1 = pattern.search(code_content.text)
-                                    code = m1.groupdict()['code'] if m1 else None
-                                    if not code:
-                                        print('WARN: Can not get [{}] solution code'.format(slug))
-                                        continue
-                                    IS_GET_SUBMISSION_SUCCESS = True
-                                                
-                                submission_detail = (submission['id'], slug, submission['timestamp'], submission['lang'], submission['runtime'], code)
-                                cursor.execute("INSERT INTO last_ac_submission_record (id, question_slug, timestamp, language, runtime, code) VALUES(?, ?, ?, ?, ?, ?)", submission_detail)
-                                print("insert submission[%s] success" % (submission['id']))
-                                self.conn.commit()                         
-                            IS_SUCCESS = True
-                            break   
-                except (requests.exceptions.Timeout,requests.exceptions.ConnectionError) as error:
-                    print(str(error))
-                finally:
-                    pass            
-        cursor.close()
-
     def generate_question_markdown(self, question, path, has_get_code):
-        df = pd.read_csv("problem-list.csv", dtype={'fileName': str})
-
-        text_path = os.path.join(path, "{:0>4d}.md".format(question['frontedId']))
+        text_path = os.path.join(path, "{}.md".format(question['fileName']))
         with open(text_path, 'w', encoding='utf-8') as f:
-            f.write("# [{}. {}](".format(question['frontedId'], question['title']) + "https://leetcode.com/problems/{}/)\n".format(question['slug']))
+            f.write("# [{}. {}]({})".format(question['frontedId'], question['titleCN'], question['link']))
+            
+            problem_difficulty = utils.format_difficulty(question['difficulty'], True)
+            problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + question['link'] + ")\n\n"
+            problem_label = ""
+            if len(question['tags']) > 0:
+                problem_label = "&emsp; 🔖&ensp;"
+                for str in question['tags'].split(','):
+                    label = str.split('|')
+                    problem_label += " [`" + label[2] + "`](" + const.tag_absolute_path + label[1] + ".md)"
+
+            f.write("\n\n" + problem_difficulty + problem_label + problem_link)
+            
             f.write("\n## 题目\n\n")
             text = question['content']
-            similar = json.loads(question['similar'])
-
-            content = html2text.html2text(text).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ')
+            content = html2text.html2text(text).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
             f.write(content)
-            
-            f.write("\n## 题目大意\n\n## 解题思路\n\n#### 复杂度分析\n\n- **时间复杂度**：`O()`，\n- **空间复杂度**：`O()`，\n\n## 代码\n\n```javascript\n\n```\n\n## 相关题目\n\n:::: md-demo 相关题目\n")
-            
-            for similar_item in similar:
-                df_indexs = df[df['slug'] == similar_item['titleSlug']].index.tolist()
-                if not df_indexs:
-                    problem_link = "- [🔒 {}](https://leetcode.com/problems/{})".format(similar_item['title'], similar_item['titleSlug'])
-                else:
-                    problem_path = os.path.join(const.problem_path, df.loc[df_indexs[0], "fileName"] + ".md")
-                    if os.path.exists(problem_path):
-                        problem_link = "- [{}. {}](./{}.md)".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], df.loc[df_indexs[0], "fileName"])
-                    else:
-                        problem_link = "- [{}. {}](https://leetcode.com/problems/{})".format(df.loc[df_indexs[0], "frontedId"], df.loc[df_indexs[0], "titleCN"], similar_item['titleSlug'])
-                
-                f.write(problem_link + '\n')
-            f.write("\n::::\n")
 
-            if self.is_login and has_get_code:
-                sql = "SELECT code, language FROM last_ac_submission_record WHERE question_slug = ? ORDER BY timestamp"
-                cursor = self.conn.cursor()
-                cursor.execute(sql, (question['slug'],))
-                submission = cursor.fetchone()
-                cursor.close()
+            f.write("\n## 题目大意\n\n")
+            textCN = question['contentCN']
+            contentCN = html2text.html2text(textCN).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
+            f.write(contentCN)
 
-                if submission != None:
-                    f.write("\n``` %s\n" %(submission[1]))
-                    f.write(submission[0].encode('utf-8').decode('unicode_escape'))
-                    f.write("\n```\n")
+            f.write("\n## 解题思路\n\n#### 复杂度分析\n\n- **时间复杂度**：`O()`，\n- **空间复杂度**：`O()`，\n\n## 代码\n\n```javascript\n\n```")
+            
+            similar = json.loads(question['similar'])
+            if len(similar) > 0:
+                f.write("\n\n## 相关题目\n\n:::: md-demo 相关题目\n")
+                for similar_item in similar:
+                    problem_link = "- [{}](https://leetcode.com/problems/{})".format(similar_item['translatedTitle'], similar_item['titleSlug'])
+                    f.write(problem_link + '\n')
+                f.write("\n::::\n")
 
             
-            
-    def generate_questions_submission(self, path, filters):  
-        if not self.is_login:
-            return 
-        
-        sql = """
-            SELECT l.question_slug, l.code,l.language, q.frontend_id,max(l.timestamp) FROM last_ac_submission_record as l,question as q 
-            WHERE l.question_slug == q.slug and q.status = 'ac' GROUP BY l.question_slug
-        """
-        cursor = self.conn.cursor()
-        cursor.execute(sql)
-
-        filter_cursor = self.conn.cursor()
-        for submission in cursor:
-            filter_cursor.execute("SELECT id,slug,difficulty,status FROM question WHERE slug = ?", (submission[0],))
-            result = filter_cursor.fetchone()
-            question_detail = {
-                'id': result[0],
-                'slug': result[1],
-                'difficulty': result[2],
-                'status': result[3]
-            } 
-            if not self.filter_question(question_detail, filters):
-                continue
-            self.generate_question_submission(path, submission)
-
-        cursor.close()
-        filter_cursor.close()
-
-    
-    def generate_question_submission(self, path, submission):  
-        if not os.path.isdir(path):
-            os.mkdir(path)
-
-        text_path = os.path.join(path, "{:0>3d}-{}".format(submission[3], submission[0]))
-        
-        if not os.path.isdir(text_path):
-            os.mkdir(text_path)   
-        with open(os.path.join(text_path, "solution.class"), 'w', encoding='utf-8') as f:
-            f.write(submission[1].encode('utf-8').decode('unicode_escape'))
+ 
 
     def close_db(self):
         self.conn.close()
@@ -597,11 +438,8 @@ if __name__=='__main__':
 
     test.connect_db(db_path)
     test.get_problems(filters)
-    # if argsDict.get('code'):
-    #     test.get_ac_question_submission(filters)
-    #     test.generate_questions_submission(args.output, filters)
       
-    # test.generate_questions_list()
+    test.generate_questions_list()
     test.generate_questions_markdown(args.output, filters)
    
     test.close_db()

@@ -24,4 +24,4 @@ gen.gen_config_js()
 gen.gen_tag_list()
 
 # 给题目详解页面自动添加标签和难度
-gen.gen_tag_and_difficulty()
+# gen.gen_tag_and_difficulty()

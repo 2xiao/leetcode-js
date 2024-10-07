@@ -54,13 +54,13 @@ def gen_markdown_table(frame, need_sort):
 def format_difficulty(difficulty: str, show_emoji: bool = False):
     font = ""
     emoji = ""
-    if difficulty == "困难":
+    if difficulty == "困难" or difficulty == "Hard":
         emoji = "🔴"
         font = "<font color=#ff334b>Hard</font>"
-    elif difficulty == "中等":
+    elif difficulty == "中等" or difficulty == "Medium":
         emoji = "🟠"
         font = "<font color=#ffb800>Medium</font>"
-    elif difficulty == "简单":
+    elif difficulty == "简单" or difficulty == "Easy":
         emoji = "🟢"
         font = "<font color=#15bd66>Easy</font>"
     if show_emoji:
@@ -174,3 +174,47 @@ def append_config(file: str, config: str, delim: str = '// AUTO_GEN_CONFIG_START
         old_config, end_content = old_config.split(end)
     content += delim + config + end + end_content
     Path(file).write_text(content, encoding='utf-8')
+
+
+def getCatalog(id, slug):
+    if str(id).find('面试题') != -1:
+        return "Interviews"
+    if len(str(id)) < 5:
+        cata = (int(id) // 100) * 100
+        return "{:0>4d}-{:0>4d}".format(cata, cata + 99)
+    if slug in const.offer_dict:
+        return "Offer"
+    if slug in const.offer2_dict:
+        return "Offer-II"
+    return 'other'
+
+def getFileName(id, slug):
+    if str(id).find('面试题') != -1:
+        return "i_" + id.split('面试题 ')[1]
+    if len(str(id)) < 5:
+        return "{:0>4d}".format(id)
+    if slug in const.offer_dict:
+        return const.offer_dict[slug].split(',')[1]
+    if slug in const.offer2_dict:
+        return const.offer2_dict[slug].split(',')[1]
+    return '_'.join(id.split(' '))
+
+def getFrontedId(id, slug):
+    if slug in const.offer_dict:
+        return const.offer_dict[slug].split(',')[0]
+    if slug in const.offer2_dict:
+        return const.offer2_dict[slug].split(',')[0]
+    return id
+
+def getTitle(title, slug):
+    if slug in const.offer_dict:
+        return const.offer_dict[slug].split(',')[2]
+    if slug in const.offer2_dict:
+        return const.offer2_dict[slug].split(',')[2]
+    return title
+
+
+def getLink(id, slug):
+    if len(str(id)) < 5:
+        return "https://leetcode.com/problems/{}".format(slug)
+    return "https://leetcode.cn/problems/{}".format(slug)
