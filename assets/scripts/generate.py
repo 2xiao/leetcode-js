@@ -6,9 +6,8 @@ import pandas as pd
 import const
 import utils
 
-def changeTitle():
+def changeSimilar():
     files = os.listdir(const.problem_path)
-    df = pd.read_csv("problem-list.csv")
     for file in files:
         # 判断是否是文件夹
         if ".md" not in file:
@@ -19,32 +18,18 @@ def changeTitle():
         file_path = os.path.join(const.problem_path, Path(file))
         content = Path(file_path).read_text(encoding='utf-8')
 
-        delim = ''
-        delim1 = "🟢"
-        delim2 = "🟠"
-        delim3 = "🔴"
-        if delim1 in content:
-            delim = delim1
-        if delim2 in content:
-            delim = delim2
-        if delim3 in content:
-            delim = delim3
-            
-        before, after = content.split(delim)
+        out_path = os.path.join('../output/', Path(file))
+        out_content = Path(out_path).read_text(encoding='utf-8')
 
-        df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
-
-        if not df_indexs:
-            print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
-            continue
-
-        row= df_indexs[0]
-        problem_id = df.loc[row, "frontedId"]
-        problem_title = df.loc[row, "titleCN"]
-        problem_slug = utils.getLink(problem_id, df.loc[row, "slug"])
+        delim = '## 相关题目'
         
-        newTitle = "# [{}. {}]({})\n\n".format(problem_id, problem_title, problem_slug)
-        text = newTitle + delim + after
+        if delim not in out_content or delim not in content:
+            continue
+            
+        _, after = out_content.split(delim)
+        before, _ = content.split(delim)
+
+        text = before + delim + after
         Path(file_path).write_text(text, encoding='utf-8')
 
 
