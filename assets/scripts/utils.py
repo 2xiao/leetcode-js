@@ -229,3 +229,7 @@ def getLink(id, slug):
     if len(str(id)) < 5:
         return "https://leetcode.com/problems/{}".format(slug)
     return "https://leetcode.cn/problems/{}".format(slug)
+
+def isAC(fileName):
+    file_path = os.path.join(const.problem_path, fileName + '.md')
+    return os.path.exists(file_path)

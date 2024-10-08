@@ -298,18 +298,22 @@ class LeetcodeCrawler():
         cursor.execute("SELECT * FROM question")
         res = []
         for row in cursor:
+
+            fileName = utils.getFileName(row[1], row[3])
+            status = utils.isAC(fileName)
+
             question_detail = {
                 'frontedId': utils.getFrontedId(row[1], row[3]),
-                'fileName': utils.getFileName(row[1], row[3]),
+                'fileName': fileName,
                 'catalog': utils.getCatalog(row[1], row[3]),
                 'title': utils.getTitle(row[2], row[3]),
                 'titleCN': utils.getTitle(row[7], row[3]),
                 'slug': row[3],
                 'tags': row[9],
                 'difficulty': row[4],
+                'status': status, 
             }
             res.append(question_detail)
-
 
         with open(file_name, 'w', encoding='utf-8', newline='') as f:
             import csv
@@ -335,6 +339,9 @@ class LeetcodeCrawler():
 
     def generate_question_markdown(self, question, path, has_get_code):
         text_path = os.path.join(path, "{}.md".format(question['fileName']))
+
+        df = pd.read_csv("problem-list.csv")
+
         with open(text_path, 'w', encoding='utf-8') as f:
             f.write("# [{}. {}]({})".format(question['frontedId'], question['titleCN'], question['link']))
             
@@ -363,17 +370,29 @@ class LeetcodeCrawler():
             
             similar = json.loads(question['similar'])
             if len(similar) > 0:
+
                 f.write("\n\n## 相关题目\n\n:::: md-demo 相关题目\n")
                 for similar_item in similar:
-                    problem_link = "- [{}](https://leetcode.com/problems/{})".format(similar_item['translatedTitle'], similar_item['titleSlug'])
+                    df_indexs = df[df['slug'] == similar_item['titleSlug']].index.tolist()
+                    if not df_indexs:
+                        print('%s 没有出现在 problem-list.csv 中' % (similar_item['translatedTitle']))
+                        continue
+                    
+                    row = df_indexs[0]
+                    problem_id = df.loc[row, "frontedId"]
+                    problem_file_name = df.loc[row, "fileName"]
+                    isAC = utils.isAC(problem_file_name)
+                    if isAC:
+                        problem_link = "- [{}. {}](./{}.md)".format(problem_id, similar_item['translatedTitle'], problem_file_name)
+                    else:
+                        problem_link = "- [{}. {}](https://leetcode.com/problems/{})".format(problem_id, similar_item['translatedTitle'], similar_item['titleSlug'])
+
                     f.write(problem_link + '\n')
                 f.write("\n::::\n")
 
-            
- 
-
     def close_db(self):
         self.conn.close()
+
 if __name__=='__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("output", nargs = '?', default="note")
@@ -454,7 +473,7 @@ if __name__=='__main__':
     test.connect_db(db_path)
     test.get_problems(filters)
       
-    test.generate_questions_list()
+    # test.generate_questions_list()
     test.generate_questions_markdown(args.output, filters)
    
     test.close_db()
