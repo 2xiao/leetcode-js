@@ -4,3 +4,4 @@ src/.vuepress/.cache/
 src/.vuepress/.temp/
 src/.vuepress/dist/
 assets/scripts/__pycache__/
+assets/scripts/leetcode.db

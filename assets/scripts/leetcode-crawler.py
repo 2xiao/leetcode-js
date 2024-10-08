@@ -32,8 +32,9 @@ class insetQuestionThread(threading.Thread):
         threading.Thread.__init__(self)
         self.title_slug = title_slug
         self.status = None
-        if len(args) == 1:
+        if len(args) == 2:
             self.status = args[0]
+            self.only = args[1]
     def run(self):
         IS_SUCCESS = False
         conn = sqlite3.connect(db_path, timeout=10)
@@ -74,40 +75,60 @@ class insetQuestionThread(threading.Thread):
                 }
 
                 json_data = json.dumps(params).encode('utf8')
-                    
+                
                 question_detail = ()
                 resp = session.post(url, data = json_data, headers = headers, timeout = 10)
                 resp.encoding = 'utf8'
                 content = resp.json()
+
+                if (self.only):
+                    print('------pay only content', content)
+                
+                contentEN = ''
+                contentCN = ''
+                titleCN = content['data']['question']['questionTitle']
+
+                if content['data']['question']['content'] is not None:
+                    contentEN = content['data']['question']['content']
+                
+                if content['data']['question']['translatedContent'] is not None:
+                    contentCN = content['data']['question']['translatedContent']
+
+                if content['data']['question']['translatedTitle'] is not None:
+                    titleCN = content['data']['question']['translatedTitle']
+
+                
                 questionId = content['data']['question']['questionId']
                 topicTags = content['data']['question']['topicTags']
 
                 tags = []
                 if topicTags != None:
                     for tag in topicTags:
-                        tag_str = tag['name'] + '|' + tag['slug'] + '|'
-                        if tag['translatedName'] != None:
-                            tag_str = tag_str + tag['translatedName']
+                        if tag['translatedName'] == None:
+                            tag['translatedName'] = tag['name']
+                        tag_str = tag['name'] + '|' + tag['slug'] + '|' + tag['translatedName']
                         tags.append(tag_str)
                 
-                if content['data']['question']['content'] != None:
-                    question_detail = (questionId, 
-                                content['data']['question']['questionFrontendId'], 
-                                content['data']['question']['questionTitle'],
-                                content['data']['question']['questionTitleSlug'],
-                                content['data']['question']['difficulty'],
-                                content['data']['question']['content'],
-                                content['data']['question']['similarQuestions'],
-                                content['data']['question']['translatedTitle'],
-                                content['data']['question']['translatedContent'],
-                                ','.join(tags),
-                                self.status)
-                    threadLock.acquire()
-                    cursor.execute('INSERT INTO question (id, frontend_id, title, slug, difficulty, content, similar, title_cn, content_cn, tags, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', question_detail)
-                    conn.commit()
-                    print("insert question [%s] success" %(self.title_slug))
-                    threadLock.release()
-                    IS_SUCCESS = True
+                
+
+                
+                question_detail = (questionId, 
+                    content['data']['question']['questionFrontendId'], 
+                    content['data']['question']['questionTitle'],
+                    content['data']['question']['questionTitleSlug'],
+                    content['data']['question']['difficulty'],
+                    contentEN,
+                    content['data']['question']['similarQuestions'],
+                    titleCN,
+                    contentCN,
+                    ','.join(tags),
+                    self.status)
+                threadLock.acquire()
+                cursor.execute('INSERT INTO question (id, frontend_id, title, slug, difficulty, content, similar, title_cn, content_cn, tags, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', question_detail)
+                conn.commit()
+                print("insert question [%s] success" %(self.title_slug))
+                threadLock.release()
+                IS_SUCCESS = True
             # 若出现连接超时或连接错误则继续获取
             except (requests.exceptions.Timeout,requests.exceptions.ConnectionError) as error:
                 print(str(error))
@@ -160,8 +181,10 @@ class LeetcodeCrawler():
         question_update_list = []
         threads = []
         cursor = self.conn.cursor()
-
+        count = 0
         for question in question_list['stat_status_pairs']:
+            count = count + 1
+
             question_id = question['stat']['question_id']
             question_slug = question['stat']['question__title_slug']
             question_status = question['status']
@@ -186,13 +209,14 @@ class LeetcodeCrawler():
                      continue
 
             if question['paid_only']:
-                continue
+                print('---------------------paid_only', question_id, question_slug)
+            #     continue
             
             cursor.execute('SELECT status FROM question WHERE id = ?', (question_id,))
             result = cursor.fetchone()
             if not result:
                 # 创建新线程
-                thread = insetQuestionThread(question_slug, question_status)
+                thread = insetQuestionThread(question_slug, question_status, question['paid_only'])
                 thread.start()
                 while True:  
                     #判断正在运行的线程数量,如果小于5则退出while循环,  
@@ -204,9 +228,13 @@ class LeetcodeCrawler():
                 threads.append(thread)  
             elif self.is_login and question_status != result[0]:
                 question_update_list.append((question_status, question_id))
+            else:
+                print('already in db:', question_id, question_slug)
+            print('-------------', count)
+            
         for t in threads:
             t.join()
-        
+        print('-------------end', count)
         cursor.executemany('UPDATE question SET status = ? WHERE id = ?', question_update_list)
         self.conn.commit()
         cursor.close()
@@ -225,10 +253,10 @@ class LeetcodeCrawler():
                     title              CHAR(50)    NOT NULL,
                     slug               CHAR(50)    NOT NULL,
                     difficulty         CHAR(10)    NOT NULL,
-                    content            TEXT        NOT NULL,
+                    content            TEXT,
                     similar            TEXT        NOT NULL,
-                    title_cn           CHAR(50)    NOT NULL,
-                    content_cn         TEXT        NOT NULL,
+                    title_cn           CHAR(50),
+                    content_cn         TEXT,
                     tags               TEXT        NOT NULL,
                     status             CHAR(10));''')
         

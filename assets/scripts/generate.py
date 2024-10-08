@@ -15,7 +15,8 @@ def gen_solution_list():
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
     frame_cout = 0
 
-    df = pd.read_csv("leetcode-problems.csv")
+    df = pd.read_csv("problem-list.csv")
+    
 
     for file in files:
         # 判断是否是文件夹
@@ -23,10 +24,10 @@ def gen_solution_list():
             continue
 
         # 获取题目所在行
-        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
+        df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
 
         if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
+            print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
             continue
 
         res = utils.gen_frame_items(df_indexs[0], df, const.problem_path)
@@ -53,12 +54,12 @@ def gen_solution_list():
 def gen_tag_list():
     frames = {}
     index = 0
-    df = pd.read_csv("leetcode-problems.csv")
+    df = pd.read_csv("problem-list.csv")
 
     while index < len(df):
-        problem_tags = df.loc[index, "标签"]
+        problem_tags = df.loc[index, "tags"]
         if isinstance(problem_tags, str):
-            problem_tags = problem_tags.split("、")
+            problem_tags = problem_tags.split(",")
             for tag in problem_tags:
                 if tag not in frames:
                     frames[tag] = pd.DataFrame(
@@ -70,17 +71,18 @@ def gen_tag_list():
 
     for idx, frame in frames.items():
         table = utils.gen_markdown_table(frame, True)
-        tag_en = const.tags_zh_to_en[idx]
+        tag_en = idx.split('|')[1]
+        tag_cn = idx.split('|')[2]
 
         content = Path(const.tag_list_readme).read_text(encoding='utf-8')
 
         old_title = "# 1.5 题解标签"
-        delim = "[`" + idx + "`](" + const.tag_absolute_path + tag_en + ".md)"
+        delim = "[`" + tag_cn + "`](" + const.tag_absolute_path + tag_en + ".md)"
         if old_title in content:
             _, content = content.split(old_title)
         if delim in content:
             before, after = content.split(delim)
-        content = "# " + idx + '\n\n::: details 全部标签' + before + '<span class="blue">' + idx + '</span>' + after + ':::'
+        content = "# " + tag_cn + '\n\n::: details 全部标签' + before + '<span class="blue">' + tag_cn + '</span>' + after + ':::'
         
         slice_path = os.path.join(const.tag_list_path, tag_en + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:
@@ -98,7 +100,7 @@ def gen_tag_list():
 
 def gen_config_js():
     files = os.listdir(const.problem_path)
-    df = pd.read_csv("leetcode-problems.csv")
+    df = pd.read_csv("problem-list.csv")
 
     frames = {}
     content = ''
@@ -113,13 +115,13 @@ def gen_config_js():
             continue
 
         # 获取题目所在行
-        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
+        df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
 
         if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
+            print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
             continue
 
-        problem_catalog = df.loc[df_indexs[0], "所在目录"]
+        problem_catalog = df.loc[df_indexs[0], "catalog"]
         if problem_catalog not in frames:
             frames[problem_catalog] = []
         frames[problem_catalog].append('"' + Path(file).stem + '"')
@@ -144,29 +146,10 @@ def gen_config_js():
 
 def gen_tag_and_difficulty():
     files = os.listdir(const.problem_path)
-    df = pd.read_csv("leetcode-problems.csv")
     for file in files:
         # 判断是否是文件夹
         if ".md" not in file:
             continue
-
-        # 获取题目所在行
-        df_indexs = df[df['文件名'] == Path(file).stem].index.tolist()
-
-        if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (Path(file).stem))
-            continue
-
-        problem_label = "&emsp; 🔖&ensp;"
-        labels = (df.loc[df_indexs[0], "标签"]).split("、")
-        for label in labels:
-            label_en = const.tags_zh_to_en[label]
-            problem_label += " [`" + label + \
-                "`](" + const.tag_absolute_path + label_en + ".md)"
-        problem_difficulty = utils.format_difficulty(
-            df.loc[df_indexs[0], "难度"], True)
-        problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + df.loc[df_indexs[0], "链接"] + ")\n\n"
-
         delim = "## 题目\n"
         file_path = os.path.join(const.problem_path, Path(file))
         content = Path(file_path).read_text(encoding='utf-8')
@@ -178,12 +161,7 @@ def gen_tag_and_difficulty():
             if "<font color=#15bd66>Easy</font>" in content:
                 continue
 
-            content, after = content.split(delim)
-            content += problem_difficulty + problem_label + problem_link + delim + after
-            Path(file_path).write_text(content, encoding='utf-8')
-        else:
-            print("Fail to Add Tag and Difficulty to Problem：", file)
-    print("Add Tag and Difficulty to Problems Success")
+            print("Need to Add Tag and Difficulty to Problem：", file)
 
 
 def gen_md():

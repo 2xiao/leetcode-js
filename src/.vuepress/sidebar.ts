@@ -53,7 +53,7 @@ export default sidebar({
 			children: [
 				// AUTO_GEN_CONFIG_START
         {
-          text: "0001-0099",
+          text: "0000-0099",
           collapsible: true,
           children: [
             "0001",
@@ -494,6 +494,20 @@ export default sidebar({
           children: [
             "2416",
             "2491"
+          ],
+        },
+        {
+          text: "2600-2699",
+          collapsible: true,
+          children: [
+            "2696"
+          ],
+        },
+        {
+          text: "3300-3399",
+          collapsible: true,
+          children: [
+            "3309"
           ],
         },
         {

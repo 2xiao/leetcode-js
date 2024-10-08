@@ -69,11 +69,14 @@ def format_difficulty(difficulty: str, show_emoji: bool = False):
 
 
 def format_label(labels: str):
-    tags = np.array(labels.split("、"))
+    if str(labels) == 'nan':
+        return ''
+    tags = np.array(labels.split(","))
     res = ''
     for tag in tags[:3]:
-        tag_en = const.tags_zh_to_en[tag]
-        res += " [`" + tag + "`](" + const.tag_absolute_path + tag_en + ".md)"
+        tag_en = tag.split('|')[1]
+        tag_cn = tag.split('|')[2]
+        res += " [`" + tag_cn + "`](" + const.tag_absolute_path + tag_en + ".md)"
     if len(tags) > 3:
         res += " `" + str(len(tags) - 3) + "+`"
     return res
@@ -82,9 +85,9 @@ def format_label(labels: str):
 
 
 def gen_frame_items(row, df, problem_path, problem_salt: str = False):
-    problem_id = df.loc[row, "序号"]
-    problem_file_name = df.loc[row, "文件名"]
-    problem_link = "[" + df.loc[row, "标题末尾"] + "](" + df.loc[row, "链接"] + ")"
+    problem_id = df.loc[row, "frontedId"]
+    problem_file_name = df.loc[row, "fileName"]
+    problem_link = "[{}]({})".format(df.loc[row, "titleCN"], getLink(problem_id, df.loc[row, "slug"]))
 
     problem_solution_path = os.path.join(
         problem_path, problem_file_name + ".md")
@@ -93,8 +96,8 @@ def gen_frame_items(row, df, problem_path, problem_salt: str = False):
     else:
         problem_solution_link = ""
 
-    problem_label = format_label(df.loc[row, "标签"])
-    problem_difficulty = format_difficulty(df.loc[row, "难度"])
+    problem_label = format_label(df.loc[row, "tags"])
+    problem_difficulty = format_difficulty(df.loc[row, "difficulty"])
     res = [problem_id, problem_link, problem_solution_link,
            problem_label, problem_difficulty]
     if problem_salt:
@@ -107,15 +110,15 @@ def gen_frame_items(row, df, problem_path, problem_salt: str = False):
 
 
 def gen_frame(problems, problem_path):
-    df = pd.read_csv("leetcode-problems.csv")
+    df = pd.read_csv("problem-list.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
     frame_cout = 0
     for item in problems:
         # 获取题目所在行
-        df_indexs = df[df['文件名'] == item].index.tolist()
+        df_indexs = df[df['fileName'] == item].index.tolist()
 
         if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (item))
+            print('%s 没有出现在 problem-list.csv 中' % (item))
             continue
         res = gen_frame_items(df_indexs[0], df, problem_path)
         frame.loc[frame_cout] = res
@@ -127,7 +130,7 @@ def gen_frame(problems, problem_path):
 
 
 def gen_frame_with_salt(problems, problem_path):
-    df = pd.read_csv("leetcode-problems.csv")
+    df = pd.read_csv("problem-list.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度', '频次'])
     frame_cout = 0
     for item in problems:
@@ -139,10 +142,10 @@ def gen_frame_with_salt(problems, problem_path):
         problem_salt, problem_id = match.group(1, 2)
 
         # 获取题目所在行
-        df_indexs = df[df['文件名'] == problem_id].index.tolist()
+        df_indexs = df[df['fileName'] == problem_id].index.tolist()
 
         if not df_indexs:
-            print('%s 没有出现在 leetcode-problems.csv 中' % (problem_id))
+            print('%s 没有出现在 problem-list.csv 中' % (problem_id))
             continue
         res = gen_frame_items(df_indexs[0], df, problem_path, problem_salt)
         frame.loc[frame_cout] = res
@@ -192,7 +195,7 @@ def getFileName(id, slug):
     if str(id).find('面试题') != -1:
         return "i_" + id.split('面试题 ')[1]
     if len(str(id)) < 5:
-        return "{:0>4d}".format(id)
+        return str("{:0>4d}".format(id))
     if slug in const.offer_dict:
         return const.offer_dict[slug].split(',')[1]
     if slug in const.offer2_dict:
