@@ -1,4 +1,4 @@
-# [剑指 Offer II 31. 最近最少使用缓存](https://leetcode.cn/problems/OrIXps/)
+# [剑指 Offer II 31. 最近最少使用缓存](https://leetcode.cn/problems/OrIXps)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/leetcode/outline/tag/design.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/OrIXps/)
 

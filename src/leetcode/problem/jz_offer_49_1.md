@@ -1,4 +1,4 @@
-# [剑指 Offer 49. 丑数](https://leetcode.cn/problems/chou-shu-lcof/)
+# [剑指 Offer 49. 丑数](https://leetcode.cn/problems/chou-shu-lcof)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/mathematics.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/chou-shu-lcof/)
 

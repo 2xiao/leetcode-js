@@ -6,6 +6,47 @@ import pandas as pd
 import const
 import utils
 
+def changeTitle():
+    files = os.listdir(const.problem_path)
+    df = pd.read_csv("problem-list.csv")
+    for file in files:
+        # 判断是否是文件夹
+        if ".md" not in file:
+            continue
+        if "README" in file:
+            continue
+
+        file_path = os.path.join(const.problem_path, Path(file))
+        content = Path(file_path).read_text(encoding='utf-8')
+
+        delim = ''
+        delim1 = "🟢"
+        delim2 = "🟠"
+        delim3 = "🔴"
+        if delim1 in content:
+            delim = delim1
+        if delim2 in content:
+            delim = delim2
+        if delim3 in content:
+            delim = delim3
+            
+        before, after = content.split(delim)
+
+        df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
+
+        if not df_indexs:
+            print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
+            continue
+
+        row= df_indexs[0]
+        problem_id = df.loc[row, "frontedId"]
+        problem_title = df.loc[row, "titleCN"]
+        problem_slug = utils.getLink(problem_id, df.loc[row, "slug"])
+        
+        newTitle = "# [{}. {}]({})\n\n".format(problem_id, problem_title, problem_slug)
+        text = newTitle + delim + after
+        Path(file_path).write_text(text, encoding='utf-8')
+
 
 # 自动生成已完成题目总列表
 
