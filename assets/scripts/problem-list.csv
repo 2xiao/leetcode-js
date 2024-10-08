@@ -3699,3 +3699,4 @@ LCP 04,LCP_04,other,Broken Board Dominoes,覆盖,broken-board-dominoes,"Bit Mani
 159,0159,0100-0199,Longest Substring with At Most Two Distinct Characters,至多包含两个不同字符的最长子串,longest-substring-with-at-most-two-distinct-characters,"Hash Table|hash-table|哈希表,String|string|字符串,Sliding Window|sliding-window|滑动窗口",Medium
 157,0157,0100-0199,Read N Characters Given Read4,用 Read4 读取 N 个字符,read-n-characters-given-read4,"Array|array|数组,Interactive|interactive|交互,Simulation|simulation|模拟",Easy
 156,0156,0100-0199,Binary Tree Upside Down,上下翻转二叉树,binary-tree-upside-down,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Medium
+3313,3313,3300-3399,Find the Last Marked Nodes in Tree,Find the Last Marked Nodes in Tree,find-the-last-marked-nodes-in-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索",Hard

@@ -32,9 +32,8 @@ class insetQuestionThread(threading.Thread):
         threading.Thread.__init__(self)
         self.title_slug = title_slug
         self.status = None
-        if len(args) == 2:
+        if len(args) == 1:
             self.status = args[0]
-            self.only = args[1]
     def run(self):
         IS_SUCCESS = False
         conn = sqlite3.connect(db_path, timeout=10)
@@ -81,8 +80,6 @@ class insetQuestionThread(threading.Thread):
                 resp.encoding = 'utf8'
                 content = resp.json()
 
-                if (self.only):
-                    print('------pay only content', content)
                 
                 contentEN = ''
                 contentCN = ''
@@ -109,8 +106,6 @@ class insetQuestionThread(threading.Thread):
                         tag_str = tag['name'] + '|' + tag['slug'] + '|' + tag['translatedName']
                         tags.append(tag_str)
                 
-                
-
                 
                 question_detail = (questionId, 
                     content['data']['question']['questionFrontendId'], 
@@ -181,9 +176,7 @@ class LeetcodeCrawler():
         question_update_list = []
         threads = []
         cursor = self.conn.cursor()
-        count = 0
         for question in question_list['stat_status_pairs']:
-            count = count + 1
 
             question_id = question['stat']['question_id']
             question_slug = question['stat']['question__title_slug']
@@ -208,15 +201,12 @@ class LeetcodeCrawler():
                 if filters['status'] != question_status:
                      continue
 
-            if question['paid_only']:
-                print('---------------------paid_only', question_id, question_slug)
-            #     continue
             
             cursor.execute('SELECT status FROM question WHERE id = ?', (question_id,))
             result = cursor.fetchone()
             if not result:
                 # 创建新线程
-                thread = insetQuestionThread(question_slug, question_status, question['paid_only'])
+                thread = insetQuestionThread(question_slug, question_status)
                 thread.start()
                 while True:  
                     #判断正在运行的线程数量,如果小于5则退出while循环,  
@@ -228,13 +218,10 @@ class LeetcodeCrawler():
                 threads.append(thread)  
             elif self.is_login and question_status != result[0]:
                 question_update_list.append((question_status, question_id))
-            else:
-                print('already in db:', question_id, question_slug)
-            print('-------------', count)
+        
             
         for t in threads:
             t.join()
-        print('-------------end', count)
         cursor.executemany('UPDATE question SET status = ? WHERE id = ?', question_update_list)
         self.conn.commit()
         cursor.close()

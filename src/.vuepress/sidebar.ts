@@ -472,6 +472,13 @@ export default sidebar({
           ],
         },
         {
+          text: "1900-1999",
+          collapsible: true,
+          children: [
+            "1963"
+          ],
+        },
+        {
           text: "2100-2199",
           collapsible: true,
           children: [

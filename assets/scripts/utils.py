@@ -7,6 +7,14 @@ import pandas as pd
 from urllib.parse import quote
 import const
 
+# 自定义排序函数：可转换为整数的按数值排序，非数字的按字典顺序排序
+def custom_sort(val):
+    # 尝试将值转换为整数
+    try:
+        return (0, int(val))  # 数字部分的优先级高
+    except ValueError:
+        return (1, val)  # 非数字部分的优先级次之，按字典顺序排序
+
 # 根据 frame 生成 Markdown 表格
 
 
@@ -38,7 +46,7 @@ def gen_markdown_table(frame, need_sort):
 
     # 数据部分
     if need_sort:
-        frame = frame.sort_values(by='题号')
+        frame = frame.sort_values(by='题号', key=lambda col: col.apply(custom_sort))
     frame = frame.reset_index(drop=True)
     for i in range(H):
         problem = "|"
@@ -195,7 +203,7 @@ def getFileName(id, slug):
     if str(id).find('面试题') != -1:
         return "i_" + id.split('面试题 ')[1]
     if len(str(id)) < 5:
-        return str("{:0>4d}".format(id))
+        return "{:0>4d}".format(id)
     if slug in const.offer_dict:
         return const.offer_dict[slug].split(',')[1]
     if slug in const.offer2_dict:

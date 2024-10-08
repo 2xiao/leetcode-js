@@ -4,7 +4,7 @@
 
 **数据结构**
 
-[`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) [`栈`](/leetcode/outline/tag/stack.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) [`图`](/leetcode/outline/tag/graph.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`最短路`](/leetcode/outline/tag/shortest-path.md) [`强连通分量`](/leetcode/outline/tag/strongly-connected-component.md) [`欧拉回路`](/leetcode/outline/tag/eulerian-circuit.md) [`双连通分量`](/leetcode/outline/tag/biconnected-component.md) [`并查集`](/leetcode/outline/tag/union-find.md) [`字典树`](/leetcode/outline/tag/trie.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`树状数组`](/leetcode/outline/tag/segment-tree.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md)
+[`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双向链表`](/leetcode/outline/tag/doubly-linked-list.md) [`栈`](/leetcode/outline/tag/stack.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) [`树`](/leetcode/outline/tag/tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) [`图`](/leetcode/outline/tag/graph.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`最短路`](/leetcode/outline/tag/shortest-path.md) [`强连通分量`](/leetcode/outline/tag/strongly-connected-component.md) [`欧拉回路`](/leetcode/outline/tag/eulerian-circuit.md) [`双连通分量`](/leetcode/outline/tag/biconnected-component.md) [`并查集`](/leetcode/outline/tag/union-find.md) [`字典树`](/leetcode/outline/tag/trie.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`树状数组`](/leetcode/outline/tag/binary-indexed-tree.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md)
 
 **算法**
 
@@ -19,6 +19,52 @@
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
+| 175 | [组合两个表](https://leetcode.com/problems/combine-two-tables) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 176 | [第二高的薪水](https://leetcode.com/problems/second-highest-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 177 | [第N高的薪水](https://leetcode.com/problems/nth-highest-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 178 | [分数排名](https://leetcode.com/problems/rank-scores) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 180 | [连续出现的数字](https://leetcode.com/problems/consecutive-numbers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 181 | [超过经理收入的员工](https://leetcode.com/problems/employees-earning-more-than-their-managers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 182 | [查找重复的电子邮箱](https://leetcode.com/problems/duplicate-emails) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 183 | [从不订购的客户](https://leetcode.com/problems/customers-who-never-order) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 184 | [部门工资最高的员工](https://leetcode.com/problems/department-highest-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 185 | [部门工资前三高的所有员工](https://leetcode.com/problems/department-top-three-salaries) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 196 | [删除重复的电子邮箱](https://leetcode.com/problems/delete-duplicate-emails) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 197 | [上升的温度](https://leetcode.com/problems/rising-temperature) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 262 | [行程和用户](https://leetcode.com/problems/trips-and-users) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 511 | [游戏玩法分析 I](https://leetcode.com/problems/game-play-analysis-i) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 512 | [游戏玩法分析 II](https://leetcode.com/problems/game-play-analysis-ii) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 534 | [游戏玩法分析 III](https://leetcode.com/problems/game-play-analysis-iii) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 550 | [游戏玩法分析 IV](https://leetcode.com/problems/game-play-analysis-iv) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 569 | [员工薪水中位数](https://leetcode.com/problems/median-employee-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 570 | [至少有5名直接下属的经理](https://leetcode.com/problems/managers-with-at-least-5-direct-reports) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 571 | [给定数字的频率查询中位数](https://leetcode.com/problems/find-median-given-frequency-of-numbers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 574 | [当选者](https://leetcode.com/problems/winning-candidate) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 577 | [员工奖金](https://leetcode.com/problems/employee-bonus) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 578 | [查询回答率最高的问题](https://leetcode.com/problems/get-highest-answer-rate-question) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 579 | [查询员工的累计薪水](https://leetcode.com/problems/find-cumulative-salary-of-an-employee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 580 | [统计各专业学生人数](https://leetcode.com/problems/count-student-number-in-departments) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 584 | [寻找用户推荐人](https://leetcode.com/problems/find-customer-referee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 585 | [2016年的投资](https://leetcode.com/problems/investments-in-2016) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 586 | [订单最多的客户](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 595 | [大的国家](https://leetcode.com/problems/big-countries) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 596 | [超过 5 名学生的课](https://leetcode.com/problems/classes-more-than-5-students) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 597 | [好友申请 I：总体通过率](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 601 | [体育馆的人流量](https://leetcode.com/problems/human-traffic-of-stadium) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 602 | [好友申请 II ：谁有最多的好友](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 603 | [连续空余座位](https://leetcode.com/problems/consecutive-available-seats) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 607 | [销售员](https://leetcode.com/problems/sales-person) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 608 | [树节点](https://leetcode.com/problems/tree-node) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 610 | [判断三角形](https://leetcode.com/problems/triangle-judgement) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 612 | [平面上的最近距离](https://leetcode.com/problems/shortest-distance-in-a-plane) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 613 | [直线上的最近距离](https://leetcode.com/problems/shortest-distance-in-a-line) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 614 | [二级关注者](https://leetcode.com/problems/second-degree-follower) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 615 | [平均工资：部门与公司比较](https://leetcode.com/problems/average-salary-departments-vs-company) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 618 | [学生地理信息报告](https://leetcode.com/problems/students-report-by-geography) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
+| 619 | [只出现一次的最大数字](https://leetcode.com/problems/biggest-single-number) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 620 | [有趣的电影](https://leetcode.com/problems/not-boring-movies) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
+| 626 | [换座位](https://leetcode.com/problems/exchange-seats) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
+| 627 | [变更性别](https://leetcode.com/problems/swap-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1045 | [买下所有产品的客户](https://leetcode.com/problems/customers-who-bought-all-products) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1050 | [合作过至少三次的演员和导演](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1068 | [产品销售分析 I](https://leetcode.com/problems/product-sales-analysis-i) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
@@ -121,28 +167,18 @@
 | 1731 | [每位经理的下属员工数量](https://leetcode.com/problems/the-number-of-employees-which-report-to-each-employee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1741 | [查找每个员工花费的总时间](https://leetcode.com/problems/find-total-time-spent-by-each-employee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1747 | [应该被禁止的 Leetflex 账户](https://leetcode.com/problems/leetflex-banned-accounts) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 175 | [组合两个表](https://leetcode.com/problems/combine-two-tables) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1757 | [可回收且低脂的产品](https://leetcode.com/problems/recyclable-and-low-fat-products) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 176 | [第二高的薪水](https://leetcode.com/problems/second-highest-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1767 | [寻找没有被执行的任务对](https://leetcode.com/problems/find-the-subtasks-that-did-not-execute) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 177 | [第N高的薪水](https://leetcode.com/problems/nth-highest-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1777 | [每家商店的产品价格](https://leetcode.com/problems/products-price-for-each-store) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 178 | [分数排名](https://leetcode.com/problems/rank-scores) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1783 | [大满贯数量](https://leetcode.com/problems/grand-slam-titles) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1789 | [员工的直属部门](https://leetcode.com/problems/primary-department-for-each-employee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1795 | [每个产品在不同商店的价格](https://leetcode.com/problems/rearrange-products-table) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 180 | [连续出现的数字](https://leetcode.com/problems/consecutive-numbers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1809 | [没有广告的剧集](https://leetcode.com/problems/ad-free-sessions) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 181 | [超过经理收入的员工](https://leetcode.com/problems/employees-earning-more-than-their-managers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1811 | [寻找面试候选人](https://leetcode.com/problems/find-interview-candidates) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 182 | [查找重复的电子邮箱](https://leetcode.com/problems/duplicate-emails) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1821 | [寻找今年具有正收入的客户](https://leetcode.com/problems/find-customers-with-positive-revenue-this-year) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 183 | [从不订购的客户](https://leetcode.com/problems/customers-who-never-order) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1831 | [每天的最大交易](https://leetcode.com/problems/maximum-transaction-each-day) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 184 | [部门工资最高的员工](https://leetcode.com/problems/department-highest-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1841 | [联赛信息统计](https://leetcode.com/problems/league-statistics) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1843 | [可疑银行账户](https://leetcode.com/problems/suspicious-bank-accounts) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 185 | [部门工资前三高的所有员工](https://leetcode.com/problems/department-top-three-salaries) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
 | 1853 | [转换日期格式](https://leetcode.com/problems/convert-date-format) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1867 | [最大数量高于平均水平的订单](https://leetcode.com/problems/orders-with-maximum-quantity-above-average) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1873 | [计算特殊奖金](https://leetcode.com/problems/calculate-special-bonus) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
@@ -156,9 +192,7 @@
 | 1939 | [主动请求确认消息的用户](https://leetcode.com/problems/users-that-actively-request-confirmation-messages) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1949 | [坚定的友谊](https://leetcode.com/problems/strong-friendship) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 1951 | [查询具有最多共同关注者的所有两两结对组](https://leetcode.com/problems/all-the-pairs-with-the-maximum-number-of-common-followers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 196 | [删除重复的电子邮箱](https://leetcode.com/problems/delete-duplicate-emails) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1965 | [丢失信息的雇员](https://leetcode.com/problems/employees-with-missing-information) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 197 | [上升的温度](https://leetcode.com/problems/rising-temperature) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1972 | [同一天的第一个电话和最后一个电话](https://leetcode.com/problems/first-and-last-call-on-the-same-day) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
 | 1978 | [上级经理已离职的公司员工](https://leetcode.com/problems/employees-whose-manager-left-the-company) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 1988 | [找出每所学校的最低分数要求](https://leetcode.com/problems/find-cutoff-score-for-each-school) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
@@ -205,7 +239,6 @@
 | 2480 | [形成化学键](https://leetcode.com/problems/form-a-chemical-bond) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 2494 | [合并在同一个大厅重叠的活动](https://leetcode.com/problems/merge-overlapping-events-in-the-same-hall) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
 | 2504 | [把名字和职业联系起来](https://leetcode.com/problems/concatenate-the-name-and-the-profession) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 262 | [行程和用户](https://leetcode.com/problems/trips-and-users) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
 | 2668 | [查询员工当前薪水](https://leetcode.com/problems/find-latest-salaries) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 2669 | [统计 Spotify 排行榜上艺术家出现次数](https://leetcode.com/problems/count-artist-occurrences-on-spotify-ranking-list) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 | 2686 | [即时食物配送 III](https://leetcode.com/problems/immediate-food-delivery-iii) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
@@ -271,39 +304,6 @@
 | 3278 | [寻找数据科学家职位的候选人 II](https://leetcode.com/problems/find-candidates-for-data-scientist-position-ii) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 3293 | [计算产品最终价格](https://leetcode.com/problems/calculate-product-final-price) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 3308 | [Find Top Performing Driver](https://leetcode.com/problems/find-top-performing-driver) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 511 | [游戏玩法分析 I](https://leetcode.com/problems/game-play-analysis-i) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 512 | [游戏玩法分析 II](https://leetcode.com/problems/game-play-analysis-ii) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 534 | [游戏玩法分析 III](https://leetcode.com/problems/game-play-analysis-iii) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 550 | [游戏玩法分析 IV](https://leetcode.com/problems/game-play-analysis-iv) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 569 | [员工薪水中位数](https://leetcode.com/problems/median-employee-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 570 | [至少有5名直接下属的经理](https://leetcode.com/problems/managers-with-at-least-5-direct-reports) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 571 | [给定数字的频率查询中位数](https://leetcode.com/problems/find-median-given-frequency-of-numbers) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 574 | [当选者](https://leetcode.com/problems/winning-candidate) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 577 | [员工奖金](https://leetcode.com/problems/employee-bonus) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 578 | [查询回答率最高的问题](https://leetcode.com/problems/get-highest-answer-rate-question) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 579 | [查询员工的累计薪水](https://leetcode.com/problems/find-cumulative-salary-of-an-employee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 580 | [统计各专业学生人数](https://leetcode.com/problems/count-student-number-in-departments) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 584 | [寻找用户推荐人](https://leetcode.com/problems/find-customer-referee) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 585 | [2016年的投资](https://leetcode.com/problems/investments-in-2016) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 586 | [订单最多的客户](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 595 | [大的国家](https://leetcode.com/problems/big-countries) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 596 | [超过 5 名学生的课](https://leetcode.com/problems/classes-more-than-5-students) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 597 | [好友申请 I：总体通过率](https://leetcode.com/problems/friend-requests-i-overall-acceptance-rate) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 601 | [体育馆的人流量](https://leetcode.com/problems/human-traffic-of-stadium) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 602 | [好友申请 II ：谁有最多的好友](https://leetcode.com/problems/friend-requests-ii-who-has-the-most-friends) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 603 | [连续空余座位](https://leetcode.com/problems/consecutive-available-seats) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 607 | [销售员](https://leetcode.com/problems/sales-person) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 608 | [树节点](https://leetcode.com/problems/tree-node) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 610 | [判断三角形](https://leetcode.com/problems/triangle-judgement) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 612 | [平面上的最近距离](https://leetcode.com/problems/shortest-distance-in-a-plane) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 613 | [直线上的最近距离](https://leetcode.com/problems/shortest-distance-in-a-line) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 614 | [二级关注者](https://leetcode.com/problems/second-degree-follower) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 615 | [平均工资：部门与公司比较](https://leetcode.com/problems/average-salary-departments-vs-company) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 618 | [学生地理信息报告](https://leetcode.com/problems/students-report-by-geography) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ff334b>Hard</font> |
-| 619 | [只出现一次的最大数字](https://leetcode.com/problems/biggest-single-number) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 620 | [有趣的电影](https://leetcode.com/problems/not-boring-movies) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
-| 626 | [换座位](https://leetcode.com/problems/exchange-seats) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#ffb800>Medium</font> |
-| 627 | [变更性别](https://leetcode.com/problems/swap-salary) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |
 
 <style>
 .blue {
