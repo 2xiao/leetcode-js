@@ -612,7 +612,7 @@ headerDepth: 0
 | 7 | [整数反转](https://leetcode.com/problems/reverse-integer) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0007) |  [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> | 37 |
 | 9 | [回文数](https://leetcode.com/problems/palindrome-number) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0009) |  [`数学`](/leetcode/outline/tag/math.md) | <font color=#15bd66>Easy</font> | 27 |
 | 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof) |  |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#15bd66>Easy</font> | 30 |
-| 168 | [Excel表列名称](https://leetcode.com/problems/excel-sheet-column-title) |  |  [`数学`](/leetcode/outline/tag/math.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 20 |
+| 168 | [Excel 表列名称](https://leetcode.com/problems/excel-sheet-column-title) |  |  [`数学`](/leetcode/outline/tag/math.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 20 |
 | 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) |  |  [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 23 |
 
 

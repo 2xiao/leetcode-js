@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 383 道
+已完成 384 道
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -295,6 +295,7 @@
 | 876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0880) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0889) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 921 | [使括号有效的最少添加](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0921) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0931) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0945) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0946) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
@@ -330,7 +331,7 @@
 | 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2416) |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2491) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2696 | [删除子串后的字符串最小长度](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2696) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
-| 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/3309) |  | <font color=#ffb800>Medium</font> |
+| 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/3309) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`枚举`](/leetcode/outline/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_03_1) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 04 | [二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_04_1) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 05 | [替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_05_1) |  [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |

@@ -76,6 +76,7 @@
 | 3116 | [单面值组合的第 K 小金额](https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) `3+` | <font color=#ff334b>Hard</font> |
 | 3233 | [统计不是特殊数字的数字数量](https://leetcode.com/problems/find-the-count-of-numbers-which-are-not-special) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`数论`](/leetcode/outline/tag/number-theory.md) | <font color=#ffb800>Medium</font> |
 | 3260 | [找出最大的 N 位 K 回文数](https://leetcode.com/problems/find-the-largest-palindrome-divisible-by-k) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) [`字符串`](/leetcode/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
+| 3312 | [查询排序后的最大公约数](https://leetcode.com/problems/sorted-gcd-pair-queries) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/math.md) `5+` | <font color=#ff334b>Hard</font> |
 | LCP 02 | [分式化简](https://leetcode.cn/problems/deep-dark-fraction) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`数论`](/leetcode/outline/tag/number-theory.md) `1+` | <font color=#15bd66>Easy</font> |
 | LCP 14 | [切分数组](https://leetcode.cn/problems/qie-fen-shu-zu) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
