@@ -371,24 +371,21 @@ class LeetcodeCrawler():
             similar = json.loads(question['similar'])
             if len(similar) > 0:
 
-                f.write("\n\n## 相关题目\n\n:::: md-demo 相关题目\n")
+                frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+                
+                f.write("\n\n## 相关题目\n\n")
+                
                 for similar_item in similar:
                     df_indexs = df[df['slug'] == similar_item['titleSlug']].index.tolist()
                     if not df_indexs:
                         print('%s 没有出现在 problem-list.csv 中' % (similar_item['translatedTitle']))
                         continue
                     
-                    row = df_indexs[0]
-                    problem_id = df.loc[row, "frontedId"]
-                    problem_file_name = df.loc[row, "fileName"]
-                    isAC = utils.isAC(problem_file_name)
-                    if isAC:
-                        problem_link = "- [{}. {}](./{}.md)".format(problem_id, similar_item['translatedTitle'], problem_file_name)
-                    else:
-                        problem_link = "- [{}. {}](https://leetcode.com/problems/{})".format(problem_id, similar_item['translatedTitle'], similar_item['titleSlug'])
-
-                    f.write(problem_link + '\n')
-                f.write("\n::::\n")
+                    frame.loc[len(frame.index)] = utils.gen_frame_items(df_indexs[0], df, const.problem_path)
+                    
+                table = utils.gen_markdown_table(frame, True)
+                f.write(table)
+                f.write(const.tag_list_css)
 
     def close_db(self):
         self.conn.close()
