@@ -718,6 +718,7 @@ console.log(priorityQueue.count()); // output: 3
 
 #### 队列基础题目
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -726,6 +727,7 @@ console.log(priorityQueue.count()); // output: 3
 
 #### 优先队列
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0703) |  [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Easy</font> |

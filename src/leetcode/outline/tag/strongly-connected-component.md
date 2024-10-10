@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |  |  [`并查集`](/leetcode/outline/tag/union-find.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |

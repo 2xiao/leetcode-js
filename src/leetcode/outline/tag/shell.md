@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 192 | [统计词频](https://leetcode.com/problems/word-frequency) |  |  [`Shell`](/leetcode/outline/tag/shell.md) | <font color=#ffb800>Medium</font> |

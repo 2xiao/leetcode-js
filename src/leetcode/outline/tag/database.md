@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 175 | [组合两个表](https://leetcode.com/problems/combine-two-tables) |  |  [`数据库`](/leetcode/outline/tag/database.md) | <font color=#15bd66>Easy</font> |

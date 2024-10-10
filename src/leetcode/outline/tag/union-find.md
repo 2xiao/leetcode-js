@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/union-find.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
@@ -30,7 +31,7 @@
 | 684 | [冗余连接](https://leetcode.com/problems/redundant-connection) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `1+` | <font color=#ffb800>Medium</font> |
 | 685 | [冗余连接 II](https://leetcode.com/problems/redundant-connection-ii) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `1+` | <font color=#ff334b>Hard</font> |
 | 694 | [不同岛屿的数量](https://leetcode.com/problems/number-of-distinct-islands) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
-| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
+| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
 | 711 | [不同岛屿的数量 II](https://leetcode.com/problems/number-of-distinct-islands-ii) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ff334b>Hard</font> |
 | 721 | [账户合并](https://leetcode.com/problems/accounts-merge) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `4+` | <font color=#ffb800>Medium</font> |
 | 737 | [句子相似性 II](https://leetcode.com/problems/sentence-similarity-ii) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `3+` | <font color=#ffb800>Medium</font> |

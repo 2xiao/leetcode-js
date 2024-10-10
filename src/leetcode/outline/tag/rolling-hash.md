@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 187 | [重复的DNA序列](https://leetcode.com/problems/repeated-dna-sequences) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `3+` | <font color=#ffb800>Medium</font> |

@@ -1051,6 +1051,7 @@ class NumArray {
 
 #### 二叉树的遍历
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 144 | [二叉树的前序遍历](https://leetcode.com/problems/binary-tree-preorder-traversal) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0144) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
@@ -1078,6 +1079,7 @@ class NumArray {
 
 #### 二叉树的还原
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 105 | [从前序与中序遍历序列构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0105) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -1086,6 +1088,7 @@ class NumArray {
 
 #### 二叉搜索树
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 98 | [验证二叉搜索树](https://leetcode.com/problems/validate-binary-search-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0098) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -1105,6 +1108,7 @@ class NumArray {
 
 * 单点更新
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
@@ -1113,6 +1117,7 @@ class NumArray {
 
 * 区间更新
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 370 | [区间加法](https://leetcode.com/problems/range-addition) |  |  [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
@@ -1124,6 +1129,7 @@ class NumArray {
 
 * 区间合并
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 729 | [我的日程安排表 I](https://leetcode.com/problems/my-calendar-i) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0729) |  [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -1132,6 +1138,7 @@ class NumArray {
 
 * 扫描线问题
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem) |  |  [`树状数组`](/leetcode/outline/tag/binary-indexed-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
@@ -1140,6 +1147,7 @@ class NumArray {
 
 #### 树状数组
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 303 | [区域和检索 - 数组不可变](https://leetcode.com/problems/range-sum-query-immutable) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0303) |  [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
@@ -1153,6 +1161,7 @@ class NumArray {
 
 #### 并查集
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 990 | [等式方程的可满足性](https://leetcode.com/problems/satisfiability-of-equality-equations) |  |  [`并查集`](/leetcode/outline/tag/union-find.md) [`图`](/leetcode/outline/tag/graph.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |

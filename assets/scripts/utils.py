@@ -25,7 +25,7 @@ def gen_markdown_table(frame, need_sort):
 
     head_name = ["题号", "标题", "题解", "标签", "难度", "频次"]
 
-    lines = []
+    lines = ['<!-- prettier-ignore -->']
 
     # 表头部分
     title = "|"

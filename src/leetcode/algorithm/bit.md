@@ -7,6 +7,7 @@
 
 ## 相关题目
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 504 | [七进制数](https://leetcode.com/problems/base-7) |  |  [`数学`](/leetcode/outline/tag/math.md) | <font color=#15bd66>Easy</font> |

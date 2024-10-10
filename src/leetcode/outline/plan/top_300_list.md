@@ -11,6 +11,7 @@ headerDepth: 0
 * 单链表
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 206 | [反转链表](https://leetcode.com/problems/reverse-linked-list) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
@@ -42,6 +43,7 @@ headerDepth: 0
 * 双链表
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 21 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0021) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
@@ -58,6 +60,7 @@ headerDepth: 0
 * 遍历
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 145 | [二叉树的后序遍历](https://leetcode.com/problems/binary-tree-postorder-traversal) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0145) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
@@ -73,6 +76,7 @@ headerDepth: 0
 * 构造
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0108) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`数组`](/leetcode/outline/tag/array.md) `2+` | <font color=#15bd66>Easy</font> |
@@ -87,6 +91,7 @@ headerDepth: 0
 * 路径 | 深度 | 翻转
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0104) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
@@ -116,6 +121,7 @@ headerDepth: 0
 * 二叉搜索树
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0108) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`数组`](/leetcode/outline/tag/array.md) `2+` | <font color=#15bd66>Easy</font> |
@@ -130,6 +136,7 @@ headerDepth: 0
 * 字典树
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 720 | [词典中最长的单词](https://leetcode.com/problems/longest-word-in-dictionary) |  |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -142,6 +149,7 @@ headerDepth: 0
 * 线段树
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1353 | [最多可以参加的会议数目](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -162,6 +170,7 @@ headerDepth: 0
 * 基础
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 20 | [有效的括号](https://leetcode.com/problems/valid-parentheses) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0020) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
@@ -192,6 +201,7 @@ headerDepth: 0
 * 单调栈
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0496) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#15bd66>Easy</font> |
@@ -211,6 +221,7 @@ headerDepth: 0
 * 基础
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1046 | [最后一块石头的重量](https://leetcode.com/problems/last-stone-weight) |  |  [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#15bd66>Easy</font> |
@@ -231,6 +242,7 @@ headerDepth: 0
 ## 二分查找
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0069) |  [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
@@ -264,6 +276,7 @@ headerDepth: 0
 ## 位运算
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 136 | [只出现一次的数字](https://leetcode.com/problems/single-number) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0136) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |
@@ -288,6 +301,7 @@ headerDepth: 0
 ## 双指针与滑动窗口
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string) |  |  [`队列`](/leetcode/outline/tag/queue.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
@@ -319,6 +333,7 @@ headerDepth: 0
 ## 矩阵
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 867 | [转置矩阵](https://leetcode.com/problems/transpose-matrix) |  |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
@@ -335,6 +350,7 @@ headerDepth: 0
 * 一维
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 70 | [爬楼梯](https://leetcode.com/problems/climbing-stairs) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0070) |  [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
@@ -358,6 +374,7 @@ headerDepth: 0
 * 二维
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0005) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
@@ -383,13 +400,14 @@ headerDepth: 0
 * DFS
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 394 | [字符串解码](https://leetcode.com/problems/decode-string) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0394) |  [`栈`](/leetcode/outline/tag/stack.md) [`递归`](/leetcode/outline/tag/recursion.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 721 | [账户合并](https://leetcode.com/problems/accounts-merge) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `4+` | <font color=#ffb800>Medium</font> |
 | 547 | [省份数量](https://leetcode.com/problems/number-of-provinces) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `1+` | <font color=#ffb800>Medium</font> |
 | 494 | [目标和](https://leetcode.com/problems/target-sum) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0494) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
+| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
 | 130 | [被围绕的区域](https://leetcode.com/problems/surrounded-regions) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0130) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1631 | [最小体力消耗路径](https://leetcode.com/problems/path-with-minimum-effort) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `4+` | <font color=#ffb800>Medium</font> |
 | 207 | [课程表](https://leetcode.com/problems/course-schedule) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0207) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -400,6 +418,7 @@ headerDepth: 0
 * BFS
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 690 | [员工的重要性](https://leetcode.com/problems/employee-importance) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -423,6 +442,7 @@ headerDepth: 0
 * 拓扑排序
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 207 | [课程表](https://leetcode.com/problems/course-schedule) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0207) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -434,6 +454,7 @@ headerDepth: 0
 ## 并查集
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 200 | [岛屿数量](https://leetcode.com/problems/number-of-islands) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0200) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -451,6 +472,7 @@ headerDepth: 0
 ## 设计
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1603 | [设计停车系统](https://leetcode.com/problems/design-parking-system) |  |  [`设计`](/leetcode/outline/tag/design.md) [`计数`](/leetcode/outline/tag/counting.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
@@ -470,6 +492,7 @@ headerDepth: 0
 ## 贪心
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0264) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -482,6 +505,7 @@ headerDepth: 0
 ## 回溯
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 46 | [全排列](https://leetcode.com/problems/permutations) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0046) |  [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
@@ -507,6 +531,7 @@ headerDepth: 0
 ## 克隆
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 133 | [克隆图](https://leetcode.com/problems/clone-graph) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0133) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -516,6 +541,7 @@ headerDepth: 0
 ## 数学
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 204 | [计数质数](https://leetcode.com/problems/count-primes) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`枚举`](/leetcode/outline/tag/enumeration.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -532,6 +558,7 @@ headerDepth: 0
 ## 极大极小化
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 292 | [Nim 游戏](https://leetcode.com/problems/nim-game) |  |  [`脑筋急转弯`](/leetcode/outline/tag/brainteaser.md) [`数学`](/leetcode/outline/tag/math.md) [`博弈`](/leetcode/outline/tag/game-theory.md) | <font color=#15bd66>Easy</font> |
@@ -544,6 +571,7 @@ headerDepth: 0
 ## 几何
 
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1232 | [缀点成线](https://leetcode.com/problems/check-if-it-is-a-straight-line) |  |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#15bd66>Easy</font> |

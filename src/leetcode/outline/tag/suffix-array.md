@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1044 | [最长重复子串](https://leetcode.com/problems/longest-duplicate-substring) |  |  [`字符串`](/leetcode/outline/tag/string.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`后缀数组`](/leetcode/outline/tag/suffix-array.md) `3+` | <font color=#ff334b>Hard</font> |

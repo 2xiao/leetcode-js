@@ -208,6 +208,7 @@ function bsearch(arr, value) {
 
 #### 二分下标
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 704 | [二分查找](https://leetcode.com/problems/binary-search) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0704) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
@@ -230,6 +231,7 @@ function bsearch(arr, value) {
 
 #### 二分答案
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0069) |  [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
@@ -241,6 +243,7 @@ function bsearch(arr, value) {
 
 #### 复杂的二分查找问题
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas) |  |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |

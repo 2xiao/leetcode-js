@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 4 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0004) |  [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> |

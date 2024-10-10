@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 36 | [有效的数独](https://leetcode.com/problems/valid-sudoku) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0036) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
@@ -69,7 +70,7 @@
 | 631 | [设计 Excel 求和公式](https://leetcode.com/problems/design-excel-sum-formula) |  |  [`图`](/leetcode/outline/tag/graph.md) [`设计`](/leetcode/outline/tag/design.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) `2+` | <font color=#ff334b>Hard</font> |
 | 661 | [图片平滑器](https://leetcode.com/problems/image-smoother) |  |  [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#15bd66>Easy</font> |
 | 675 | [为高尔夫比赛砍树](https://leetcode.com/problems/cut-off-trees-for-golf-event) |  |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) `1+` | <font color=#ff334b>Hard</font> |
-| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
+| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
 | 723 | [粉碎糖果](https://leetcode.com/problems/candy-crush) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`矩阵`](/leetcode/outline/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 733 | [图像渲染](https://leetcode.com/problems/flood-fill) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
 | 741 | [摘樱桃](https://leetcode.com/problems/cherry-pickup) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ff334b>Hard</font> |

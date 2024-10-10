@@ -1,7 +1,8 @@
 # 1.3 LeetCode 题解
 
-已完成 386 道
+已完成 387 道
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1 | [两数之和](https://leetcode.com/problems/two-sum) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
@@ -277,6 +278,7 @@
 | 654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0654) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 682 | [棒球比赛](https://leetcode.com/problems/baseball-game) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
+| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
 | 700 | [二叉搜索树中的搜索](https://leetcode.com/problems/search-in-a-binary-search-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0700) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#15bd66>Easy</font> |
 | 701 | [二叉搜索树中的插入操作](https://leetcode.com/problems/insert-into-a-binary-search-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0701) |  [`树`](/leetcode/outline/tag/tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 703 | [数据流中的第 K 大元素](https://leetcode.com/problems/kth-largest-element-in-a-stream) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0703) |  [`树`](/leetcode/outline/tag/tree.md) [`设计`](/leetcode/outline/tag/design.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Easy</font> |

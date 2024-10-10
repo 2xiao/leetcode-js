@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1192 | [查找集群内的关键连接](https://leetcode.com/problems/critical-connections-in-a-network) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) [`双连通分量`](/leetcode/outline/tag/biconnected-component.md) | <font color=#ff334b>Hard</font> |

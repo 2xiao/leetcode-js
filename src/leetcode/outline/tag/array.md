@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1 | [两数之和](https://leetcode.com/problems/two-sum) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0001) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
@@ -322,7 +323,7 @@
 | 689 | [三个无重叠子数组的最大和](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 690 | [员工的重要性](https://leetcode.com/problems/employee-importance) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 691 | [贴纸拼词](https://leetcode.com/problems/stickers-to-spell-word) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `3+` | <font color=#ff334b>Hard</font> |
-| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
+| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
 | 697 | [数组的度](https://leetcode.com/problems/degree-of-an-array) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
 | 698 | [划分为k个相等的子集](https://leetcode.com/problems/partition-to-k-equal-sum-subsets) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 699 | [掉落的方块](https://leetcode.com/problems/falling-squares) |  |  [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) | <font color=#ff334b>Hard</font> |

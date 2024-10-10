@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0149) |  [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |

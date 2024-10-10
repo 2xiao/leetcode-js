@@ -5,6 +5,7 @@ headerDepth: 0
 
 ![](../../../../assets/image/plan-8.png =500x)
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 剑指 Offer II 1 | [整数除法](https://leetcode.cn/problems/xoh6Oh) |  |  [`数学`](/leetcode/outline/tag/math.md) | <font color=#15bd66>Easy</font> |

@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 274 | [H 指数](https://leetcode.com/problems/h-index) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0274) |  [`数组`](/leetcode/outline/tag/array.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |

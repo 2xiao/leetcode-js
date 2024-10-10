@@ -544,6 +544,7 @@ var lengthOfLongestSubstring = function (s) {
 
 #### 固定长度窗口
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1343 | [大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |  |  [`数组`](/leetcode/outline/tag/array.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
@@ -564,6 +565,7 @@ var lengthOfLongestSubstring = function (s) {
 
 #### 不定长度窗口
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 674 | [最长连续递增序列](https://leetcode.com/problems/longest-continuous-increasing-subsequence) |  |  [`数组`](/leetcode/outline/tag/array.md) | <font color=#15bd66>Easy</font> |

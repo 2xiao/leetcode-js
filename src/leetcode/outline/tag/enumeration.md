@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 204 | [计数质数](https://leetcode.com/problems/count-primes) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`枚举`](/leetcode/outline/tag/enumeration.md) `1+` | <font color=#ffb800>Medium</font> |

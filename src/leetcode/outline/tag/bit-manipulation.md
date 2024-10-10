@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 29 | [两数相除](https://leetcode.com/problems/divide-two-integers) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0029) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |

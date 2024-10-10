@@ -1670,6 +1670,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 #### 链表基础题目
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 707 | [设计链表](https://leetcode.com/problems/design-linked-list) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0707) |  [`设计`](/leetcode/outline/tag/design.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
@@ -1687,6 +1688,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 #### 链表排序
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 148 | [排序链表](https://leetcode.com/problems/sort-list) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0148) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -1696,6 +1698,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 #### 链表双指针
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 141 | [环形链表](https://leetcode.com/problems/linked-list-cycle) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0141) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |

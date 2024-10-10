@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1135 | [最低成本连通所有城市](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |  |  [`并查集`](/leetcode/outline/tag/union-find.md) [`图`](/leetcode/outline/tag/graph.md) [`最小生成树`](/leetcode/outline/tag/minimum-spanning-tree.md) `1+` | <font color=#ffb800>Medium</font> |

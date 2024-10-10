@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0382) |  [`水塘抽样`](/leetcode/outline/tag/reservoir-sampling.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |

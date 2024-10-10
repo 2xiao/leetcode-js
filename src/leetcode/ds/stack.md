@@ -617,6 +617,7 @@ var dailyTemperatures = function (temperatures) {
 
 #### 栈基础题目
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/1047) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
@@ -635,6 +636,7 @@ var dailyTemperatures = function (temperatures) {
 
 #### 单调栈
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 739 | [每日温度](https://leetcode.com/problems/daily-temperatures) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0739) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`单调栈`](/leetcode/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |

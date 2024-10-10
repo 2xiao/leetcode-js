@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7) |  |  [`数学`](/leetcode/outline/tag/math.md) [`拒绝采样`](/leetcode/outline/tag/rejection-sampling.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |

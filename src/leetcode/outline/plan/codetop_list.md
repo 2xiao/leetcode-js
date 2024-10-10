@@ -5,6 +5,7 @@ headerDepth: 0
 
 ![](../../../../assets/image/plan-3.png =500x)
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 3 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0003) |  [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> | 642 |
@@ -92,7 +93,7 @@ headerDepth: 0
 | 14 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0014) |  [`字典树`](/leetcode/outline/tag/trie.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 58 |
 | 662 | [二叉树最大宽度](https://leetcode.com/problems/maximum-width-of-binary-tree) |  |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> | 57 |
 | 122 | [买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0122) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 56 |
-| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) |  |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> | 56 |
+| 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> | 56 |
 | 128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0128) |  [`并查集`](/leetcode/outline/tag/union-find.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> | 56 |
 | 152 | [乘积最大子数组](https://leetcode.com/problems/maximum-product-subarray) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0152) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 55 |
 | 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0062) |  [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> | 55 |

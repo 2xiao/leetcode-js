@@ -73,6 +73,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 #### 字符串基础题目
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 125 | [验证回文串](https://leetcode.com/problems/valid-palindrome) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
@@ -88,6 +89,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 #### 单模式串匹配
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 28 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0028) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`字符串匹配`](/leetcode/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
@@ -100,6 +102,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 #### 字典树
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0208) |  [`设计`](/leetcode/outline/tag/design.md) [`字典树`](/leetcode/outline/tag/trie.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |

@@ -17,6 +17,7 @@
 
 ---
 
+<!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1114 | [按序打印](https://leetcode.com/problems/print-in-order) |  |  [`多线程`](/leetcode/outline/tag/concurrency.md) | <font color=#15bd66>Easy</font> |
