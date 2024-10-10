@@ -392,7 +392,7 @@ headerDepth: 0
 
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 75 | [颜色分类](https://leetcode.com/problems/sort-colors) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 33 |
+| 75 | [颜色分类](https://leetcode.com/problems/sort-colors) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0075) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 33 |
 
 
 * 希尔排序
@@ -530,7 +530,7 @@ headerDepth: 0
 | 16 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0016) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 29 |
 | 125 | [验证回文串](https://leetcode.com/problems/valid-palindrome) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0125) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> | 29 |
 | 11 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0011) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> | 43 |
-| 75 | [颜色分类](https://leetcode.com/problems/sort-colors) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 33 |
+| 75 | [颜色分类](https://leetcode.com/problems/sort-colors) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0075) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> | 33 |
 | 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/jz_offer_21_1) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> | 30 |
 | 443 | [压缩字符串](https://leetcode.com/problems/string-compression) |  |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> | 18 |
 

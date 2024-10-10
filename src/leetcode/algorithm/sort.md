@@ -355,7 +355,7 @@ function swap(arr, i, j) {
 
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 75 | [颜色分类](https://leetcode.com/problems/sort-colors) |  |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 75 | [颜色分类](https://leetcode.com/problems/sort-colors) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0075) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 
 * 希尔排序
 
