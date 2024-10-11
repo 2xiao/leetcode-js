@@ -44,6 +44,7 @@ var decorateRecord = function (root) {
 	let res = [];
 	if (root == null) return res;
 	let queue = [root];
+	let leftToRight = true;
 
 	while (queue.length) {
 		let len = queue.length;
@@ -51,10 +52,15 @@ var decorateRecord = function (root) {
 		for (let i = 0; i < len; i++) {
 			if (queue[i].left) queue.push(queue[i].left);
 			if (queue[i].right) queue.push(queue[i].right);
-			temp.push(queue[i].val);
+			if (leftToRight) {
+				temp.push(queue[i].val);
+			} else {
+				temp.unshift(queue[i].val);
+			}
 		}
 		queue = queue.slice(len);
 		res.push(temp);
+		leftToRight = !leftToRight;
 	}
 	return res;
 };

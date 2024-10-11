@@ -346,6 +346,7 @@ export default sidebar({
             "0543",
             "0557",
             "0559",
+            "0560",
             "0567",
             "0572",
             "0583",
@@ -363,6 +364,7 @@ export default sidebar({
             "0637",
             "0641",
             "0654",
+            "0662",
             "0678",
             "0682",
             "0695"
@@ -479,6 +481,7 @@ export default sidebar({
           text: "1900-1999",
           collapsible: true,
           children: [
+            "1942",
             "1963"
           ],
         },
@@ -581,7 +584,9 @@ export default sidebar({
             "jz_offer_54_1",
             "jz_offer_55_1",
             "jz_offer_58_1",
+            "jz_offer_60_1",
             "jz_offer_61_1",
+            "jz_offer_62_1",
             "jz_offer_63_1"
           ],
         },
