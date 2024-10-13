@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 393 道
+已完成 394 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -274,6 +274,7 @@
 | 611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0611) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 617 | [合并二叉树](https://leetcode.com/problems/merge-two-binary-trees) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0617) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
 | 622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0622) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 632 | [最小区间](https://leetcode.com/problems/smallest-range-covering-elements-from-k-lists) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0632) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `3+` | <font color=#ff334b>Hard</font> |
 | 637 | [二叉树的层平均值](https://leetcode.com/problems/average-of-levels-in-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0637) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
 | 641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0641) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0654) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
