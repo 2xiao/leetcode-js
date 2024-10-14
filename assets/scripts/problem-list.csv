@@ -261,8 +261,8 @@ LCP 06,LCP_06,other,拿硬币,拿硬币,na-ying-bi,"Array|array|数组,Math|math
 剑指 Offer 55 - II,jz_offer_55_2,Offer,平衡二叉树,平衡二叉树,ping-heng-er-cha-shu-lcof,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Easy,False
 剑指 Offer 61,jz_offer_61_1,Offer,扑克牌中的顺子,扑克牌中的顺子,bu-ke-pai-zhong-de-shun-zi-lcof,"Array|array|数组,Sorting|sorting|排序",Easy,True
 剑指 Offer 63,jz_offer_63_1,Offer,股票的最大利润,股票的最大利润,gu-piao-de-zui-da-li-run-lcof,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划",Medium,True
-剑指 Offer 62,jz_offer_62_1,Offer,圆圈中最后剩下的数字,圆圈中最后剩下的数字,yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof,"Recursion|recursion|递归,Math|math|数学",Easy,False
-剑指 Offer 60,jz_offer_60_1,Offer,n个骰子的点数,n个骰子的点数,nge-tou-zi-de-dian-shu-lcof,"Math|math|数学,Dynamic Programming|dynamic-programming|动态规划,Probability and Statistics|probability-and-statistics|概率与统计",Medium,False
+剑指 Offer 62,jz_offer_62_1,Offer,圆圈中最后剩下的数字,圆圈中最后剩下的数字,yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof,"Recursion|recursion|递归,Math|math|数学",Easy,True
+剑指 Offer 60,jz_offer_60_1,Offer,n个骰子的点数,n个骰子的点数,nge-tou-zi-de-dian-shu-lcof,"Math|math|数学,Dynamic Programming|dynamic-programming|动态规划,Probability and Statistics|probability-and-statistics|概率与统计",Medium,True
 剑指 Offer 67,jz_offer_67_1,Offer,把字符串转换成整数,把字符串转换成整数,ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof,String|string|字符串,Medium,False
 剑指 Offer 59 - II,jz_offer_59_2,Offer,队列的最大值,队列的最大值,dui-lie-de-zui-da-zhi-lcof,"Design|design|设计,Queue|queue|队列,Monotonic Queue|monotonic-queue|单调队列",Medium,False
 剑指 Offer 66,jz_offer_66_1,Offer,构建乘积数组,构建乘积数组,gou-jian-cheng-ji-shu-zu-lcof,"Array|array|数组,Prefix Sum|prefix-sum|前缀和",Medium,False
@@ -1310,7 +1310,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 2413,2413,2400-2499,Smallest Even Multiple,最小偶倍数,smallest-even-multiple,"Math|math|数学,Number Theory|number-theory|数论",Easy,False
 2405,2405,2400-2499,Optimal Partition of String,子字符串的最优划分,optimal-partition-of-string,"Greedy|greedy|贪心,Hash Table|hash-table|哈希表,String|string|字符串",Medium,False
 2404,2404,2400-2499,Most Frequent Even Element,出现最频繁的偶数元素,most-frequent-even-element,"Array|array|数组,Hash Table|hash-table|哈希表,Counting|counting|计数",Easy,False
-2406,2406,2400-2499,Divide Intervals Into Minimum Number of Groups,将区间分为最少组数,divide-intervals-into-minimum-number-of-groups,"Greedy|greedy|贪心,Array|array|数组,Two Pointers|two-pointers|双指针,Prefix Sum|prefix-sum|前缀和,Sorting|sorting|排序,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False
+2406,2406,2400-2499,Divide Intervals Into Minimum Number of Groups,将区间分为最少组数,divide-intervals-into-minimum-number-of-groups,"Greedy|greedy|贪心,Array|array|数组,Two Pointers|two-pointers|双指针,Prefix Sum|prefix-sum|前缀和,Sorting|sorting|排序,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,True
 2397,2397,2300-2399,Maximum Rows Covered by Columns,被列覆盖的最多行数,maximum-rows-covered-by-columns,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Backtracking|backtracking|回溯,Enumeration|enumeration|枚举,Matrix|matrix|矩阵",Medium,False
 2365,2365,2300-2399,Task Scheduler II,任务调度器 II,task-scheduler-ii,"Array|array|数组,Hash Table|hash-table|哈希表,Simulation|simulation|模拟",Medium,False
 2402,2402,2400-2499,Meeting Rooms III,会议室 III,meeting-rooms-iii,"Array|array|数组,Hash Table|hash-table|哈希表,Sorting|sorting|排序,Simulation|simulation|模拟,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Hard,False
@@ -1737,7 +1737,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 1943,1943,1900-1999,Describe the Painting,描述绘画结果,describe-the-painting,"Array|array|数组,Hash Table|hash-table|哈希表,Prefix Sum|prefix-sum|前缀和,Sorting|sorting|排序",Medium,False
 1923,1923,1900-1999,Longest Common Subpath,最长公共子路径,longest-common-subpath,"Array|array|数组,Binary Search|binary-search|二分查找,Suffix Array|suffix-array|后缀数组,Hash Function|hash-function|哈希函数,Rolling Hash|rolling-hash|滚动哈希",Hard,False
 1907,1907,1900-1999,Count Salary Categories,按分类统计薪水,count-salary-categories,Database|database|数据库,Medium,False
-1942,1942,1900-1999,The Number of the Smallest Unoccupied Chair,最小未被占据椅子的编号,the-number-of-the-smallest-unoccupied-chair,"Array|array|数组,Hash Table|hash-table|哈希表,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False
+1942,1942,1900-1999,The Number of the Smallest Unoccupied Chair,最小未被占据椅子的编号,the-number-of-the-smallest-unoccupied-chair,"Array|array|数组,Hash Table|hash-table|哈希表,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,True
 1922,1922,1900-1999,Count Good Numbers,统计好数字的数目,count-good-numbers,"Recursion|recursion|递归,Math|math|数学",Medium,False
 1941,1941,1900-1999,Check if All Characters Have Equal Number of Occurrences,检查是否所有字符出现次数相同,check-if-all-characters-have-equal-number-of-occurrences,"Hash Table|hash-table|哈希表,String|string|字符串,Counting|counting|计数",Easy,False
 1921,1921,1900-1999,Eliminate Maximum Number of Monsters,消灭怪物的最大数量,eliminate-maximum-number-of-monsters,"Greedy|greedy|贪心,Array|array|数组,Sorting|sorting|排序",Medium,False
@@ -2219,7 +2219,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 1422,1422,1400-1499,Maximum Score After Splitting a String,分割字符串的最大得分,maximum-score-after-splitting-a-string,"String|string|字符串,Prefix Sum|prefix-sum|前缀和",Easy,False
 1398,1398,1300-1399,Customers Who Bought Products A and B but Not C,购买了产品 A 和产品 B 却没有购买产品 C 的顾客,customers-who-bought-products-a-and-b-but-not-c,Database|database|数据库,Medium,False
 1423,1423,1400-1499,Maximum Points You Can Obtain from Cards,可获得的最大点数,maximum-points-you-can-obtain-from-cards,"Array|array|数组,Prefix Sum|prefix-sum|前缀和,Sliding Window|sliding-window|滑动窗口",Medium,False
-1419,1419,1400-1499,Minimum Number of Frogs Croaking,数青蛙,minimum-number-of-frogs-croaking,"String|string|字符串,Counting|counting|计数",Medium,False
+1419,1419,1400-1499,Minimum Number of Frogs Croaking,数青蛙,minimum-number-of-frogs-croaking,"String|string|字符串,Counting|counting|计数",Medium,True
 1418,1418,1400-1499,Display Table of Food Orders in a Restaurant,点菜展示表,display-table-of-food-orders-in-a-restaurant,"Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串,Ordered Set|ordered-set|有序集合,Sorting|sorting|排序",Medium,False
 1417,1417,1400-1499,Reformat The String,重新格式化字符串,reformat-the-string,String|string|字符串,Easy,False
 1434,1434,1400-1499,Number of Ways to Wear Different Hats to Each Other,每个人戴不同帽子的方案数,number-of-ways-to-wear-different-hats-to-each-other,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Bitmask|bitmask|状态压缩",Hard,False
@@ -2739,7 +2739,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 960,0960,0900-0999,Delete Columns to Make Sorted III,删列造序 III,delete-columns-to-make-sorted-iii,"Array|array|数组,String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Hard,False
 963,0963,0900-0999,Minimum Area Rectangle II,最小面积矩形 II,minimum-area-rectangle-ii,"Geometry|geometry|几何,Array|array|数组,Math|math|数学",Medium,False
 957,0957,0900-0999,Prison Cells After N Days,N 天后的牢房,prison-cells-after-n-days,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Hash Table|hash-table|哈希表,Math|math|数学",Medium,False
-962,0962,0900-0999,Maximum Width Ramp,最大宽度坡,maximum-width-ramp,"Stack|stack|栈,Array|array|数组,Monotonic Stack|monotonic-stack|单调栈",Medium,False
+962,0962,0900-0999,Maximum Width Ramp,最大宽度坡,maximum-width-ramp,"Stack|stack|栈,Array|array|数组,Monotonic Stack|monotonic-stack|单调栈",Medium,True
 956,0956,0900-0999,Tallest Billboard,最高的广告牌,tallest-billboard,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划",Hard,False
 959,0959,0900-0999,Regions Cut By Slashes,由斜杠划分区域,regions-cut-by-slashes,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Array|array|数组,Hash Table|hash-table|哈希表,Matrix|matrix|矩阵",Medium,False
 955,0955,0900-0999,Delete Columns to Make Sorted II,删列造序 II,delete-columns-to-make-sorted-ii,"Greedy|greedy|贪心,Array|array|数组,String|string|字符串",Medium,False
@@ -2780,7 +2780,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 922,0922,0900-0999,Sort Array By Parity II,按奇偶排序数组 II,sort-array-by-parity-ii,"Array|array|数组,Two Pointers|two-pointers|双指针,Sorting|sorting|排序",Easy,False
 920,0920,0900-0999,Number of Music Playlists,播放列表的数量,number-of-music-playlists,"Math|math|数学,Dynamic Programming|dynamic-programming|动态规划,Combinatorics|combinatorics|组合数学",Hard,False
 918,0918,0900-0999,Maximum Sum Circular Subarray,环形子数组的最大和,maximum-sum-circular-subarray,"Queue|queue|队列,Array|array|数组,Divide and Conquer|divide-and-conquer|分治,Dynamic Programming|dynamic-programming|动态规划,Monotonic Queue|monotonic-queue|单调队列",Medium,False
-921,0921,0900-0999,Minimum Add to Make Parentheses Valid,使括号有效的最少添加,minimum-add-to-make-parentheses-valid,"Stack|stack|栈,Greedy|greedy|贪心,String|string|字符串",Medium,False
+921,0921,0900-0999,Minimum Add to Make Parentheses Valid,使括号有效的最少添加,minimum-add-to-make-parentheses-valid,"Stack|stack|栈,Greedy|greedy|贪心,String|string|字符串",Medium,True
 917,0917,0900-0999,Reverse Only Letters,仅仅反转字母,reverse-only-letters,"Two Pointers|two-pointers|双指针,String|string|字符串",Easy,False
 916,0916,0900-0999,Word Subsets,单词子集,word-subsets,"Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串",Medium,False
 914,0914,0900-0999,X of a Kind in a Deck of Cards,卡牌分组,x-of-a-kind-in-a-deck-of-cards,"Array|array|数组,Hash Table|hash-table|哈希表,Math|math|数学,Counting|counting|计数,Number Theory|number-theory|数论",Easy,False
@@ -3022,7 +3022,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 711,0711,0700-0799,Number of Distinct Islands II,不同岛屿的数量 II,number-of-distinct-islands-ii,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Hash Table|hash-table|哈希表,Hash Function|hash-function|哈希函数",Hard,False
 696,0696,0600-0699,Count Binary Substrings,计数二进制子串,count-binary-substrings,"Two Pointers|two-pointers|双指针,String|string|字符串",Easy,False
 690,0690,0600-0699,Employee Importance,员工的重要性,employee-importance,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Array|array|数组,Hash Table|hash-table|哈希表",Medium,False
-695,0695,0600-0699,Max Area of Island,岛屿的最大面积,max-area-of-island,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Array|array|数组,Matrix|matrix|矩阵",Medium,False
+695,0695,0600-0699,Max Area of Island,岛屿的最大面积,max-area-of-island,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Array|array|数组,Matrix|matrix|矩阵",Medium,True
 694,0694,0600-0699,Number of Distinct Islands,不同岛屿的数量,number-of-distinct-islands,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Hash Table|hash-table|哈希表,Hash Function|hash-function|哈希函数",Medium,False
 692,0692,0600-0699,Top K Frequent Words,前K个高频单词,top-k-frequent-words,"Trie|trie|字典树,Hash Table|hash-table|哈希表,String|string|字符串,Bucket Sort|bucket-sort|桶排序,Counting|counting|计数,Sorting|sorting|排序,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False
 691,0691,0600-0699,Stickers to Spell Word,贴纸拼词,stickers-to-spell-word,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,String|string|字符串,Dynamic Programming|dynamic-programming|动态规划,Backtracking|backtracking|回溯,Bitmask|bitmask|状态压缩",Hard,False
@@ -3053,7 +3053,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 669,0669,0600-0699,Trim a Binary Search Tree,修剪二叉搜索树,trim-a-binary-search-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Search Tree|binary-search-tree|二叉搜索树,Binary Tree|binary-tree|二叉树",Medium,False
 664,0664,0600-0699,Strange Printer,奇怪的打印机,strange-printer,"String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Hard,False
 665,0665,0600-0699,Non-decreasing Array,非递减数列,non-decreasing-array,Array|array|数组,Medium,False
-662,0662,0600-0699,Maximum Width of Binary Tree,二叉树最大宽度,maximum-width-of-binary-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Binary Tree|binary-tree|二叉树",Medium,False
+662,0662,0600-0699,Maximum Width of Binary Tree,二叉树最大宽度,maximum-width-of-binary-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Binary Tree|binary-tree|二叉树",Medium,True
 663,0663,0600-0699,Equal Tree Partition,均匀树划分,equal-tree-partition,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Medium,False
 658,0658,0600-0699,Find K Closest Elements,找到 K 个最接近的元素,find-k-closest-elements,"Array|array|数组,Two Pointers|two-pointers|双指针,Binary Search|binary-search|二分查找,Sorting|sorting|排序,Sliding Window|sliding-window|滑动窗口,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False
 657,0657,0600-0699,Robot Return to Origin,机器人能否返回原点,robot-return-to-origin,"String|string|字符串,Simulation|simulation|模拟",Easy,False
@@ -3084,7 +3084,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 634,0634,0600-0699,Find the Derangement of An Array,寻找数组的错位排列,find-the-derangement-of-an-array,"Math|math|数学,Dynamic Programming|dynamic-programming|动态规划",Medium,False
 635,0635,0600-0699,Design Log Storage System,设计日志存储系统,design-log-storage-system,"Design|design|设计,Hash Table|hash-table|哈希表,String|string|字符串,Ordered Set|ordered-set|有序集合",Medium,False
 631,0631,0600-0699,Design Excel Sum Formula,设计 Excel 求和公式,design-excel-sum-formula,"Graph|graph|图,Design|design|设计,Topological Sort|topological-sort|拓扑排序,Array|array|数组,Matrix|matrix|矩阵",Hard,False
-632,0632,0600-0699,Smallest Range Covering Elements from K Lists,最小区间,smallest-range-covering-elements-from-k-lists,"Greedy|greedy|贪心,Array|array|数组,Hash Table|hash-table|哈希表,Sorting|sorting|排序,Sliding Window|sliding-window|滑动窗口,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Hard,False
+632,0632,0600-0699,Smallest Range Covering Elements from K Lists,最小区间,smallest-range-covering-elements-from-k-lists,"Greedy|greedy|贪心,Array|array|数组,Hash Table|hash-table|哈希表,Sorting|sorting|排序,Sliding Window|sliding-window|滑动窗口,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Hard,True
 627,0627,0600-0699,Swap Salary,变更性别,swap-salary,Database|database|数据库,Easy,False
 630,0630,0600-0699,Course Schedule III,课程表 III,course-schedule-iii,"Greedy|greedy|贪心,Array|array|数组,Sorting|sorting|排序,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Hard,False
 629,0629,0600-0699,K Inverse Pairs Array,K 个逆序对数组,k-inverse-pairs-array,Dynamic Programming|dynamic-programming|动态规划,Hard,False
@@ -3148,7 +3148,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 568,0568,0500-0599,Maximum Vacation Days,最大休假天数,maximum-vacation-days,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Matrix|matrix|矩阵",Hard,False
 565,0565,0500-0599,Array Nesting,数组嵌套,array-nesting,"Depth-First Search|depth-first-search|深度优先搜索,Array|array|数组",Medium,False
 563,0563,0500-0599,Binary Tree Tilt,二叉树的坡度,binary-tree-tilt,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Easy,False
-560,0560,0500-0599,Subarray Sum Equals K,和为 K 的子数组,subarray-sum-equals-k,"Array|array|数组,Hash Table|hash-table|哈希表,Prefix Sum|prefix-sum|前缀和",Medium,False
+560,0560,0500-0599,Subarray Sum Equals K,和为 K 的子数组,subarray-sum-equals-k,"Array|array|数组,Hash Table|hash-table|哈希表,Prefix Sum|prefix-sum|前缀和",Medium,True
 564,0564,0500-0599,Find the Closest Palindrome,寻找最近的回文数,find-the-closest-palindrome,"Math|math|数学,String|string|字符串",Hard,False
 561,0561,0500-0599,Array Partition,数组拆分,array-partition,"Greedy|greedy|贪心,Array|array|数组,Counting Sort|counting-sort|计数排序,Sorting|sorting|排序",Easy,False
 566,0566,0500-0599,Reshape the Matrix,重塑矩阵,reshape-the-matrix,"Array|array|数组,Matrix|matrix|矩阵,Simulation|simulation|模拟",Easy,False
@@ -3624,7 +3624,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 78,0078,0000-0099,Subsets,子集,subsets,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Backtracking|backtracking|回溯",Medium,True
 79,0079,0000-0099,Word Search,单词搜索,word-search,"Array|array|数组,String|string|字符串,Backtracking|backtracking|回溯,Matrix|matrix|矩阵",Medium,True
 73,0073,0000-0099,Set Matrix Zeroes,矩阵置零,set-matrix-zeroes,"Array|array|数组,Hash Table|hash-table|哈希表,Matrix|matrix|矩阵",Medium,True
-75,0075,0000-0099,Sort Colors,颜色分类,sort-colors,"Array|array|数组,Two Pointers|two-pointers|双指针,Sorting|sorting|排序",Medium,False
+75,0075,0000-0099,Sort Colors,颜色分类,sort-colors,"Array|array|数组,Two Pointers|two-pointers|双指针,Sorting|sorting|排序",Medium,True
 77,0077,0000-0099,Combinations,组合,combinations,Backtracking|backtracking|回溯,Medium,True
 72,0072,0000-0099,Edit Distance,编辑距离,edit-distance,"String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Medium,True
 69,0069,0000-0099,Sqrt(x),x 的平方根 ,sqrtx,"Math|math|数学,Binary Search|binary-search|二分查找",Easy,True
@@ -3700,3 +3700,12 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 4,0004,0000-0099,Median of Two Sorted Arrays,寻找两个正序数组的中位数,median-of-two-sorted-arrays,"Array|array|数组,Binary Search|binary-search|二分查找,Divide and Conquer|divide-and-conquer|分治",Hard,True
 2,0002,0000-0099,Add Two Numbers,两数相加,add-two-numbers,"Recursion|recursion|递归,Linked List|linked-list|链表,Math|math|数学",Medium,True
 1,0001,0000-0099,Two Sum,两数之和,two-sum,"Array|array|数组,Hash Table|hash-table|哈希表",Easy,True
+3317,3317,3300-3399,Find the Number of Possible Ways for an Event,安排活动的方案数,find-the-number-of-possible-ways-for-an-event,,Hard,False
+3314,3314,3300-3399,Construct the Minimum Bitwise Array I,构造最小位运算数组 I,construct-the-minimum-bitwise-array-i,,Easy,False
+3315,3315,3300-3399,Construct the Minimum Bitwise Array II,构造最小位运算数组 II,construct-the-minimum-bitwise-array-ii,,Medium,False
+3316,3316,3300-3399,Find Maximum Removals From Source String,从原字符串里进行删除操作的最多次数,find-maximum-removals-from-source-string,,Medium,False
+3320,3320,3300-3399,Count The Number of Winning Sequences,统计能获胜的出招序列数,count-the-number-of-winning-sequences,,Hard,False
+3319,3319,3300-3399,K-th Largest Perfect Subtree Size in Binary Tree,第 K 大的完美二叉子树的大小,k-th-largest-perfect-subtree-size-in-binary-tree,,Medium,True
+3321,3321,3300-3399,Find X-Sum of All K-Long Subarrays II,计算子数组的 x-sum II,find-x-sum-of-all-k-long-subarrays-ii,,Hard,True
+3318,3318,3300-3399,Find X-Sum of All K-Long Subarrays I,计算子数组的 x-sum I,find-x-sum-of-all-k-long-subarrays-i,,Easy,True
+3322,3322,3300-3399,Premier League Table Ranking III,Premier League Table Ranking III,premier-league-table-ranking-iii,,Medium,False

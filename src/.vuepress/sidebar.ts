@@ -457,6 +457,7 @@ export default sidebar({
           text: "1400-1499",
           collapsible: true,
           children: [
+            "1419",
             "1441",
             "1472",
             "1475",
@@ -513,6 +514,13 @@ export default sidebar({
           ],
         },
         {
+          text: "2500-2599",
+          collapsible: true,
+          children: [
+            "2530"
+          ],
+        },
+        {
           text: "2600-2699",
           collapsible: true,
           children: [
@@ -523,7 +531,10 @@ export default sidebar({
           text: "3300-3399",
           collapsible: true,
           children: [
-            "3309"
+            "3309",
+            "3318",
+            "3319",
+            "3321"
           ],
         },
         {

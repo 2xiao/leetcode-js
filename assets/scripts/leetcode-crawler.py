@@ -470,7 +470,7 @@ if __name__=='__main__':
     test.connect_db(db_path)
     test.get_problems(filters)
       
-    # test.generate_questions_list()
+    test.generate_questions_list()
     test.generate_questions_markdown(args.output, filters)
    
     test.close_db()
