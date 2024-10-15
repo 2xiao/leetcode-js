@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 399 道
+已完成 402 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -301,6 +301,8 @@
 | 876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0876) |  [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0880) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0889) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 909 | [蛇梯棋](https://leetcode.com/problems/snakes-and-ladders) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0909) |  [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 918 | [环形子数组的最大和](https://leetcode.com/problems/maximum-sum-circular-subarray) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0918) |  [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
 | 921 | [使括号有效的最少添加](https://leetcode.com/problems/minimum-add-to-make-parentheses-valid) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0921) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0931) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0945) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`计数`](/leetcode/outline/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -342,6 +344,7 @@
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2491) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2530 | [执行 K 次操作后的最大分数](https://leetcode.com/problems/maximal-score-after-applying-k-operations) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2530) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 2696 | [删除子串后的字符串最小长度](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2696) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
+| 2938 | [区分黑球与白球](https://leetcode.com/problems/separate-black-and-white-balls) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2938) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/3309) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`枚举`](/leetcode/outline/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 3318 | [计算子数组的 x-sum I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/3318) |  | <font color=#15bd66>Easy</font> |
 | 3319 | [第 K 大的完美二叉子树的大小](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/3319) |  | <font color=#ffb800>Medium</font> |
