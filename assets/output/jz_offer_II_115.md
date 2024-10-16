@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/leetcode/outline/tag/graph.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`数组`](/leetcode/outline/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ur2n8P)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

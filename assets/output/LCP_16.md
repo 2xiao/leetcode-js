@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/leetcode/outline/tag/graph.md) [`几何`](/leetcode/outline/tag/geometry.md) [`数学`](/leetcode/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/you-le-yuan-de-you-lan-ji-hua)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

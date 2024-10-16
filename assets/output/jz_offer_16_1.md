@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

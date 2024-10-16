@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

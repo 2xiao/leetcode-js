@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/o8SXZn)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

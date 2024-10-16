@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`组合数学`](/leetcode/outline/tag/combinatorics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Uh984O)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/leetcode/outline/tag/string.md) [`回溯`](/leetcode/outline/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0on3uN)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0Zeoeg)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/leetcode/outline/tag/tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二叉搜索树`](/leetcode/outline/tag/binary-search-tree.md) [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`二叉树`](/leetcode/outline/tag/binary-tree.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/QO5KpG)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

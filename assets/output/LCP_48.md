@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`枚举`](/leetcode/outline/tag/enumeration.md) [`博弈`](/leetcode/outline/tag/game-theory.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fsa7oZ)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/leetcode/outline/tag/binary-indexed-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`归并排序`](/leetcode/outline/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

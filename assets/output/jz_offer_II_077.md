@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`排序`](/leetcode/outline/tag/sorting.md) [`归并排序`](/leetcode/outline/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7WHec2)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

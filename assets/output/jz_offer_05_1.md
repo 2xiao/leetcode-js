@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ti-huan-kong-ge-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

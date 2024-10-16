@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ryfUiz)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

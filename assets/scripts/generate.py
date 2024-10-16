@@ -5,33 +5,7 @@ from pathlib import Path
 import pandas as pd
 import const
 import utils
-
-def changeSimilar():
-    files = os.listdir(const.problem_path)
-    for file in files:
-        # 判断是否是文件夹
-        if ".md" not in file:
-            continue
-        if "README" in file:
-            continue
-
-        file_path = os.path.join(const.problem_path, Path(file))
-        content = Path(file_path).read_text(encoding='utf-8')
-
-        out_path = os.path.join('../output/', Path(file))
-        out_content = Path(out_path).read_text(encoding='utf-8')
-
-        delim = '## 相关题目'
-        
-        if delim not in out_content or delim not in content:
-            continue
-            
-        _, after = out_content.split(delim)
-        before, _ = content.split(delim)
-
-        text = before + delim + after
-        Path(file_path).write_text(text, encoding='utf-8')
-
+import argparse
 
 # 自动生成已完成题目总列表
 
@@ -167,56 +141,6 @@ def gen_config_js():
     print("Create config.js Success")
 
 
-# 给题目详解页面自动添加标签和难度
-
-
-def gen_tag_and_difficulty():
-    files = os.listdir(const.problem_path)
-    for file in files:
-        # 判断是否是文件夹
-        if ".md" not in file:
-            continue
-        delim = "## 题目\n"
-        file_path = os.path.join(const.problem_path, Path(file))
-        content = Path(file_path).read_text(encoding='utf-8')
-        if delim in content:
-            if "<font color=#ff334b>Hard</font>" in content:
-                continue
-            if "<font color=#ffb800>Medium</font>" in content:
-                continue
-            if "<font color=#15bd66>Easy</font>" in content:
-                continue
-
-            print("Need to Add Tag and Difficulty to Problem：", file)
-
-
-def gen_md():
-    files = os.listdir(const.problem_path)
-
-    for file in files:
-        # 判断是否是文件夹
-        if ".md" not in file:
-            continue
-
-        spider_path = os.path.join('../output/', Path(file))
-        if not os.path.exists(spider_path):
-            print('%s 没有出现在 output 中' % (spider_path))
-            continue
-
-        spider_content = Path(spider_path).read_text(encoding='utf-8')
-
-        delim1 = "## 题目大意"
-        spider_content, _ = spider_content.split(delim1)
-
-        file_path = os.path.join(const.problem_path, Path(file))
-        content = Path(file_path).read_text(encoding='utf-8')
-
-        _, after = content.split(delim1)
-        content = spider_content + delim1 + after
-        Path(file_path).write_text(content, encoding='utf-8')
-    print("Add content to Problems Success")
-
-
 # 生成第二、三章里每个知识点的相关题目
 
 
@@ -305,3 +229,67 @@ def gen_plan_list(plan_name, salt=True):
         fi.close()
 
     print("Create " + plan_name + " Success")
+
+
+# 更新题目详解页面的相关题目和标签
+
+def update_similar_and_tag():
+    files = os.listdir(const.problem_path)
+    for file in files:
+        # 判断是否是文件夹
+        if ".md" not in file:
+            continue
+        if "README" in file:
+            continue
+
+        old_path = os.path.join(const.problem_path, Path(file))
+        old_content = Path(old_path).read_text(encoding='utf-8')
+
+        new_path = os.path.join('../output/', Path(file))
+        new_content = Path(new_path).read_text(encoding='utf-8')
+
+        delim = '## 题目\n'
+        delim2 = '## 相关题目'
+
+        text = new_content.split(delim)[0] + delim + old_content.split(delim)[1]
+        if delim2 in new_content and delim2 in text:
+            text = text.split(delim2)[0] + delim2 + new_content.split(delim2)[1]
+
+        Path(old_path).write_text(text, encoding='utf-8')
+
+
+# ------------------------------
+# 
+#        entrance
+# 
+# ------------------------------
+
+parser = argparse.ArgumentParser()
+parser.add_argument("type", nargs = '?', default="all")
+args = parser.parse_args()
+if args.type == 'all' or args.type == 'config':
+    # 自动生成已完成题目总列表
+    gen_solution_list()
+
+    # 自动生成 config.js 中的部分 sidebar
+    gen_config_js()
+if args.type == 'all' or args.type == 'simi':
+    # 给题目详解页面自动添加相关题目
+    update_similar_and_tag()
+if args.type == 'all' or args.type == 'tag':
+    # 生成LeetCode题解按标签分类的列表
+    gen_tag_list()
+if args.type == 'all' or args.type == 'plan':
+    # 生成学习计划
+    gen_plan_list('top_150_list.md', False)
+    gen_plan_list('top_200_list.md')
+    gen_plan_list('top_300_list.md', False)
+    gen_plan_list('company_list.md')
+    gen_plan_list('codetop_list.md')
+    gen_plan_list('rabbit_list.md')
+    gen_plan_list('offer_list.md', False)
+    gen_plan_list('offer2_list.md', False)
+if args.type == 'all' or args.type == 'cate':
+    # 生成第二、三章里每个知识点的相关题目
+    gen_categories_list()
+

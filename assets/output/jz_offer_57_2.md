@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`枚举`](/leetcode/outline/tag/enumeration.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

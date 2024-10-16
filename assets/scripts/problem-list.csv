@@ -772,7 +772,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 2935,2935,2900-2999,Maximum Strong Pair XOR II,找出强数对的最大异或值 II,maximum-strong-pair-xor-ii,"Bit Manipulation|bit-manipulation|位运算,Trie|trie|字典树,Array|array|数组,Hash Table|hash-table|哈希表,Sliding Window|sliding-window|滑动窗口",Hard,False
 2942,2942,2900-2999,Find Words Containing Character,查找包含给定字符的单词,find-words-containing-character,"Array|array|数组,String|string|字符串",Easy,False
 2932,2932,2900-2999,Maximum Strong Pair XOR I,找出强数对的最大异或值 I,maximum-strong-pair-xor-i,"Bit Manipulation|bit-manipulation|位运算,Trie|trie|字典树,Array|array|数组,Hash Table|hash-table|哈希表,Sliding Window|sliding-window|滑动窗口",Easy,False
-2938,2938,2900-2999,Separate Black and White Balls,区分黑球与白球,separate-black-and-white-balls,"Greedy|greedy|贪心,Two Pointers|two-pointers|双指针,String|string|字符串",Medium,False
+2938,2938,2900-2999,Separate Black and White Balls,区分黑球与白球,separate-black-and-white-balls,"Greedy|greedy|贪心,Two Pointers|two-pointers|双指针,String|string|字符串",Medium,True
 2925,2925,2900-2999,Maximum Score After Applying Operations on a Tree,在树上执行操作以后得到的最大分数,maximum-score-after-applying-operations-on-a-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Dynamic Programming|dynamic-programming|动态规划",Medium,False
 2939,2939,2900-2999,Maximum Xor Product,最大异或乘积,maximum-xor-product,"Greedy|greedy|贪心,Bit Manipulation|bit-manipulation|位运算,Math|math|数学",Medium,False
 2923,2923,2900-2999,Find Champion I,找到冠军 I,find-champion-i,"Array|array|数组,Matrix|matrix|矩阵",Easy,False
@@ -1181,7 +1181,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 2527,2527,2500-2599,Find Xor-Beauty of Array,查询数组异或美丽值,find-xor-beauty-of-array,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Math|math|数学",Medium,False
 2526,2526,2500-2599,Find Consecutive Integers from a Data Stream,找到数据流中的连续整数,find-consecutive-integers-from-a-data-stream,"Design|design|设计,Queue|queue|队列,Hash Table|hash-table|哈希表,Counting|counting|计数,Data Stream|data-stream|数据流",Medium,False
 2534,2534,2500-2599,Time Taken to Cross the Door,通过门的时间,time-taken-to-cross-the-door,"Queue|queue|队列,Array|array|数组,Simulation|simulation|模拟",Hard,False
-2530,2530,2500-2599,Maximal Score After Applying K Operations,执行 K 次操作后的最大分数,maximal-score-after-applying-k-operations,"Greedy|greedy|贪心,Array|array|数组,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False
+2530,2530,2500-2599,Maximal Score After Applying K Operations,执行 K 次操作后的最大分数,maximal-score-after-applying-k-operations,"Greedy|greedy|贪心,Array|array|数组,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,True
 2528,2528,2500-2599,Maximize the Minimum Powered City,最大化城市的最小电量,maximize-the-minimum-powered-city,"Greedy|greedy|贪心,Queue|queue|队列,Array|array|数组,Binary Search|binary-search|二分查找,Prefix Sum|prefix-sum|前缀和,Sliding Window|sliding-window|滑动窗口",Hard,False
 2529,2529,2500-2599,Maximum Count of Positive Integer and Negative Integer,正整数和负整数的最大计数,maximum-count-of-positive-integer-and-negative-integer,"Array|array|数组,Binary Search|binary-search|二分查找,Counting|counting|计数",Easy,False
 2474,2474,2400-2499,Customers With Strictly Increasing Purchases,购买量严格增加的客户,customers-with-strictly-increasing-purchases,Database|database|数据库,Hard,False
@@ -2442,7 +2442,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 1202,1202,1200-1299,Smallest String With Swaps,交换字符串中的元素,smallest-string-with-swaps,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串,Sorting|sorting|排序",Medium,False
 1957,1957,1900-1999,Delete Characters to Make Fancy String,删除字符使字符串变好,delete-characters-to-make-fancy-string,String|string|字符串,Easy,False
 1201,1201,1200-1299,Ugly Number III,丑数 III,ugly-number-iii,"Math|math|数学,Binary Search|binary-search|二分查找,Combinatorics|combinatorics|组合数学,Number Theory|number-theory|数论",Medium,False
-1405,1405,1400-1499,Longest Happy String,最长快乐字符串,longest-happy-string,"Greedy|greedy|贪心,String|string|字符串,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False
+1405,1405,1400-1499,Longest Happy String,最长快乐字符串,longest-happy-string,"Greedy|greedy|贪心,String|string|字符串,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,True
 2139,2139,2100-2199,Minimum Moves to Reach Target Score,得到目标值的最少行动次数,minimum-moves-to-reach-target-score,"Greedy|greedy|贪心,Math|math|数学",Medium,False
 1179,1179,1100-1199,Reformat Department Table,重新格式化部门表,reformat-department-table,Database|database|数据库,Easy,False
 1192,1192,1100-1199,Critical Connections in a Network,查找集群内的关键连接,critical-connections-in-a-network,"Depth-First Search|depth-first-search|深度优先搜索,Graph|graph|图,Biconnected Component|biconnected-component|双连通分量",Hard,False
@@ -2779,7 +2779,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 919,0919,0900-0999,Complete Binary Tree Inserter,完全二叉树插入器,complete-binary-tree-inserter,"Tree|tree|树,Breadth-First Search|breadth-first-search|广度优先搜索,Design|design|设计,Binary Tree|binary-tree|二叉树",Medium,False
 922,0922,0900-0999,Sort Array By Parity II,按奇偶排序数组 II,sort-array-by-parity-ii,"Array|array|数组,Two Pointers|two-pointers|双指针,Sorting|sorting|排序",Easy,False
 920,0920,0900-0999,Number of Music Playlists,播放列表的数量,number-of-music-playlists,"Math|math|数学,Dynamic Programming|dynamic-programming|动态规划,Combinatorics|combinatorics|组合数学",Hard,False
-918,0918,0900-0999,Maximum Sum Circular Subarray,环形子数组的最大和,maximum-sum-circular-subarray,"Queue|queue|队列,Array|array|数组,Divide and Conquer|divide-and-conquer|分治,Dynamic Programming|dynamic-programming|动态规划,Monotonic Queue|monotonic-queue|单调队列",Medium,False
+918,0918,0900-0999,Maximum Sum Circular Subarray,环形子数组的最大和,maximum-sum-circular-subarray,"Queue|queue|队列,Array|array|数组,Divide and Conquer|divide-and-conquer|分治,Dynamic Programming|dynamic-programming|动态规划,Monotonic Queue|monotonic-queue|单调队列",Medium,True
 921,0921,0900-0999,Minimum Add to Make Parentheses Valid,使括号有效的最少添加,minimum-add-to-make-parentheses-valid,"Stack|stack|栈,Greedy|greedy|贪心,String|string|字符串",Medium,True
 917,0917,0900-0999,Reverse Only Letters,仅仅反转字母,reverse-only-letters,"Two Pointers|two-pointers|双指针,String|string|字符串",Easy,False
 916,0916,0900-0999,Word Subsets,单词子集,word-subsets,"Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串",Medium,False
@@ -2791,7 +2791,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 910,0910,0900-0999,Smallest Range II,最小差值 II,smallest-range-ii,"Greedy|greedy|贪心,Array|array|数组,Math|math|数学,Sorting|sorting|排序",Medium,False
 907,0907,0900-0999,Sum of Subarray Minimums,子数组的最小值之和,sum-of-subarray-minimums,"Stack|stack|栈,Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Monotonic Stack|monotonic-stack|单调栈",Medium,False
 906,0906,0900-0999,Super Palindromes,超级回文数,super-palindromes,"Math|math|数学,Enumeration|enumeration|枚举",Hard,False
-909,0909,0900-0999,Snakes and Ladders,蛇梯棋,snakes-and-ladders,"Breadth-First Search|breadth-first-search|广度优先搜索,Array|array|数组,Matrix|matrix|矩阵",Medium,False
+909,0909,0900-0999,Snakes and Ladders,蛇梯棋,snakes-and-ladders,"Breadth-First Search|breadth-first-search|广度优先搜索,Array|array|数组,Matrix|matrix|矩阵",Medium,True
 908,0908,0900-0999,Smallest Range I,最小差值 I,smallest-range-i,"Array|array|数组,Math|math|数学",Easy,False
 905,0905,0900-0999,Sort Array By Parity,按奇偶排序数组,sort-array-by-parity,"Array|array|数组,Two Pointers|two-pointers|双指针,Sorting|sorting|排序",Easy,False
 904,0904,0900-0999,Fruit Into Baskets,水果成篮,fruit-into-baskets,"Array|array|数组,Hash Table|hash-table|哈希表,Sliding Window|sliding-window|滑动窗口",Medium,False
@@ -2958,7 +2958,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 431,0431,0400-0499,Encode N-ary Tree to Binary Tree,将 N 叉树编码为二叉树,encode-n-ary-tree-to-binary-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Design|design|设计,Binary Tree|binary-tree|二叉树",Hard,False
 765,0765,0700-0799,Couples Holding Hands,情侣牵手,couples-holding-hands,"Greedy|greedy|贪心,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Graph|graph|图",Hard,False
 763,0763,0700-0799,Partition Labels,划分字母区间,partition-labels,"Greedy|greedy|贪心,Hash Table|hash-table|哈希表,Two Pointers|two-pointers|双指针,String|string|字符串",Medium,False
-427,0427,0400-0499,Construct Quad Tree,建立四叉树,construct-quad-tree,"Tree|tree|树,Array|array|数组,Divide and Conquer|divide-and-conquer|分治,Matrix|matrix|矩阵",Medium,False
+427,0427,0400-0499,Construct Quad Tree,建立四叉树,construct-quad-tree,"Tree|tree|树,Array|array|数组,Divide and Conquer|divide-and-conquer|分治,Matrix|matrix|矩阵",Medium,True
 764,0764,0700-0799,Largest Plus Sign,最大加号标志,largest-plus-sign,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划",Medium,False
 428,0428,0400-0499,Serialize and Deserialize N-ary Tree,序列化和反序列化 N 叉树,serialize-and-deserialize-n-ary-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,String|string|字符串",Hard,False
 760,0760,0700-0799,Find Anagram Mappings,找出变位映射,find-anagram-mappings,"Array|array|数组,Hash Table|hash-table|哈希表",Easy,False
@@ -3415,7 +3415,7 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 288,0288,0200-0299,Unique Word Abbreviation,单词的唯一缩写,unique-word-abbreviation,"Design|design|设计,Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串",Medium,False
 286,0286,0200-0299,Walls and Gates,墙与门,walls-and-gates,"Breadth-First Search|breadth-first-search|广度优先搜索,Array|array|数组,Matrix|matrix|矩阵",Medium,False
 285,0285,0200-0299,Inorder Successor in BST,二叉搜索树中的中序后继,inorder-successor-in-bst,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Search Tree|binary-search-tree|二叉搜索树,Binary Tree|binary-tree|二叉树",Medium,False
-287,0287,0200-0299,Find the Duplicate Number,寻找重复数,find-the-duplicate-number,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Two Pointers|two-pointers|双指针,Binary Search|binary-search|二分查找",Medium,False
+287,0287,0200-0299,Find the Duplicate Number,寻找重复数,find-the-duplicate-number,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Two Pointers|two-pointers|双指针,Binary Search|binary-search|二分查找",Medium,True
 283,0283,0200-0299,Move Zeroes,移动零,move-zeroes,"Array|array|数组,Two Pointers|two-pointers|双指针",Easy,True
 280,0280,0200-0299,Wiggle Sort,摆动排序,wiggle-sort,"Greedy|greedy|贪心,Array|array|数组,Sorting|sorting|排序",Medium,False
 282,0282,0200-0299,Expression Add Operators,给表达式添加运算符,expression-add-operators,"Math|math|数学,String|string|字符串,Backtracking|backtracking|回溯",Hard,False
@@ -3709,3 +3709,4 @@ LCP 05,LCP_05,other,Coin Bonus,发 LeetCoin,coin-bonus,"Binary Indexed Tree|bina
 3321,3321,3300-3399,Find X-Sum of All K-Long Subarrays II,计算子数组的 x-sum II,find-x-sum-of-all-k-long-subarrays-ii,,Hard,True
 3318,3318,3300-3399,Find X-Sum of All K-Long Subarrays I,计算子数组的 x-sum I,find-x-sum-of-all-k-long-subarrays-i,,Easy,True
 3322,3322,3300-3399,Premier League Table Ranking III,Premier League Table Ranking III,premier-league-table-ranking-iii,,Medium,False
+3323,3323,3300-3399,Minimize Connected Groups by Inserting Interval,通过插入区间最小化连通组,minimize-connected-groups-by-inserting-interval,,Medium,False

@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数学`](/leetcode/outline/tag/math.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/IQvJ9i)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

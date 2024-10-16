@@ -346,7 +346,7 @@ class LeetcodeCrawler():
             f.write("# [{}. {}]({})".format(question['frontedId'], question['titleCN'], question['link']))
             
             problem_difficulty = utils.format_difficulty(question['difficulty'], True)
-            problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + question['link'] + ")\n\n"
+            problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + question['link'] + ")"
             problem_label = ""
             if len(question['tags']) > 0:
                 problem_label = "&emsp; 🔖&ensp;"
@@ -356,7 +356,7 @@ class LeetcodeCrawler():
 
             f.write("\n\n" + problem_difficulty + problem_label + problem_link)
             
-            f.write("\n## 题目\n\n")
+            f.write("\n\n## 题目\n\n")
             text = question['content']
             content = html2text.html2text(text).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
             f.write(content)
@@ -378,7 +378,7 @@ class LeetcodeCrawler():
                 for similar_item in similar:
                     df_indexs = df[df['slug'] == similar_item['titleSlug']].index.tolist()
                     if not df_indexs:
-                        print('%s 没有出现在 problem-list.csv 中' % (similar_item['translatedTitle']))
+                        print(question['title'] + '的相关问题 %s 没有出现在 problem-list.csv 中' % (similar_item['translatedTitle']))
                         continue
                     
                     frame.loc[len(frame.index)] = utils.gen_frame_items(df_indexs[0], df, const.problem_path)

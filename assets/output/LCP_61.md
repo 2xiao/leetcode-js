@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/6CE719)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

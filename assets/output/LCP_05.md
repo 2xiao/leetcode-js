@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/leetcode/outline/tag/binary-indexed-tree.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/coin-bonus)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

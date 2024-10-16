@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/leetcode/outline/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

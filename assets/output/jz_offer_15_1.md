@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/leetcode/outline/tag/bit-manipulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

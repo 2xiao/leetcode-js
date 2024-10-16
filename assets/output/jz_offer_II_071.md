@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md) [`随机化`](/leetcode/outline/tag/randomized.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cuyjEf)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

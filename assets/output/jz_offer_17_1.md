@@ -2,7 +2,6 @@
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

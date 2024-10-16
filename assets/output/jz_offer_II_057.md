@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`桶排序`](/leetcode/outline/tag/bucket-sort.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md) [`排序`](/leetcode/outline/tag/sorting.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7WqeDu)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

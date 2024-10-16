@@ -2,7 +2,6 @@
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/leetcode/outline/tag/graph.md) [`数组`](/leetcode/outline/tag/array.md) [`双连通分量`](/leetcode/outline/tag/biconnected-component.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/s5kipK)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

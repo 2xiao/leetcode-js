@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`递归`](/leetcode/outline/tag/recursion.md) [`脑筋急转弯`](/leetcode/outline/tag/brainteaser.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qiu-12n-lcof)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to

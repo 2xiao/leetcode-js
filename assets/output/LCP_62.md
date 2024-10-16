@@ -2,7 +2,6 @@
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/leetcode/outline/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/D9PW8w)
 
-
 ## 题目
 
 English description is not available for the problem. Please switch to
