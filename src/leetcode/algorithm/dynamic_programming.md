@@ -132,7 +132,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0118) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 120 | [三角形最小路径和](https://leetcode.com/problems/triangle) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0120) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 64 | [最小路径和](https://leetcode.com/problems/minimum-path-sum) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0064) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`矩阵`](/leetcode/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |

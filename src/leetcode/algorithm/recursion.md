@@ -39,7 +39,7 @@ function f(n) {
 | :------: | :------ | :------: | :------ | :------ |
 | 344 | [反转字符串](https://leetcode.com/problems/reverse-string) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0344) |  [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 24 | [两两交换链表中的节点](https://leetcode.com/problems/swap-nodes-in-pairs) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0024) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0118) |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii) |  |  [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 206 | [反转链表](https://leetcode.com/problems/reverse-linked-list) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0206) |  [`递归`](/leetcode/outline/tag/recursion.md) [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 92 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0092) |  [`链表`](/leetcode/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
