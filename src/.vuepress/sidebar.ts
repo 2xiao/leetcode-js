@@ -267,6 +267,7 @@ export default sidebar({
             "0278",
             "0279",
             "0283",
+            "0287",
             "0289",
             "0290",
             "0295",
@@ -313,6 +314,7 @@ export default sidebar({
             "0415",
             "0416",
             "0426",
+            "0427",
             "0430",
             "0432",
             "0433",
@@ -459,6 +461,7 @@ export default sidebar({
           text: "1400-1499",
           collapsible: true,
           children: [
+            "1405",
             "1419",
             "1441",
             "1472",

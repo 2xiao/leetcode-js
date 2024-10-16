@@ -438,7 +438,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0069) |  [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 109 |
-| 287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> | 25 |
+| 287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0287) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> | 25 |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0050) |  [`递归`](/leetcode/outline/tag/recursion.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> | 37 |
 | 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) |  |  [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 23 |
 
