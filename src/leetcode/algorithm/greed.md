@@ -46,5 +46,5 @@
 | 738 | [单调递增的数字](https://leetcode.com/problems/monotone-increasing-digits) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 861 | [翻转矩阵后的得分](https://leetcode.com/problems/score-after-flipping-matrix) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
+| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0670) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 

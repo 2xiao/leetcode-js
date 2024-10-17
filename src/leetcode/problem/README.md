@@ -1,6 +1,6 @@
 # 第四章 LeetCode 题解
 
-已完成 414 道
+已完成 444 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -284,6 +284,7 @@
 | 641 | [设计循环双端队列](https://leetcode.com/problems/design-circular-deque) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0641) |  [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 654 | [最大二叉树](https://leetcode.com/problems/maximum-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0654) |  [`栈`](/leetcode/outline/tag/stack.md) [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 662 | [二叉树最大宽度](https://leetcode.com/problems/maximum-width-of-binary-tree) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0662) |  [`树`](/leetcode/outline/tag/tree.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0670) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0678) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 682 | [棒球比赛](https://leetcode.com/problems/baseball-game) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0682) |  [`栈`](/leetcode/outline/tag/stack.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 695 | [岛屿的最大面积](https://leetcode.com/problems/max-area-of-island) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0695) |  [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -351,10 +352,39 @@
 | 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2416) |  [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2491) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2530 | [执行 K 次操作后的最大分数](https://leetcode.com/problems/maximal-score-after-applying-k-operations) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2530) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
+| 2619 | [数组原型对象的最后一个元素](https://leetcode.com/problems/array-prototype-last) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2619) |  | <font color=#15bd66>Easy</font> |
 | 2620 | [计数器](https://leetcode.com/problems/counter) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2620) |  | <font color=#15bd66>Easy</font> |
+| 2621 | [睡眠函数](https://leetcode.com/problems/sleep) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2621) |  | <font color=#15bd66>Easy</font> |
+| 2622 | [有时间限制的缓存](https://leetcode.com/problems/cache-with-time-limit) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2622) |  | <font color=#ffb800>Medium</font> |
+| 2623 | [记忆函数](https://leetcode.com/problems/memoize) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2623) |  | <font color=#ffb800>Medium</font> |
+| 2625 | [扁平化嵌套数组](https://leetcode.com/problems/flatten-deeply-nested-array) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2625) |  | <font color=#ffb800>Medium</font> |
+| 2626 | [数组归约运算](https://leetcode.com/problems/array-reduce-transformation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2626) |  | <font color=#15bd66>Easy</font> |
+| 2627 | [函数防抖](https://leetcode.com/problems/debounce) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2627) |  | <font color=#ffb800>Medium</font> |
+| 2629 | [复合函数](https://leetcode.com/problems/function-composition) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2629) |  | <font color=#15bd66>Easy</font> |
+| 2631 | [分组](https://leetcode.com/problems/group-by) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2631) |  | <font color=#ffb800>Medium</font> |
+| 2634 | [过滤数组中的元素](https://leetcode.com/problems/filter-elements-from-array) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2634) |  | <font color=#15bd66>Easy</font> |
+| 2635 | [转换数组中的每个元素](https://leetcode.com/problems/apply-transform-over-each-element-in-array) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2635) |  | <font color=#15bd66>Easy</font> |
+| 2636 | [Promise 对象池](https://leetcode.com/problems/promise-pool) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2636) |  | <font color=#ffb800>Medium</font> |
+| 2637 | [有时间限制的 Promise 对象](https://leetcode.com/problems/promise-time-limit) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2637) |  | <font color=#ffb800>Medium</font> |
+| 2665 | [计数器 II](https://leetcode.com/problems/counter-ii) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2665) |  | <font color=#15bd66>Easy</font> |
+| 2666 | [只允许一次函数调用](https://leetcode.com/problems/allow-one-function-call) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2666) |  | <font color=#15bd66>Easy</font> |
 | 2667 | [创建 Hello World 函数](https://leetcode.com/problems/create-hello-world-function) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2667) |  | <font color=#15bd66>Easy</font> |
+| 2676 | [节流](https://leetcode.com/problems/throttle) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2676) |  | <font color=#ffb800>Medium</font> |
+| 2677 | [分块数组](https://leetcode.com/problems/chunk-array) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2677) |  | <font color=#15bd66>Easy</font> |
+| 2694 | [事件发射器](https://leetcode.com/problems/event-emitter) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2694) |  | <font color=#ffb800>Medium</font> |
+| 2695 | [包装数组](https://leetcode.com/problems/array-wrapper) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2695) |  | <font color=#15bd66>Easy</font> |
 | 2696 | [删除子串后的字符串最小长度](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2696) |  [`栈`](/leetcode/outline/tag/stack.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
+| 2703 | [返回传递的参数的长度](https://leetcode.com/problems/return-length-of-arguments-passed) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2703) |  | <font color=#15bd66>Easy</font> |
 | 2704 | [相等还是不相等](https://leetcode.com/problems/to-be-or-not-to-be) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2704) |  | <font color=#15bd66>Easy</font> |
+| 2705 | [精简对象](https://leetcode.com/problems/compact-object) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2705) |  | <font color=#ffb800>Medium</font> |
+| 2715 | [执行可取消的延迟函数](https://leetcode.com/problems/timeout-cancellation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2715) |  | <font color=#15bd66>Easy</font> |
+| 2721 | [并行执行异步函数](https://leetcode.com/problems/execute-asynchronous-functions-in-parallel) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2721) |  | <font color=#ffb800>Medium</font> |
+| 2722 | [根据 ID 合并两个数组](https://leetcode.com/problems/join-two-arrays-by-id) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2722) |  | <font color=#ffb800>Medium</font> |
+| 2723 | [两个 Promise 对象相加](https://leetcode.com/problems/add-two-promises) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2723) |  | <font color=#15bd66>Easy</font> |
+| 2724 | [排序方式](https://leetcode.com/problems/sort-by) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2724) |  | <font color=#15bd66>Easy</font> |
+| 2725 | [间隔取消](https://leetcode.com/problems/interval-cancellation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2725) |  | <font color=#15bd66>Easy</font> |
+| 2726 | [使用方法链的计算器](https://leetcode.com/problems/calculator-with-method-chaining) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2726) |  | <font color=#15bd66>Easy</font> |
+| 2727 | [判断对象是否为空](https://leetcode.com/problems/is-object-empty) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2727) |  | <font color=#15bd66>Easy</font> |
 | 2740 | [找出分区值](https://leetcode.com/problems/find-the-value-of-the-partition) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2740) |  [`数组`](/leetcode/outline/tag/array.md) [`排序`](/leetcode/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 2938 | [区分黑球与白球](https://leetcode.com/problems/separate-black-and-white-balls) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2938) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/3309) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`枚举`](/leetcode/outline/tag/enumeration.md) | <font color=#ffb800>Medium</font> |

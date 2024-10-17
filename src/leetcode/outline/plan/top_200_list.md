@@ -288,7 +288,7 @@ headerDepth: 0
 | 402 | [移掉 K 位数字](https://leetcode.com/problems/remove-k-digits) |  |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> | 44 |
 | 135 | [分发糖果](https://leetcode.com/problems/candy) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0135) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ff334b>Hard</font> | 29 |
 | 134 | [加油站](https://leetcode.com/problems/gas-station) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0134) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数组`](/leetcode/outline/tag/array.md) | <font color=#ffb800>Medium</font> | 20 |
-| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> | 17 |
+| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0670) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> | 17 |
 
 
 ## 动态规划

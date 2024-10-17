@@ -132,7 +132,7 @@
 | 660 | [移除 9](https://leetcode.com/problems/remove-9) |  |  [`数学`](/leetcode/outline/tag/math.md) | <font color=#ff334b>Hard</font> |
 | 667 | [优美的排列 II](https://leetcode.com/problems/beautiful-arrangement-ii) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 668 | [乘法表中第k小的数](https://leetcode.com/problems/kth-smallest-number-in-multiplication-table) |  |  [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
-| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) |  |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
+| 670 | [最大交换](https://leetcode.com/problems/maximum-swap) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/0670) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 672 | [灯泡开关 Ⅱ](https://leetcode.com/problems/bulb-switcher-ii) |  |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 679 | [24 点游戏](https://leetcode.com/problems/24-game) |  |  [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`回溯`](/leetcode/outline/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
 | 710 | [黑名单中的随机数](https://leetcode.com/problems/random-pick-with-blacklist) |  |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/math.md) `3+` | <font color=#ff334b>Hard</font> |
