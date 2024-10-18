@@ -587,7 +587,7 @@ const backtrack = (start) => {
 		// ...
 
 		// 递归遍历下一层回溯树，注意参数
-		backtrack(1);
+		backtrack(i);
 
 		// ...
 	}

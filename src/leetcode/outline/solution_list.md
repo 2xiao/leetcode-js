@@ -1,6 +1,6 @@
 # 1.3 LeetCode 题解
 
-已完成 444 道
+已完成 445 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -343,6 +343,7 @@
 | 1813 | [句子相似性 III](https://leetcode.com/problems/sentence-similarity-iii) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/1813) |  [`数组`](/leetcode/outline/tag/array.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1942 | [最小未被占据椅子的编号](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/1942) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 1963 | [使字符串平衡的最小交换次数](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/1963) |  [`栈`](/leetcode/outline/tag/stack.md) [`贪心`](/leetcode/outline/tag/greedy.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2044 | [统计按位或能得到最大值的子集数目](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2044) |  [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`数组`](/leetcode/outline/tag/array.md) [`回溯`](/leetcode/outline/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2196 | [根据描述创建二叉树](https://leetcode.com/problems/create-binary-tree-from-descriptions) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2196) |  [`树`](/leetcode/outline/tag/tree.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2259 | [移除指定数字得到的最大结果](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2259) |  [`贪心`](/leetcode/outline/tag/greedy.md) [`字符串`](/leetcode/outline/tag/string.md) [`枚举`](/leetcode/outline/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 | 2260 | [必须拿起的最小连续卡牌数](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up) | [[✓]](https://2xiao.github.io/leetcode-js/leetcode/problem/2260) |  [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
