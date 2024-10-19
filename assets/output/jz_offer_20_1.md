@@ -1,6 +1,6 @@
 # [剑指 Offer 20. 表示数值的字符串](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [LCP 71. 集水器](https://leetcode.cn/problems/kskhHQ)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`并查集`](/leetcode/outline/tag/union-find.md) [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kskhHQ)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`并查集`](/outline/tag/union-find.md) [`数组`](/outline/tag/array.md) [`矩阵`](/outline/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kskhHQ)
 
 ## 题目
 

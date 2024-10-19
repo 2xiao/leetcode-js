@@ -1,6 +1,6 @@
 # [剑指 Offer II 119. 最长连续序列](https://leetcode.cn/problems/WhsWhI)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`并查集`](/leetcode/outline/tag/union-find.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WhsWhI)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`并查集`](/outline/tag/union-find.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WhsWhI)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [LCP 42. 玩具套圈](https://leetcode.cn/problems/vFjcfV)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`几何`](/leetcode/outline/tag/geometry.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/math.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`排序`](/leetcode/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vFjcfV)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) [`二分查找`](/outline/tag/binary-search.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vFjcfV)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 75. 数组相对排序](https://leetcode.cn/problems/0H97ZC)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`计数排序`](/leetcode/outline/tag/counting-sort.md) [`排序`](/leetcode/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0H97ZC)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`计数排序`](/outline/tag/counting-sort.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0H97ZC)
 
 ## 题目
 

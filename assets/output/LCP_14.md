@@ -1,6 +1,6 @@
 # [LCP 14. 切分数组](https://leetcode.cn/problems/qie-fen-shu-zu)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md) [`数论`](/leetcode/outline/tag/number-theory.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qie-fen-shu-zu)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`数论`](/outline/tag/number-theory.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qie-fen-shu-zu)
 
 ## 题目
 

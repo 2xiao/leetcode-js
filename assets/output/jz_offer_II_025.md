@@ -1,6 +1,6 @@
 # [剑指 Offer II 25. 链表中的两数相加](https://leetcode.cn/problems/lMSNwu)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/leetcode/outline/tag/stack.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`数学`](/leetcode/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/lMSNwu)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/lMSNwu)
 
 ## 题目
 

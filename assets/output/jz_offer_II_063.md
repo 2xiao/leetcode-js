@@ -1,6 +1,6 @@
 # [剑指 Offer II 63. 替换单词](https://leetcode.cn/problems/UhWRSj)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字典树`](/leetcode/outline/tag/trie.md) [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/UhWRSj)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/UhWRSj)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 114. 外星文字典](https://leetcode.cn/problems/Jf1JuT)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`图`](/leetcode/outline/tag/graph.md) [`拓扑排序`](/leetcode/outline/tag/topological-sort.md) [`数组`](/leetcode/outline/tag/array.md) [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Jf1JuT)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) [`拓扑排序`](/outline/tag/topological-sort.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Jf1JuT)
 
 ## 题目
 

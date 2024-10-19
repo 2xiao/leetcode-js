@@ -13,7 +13,7 @@
 
 GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
 
-电子书地址：[https://2xiao.github.io/leetcode-js/leetcode/](https://2xiao.github.io/leetcode-js/leetcode/)
+电子书地址：[https://2xiao.github.io/leetcode-js/](https://2xiao.github.io/leetcode-js/)
 
 <p align="center">
   <img src="./assets/image/leetcode-js-logo.png" alt="logo" height="400"/>
@@ -23,45 +23,45 @@ GitHub 地址：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/
 
 ### 第一章 序言
 
-- [1.1 数据结构与算法](https://2xiao.github.io/leetcode-js/leetcode/outline/intro)
-- [1.2 复杂度分析](https://2xiao.github.io/leetcode-js/leetcode/outline/complexity)
-- [1.3 LeetCode 题解](https://2xiao.github.io/leetcode-js/leetcode/outline/solution_list)
-- [1.4 学习计划](https://2xiao.github.io/leetcode-js/leetcode/outline/plan/)
-- [1.5 题解标签](https://2xiao.github.io/leetcode-js/leetcode/outline/tag/)
+- [1.1 数据结构与算法](https://2xiao.github.io/leetcode-js/outline/intro)
+- [1.2 复杂度分析](https://2xiao.github.io/leetcode-js/outline/complexity)
+- [1.3 LeetCode 题解](https://2xiao.github.io/leetcode-js/outline/solution_list)
+- [1.4 学习计划](https://2xiao.github.io/leetcode-js/outline/plan/)
+- [1.5 题解标签](https://2xiao.github.io/leetcode-js/outline/tag/)
 
 ### 第二章 数据结构专题
 
-- [2.1 数组](https://2xiao.github.io/leetcode-js/leetcode/ds/array)
-- [2.2 链表](https://2xiao.github.io/leetcode-js/leetcode/ds/linked_list)
-- [2.3 栈](https://2xiao.github.io/leetcode-js/leetcode/ds/stack)
-- [2.4 队列](https://2xiao.github.io/leetcode-js/leetcode/ds/queue)
-- [2.5 哈希表](https://2xiao.github.io/leetcode-js/leetcode/ds/hash_table)
-- [2.6 树](https://2xiao.github.io/leetcode-js/leetcode/ds/tree)
-- [2.7 堆](https://2xiao.github.io/leetcode-js/leetcode/ds/heap)
-- [2.8 图](https://2xiao.github.io/leetcode-js/leetcode/ds/graph)
-- [2.9 字符串](https://2xiao.github.io/leetcode-js/leetcode/ds/string)
+- [2.1 数组](https://2xiao.github.io/leetcode-js/ds/array)
+- [2.2 链表](https://2xiao.github.io/leetcode-js/ds/linked_list)
+- [2.3 栈](https://2xiao.github.io/leetcode-js/ds/stack)
+- [2.4 队列](https://2xiao.github.io/leetcode-js/ds/queue)
+- [2.5 哈希表](https://2xiao.github.io/leetcode-js/ds/hash_table)
+- [2.6 树](https://2xiao.github.io/leetcode-js/ds/tree)
+- [2.7 堆](https://2xiao.github.io/leetcode-js/ds/heap)
+- [2.8 图](https://2xiao.github.io/leetcode-js/ds/graph)
+- [2.9 字符串](https://2xiao.github.io/leetcode-js/ds/string)
 
 ### 第三章 算法专题
 
-- [3.1 枚举算法](https://2xiao.github.io/leetcode-js/leetcode/algorithm/enumeration)
-- [3.2 递归算法](https://2xiao.github.io/leetcode-js/leetcode/algorithm/recursion)
-- [3.3 分治算法](https://2xiao.github.io/leetcode-js/leetcode/algorithm/divide_conquer)
-- [3.4 回溯算法](https://2xiao.github.io/leetcode-js/leetcode/algorithm/backtracking)
-- [3.5 贪心算法](https://2xiao.github.io/leetcode-js/leetcode/algorithm/greed)
-- [3.6 动态规划](https://2xiao.github.io/leetcode-js/leetcode/algorithm/dynamic_programming)
-- [3.7 位运算](https://2xiao.github.io/leetcode-js/leetcode/algorithm/bit)
-- [3.8 排序算法](https://2xiao.github.io/leetcode-js/leetcode/algorithm/sort)
-- [3.9 二分查找](https://2xiao.github.io/leetcode-js/leetcode/algorithm/binary_search)
-- [3.10 双指针](https://2xiao.github.io/leetcode-js/leetcode/algorithm/two_pointer)
-- [3.11 滑动窗口](https://2xiao.github.io/leetcode-js/leetcode/algorithm/slide_window)
+- [3.1 枚举算法](https://2xiao.github.io/leetcode-js/algorithm/enumeration)
+- [3.2 递归算法](https://2xiao.github.io/leetcode-js/algorithm/recursion)
+- [3.3 分治算法](https://2xiao.github.io/leetcode-js/algorithm/divide_conquer)
+- [3.4 回溯算法](https://2xiao.github.io/leetcode-js/algorithm/backtracking)
+- [3.5 贪心算法](https://2xiao.github.io/leetcode-js/algorithm/greed)
+- [3.6 动态规划](https://2xiao.github.io/leetcode-js/algorithm/dynamic_programming)
+- [3.7 位运算](https://2xiao.github.io/leetcode-js/algorithm/bit)
+- [3.8 排序算法](https://2xiao.github.io/leetcode-js/algorithm/sort)
+- [3.9 二分查找](https://2xiao.github.io/leetcode-js/algorithm/binary_search)
+- [3.10 双指针](https://2xiao.github.io/leetcode-js/algorithm/two_pointer)
+- [3.11 滑动窗口](https://2xiao.github.io/leetcode-js/algorithm/slide_window)
 
 ### 第四章 LeetCode 题解
 
-- [LeetCode 题解](https://2xiao.github.io/leetcode-js/leetcode/solution/0001-0099)
-- [剑指 Offer](https://2xiao.github.io/leetcode-js/leetcode/solution/Offer)
-- [剑指 Offer II](https://2xiao.github.io/leetcode-js/leetcode/solution/Offer-II)
-- [面试题](https://2xiao.github.io/leetcode-js/leetcode/solution/Interviews)
-- [力扣杯](https://2xiao.github.io/leetcode-js/leetcode/solution/LCP)
+- [LeetCode 题解](https://2xiao.github.io/leetcode-js/solution/0001-0099)
+- [剑指 Offer](https://2xiao.github.io/leetcode-js/solution/Offer)
+- [剑指 Offer II](https://2xiao.github.io/leetcode-js/solution/Offer-II)
+- [面试题](https://2xiao.github.io/leetcode-js/solution/Interviews)
+- [力扣杯](https://2xiao.github.io/leetcode-js/solution/LCP)
 
 ---
 

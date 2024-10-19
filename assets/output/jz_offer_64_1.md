@@ -1,6 +1,6 @@
 # [剑指 Offer 64. 求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/leetcode/outline/tag/bit-manipulation.md) [`递归`](/leetcode/outline/tag/recursion.md) [`脑筋急转弯`](/leetcode/outline/tag/brainteaser.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qiu-12n-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/outline/tag/bit-manipulation.md) [`递归`](/outline/tag/recursion.md) [`脑筋急转弯`](/outline/tag/brainteaser.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qiu-12n-lcof)
 
 ## 题目
 

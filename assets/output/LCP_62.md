@@ -1,6 +1,6 @@
 # [LCP 62. 交通枢纽](https://leetcode.cn/problems/D9PW8w)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/leetcode/outline/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/D9PW8w)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/outline/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/D9PW8w)
 
 ## 题目
 

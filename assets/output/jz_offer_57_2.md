@@ -1,6 +1,6 @@
 # [剑指 Offer 57 - II. 和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`枚举`](/leetcode/outline/tag/enumeration.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md) [`双指针`](/outline/tag/two-pointers.md) [`枚举`](/outline/tag/enumeration.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer 14 - I. 剪绳子](https://leetcode.cn/problems/jian-sheng-zi-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jian-sheng-zi-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jian-sheng-zi-lcof)
 
 ## 题目
 

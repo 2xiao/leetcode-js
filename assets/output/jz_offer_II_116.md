@@ -1,6 +1,6 @@
 # [剑指 Offer II 116. 省份数量](https://leetcode.cn/problems/bLyHh0)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/leetcode/outline/tag/depth-first-search.md) [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`并查集`](/leetcode/outline/tag/union-find.md) [`图`](/leetcode/outline/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/bLyHh0)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) [`图`](/outline/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/bLyHh0)
 
 ## 题目
 

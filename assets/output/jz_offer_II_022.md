@@ -1,6 +1,6 @@
 # [剑指 Offer II 22. 链表中环的入口节点](https://leetcode.cn/problems/c32eOV)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/leetcode/outline/tag/hash-table.md) [`链表`](/leetcode/outline/tag/linked-list.md) [`双指针`](/leetcode/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/c32eOV)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/c32eOV)
 
 ## 题目
 

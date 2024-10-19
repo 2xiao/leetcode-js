@@ -1,6 +1,6 @@
 # [剑指 Offer II 19. 最多删除一个字符得到回文](https://leetcode.cn/problems/RQku0D)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/leetcode/outline/tag/greedy.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/RQku0D)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/outline/tag/greedy.md) [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/RQku0D)
 
 ## 题目
 

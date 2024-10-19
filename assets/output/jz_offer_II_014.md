@@ -1,6 +1,6 @@
 # [剑指 Offer II 14. 字符串中的变位词](https://leetcode.cn/problems/MPnaiL)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/leetcode/outline/tag/hash-table.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/MPnaiL)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md) [`滑动窗口`](/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/MPnaiL)
 
 ## 题目
 

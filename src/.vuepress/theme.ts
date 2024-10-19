@@ -78,14 +78,6 @@ export default hopeTheme(
 			}
 		},
 
-		blog: {
-			medias: {
-				GitHub: 'https://github.com/2xiao',
-				BiliBili: 'https://space.bilibili.com/497200280',
-				Linkedin: 'https://www.linkedin.com/in/wuxiaoxiaojs/'
-			}
-		},
-
 		plugins: {
 			// You should generate and use your own comment service
 			comment: {
@@ -94,15 +86,6 @@ export default hopeTheme(
 				repoId: 'R_kgDOKUwcng',
 				category: 'Announcements',
 				categoryId: 'DIC_kwDOKUwcns4CbI2r'
-			},
-
-			blog: {
-				excerptLength: 100,
-				filter: (page) =>
-					Boolean(
-						page.filePathRelative?.startsWith('blog/') ||
-							page.filePathRelative?.startsWith('en/blog/')
-					) && !page.frontmatter.home
 			},
 
 			// All features are enabled for demo, only preserve features you need here

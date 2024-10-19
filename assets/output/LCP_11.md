@@ -1,6 +1,6 @@
 # [LCP 11. 期望个数统计](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/leetcode/outline/tag/array.md) [`哈希表`](/leetcode/outline/tag/hash-table.md) [`数学`](/leetcode/outline/tag/math.md) [`概率与统计`](/leetcode/outline/tag/probability-and-statistics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) [`概率与统计`](/outline/tag/probability-and-statistics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji)
 
 ## 题目
 

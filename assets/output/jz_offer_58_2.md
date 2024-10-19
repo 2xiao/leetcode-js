@@ -1,6 +1,6 @@
 # [剑指 Offer 58 - II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md) [`双指针`](/leetcode/outline/tag/two-pointers.md) [`字符串`](/leetcode/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md) [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
 
 ## 题目
 

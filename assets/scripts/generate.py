@@ -82,7 +82,7 @@ def gen_tag_list():
             _, content = content.split(old_title)
         if delim in content:
             before, after = content.split(delim)
-        content = "# " + tag_cn + '\n\n::: details 全部标签' + before + '<span class="blue">' + tag_cn + '</span>' + after + ':::'
+            content = "# " + tag_cn + '\n\n::: details 全部标签' + before + '<span class="blue">' + tag_cn + '</span>' + after + ':::'
         
         slice_path = os.path.join(const.tag_list_path, tag_en + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:

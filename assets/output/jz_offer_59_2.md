@@ -1,6 +1,6 @@
 # [剑指 Offer 59 - II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/leetcode/outline/tag/design.md) [`队列`](/leetcode/outline/tag/queue.md) [`单调队列`](/leetcode/outline/tag/monotonic-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/outline/tag/design.md) [`队列`](/outline/tag/queue.md) [`单调队列`](/outline/tag/monotonic-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
 
 ## 题目
 

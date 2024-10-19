@@ -1,6 +1,6 @@
 # [LCS 01. 下载插件](https://leetcode.cn/problems/Ju9Xwi)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/leetcode/outline/tag/greedy.md) [`数学`](/leetcode/outline/tag/math.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Ju9Xwi)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/outline/tag/greedy.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Ju9Xwi)
 
 ## 题目
 

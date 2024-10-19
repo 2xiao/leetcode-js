@@ -1,6 +1,6 @@
 # [剑指 Offer II 58. 日程表](https://leetcode.cn/problems/fi9suh)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/leetcode/outline/tag/design.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`二分查找`](/leetcode/outline/tag/binary-search.md) [`有序集合`](/leetcode/outline/tag/ordered-set.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fi9suh)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`二分查找`](/outline/tag/binary-search.md) [`有序集合`](/outline/tag/ordered-set.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fi9suh)
 
 ## 题目
 

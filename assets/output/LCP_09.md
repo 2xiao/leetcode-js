@@ -1,6 +1,6 @@
 # [LCP 09. 最小跳跃次数](https://leetcode.cn/problems/zui-xiao-tiao-yue-ci-shu)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`广度优先搜索`](/leetcode/outline/tag/breadth-first-search.md) [`线段树`](/leetcode/outline/tag/segment-tree.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zui-xiao-tiao-yue-ci-shu)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zui-xiao-tiao-yue-ci-shu)
 
 ## 题目
 

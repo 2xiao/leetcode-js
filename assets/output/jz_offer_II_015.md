@@ -1,6 +1,6 @@
 # [剑指 Offer II 15. 字符串中的所有变位词](https://leetcode.cn/problems/VabMRr)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/leetcode/outline/tag/hash-table.md) [`字符串`](/leetcode/outline/tag/string.md) [`滑动窗口`](/leetcode/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/VabMRr)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`滑动窗口`](/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/VabMRr)
 
 ## 题目
 

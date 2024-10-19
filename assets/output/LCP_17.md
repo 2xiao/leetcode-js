@@ -1,6 +1,6 @@
 # [LCP 17. 速算机器人](https://leetcode.cn/problems/nGK0Fy)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md) [`字符串`](/leetcode/outline/tag/string.md) [`模拟`](/leetcode/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/nGK0Fy)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md) [`字符串`](/outline/tag/string.md) [`模拟`](/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/nGK0Fy)
 
 ## 题目
 

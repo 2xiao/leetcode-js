@@ -1,6 +1,6 @@
 # [LCP 22. 黑白方格画](https://leetcode.cn/problems/ccw6C7)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/leetcode/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ccw6C7)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ccw6C7)
 
 ## 题目
 

@@ -4,31 +4,27 @@ export default navbar([
 	{
 		text: 'LeetCode 通关指南',
 		icon: 'code',
-		prefix: '/leetcode/',
-		link: '/leetcode/'
+		prefix: '/',
+		link: '/'
 	},
 	{
 		text: 'React 源码',
 		icon: 'react',
-		prefix: '/react/',
-		link: '/react/'
+		link: 'https://2xiao.github.io/my-react/'
 	},
 	{
 		text: 'Vue 源码',
 		icon: 'vue',
-		prefix: '/vue/',
-		link: '/vue/'
+		link: 'https://2xiao.github.io/my-vue/'
 	},
 	{
 		text: '前端面试题',
 		icon: 'creative',
-		prefix: '/interview/',
-		link: '/interview/'
+		link: 'https://2xiao.github.io/interview/'
 	},
 	{
 		text: '博客',
 		icon: 'blog',
-		prefix: '/blog/',
-		link: '/blog/'
+		link: 'https://2xiao.github.io/blog/'
 	}
 ]);

@@ -1,6 +1,6 @@
 # [LCP 20. 快速公交](https://leetcode.cn/problems/meChtZ)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`记忆化搜索`](/leetcode/outline/tag/memoization.md) [`数组`](/leetcode/outline/tag/array.md) [`动态规划`](/leetcode/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/meChtZ)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/meChtZ)
 
 ## 题目
 

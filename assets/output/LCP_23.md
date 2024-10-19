@@ -1,6 +1,6 @@
 # [LCP 23. 魔术排列](https://leetcode.cn/problems/er94lq)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`队列`](/leetcode/outline/tag/queue.md) [`数组`](/leetcode/outline/tag/array.md) [`模拟`](/leetcode/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er94lq)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`模拟`](/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er94lq)
 
 ## 题目
 

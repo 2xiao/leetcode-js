@@ -1,6 +1,6 @@
 # [剑指 Offer II 13. 二维子矩阵的和](https://leetcode.cn/problems/O4NDxx)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/leetcode/outline/tag/design.md) [`数组`](/leetcode/outline/tag/array.md) [`矩阵`](/leetcode/outline/tag/matrix.md) [`前缀和`](/leetcode/outline/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/O4NDxx)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/outline/tag/design.md) [`数组`](/outline/tag/array.md) [`矩阵`](/outline/tag/matrix.md) [`前缀和`](/outline/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/O4NDxx)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 78. 合并排序链表](https://leetcode.cn/problems/vvXgSW)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`链表`](/leetcode/outline/tag/linked-list.md) [`分治`](/leetcode/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/leetcode/outline/tag/heap-priority-queue.md) [`归并排序`](/leetcode/outline/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vvXgSW)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`链表`](/outline/tag/linked-list.md) [`分治`](/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/outline/tag/heap-priority-queue.md) [`归并排序`](/outline/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vvXgSW)
 
 ## 题目
 
