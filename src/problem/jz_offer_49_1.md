@@ -86,16 +86,3 @@ var nthUglyNumber = function (n) {
 	return ugly[n - 1];
 };
 ```
-
-## 相关题目
-
-:::: md-demo 相关题目
-
-- [23. 合并 K 个升序链表](./0023.md)
-- [204. 计数质数](https://leetcode.com/problems/count-primes)
-- [263. 丑数](https://leetcode.com/problems/ugly-number)
-- [279. 完全平方数](./0279.md)
-- [313. 超级丑数](https://leetcode.com/problems/super-ugly-number)
-- [1201. 丑数 III](https://leetcode.com/problems/ugly-number-iii)
-
-::::

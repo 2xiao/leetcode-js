@@ -290,8 +290,25 @@ class LeetcodeCrawler():
             self.generate_question_markdown(question_detail, path, has_get_code)
         cursor.close()
 
+
+    def getSimilar(self, data):
+        cursor = self.conn.cursor()
+        similar = json.loads(data)
+        similar_ids = []
+        if len(similar) > 0:
+            # 提取 titleSlug 列表
+            title_slugs = [item['titleSlug'] for item in similar if isinstance(item, dict) and 'titleSlug' in item]
+
+            # 查询每个 titleSlug 对应的 similar_ids
+            for slug in title_slugs:
+                cursor.execute('SELECT frontend_id FROM question WHERE slug = ?', (slug,))
+                result = cursor.fetchone()
+                if result:  # 如果有结果，添加 similar_ids
+                    similar_ids.append(utils.getFileName(result[0], slug))
+        return '|'.join(similar_ids)  # 将 similar_ids 转换为字符串并用 '|' 连接
+
+
     def generate_questions_list(self):
-        
         
         file_name = 'problem-list.csv'
         cursor = self.conn.cursor()
@@ -301,6 +318,7 @@ class LeetcodeCrawler():
 
             fileName = utils.getFileName(row[1], row[3])
             status = utils.isAC(fileName)
+            similar = test.getSimilar(row[6])
 
             question_detail = {
                 'frontedId': utils.getFrontedId(row[1], row[3]),
@@ -312,6 +330,7 @@ class LeetcodeCrawler():
                 'tags': row[9],
                 'difficulty': row[4],
                 'status': status, 
+                'similar': similar,
             }
             res.append(question_detail)
 

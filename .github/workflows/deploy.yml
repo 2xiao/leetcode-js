@@ -1,16 +1,15 @@
-
 name: 部署文档
 
 on:
   push:
     branches:
-      - master # 只在master上push触发部署
+      - docs # 只在 docs 上 push 触发部署
     paths-ignore: # 下列文件的变更不触发部署，可以自行添加
       - README.md
       - LICENSE
   pull_request:
     branches:
-      - master # 只在master上push触发部署
+      - docs # 只在 docs 上 push 触发部署
     types: [closed]
 
 permissions:
@@ -26,8 +25,6 @@ jobs:
           fetch-depth: 0
           # 如果你文档需要 Git 子模块，取消注释下一行
           # submodules: true
-
-
 
       - name: 设置 Node.js
         uses: actions/setup-node@v3
@@ -51,3 +48,31 @@ jobs:
           # 这是文档部署到的分支名称
           branch: gh-pages
           folder: src/.vuepress/dist
+
+  deploy-main:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          # 如果你文档需要 Git 子模块，取消注释下一行
+          # submodules: true
+
+      # 移动 src 中的文件到 dist 目录
+      - name: move to dist
+        run: |
+          mkdir dist
+          cp -r src/README.md ./dist/
+          cp -r src/outline ./dist/
+          cp -r src/ds ./dist/
+          cp -r src/algorithm ./dist/
+          cp -r src/problem ./dist/
+
+      - name: push to main
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          # 这是文档部署到的分支名称
+          branch: main
+          folder: dist

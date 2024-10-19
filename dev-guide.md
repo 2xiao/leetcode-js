@@ -25,24 +25,30 @@ npm i
 npm run dev
 ```
 
-## 5. 使用脚本更新 LeetCode 题解统计
+## 5. LeetCode 题目爬虫
 
-安装 [python 3](https://www.python.org/downloads/)
+- 安装 [python 3](https://www.python.org/downloads/)
 
-安装 pandas
+- 安装 pandas
 
 ```
 pip3 install pandas
 ```
 
+- 运行爬虫
+
+```
+npm run spider
+```
+
+## 6. 使用脚本更新 LeetCode 题解统计
+
 运行脚本
 
 ```
-cd ./assets/scripts
-
-python3 ./entrance.py
+npm run lc
 ```
 
-## 6. 线上部署
+## 7. 线上部署
 
-`git push origin master` 后自动部署到 `gh-pages` 分支。
+`git push origin docs` 后自动部署到 `gh-pages` 分支。

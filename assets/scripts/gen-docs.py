@@ -233,8 +233,9 @@ def gen_plan_list(plan_name, salt=True):
 
 # 更新题目详解页面的相关题目和标签
 
-def update_similar_and_tag():
+def update_similar():
     files = os.listdir(const.problem_path)
+    df = pd.read_csv("problem-list.csv")
     for file in files:
         # 判断是否是文件夹
         if ".md" not in file:
@@ -242,20 +243,27 @@ def update_similar_and_tag():
         if "README" in file:
             continue
 
-        old_path = os.path.join(const.problem_path, Path(file))
-        old_content = Path(old_path).read_text(encoding='utf-8')
+        path = os.path.join(const.problem_path, Path(file))
+        content = Path(path).read_text(encoding='utf-8')
+        
+        delim = '## 相关题目'
+        if delim in content:
+            frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+            df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
+            similar = (df.loc[df_indexs[0], "similar"]).split('|')
 
-        new_path = os.path.join('../output/', Path(file))
-        new_content = Path(new_path).read_text(encoding='utf-8')
+            for item in similar:
+                similar_indexs = df[df['fileName'] == item].index.tolist()
+                if not similar_indexs:
+                    continue
+                
+                frame.loc[len(frame.index)] = utils.gen_frame_items(similar_indexs[0], df, const.problem_path)
+                    
+            table = utils.gen_markdown_table(frame, True)
+                
+            content = content.split(delim)[0] + delim + '\n\n' + table + const.tag_list_css
 
-        delim = '## 题目\n'
-        delim2 = '## 相关题目'
-
-        text = new_content.split(delim)[0] + delim + old_content.split(delim)[1]
-        if delim2 in new_content and delim2 in text:
-            text = text.split(delim2)[0] + delim2 + new_content.split(delim2)[1]
-
-        Path(old_path).write_text(text, encoding='utf-8')
+        Path(path).write_text(content, encoding='utf-8')
 
 
 # ------------------------------
@@ -275,7 +283,7 @@ if args.type == 'all' or args.type == 'config':
     gen_config_js()
 if args.type == 'all' or args.type == 'simi':
     # 给题目详解页面自动添加相关题目
-    update_similar_and_tag()
+    update_similar()
 if args.type == 'all' or args.type == 'tag':
     # 生成LeetCode题解按标签分类的列表
     gen_tag_list()

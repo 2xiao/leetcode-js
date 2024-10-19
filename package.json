@@ -5,18 +5,13 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
+    "dev": "vuepress dev src",
     "docs:build": "vuepress build src",
     "docs:clean-dev": "vuepress dev src --clean-cache",
     "docs:dev": "vuepress dev src",
     "docs:update-package": "npx vp-update",
-    "dev": "vuepress dev src",
-    "lc": "cd ./assets/scripts && python3 ./generate.py",
-    "lc:config": "cd ./assets/scripts && python3 ./generate.py config",
-    "lc:simi": "cd ./assets/scripts && python3 ./generate.py simi",
-    "lc:tag": "cd ./assets/scripts && python3 ./generate.py tag",
-    "lc:plan": "cd ./assets/scripts && python3 ./generate.py plan",
-    "lc:cate": "cd ./assets/scripts && python3 ./generate.py cate",
-    "spider": "cd ./assets/scripts && python3 ./leetcode-crawler.py ../output -v"
+    "lc": "cd ./assets/scripts && python3 ./gen-docs.py",
+    "spider": "cd ./assets/scripts && python3 ./leetcode-spider.py ../output -v"
   },
   "devDependencies": {
     "@vuepress/client": "2.0.0-rc.0",
