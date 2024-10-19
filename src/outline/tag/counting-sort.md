@@ -20,7 +20,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 274 | [H 指数](https://leetcode.com/problems/h-index) | [[✓]](/problem/0274) |  [`数组`](/outline/tag/array.md) [`计数排序`](/outline/tag/counting-sort.md) [`排序`](/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 274 | [H 指数](https://leetcode.com/problems/h-index) | [[✓]](/problem/0274.md) |  [`数组`](/outline/tag/array.md) [`计数排序`](/outline/tag/counting-sort.md) [`排序`](/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 561 | [数组拆分](https://leetcode.com/problems/array-partition) |  |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`计数排序`](/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) [`桶排序`](/outline/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
 | 1051 | [高度检查器](https://leetcode.com/problems/height-checker) |  |  [`数组`](/outline/tag/array.md) [`计数排序`](/outline/tag/counting-sort.md) [`排序`](/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |

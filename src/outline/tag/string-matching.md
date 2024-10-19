@@ -20,10 +20,10 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 28 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | [[✓]](/problem/0028) |  [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md) [`字符串匹配`](/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
+| 28 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | [[✓]](/problem/0028.md) |  [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md) [`字符串匹配`](/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
 | 214 | [最短回文串](https://leetcode.com/problems/shortest-palindrome) |  |  [`字符串`](/outline/tag/string.md) [`字符串匹配`](/outline/tag/string-matching.md) [`哈希函数`](/outline/tag/hash-function.md) `1+` | <font color=#ff334b>Hard</font> |
-| 459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern) | [[✓]](/problem/0459) |  [`字符串`](/outline/tag/string.md) [`字符串匹配`](/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree) | [[✓]](/problem/0572) |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md) `2+` | <font color=#15bd66>Easy</font> |
+| 459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern) | [[✓]](/problem/0459.md) |  [`字符串`](/outline/tag/string.md) [`字符串匹配`](/outline/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
+| 572 | [另一棵树的子树](https://leetcode.com/problems/subtree-of-another-tree) | [[✓]](/problem/0572.md) |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md) `2+` | <font color=#15bd66>Easy</font> |
 | 616 | [给字符串添加加粗标签](https://leetcode.com/problems/add-bold-tag-in-string) |  |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match) |  |  [`字符串`](/outline/tag/string.md) [`字符串匹配`](/outline/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
 | 758 | [字符串中的加粗单词](https://leetcode.com/problems/bold-words-in-string) |  |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |

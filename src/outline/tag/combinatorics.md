@@ -20,7 +20,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](/problem/0062) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](/problem/0062.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
 | 458 | [可怜的小猪](https://leetcode.com/problems/poor-pigs) |  |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |
 | 920 | [播放列表的数量](https://leetcode.com/problems/number-of-music-playlists) |  |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |
 | 1201 | [丑数 III](https://leetcode.com/problems/ugly-number-iii) |  |  [`数学`](/outline/tag/math.md) [`二分查找`](/outline/tag/binary-search.md) [`组合数学`](/outline/tag/combinatorics.md) `1+` | <font color=#ffb800>Medium</font> |

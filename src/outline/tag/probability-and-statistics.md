@@ -28,7 +28,7 @@
 | 1230 | [抛掷硬币](https://leetcode.com/problems/toss-strange-coins) |  |  [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) |  |  [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `3+` | <font color=#ff334b>Hard</font> |
 | LCP 11 | [期望个数统计](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) | [[✓]](/problem/jz_offer_60_1) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`概率与统计`](/outline/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) | [[✓]](/problem/jz_offer_60_1.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`概率与统计`](/outline/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
 
 <style>
 .blue {

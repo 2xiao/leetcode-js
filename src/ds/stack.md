@@ -612,6 +612,7 @@ var dailyTemperatures = function (temperatures) {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
+
 ## 相关题目
 
 #### 栈基础题目
@@ -619,30 +620,31 @@ var dailyTemperatures = function (temperatures) {
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | [[✓]](/problem/1047) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 155 | [最小栈](https://leetcode.com/problems/min-stack) | [[✓]](/problem/0155) |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) | <font color=#ffb800>Medium</font> |
-| 20 | [有效的括号](https://leetcode.com/problems/valid-parentheses) | [[✓]](/problem/0020) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii) | [[✓]](/problem/0227) |  [`栈`](/outline/tag/stack.md) [`数学`](/outline/tag/math.md) [`字符串`](/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 739 | [每日温度](https://leetcode.com/problems/daily-temperatures) | [[✓]](/problem/0739) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
-| 150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [[✓]](/problem/0150) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
-| 232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks) | [[✓]](/problem/0232) |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) [`队列`](/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [[✓]](/problem/jz_offer_09_1) |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) [`队列`](/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
-| 394 | [字符串解码](https://leetcode.com/problems/decode-string) | [[✓]](/problem/0394) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`字符串`](/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 32 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses) | [[✓]](/problem/0032) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences) | [[✓]](/problem/0946) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`模拟`](/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [[✓]](/problem/jz_offer_06_1) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
-| 71 | [简化路径](https://leetcode.com/problems/simplify-path) | [[✓]](/problem/0071) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | [[✓]](/problem/1047.md) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 155 | [最小栈](https://leetcode.com/problems/min-stack) | [[✓]](/problem/0155.md) |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) | <font color=#ffb800>Medium</font> |
+| 20 | [有效的括号](https://leetcode.com/problems/valid-parentheses) | [[✓]](/problem/0020.md) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 227 | [基本计算器 II](https://leetcode.com/problems/basic-calculator-ii) | [[✓]](/problem/0227.md) |  [`栈`](/outline/tag/stack.md) [`数学`](/outline/tag/math.md) [`字符串`](/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 739 | [每日温度](https://leetcode.com/problems/daily-temperatures) | [[✓]](/problem/0739.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
+| 150 | [逆波兰表达式求值](https://leetcode.com/problems/evaluate-reverse-polish-notation) | [[✓]](/problem/0150.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
+| 232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks) | [[✓]](/problem/0232.md) |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) [`队列`](/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [[✓]](/problem/jz_offer_09_1.md) |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) [`队列`](/outline/tag/queue.md) | <font color=#15bd66>Easy</font> |
+| 394 | [字符串解码](https://leetcode.com/problems/decode-string) | [[✓]](/problem/0394.md) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`字符串`](/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 32 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses) | [[✓]](/problem/0032.md) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences) | [[✓]](/problem/0946.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`模拟`](/outline/tag/simulation.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [[✓]](/problem/jz_offer_06_1.md) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
+| 71 | [简化路径](https://leetcode.com/problems/simplify-path) | [[✓]](/problem/0071.md) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) | <font color=#ffb800>Medium</font> |
 
 #### 单调栈
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 739 | [每日温度](https://leetcode.com/problems/daily-temperatures) | [[✓]](/problem/0739) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
-| 496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i) | [[✓]](/problem/0496) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#15bd66>Easy</font> |
-| 503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii) | [[✓]](/problem/0503) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
+| 739 | [每日温度](https://leetcode.com/problems/daily-temperatures) | [[✓]](/problem/0739.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
+| 496 | [下一个更大元素 I](https://leetcode.com/problems/next-greater-element-i) | [[✓]](/problem/0496.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#15bd66>Easy</font> |
+| 503 | [下一个更大元素 II](https://leetcode.com/problems/next-greater-element-ii) | [[✓]](/problem/0503.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 | 901 | [股票价格跨度](https://leetcode.com/problems/online-stock-span) |  |  [`栈`](/outline/tag/stack.md) [`设计`](/outline/tag/design.md) [`数据流`](/outline/tag/data-stream.md) `1+` | <font color=#ffb800>Medium</font> |
-| 84 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram) | [[✓]](/problem/0084) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ff334b>Hard</font> |
-| 316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters) | [[✓]](/problem/0316) |  [`栈`](/outline/tag/stack.md) [`贪心`](/outline/tag/greedy.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
-| 42 | [接雨水](https://leetcode.com/problems/trapping-rain-water) | [[✓]](/problem/0042) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`双指针`](/outline/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
-| 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
+| 84 | [柱状图中最大的矩形](https://leetcode.com/problems/largest-rectangle-in-histogram) | [[✓]](/problem/0084.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ff334b>Hard</font> |
+| 316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters) | [[✓]](/problem/0316.md) |  [`栈`](/outline/tag/stack.md) [`贪心`](/outline/tag/greedy.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
+| 42 | [接雨水](https://leetcode.com/problems/trapping-rain-water) | [[✓]](/problem/0042.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`双指针`](/outline/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
+| 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
+

@@ -20,10 +20,10 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array) | [[✓]](/problem/0215) |  [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) [`快速选择`](/outline/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
+| 215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array) | [[✓]](/problem/0215.md) |  [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) [`快速选择`](/outline/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
 | 324 | [摆动排序 II](https://leetcode.com/problems/wiggle-sort-ii) |  |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
-| 347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements) | [[✓]](/problem/0347) |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`分治`](/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
-| 973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin) | [[✓]](/problem/0973) |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `4+` | <font color=#ffb800>Medium</font> |
+| 347 | [前 K 个高频元素](https://leetcode.com/problems/top-k-frequent-elements) | [[✓]](/problem/0347.md) |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`分治`](/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
+| 973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin) | [[✓]](/problem/0973.md) |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `4+` | <font color=#ffb800>Medium</font> |
 | 1738 | [找出第 K 大的异或坐标值](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
 | 1985 | [找出数组中的第 K 大整数](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) |  |  [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) [`分治`](/outline/tag/divide-and-conquer.md) `3+` | <font color=#ffb800>Medium</font> |
 | 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number) |  |  [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) [`分治`](/outline/tag/divide-and-conquer.md) `4+` | <font color=#ffb800>Medium</font> |

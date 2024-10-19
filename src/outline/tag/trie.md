@@ -20,17 +20,17 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 14 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix) | [[✓]](/problem/0014) |  [`字典树`](/outline/tag/trie.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 139 | [单词拆分](https://leetcode.com/problems/word-break) | [[✓]](/problem/0139) |  [`字典树`](/outline/tag/trie.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
+| 14 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix) | [[✓]](/problem/0014.md) |  [`字典树`](/outline/tag/trie.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 139 | [单词拆分](https://leetcode.com/problems/word-break) | [[✓]](/problem/0139.md) |  [`字典树`](/outline/tag/trie.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 140 | [单词拆分 II](https://leetcode.com/problems/word-break-ii) |  |  [`字典树`](/outline/tag/trie.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
-| 208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree) | [[✓]](/problem/0208) |  [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-| 211 | [添加与搜索单词 - 数据结构设计](https://leetcode.com/problems/design-add-and-search-words-data-structure) | [[✓]](/problem/0211) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) `1+` | <font color=#ffb800>Medium</font> |
-| 212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii) | [[✓]](/problem/0212) |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
+| 208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree) | [[✓]](/problem/0208.md) |  [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
+| 211 | [添加与搜索单词 - 数据结构设计](https://leetcode.com/problems/design-add-and-search-words-data-structure) | [[✓]](/problem/0211.md) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) `1+` | <font color=#ffb800>Medium</font> |
+| 212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii) | [[✓]](/problem/0212.md) |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
 | 336 | [回文对](https://leetcode.com/problems/palindrome-pairs) |  |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 386 | [字典序排数](https://leetcode.com/problems/lexicographical-numbers) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`字典树`](/outline/tag/trie.md) | <font color=#ffb800>Medium</font> |
 | 421 | [数组中两个数的最大异或值](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 425 | [单词方块](https://leetcode.com/problems/word-squares) |  |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
-| 440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) | [[✓]](/problem/0440) |  [`字典树`](/outline/tag/trie.md) | <font color=#ff334b>Hard</font> |
+| 440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) | [[✓]](/problem/0440.md) |  [`字典树`](/outline/tag/trie.md) | <font color=#ff334b>Hard</font> |
 | 472 | [连接词](https://leetcode.com/problems/concatenated-words) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 527 | [单词缩写](https://leetcode.com/problems/word-abbreviation) |  |  [`贪心`](/outline/tag/greedy.md) [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 588 | [设计内存文件系统](https://leetcode.com/problems/design-in-memory-file-system) |  |  [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ff334b>Hard</font> |
@@ -61,8 +61,8 @@
 | 1938 | [查询最大基因差](https://leetcode.com/problems/maximum-genetic-difference-query) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`字典树`](/outline/tag/trie.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1948 | [删除系统中的重复文件夹](https://leetcode.com/problems/delete-duplicate-folders-in-system) |  |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ff334b>Hard</font> |
 | 2227 | [加密解密字符串](https://leetcode.com/problems/encrypt-and-decrypt-strings) |  |  [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
-| 2261 | [含最多 K 个可整除元素的子数组](https://leetcode.com/problems/k-divisible-elements-subarrays) | [[✓]](/problem/2261) |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `3+` | <font color=#ffb800>Medium</font> |
-| 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) | [[✓]](/problem/2416) |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
+| 2261 | [含最多 K 个可整除元素的子数组](https://leetcode.com/problems/k-divisible-elements-subarrays) | [[✓]](/problem/2261.md) |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `3+` | <font color=#ffb800>Medium</font> |
+| 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) | [[✓]](/problem/2416.md) |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2479 | [两个不重叠子树的最大异或值](https://leetcode.com/problems/maximum-xor-of-two-non-overlapping-subtrees) |  |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`图`](/outline/tag/graph.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2707 | [字符串中的额外字符](https://leetcode.com/problems/extra-characters-in-a-string) |  |  [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2932 | [找出强数对的最大异或值 I](https://leetcode.com/problems/maximum-strong-pair-xor-i) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#15bd66>Easy</font> |

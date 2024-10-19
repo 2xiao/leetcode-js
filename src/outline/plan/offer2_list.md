@@ -34,11 +34,11 @@ headerDepth: 0
 | 剑指 Offer II 24 | [反转链表](https://leetcode.cn/problems/UHnkqh) |  |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 25 | [链表中的两数相加](https://leetcode.cn/problems/lMSNwu) |  |  [`栈`](/outline/tag/stack.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 26 | [重排链表](https://leetcode.cn/problems/LGjMqU) |  |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 27 | [回文链表](https://leetcode.cn/problems/aMhZSa) | [[✓]](/problem/jz_offer_II_027) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer II 27 | [回文链表](https://leetcode.cn/problems/aMhZSa) | [[✓]](/problem/jz_offer_II_027.md) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 28 | [展平多级双向链表](https://leetcode.cn/problems/Qv1Da2) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`链表`](/outline/tag/linked-list.md) [`双向链表`](/outline/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 29 | [排序的循环链表](https://leetcode.cn/problems/4ueAj6) |  |  [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 30 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu) |  |  [`设计`](/outline/tag/design.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 31 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps) | [[✓]](/problem/jz_offer_II_031) |  [`设计`](/outline/tag/design.md) [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 31 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps) | [[✓]](/problem/jz_offer_II_031.md) |  [`设计`](/outline/tag/design.md) [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 32 | [有效的变位词](https://leetcode.cn/problems/dKk3P7) |  |  [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`排序`](/outline/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 33 | [变位词组](https://leetcode.cn/problems/sfvd7V) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 34 | [外星语言是否排序](https://leetcode.cn/problems/lwyVBB) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) | <font color=#15bd66>Easy</font> |
@@ -81,7 +81,7 @@ headerDepth: 0
 | 剑指 Offer II 71 | [按权重生成随机数](https://leetcode.cn/problems/cuyjEf) |  |  [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`二分查找`](/outline/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 72 | [求平方根](https://leetcode.cn/problems/jJ0w9p) |  |  [`数学`](/outline/tag/math.md) [`二分查找`](/outline/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 73 | [狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ) |  |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 74 | [合并区间](https://leetcode.cn/problems/SsGoHC) | [[✓]](/problem/jz_offer_II_074) |  [`数组`](/outline/tag/array.md) [`排序`](/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 74 | [合并区间](https://leetcode.cn/problems/SsGoHC) | [[✓]](/problem/jz_offer_II_074.md) |  [`数组`](/outline/tag/array.md) [`排序`](/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 75 | [数组相对排序](https://leetcode.cn/problems/0H97ZC) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`计数排序`](/outline/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 76 | [数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2) |  |  [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) [`快速选择`](/outline/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 77 | [链表排序](https://leetcode.cn/problems/7WHec2) |  |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -108,7 +108,7 @@ headerDepth: 0
 | 剑指 Offer II 98 | [路径的数目](https://leetcode.cn/problems/2AoeFn) |  |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 99 | [最小路径之和](https://leetcode.cn/problems/0i0mDW) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 100 | [三角形中最小路径之和](https://leetcode.cn/problems/IlPe0q) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 101 | [分割等和子集](https://leetcode.cn/problems/NUPfPr) | [[✓]](/problem/jz_offer_II_101) |  [`数学`](/outline/tag/math.md) [`字符串`](/outline/tag/string.md) [`模拟`](/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer II 101 | [分割等和子集](https://leetcode.cn/problems/NUPfPr) | [[✓]](/problem/jz_offer_II_101.md) |  [`数学`](/outline/tag/math.md) [`字符串`](/outline/tag/string.md) [`模拟`](/outline/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 102 | [加减的目标值](https://leetcode.cn/problems/YaVDxD) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`回溯`](/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 103 | [最少的硬币数目](https://leetcode.cn/problems/gaM7Ch) |  |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 104 | [排列的数目](https://leetcode.cn/problems/D0F0SV) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
@@ -127,6 +127,7 @@ headerDepth: 0
 | 剑指 Offer II 117 | [相似的字符串](https://leetcode.cn/problems/H6lPxb) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer II 118 | [多余的边](https://leetcode.cn/problems/7LpjUW) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 119 | [最长连续序列](https://leetcode.cn/problems/WhsWhI) |  |  [`并查集`](/outline/tag/union-find.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
+
 
 <style>
 table th:first-of-type { width: 20%; }

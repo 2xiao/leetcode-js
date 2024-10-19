@@ -1665,6 +1665,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
+
 ## 相关题目
 
 #### 链表基础题目
@@ -1672,40 +1673,41 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 707 | [设计链表](https://leetcode.com/problems/design-linked-list) | [[✓]](/problem/0707) |  [`设计`](/outline/tag/design.md) [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 83 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [[✓]](/problem/0083) |  [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 82 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [[✓]](/problem/0082) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 206 | [反转链表](https://leetcode.com/problems/reverse-linked-list) | [[✓]](/problem/0206) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 92 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii) | [[✓]](/problem/0092) |  [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 25 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group) | [[✓]](/problem/0025) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#ff334b>Hard</font> |
-| 203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements) | [[✓]](/problem/0203) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list) | [[✓]](/problem/0328) |  [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list) | [[✓]](/problem/0234) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
-| 430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [[✓]](/problem/0430) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`链表`](/outline/tag/linked-list.md) [`双向链表`](/outline/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
-| 138 | [随机链表的复制](https://leetcode.com/problems/copy-list-with-random-pointer) | [[✓]](/problem/0138) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 61 | [旋转链表](https://leetcode.com/problems/rotate-list) | [[✓]](/problem/0061) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 707 | [设计链表](https://leetcode.com/problems/design-linked-list) | [[✓]](/problem/0707.md) |  [`设计`](/outline/tag/design.md) [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 83 | [删除排序链表中的重复元素](https://leetcode.com/problems/remove-duplicates-from-sorted-list) | [[✓]](/problem/0083.md) |  [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 82 | [删除排序链表中的重复元素 II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) | [[✓]](/problem/0082.md) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 206 | [反转链表](https://leetcode.com/problems/reverse-linked-list) | [[✓]](/problem/0206.md) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 92 | [反转链表 II](https://leetcode.com/problems/reverse-linked-list-ii) | [[✓]](/problem/0092.md) |  [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 25 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group) | [[✓]](/problem/0025.md) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#ff334b>Hard</font> |
+| 203 | [移除链表元素](https://leetcode.com/problems/remove-linked-list-elements) | [[✓]](/problem/0203.md) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 328 | [奇偶链表](https://leetcode.com/problems/odd-even-linked-list) | [[✓]](/problem/0328.md) |  [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list) | [[✓]](/problem/0234.md) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
+| 430 | [扁平化多级双向链表](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) | [[✓]](/problem/0430.md) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`链表`](/outline/tag/linked-list.md) [`双向链表`](/outline/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
+| 138 | [随机链表的复制](https://leetcode.com/problems/copy-list-with-random-pointer) | [[✓]](/problem/0138.md) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 61 | [旋转链表](https://leetcode.com/problems/rotate-list) | [[✓]](/problem/0061.md) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 
 #### 链表排序
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 148 | [排序链表](https://leetcode.com/problems/sort-list) | [[✓]](/problem/0148) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
-| 21 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists) | [[✓]](/problem/0021) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 23 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists) | [[✓]](/problem/0023) |  [`链表`](/outline/tag/linked-list.md) [`分治`](/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
-| 147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list) | [[✓]](/problem/0147) |  [`链表`](/outline/tag/linked-list.md) [`排序`](/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 148 | [排序链表](https://leetcode.com/problems/sort-list) | [[✓]](/problem/0148.md) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
+| 21 | [合并两个有序链表](https://leetcode.com/problems/merge-two-sorted-lists) | [[✓]](/problem/0021.md) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 23 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists) | [[✓]](/problem/0023.md) |  [`链表`](/outline/tag/linked-list.md) [`分治`](/outline/tag/divide-and-conquer.md) [`堆（优先队列）`](/outline/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
+| 147 | [对链表进行插入排序](https://leetcode.com/problems/insertion-sort-list) | [[✓]](/problem/0147.md) |  [`链表`](/outline/tag/linked-list.md) [`排序`](/outline/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 
 #### 链表双指针
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 141 | [环形链表](https://leetcode.com/problems/linked-list-cycle) | [[✓]](/problem/0141) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii) | [[✓]](/problem/0142) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists) | [[✓]](/problem/0160) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 19 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [[✓]](/problem/0019) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list) | [[✓]](/problem/0876) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/problem/jz_offer_22_1) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 143 | [重排链表](https://leetcode.com/problems/reorder-list) | [[✓]](/problem/0143) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
-| 2 | [两数相加](https://leetcode.com/problems/add-two-numbers) | [[✓]](/problem/0002) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
-| 445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii) | [[✓]](/problem/0445) |  [`栈`](/outline/tag/stack.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
+| 141 | [环形链表](https://leetcode.com/problems/linked-list-cycle) | [[✓]](/problem/0141.md) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 142 | [环形链表 II](https://leetcode.com/problems/linked-list-cycle-ii) | [[✓]](/problem/0142.md) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists) | [[✓]](/problem/0160.md) |  [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 19 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [[✓]](/problem/0019.md) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
+| 876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list) | [[✓]](/problem/0876.md) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/problem/jz_offer_22_1.md) |  [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 143 | [重排链表](https://leetcode.com/problems/reorder-list) | [[✓]](/problem/0143.md) |  [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2 | [两数相加](https://leetcode.com/problems/add-two-numbers) | [[✓]](/problem/0002.md) |  [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
+| 445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii) | [[✓]](/problem/0445.md) |  [`栈`](/outline/tag/stack.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
+

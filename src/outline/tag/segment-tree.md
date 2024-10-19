@@ -21,7 +21,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem) |  |  [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
-| 307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable) | [[✓]](/problem/0307) |  [`设计`](/outline/tag/design.md) [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable) | [[✓]](/problem/0307.md) |  [`设计`](/outline/tag/design.md) [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 308 | [二维区域和检索 - 矩阵可修改](https://leetcode.com/problems/range-sum-query-2d-mutable) |  |  [`设计`](/outline/tag/design.md) [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) `2+` | <font color=#ff334b>Hard</font> |
 | 315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self) |  |  [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 327 | [区间和的个数](https://leetcode.com/problems/count-of-range-sum) |  |  [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
@@ -31,8 +31,8 @@
 | 683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots) |  |  [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`队列`](/outline/tag/queue.md) `5+` | <font color=#ff334b>Hard</font> |
 | 699 | [掉落的方块](https://leetcode.com/problems/falling-squares) |  |  [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) [`有序集合`](/outline/tag/ordered-set.md) | <font color=#ff334b>Hard</font> |
 | 715 | [Range 模块](https://leetcode.com/problems/range-module) |  |  [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`有序集合`](/outline/tag/ordered-set.md) | <font color=#ff334b>Hard</font> |
-| 729 | [我的日程安排表 I](https://leetcode.com/problems/my-calendar-i) | [[✓]](/problem/0729) |  [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
-| 731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii) | [[✓]](/problem/0731) |  [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
+| 729 | [我的日程安排表 I](https://leetcode.com/problems/my-calendar-i) | [[✓]](/problem/0729.md) |  [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
+| 731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii) | [[✓]](/problem/0731.md) |  [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 732 | [我的日程安排表 III](https://leetcode.com/problems/my-calendar-iii) |  |  [`设计`](/outline/tag/design.md) [`线段树`](/outline/tag/segment-tree.md) [`二分查找`](/outline/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii) |  |  [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) [`有序集合`](/outline/tag/ordered-set.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1157 | [子数组中占绝大多数的元素](https://leetcode.com/problems/online-majority-element-in-subarray) |  |  [`设计`](/outline/tag/design.md) [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) `2+` | <font color=#ff334b>Hard</font> |

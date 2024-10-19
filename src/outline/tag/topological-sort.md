@@ -20,8 +20,8 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 207 | [课程表](https://leetcode.com/problems/course-schedule) | [[✓]](/problem/0207) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
-| 210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii) | [[✓]](/problem/0210) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 207 | [课程表](https://leetcode.com/problems/course-schedule) | [[✓]](/problem/0207.md) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 210 | [课程表 II](https://leetcode.com/problems/course-schedule-ii) | [[✓]](/problem/0210.md) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 269 | [火星词典](https://leetcode.com/problems/alien-dictionary) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `3+` | <font color=#ff334b>Hard</font> |
 | 310 | [最小高度树](https://leetcode.com/problems/minimum-height-trees) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 329 | [矩阵中的最长递增路径](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `5+` | <font color=#ff334b>Hard</font> |

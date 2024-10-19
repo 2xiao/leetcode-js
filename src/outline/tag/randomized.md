@@ -20,9 +20,9 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1) | [[✓]](/problem/0380) |  [`设计`](/outline/tag/design.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 380 | [O(1) 时间插入、删除和获取随机元素](https://leetcode.com/problems/insert-delete-getrandom-o1) | [[✓]](/problem/0380.md) |  [`设计`](/outline/tag/design.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 381 | [O(1) 时间插入、删除和获取随机元素 - 允许重复](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed) |  |  [`设计`](/outline/tag/design.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ff334b>Hard</font> |
-| 382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node) | [[✓]](/problem/0382) |  [`水塘抽样`](/outline/tag/reservoir-sampling.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
+| 382 | [链表随机节点](https://leetcode.com/problems/linked-list-random-node) | [[✓]](/problem/0382.md) |  [`水塘抽样`](/outline/tag/reservoir-sampling.md) [`链表`](/outline/tag/linked-list.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array) |  |  [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`随机化`](/outline/tag/randomized.md) | <font color=#ffb800>Medium</font> |
 | 398 | [随机数索引](https://leetcode.com/problems/random-pick-index) |  |  [`水塘抽样`](/outline/tag/reservoir-sampling.md) [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7) |  |  [`数学`](/outline/tag/math.md) [`拒绝采样`](/outline/tag/rejection-sampling.md) [`概率与统计`](/outline/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |

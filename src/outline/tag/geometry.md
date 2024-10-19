@@ -20,7 +20,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149) |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
+| 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149.md) |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 223 | [矩形面积](https://leetcode.com/problems/rectangle-area) |  |  [`几何`](/outline/tag/geometry.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 335 | [路径交叉](https://leetcode.com/problems/self-crossing) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#ff334b>Hard</font> |
 | 469 | [凸多边形](https://leetcode.com/problems/convex-polygon) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
@@ -34,7 +34,7 @@
 | 892 | [三维形体的表面积](https://leetcode.com/problems/surface-area-of-3d-shapes) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
 | 939 | [最小面积矩形](https://leetcode.com/problems/minimum-area-rectangle) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 963 | [最小面积矩形 II](https://leetcode.com/problems/minimum-area-rectangle-ii) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#ffb800>Medium</font> |
-| 973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin) | [[✓]](/problem/0973) |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `4+` | <font color=#ffb800>Medium</font> |
+| 973 | [最接近原点的 K 个点](https://leetcode.com/problems/k-closest-points-to-origin) | [[✓]](/problem/0973.md) |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `4+` | <font color=#ffb800>Medium</font> |
 | 1030 | [距离顺序排列矩阵单元格](https://leetcode.com/problems/matrix-cells-in-distance-order) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `2+` | <font color=#15bd66>Easy</font> |
 | 1037 | [有效的回旋镖](https://leetcode.com/problems/valid-boomerang) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 1232 | [缀点成线](https://leetcode.com/problems/check-if-it-is-a-straight-line) |  |  [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) | <font color=#15bd66>Easy</font> |

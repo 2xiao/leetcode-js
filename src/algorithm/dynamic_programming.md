@@ -42,18 +42,18 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number) | [[✓]](/problem/0509) |  [`递归`](/outline/tag/recursion.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
-| 70 | [爬楼梯](https://leetcode.com/problems/climbing-stairs) | [[✓]](/problem/0070) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
-| 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](/problem/0062) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number) | [[✓]](/problem/0509.md) |  [`递归`](/outline/tag/recursion.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
+| 70 | [爬楼梯](https://leetcode.com/problems/climbing-stairs) | [[✓]](/problem/0070.md) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](/problem/0062.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
 
 #### 记忆化搜索
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
-| 375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii) | [[✓]](/problem/0375) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
-| 494 | [目标和](https://leetcode.com/problems/target-sum) | [[✓]](/problem/0494) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`回溯`](/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137.md) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii) | [[✓]](/problem/0375.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
+| 494 | [目标和](https://leetcode.com/problems/target-sum) | [[✓]](/problem/0494.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`回溯`](/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 576 | [出界的路径数](https://leetcode.com/problems/out-of-boundary-paths) |  |  [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 87 | [扰乱字符串](https://leetcode.com/problems/scramble-string) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 403 | [青蛙过河](https://leetcode.com/problems/frog-jump) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
@@ -68,13 +68,13 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence) | [[✓]](/problem/0300) |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 300 | [最长递增子序列](https://leetcode.com/problems/longest-increasing-subsequence) | [[✓]](/problem/0300.md) |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 673 | [最长递增子序列的个数](https://leetcode.com/problems/number-of-longest-increasing-subsequence) |  |  [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes) | [[✓]](/problem/0354) |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
-| 53 | [最大子数组和](https://leetcode.com/problems/maximum-subarray) | [[✓]](/problem/0053) |  [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 152 | [乘积最大子数组](https://leetcode.com/problems/maximum-product-subarray) | [[✓]](/problem/0152) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 918 | [环形子数组的最大和](https://leetcode.com/problems/maximum-sum-circular-subarray) | [[✓]](/problem/0918) |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
-| 198 | [打家劫舍](https://leetcode.com/problems/house-robber) | [[✓]](/problem/0198) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes) | [[✓]](/problem/0354.md) |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
+| 53 | [最大子数组和](https://leetcode.com/problems/maximum-subarray) | [[✓]](/problem/0053.md) |  [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 152 | [乘积最大子数组](https://leetcode.com/problems/maximum-product-subarray) | [[✓]](/problem/0152.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 918 | [环形子数组的最大和](https://leetcode.com/problems/maximum-sum-circular-subarray) | [[✓]](/problem/0918.md) |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
+| 198 | [打家劫舍](https://leetcode.com/problems/house-robber) | [[✓]](/problem/0198.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 213 | [打家劫舍 II](https://leetcode.com/problems/house-robber-ii) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 740 | [删除并获得点数](https://leetcode.com/problems/delete-and-earn) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1388 | [3n 块披萨](https://leetcode.com/problems/pizza-with-3n-slices) |  |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
@@ -82,7 +82,7 @@
 | 1027 | [最长等差数列](https://leetcode.com/problems/longest-arithmetic-subsequence) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`二分查找`](/outline/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1055 | [形成字符串的最短路径](https://leetcode.com/problems/shortest-way-to-form-string) |  |  [`贪心`](/outline/tag/greedy.md) [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 368 | [最大整除子集](https://leetcode.com/problems/largest-divisible-subset) |  |  [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
-| 32 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses) | [[✓]](/problem/0032) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 32 | [最长有效括号](https://leetcode.com/problems/longest-valid-parentheses) | [[✓]](/problem/0032.md) |  [`栈`](/outline/tag/stack.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 413 | [等差数列划分](https://leetcode.com/problems/arithmetic-slices) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`滑动窗口`](/outline/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 91 | [解码方法](https://leetcode.com/problems/decode-ways) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 639 | [解码方法 II](https://leetcode.com/problems/decode-ways-ii) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
@@ -91,7 +91,7 @@
 | 338 | [比特位计数](https://leetcode.com/problems/counting-bits) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 801 | [使序列递增的最小交换次数](https://leetcode.com/problems/minimum-swaps-to-make-sequences-increasing) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 871 | [最低加油次数](https://leetcode.com/problems/minimum-number-of-refueling-stops) |  |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
-| 45 | [跳跃游戏 II](https://leetcode.com/problems/jump-game-ii) | [[✓]](/problem/0045) |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 45 | [跳跃游戏 II](https://leetcode.com/problems/jump-game-ii) | [[✓]](/problem/0045.md) |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 813 | [最大平均值和的分组](https://leetcode.com/problems/largest-sum-of-averages) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`前缀和`](/outline/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 887 | [鸡蛋掉落](https://leetcode.com/problems/super-egg-drop) |  |  [`数学`](/outline/tag/math.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 256 | [粉刷房子](https://leetcode.com/problems/paint-house) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
@@ -104,26 +104,26 @@
 | 410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum) |  |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1751 | [最多可以参加的会议数目 II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii) |  |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1787 | [使所有区间的异或结果为零](https://leetcode.com/problems/make-the-xor-of-all-segments-equal-to-zero) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 121 | [买卖股票的最佳时机](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [[✓]](/problem/0121) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
-| 122 | [买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [[✓]](/problem/0122) |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [[✓]](/problem/0123) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 188 | [买卖股票的最佳时机 IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [[✓]](/problem/0188) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 309 | [买卖股票的最佳时机含冷冻期](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [[✓]](/problem/0309) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [[✓]](/problem/0714) |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 121 | [买卖股票的最佳时机](https://leetcode.com/problems/best-time-to-buy-and-sell-stock) | [[✓]](/problem/0121.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 122 | [买卖股票的最佳时机 II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii) | [[✓]](/problem/0122.md) |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [[✓]](/problem/0123.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 188 | [买卖股票的最佳时机 IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) | [[✓]](/problem/0188.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 309 | [买卖股票的最佳时机含冷冻期](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown) | [[✓]](/problem/0309.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 714 | [买卖股票的最佳时机含手续费](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [[✓]](/problem/0714.md) |  [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 
 * 双串线性 DP 问题
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 712 | [两个字符串的最小ASCII删除和](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings) | [[✓]](/problem/0712) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143.md) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 712 | [两个字符串的最小ASCII删除和](https://leetcode.com/problems/minimum-ascii-delete-sum-for-two-strings) | [[✓]](/problem/0712.md) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 718 | [最长重复子数组](https://leetcode.com/problems/maximum-length-of-repeated-subarray) |  |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) `3+` | <font color=#ffb800>Medium</font> |
-| 583 | [两个字符串的删除操作](https://leetcode.com/problems/delete-operation-for-two-strings) | [[✓]](/problem/0583) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 72 | [编辑距离](https://leetcode.com/problems/edit-distance) | [[✓]](/problem/0072) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 44 | [通配符匹配](https://leetcode.com/problems/wildcard-matching) | [[✓]](/problem/0044) |  [`贪心`](/outline/tag/greedy.md) [`递归`](/outline/tag/recursion.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
-| 10 | [正则表达式匹配](https://leetcode.com/problems/regular-expression-matching) | [[✓]](/problem/0010) |  [`递归`](/outline/tag/recursion.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 97 | [交错字符串](https://leetcode.com/problems/interleaving-string) | [[✓]](/problem/0097) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 583 | [两个字符串的删除操作](https://leetcode.com/problems/delete-operation-for-two-strings) | [[✓]](/problem/0583.md) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 72 | [编辑距离](https://leetcode.com/problems/edit-distance) | [[✓]](/problem/0072.md) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 44 | [通配符匹配](https://leetcode.com/problems/wildcard-matching) | [[✓]](/problem/0044.md) |  [`贪心`](/outline/tag/greedy.md) [`递归`](/outline/tag/recursion.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
+| 10 | [正则表达式匹配](https://leetcode.com/problems/regular-expression-matching) | [[✓]](/problem/0010.md) |  [`递归`](/outline/tag/recursion.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 97 | [交错字符串](https://leetcode.com/problems/interleaving-string) | [[✓]](/problem/0097.md) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 115 | [不同的子序列](https://leetcode.com/problems/distinct-subsequences) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 87 | [扰乱字符串](https://leetcode.com/problems/scramble-string) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 
@@ -132,15 +132,15 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle) | [[✓]](/problem/0118) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 118 | [杨辉三角](https://leetcode.com/problems/pascals-triangle) | [[✓]](/problem/0118.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 119 | [杨辉三角 II](https://leetcode.com/problems/pascals-triangle-ii) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
-| 120 | [三角形最小路径和](https://leetcode.com/problems/triangle) | [[✓]](/problem/0120) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 64 | [最小路径和](https://leetcode.com/problems/minimum-path-sum) | [[✓]](/problem/0064) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 174 | [地下城游戏](https://leetcode.com/problems/dungeon-game) | [[✓]](/problem/0174) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ff334b>Hard</font> |
-| 221 | [最大正方形](https://leetcode.com/problems/maximal-square) | [[✓]](/problem/0221) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum) | [[✓]](/problem/0931) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 120 | [三角形最小路径和](https://leetcode.com/problems/triangle) | [[✓]](/problem/0120.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 64 | [最小路径和](https://leetcode.com/problems/minimum-path-sum) | [[✓]](/problem/0064.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 174 | [地下城游戏](https://leetcode.com/problems/dungeon-game) | [[✓]](/problem/0174.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ff334b>Hard</font> |
+| 221 | [最大正方形](https://leetcode.com/problems/maximal-square) | [[✓]](/problem/0221.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum) | [[✓]](/problem/0931.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 576 | [出界的路径数](https://leetcode.com/problems/out-of-boundary-paths) |  |  [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
+| 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085.md) |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
 | 363 | [矩形区域不超过 K 的最大数值和](https://leetcode.com/problems/max-sum-of-rectangle-no-larger-than-k) |  |  [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`矩阵`](/outline/tag/matrix.md) `2+` | <font color=#ff334b>Hard</font> |
 | 面试题 17.24 | [最大子矩阵](https://leetcode.cn/problems/max-submatrix-lcci) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1444 | [切披萨的方案数](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza) |  |  [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
@@ -150,11 +150,11 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137.md) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 650 | [两个键的键盘](https://leetcode.com/problems/2-keys-keyboard) |  |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii) | [[✓]](/problem/0264) |  [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
-| 279 | [完全平方数](https://leetcode.com/problems/perfect-squares) | [[✓]](/problem/0279) |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 343 | [整数拆分](https://leetcode.com/problems/integer-break) | [[✓]](/problem/0343) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 264 | [丑数 II](https://leetcode.com/problems/ugly-number-ii) | [[✓]](/problem/0264.md) |  [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 279 | [完全平方数](https://leetcode.com/problems/perfect-squares) | [[✓]](/problem/0279.md) |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 343 | [整数拆分](https://leetcode.com/problems/integer-break) | [[✓]](/problem/0343.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 
 #### 背包问题
 
@@ -163,19 +163,19 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum) | [[✓]](/problem/0416) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 494 | [目标和](https://leetcode.com/problems/target-sum) | [[✓]](/problem/0494) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`回溯`](/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii) | [[✓]](/problem/1049) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum) | [[✓]](/problem/0416.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 494 | [目标和](https://leetcode.com/problems/target-sum) | [[✓]](/problem/0494.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`回溯`](/outline/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii) | [[✓]](/problem/1049.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 
 * 完全背包问题
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 279 | [完全平方数](https://leetcode.com/problems/perfect-squares) | [[✓]](/problem/0279) |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 322 | [零钱兑换](https://leetcode.com/problems/coin-change) | [[✓]](/problem/0322) |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 518 | [零钱兑换 II](https://leetcode.com/problems/coin-change-ii) | [[✓]](/problem/0518) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 139 | [单词拆分](https://leetcode.com/problems/word-break) | [[✓]](/problem/0139) |  [`字典树`](/outline/tag/trie.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
+| 279 | [完全平方数](https://leetcode.com/problems/perfect-squares) | [[✓]](/problem/0279.md) |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 322 | [零钱兑换](https://leetcode.com/problems/coin-change) | [[✓]](/problem/0322.md) |  [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 518 | [零钱兑换 II](https://leetcode.com/problems/coin-change-ii) | [[✓]](/problem/0518.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 139 | [单词拆分](https://leetcode.com/problems/word-break) | [[✓]](/problem/0139.md) |  [`字典树`](/outline/tag/trie.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 377 | [组合总和 Ⅳ](https://leetcode.com/problems/combination-sum-iv) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 638 | [大礼包](https://leetcode.com/problems/shopping-offers) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1449 | [数位成本和为目标值的最大数字](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
@@ -195,7 +195,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 474 | [一和零](https://leetcode.com/problems/ones-and-zeroes) | [[✓]](/problem/0474) |  [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 474 | [一和零](https://leetcode.com/problems/ones-and-zeroes) | [[✓]](/problem/0474.md) |  [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 879 | [盈利计划](https://leetcode.com/problems/profitable-schemes) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1995 | [统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets) |  |  [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`枚举`](/outline/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 
@@ -212,10 +212,10 @@
 | 664 | [奇怪的打印机](https://leetcode.com/problems/strange-printer) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1039 | [多边形三角剖分的最低得分](https://leetcode.com/problems/minimum-score-triangulation-of-polygon) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 546 | [移除盒子](https://leetcode.com/problems/remove-boxes) |  |  [`记忆化搜索`](/outline/tag/memoization.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii) | [[✓]](/problem/0375) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
-| 678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string) | [[✓]](/problem/0678) |  [`栈`](/outline/tag/stack.md) [`贪心`](/outline/tag/greedy.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
-| 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring) | [[✓]](/problem/0005) |  [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence) | [[✓]](/problem/0516) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii) | [[✓]](/problem/0375.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
+| 678 | [有效的括号字符串](https://leetcode.com/problems/valid-parenthesis-string) | [[✓]](/problem/0678.md) |  [`栈`](/outline/tag/stack.md) [`贪心`](/outline/tag/greedy.md) [`字符串`](/outline/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
+| 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring) | [[✓]](/problem/0005.md) |  [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 516 | [最长回文子序列](https://leetcode.com/problems/longest-palindromic-subsequence) | [[✓]](/problem/0516.md) |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 730 | [统计不同回文子序列](https://leetcode.com/problems/count-different-palindromic-subsequences) |  |  [`字符串`](/outline/tag/string.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 2104 | [子数组范围和](https://leetcode.com/problems/sum-of-subarray-ranges) |  |  [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`单调栈`](/outline/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 
@@ -226,8 +226,8 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 543 | [二叉树的直径](https://leetcode.com/problems/diameter-of-binary-tree) | [[✓]](/problem/0543) |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md) | <font color=#15bd66>Easy</font> |
-| 124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum) | [[✓]](/problem/0124) |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
+| 543 | [二叉树的直径](https://leetcode.com/problems/diameter-of-binary-tree) | [[✓]](/problem/0543.md) |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md) | <font color=#15bd66>Easy</font> |
+| 124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum) | [[✓]](/problem/0124.md) |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1245 | [树的直径](https://leetcode.com/problems/tree-diameter) |  |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2246 | [相邻字符不同的最长路径](https://leetcode.com/problems/longest-path-with-different-adjacent-characters) |  |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`图`](/outline/tag/graph.md) `3+` | <font color=#ff334b>Hard</font> |
 | 687 | [最长同值路径](https://leetcode.com/problems/longest-univalue-path) |  |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
@@ -283,16 +283,16 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](/problem/0062) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
-| 63 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii) | [[✓]](/problem/0063) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 343 | [整数拆分](https://leetcode.com/problems/integer-break) | [[✓]](/problem/0343) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 96 | [不同的二叉搜索树](https://leetcode.com/problems/unique-binary-search-trees) | [[✓]](/problem/0096) |  [`树`](/outline/tag/tree.md) [`二叉搜索树`](/outline/tag/binary-search-tree.md) [`数学`](/outline/tag/math.md) `2+` | <font color=#ffb800>Medium</font> |
+| 62 | [不同路径](https://leetcode.com/problems/unique-paths) | [[✓]](/problem/0062.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 63 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii) | [[✓]](/problem/0063.md) |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 343 | [整数拆分](https://leetcode.com/problems/integer-break) | [[✓]](/problem/0343.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
+| 96 | [不同的二叉搜索树](https://leetcode.com/problems/unique-binary-search-trees) | [[✓]](/problem/0096.md) |  [`树`](/outline/tag/tree.md) [`二叉搜索树`](/outline/tag/binary-search-tree.md) [`数学`](/outline/tag/math.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1259 | [不相交的握手](https://leetcode.com/problems/handshakes-that-dont-cross) |  |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 790 | [多米诺和托米诺平铺](https://leetcode.com/problems/domino-and-tromino-tiling) |  |  [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 70 | [爬楼梯](https://leetcode.com/problems/climbing-stairs) | [[✓]](/problem/0070) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 70 | [爬楼梯](https://leetcode.com/problems/climbing-stairs) | [[✓]](/problem/0070.md) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 746 | [使用最小花费爬楼梯](https://leetcode.com/problems/min-cost-climbing-stairs) |  |  [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
-| 509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number) | [[✓]](/problem/0509) |  [`递归`](/outline/tag/recursion.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
-| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
+| 509 | [斐波那契数](https://leetcode.com/problems/fibonacci-number) | [[✓]](/problem/0509.md) |  [`递归`](/outline/tag/recursion.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
+| 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137.md) |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 
 #### 数位 DP
 
@@ -325,5 +325,5 @@
 | 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) |  |  [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `3+` | <font color=#ff334b>Hard</font> |
 | 1227 | [飞机座位分配概率](https://leetcode.com/problems/airplane-seat-assignment-probability) |  |  [`脑筋急转弯`](/outline/tag/brainteaser.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1377 | [T 秒后青蛙的位置](https://leetcode.com/problems/frog-position-after-t-seconds) |  |  [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) `1+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) | [[✓]](/problem/jz_offer_60_1) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`概率与统计`](/outline/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) | [[✓]](/problem/jz_offer_60_1.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`概率与统计`](/outline/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
 

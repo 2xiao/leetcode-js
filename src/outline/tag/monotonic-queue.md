@@ -20,10 +20,10 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum) | [[✓]](/problem/0239) |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`滑动窗口`](/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
+| 239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum) | [[✓]](/problem/0239.md) |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`滑动窗口`](/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
 | 683 | [K 个关闭的灯泡](https://leetcode.com/problems/k-empty-slots) |  |  [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`队列`](/outline/tag/queue.md) `5+` | <font color=#ff334b>Hard</font> |
 | 862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |  |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) `4+` | <font color=#ff334b>Hard</font> |
-| 918 | [环形子数组的最大和](https://leetcode.com/problems/maximum-sum-circular-subarray) | [[✓]](/problem/0918) |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
+| 918 | [环形子数组的最大和](https://leetcode.com/problems/maximum-sum-circular-subarray) | [[✓]](/problem/0918.md) |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`分治`](/outline/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1425 | [带限制的子序列和](https://leetcode.com/problems/constrained-subsequence-sum) |  |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) `3+` | <font color=#ff334b>Hard</font> |
 | 1438 | [绝对差不超过限制的最长连续子数组](https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |  |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`有序集合`](/outline/tag/ordered-set.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1499 | [满足不等式的最大值](https://leetcode.com/problems/max-value-of-equation) |  |  [`队列`](/outline/tag/queue.md) [`数组`](/outline/tag/array.md) [`滑动窗口`](/outline/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |

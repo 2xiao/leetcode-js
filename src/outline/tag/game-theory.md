@@ -22,7 +22,7 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 292 | [Nim 游戏](https://leetcode.com/problems/nim-game) |  |  [`脑筋急转弯`](/outline/tag/brainteaser.md) [`数学`](/outline/tag/math.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#15bd66>Easy</font> |
 | 294 | [翻转游戏 II](https://leetcode.com/problems/flip-game-ii) |  |  [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) `2+` | <font color=#ffb800>Medium</font> |
-| 375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii) | [[✓]](/problem/0375) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
+| 375 | [猜数字大小 II](https://leetcode.com/problems/guess-number-higher-or-lower-ii) | [[✓]](/problem/0375.md) |  [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`博弈`](/outline/tag/game-theory.md) | <font color=#ffb800>Medium</font> |
 | 464 | [我能赢吗](https://leetcode.com/problems/can-i-win) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
 | 486 | [预测赢家](https://leetcode.com/problems/predict-the-winner) |  |  [`递归`](/outline/tag/recursion.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) `2+` | <font color=#ffb800>Medium</font> |
 | 810 | [黑板异或游戏](https://leetcode.com/problems/chalkboard-xor-game) |  |  [`位运算`](/outline/tag/bit-manipulation.md) [`脑筋急转弯`](/outline/tag/brainteaser.md) [`数组`](/outline/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |

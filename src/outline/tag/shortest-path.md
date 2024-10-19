@@ -20,7 +20,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 399 | [除法求值](https://leetcode.com/problems/evaluate-division) | [[✓]](/problem/0399) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) `4+` | <font color=#ffb800>Medium</font> |
+| 399 | [除法求值](https://leetcode.com/problems/evaluate-division) | [[✓]](/problem/0399.md) |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) `4+` | <font color=#ffb800>Medium</font> |
 | 499 | [迷宫 III](https://leetcode.com/problems/the-maze-iii) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `5+` | <font color=#ff334b>Hard</font> |
 | 505 | [迷宫 II](https://leetcode.com/problems/the-maze-ii) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `4+` | <font color=#ffb800>Medium</font> |
 | 743 | [网络延迟时间](https://leetcode.com/problems/network-delay-time) |  |  [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) `2+` | <font color=#ffb800>Medium</font> |
