@@ -3,7 +3,7 @@ title: '剑指 Offer II'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-8.png =500x)
+![](../image/plan-8.png =500x)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -127,7 +127,6 @@ headerDepth: 0
 | 剑指 Offer II 117 | [相似的字符串](https://leetcode.cn/problems/H6lPxb) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer II 118 | [多余的边](https://leetcode.cn/problems/7LpjUW) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 119 | [最长连续序列](https://leetcode.cn/problems/WhsWhI) |  |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
-
 
 <style>
 table th:first-of-type { width: 20%; }

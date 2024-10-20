@@ -1,7 +1,7 @@
 # LeetCode-JS
 
 <p>
-  <img src="../assets/image/leetcode-js-logo.png" alt="logo" height="360"/>
+  <img src="https://2xiao.github.io/assets/image/leetcode-js-logo.png" alt="logo" height="360"/>
 </p>
 <p><font size=5><b>《LeetCode-JS 通关指南》</b></font></p>
 <p><font color=gray>包含 LeetCode、《剑指 Offer》、《剑指 Offer II》等 1000+ 道算法题的详细题解。</font></p>

@@ -8,7 +8,7 @@
 
 :::
 
-![](../../assets/image/2-3-1.png)
+![](../image/2-3-1.png)
 
 栈是一种 **后进先出（Last In First Out）** 的线性表，简称为 LIFO 结构。
 
@@ -202,7 +202,7 @@ console.log(stack.count()); // output: 2
 
 比如：`3 + 5 * 8 - 6`：
 
-![](../../assets/image/2-3-2.png)
+![](../image/2-3-2.png)
 
 #### 💎 **代码**
 
@@ -423,7 +423,7 @@ function add(x, y) {
 
 从代码中可以看出，main()函数调用了 add()函数，获取计算结果，并且与临时变量 a 相加，最后打印 res 的值。在执行到 add()函数时，函数调用栈的情况如下所示：
 
-![](../../assets/image/2-3-3.png)
+![](../image/2-3-3.png)
 
 ## 单调栈
 
@@ -619,7 +619,6 @@ var dailyTemperatures = function (temperatures) {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 栈基础题目
@@ -654,4 +653,3 @@ var dailyTemperatures = function (temperatures) {
 | 316 | [去除重复字母](https://leetcode.com/problems/remove-duplicate-letters) | [[✓]](/problem/0316.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 42 | [接雨水](https://leetcode.com/problems/trapping-rain-water) | [[✓]](/problem/0042.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
-

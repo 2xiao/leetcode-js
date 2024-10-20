@@ -8,7 +8,7 @@
 
 :::
 
-![](../../assets/image/2-6-1.png)
+![](../image/2-6-1.png)
 
 “树”这种数据结构很像现实生活中的“树”，每个元素叫作“**节点**”；用来连线相邻节点之间的关系，叫作“**父子关系**”。
 
@@ -20,7 +20,7 @@
 - **节点的度**： 节点所含有的子树个数
 - **树的高度**：根节点的高度
 
-![](../../assets/image/2-6-2.png)
+![](../image/2-6-2.png)
 
 ## 二叉树
 
@@ -31,7 +31,7 @@
 
 二叉树在逻辑上可以分为 5 种基本形态，如下图所示：
 
-![](../../assets/image/2-6-3.png)
+![](../image/2-6-3.png)
 
 ### 满二叉树
 
@@ -40,7 +40,7 @@
 **满二叉树（Full Binary Tree）** ：如果所有分支节点都存在左子树和右子树，并且所有叶子节点都在同一层上，则称该二叉树为满二叉树。
 :::
 
-![](../../assets/image/2-6-4.png)
+![](../image/2-6-4.png)
 
 ### 完全二叉树
 
@@ -49,7 +49,7 @@
 **完全二叉树（Complete Binary Tree）** ：如果叶子节点只出现在最下面两层，并且最下层的叶子节点都依次排列在该层最左边的位置上，具有这种特点的二叉树称为完全二叉树。
 :::
 
-![](../../assets/image/2-6-5.png)
+![](../image/2-6-5.png)
 
 ## 二叉树的存储
 
@@ -59,13 +59,13 @@
 
 链式存储中，每个节点有三个字段，其中一个存储数据，另外两个是指向左右子节点的指针。只要拎住根节点，就可以通过左右子节点的指针，把整棵树都串起来。这种存储方式比较常用。大部分二叉树代码都是通过这种结构来实现的。
 
-![](../../assets/image/2-6-6.png)
+![](../image/2-6-6.png)
 
 ### 顺序存储
 
 顺序存储中，把根节点存储在下标 `i = 1` 的位置，左子节点存储在下标 `2 * i = 2` 的位置，右子节点存储在 `2 * i + 1 = 3` 的位置。以此类推，B 节点的左子节点存储在 `2 * i = 2 * 2 = 4` 的位置，右子节点存储在 `2 * i + 1 = 2 * 2 + 1 = 5` 的位置。
 
-![](../../assets/image/2-6-7.png)
+![](../image/2-6-7.png)
 
 如果节点 `X` 存储在数组中下标为 `i` 的位置，下标为 `2 * i` 的位置存储的就是左子节点，下标为 `2 * i + 1` 的位置存储的就是右子节点。反过来，下标为 `i / 2` 的位置存储就是它的父节点。通过这种方式，我们只要知道根节点存储的位置（一般情况下，为了方便计算子节点，根节点会存储在下标为 `1` 的位置），这样就可以通过下标计算，把整棵树都串起来。
 
@@ -85,7 +85,7 @@
 
 - **后序遍历** 是指，对于树中的任意节点来说，先打印它的左子树，然后再打印它的右子树，最后打印这个节点本身。
 
-![](../../assets/image/2-6-8.png)
+![](../image/2-6-8.png)
 
 实际上，二叉树的前、中、后序遍历就是一个递归的过程。写递归代码的关键，就是看能不能写出递推公式，而写递推公式的关键就是，如果要解决问题 A，就假设子问题 B、C 已经解决，然后再来看如何利用 B、C 来解决 A。递推公式如下：
 
@@ -409,7 +409,7 @@ var levelOrder = function (root) {
 
 前序遍历结果第一个就是根节点的值，然后再根据中序遍历结果确定左右子树的节点。
 
-![](../../assets/image/2-6-10.png)
+![](../image/2-6-10.png)
 
 不断的递归直到所有的树都生成完成。
 
@@ -513,7 +513,7 @@ var constructMaximumBinaryTree = function (nums) {
 
 下图是几个二叉查找树的例子：
 
-![](../../assets/image/2-6-9.png)
+![](../image/2-6-9.png)
 
 二叉查找树（BST）是二叉树中最常用的一种类型。二叉查找树最大的特点就是，支持动态数据集合的快速插入、删除、查找操作。在实际应用中常用于快速查找和有序插入的场景，具有良好的平均时间复杂度。
 
@@ -763,7 +763,7 @@ bst.inOrderTraversal((value) => console.log(value));
 **平衡二叉查找树（Balanced Binary Search Tree）** ：是一种特殊的二叉查找树，其所有节点满足以下平衡性质：对于树中的每个节点，其左子树和右子树的高度差不超过 `1` 。
 :::
 
-![](../../assets/image/2-6-11.png)
+![](../image/2-6-11.png)
 
 在非平衡的二叉查找树中，最坏情况下可能会导致树的高度接近线性，使得查找、插入和删除等操作的时间复杂度变为 `O(n)` 。而平衡二叉查找树能够保持较小的高度，确保这些操作的平均时间复杂度保持在 `O(log n)` 水平，提高了性能。
 
@@ -803,7 +803,7 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 3. **如果一个节点是红色的，则它的两个子节点都是黑色的。**
 4. **从任意节点到其每个叶子的路径都包含相同数量的黑色节点。**
 
-![](../../assets/image/2-6-12.png)
+![](../image/2-6-12.png)
 
 #### 插入操作
 
@@ -813,7 +813,7 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 
 红黑树的旋转操作包括左旋和右旋，与 AVL 树相似。旋转操作的目的是通过重新组织树的结构来保持平衡性。
 
-![](../../assets/image/2-6-13.png)
+![](../image/2-6-13.png)
 
 红黑树相对于 AVL 树的优势在于，由于不需要保持严格的平衡，红黑树的旋转操作较少，插入和删除节点时的性能更为稳定。
 
@@ -828,7 +828,7 @@ AVL 树通过四种基本的旋转操作来维护平衡：
 
 线段树是一种高效的数据结构，特别适用于需要频繁进行范围查询操作的场景。
 
-![](../../assets/image/2-6-14.png)
+![](../image/2-6-14.png)
 
 ### 构建线段树
 
@@ -1047,7 +1047,6 @@ class NumArray {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 二叉树的遍历
@@ -1107,7 +1106,7 @@ class NumArray {
 
 #### 线段树
 
-* 单点更新
+- 单点更新
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -1116,7 +1115,7 @@ class NumArray {
 | 307 | [区域和检索 - 数组可修改](https://leetcode.com/problems/range-sum-query-mutable) | [[✓]](/problem/0307.md) |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes) | [[✓]](/problem/0354.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
-* 区间更新
+- 区间更新
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -1128,7 +1127,7 @@ class NumArray {
 | 1310 | [子数组异或查询](https://leetcode.com/problems/xor-queries-of-a-subarray) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 1851 | [包含每个查询的最小区间](https://leetcode.com/problems/minimum-interval-to-include-each-query) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) `2+` | <font color=#ff334b>Hard</font> |
 
-* 区间合并
+- 区间合并
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -1137,7 +1136,7 @@ class NumArray {
 | 731 | [我的日程安排表 II](https://leetcode.com/problems/my-calendar-ii) | [[✓]](/problem/0731.md) |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 732 | [我的日程安排表 III](https://leetcode.com/problems/my-calendar-iii) |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 
-* 扫描线问题
+- 扫描线问题
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -1178,4 +1177,3 @@ class NumArray {
 | 947 | [移除最多的同行或同列石头](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 803 | [打砖块](https://leetcode.com/problems/bricks-falling-when-hit) |  |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | <font color=#ff334b>Hard</font> |
 | 128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence) | [[✓]](/problem/0128.md) |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
-

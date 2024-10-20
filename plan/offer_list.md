@@ -3,7 +3,7 @@ title: '剑指 Offer'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-7.png =500x)
+![](../image/plan-7.png =500x)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -83,7 +83,6 @@ headerDepth: 0
 | 剑指 Offer 67 | [把字符串转换成整数](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof) |  |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 68 - I | [二叉搜索树的最近公共祖先](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 68 - II | [二叉树的最近公共祖先](https://leetcode.cn/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#15bd66>Easy</font> |
-
 
 <style>
 table th:first-of-type { width: 20%; }

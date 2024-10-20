@@ -12,7 +12,7 @@
 
 队列跟栈一样，也是一种操作受限的线性表数据结构，栈只支持两个基本操作：**入栈** `push()` 和**出栈** `pop()`。队列最基本的操作也是两个：**入队** `enQueue()`，放一个数据到队列尾部；**出队** `deQueue()`，从队列头部取一个元素。
 
-![](../../assets/image/2-4-1.png)
+![](../image/2-4-1.png)
 
 我们把队列中允许插入的一端称为 **队尾（rear）**；把允许删除的另一端称为 **队头（front）**。当表中没有任何数据元素时，称之为 **空队**。
 
@@ -124,7 +124,7 @@ console.log(queue.toString()); // output: 2,3
 - 入队时：`tail.next= new_node, tail = tail.next`
 - 出队时：`head = head.next`
 
-![](../../assets/image/2-4-2.png)
+![](../image/2-4-2.png)
 
 ```javascript
 class Node {
@@ -240,11 +240,11 @@ console.log(queue.toString()); // output: 2,3
 
 当队尾指针指向最右边时，即使在队列前面仍有空闲空间，也无法继续往队列中添加数据了，之前因为出队操作而产生空余位置没有利用上，这就造成了 **假溢出** 问题。
 
-![](../../assets/image/2-4-3.png)
+![](../image/2-4-3.png)
 
 为了解决这个问题，我们可以将队列想象成为头尾相连的循环表。原本数组是有头有尾的，是一条直线。把首尾相连之后，被扳成了一个环，利用数学中的求模运算，我们能使用这些前面的空闲空间去存储新的值。
 
-![](../../assets/image/2-4-4.png)
+![](../image/2-4-4.png)
 
 :::: md-demo 相关题目
 
@@ -718,7 +718,6 @@ console.log(priorityQueue.count()); // output: 3
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 队列基础题目
@@ -744,4 +743,3 @@ console.log(priorityQueue.count()); // output: 3
 | 295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream) | [[✓]](/problem/0295.md) |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 | 23 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists) | [[✓]](/problem/0023.md) |  [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 | 218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
-
