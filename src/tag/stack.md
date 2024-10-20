@@ -98,7 +98,7 @@
 | 1063 | [有效子数组的数目](https://leetcode.com/problems/number-of-valid-subarrays) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ff334b>Hard</font> |
 | 1081 | [不同字符的最小子序列](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | [[✓]](/problem/1081.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1096 | [花括号展开 II](https://leetcode.com/problems/brace-expansion-ii) |  |  [`栈`](/tag/stack.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
-| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
+| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) | [[✓]](/problem/1106.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 1111 | [有效括号的嵌套深度](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) |  |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1124 | [表现良好的最长时间段](https://leetcode.com/problems/longest-well-performing-interval) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1130 | [叶值的最小代价生成树](https://leetcode.com/problems/minimum-cost-tree-from-leaf-values) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |

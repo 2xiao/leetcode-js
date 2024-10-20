@@ -298,7 +298,7 @@
 | 1092 | [最短公共超序列](https://leetcode.com/problems/shortest-common-supersequence) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1096 | [花括号展开 II](https://leetcode.com/problems/brace-expansion-ii) |  |  [`栈`](/tag/stack.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1100 | [长度为 K 的无重复字符子串](https://leetcode.com/problems/find-k-length-substrings-with-no-repeated-characters) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
-| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
+| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) | [[✓]](/problem/1106.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 1108 | [IP 地址无效化](https://leetcode.com/problems/defanging-an-ip-address) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1111 | [有效括号的嵌套深度](https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings) |  |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1119 | [删去字符串中的元音](https://leetcode.com/problems/remove-vowels-from-a-string) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |

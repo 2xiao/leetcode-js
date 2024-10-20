@@ -74,6 +74,7 @@ headerDepth: 0
 | 2822 | [对象反转](https://leetcode.com/problems/inversion-of-object) |  |  | <font color=#15bd66>Easy</font> |
 | 2823 | [深度对象筛选](https://leetcode.com/problems/deep-object-filter) |  |  | <font color=#ffb800>Medium</font> |
 
+
 <style>
 table th:first-of-type { width: 20%; }
 table th:nth-of-type(2) { width: 30%; }

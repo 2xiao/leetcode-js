@@ -55,7 +55,7 @@
 | 776 | [拆分二叉搜索树](https://leetcode.com/problems/split-bst) |  |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`递归`](/tag/recursion.md) `1+` | <font color=#ffb800>Medium</font> |
 | 779 | [第K个语法符号](https://leetcode.com/problems/k-th-symbol-in-grammar) |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 894 | [所有可能的真二叉树](https://leetcode.com/problems/all-possible-full-binary-trees) |  |  [`树`](/tag/tree.md) [`递归`](/tag/recursion.md) [`记忆化搜索`](/tag/memoization.md) `2+` | <font color=#ffb800>Medium</font> |
-| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
+| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) | [[✓]](/problem/1106.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 1265 | [逆序打印不可变链表](https://leetcode.com/problems/print-immutable-linked-list-in-reverse) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1545 | [找出第 N 个二进制字符串中的第 K 位](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) | [[✓]](/problem/1545.md) |  [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1808 | [好因子的最大数目](https://leetcode.com/problems/maximize-number-of-nice-divisors) |  |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ff334b>Hard</font> |

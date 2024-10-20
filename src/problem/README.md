@@ -1,6 +1,6 @@
 # 题解目录
 
-已完成 446 道
+已完成 447 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -325,6 +325,7 @@
 | 1047 | [删除字符串中的所有相邻重复项](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) | [[✓]](/problem/1047.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1049 | [最后一块石头的重量 II](https://leetcode.com/problems/last-stone-weight-ii) | [[✓]](/problem/1049.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1081 | [不同字符的最小子序列](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | [[✓]](/problem/1081.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1106 | [解析布尔表达式](https://leetcode.com/problems/parsing-a-boolean-expression) | [[✓]](/problem/1106.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137.md) |  [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses) | [[✓]](/problem/1190.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
