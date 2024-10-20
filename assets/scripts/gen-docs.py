@@ -291,6 +291,7 @@ if args.type == 'all' or args.type == 'plan':
     gen_plan_list('company_list.md')
     gen_plan_list('codetop_list.md')
     gen_plan_list('rabbit_list.md')
+    gen_plan_list('js_list.md', False)
     gen_plan_list('offer_list.md', False)
     gen_plan_list('offer2_list.md', False)
 if args.type == 'all' or args.type == 'cate':

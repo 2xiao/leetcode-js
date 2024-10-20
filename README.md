@@ -26,6 +26,7 @@
 - [面试经典 150 题](./src/plan/top_150_list.md)
 - [面试高频 200 题](./src/plan/top_200_list.md)
 - [面试进阶 300 题](./src/plan/top_300_list.md)
+- [JavaScript 专项练习](./src/plan/js_list.md)
 - [CodeTop 热题排行榜](./src/plan/codetop_list.md)
 - [海外兔热题排行榜](./src/plan/rabbit_list.md)
 - [热门企业题库](./src/plan/company_list.md)
