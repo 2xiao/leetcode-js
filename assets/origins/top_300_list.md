@@ -3,7 +3,7 @@ title: '面试进阶 300 题'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-5.png =500x)
+![](../image/plan-5.png =500x)
 
 ## 链表
 

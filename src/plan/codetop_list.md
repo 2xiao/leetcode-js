@@ -3,7 +3,7 @@ title: 'CodeTop 热题排行榜'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-3.png =500x)
+![](../image/plan-3.png =500x)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
@@ -219,7 +219,6 @@ headerDepth: 0
 | 670 | [最大交换](https://leetcode.com/problems/maximum-swap) | [[✓]](/problem/0670.md) |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> | 17 |
 | 剑指 Offer 11 | [旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof) | [[✓]](/problem/jz_offer_11_1.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 17 |
 | 191 | [位1的个数](https://leetcode.com/problems/number-of-1-bits) | [[✓]](/problem/0191.md) |  [`位运算`](/tag/bit-manipulation.md) [`分治`](/tag/divide-and-conquer.md) | <font color=#15bd66>Easy</font> | 17 |
-
 
 ::: info
 

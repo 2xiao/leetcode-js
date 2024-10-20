@@ -3,7 +3,7 @@ title: '海外兔热题排行榜'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-4.png =500x)
+![](../image/plan-4.png =500x)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
@@ -255,7 +255,6 @@ headerDepth: 0
 | 828 | [统计子串中的唯一字符](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> | 2 |
 | 249 | [移位字符串分组](https://leetcode.com/problems/group-shifted-strings) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 2 |
 | 487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> | 1 |
-
 
 ::: info
 

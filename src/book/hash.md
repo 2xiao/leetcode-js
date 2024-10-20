@@ -8,7 +8,7 @@
 
 哈希表通过 **键 `key`** 和 **映射函数 `Hash(key)`** 计算出对应的 **值 `value`** ，把关键码值映射到表中一个位置来访问记录，以加快查找的速度。这个映射函数叫做 **哈希函数（散列函数）** ，存放记录的数组叫做 **哈希表（散列表）** 。
 
-![](../../assets/image/2-5-1.png)
+![](../image/2-5-1.png)
 
 哈希表的两个核心问题是：**哈希函数设计** 和 **哈希冲突解决** 。
 
@@ -98,7 +98,7 @@ myHashSet.contains(2); // return False, (already removed)
 - 开辟一个大小为 `base` 的数组，数组的每个位置是一个链表。当计算出哈希值之后，就插入到对应位置的链表当中；
 - 由于使用整数除法作为哈希函数，为了尽可能避免冲突，应当将 `base` 取为一个质数，如 `base = 769`；
 
-![](../../assets/image/705.png)
+![](../image/705.png)
 
 - 时间复杂度：`O(n / b)`。其中 `n` 为哈希表中的元素数量，`b` 为链表的数量，假设哈希值是均匀分布的，则每个链表大概长度为 `n / b`；
 - 空间复杂度：`O(n+b)`。
@@ -647,7 +647,6 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 <!-- prettier-ignore -->
@@ -685,4 +684,3 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 | 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
 | 811 | [子域名访问计数](https://leetcode.com/problems/subdomain-visit-count) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
-

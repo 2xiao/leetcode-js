@@ -56,11 +56,11 @@ const backtrack = (选择列表) => {
 
 其实这就是回溯算法，可以直接画出如下这棵回溯树：
 
-![](../../assets/image/3-4-1.png)
+![](../image/3-4-1.png)
 
 只要从根遍历这棵树，记录路径上的数字，其实就是所有的全排列。 **不妨把这棵树称为回溯算法的「决策树」，因为你在每个节点上其实都在做决策。** 比如说站在下图的红色节点上，就在做决策，可以选择 `1` 那条树枝，也可以选择 `3` 那条树枝。为啥只能在 `1` 和 `3` 之中选择呢？因为 `2` 这个树枝在身后，这个选择之前做过了，而全排列是不允许重复使用数字的。
 
-![](../../assets/image/3-4-2.png)
+![](../image/3-4-2.png)
 
 现在可以解答上面的几个名词：**`[2]` 就是「路径」，记录已经做过的选择；`[1,3]` 就是「选择列表」，表示当前可以做出的选择；「结束条件」就是遍历到树的底层叶子节点，这里也就是选择列表为空的时候。定义的 `backtrack` 函数其实就像一个指针，在这棵树上游走，同时要正确维护每个节点的属性，每当走到树的底层叶子节点，其「路径」就是一个全排列。**
 
@@ -148,7 +148,7 @@ var permute = function (nums) {
   - 换句话说，通过保证元素之间的相对顺序不变来防止出现重复的子集。
 - 接着，我们可以通过 `S_2` 推出 `S_3`，实际上 `S_3` 中只有一个集合 `[1,2,3]`，它是通过 `[1,2]` 推出的;
 
-![](../../assets/image/3-4-3.png)
+![](../image/3-4-3.png)
 
 所以如果想计算所有子集，只要遍历这棵多叉树，把所有节点的值收集起来就行了。代码如下：
 
@@ -207,7 +207,7 @@ var subsets = function (nums) {
 
 还是以 `nums = [1,2,3]` 为例（ `n = 3, k = 2` ），刚才让你求所有子集，就是把所有节点的值都收集起来；现在你只需要把第 `2` 层（根节点视为第 `0` 层）的节点收集起来，就是大小为 `2` 的所有组合：`[ [1,2],[1,3],[2,3] ]`。
 
-![](../../assets/image/3-4-4.png)
+![](../image/3-4-4.png)
 
 反映到代码上，只需要稍改 base case，控制算法仅收集第 `k` 层节点的值即可。
 
@@ -267,7 +267,7 @@ var combine = function (n, k) {
 
 但排列问题本身就是让你穷举元素的位置，`nums[i]` 之后也可以出现 `nums[i]` 左边的元素，所以之前的那一套不行了，需要额外使用 `used` 数组来标记哪些元素还可以被选择。标准全排列可以抽象成如下这棵多叉树：
 
-![](../../assets/image/3-4-5.png)
+![](../image/3-4-5.png)
 
 我们用 used 数组标记已经在路径上的元素避免重复选择，然后收集所有叶子节点上的值，就是所有全排列的结果。
 
@@ -357,7 +357,7 @@ const backtrack = () => {
 
 可以看到，`[2] 与 [2']`、`[1,2] 与 [1,2']` 这两个结果出现了重复，所以需要进行剪枝，如果一个节点有多条值相同的树枝相邻，则只遍历第一条，剩下的都剪掉，不要去遍历：
 
-![](../../assets/image/3-4-6.png)
+![](../image/3-4-6.png)
 
 体现在代码上，需要先进行排序，让相同的元素靠在一起，如果发现 `nums[i] == nums[i-1]`，则跳过。
 
@@ -596,7 +596,7 @@ const backtrack = (start) => {
 
 这相当于给之前的回溯树添加了一条树枝，在遍历这棵树的过程中，一个元素可以被无限次使用：
 
-![](../../assets/image/3-4-7.png)
+![](../image/3-4-7.png)
 
 当然，这样这棵回溯树会永远生长下去，所以我们的递归函数需要设置合适的 base case 以结束算法，即路径和大于 `target` 时就没必要再遍历下去了。
 
@@ -692,7 +692,6 @@ var permuteRepeat = function (nums) {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 <!-- prettier-ignore -->
@@ -714,4 +713,3 @@ var permuteRepeat = function (nums) {
 | 93 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses) | [[✓]](/problem/0093.md) |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 79 | [单词搜索](https://leetcode.com/problems/word-search) | [[✓]](/problem/0079.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
 | 679 | [24 点游戏](https://leetcode.com/problems/24-game) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
-

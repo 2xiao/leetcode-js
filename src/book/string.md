@@ -56,7 +56,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 这种算法的最坏情况时间复杂度是 `O(n*m)`。
 
-![](../../assets/image/2-9-1.png)
+![](../image/2-9-1.png)
 
 #### 实现代码
 
@@ -67,7 +67,6 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
-
 
 ## 相关题目
 
@@ -117,4 +116,3 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 | 1023 | [驼峰式匹配](https://leetcode.com/problems/camelcase-matching) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 676 | [实现一个魔法字典](https://leetcode.com/problems/implement-magic-dictionary) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `2+` | <font color=#ffb800>Medium</font> |
 | 440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) | [[✓]](/problem/0440.md) |  [`字典树`](/tag/trie.md) | <font color=#ff334b>Hard</font> |
-

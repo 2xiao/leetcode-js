@@ -3,7 +3,7 @@ title: '热门企业题库'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-6.png =500x)
+![](../image/plan-6.png =500x)
 
 ## 谷歌
 

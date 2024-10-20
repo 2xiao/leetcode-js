@@ -10,7 +10,7 @@
 
 ### 1. 单链表
 
-![](../../assets/image/2-2-1.png)
+![](../image/2-2-1.png)
 
 我们把内存块称为链表的 **“节点”**。为了将所有的节点串起来，每个链表的节点除了存储数据之外，还需要记录链上的下一个节点的地址。这个记录下个节点地址的指针叫作**后继指针**`next`。
 
@@ -24,7 +24,7 @@
 
 ### 2. 循环链表
 
-![](../../assets/image/2-2-2.png)
+![](../image/2-2-2.png)
 
 循环链表是一种特殊的单链表。它跟单链表唯一的区别就在尾节点。单链表的尾节点指针指向空地址，表示这就是最后的节点了。而循环链表的尾节点指针是指向链表的头节点。像一个环一样首尾相连，所以叫作“循环”链表。
 
@@ -32,7 +32,7 @@
 
 ### 3. 双向链表
 
-![](../../assets/image/2-2-3.png)
+![](../image/2-2-3.png)
 
 单向链表只有一个方向，节点只有一个后继指针 `next` 指向后面的节点。而双向链表支持两个方向，每个节点不止有一个后继指针 `next` 指向后面的节点，还有一个前驱指针 `prev` 指向前面的节点。
 
@@ -46,7 +46,7 @@
 
 如果把循环链表和双向链表这两种链表整合在一起，就是一个新的版本：双向循环链表。
 
-![](../../assets/image/2-2-4.png)
+![](../image/2-2-4.png)
 
 ## 链表的操作
 
@@ -56,7 +56,7 @@
 
 向链表中插入一个节点的效率很高，需要修改它前面的节点(前驱)，使其指向新加入的节点，而将新节点指向原来前驱节点指向的节点即可。
 
-![](../../assets/image/2-2-5.png)
+![](../image/2-2-5.png)
 
 比如单链表的插入操作，要在节点 `p` 后面插入一个新的节点，只需要下面两行代码：
 
@@ -481,7 +481,7 @@ console.log(linkedList.count()); // output: 3
 
 先从**底层的存储结构**上来看：
 
-![](../../assets/image/2-2-6.png)
+![](../image/2-2-6.png)
 
 从图中可以看到，数组需要一块连续的内存空间来存储，对内存的要求比较高。如果我们申请一个 100MB 大小的数组，当内存中没有连续的、足够大的存储空间时，即便内存的剩余总可用空间大于 100MB，仍然会申请失败。
 
@@ -956,7 +956,7 @@ lRUCache.get(4);    // 返回 4
 
 #### 💡 **解题思路**
 
-![](../../assets/image/2-2-7.png)
+![](../image/2-2-7.png)
 
 可以维护一个有序单链表，越靠近链表尾部的节点是越早之前访问的。如上图所示：
 
@@ -1683,7 +1683,6 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 链表基础题目
@@ -1728,4 +1727,3 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 | 143 | [重排链表](https://leetcode.com/problems/reorder-list) | [[✓]](/problem/0143.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2 | [两数相加](https://leetcode.com/problems/add-two-numbers) | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii) | [[✓]](/problem/0445.md) |  [`栈`](/tag/stack.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
-

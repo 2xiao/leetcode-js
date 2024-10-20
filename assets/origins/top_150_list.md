@@ -3,7 +3,7 @@ title: '面试经典 150 题'
 headerDepth: 0
 ---
 
-![](../../assets/image/plan-2.png =500x)
+![](../image/plan-2.png =500x)
 
 ## 数组 / 字符串
 

@@ -64,12 +64,12 @@ jobs:
       - name: move to dist
         run: |
           mkdir dist
-          cp -r README.md ./dist/
+          cp -r src/README.md ./dist/
           cp -r src/book ./dist/
           cp -r src/plan ./dist/
           cp -r src/tag ./dist/
           cp -r src/problem ./dist/
-          cp -r assets/image ./dist/
+          cp -r src/image ./dist/
 
       - name: push to main
         uses: JamesIves/github-pages-deploy-action@v4
