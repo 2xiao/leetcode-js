@@ -1683,6 +1683,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
+
 ## 相关题目
 
 #### 链表基础题目
@@ -1723,7 +1724,8 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 | 160 | [相交链表](https://leetcode.com/problems/intersection-of-two-linked-lists) | [[✓]](/problem/0160.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 19 | [删除链表的倒数第 N 个结点](https://leetcode.com/problems/remove-nth-node-from-end-of-list) | [[✓]](/problem/0019.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list) | [[✓]](/problem/0876.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/problem/jz_offer_22_1.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/offer/jz_offer_22_1.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 143 | [重排链表](https://leetcode.com/problems/reorder-list) | [[✓]](/problem/0143.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2 | [两数相加](https://leetcode.com/problems/add-two-numbers) | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 445 | [两数相加 II](https://leetcode.com/problems/add-two-numbers-ii) | [[✓]](/problem/0445.md) |  [`栈`](/tag/stack.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
+
