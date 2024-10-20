@@ -1,6 +1,6 @@
 # [剑指 Offer 13. 机器人的运动范围](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ji-qi-ren-de-yun-dong-fan-wei-lcof)
 
 ## 题目
 
@@ -46,41 +46,41 @@
  * @return {number}
  */
 var wardrobeFinishing = function (m, n, cnt) {
-  // 记录坐标是否被访问过
-  const visited = new Array(m).fill(0).map(() => new Array(n).fill(false));
+	// 记录坐标是否被访问过
+	const visited = new Array(m).fill(0).map(() => new Array(n).fill(false));
 
-  // 计算数位和
-  const getSum = (n) => {
-    let sum = 0;
-    while (n) {
-      sum += n % 10;
-      n = Math.floor(n / 10);
-    }
-    return sum;
-  };
+	// 计算数位和
+	const getSum = (n) => {
+		let sum = 0;
+		while (n) {
+			sum += n % 10;
+			n = Math.floor(n / 10);
+		}
+		return sum;
+	};
 
-  const dp = (i, j) => {
-    if (
-      // 当前格子是否越界
-      i < 0 ||
-      i >= m ||
-      j < 0 ||
-      j >= n ||
-      // 是否已经访问过
-      visited[i][j] ||
-      // 数位和是否符合要求
-      getSum(i) + getSum(j) > cnt
-    ) {
-      return 0;
-    }
+	const dp = (i, j) => {
+		if (
+			// 当前格子是否越界
+			i < 0 ||
+			i >= m ||
+			j < 0 ||
+			j >= n ||
+			// 是否已经访问过
+			visited[i][j] ||
+			// 数位和是否符合要求
+			getSum(i) + getSum(j) > cnt
+		) {
+			return 0;
+		}
 
-    // 标记该格子已经访问过
-    visited[i][j] = true;
+		// 标记该格子已经访问过
+		visited[i][j] = true;
 
-    // 将结果加一，并递归地向四个方向移动
-    return 1 + dp(i - 1, j) + dp(i, j - 1) + dp(i + 1, j) + dp(i, j + 1);
-  };
+		// 将结果加一，并递归地向四个方向移动
+		return 1 + dp(i - 1, j) + dp(i, j - 1) + dp(i + 1, j) + dp(i, j + 1);
+	};
 
-  return dp(0, 0);
+	return dp(0, 0);
 };
 ```
