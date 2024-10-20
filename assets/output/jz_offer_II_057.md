@@ -1,6 +1,6 @@
 # [剑指 Offer II 57. 值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`桶排序`](/outline/tag/bucket-sort.md) [`有序集合`](/outline/tag/ordered-set.md) [`排序`](/outline/tag/sorting.md) [`滑动窗口`](/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7WqeDu)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) [`排序`](/tag/sorting.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7WqeDu)
 
 ## 题目
 

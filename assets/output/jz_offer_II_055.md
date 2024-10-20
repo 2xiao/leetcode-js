@@ -1,6 +1,6 @@
 # [剑指 Offer II 55. 二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`树`](/outline/tag/tree.md) [`设计`](/outline/tag/design.md) [`二叉搜索树`](/outline/tag/binary-search-tree.md) [`二叉树`](/outline/tag/binary-tree.md) [`迭代器`](/outline/tag/iterator.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kTOapQ)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md) [`迭代器`](/tag/iterator.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kTOapQ)
 
 ## 题目
 

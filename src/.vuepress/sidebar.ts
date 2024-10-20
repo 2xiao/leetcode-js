@@ -4,53 +4,11 @@ export default sidebar({
 	'/': [
 		'',
 		{
-			text: '第一章 序章',
-			prefix: 'outline/',
-			children: [
-				'intro',
-				'complexity',
-				'solution_list',
-				{
-					text: '1.4 学习计划',
-					prefix: 'plan/',
-					collapsible: true,
-					children: [
-						'top_150_list',
-						'top_200_list',
-						'top_300_list',
-						'offer_list',
-						'offer2_list',
-						'codetop_list',
-						'rabbit_list',
-						'company_list'
-					]
-					// link: 'plan/README.md',
-					// activeMatch: '^/leetcode/outline/plan'
-				},
-				{
-					text: '1.5 题解标签',
-					link: 'tag/README.md',
-					activeMatch: '^/leetcode/outline/tag'
-				}
-			],
-			collapsible: true
-		},
-		{
-			text: '第二章 数据结构',
-			prefix: 'ds/',
-			children: 'structure',
-			collapsible: true
-		},
-		{
-			text: '第三章 算法',
-			prefix: 'algorithm/',
-			children: 'structure',
-			collapsible: true
-		},
-		{
-			text: '第四章 LeetCode 题解',
+			text: 'LeetCode 题解',
 			prefix: 'problem/',
+			collapsible: true,
 			children: [
+				'',
 				// AUTO_GEN_CONFIG_START
         {
           text: "0000-0099",
@@ -678,8 +636,69 @@ export default sidebar({
             "jz_offer_II_101"
           ],
         },// AUTO_GEN_CONFIG_END
+			]
+		},
+		{
+			text: '算法笔记',
+			prefix: 'book/',
+			children: [
+				{
+					text: '第一章 序言',
+					children: ['intro', 'complexity'],
+					collapsible: false
+				},
+
+				{
+					text: '第二章 数据结构专题',
+					children: [
+						'array',
+						'linked_list',
+						'stack',
+						'queue',
+						'hash',
+						'tree',
+						'heap',
+						'graph',
+						'string'
+					],
+					collapsible: false
+				},
+				{
+					text: '第三章 算法专题',
+					children: [
+						'enumeration',
+						'recursion',
+						'divide_conquer',
+						'backtracking',
+						'greedy',
+						'dynamic_programming',
+						'bit',
+						'sort',
+						'binary_search',
+						'two_pointer',
+						'slide_window'
+					],
+					collapsible: false
+				}
 			],
 			collapsible: true
+		},
+		{
+			text: '专项训练',
+			prefix: 'plan/',
+			children: [
+				'offer_list',
+				'offer2_list',
+				'top_150_list',
+				'top_200_list',
+				'top_300_list',
+				'codetop_list',
+				'rabbit_list',
+				'company_list',
+				'tag_list'
+			],
+			collapsible: true,
+			activeMatch: '/tag/.*'
 		}
 	]
 });

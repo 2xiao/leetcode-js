@@ -1,6 +1,6 @@
 # [剑指 Offer II 33. 变位词组](https://leetcode.cn/problems/sfvd7V)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/sfvd7V)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/sfvd7V)
 
 ## 题目
 

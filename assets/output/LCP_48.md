@@ -1,6 +1,6 @@
 # [LCP 48. 无限棋局](https://leetcode.cn/problems/fsa7oZ)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`枚举`](/outline/tag/enumeration.md) [`博弈`](/outline/tag/game-theory.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fsa7oZ)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) [`博弈`](/tag/game-theory.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fsa7oZ)
 
 ## 题目
 

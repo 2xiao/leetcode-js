@@ -1,6 +1,6 @@
 # [剑指 Offer 58 - I. 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 16. 不含重复字符的最长子字符串](https://leetcode.cn/problems/wtcaE1)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`滑动窗口`](/outline/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/wtcaE1)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/wtcaE1)
 
 ## 题目
 

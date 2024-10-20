@@ -1,6 +1,6 @@
 # [LCP 02. 分式化简](https://leetcode.cn/problems/deep-dark-fraction)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`数论`](/outline/tag/number-theory.md) [`模拟`](/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/deep-dark-fraction)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/deep-dark-fraction)
 
 ## 题目
 

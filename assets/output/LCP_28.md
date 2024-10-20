@@ -1,6 +1,6 @@
 # [LCP 28. 采购方案](https://leetcode.cn/problems/4xy4Wx)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`双指针`](/outline/tag/two-pointers.md) [`二分查找`](/outline/tag/binary-search.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/4xy4Wx)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/4xy4Wx)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer 06. 从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 6. 排序数组中两个数字之和](https://leetcode.cn/problems/kLl5u1)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`双指针`](/outline/tag/two-pointers.md) [`二分查找`](/outline/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kLl5u1)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kLl5u1)
 
 ## 题目
 

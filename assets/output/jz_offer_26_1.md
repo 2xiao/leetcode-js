@@ -1,6 +1,6 @@
 # [剑指 Offer 26. 树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof)
 
 ## 题目
 

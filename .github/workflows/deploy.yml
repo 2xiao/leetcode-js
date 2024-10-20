@@ -65,10 +65,11 @@ jobs:
         run: |
           mkdir dist
           cp -r src/README.md ./dist/
-          cp -r src/outline ./dist/
-          cp -r src/ds ./dist/
-          cp -r src/algorithm ./dist/
+          cp -r src/book ./dist/
+          cp -r src/plan ./dist/
+          cp -r src/tag ./dist/
           cp -r src/problem ./dist/
+          cp -r assets/image ./dist/assets/
 
       - name: push to main
         uses: JamesIves/github-pages-deploy-action@v4

@@ -1,6 +1,6 @@
 # [剑指 Offer II 66. 单词之和](https://leetcode.cn/problems/z1R5dt)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/outline/tag/design.md) [`字典树`](/outline/tag/trie.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/z1R5dt)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/z1R5dt)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 52. 展平二叉搜索树](https://leetcode.cn/problems/NYBBNL)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉搜索树`](/outline/tag/binary-search-tree.md) [`二叉树`](/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/NYBBNL)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/NYBBNL)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [LCP 60. 力扣泡泡龙](https://leetcode.cn/problems/WInSav)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/outline/tag/tree.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`二叉树`](/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WInSav)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`动态规划`](/tag/dynamic-programming.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WInSav)
 
 ## 题目
 

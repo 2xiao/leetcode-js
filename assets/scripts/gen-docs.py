@@ -36,13 +36,9 @@ def gen_solution_list():
 
     table = utils.gen_markdown_table(frame, True)
     content = "已完成 {} 道\n\n".format(frame_cout) + table + "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n"
-    with open(const.solotion_list_path, 'w', encoding='utf-8') as f:
-        f.writelines("# 1.3 LeetCode 题解\n\n")
-        f.write(content)
-    f.close()
 
     with open(const.problem_readme, 'w', encoding='utf-8') as f:
-        f.writelines("# 第四章 LeetCode 题解\n\n")
+        f.writelines("# 题解目录\n\n")
         f.write(content)
     f.close()
     print("Create Solutions List Success")
@@ -76,13 +72,13 @@ def gen_tag_list():
 
         content = Path(const.tag_list_readme).read_text(encoding='utf-8')
 
-        old_title = "# 1.5 题解标签"
+        old_title = "# 标签分类"
         delim = "[`" + tag_cn + "`](" + const.tag_absolute_path + tag_en + ".md)"
         if old_title in content:
             _, content = content.split(old_title)
         if delim in content:
             before, after = content.split(delim)
-            content = "# " + tag_cn + '\n\n::: details 全部标签' + before + '<span class="blue">' + tag_cn + '</span>' + after + ':::'
+            content = "# " + tag_cn + '\n\n<details><summary>全部标签</summary>' + before + '<span class="blue">' + tag_cn + '</span>' + after + '</details>'
         
         slice_path = os.path.join(const.tag_list_path, tag_en + ".md")
         with open(slice_path, 'w', encoding='utf-8') as f:

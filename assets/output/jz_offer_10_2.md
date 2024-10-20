@@ -1,6 +1,6 @@
 # [剑指 Offer 10 - II. 青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
 
 ## 题目
 

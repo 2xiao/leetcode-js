@@ -1,6 +1,6 @@
 # [LCP 03. 机器人大冒险](https://leetcode.cn/problems/programmable-robot)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`模拟`](/outline/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/programmable-robot)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/programmable-robot)
 
 ## 题目
 

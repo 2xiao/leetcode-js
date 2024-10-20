@@ -1,6 +1,6 @@
 # [LCP 31. 变换的迷宫](https://leetcode.cn/problems/Db3wC1)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Db3wC1)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Db3wC1)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer 33. 二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`树`](/outline/tag/tree.md) [`二叉搜索树`](/outline/tag/binary-search-tree.md) [`递归`](/outline/tag/recursion.md) [`数组`](/outline/tag/array.md) [`二叉树`](/outline/tag/binary-tree.md) [`单调栈`](/outline/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`递归`](/tag/recursion.md) [`数组`](/tag/array.md) [`二叉树`](/tag/binary-tree.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof)
 
 ## 题目
 

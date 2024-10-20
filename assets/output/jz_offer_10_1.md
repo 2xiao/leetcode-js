@@ -1,6 +1,6 @@
 # [剑指 Offer 10 - I. 斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/outline/tag/memoization.md) [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
 
 ## 题目
 

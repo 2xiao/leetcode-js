@@ -1,6 +1,6 @@
 # [剑指 Offer II 32. 有效的变位词](https://leetcode.cn/problems/dKk3P7)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/dKk3P7)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/dKk3P7)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 81. 允许重复选择元素的组合](https://leetcode.cn/problems/Ygoe9J)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`回溯`](/outline/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Ygoe9J)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Ygoe9J)
 
 ## 题目
 

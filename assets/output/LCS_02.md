@@ -1,6 +1,6 @@
 # [LCS 02. 完成一半题目](https://leetcode.cn/problems/WqXACV)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/outline/tag/greedy.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WqXACV)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WqXACV)
 
 ## 题目
 

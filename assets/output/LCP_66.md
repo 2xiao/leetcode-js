@@ -1,6 +1,6 @@
 # [LCP 66. 最小展台数量](https://leetcode.cn/problems/600YaG)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`计数`](/outline/tag/counting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/600YaG)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/600YaG)
 
 ## 题目
 

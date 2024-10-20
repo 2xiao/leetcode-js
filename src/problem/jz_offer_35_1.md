@@ -1,6 +1,6 @@
 # [剑指 Offer 35. 复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof)
 
 ## 题目
 

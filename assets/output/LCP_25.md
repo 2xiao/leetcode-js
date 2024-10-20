@@ -1,6 +1,6 @@
 # [LCP 25. 古董键盘](https://leetcode.cn/problems/Uh984O)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`组合数学`](/outline/tag/combinatorics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Uh984O)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Uh984O)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 82. 含有重复元素集合的组合](https://leetcode.cn/problems/4sjJUc)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`回溯`](/outline/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/4sjJUc)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/4sjJUc)
 
 ## 题目
 

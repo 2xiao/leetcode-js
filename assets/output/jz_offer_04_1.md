@@ -1,6 +1,6 @@
 # [剑指 Offer 04. 二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`分治`](/outline/tag/divide-and-conquer.md) [`矩阵`](/outline/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)
 
 ## 题目
 

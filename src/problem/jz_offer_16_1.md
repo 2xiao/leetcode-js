@@ -1,6 +1,6 @@
 # [剑指 Offer 16. 数值的整数次方](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`递归`](/outline/tag/recursion.md) [`数学`](/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
 
 ## 题目
 

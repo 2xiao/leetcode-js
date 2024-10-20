@@ -1,6 +1,6 @@
 # [剑指 Offer II 23. 两个链表的第一个重合节点](https://leetcode.cn/problems/3u1WK4)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`哈希表`](/outline/tag/hash-table.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/3u1WK4)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/3u1WK4)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer 32 - I. 从上到下打印二叉树](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/outline/tag/tree.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof)
 
 ## 题目
 
@@ -35,19 +35,19 @@
  * @return {number[]}
  */
 var decorateRecord = function (root) {
-  let res = [];
-  if (!root) return res;
-  let queue = [root];
-  while (queue.length > 0) {
-    let node = queue.shift();
-    res.push(node.val);
-    if (node.left) {
-      queue.push(node.left);
-    }
-    if (node.right) {
-      queue.push(node.right);
-    }
-  }
-  return res;
+	let res = [];
+	if (!root) return res;
+	let queue = [root];
+	while (queue.length > 0) {
+		let node = queue.shift();
+		res.push(node.val);
+		if (node.left) {
+			queue.push(node.left);
+		}
+		if (node.right) {
+			queue.push(node.right);
+		}
+	}
+	return res;
 };
 ```

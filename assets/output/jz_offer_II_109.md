@@ -1,6 +1,6 @@
 # [剑指 Offer II 109. 开密码锁](https://leetcode.cn/problems/zlDJc7)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zlDJc7)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zlDJc7)
 
 ## 题目
 

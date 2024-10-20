@@ -1,6 +1,6 @@
 # [剑指 Offer 26. 树的子结构](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`二叉树`](/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof)
 
 ## 题目
 
@@ -38,32 +38,32 @@
 
 ```javascript
 function isSubStructure(tree1, tree2) {
-  // 判断两个树是否相同的函数
-  function isSameTree(node1, node2) {
-    if (!node2) {
-      return true; // node2 节点都为空，认为相同
-    }
-    if (!node1 || node1.val !== node2.val) {
-      return false; // node1 节点为空，或者两个节点值不相等，认为不相同
-    }
-    // 递归判断左右子树是否相同
-    return (
-      isSameTree(node1.left, node2.left) && isSameTree(node1.right, node2.right)
-    );
-  }
+	// 判断两个树是否相同的函数
+	function isSameTree(node1, node2) {
+		if (!node2) {
+			return true; // node2 节点都为空，认为相同
+		}
+		if (!node1 || node1.val !== node2.val) {
+			return false; // node1 节点为空，或者两个节点值不相等，认为不相同
+		}
+		// 递归判断左右子树是否相同
+		return (
+			isSameTree(node1.left, node2.left) && isSameTree(node1.right, node2.right)
+		);
+	}
 
-  // 遍历 tree1 中的每个节点，检查是否有与 tree2 结构相同的子树
-  function traverse(node) {
-    if (!node || !tree2) {
-      return false; // 当前节点为空，或 tree2 为空树，不是子树
-    }
-    if (isSameTree(node, tree2)) {
-      return true; // 找到相同结构的子树
-    }
-    // 递归检查左右子树
-    return traverse(node.left) || traverse(node.right);
-  }
+	// 遍历 tree1 中的每个节点，检查是否有与 tree2 结构相同的子树
+	function traverse(node) {
+		if (!node || !tree2) {
+			return false; // 当前节点为空，或 tree2 为空树，不是子树
+		}
+		if (isSameTree(node, tree2)) {
+			return true; // 找到相同结构的子树
+		}
+		// 递归检查左右子树
+		return traverse(node.left) || traverse(node.right);
+	}
 
-  return traverse(tree1);
+	return traverse(tree1);
 }
 ```

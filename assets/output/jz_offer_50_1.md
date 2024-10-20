@@ -1,6 +1,6 @@
 # [剑指 Offer 50. 第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`队列`](/outline/tag/queue.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md) [`计数`](/outline/tag/counting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`队列`](/tag/queue.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof)
 
 ## 题目
 

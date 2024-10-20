@@ -1,6 +1,6 @@
 # [剑指 Offer II 117. 相似的字符串](https://leetcode.cn/problems/H6lPxb)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/H6lPxb)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/H6lPxb)
 
 ## 题目
 

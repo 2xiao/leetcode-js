@@ -1,6 +1,6 @@
 # [剑指 Offer II 5. 单词长度的最大乘积](https://leetcode.cn/problems/aseY1I)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/outline/tag/bit-manipulation.md) [`数组`](/outline/tag/array.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/aseY1I)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/aseY1I)
 
 ## 题目
 

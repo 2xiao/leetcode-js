@@ -1,6 +1,6 @@
 # [剑指 Offer II 69. 山峰数组的顶部](https://leetcode.cn/problems/B1IidL)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/B1IidL)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/B1IidL)
 
 ## 题目
 

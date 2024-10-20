@@ -1,6 +1,6 @@
 # [剑指 Offer II 73. 狒狒吃香蕉](https://leetcode.cn/problems/nZZqjQ)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/nZZqjQ)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/nZZqjQ)
 
 ## 题目
 

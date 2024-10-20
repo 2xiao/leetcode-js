@@ -1,6 +1,6 @@
 # [剑指 Offer 51. 数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/outline/tag/binary-indexed-tree.md) [`线段树`](/outline/tag/segment-tree.md) [`数组`](/outline/tag/array.md) [`二分查找`](/outline/tag/binary-search.md) [`分治`](/outline/tag/divide-and-conquer.md) [`有序集合`](/outline/tag/ordered-set.md) [`归并排序`](/outline/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) [`有序集合`](/tag/ordered-set.md) [`归并排序`](/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
 
 ## 题目
 

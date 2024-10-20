@@ -1,6 +1,6 @@
 # [剑指 Offer II 7. 数组中和为 0 的三个数](https://leetcode.cn/problems/1fGaJU)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`双指针`](/outline/tag/two-pointers.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/1fGaJU)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/1fGaJU)
 
 ## 题目
 

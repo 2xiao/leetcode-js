@@ -1,6 +1,6 @@
 # [剑指 Offer II 18. 有效的回文](https://leetcode.cn/problems/XltzEq)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/outline/tag/two-pointers.md) [`字符串`](/outline/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/XltzEq)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/XltzEq)
 
 ## 题目
 

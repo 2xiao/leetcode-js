@@ -1,6 +1,6 @@
 # [剑指 Offer II 40. 矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`矩阵`](/outline/tag/matrix.md) [`单调栈`](/outline/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/PLYXKQ)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/PLYXKQ)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 102. 加减的目标值](https://leetcode.cn/problems/YaVDxD)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`动态规划`](/outline/tag/dynamic-programming.md) [`回溯`](/outline/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/YaVDxD)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/YaVDxD)
 
 ## 题目
 

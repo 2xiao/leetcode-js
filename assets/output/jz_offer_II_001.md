@@ -1,6 +1,6 @@
 # [剑指 Offer II 1. 整数除法](https://leetcode.cn/problems/xoh6Oh)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xoh6Oh)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xoh6Oh)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [剑指 Offer II 30. 插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/outline/tag/design.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`数学`](/outline/tag/math.md) [`随机化`](/outline/tag/randomized.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/FortPu)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`随机化`](/tag/randomized.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/FortPu)
 
 ## 题目
 

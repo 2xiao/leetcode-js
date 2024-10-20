@@ -1,6 +1,6 @@
 # [剑指 Offer II 10. 和为 k 的子数组](https://leetcode.cn/problems/QTMn0o)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md) [`前缀和`](/outline/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/QTMn0o)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/QTMn0o)
 
 ## 题目
 

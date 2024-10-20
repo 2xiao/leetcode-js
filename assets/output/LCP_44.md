@@ -1,6 +1,6 @@
 # [LCP 44. 开幕式焰火](https://leetcode.cn/problems/sZ59z6)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/outline/tag/tree.md) [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`哈希表`](/outline/tag/hash-table.md) [`二叉树`](/outline/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/sZ59z6)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/sZ59z6)
 
 ## 题目
 

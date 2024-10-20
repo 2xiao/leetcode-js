@@ -1,6 +1,6 @@
 # [LCP 37. 最小矩形面积](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/outline/tag/greedy.md) [`几何`](/outline/tag/geometry.md) [`数组`](/outline/tag/array.md) [`数学`](/outline/tag/math.md) [`组合数学`](/outline/tag/combinatorics.md) [`排序`](/outline/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`组合数学`](/tag/combinatorics.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji)
 
 ## 题目
 

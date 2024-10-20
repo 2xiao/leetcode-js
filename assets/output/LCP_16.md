@@ -1,6 +1,6 @@
 # [LCP 16. 游乐园的游览计划](https://leetcode.cn/problems/you-le-yuan-de-you-lan-ji-hua)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/outline/tag/graph.md) [`几何`](/outline/tag/geometry.md) [`数学`](/outline/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/you-le-yuan-de-you-lan-ji-hua)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`几何`](/tag/geometry.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/you-le-yuan-de-you-lan-ji-hua)
 
 ## 题目
 

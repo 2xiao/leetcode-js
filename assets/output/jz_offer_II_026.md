@@ -1,6 +1,6 @@
 # [剑指 Offer II 26. 重排链表](https://leetcode.cn/problems/LGjMqU)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/outline/tag/stack.md) [`递归`](/outline/tag/recursion.md) [`链表`](/outline/tag/linked-list.md) [`双指针`](/outline/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/LGjMqU)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/LGjMqU)
 
 ## 题目
 

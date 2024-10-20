@@ -1,6 +1,6 @@
 # [剑指 Offer II 111. 计算除法](https://leetcode.cn/problems/vlzXQL)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`并查集`](/outline/tag/union-find.md) [`图`](/outline/tag/graph.md) [`数组`](/outline/tag/array.md) [`最短路`](/outline/tag/shortest-path.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vlzXQL)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`最短路`](/tag/shortest-path.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vlzXQL)
 
 ## 题目
 

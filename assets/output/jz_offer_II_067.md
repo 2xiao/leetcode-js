@@ -1,6 +1,6 @@
 # [剑指 Offer II 67. 最大的异或](https://leetcode.cn/problems/ms70jA)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/outline/tag/bit-manipulation.md) [`字典树`](/outline/tag/trie.md) [`数组`](/outline/tag/array.md) [`哈希表`](/outline/tag/hash-table.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ms70jA)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ms70jA)
 
 ## 题目
 

@@ -1,6 +1,6 @@
 # [LCP 21. 追逐游戏](https://leetcode.cn/problems/Za25hA)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/outline/tag/depth-first-search.md) [`广度优先搜索`](/outline/tag/breadth-first-search.md) [`图`](/outline/tag/graph.md) [`拓扑排序`](/outline/tag/topological-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Za25hA)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Za25hA)
 
 ## 题目
 

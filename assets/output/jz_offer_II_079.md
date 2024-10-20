@@ -1,6 +1,6 @@
 # [剑指 Offer II 79. 所有子集](https://leetcode.cn/problems/TVdhkn)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/outline/tag/bit-manipulation.md) [`数组`](/outline/tag/array.md) [`回溯`](/outline/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/TVdhkn)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/TVdhkn)
 
 ## 题目
 
