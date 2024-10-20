@@ -1,4 +1,4 @@
-# [剑指 Offer II 85. 生成匹配的括号](https://leetcode.cn/problems/IDBivT)
+# [85. 生成匹配的括号](https://leetcode.cn/problems/IDBivT)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/IDBivT)
 

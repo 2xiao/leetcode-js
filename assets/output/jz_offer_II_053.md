@@ -1,4 +1,4 @@
-# [剑指 Offer II 53. 二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8)
+# [53. 二叉搜索树中的中序后继](https://leetcode.cn/problems/P5rCT8)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/P5rCT8)
 

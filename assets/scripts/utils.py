@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import json
 import os
 import re
 from pathlib import Path
@@ -84,7 +85,7 @@ def format_label(labels: str):
     for tag in tags[:3]:
         tag_en = tag.split('|')[1]
         tag_cn = tag.split('|')[2]
-        res += " [`" + tag_cn + "`](" + const.tag_absolute_path + tag_en + ".md)"
+        res += " {}".format(get_tag_link(tag_cn, tag_en))
     if len(tags) > 3:
         res += " `" + str(len(tags) - 3) + "+`"
     return res
@@ -92,20 +93,20 @@ def format_label(labels: str):
 # 格式化每一个frame items
 
 
-def gen_frame_items(row, df, problem_path, problem_salt: str = False):
-    problem_id = df.loc[row, "frontedId"]
+def gen_frame_items(row, df, problem_salt: str = False, show_book_name: bool = True):
+    problem_id = df.loc[row, "frontendId"]
     problem_file_name = df.loc[row, "fileName"]
-    problem_link = "[{}]({})".format(df.loc[row, "titleCN"], getLink(problem_id, df.loc[row, "slug"]))
-
-    problem_solution_path = os.path.join(
-        problem_path, problem_file_name + ".md")
-    if os.path.exists(problem_solution_path):
-        problem_solution_link = "[[✓]](" + const.problem_absolute_path + problem_file_name + ".md)"
-    else:
-        problem_solution_link = ""
+    problem_catalog = df.loc[row, "catalog"]
+    problem_is_ac = is_ac(problem_catalog, problem_file_name)
 
     problem_label = format_label(df.loc[row, "tags"])
     problem_difficulty = format_difficulty(df.loc[row, "difficulty"])
+    problem_link = "[{}]({})".format(df.loc[row, "titleCN"], get_online_link(problem_catalog, df.loc[row, "slug"]))
+    problem_solution_link = ""
+    if problem_is_ac:
+        problem_solution_link = "[[✓]]({})".format(get_local_link(problem_catalog, problem_file_name))
+    if show_book_name:
+        problem_id = get_id_with_book_name(problem_catalog, problem_id)
     res = [problem_id, problem_link, problem_solution_link,
            problem_label, problem_difficulty]
     if problem_salt:
@@ -117,7 +118,7 @@ def gen_frame_items(row, df, problem_path, problem_salt: str = False):
 # 根据标题，读表，生成frame
 
 
-def gen_frame(problems, problem_path):
+def gen_frame(problems, show_book_name: bool = True):
     df = pd.read_csv("problem-list.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
     frame_cout = 0
@@ -128,7 +129,7 @@ def gen_frame(problems, problem_path):
         if not df_indexs:
             print('%s 没有出现在 problem-list.csv 中' % (item))
             continue
-        res = gen_frame_items(df_indexs[0], df, problem_path)
+        res = gen_frame_items(df_indexs[0], df, False, show_book_name)
         frame.loc[frame_cout] = res
         frame_cout += 1
     return frame
@@ -137,7 +138,7 @@ def gen_frame(problems, problem_path):
 # 根据标题，读表，生成frame
 
 
-def gen_frame_with_salt(problems, problem_path):
+def gen_frame_with_salt(problems):
     df = pd.read_csv("problem-list.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度', '频次'])
     frame_cout = 0
@@ -155,7 +156,7 @@ def gen_frame_with_salt(problems, problem_path):
         if not df_indexs:
             print('%s 没有出现在 problem-list.csv 中' % (problem_id))
             continue
-        res = gen_frame_items(df_indexs[0], df, problem_path, problem_salt)
+        res = gen_frame_items(df_indexs[0], df, problem_salt)
         frame.loc[frame_cout] = res
         frame_cout += 1
     return frame
@@ -186,38 +187,95 @@ def append_config(file: str, config: str, delim: str = '// AUTO_GEN_CONFIG_START
     content += delim + config + end + end_content
     Path(file).write_text(content, encoding='utf-8')
 
+def gen_config_content(path, df, include_readme):
+    files = os.listdir(path)
 
-def getCatalog(id, slug):
+    frames = {}
+    file_name = {
+        'offer': '剑指 Offer',
+        'offer2': '剑指 Offer II',
+        'interview': '程序员面试金典',
+        'LCP': '力扣杯',
+        'LCS': 'LCS'
+    }
+
+    for file in files:
+        if ".md" not in file:
+            continue
+
+        df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
+
+        if not df_indexs:
+            print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
+            continue
+
+        problem_catalog = df.loc[df_indexs[0], "catalog"]
+        if problem_catalog not in frames:
+            frames[problem_catalog] = []
+        frames[problem_catalog].append(Path(file).stem)
+
+    config_data = []
+
+    for idx, frame in sorted(frames.items()):
+        title = file_name.get(idx, idx)
+
+        # 添加 README.md 如果需要
+        if include_readme:
+            children = ['README.md'] + sorted(frame)
+        else:
+            children = sorted(frame)
+
+        config_item = {
+            "text": title,
+            "collapsible": True,
+            "children": children,
+        }
+
+        if idx in file_name:
+            config_item["prefix"] = idx
+        
+        config_data.append(config_item)
+
+    content = json.dumps(config_data, ensure_ascii=False, indent=2)
+    return content[1:-1]  # 去掉首尾的 []
+
+def get_catalog(id, slug):
+    if str(id).find('LCP') != -1:
+        return "lcp"
+    if str(id).find('LCS') != -1:
+        return "lcs"
     if str(id).find('面试题') != -1:
-        return "Interviews"
+        return "interview"
+    if slug in const.offer_dict:
+        return "offer"
+    if slug in const.offer2_dict:
+        return "offer2"
     if len(str(id)) < 5:
         cata = (int(id) // 100) * 100
         return "{:0>4d}-{:0>4d}".format(cata, cata + 99)
-    if slug in const.offer_dict:
-        return "Offer"
-    if slug in const.offer2_dict:
-        return "Offer-II"
-    return 'other'
+    return 'problem'
 
-def getFileName(id, slug):
+def get_fileName(id, slug):
     if str(id).find('面试题') != -1:
         return "i_" + id.split('面试题 ')[1]
-    if len(str(id)) < 5:
-        return "{:0>4d}".format(id)
     if slug in const.offer_dict:
         return const.offer_dict[slug].split(',')[1]
     if slug in const.offer2_dict:
         return const.offer2_dict[slug].split(',')[1]
+    if len(str(id)) < 5:
+        return "{:0>4d}".format(id)
     return '_'.join(id.split(' '))
 
-def getFrontedId(id, slug):
+def get_fronted_id(id, slug):
+    if str(id).find('面试题') != -1:
+        return id.split('面试题 ')[1]
     if slug in const.offer_dict:
         return const.offer_dict[slug].split(',')[0]
     if slug in const.offer2_dict:
         return const.offer2_dict[slug].split(',')[0]
     return id
 
-def getTitle(title, slug):
+def get_title(title, slug):
     if slug in const.offer_dict:
         return const.offer_dict[slug].split(',')[2]
     if slug in const.offer2_dict:
@@ -225,11 +283,33 @@ def getTitle(title, slug):
     return title
 
 
-def getLink(id, slug):
-    if len(str(id)) < 5:
-        return "https://leetcode.com/problems/{}".format(slug)
-    return "https://leetcode.cn/problems/{}".format(slug)
+def get_tag_link(tag_cn, tag_en):
+    return "[`{}`](/tag/{}.md)".format(tag_cn, tag_en)
 
-def isAC(fileName):
-    file_path = os.path.join(const.problem_path, fileName + '.md')
+
+def get_local_link(catalog, fileName, scheme = "/{}/{}.md"):
+    if is_cn(catalog):
+        return scheme.format(catalog, fileName)
+    return scheme.format('problem', fileName)
+
+def get_online_link(catalog, slug):
+    if is_cn(catalog):
+        return "https://leetcode.cn/problems/{}".format(slug)
+    return "https://leetcode.com/problems/{}".format(slug)
+
+def is_ac(catalog, fileName):
+    local_path = get_local_link(catalog, fileName, const.base_path + '{}/{}.md')
+    file_path = os.path.join(local_path)
     return os.path.exists(file_path)
+
+def is_cn(catalog):
+    return catalog == 'lcp' or catalog == 'lcs' or catalog == 'offer' or catalog == 'offer2' or catalog == 'interview' or catalog == 'problem'
+
+def get_id_with_book_name(catalog, frontendId):
+    if catalog == 'offer':
+        return '剑指 Offer ' + frontendId
+    if catalog == 'offer2':
+        return '剑指 Offer II ' + frontendId
+    if catalog == 'interview':
+        return '面试题 ' + frontendId
+    return frontendId

@@ -1,4 +1,4 @@
-# [剑指 Offer II 94. 最少回文分割](https://leetcode.cn/problems/omKAoA)
+# [94. 最少回文分割](https://leetcode.cn/problems/omKAoA)
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/omKAoA)
 

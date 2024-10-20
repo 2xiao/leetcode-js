@@ -1,4 +1,4 @@
-# [剑指 Offer II 27. 回文链表](https://leetcode.cn/problems/aMhZSa)
+# [27. 回文链表](https://leetcode.cn/problems/aMhZSa)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/aMhZSa)
 

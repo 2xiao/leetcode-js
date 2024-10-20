@@ -1,4 +1,4 @@
-# [剑指 Offer II 64. 神奇的字典](https://leetcode.cn/problems/US1pGT)
+# [64. 神奇的字典](https://leetcode.cn/problems/US1pGT)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/US1pGT)
 

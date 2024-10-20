@@ -1,4 +1,4 @@
-# [剑指 Offer II 103. 最少的硬币数目](https://leetcode.cn/problems/gaM7Ch)
+# [103. 最少的硬币数目](https://leetcode.cn/problems/gaM7Ch)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/gaM7Ch)
 

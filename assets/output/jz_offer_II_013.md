@@ -1,4 +1,4 @@
-# [剑指 Offer II 13. 二维子矩阵的和](https://leetcode.cn/problems/O4NDxx)
+# [13. 二维子矩阵的和](https://leetcode.cn/problems/O4NDxx)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/O4NDxx)
 

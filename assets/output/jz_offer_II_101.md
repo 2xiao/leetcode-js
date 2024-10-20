@@ -1,4 +1,4 @@
-# [剑指 Offer II 101. 分割等和子集](https://leetcode.cn/problems/NUPfPr)
+# [101. 分割等和子集](https://leetcode.cn/problems/NUPfPr)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/NUPfPr)
 

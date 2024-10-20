@@ -1,4 +1,4 @@
-# [剑指 Offer II 60. 出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o)
+# [60. 出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) [`计数`](/tag/counting.md) [`快速选择`](/tag/quickselect.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/g5c51o)
 

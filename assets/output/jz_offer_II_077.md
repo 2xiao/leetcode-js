@@ -1,4 +1,4 @@
-# [剑指 Offer II 77. 链表排序](https://leetcode.cn/problems/7WHec2)
+# [77. 链表排序](https://leetcode.cn/problems/7WHec2)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) [`排序`](/tag/sorting.md) [`归并排序`](/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7WHec2)
 

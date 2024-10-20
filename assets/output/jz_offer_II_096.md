@@ -1,4 +1,4 @@
-# [剑指 Offer II 96. 字符串交织](https://leetcode.cn/problems/IY6buf)
+# [96. 字符串交织](https://leetcode.cn/problems/IY6buf)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/IY6buf)
 

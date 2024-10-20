@@ -1,4 +1,4 @@
-# [剑指 Offer 30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof)
+# [30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`设计`](/tag/design.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof)
 

@@ -69,6 +69,9 @@ jobs:
           cp -r src/plan ./dist/
           cp -r src/tag ./dist/
           cp -r src/problem ./dist/
+          cp -r src/offer ./dist/
+          cp -r src/offer2 ./dist/
+          cp -r src/interview ./dist/
           cp -r src/image ./dist/
 
       - name: push to main

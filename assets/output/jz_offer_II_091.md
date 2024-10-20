@@ -1,4 +1,4 @@
-# [剑指 Offer II 91. 粉刷房子](https://leetcode.cn/problems/JEj789)
+# [91. 粉刷房子](https://leetcode.cn/problems/JEj789)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/JEj789)
 

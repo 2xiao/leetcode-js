@@ -1,4 +1,4 @@
-# [剑指 Offer II 63. 替换单词](https://leetcode.cn/problems/UhWRSj)
+# [63. 替换单词](https://leetcode.cn/problems/UhWRSj)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/UhWRSj)
 

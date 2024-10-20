@@ -1,4 +1,4 @@
-# [剑指 Offer II 37. 小行星碰撞](https://leetcode.cn/problems/XagZNi)
+# [37. 小行星碰撞](https://leetcode.cn/problems/XagZNi)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/XagZNi)
 

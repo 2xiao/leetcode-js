@@ -1,4 +1,4 @@
-# [剑指 Offer II 56. 二叉搜索树中两个节点之和](https://leetcode.cn/problems/opLdQZ)
+# [56. 二叉搜索树中两个节点之和](https://leetcode.cn/problems/opLdQZ)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/opLdQZ)
 

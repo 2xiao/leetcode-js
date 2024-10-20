@@ -266,6 +266,7 @@ class LeetcodeCrawler():
         cursor = self.conn.cursor()
         cursor.execute("SELECT * FROM question")
         for row in cursor:
+            catalog = utils.get_catalog(row[1], row[3])
             question_detail = {
                 'id': row[0],
                 'slug': row[3],
@@ -275,12 +276,12 @@ class LeetcodeCrawler():
                 'contentCN': row[8],
                 'tags': row[9],
                 'status': row[10],
-                'fileName': utils.getFileName(row[1], row[3]),
-                'catalog': utils.getCatalog(row[1], row[3]),
-                'link': utils.getLink(row[1], row[3]),
-                'frontedId': utils.getFrontedId(row[1], row[3]),
-                'title': utils.getTitle(row[2], row[3]),
-                'titleCN': utils.getTitle(row[7], row[3]),
+                'fileName': utils.get_fileName(row[1], row[3]),
+                'catalog': catalog,
+                'link': utils.get_online_link(catalog, row[3]),
+                'frontendId': utils.get_fronted_id(row[1], row[3]),
+                'title': utils.get_title(row[2], row[3]),
+                'titleCN': utils.get_title(row[7], row[3]),
             }  
 
             if not self.filter_question(question_detail, filters):
@@ -304,7 +305,7 @@ class LeetcodeCrawler():
                 cursor.execute('SELECT frontend_id FROM question WHERE slug = ?', (slug,))
                 result = cursor.fetchone()
                 if result:  # 如果有结果，添加 similar_ids
-                    similar_ids.append(utils.getFileName(result[0], slug))
+                    similar_ids.append(utils.get_fileName(result[0], slug))
         return '|'.join(similar_ids)  # 将 similar_ids 转换为字符串并用 '|' 连接
 
 
@@ -316,16 +317,17 @@ class LeetcodeCrawler():
         res = []
         for row in cursor:
 
-            fileName = utils.getFileName(row[1], row[3])
-            status = utils.isAC(fileName)
+            fileName = utils.get_fileName(row[1], row[3])
+            catalog = utils.get_catalog(row[1], row[3])
+            status = utils.is_ac(catalog, fileName)
             similar = test.getSimilar(row[6])
 
             question_detail = {
-                'frontedId': utils.getFrontedId(row[1], row[3]),
+                'frontendId': utils.get_fronted_id(row[1], row[3]),
                 'fileName': fileName,
-                'catalog': utils.getCatalog(row[1], row[3]),
-                'title': utils.getTitle(row[2], row[3]),
-                'titleCN': utils.getTitle(row[7], row[3]),
+                'catalog': catalog,
+                'title': utils.get_title(row[2], row[3]),
+                'titleCN': utils.get_title(row[7], row[3]),
                 'slug': row[3],
                 'tags': row[9],
                 'difficulty': row[4],
@@ -362,7 +364,7 @@ class LeetcodeCrawler():
         df = pd.read_csv("problem-list.csv")
 
         with open(text_path, 'w', encoding='utf-8') as f:
-            f.write("# [{}. {}]({})".format(question['frontedId'], question['titleCN'], question['link']))
+            f.write("# [{}. {}]({})".format(question['frontendId'], question['titleCN'], question['link']))
             
             problem_difficulty = utils.format_difficulty(question['difficulty'], True)
             problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + question['link'] + ")"
@@ -371,7 +373,7 @@ class LeetcodeCrawler():
                 problem_label = "&emsp; 🔖&ensp;"
                 for str in question['tags'].split(','):
                     label = str.split('|')
-                    problem_label += " [`" + label[2] + "`](" + const.tag_absolute_path + label[1] + ".md)"
+                    problem_label += " {}".format(utils.get_tag_link(label[2], label[1]))
 
             f.write("\n\n" + problem_difficulty + problem_label + problem_link)
             
@@ -400,7 +402,7 @@ class LeetcodeCrawler():
                         print(question['title'] + '的相关问题 %s 没有出现在 problem-list.csv 中' % (similar_item['translatedTitle']))
                         continue
                     
-                    frame.loc[len(frame.index)] = utils.gen_frame_items(df_indexs[0], df, const.problem_path)
+                    frame.loc[len(frame.index)] = utils.gen_frame_items(df_indexs[0], df)
                     
                 table = utils.gen_markdown_table(frame, True)
                 f.write(table)

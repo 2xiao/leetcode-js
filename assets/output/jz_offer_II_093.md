@@ -1,4 +1,4 @@
-# [剑指 Offer II 93. 最长斐波那契数列](https://leetcode.cn/problems/Q91FMA)
+# [93. 最长斐波那契数列](https://leetcode.cn/problems/Q91FMA)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Q91FMA)
 

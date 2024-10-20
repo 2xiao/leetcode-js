@@ -1,4 +1,4 @@
-# [剑指 Offer II 80. 含有 k 个元素的组合](https://leetcode.cn/problems/uUsW3B)
+# [80. 含有 k 个元素的组合](https://leetcode.cn/problems/uUsW3B)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/uUsW3B)
 

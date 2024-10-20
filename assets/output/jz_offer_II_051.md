@@ -1,4 +1,4 @@
-# [剑指 Offer II 51. 节点之和最大的路径](https://leetcode.cn/problems/jC7MId)
+# [51. 节点之和最大的路径](https://leetcode.cn/problems/jC7MId)
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jC7MId)
 

@@ -27,7 +27,7 @@ headerDepth: 0
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 75 |
 | 153 | [寻找旋转排序数组中的最小值](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array) | [[✓]](/problem/0153.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 65 |
 | 103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [[✓]](/problem/0103.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 65 |
-| 剑指 Offer 10 - II | [青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof) | [[✓]](/problem/jz_offer_10_2.md) |  [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> | 60 |
+| 剑指 Offer 10 - II | [青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof) | [[✓]](/offer/jz_offer_10_2.md) |  [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> | 60 |
 | 125 | [验证回文串](https://leetcode.com/problems/valid-palindrome) | [[✓]](/problem/0125.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> | 59 |
 | 155 | [最小栈](https://leetcode.com/problems/min-stack) | [[✓]](/problem/0155.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) | <font color=#ffb800>Medium</font> | 59 |
 | 25 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group) | [[✓]](/problem/0025.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#ff334b>Hard</font> | 56 |
@@ -255,6 +255,7 @@ headerDepth: 0
 | 828 | [统计子串中的唯一字符](https://leetcode.com/problems/count-unique-characters-of-all-substrings-of-a-given-string) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> | 2 |
 | 249 | [移位字符串分组](https://leetcode.com/problems/group-shifted-strings) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 2 |
 | 487 | [最大连续1的个数 II](https://leetcode.com/problems/max-consecutive-ones-ii) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> | 1 |
+
 
 ::: info
 

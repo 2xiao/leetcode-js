@@ -143,14 +143,14 @@
 | 2671 | [频率跟踪器](https://leetcode.com/problems/frequency-tracker) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 3242 | [设计相邻元素求和服务](https://leetcode.com/problems/design-neighbor-sum-service) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | LCP 27 | [黑盒光线反射](https://leetcode.cn/problems/IQvJ9i) |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 09 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [[✓]](/problem/jz_offer_09_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 30 | [包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof) | [[✓]](/problem/jz_offer_30_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 37 | [序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof) | [[✓]](/problem/jz_offer_37_1.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 30 | [包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof) | [[✓]](/offer/jz_offer_30_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 37 | [序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof) | [[✓]](/offer/jz_offer_37_1.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof) |  |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 9 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [[✓]](/offer/jz_offer_09_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 13 | [二维子矩阵的和](https://leetcode.cn/problems/O4NDxx) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 30 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 31 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps) | [[✓]](/problem/jz_offer_II_031.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 31 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps) | [[✓]](/offer2/jz_offer_II_031.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 41 | [滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 42 | [最近请求次数](https://leetcode.cn/problems/H8086Q) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 43 | [往完全二叉树添加节点](https://leetcode.cn/problems/NaqhDT) |  |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -170,7 +170,7 @@
 | 面试题 10.10 | [数字流的秩](https://leetcode.cn/problems/rank-from-stream-lcci) |  |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 16.02 | [单词频率](https://leetcode.cn/problems/words-frequency-lcci) |  |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
 | 面试题 16.09 | [运算](https://leetcode.cn/problems/operations-lcci) |  |  [`设计`](/tag/design.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
-| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci) | [[✓]](/problem/i_16.25.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci) | [[✓]](/interview/i_16.25.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.20 | [连续中值](https://leetcode.cn/problems/continuous-median-lcci) |  |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 
 <style>

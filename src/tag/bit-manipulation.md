@@ -253,8 +253,8 @@
 | LCP 51 | [烹饪料理](https://leetcode.cn/problems/UEcfPD) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#15bd66>Easy</font> |
 | LCP 53 | [守护太空城](https://leetcode.cn/problems/EJvmW4) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | LCP 69 | [Hello LeetCode!](https://leetcode.cn/problems/rMeRt2) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 15 | [二进制中1的个数](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) | [[✓]](/problem/jz_offer_15_1.md) |  [`位运算`](/tag/bit-manipulation.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 53 - II | [0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof) | [[✓]](/problem/jz_offer_53_2.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 15 | [二进制中1的个数](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof) | [[✓]](/offer/jz_offer_15_1.md) |  [`位运算`](/tag/bit-manipulation.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 53 - II | [0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_53_2.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 56 - I | [数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 56 - II | [数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |

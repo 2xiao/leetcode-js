@@ -1,4 +1,4 @@
-# [剑指 Offer II 59. 数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C)
+# [59. 数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md) [`数据流`](/tag/data-stream.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jBjn9C)
 

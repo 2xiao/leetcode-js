@@ -1,28 +1,25 @@
+# LeetCode-JS 通关指南
+
 <p>
   <img src="https://2xiao.github.io/assets/image/leetcode-js-logo.png" alt="logo" height="360"/>
 </p>
-<p><font size=5><b>《LeetCode-JS 通关指南》</b></font></p>
-<p><font color=gray>包含 LeetCode、《剑指 Offer》、《剑指 Offer II》等 1000+ 道算法题的详细题解。</font></p>
-<p><font color=gray>书中的算法全部使用 JavaScript 语言实现，前端工程师友好。</font></p>
-<p><font color=gray>欢迎「Star ⭐️ 」 和 「Fork」，这是对我最大的鼓励和支持。</font></p>
 
----
+包含 LeetCode、《剑指 Offer》、《剑指 Offer II》等 1000+ 道算法题的详细题解。
 
-<h2>站点</h2>
+书中的算法全部使用 JavaScript 语言实现，前端工程师友好。
+
+欢迎「Star ⭐️ 」 和 「Fork」，这是对我最大的鼓励和支持。
 
 电子书：[https://2xiao.github.io/leetcode-js](https://2xiao.github.io/leetcode-js)
 
 源码：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
 
----
-
 <h2>算法题解</h2>
 
 - [LeetCode 题解](./problem/README.md)
-- [剑指 Offer](./plan/offer_list.md)
-- [剑指 Offer II](./plan/offer2_list.md)
-
----
+- [剑指 Offer](./offer/README.md)
+- [剑指 Offer II](./offer2/README.md)
+- [程序员面试金典](./interview/README.md)
 
 <h2>专项突破</h2>
 
@@ -34,8 +31,6 @@
 - [海外兔热题排行榜](./plan/rabbit_list.md)
 - [热门企业题库](./plan/company_list.md)
 - [标签分类](./plan/tag_list.md)
-
----
 
 <h2>算法笔记</h2>
 
@@ -70,13 +65,9 @@
 - [3.10 双指针](./book/two_pointer.md)
 - [3.11 滑动窗口](./book/slide_window.md)
 
----
-
 <h2>互动勘误</h2>
 
 如果书中文章有所遗漏，欢迎点击所在页面左下角的按钮进行修改，感谢您的支持与帮助。
-
----
 
 <h2>版权声明</h2>
 

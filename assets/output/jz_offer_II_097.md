@@ -1,4 +1,4 @@
-# [剑指 Offer II 97. 子序列的数目](https://leetcode.cn/problems/21dk04)
+# [97. 子序列的数目](https://leetcode.cn/problems/21dk04)
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/21dk04)
 

@@ -1,4 +1,4 @@
-# [剑指 Offer II 8. 和大于等于 target 的最短子数组](https://leetcode.cn/problems/2VG8Kg)
+# [8. 和大于等于 target 的最短子数组](https://leetcode.cn/problems/2VG8Kg)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/2VG8Kg)
 

@@ -1,4 +1,4 @@
-# [剑指 Offer II 70. 排序数组中只出现一次的数字](https://leetcode.cn/problems/skFtm2)
+# [70. 排序数组中只出现一次的数字](https://leetcode.cn/problems/skFtm2)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/skFtm2)
 

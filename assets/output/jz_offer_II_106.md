@@ -1,4 +1,4 @@
-# [剑指 Offer II 106. 二分图](https://leetcode.cn/problems/vEAB3K)
+# [106. 二分图](https://leetcode.cn/problems/vEAB3K)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vEAB3K)
 

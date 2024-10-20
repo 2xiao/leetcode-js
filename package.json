@@ -11,6 +11,7 @@
     "docs:dev": "vuepress dev src",
     "docs:update-package": "npx vp-update",
     "lc": "cd ./assets/scripts && python3 ./gen-docs.py",
+    "config": "cd ./assets/scripts && python3 ./gen-docs.py config",
     "spider": "cd ./assets/scripts && python3 ./leetcode-spider.py ../output -v"
   },
   "devDependencies": {

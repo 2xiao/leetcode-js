@@ -1,4 +1,4 @@
-# [剑指 Offer II 38. 每日温度](https://leetcode.cn/problems/iIQa4I)
+# [38. 每日温度](https://leetcode.cn/problems/iIQa4I)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/iIQa4I)
 

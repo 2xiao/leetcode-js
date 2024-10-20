@@ -1,4 +1,4 @@
-# [剑指 Offer II 84. 含有重复元素集合的全排列](https://leetcode.cn/problems/7p8L0Z)
+# [84. 含有重复元素集合的全排列](https://leetcode.cn/problems/7p8L0Z)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7p8L0Z)
 

@@ -1,4 +1,4 @@
-# [剑指 Offer II 72. 求平方根](https://leetcode.cn/problems/jJ0w9p)
+# [72. 求平方根](https://leetcode.cn/problems/jJ0w9p)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jJ0w9p)
 

@@ -1,4 +1,4 @@
-# [剑指 Offer II 21. 删除链表的倒数第 n 个结点](https://leetcode.cn/problems/SLwz0R)
+# [21. 删除链表的倒数第 n 个结点](https://leetcode.cn/problems/SLwz0R)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/SLwz0R)
 

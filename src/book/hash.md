@@ -647,6 +647,7 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
+
 ## 相关题目
 
 <!-- prettier-ignore -->
@@ -673,9 +674,9 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 | 242 | [有效的字母异位词](https://leetcode.com/problems/valid-anagram) | [[✓]](/problem/0242.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 205 | [同构字符串](https://leetcode.com/problems/isomorphic-strings) | [[✓]](/problem/0205.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 442 | [数组中重复的数据](https://leetcode.com/problems/find-all-duplicates-in-an-array) | [[✓]](/problem/0442.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof) | [[✓]](/problem/jz_offer_61_1.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof) | [[✓]](/offer/jz_offer_61_1.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 268 | [丢失的数字](https://leetcode.com/problems/missing-number) | [[✓]](/problem/0268.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `3+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 03 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof) | [[✓]](/problem/jz_offer_03_1.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 3 | [数组中重复的数字](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_03_1.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency) | [[✓]](/problem/0451.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`桶排序`](/tag/bucket-sort.md) `3+` | <font color=#ffb800>Medium</font> |
 | 49 | [字母异位词分组](https://leetcode.com/problems/group-anagrams) | [[✓]](/problem/0049.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 599 | [两个列表的最小索引总和](https://leetcode.com/problems/minimum-index-sum-of-two-lists) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
@@ -684,3 +685,4 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 | 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
 | 811 | [子域名访问计数](https://leetcode.com/problems/subdomain-visit-count) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
+

@@ -1,4 +1,4 @@
-# [剑指 Offer II 71. 按权重生成随机数](https://leetcode.cn/problems/cuyjEf)
+# [71. 按权重生成随机数](https://leetcode.cn/problems/cuyjEf)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) [`随机化`](/tag/randomized.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cuyjEf)
 

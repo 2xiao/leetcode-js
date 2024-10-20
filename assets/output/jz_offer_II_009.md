@@ -1,4 +1,4 @@
-# [剑指 Offer II 9. 乘积小于 K 的子数组](https://leetcode.cn/problems/ZVAVXX)
+# [9. 乘积小于 K 的子数组](https://leetcode.cn/problems/ZVAVXX)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ZVAVXX)
 

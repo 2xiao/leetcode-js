@@ -1,4 +1,4 @@
-# [剑指 Offer II 86. 分割回文子字符串](https://leetcode.cn/problems/M99OJA)
+# [86. 分割回文子字符串](https://leetcode.cn/problems/M99OJA)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`哈希表`](/tag/hash-table.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/M99OJA)
 

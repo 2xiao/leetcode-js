@@ -1,4 +1,4 @@
-# [剑指 Offer II 107. 矩阵中的距离](https://leetcode.cn/problems/2bCMpM)
+# [107. 矩阵中的距离](https://leetcode.cn/problems/2bCMpM)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/2bCMpM)
 

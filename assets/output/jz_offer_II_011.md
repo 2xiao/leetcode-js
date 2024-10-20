@@ -1,4 +1,4 @@
-# [剑指 Offer II 11. 0 和 1 个数相同的子数组](https://leetcode.cn/problems/A1NYOS)
+# [11. 0 和 1 个数相同的子数组](https://leetcode.cn/problems/A1NYOS)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/A1NYOS)
 

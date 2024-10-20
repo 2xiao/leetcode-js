@@ -99,24 +99,24 @@
 | 3217 | [从链表中移除在数组中存在的节点](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 3263 | [将双链表转换为数组 I](https://leetcode.com/problems/convert-doubly-linked-list-to-array-i) |  |  [`数组`](/tag/array.md) [`链表`](/tag/linked-list.md) [`双向链表`](/tag/doubly-linked-list.md) | <font color=#15bd66>Easy</font> |
 | 3294 | [将双链表转换为数组 II](https://leetcode.com/problems/convert-doubly-linked-list-to-array-ii) |  |  [`数组`](/tag/array.md) [`链表`](/tag/linked-list.md) [`双向链表`](/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 06 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [[✓]](/problem/jz_offer_06_1.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 18 | [删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof) | [[✓]](/problem/jz_offer_18_1.md) |  [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/problem/jz_offer_22_1.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 24 | [反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof) | [[✓]](/problem/jz_offer_24_1.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 25 | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof) | [[✓]](/problem/jz_offer_25_1.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 35 | [复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof) | [[✓]](/problem/jz_offer_35_1.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 36 | [二叉搜索树与双向链表](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof) | [[✓]](/problem/jz_offer_36_1.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 52 | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof) | [[✓]](/problem/jz_offer_52_1.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 18 | [删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof) | [[✓]](/offer/jz_offer_18_1.md) |  [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/offer/jz_offer_22_1.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 24 | [反转链表](https://leetcode.cn/problems/fan-zhuan-lian-biao-lcof) | [[✓]](/offer/jz_offer_24_1.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 25 | [合并两个排序的链表](https://leetcode.cn/problems/he-bing-liang-ge-pai-xu-de-lian-biao-lcof) | [[✓]](/offer/jz_offer_25_1.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 35 | [复杂链表的复制](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof) | [[✓]](/offer/jz_offer_35_1.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 36 | [二叉搜索树与双向链表](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof) | [[✓]](/offer/jz_offer_36_1.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 52 | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof) | [[✓]](/offer/jz_offer_52_1.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 6 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [[✓]](/offer/jz_offer_06_1.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 21 | [删除链表的倒数第 n 个结点](https://leetcode.cn/problems/SLwz0R) |  |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 22 | [链表中环的入口节点](https://leetcode.cn/problems/c32eOV) |  |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 23 | [两个链表的第一个重合节点](https://leetcode.cn/problems/3u1WK4) |  |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 24 | [反转链表](https://leetcode.cn/problems/UHnkqh) |  |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 25 | [链表中的两数相加](https://leetcode.cn/problems/lMSNwu) |  |  [`栈`](/tag/stack.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 26 | [重排链表](https://leetcode.cn/problems/LGjMqU) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 27 | [回文链表](https://leetcode.cn/problems/aMhZSa) | [[✓]](/problem/jz_offer_II_027.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer II 27 | [回文链表](https://leetcode.cn/problems/aMhZSa) | [[✓]](/offer2/jz_offer_II_027.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 28 | [展平多级双向链表](https://leetcode.cn/problems/Qv1Da2) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`链表`](/tag/linked-list.md) [`双向链表`](/tag/doubly-linked-list.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 29 | [排序的循环链表](https://leetcode.cn/problems/4ueAj6) |  |  [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 31 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps) | [[✓]](/problem/jz_offer_II_031.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 31 | [最近最少使用缓存](https://leetcode.cn/problems/OrIXps) | [[✓]](/offer2/jz_offer_II_031.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 77 | [链表排序](https://leetcode.cn/problems/7WHec2) |  |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 78 | [合并排序链表](https://leetcode.cn/problems/vvXgSW) |  |  [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 | 面试题 02.01 | [移除重复节点](https://leetcode.cn/problems/remove-duplicate-node-lcci) |  |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
@@ -129,7 +129,7 @@
 | 面试题 02.08 | [环路检测](https://leetcode.cn/problems/linked-list-cycle-lcci) |  |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 面试题 03.03 | [堆盘子](https://leetcode.cn/problems/stack-of-plates-lcci) |  |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 面试题 04.03 | [特定深度节点链表](https://leetcode.cn/problems/list-of-depth-lcci) |  |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
-| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci) | [[✓]](/problem/i_16.25.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
+| 面试题 16.25 | [LRU 缓存](https://leetcode.cn/problems/lru-cache-lcci) | [[✓]](/interview/i_16.25.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.12 | [BiNode](https://leetcode.cn/problems/binode-lcci) |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `3+` | <font color=#15bd66>Easy</font> |
 
 <style>

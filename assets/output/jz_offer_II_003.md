@@ -1,4 +1,4 @@
-# [剑指 Offer II 3. 前 n 个数字二进制中 1 的个数](https://leetcode.cn/problems/w3tCBm)
+# [3. 前 n 个数字二进制中 1 的个数](https://leetcode.cn/problems/w3tCBm)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/w3tCBm)
 

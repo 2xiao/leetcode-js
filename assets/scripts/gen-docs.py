@@ -30,7 +30,7 @@ def gen_solution_list():
             print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
             continue
 
-        res = utils.gen_frame_items(df_indexs[0], df, const.problem_path)
+        res = utils.gen_frame_items(df_indexs[0], df)
         frame.loc[frame_cout] = res
         frame_cout += 1
 
@@ -38,7 +38,7 @@ def gen_solution_list():
     content = "已完成 {} 道\n\n".format(frame_cout) + table + "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n"
 
     with open(const.problem_readme, 'w', encoding='utf-8') as f:
-        f.writelines("# 题解目录\n\n")
+        f.writelines("# 目录\n\n")
         f.write(content)
     f.close()
     print("Create Solutions List Success")
@@ -61,8 +61,7 @@ def gen_tag_list():
                     frames[tag] = pd.DataFrame(
                         columns=['题号', '标题', '题解', '标签', '难度'])
                 frame = frames[tag]
-                frame.loc[len(frame.index)] = utils.gen_frame_items(
-                    index, df, const.problem_path)
+                frame.loc[len(frame.index)] = utils.gen_frame_items(index, df)
         index += 1
 
     for idx, frame in frames.items():
@@ -73,7 +72,7 @@ def gen_tag_list():
         content = Path(const.tag_list_readme).read_text(encoding='utf-8')
 
         old_title = "# 标签分类"
-        delim = "[`" + tag_cn + "`](" + const.tag_absolute_path + tag_en + ".md)"
+        delim = utils.get_tag_link(tag_cn, tag_en)
         if old_title in content:
             _, content = content.split(old_title)
         if delim in content:
@@ -95,47 +94,27 @@ def gen_tag_list():
 
 
 def gen_config_js():
-    files = os.listdir(const.problem_path)
     df = pd.read_csv("problem-list.csv")
-
-    frames = {}
+    
+    # 定义路径列表
+    paths = [
+        const.problem_path,
+        const.offer_path,
+        const.offer2_path,
+        const.interview_path
+    ]
+    
     content = ''
-    spaces_4 = '    '
-    base_spaces = '\n        '
-    file_name = {'Offer': '剑指 Offer', 'Offer-II': '剑指 Offer II',
-                 'Interviews': '面试题', 'LCP': '力扣杯'}
-
-    for file in files:
-        # 判断是否是文件夹
-        if ".md" not in file:
-            continue
-
-        # 获取题目所在行
-        df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
-
-        if not df_indexs:
-            print('%s 没有出现在 problem-list.csv 中' % (Path(file).stem))
-            continue
-
-        problem_catalog = df.loc[df_indexs[0], "catalog"]
-        if problem_catalog not in frames:
-            frames[problem_catalog] = []
-        frames[problem_catalog].append('"' + Path(file).stem + '"')
-
-    for idx, frame in sorted(frames.items(), key=lambda item: (item[0], item[1])):
-        children = spaces_4 + (',' + base_spaces +
-                               spaces_4).join(map(str, sorted(frame)))
-        title = idx
-        if idx in file_name:
-            title = file_name[idx]
-
-        config_item = [base_spaces + '{', '  text: "' + title + '",',
-                       '  collapsible: true,', '  children: [', children, '  ],', '},']
-        content += base_spaces.join(config_item)
+    
+    # 遍历路径列表
+    for path in paths:
+        if (path == const.problem_path):
+            content += utils.gen_config_content(path, df, False) + '\n]\n},'
+        else:
+            content += utils.gen_config_content(path, df, True) + ','
 
     utils.append_config(const.config_path, content)
     print("Create config.js Success")
-
 
 # 生成第二、三章里每个知识点的相关题目
 
@@ -163,7 +142,7 @@ def gen_categories_list():
                 match1 = pattern1.match(title_content)
                 if match1:
                     _, category_h2_path = match1.group(1, 2)
-                    category_h2_path = const.leetcode_path + category_h2_path
+                    category_h2_path = const.base_path + category_h2_path
                     category_h2_file_content += "\n\n## 相关题目\n\n"
             elif title_size == "###":
                 category_h2_file_content += "#### " + title_content + "\n\n"
@@ -174,7 +153,7 @@ def gen_categories_list():
                 if not problems:
                     continue
 
-                frame = utils.gen_frame(problems, const.problem_path)
+                frame = utils.gen_frame(problems)
                 table = utils.gen_markdown_table(frame, False)
                 category_h2_file_content += table + "\n\n"
 
@@ -187,10 +166,11 @@ def gen_categories_list():
 # 生成学习计划
 
 
-def gen_plan_list(plan_name, salt=True):
+def gen_plan_list(plan_name, salt=True, path=None):
     origin_path = const.origin_path + plan_name
     list_path = const.plan_list_path + plan_name
-
+    if path:
+        list_path = path
     f = open(origin_path, encoding='utf-8')
     lines = f.readlines()
     file_content = ""
@@ -211,10 +191,9 @@ def gen_plan_list(plan_name, salt=True):
                 if not problems:
                     continue
                 if salt:
-                    frame = utils.gen_frame_with_salt(
-                        problems, const.problem_path)
+                    frame = utils.gen_frame_with_salt(problems)
                 else:
-                    frame = utils.gen_frame(problems, const.problem_path)
+                    frame = utils.gen_frame(problems, False)
                 table = utils.gen_markdown_table(frame, False)
                 file_content += table + "\n\n"
         else:
@@ -253,7 +232,7 @@ def update_similar():
                 if not similar_indexs:
                     continue
                 
-                frame.loc[len(frame.index)] = utils.gen_frame_items(similar_indexs[0], df, const.problem_path)
+                frame.loc[len(frame.index)] = utils.gen_frame_items(similar_indexs[0], df)
                     
             table = utils.gen_markdown_table(frame, True)
                 
@@ -292,8 +271,9 @@ if args.type == 'all' or args.type == 'plan':
     gen_plan_list('codetop_list.md')
     gen_plan_list('rabbit_list.md')
     gen_plan_list('js_list.md', False)
-    gen_plan_list('offer_list.md', False)
-    gen_plan_list('offer2_list.md', False)
+    gen_plan_list('interview_list.md', False, const.interview_readme)
+    gen_plan_list('offer_list.md', False, const.offer_readme)
+    gen_plan_list('offer2_list.md', False, const.offer2_readme)
 if args.type == 'all' or args.type == 'cate':
     # 生成第二、三章里每个知识点的相关题目
     gen_categories_list()

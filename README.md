@@ -18,8 +18,9 @@
 ## 算法题解
 
 - [LeetCode 题解](./src/problem/README.md)
-- [剑指 Offer](./src/plan/offer_list.md)
-- [剑指 Offer II](./src/plan/offer2_list.md)
+- [剑指 Offer](./src/offer/README.md)
+- [剑指 Offer II](./src/offer2/README.md)
+- [程序员面试金典](./src/interview/README.md)
 
 ## 专项突破
 

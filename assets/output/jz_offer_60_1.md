@@ -1,4 +1,4 @@
-# [剑指 Offer 60. n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof)
+# [60. n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof)
 

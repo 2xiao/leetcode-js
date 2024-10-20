@@ -1,4 +1,4 @@
-# [剑指 Offer II 17. 含有所有字符的最短字符串](https://leetcode.cn/problems/M1oyTv)
+# [17. 含有所有字符的最短字符串](https://leetcode.cn/problems/M1oyTv)
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/M1oyTv)
 

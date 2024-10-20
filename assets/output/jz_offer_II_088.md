@@ -1,4 +1,4 @@
-# [剑指 Offer II 88. 爬楼梯的最少成本](https://leetcode.cn/problems/GzCJIP)
+# [88. 爬楼梯的最少成本](https://leetcode.cn/problems/GzCJIP)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/GzCJIP)
 

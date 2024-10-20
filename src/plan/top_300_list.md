@@ -7,7 +7,9 @@ headerDepth: 0
 
 ## 链表
 
-- 单链表
+
+* 单链表
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -37,7 +39,9 @@ headerDepth: 0
 | 725 | [分隔链表](https://leetcode.com/problems/split-linked-list-in-parts) |  |  [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 25 | [K 个一组翻转链表](https://leetcode.com/problems/reverse-nodes-in-k-group) | [[✓]](/problem/0025.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#ff334b>Hard</font> |
 
-- 双链表
+
+* 双链表
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -49,9 +53,12 @@ headerDepth: 0
 | 1669 | [合并两个链表](https://leetcode.com/problems/merge-in-between-linked-lists) |  |  [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 23 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists) | [[✓]](/problem/0023.md) |  [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 
+
 ## 树
 
-- 遍历
+
+* 遍历
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -65,7 +72,9 @@ headerDepth: 0
 | 103 | [二叉树的锯齿形层序遍历](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal) | [[✓]](/problem/0103.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 107 | [二叉树的层序遍历 II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii) | [[✓]](/problem/0107.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 
-- 构造
+
+* 构造
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -78,7 +87,9 @@ headerDepth: 0
 | 1008 | [前序遍历构造二叉搜索树](https://leetcode.com/problems/construct-binary-search-tree-from-preorder-traversal) | [[✓]](/problem/1008.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) `3+` | <font color=#ffb800>Medium</font> |
 | 297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) | [[✓]](/problem/0297.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 
-- 路径 | 深度 | 翻转
+
+* 路径 | 深度 | 翻转
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -106,7 +117,9 @@ headerDepth: 0
 | 124 | [二叉树中的最大路径和](https://leetcode.com/problems/binary-tree-maximum-path-sum) | [[✓]](/problem/0124.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 297 | [二叉树的序列化与反序列化](https://leetcode.com/problems/serialize-and-deserialize-binary-tree) | [[✓]](/problem/0297.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 
-- 二叉搜索树
+
+* 二叉搜索树
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -119,7 +132,9 @@ headerDepth: 0
 | 230 | [二叉搜索树中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [[✓]](/problem/0230.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 99 | [恢复二叉搜索树](https://leetcode.com/problems/recover-binary-search-tree) | [[✓]](/problem/0099.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 
-- 字典树
+
+* 字典树
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -130,7 +145,9 @@ headerDepth: 0
 | 421 | [数组中两个数的最大异或值](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii) | [[✓]](/problem/0212.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
 
-- 线段树
+
+* 线段树
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -146,9 +163,12 @@ headerDepth: 0
 | 699 | [掉落的方块](https://leetcode.com/problems/falling-squares) |  |  [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`有序集合`](/tag/ordered-set.md) | <font color=#ff334b>Hard</font> |
 | 327 | [区间和的个数](https://leetcode.com/problems/count-of-range-sum) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 
+
 ## 栈
 
-- 基础
+
+* 基础
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -177,7 +197,9 @@ headerDepth: 0
 | 224 | [基本计算器](https://leetcode.com/problems/basic-calculator) | [[✓]](/problem/0224.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
 | 726 | [原子的数量](https://leetcode.com/problems/number-of-atoms) |  |  [`栈`](/tag/stack.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 
-- 单调栈
+
+* 单调栈
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -192,9 +214,12 @@ headerDepth: 0
 | 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
 | 321 | [拼接最大数](https://leetcode.com/problems/create-maximum-number) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 
+
 ## 堆
 
-- 基础
+
+* 基础
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -213,7 +238,9 @@ headerDepth: 0
 | 295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream) | [[✓]](/problem/0295.md) |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 | 218 | [天际线问题](https://leetcode.com/problems/the-skyline-problem) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 
+
 ## 二分查找
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -245,7 +272,9 @@ headerDepth: 0
 | 410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 154 | [寻找旋转排序数组中的最小值 II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii) | [[✓]](/problem/0154.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
 
+
 ## 位运算
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -268,7 +297,9 @@ headerDepth: 0
 | 137 | [只出现一次的数字 II](https://leetcode.com/problems/single-number-ii) | [[✓]](/problem/0137.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 421 | [数组中两个数的最大异或值](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 
+
 ## 双指针与滑动窗口
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -298,7 +329,9 @@ headerDepth: 0
 | 76 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring) | [[✓]](/problem/0076.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
 | 992 | [K 个不同整数的子数组](https://leetcode.com/problems/subarrays-with-k-different-integers) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `1+` | <font color=#ff334b>Hard</font> |
 
+
 ## 矩阵
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -310,9 +343,12 @@ headerDepth: 0
 | 73 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes) | [[✓]](/problem/0073.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 48 | [旋转图像](https://leetcode.com/problems/rotate-image) | [[✓]](/problem/0048.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 
+
 ## 动态规划
 
-- 一维
+
+* 一维
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -334,7 +370,9 @@ headerDepth: 0
 | 354 | [俄罗斯套娃信封问题](https://leetcode.com/problems/russian-doll-envelopes) | [[✓]](/problem/0354.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 123 | [买卖股票的最佳时机 III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii) | [[✓]](/problem/0123.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 
-- 二维
+
+* 二维
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -355,9 +393,12 @@ headerDepth: 0
 | 44 | [通配符匹配](https://leetcode.com/problems/wildcard-matching) | [[✓]](/problem/0044.md) |  [`贪心`](/tag/greedy.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 
+
 ## 图论
 
-- DFS
+
+* DFS
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -373,7 +414,9 @@ headerDepth: 0
 | 417 | [太平洋大西洋水流问题](https://leetcode.com/problems/pacific-atlantic-water-flow) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 679 | [24 点游戏](https://leetcode.com/problems/24-game) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
 
-- BFS
+
+* BFS
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -395,7 +438,9 @@ headerDepth: 0
 | 827 | [最大人工岛](https://leetcode.com/problems/making-a-large-island) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `2+` | <font color=#ff334b>Hard</font> |
 | 787 | [K 站中转内最便宜的航班](https://leetcode.com/problems/cheapest-flights-within-k-stops) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `3+` | <font color=#ffb800>Medium</font> |
 
-- 拓扑排序
+
+* 拓扑排序
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -405,7 +450,9 @@ headerDepth: 0
 | 329 | [矩阵中的最长递增路径](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `5+` | <font color=#ff334b>Hard</font> |
 | 1203 | [项目管理](https://leetcode.com/problems/sort-items-by-groups-respecting-dependencies) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ff334b>Hard</font> |
 
+
 ## 并查集
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -421,7 +468,9 @@ headerDepth: 0
 | 128 | [最长连续序列](https://leetcode.com/problems/longest-consecutive-sequence) | [[✓]](/problem/0128.md) |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 765 | [情侣牵手](https://leetcode.com/problems/couples-holding-hands) |  |  [`贪心`](/tag/greedy.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ff334b>Hard</font> |
 
+
 ## 设计
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -439,7 +488,9 @@ headerDepth: 0
 | 295 | [数据流的中位数](https://leetcode.com/problems/find-median-from-data-stream) | [[✓]](/problem/0295.md) |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 | 460 | [LFU 缓存](https://leetcode.com/problems/lfu-cache) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ff334b>Hard</font> |
 
+
 ## 贪心
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -450,7 +501,9 @@ headerDepth: 0
 | 373 | [查找和最小的 K 对数字](https://leetcode.com/problems/find-k-pairs-with-smallest-sums) | [[✓]](/problem/0373.md) |  [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 313 | [超级丑数](https://leetcode.com/problems/super-ugly-number) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 
+
 ## 回溯
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -474,7 +527,9 @@ headerDepth: 0
 | 126 | [单词接龙 II](https://leetcode.com/problems/word-ladder-ii) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1659 | [最大化网格幸福感](https://leetcode.com/problems/maximize-grid-happiness) |  |  [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
+
 ## 克隆
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -482,7 +537,9 @@ headerDepth: 0
 | 133 | [克隆图](https://leetcode.com/problems/clone-graph) | [[✓]](/problem/0133.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 138 | [随机链表的复制](https://leetcode.com/problems/copy-list-with-random-pointer) | [[✓]](/problem/0138.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 
+
 ## 数学
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -497,7 +554,9 @@ headerDepth: 0
 | 166 | [分数到小数](https://leetcode.com/problems/fraction-to-recurring-decimal) |  |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 
+
 ## 极大极小化
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -508,7 +567,9 @@ headerDepth: 0
 | 464 | [我能赢吗](https://leetcode.com/problems/can-i-win) |  |  [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
 | 877 | [石子游戏](https://leetcode.com/problems/stone-game) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 
+
 ## 几何
+
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -520,6 +581,7 @@ headerDepth: 0
 | 963 | [最小面积矩形 II](https://leetcode.com/problems/minimum-area-rectangle-ii) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 587 | [安装栅栏](https://leetcode.com/problems/erect-the-fence) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#ff334b>Hard</font> |
 | 1515 | [服务中心的最佳位置](https://leetcode.com/problems/best-position-for-a-service-centre) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
+
 
 ::: info
 

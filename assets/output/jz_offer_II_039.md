@@ -1,4 +1,4 @@
-# [剑指 Offer II 39. 直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM)
+# [39. 直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM)
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0ynMMM)
 

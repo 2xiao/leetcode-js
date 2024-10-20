@@ -1,4 +1,4 @@
-# [剑指 Offer II 108. 单词演变](https://leetcode.cn/problems/om3reC)
+# [108. 单词演变](https://leetcode.cn/problems/om3reC)
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/om3reC)
 

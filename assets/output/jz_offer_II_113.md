@@ -1,4 +1,4 @@
-# [剑指 Offer II 113. 课程顺序](https://leetcode.cn/problems/QA2IGt)
+# [113. 课程顺序](https://leetcode.cn/problems/QA2IGt)
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/QA2IGt)
 
