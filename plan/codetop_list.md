@@ -3,7 +3,7 @@ title: 'CodeTop 热题排行榜'
 headerDepth: 0
 ---
 
-![](../image/plan-3.png =500x)
+![](../image/plan-7.png)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |

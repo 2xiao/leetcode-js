@@ -3,7 +3,7 @@ title: '海外兔热题排行榜'
 headerDepth: 0
 ---
 
-![](../image/plan-4.png)
+![](../image/plan-8.png)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |

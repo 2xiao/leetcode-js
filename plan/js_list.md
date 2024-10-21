@@ -3,6 +3,8 @@ title: 'JavaScript 专项练习'
 headerDepth: 0
 ---
 
+![](../image/plan-10.png)
+
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
@@ -73,7 +75,4 @@ headerDepth: 0
 | 2821 | [延迟每个 Promise 对象的解析](https://leetcode.com/problems/delay-the-resolution-of-each-promise) |  |  | <font color=#ffb800>Medium</font> |
 | 2822 | [对象反转](https://leetcode.com/problems/inversion-of-object) |  |  | <font color=#15bd66>Easy</font> |
 | 2823 | [深度对象筛选](https://leetcode.com/problems/deep-object-filter) |  |  | <font color=#ffb800>Medium</font> |
-
-
-
 

@@ -1,7 +1,7 @@
 # 目录
 
 
-<h2>剑指 Offer II</h2>
+![](../image/plan-6.png)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
