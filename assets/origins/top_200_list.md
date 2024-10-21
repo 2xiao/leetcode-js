@@ -3,7 +3,7 @@ title: '面试高频 200 题'
 headerDepth: 0
 ---
 
-![](../image/plan-1.png =500x)
+![](../image/plan-2.png)
 
 ## 数组
 

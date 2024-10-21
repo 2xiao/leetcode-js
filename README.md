@@ -23,7 +23,7 @@
 
 ## 专项突破
 
-- [面试经典 150 题](./src/plan/top_150_list.md)
+- [面试必刷 150 题](./src/plan/top_150_list.md)
 - [面试高频 200 题](./src/plan/top_200_list.md)
 - [面试进阶 300 题](./src/plan/top_300_list.md)
 - [JavaScript 专项练习](./src/plan/js_list.md)

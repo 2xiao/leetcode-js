@@ -1,9 +1,9 @@
 ---
-title: '面试经典 150 题'
+title: '面试必刷 150 题'
 headerDepth: 0
 ---
 
-![](../image/plan-2.png =500x)
+![](../image/plan-1.png)
 
 ## 数组 / 字符串
 
