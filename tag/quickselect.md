@@ -31,20 +31,3 @@
 | 剑指 Offer II 60 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 76 | [数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.14 | [最小K个数](https://leetcode.cn/problems/smallest-k-lcci) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

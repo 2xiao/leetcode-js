@@ -39,20 +39,3 @@
 | 2969 | [购买水果需要的最少金币数 II](https://leetcode.com/problems/minimum-number-of-coins-for-fruits-ii) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

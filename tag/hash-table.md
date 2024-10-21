@@ -321,7 +321,7 @@
 | 1570 | [两个稀疏向量的点积](https://leetcode.com/problems/dot-product-of-two-sparse-vectors) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1577 | [数的平方等于两数乘积的方法数](https://leetcode.com/problems/number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1590 | [使数组和能被 P 整除](https://leetcode.com/problems/make-sum-divisible-by-p) | [[✓]](/problem/1590.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 1600 | [王位继承顺序](https://leetcode.com/problems/throne-inheritance) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1604 | [警告一小时内使用相同员工卡大于等于三次的人](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1612 | [检查两棵二叉表达式树是否等价](https://leetcode.com/problems/check-if-two-expression-trees-are-equivalent) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -727,20 +727,3 @@
 | 面试题 17.19 | [消失的两个数字](https://leetcode.cn/problems/missing-two-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ff334b>Hard</font> |
 | 面试题 17.22 | [单词转换](https://leetcode.cn/problems/word-transformer-lcci) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.26 | [稀疏相似度](https://leetcode.cn/problems/sparse-similarity-lcci) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

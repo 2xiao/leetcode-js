@@ -1,6 +1,6 @@
 # 目录
 
-已完成 389 道
+已完成 390 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -342,6 +342,7 @@
 | 1522 | [N 叉树的直径](https://leetcode.com/problems/diameter-of-n-ary-tree) | [[✓]](/problem/1522.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) | <font color=#ffb800>Medium</font> |
 | 1545 | [找出第 N 个二进制字符串中的第 K 位](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) | [[✓]](/problem/1545.md) |  [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1590 | [使数组和能被 P 整除](https://leetcode.com/problems/make-sum-divisible-by-p) | [[✓]](/problem/1590.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
+| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 1813 | [句子相似性 III](https://leetcode.com/problems/sentence-similarity-iii) | [[✓]](/problem/1813.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1942 | [最小未被占据椅子的编号](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair) | [[✓]](/problem/1942.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 1963 | [使字符串平衡的最小交换次数](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) | [[✓]](/problem/1963.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |

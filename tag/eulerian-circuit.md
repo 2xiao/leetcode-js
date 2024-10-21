@@ -23,20 +23,3 @@
 | 332 | [重新安排行程](https://leetcode.com/problems/reconstruct-itinerary) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
 | 753 | [破解保险箱](https://leetcode.com/problems/cracking-the-safe) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
 | 2097 | [合法重新排列数对](https://leetcode.com/problems/valid-arrangement-of-pairs) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

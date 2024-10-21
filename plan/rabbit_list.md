@@ -3,7 +3,7 @@ title: '海外兔热题排行榜'
 headerDepth: 0
 ---
 
-![](../image/plan-4.png =500x)
+![](../image/plan-4.png)
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
@@ -262,13 +262,3 @@ headerDepth: 0
 数据来源：[Overseas Rabbit | 海外兔](https://osjobs.net/topk/)
 
 :::
-
-<style>
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 30%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 30%; }
-table th:nth-of-type(5) { width: 10%; }
-table th:nth-of-type(6) { width: 10%; }
-
-</style>

@@ -49,20 +49,3 @@
 | 3227 | [字符串元音游戏](https://leetcode.com/problems/vowels-game-in-a-string) |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 3283 | [吃掉所有兵需要的最多移动次数](https://leetcode.com/problems/maximum-number-of-moves-to-kill-all-pawns) |  |  [`位运算`](/tag/bit-manipulation.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `3+` | <font color=#ff334b>Hard</font> |
 | LCP 48 | [无限棋局](https://leetcode.cn/problems/fsa7oZ) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

@@ -306,20 +306,3 @@
 | 3293 | [计算产品最终价格](https://leetcode.com/problems/calculate-product-final-price) |  |  [`数据库`](/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 3308 | [Find Top Performing Driver](https://leetcode.com/problems/find-top-performing-driver) |  |  [`数据库`](/tag/database.md) | <font color=#ffb800>Medium</font> |
 | 3322 | [英超积分榜排名 III](https://leetcode.com/problems/premier-league-table-ranking-iii) |  |  [`数据库`](/tag/database.md) | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

@@ -46,20 +46,3 @@
 | 剑指 Offer II 59 | [数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C) |  |  [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Easy</font> |
 | 面试题 10.10 | [数字流的秩](https://leetcode.cn/problems/rank-from-stream-lcci) |  |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.20 | [连续中值](https://leetcode.cn/problems/continuous-median-lcci) |  |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

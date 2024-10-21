@@ -23,20 +23,3 @@
 | 164 | [最大间距](https://leetcode.com/problems/maximum-gap) |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | <font color=#ffb800>Medium</font> |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
 | 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`分治`](/tag/divide-and-conquer.md) `4+` | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

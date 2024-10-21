@@ -22,20 +22,3 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 1192 | [查找集群内的关键连接](https://leetcode.com/problems/critical-connections-in-a-network) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`双连通分量`](/tag/biconnected-component.md) | <font color=#ff334b>Hard</font> |
 | LCP 54 | [夺回据点](https://leetcode.cn/problems/s5kipK) |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双连通分量`](/tag/biconnected-component.md) | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

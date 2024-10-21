@@ -1,10 +1,7 @@
----
-title: '目录'
-headerDepth: 0
----
+# 目录
 
-## 剑指 Offer II
 
+<h2>剑指 Offer II</h2>
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -129,12 +126,3 @@ headerDepth: 0
 | 118 | [多余的边](https://leetcode.cn/problems/7LpjUW) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | <font color=#ffb800>Medium</font> |
 | 119 | [最长连续序列](https://leetcode.cn/problems/WhsWhI) |  |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 
-
-<style>
-table th:first-of-type { width: 20%; }
-table th:nth-of-type(2) { width: 30%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 30%; }
-table th:nth-of-type(5) { width: 10%; }
-
-</style>
