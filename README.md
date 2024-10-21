@@ -27,7 +27,7 @@
 - [面试高频 200 题](./plan/top_200_list.md)
 - [面试进阶 300 题](./plan/top_300_list.md)
 - [JavaScript 专项练习](./plan/js_list.md)
-- [LeetCode 往期竞赛合集](./src/plan/contest_list.md)
+- [LeetCode 往期竞赛合集](./plan/contest_list.md)
 - [CodeTop 热题排行榜](./plan/codetop_list.md)
 - [海外兔热题排行榜](./plan/rabbit_list.md)
 - [热门企业题库](./plan/company_list.md)
