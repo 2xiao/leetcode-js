@@ -3,57 +3,57 @@
 <div class="gallery">
   <div class='img-box'>
     <a href="./top_150_list.html">
-      <img class="plan" src="../image/plan-1.png" alt="top150"/>
+      <img class="plan" src="../image/plan-1.png" width="40%" alt="top150"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./top_200_list.html">
-      <img class="plan" src="../image/plan-2.png" alt="top200"/>
+      <img class="plan" src="../image/plan-2.png" width="40%" alt="top200"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./top_300_list.html">
-      <img class="plan" src="../image/plan-3.png" alt="top_300"/>
+      <img class="plan" src="../image/plan-3.png" width="40%" alt="top_300"/>
     </a>
     </div>
   <div class='img-box'>
     <a href="../interview/README.html">
-      <img class="plan" src="../image/plan-4.png" alt="interview"/>
+      <img class="plan" src="../image/plan-4.png" width="40%" alt="interview"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="../offer/README.html">
-      <img class="plan" src="../image/plan-5.png" alt="offer"/>
+      <img class="plan" src="../image/plan-5.png" width="40%" alt="offer"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="../offer2/README.html">
-      <img class="plan" src="../image/plan-6.png" alt="offer2"/>
+      <img class="plan" src="../image/plan-6.png" width="40%" alt="offer2"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./codetop_list.html">
-      <img class="plan" src="../image/plan-7.png" alt="codetop"/>
+      <img class="plan" src="../image/plan-7.png" width="40%" alt="codetop"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./rabbit_list.html">
-      <img class="plan" src="../image/plan-8.png" alt="rabbit"/>
+      <img class="plan" src="../image/plan-8.png" width="40%" alt="rabbit"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./contest_list.html">
-      <img class="plan" src="../image/plan-9.png" alt="contest"/>
+      <img class="plan" src="../image/plan-9.png" width="40%" alt="contest"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./js_list.html">
-      <img class="plan" src="../image/plan-10.png" alt="js"/>
+      <img class="plan" src="../image/plan-10.png" width="40%" alt="js"/>
     </a>
   </div>
   <div class='img-box'>
     <a href="./company_list.html">
-      <img class="plan" src="../image/plan-11.png" alt="company"/>
+      <img class="plan" src="../image/plan-11.png" width="40%" alt="company"/>
     </a>
   </div>
 </div>
@@ -80,6 +80,7 @@
     transition: all 0.6s;
     border-radius: 5px;
     overflow: hidden;
+    width: 100%!important;
 }
 .plan:hover {
   transform: scale(1.05);
