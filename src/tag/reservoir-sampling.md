@@ -24,20 +24,3 @@
 | 398 | [随机数索引](https://leetcode.com/problems/random-pick-index) |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 497 | [非重叠矩形中的随机点](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `4+` | <font color=#ffb800>Medium</font> |
 | 519 | [随机翻转矩阵](https://leetcode.com/problems/random-flip-matrix) |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

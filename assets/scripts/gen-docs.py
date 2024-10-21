@@ -84,7 +84,6 @@ def gen_tag_list():
             f.write(content)
             f.writelines('\n\n---\n\n')
             f.write(table)
-            f.write(const.tag_list_css)
         f.close()
 
     print("Create Tag List Success")
@@ -166,7 +165,7 @@ def gen_categories_list():
 # 生成学习计划
 
 
-def gen_plan_list(plan_name, salt=True, path=None):
+def gen_plan_list(plan_name, salt=False, path=None):
     origin_path = const.origin_path + plan_name
     list_path = const.plan_list_path + plan_name
     if path:
@@ -236,7 +235,7 @@ def update_similar():
                     
             table = utils.gen_markdown_table(frame, True)
                 
-            content = content.split(delim)[0] + delim + '\n\n' + table + const.tag_list_css
+            content = content.split(delim)[0] + delim + '\n\n' + table
 
         Path(path).write_text(content, encoding='utf-8')
 
@@ -264,13 +263,14 @@ if args.type == 'all' or args.type == 'tag':
     gen_tag_list()
 if args.type == 'all' or args.type == 'plan':
     # 生成学习计划
-    gen_plan_list('top_150_list.md', False)
-    gen_plan_list('top_200_list.md')
-    gen_plan_list('top_300_list.md', False)
-    gen_plan_list('company_list.md')
-    gen_plan_list('codetop_list.md')
-    gen_plan_list('rabbit_list.md')
-    gen_plan_list('js_list.md', False)
+    gen_plan_list('top_150_list.md')
+    gen_plan_list('top_200_list.md', True)
+    gen_plan_list('top_300_list.md')
+    gen_plan_list('company_list.md', True)
+    gen_plan_list('codetop_list.md', True)
+    gen_plan_list('rabbit_list.md', True)
+    gen_plan_list('js_list.md')
+    gen_plan_list('contest_list.md')
     gen_plan_list('interview_list.md', False, const.interview_readme)
     gen_plan_list('offer_list.md', False, const.offer_readme)
     gen_plan_list('offer2_list.md', False, const.offer2_readme)

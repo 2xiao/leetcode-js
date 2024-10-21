@@ -2068,7 +2068,7 @@ LCP 02,LCP_02,lcp,Deep Dark Fraction,分式化简,deep-dark-fraction,"Array|arra
 1595,1595,1500-1599,Minimum Cost to Connect Two Groups of Points,连通两组点的最小成本,minimum-cost-to-connect-two-groups-of-points,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Bitmask|bitmask|状态压缩,Matrix|matrix|矩阵",Hard,False,
 1598,1598,1500-1599,Crawler Log Folder,文件夹操作日志搜集器,crawler-log-folder,"Stack|stack|栈,Array|array|数组,String|string|字符串",Easy,False,0682|0844
 1580,1580,1500-1599,Put Boxes Into the Warehouse II,把箱子放进仓库里 II,put-boxes-into-the-warehouse-ii,"Greedy|greedy|贪心,Array|array|数组,Sorting|sorting|排序",Medium,False,1564
-1593,1593,1500-1599,Split a String Into the Max Number of Unique Substrings,拆分字符串使唯一子字符串的数目最大,split-a-string-into-the-max-number-of-unique-substrings,"Hash Table|hash-table|哈希表,String|string|字符串,Backtracking|backtracking|回溯",Medium,False,
+1593,1593,1500-1599,Split a String Into the Max Number of Unique Substrings,拆分字符串使唯一子字符串的数目最大,split-a-string-into-the-max-number-of-unique-substrings,"Hash Table|hash-table|哈希表,String|string|字符串,Backtracking|backtracking|回溯",Medium,True,
 1605,1605,1600-1699,Find Valid Matrix Given Row and Column Sums,给定行和列的和求可行矩阵,find-valid-matrix-given-row-and-column-sums,"Greedy|greedy|贪心,Array|array|数组,Matrix|matrix|矩阵",Medium,False,1253
 1603,1603,1600-1699,Design Parking System,设计停车系统,design-parking-system,"Design|design|设计,Counting|counting|计数,Simulation|simulation|模拟",Easy,False,
 1592,1592,1500-1599,Rearrange Spaces Between Words,重新排列单词间的空格,rearrange-spaces-between-words,String|string|字符串,Easy,False,0068
@@ -3714,3 +3714,4 @@ LCP 02,LCP_02,lcp,Deep Dark Fraction,分式化简,deep-dark-fraction,"Array|arra
 3325,3325,3300-3399,Count Substrings With K-Frequency Characters I,字符至少出现 K 次的子字符串 I,count-substrings-with-k-frequency-characters-i,,Medium,False,
 3326,3326,3300-3399,Minimum Division Operations to Make Array Non Decreasing,使数组非递减的最少除法操作次数,minimum-division-operations-to-make-array-non-decreasing,,Medium,False,2507
 3324,3324,3300-3399,Find the Sequence of Strings Appeared on the Screen,出现在屏幕上的字符串序列,find-the-sequence-of-strings-appeared-on-the-screen,,Medium,False,0500
+3328,3328,3300-3399,Find Cities in Each State II,Find Cities in Each State II,find-cities-in-each-state-ii,,Medium,False,

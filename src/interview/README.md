@@ -1,10 +1,7 @@
----
-title: '目录'
-headerDepth: 0
----
+# 目录
 
-## 程序员面试金典
 
+<h2>程序员面试金典</h2>
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -119,12 +116,3 @@ headerDepth: 0
 | 17.25 | [单词矩阵](https://leetcode.cn/problems/word-rectangle-lcci) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 17.26 | [稀疏相似度](https://leetcode.cn/problems/sparse-similarity-lcci) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
 
-
-<style>
-table th:first-of-type { width: 20%; }
-table th:nth-of-type(2) { width: 30%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 30%; }
-table th:nth-of-type(5) { width: 10%; }
-
-</style>

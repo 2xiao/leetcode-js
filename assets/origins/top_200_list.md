@@ -207,13 +207,3 @@ headerDepth: 0
 - [Overseas Rabbit | 海外兔](https://osjobs.net/topk/)
 - [CodeTop | 企业题库](https://codetop.cc/home)
   :::
-
-<style>
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 30%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 30%; }
-table th:nth-of-type(5) { width: 10%; }
-table th:nth-of-type(6) { width: 10%; }
-
-</style>

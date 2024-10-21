@@ -22,20 +22,3 @@
 | 193 | [有效电话号码](https://leetcode.com/problems/valid-phone-numbers) |  |  [`Shell`](/tag/shell.md) | <font color=#15bd66>Easy</font> |
 | 194 | [转置文件](https://leetcode.com/problems/transpose-file) |  |  [`Shell`](/tag/shell.md) | <font color=#ffb800>Medium</font> |
 | 195 | [第十行](https://leetcode.com/problems/tenth-line) |  |  [`Shell`](/tag/shell.md) | <font color=#15bd66>Easy</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

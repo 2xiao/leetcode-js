@@ -39,20 +39,3 @@
 | 3227 | [字符串元音游戏](https://leetcode.com/problems/vowels-game-in-a-string) |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
 | 面试题 16.07 | [最大数值](https://leetcode.cn/problems/maximum-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

@@ -444,7 +444,8 @@ export default sidebar({
     "children": [
       "1522",
       "1545",
-      "1590"
+      "1590",
+      "1593"
     ]
   },
   {

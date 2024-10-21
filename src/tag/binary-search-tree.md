@@ -75,20 +75,3 @@
 | 面试题 04.06 | [后继者](https://leetcode.cn/problems/successor-lcci) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 04.09 | [二叉搜索树序列](https://leetcode.cn/problems/bst-sequences-lcci) |  |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ff334b>Hard</font> |
 | 面试题 17.12 | [BiNode](https://leetcode.cn/problems/binode-lcci) |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `3+` | <font color=#15bd66>Easy</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

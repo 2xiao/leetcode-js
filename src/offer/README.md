@@ -1,10 +1,7 @@
----
-title: '目录'
-headerDepth: 0
----
+# 目录
 
-## 剑指 Offer
 
+<h2>剑指 Offer</h2>
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -85,12 +82,3 @@ headerDepth: 0
 | 68 - I | [二叉搜索树的最近公共祖先](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Easy</font> |
 | 68 - II | [二叉树的最近公共祖先](https://leetcode.cn/problems/er-cha-shu-de-zui-jin-gong-gong-zu-xian-lcof) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#15bd66>Easy</font> |
 
-
-<style>
-table th:first-of-type { width: 20%; }
-table th:nth-of-type(2) { width: 30%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 30%; }
-table th:nth-of-type(5) { width: 10%; }
-
-</style>

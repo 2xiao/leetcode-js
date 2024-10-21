@@ -23,20 +23,3 @@
 | 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1568 | [使陆地分离的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 2846 | [边权重均等查询](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree) |  |  [`树`](/tag/tree.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

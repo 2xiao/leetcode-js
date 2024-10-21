@@ -18,9 +18,6 @@ tag_list_readme = base_path + 'tag/README.md'
 
 config_path = base_path + '.vuepress/sidebar.ts'
 
-
-tag_list_css = '\n\n<style>\n.blue {\n    background-color: #096dd9;\n    padding: 0.25rem 0.5rem;\n    margin: 0;\n    font-size: 0.85em;\n    border-radius: 3px;\n    color: white;\n    font-weight: 500;\n}\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n'
-
 offer_dict = {
     "shu-zu-zhong-zhong-fu-de-shu-zi-lcof": "3,jz_offer_03_1,数组中重复的数字",
     "er-wei-shu-zu-zhong-de-cha-zhao-lcof": "4,jz_offer_04_1,二维数组中的查找",

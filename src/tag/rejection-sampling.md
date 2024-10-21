@@ -22,20 +22,3 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7) |  |  [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) [`概率与统计`](/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |
 | 478 | [在圆内随机生成点](https://leetcode.com/problems/generate-random-point-in-a-circle) |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) `1+` | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

@@ -43,20 +43,3 @@
 | 2936 | [包含相等值数字块的数量](https://leetcode.com/problems/number-of-equal-numbers-blocks) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | <font color=#ffb800>Medium</font> |
 | 3064 | [使用按位查询猜测数字 I](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-i) |  |  [`位运算`](/tag/bit-manipulation.md) [`交互`](/tag/interactive.md) | <font color=#ffb800>Medium</font> |
 | 3094 | [使用按位查询猜测数字 II](https://leetcode.com/problems/guess-the-number-using-bitwise-questions-ii) |  |  [`位运算`](/tag/bit-manipulation.md) [`交互`](/tag/interactive.md) | <font color=#ffb800>Medium</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

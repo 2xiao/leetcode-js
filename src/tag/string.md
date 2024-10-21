@@ -401,7 +401,7 @@
 | 1578 | [使绳子变成彩色的最短时间](https://leetcode.com/problems/minimum-time-to-make-rope-colorful) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1585 | [检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode.com/problems/check-if-string-is-transformable-with-substring-sort-operations) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
 | 1592 | [重新排列单词间的空格](https://leetcode.com/problems/rearrange-spaces-between-words) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
 | 1597 | [根据中缀表达式构造二叉表达式树](https://leetcode.com/problems/build-binary-expression-tree-from-infix-expression) |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1598 | [文件夹操作日志搜集器](https://leetcode.com/problems/crawler-log-folder) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1604 | [警告一小时内使用相同员工卡大于等于三次的人](https://leetcode.com/problems/alert-using-same-key-card-three-or-more-times-in-a-one-hour-period) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -828,20 +828,3 @@
 | 面试题 17.17 | [多次搜索](https://leetcode.cn/problems/multi-search-lcci) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `3+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.22 | [单词转换](https://leetcode.cn/problems/word-transformer-lcci) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.25 | [单词矩阵](https://leetcode.cn/problems/word-rectangle-lcci) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

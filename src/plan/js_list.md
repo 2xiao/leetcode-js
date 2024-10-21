@@ -75,11 +75,5 @@ headerDepth: 0
 | 2823 | [深度对象筛选](https://leetcode.com/problems/deep-object-filter) |  |  | <font color=#ffb800>Medium</font> |
 
 
-<style>
-table th:first-of-type { width: 20%; }
-table th:nth-of-type(2) { width: 30%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 30%; }
-table th:nth-of-type(5) { width: 10%; }
 
-</style>
+

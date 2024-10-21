@@ -80,20 +80,3 @@
 | 3312 | [查询排序后的最大公约数](https://leetcode.com/problems/sorted-gcd-pair-queries) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `5+` | <font color=#ff334b>Hard</font> |
 | LCP 02 | [分式化简](https://leetcode.cn/problems/deep-dark-fraction) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) `1+` | <font color=#15bd66>Easy</font> |
 | LCP 14 | [切分数组](https://leetcode.cn/problems/qie-fen-shu-zu) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

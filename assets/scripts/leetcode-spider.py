@@ -406,7 +406,6 @@ class LeetcodeCrawler():
                     
                 table = utils.gen_markdown_table(frame, True)
                 f.write(table)
-                f.write(const.tag_list_css)
 
     def close_db(self):
         self.conn.close()

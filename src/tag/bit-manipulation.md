@@ -281,20 +281,3 @@
 | 面试题 17.01 | [不用加号的加法](https://leetcode.cn/problems/add-without-plus-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 面试题 17.04 | [消失的数字](https://leetcode.cn/problems/missing-number-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 面试题 17.19 | [消失的两个数字](https://leetcode.cn/problems/missing-two-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>

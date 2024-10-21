@@ -3,13 +3,12 @@
 <p>
   <img src="https://2xiao.github.io/assets/image/leetcode-js-logo.png" alt="logo" height="360"/>
 </p>
-<p><font size=5><b>《LeetCode-JS 通关指南》</b></font></p>
-<p><font color=gray>包含 LeetCode、《剑指 Offer》、《剑指 Offer II》等 1000+ 道算法题的详细题解。</font></p>
-<p><font color=gray>数据结构与算法精讲，致力于把算法讲清楚。</font></p>
-<p><font color=gray>书中的算法全部使用 JavaScript 语言实现，前端工程师友好。</font></p>
-<p><font color=gray>欢迎「Star ⭐️ 」 和 「Fork」，这是对我最大的鼓励和支持。</font></p>
 
-## 站点
+包含 LeetCode、《剑指 Offer》、《剑指 Offer II》等 1000+ 道算法题的详细题解。
+
+书中的算法全部使用 JavaScript 语言实现，前端工程师友好。
+
+欢迎「Star ⭐️ 」 和 「Fork」，这是对我最大的鼓励和支持。
 
 电子书：[https://2xiao.github.io/leetcode-js](https://2xiao.github.io/leetcode-js)
 
@@ -28,6 +27,7 @@
 - [面试高频 200 题](./src/plan/top_200_list.md)
 - [面试进阶 300 题](./src/plan/top_300_list.md)
 - [JavaScript 专项练习](./src/plan/js_list.md)
+- [LeetCode 往期竞赛合集](./src/plan/contest_list.md)
 - [CodeTop 热题排行榜](./src/plan/codetop_list.md)
 - [海外兔热题排行榜](./src/plan/rabbit_list.md)
 - [热门企业题库](./src/plan/company_list.md)

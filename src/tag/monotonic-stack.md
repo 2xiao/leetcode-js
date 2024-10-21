@@ -89,20 +89,3 @@
 | 面试题 03.05 | [栈排序](https://leetcode.cn/problems/sort-of-stacks-lcci) |  |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 | 面试题 16.16 | [部分排序](https://leetcode.cn/problems/sub-sort-lcci) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.21 | [直方图的水量](https://leetcode.cn/problems/volume-of-histogram-lcci) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
-
-<style>
-.blue {
-    background-color: #096dd9;
-    padding: 0.25rem 0.5rem;
-    margin: 0;
-    font-size: 0.85em;
-    border-radius: 3px;
-    color: white;
-    font-weight: 500;
-}
-table th:first-of-type { width: 10%; }
-table th:nth-of-type(2) { width: 35%; }
-table th:nth-of-type(3) { width: 10%; }
-table th:nth-of-type(4) { width: 35%; }
-table th:nth-of-type(5) { width: 10%; }
-</style>
