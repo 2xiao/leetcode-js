@@ -216,7 +216,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 322 | [零钱兑换](https://leetcode.com/problems/coin-change) | [[✓]](/problem/0322.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 84 |
 | 207 | [课程表](https://leetcode.com/problems/course-schedule) | [[✓]](/problem/0207.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 43 |
-| 剑指 Offer 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof) | [[✓]](/offer/jz_offer_32_3.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 16 |
+| 剑指 Offer 32-III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof) | [[✓]](/offer/jz_offer_32_3.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 16 |
 
 
 * 图的拓扑排序
@@ -376,7 +376,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> | 16 |
 | 215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array) | [[✓]](/problem/0215.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> | 420 |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> | 36 |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) | [[✓]](/offer/jz_offer_40_1.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> | 36 |
 
 
 * 基数排序
@@ -466,7 +466,7 @@ headerDepth: 0
 | 16 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest) | [[✓]](/problem/0016.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> | 29 |
 | 11 | [盛最多水的容器](https://leetcode.com/problems/container-with-most-water) | [[✓]](/problem/0011.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> | 43 |
 | 剑指 Offer 21 | [调整数组顺序使奇数位于偶数前面](https://leetcode.cn/problems/diao-zheng-shu-zu-shun-xu-shi-qi-shu-wei-yu-ou-shu-qian-mian-lcof) | [[✓]](/offer/jz_offer_21_1.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> | 30 |
-| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 18 |
+| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) | [[✓]](/problem/0443.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 18 |
 
 
 * 快慢指针
@@ -525,7 +525,7 @@ headerDepth: 0
 | 3 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> | 642 |
 | 76 | [最小覆盖子串](https://leetcode.com/problems/minimum-window-substring) | [[✓]](/problem/0076.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ff334b>Hard</font> | 87 |
 | 862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | <font color=#ff334b>Hard</font> | 16 |
-| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> | 22 |
+| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) | [[✓]](/problem/1004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> | 22 |
 
 
 ## 补充

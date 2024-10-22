@@ -450,7 +450,7 @@ headerDepth: 0
 | 94 | [二叉树的中序遍历](https://leetcode.com/problems/binary-tree-inorder-traversal) | [[✓]](/problem/0094.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `1+` | <font color=#15bd66>Easy</font> | 14 |
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 14 |
 | 239 | [滑动窗口最大值](https://leetcode.com/problems/sliding-window-maximum) | [[✓]](/problem/0239.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> | 14 |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> | 13 |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) | [[✓]](/offer/jz_offer_40_1.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> | 13 |
 
 
 ## 快手

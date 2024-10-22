@@ -70,7 +70,7 @@
 | 360 | [有序转化数组](https://leetcode.com/problems/sort-transformed-array) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 392 | [判断子序列](https://leetcode.com/problems/is-subsequence) | [[✓]](/problem/0392.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 408 | [有效单词缩写](https://leetcode.com/problems/valid-word-abbreviation) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) | [[✓]](/problem/0443.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 455 | [分发饼干](https://leetcode.com/problems/assign-cookies) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#15bd66>Easy</font> |
 | 457 | [环形数组是否存在循环](https://leetcode.com/problems/circular-array-loop) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 475 | [供暖器](https://leetcode.com/problems/heaters) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -143,7 +143,7 @@
 | 1616 | [分割两个字符串得到回文串](https://leetcode.com/problems/split-two-strings-to-make-palindrome) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1634 | [求两个多项式链表的和](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists) |  |  [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 1650 | [二叉树的最近公共祖先 III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii) |  |  [`树`](/tag/tree.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1697 | [检查边长度限制的路径是否存在](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1712 | [将数组分成三个子数组的方案数](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1721 | [交换链表中的节点](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) |  |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
@@ -151,7 +151,7 @@
 | 1754 | [构造字典序最大的合并字符串](https://leetcode.com/problems/largest-merge-of-two-strings) |  |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1755 | [最接近目标值的子序列和](https://leetcode.com/problems/closest-subsequence-sum) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1764 | [通过连接另一个数组的子数组得到一个数组](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) | [[✓]](/problem/1768.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1782 | [统计点对的数目](https://leetcode.com/problems/count-pairs-of-nodes) |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1793 | [好子数组的最大分数](https://leetcode.com/problems/maximum-score-of-a-good-subarray) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1813 | [句子相似性 III](https://leetcode.com/problems/sentence-similarity-iii) | [[✓]](/problem/1813.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
@@ -235,10 +235,10 @@
 | 剑指 Offer 22 | [链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof) | [[✓]](/offer/jz_offer_22_1.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof) |  |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 52 | [两个链表的第一个公共节点](https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof) | [[✓]](/offer/jz_offer_52_1.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 57 | [和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 57 - II | [和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof) |  |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 58 - I | [翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof) | [[✓]](/offer/jz_offer_58_1.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 58 - II | [左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof) |  |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 57-I | [和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof) | [[✓]](/offer/jz_offer_57_1.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 57-II | [和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof) | [[✓]](/offer/jz_offer_57_2.md) |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 58-I | [翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof) | [[✓]](/offer/jz_offer_58_1.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 58-II | [左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof) |  |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 6 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [[✓]](/offer/jz_offer_06_1.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 14 | [字符串中的变位词](https://leetcode.cn/problems/MPnaiL) |  |  [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 18 | [有效的回文](https://leetcode.cn/problems/XltzEq) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |

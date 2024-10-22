@@ -116,5 +116,5 @@
 | 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](/problem/3309.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | LCP 48 | [无限棋局](https://leetcode.cn/problems/fsa7oZ) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | <font color=#ff334b>Hard</font> |
 | LCP 51 | [烹饪料理](https://leetcode.cn/problems/UEcfPD) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 57 - II | [和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof) |  |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 57-II | [和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof) | [[✓]](/offer/jz_offer_57_2.md) |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 | 面试题 16.18 | [模式匹配](https://leetcode.cn/problems/pattern-matching-lcci) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |

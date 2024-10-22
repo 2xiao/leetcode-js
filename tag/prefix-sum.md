@@ -49,7 +49,7 @@
 | 974 | [和可被 K 整除的子数组](https://leetcode.com/problems/subarray-sums-divisible-by-k) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 995 | [K 连续位的最小翻转次数](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips) |  |  [`位运算`](/tag/bit-manipulation.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1000 | [合并石头的最低成本](https://leetcode.com/problems/minimum-cost-to-merge-stones) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ff334b>Hard</font> |
-| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) | [[✓]](/problem/1004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1074 | [元素和为目标值的子矩阵数量](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1094 | [拼车](https://leetcode.com/problems/car-pooling) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) [`排序`](/tag/sorting.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1109 | [航班预订统计](https://leetcode.com/problems/corporate-flight-bookings) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
