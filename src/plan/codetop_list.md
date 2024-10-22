@@ -174,7 +174,7 @@ headerDepth: 0
 | 96 | [不同的二叉搜索树](https://leetcode.com/problems/unique-binary-search-trees) | [[✓]](/problem/0096.md) |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`数学`](/tag/math.md) `2+` | <font color=#ffb800>Medium</font> | 24 |
 | 120 | [三角形最小路径和](https://leetcode.com/problems/triangle) | [[✓]](/problem/0120.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 23 |
 | 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 23 |
-| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> | 22 |
+| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) | [[✓]](/problem/1004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> | 22 |
 | 349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> | 22 |
 | 剑指 Offer 61 | [扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof) | [[✓]](/offer/jz_offer_61_1.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> | 21 |
 | 85 | [最大矩形](https://leetcode.com/problems/maximal-rectangle) | [[✓]](/problem/0085.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> | 21 |
@@ -199,7 +199,7 @@ headerDepth: 0
 | 395 | [至少有 K 个重复字符的最长子串](https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`分治`](/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> | 18 |
 | 63 | [不同路径 II](https://leetcode.com/problems/unique-paths-ii) | [[✓]](/problem/0063.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> | 18 |
 | 279 | [完全平方数](https://leetcode.com/problems/perfect-squares) | [[✓]](/problem/0279.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 18 |
-| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 18 |
+| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) | [[✓]](/problem/0443.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 18 |
 | 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> | 18 |
 | 37 | [解数独](https://leetcode.com/problems/sudoku-solver) | [[✓]](/problem/0037.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ff334b>Hard</font> | 18 |
 | 459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern) | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> | 18 |

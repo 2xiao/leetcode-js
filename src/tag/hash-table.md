@@ -338,7 +338,7 @@
 | 1660 | [纠正二叉树](https://leetcode.com/problems/correct-a-binary-tree) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1674 | [使数组互补的最少操作次数](https://leetcode.com/problems/minimum-moves-to-make-array-complementary) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 1676 | [二叉树的最近公共祖先 IV](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1684 | [统计一致字符串的数目](https://leetcode.com/problems/count-the-number-of-consistent-strings) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 1695 | [删除子数组的最大得分](https://leetcode.com/problems/maximum-erasure-value) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 1711 | [大餐计数](https://leetcode.com/problems/count-good-meals) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |

@@ -133,7 +133,7 @@
 | 434 | [字符串中的单词数](https://leetcode.com/problems/number-of-segments-in-a-string) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 438 | [找到字符串中所有字母异位词](https://leetcode.com/problems/find-all-anagrams-in-a-string) | [[✓]](/problem/0438.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 439 | [三元表达式解析器](https://leetcode.com/problems/ternary-expression-parser) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) | [[✓]](/problem/0443.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 449 | [序列化和反序列化二叉搜索树](https://leetcode.com/problems/serialize-and-deserialize-bst) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
 | 451 | [根据字符出现频率排序](https://leetcode.com/problems/sort-characters-by-frequency) | [[✓]](/problem/0451.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`桶排序`](/tag/bucket-sort.md) `3+` | <font color=#ffb800>Medium</font> |
 | 459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern) | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
@@ -290,7 +290,7 @@
 | 1061 | [按字典序排列最小的等效字符串](https://leetcode.com/problems/lexicographically-smallest-equivalent-string) |  |  [`并查集`](/tag/union-find.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1062 | [最长重复子串](https://leetcode.com/problems/longest-repeating-substring) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1065 | [字符串的索引对](https://leetcode.com/problems/index-pairs-of-a-string) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
-| 1071 | [字符串的最大公因子](https://leetcode.com/problems/greatest-common-divisor-of-strings) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1071 | [字符串的最大公因子](https://leetcode.com/problems/greatest-common-divisor-of-strings) | [[✓]](/problem/1071.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1078 | [Bigram 分词](https://leetcode.com/problems/occurrences-after-bigram) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1079 | [活字印刷](https://leetcode.com/problems/letter-tile-possibilities) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1081 | [不同字符的最小子序列](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters) | [[✓]](/problem/1081.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -377,7 +377,7 @@
 | 1451 | [重新排列句子中的单词](https://leetcode.com/problems/rearrange-words-in-a-sentence) |  |  [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 1452 | [收藏清单](https://leetcode.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1455 | [检查单词是否为句中其他单词的前缀](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
+| 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | [[✓]](/problem/1456.md) |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 1461 | [检查一个字符串是否包含所有长度为 K 的二进制子串](https://leetcode.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1487 | [保证文件名唯一](https://leetcode.com/problems/making-file-names-unique) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1496 | [判断路径是否相交](https://leetcode.com/problems/path-crossing) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
@@ -436,7 +436,7 @@
 | 1758 | [生成交替二进制字符串的最少操作数](https://leetcode.com/problems/minimum-changes-to-make-alternating-binary-string) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1759 | [统计同质子字符串的数目](https://leetcode.com/problems/count-number-of-homogenous-substrings) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1763 | [最长的美好子字符串](https://leetcode.com/problems/longest-nice-substring) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | <font color=#15bd66>Easy</font> |
-| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) | [[✓]](/problem/1768.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1769 | [移动所有球到每个盒子所需的最小操作数](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 1771 | [由子序列构造的最长回文串的长度](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1772 | [按受欢迎程度排列功能](https://leetcode.com/problems/sort-features-by-popularity) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |

@@ -34,7 +34,7 @@
 | 321 | [拼接最大数](https://leetcode.com/problems/create-maximum-number) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 324 | [摆动排序 II](https://leetcode.com/problems/wiggle-sort-ii) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
 | 330 | [按要求补齐数组](https://leetcode.com/problems/patching-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#ff334b>Hard</font> |
-| 334 | [递增的三元子序列](https://leetcode.com/problems/increasing-triplet-subsequence) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
+| 334 | [递增的三元子序列](https://leetcode.com/problems/increasing-triplet-subsequence) | [[✓]](/problem/0334.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 358 | [K 距离间隔重排字符串](https://leetcode.com/problems/rearrange-string-k-distance-apart) |  |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `3+` | <font color=#ff334b>Hard</font> |
 | 376 | [摆动序列](https://leetcode.com/problems/wiggle-subsequence) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 397 | [整数替换](https://leetcode.com/problems/integer-replacement) |  |  [`贪心`](/tag/greedy.md) [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -52,7 +52,7 @@
 | 555 | [分割连接字符串](https://leetcode.com/problems/split-concatenated-strings) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 561 | [数组拆分](https://leetcode.com/problems/array-partition) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 581 | [最短无序连续子数组](https://leetcode.com/problems/shortest-unsorted-continuous-subarray) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
-| 605 | [种花问题](https://leetcode.com/problems/can-place-flowers) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
+| 605 | [种花问题](https://leetcode.com/problems/can-place-flowers) | [[✓]](/problem/0605.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 611 | [有效三角形的个数](https://leetcode.com/problems/valid-triangle-number) | [[✓]](/problem/0611.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 621 | [任务调度器](https://leetcode.com/problems/task-scheduler) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `3+` | <font color=#ffb800>Medium</font> |
 | 624 | [数组列表中的最大距离](https://leetcode.com/problems/maximum-distance-in-arrays) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |

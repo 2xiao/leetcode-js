@@ -229,7 +229,7 @@
 | 2509 | [查询树中环的长度](https://leetcode.com/problems/cycle-length-queries-in-a-tree) |  |  [`树`](/tag/tree.md) [`数组`](/tag/array.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ff334b>Hard</font> |
 | 2538 | [最大价值和与最小价值和的差值](https://leetcode.com/problems/difference-between-maximum-and-minimum-price-sum) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`数组`](/tag/array.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2581 | [统计可能的树根数目](https://leetcode.com/problems/count-number-of-possible-root-nodes) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
-| 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) |  |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) | [[✓]](/problem/2583.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2603 | [收集树中金币](https://leetcode.com/problems/collect-coins-in-a-tree) |  |  [`树`](/tag/tree.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2646 | [最小化旅行的价格总和](https://leetcode.com/problems/minimize-the-total-price-of-the-trips) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) `2+` | <font color=#ff334b>Hard</font> |

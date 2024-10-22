@@ -1536,7 +1536,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 2582 | [递枕头](https://leetcode.com/problems/pass-the-pillow) |  |  [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
-| 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) |  |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) | [[✓]](/problem/2583.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2584 | [分割数组使乘积互质](https://leetcode.com/problems/split-the-array-to-make-coprime-products) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2585 | [获得分数的方法数](https://leetcode.com/problems/number-of-ways-to-earn-points) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 
@@ -3443,7 +3443,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) | [[✓]](/problem/1768.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1769 | [移动所有球到每个盒子所需的最小操作数](https://leetcode.com/problems/minimum-number-of-operations-to-move-all-balls-to-each-box) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 1770 | [执行乘法运算的最大分数](https://leetcode.com/problems/maximum-score-from-performing-multiplication-operations) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1771 | [由子序列构造的最长回文串的长度](https://leetcode.com/problems/maximize-palindrome-length-from-subsequences) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
@@ -3648,7 +3648,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1678 | [设计 Goal 解析器](https://leetcode.com/problems/goal-parser-interpretation) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1680 | [连接连续二进制数字](https://leetcode.com/problems/concatenation-of-consecutive-binary-numbers) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1681 | [最小不兼容性](https://leetcode.com/problems/minimum-incompatibility) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -4152,7 +4152,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1455 | [检查单词是否为句中其他单词的前缀](https://leetcode.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
+| 1456 | [定长子串中元音的最大数目](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length) | [[✓]](/problem/1456.md) |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 1457 | [二叉树中的伪回文路径](https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree) |  |  [`位运算`](/tag/bit-manipulation.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1458 | [两个子序列的最大点积](https://leetcode.com/problems/max-dot-product-of-two-subsequences) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 
@@ -4211,7 +4211,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1431 | [拥有最多糖果的孩子](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies) |  |  [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
+| 1431 | [拥有最多糖果的孩子](https://leetcode.com/problems/kids-with-the-greatest-number-of-candies) | [[✓]](/problem/1431.md) |  [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 1432 | [改变一个整数能得到的最大差值](https://leetcode.com/problems/max-difference-you-can-get-from-changing-an-integer) |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 1433 | [检查一个字符串是否可以打破另一个字符串](https://leetcode.com/problems/check-if-a-string-can-break-another-string) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 1434 | [每个人戴不同帽子的方案数](https://leetcode.com/problems/number-of-ways-to-wear-different-hats-to-each-other) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
@@ -5063,7 +5063,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1071 | [字符串的最大公因子](https://leetcode.com/problems/greatest-common-divisor-of-strings) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1071 | [字符串的最大公因子](https://leetcode.com/problems/greatest-common-divisor-of-strings) | [[✓]](/problem/1071.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1072 | [按列翻转得到最大值等行数](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 1073 | [负二进制数相加](https://leetcode.com/problems/adding-two-negabinary-numbers) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 1074 | [元素和为目标值的子矩阵数量](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ff334b>Hard</font> |
@@ -5233,7 +5233,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ |
 | 1002 | [查找共用字符](https://leetcode.com/problems/find-common-characters) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1003 | [检查替换后的词是否有效](https://leetcode.com/problems/check-if-word-is-valid-after-substitutions) |  |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1004 | [最大连续1的个数 III](https://leetcode.com/problems/max-consecutive-ones-iii) | [[✓]](/problem/1004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1000 | [合并石头的最低成本](https://leetcode.com/problems/minimum-cost-to-merge-stones) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ff334b>Hard</font> |
 
 

@@ -70,7 +70,7 @@
 | 360 | [有序转化数组](https://leetcode.com/problems/sort-transformed-array) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 392 | [判断子序列](https://leetcode.com/problems/is-subsequence) | [[✓]](/problem/0392.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 408 | [有效单词缩写](https://leetcode.com/problems/valid-word-abbreviation) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 443 | [压缩字符串](https://leetcode.com/problems/string-compression) | [[✓]](/problem/0443.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 455 | [分发饼干](https://leetcode.com/problems/assign-cookies) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#15bd66>Easy</font> |
 | 457 | [环形数组是否存在循环](https://leetcode.com/problems/circular-array-loop) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 475 | [供暖器](https://leetcode.com/problems/heaters) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -143,7 +143,7 @@
 | 1616 | [分割两个字符串得到回文串](https://leetcode.com/problems/split-two-strings-to-make-palindrome) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1634 | [求两个多项式链表的和](https://leetcode.com/problems/add-two-polynomials-represented-as-linked-lists) |  |  [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 1650 | [二叉树的最近公共祖先 III](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii) |  |  [`树`](/tag/tree.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1697 | [检查边长度限制的路径是否存在](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1712 | [将数组分成三个子数组的方案数](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1721 | [交换链表中的节点](https://leetcode.com/problems/swapping-nodes-in-a-linked-list) |  |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
@@ -151,7 +151,7 @@
 | 1754 | [构造字典序最大的合并字符串](https://leetcode.com/problems/largest-merge-of-two-strings) |  |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1755 | [最接近目标值的子序列和](https://leetcode.com/problems/closest-subsequence-sum) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1764 | [通过连接另一个数组的子数组得到一个数组](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) | [[✓]](/problem/1768.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1782 | [统计点对的数目](https://leetcode.com/problems/count-pairs-of-nodes) |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1793 | [好子数组的最大分数](https://leetcode.com/problems/maximum-score-of-a-good-subarray) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1813 | [句子相似性 III](https://leetcode.com/problems/sentence-similarity-iii) | [[✓]](/problem/1813.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |

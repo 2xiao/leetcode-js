@@ -219,7 +219,7 @@
 | 1648 | [销售价值减少的颜色球](https://leetcode.com/problems/sell-diminishing-valued-colored-balls) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1657 | [确定两个字符串是否接近](https://leetcode.com/problems/determine-if-two-strings-are-close) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1665 | [完成所有任务的最少初始能量](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
-| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1686 | [石子游戏 VI](https://leetcode.com/problems/stone-game-vi) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1691 | [堆叠长方体的最大高度](https://leetcode.com/problems/maximum-height-by-stacking-cuboids) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
 | 1697 | [检查边长度限制的路径是否存在](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
@@ -345,7 +345,7 @@
 | 2576 | [求出最多标记下标](https://leetcode.com/problems/find-the-maximum-number-of-marked-indices) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2578 | [最小和分割](https://leetcode.com/problems/split-with-minimum-sum) |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 2580 | [统计将重叠区间合并成组的方案数](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges) |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) |  |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) | [[✓]](/problem/2583.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2587 | [重排数组以得到最大前缀分数](https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2589 | [完成所有任务的最少时间](https://leetcode.com/problems/minimum-time-to-complete-all-tasks) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 2590 | [设计一个待办事项清单](https://leetcode.com/problems/design-a-todo-list) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |

@@ -205,7 +205,7 @@
 | 1056 | [易混淆数](https://leetcode.com/problems/confusing-number) |  |  [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 1058 | [最小化舍入误差以满足目标](https://leetcode.com/problems/minimize-rounding-error-to-meet-target) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1067 | [范围内的数字计数](https://leetcode.com/problems/digit-count-in-range) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 1071 | [字符串的最大公因子](https://leetcode.com/problems/greatest-common-divisor-of-strings) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1071 | [字符串的最大公因子](https://leetcode.com/problems/greatest-common-divisor-of-strings) | [[✓]](/problem/1071.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1073 | [负二进制数相加](https://leetcode.com/problems/adding-two-negabinary-numbers) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 1085 | [最小元素各数位之和](https://leetcode.com/problems/sum-of-digits-in-the-minimum-number) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 1088 | [易混淆数 II](https://leetcode.com/problems/confusing-number-ii) |  |  [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
