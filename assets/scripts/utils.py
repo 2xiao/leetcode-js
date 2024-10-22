@@ -121,7 +121,7 @@ def gen_frame_items(row, df, problem_salt: str = False, show_book_name: bool = T
 def gen_frame(problems, show_book_name: bool = True):
     df = pd.read_csv("problem-list.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
-    frame_cout = 0
+    frame_count = 0
     for item in problems:
         # 获取题目所在行
         df_indexs = df[df['fileName'] == item].index.tolist()
@@ -130,8 +130,8 @@ def gen_frame(problems, show_book_name: bool = True):
             print('%s 没有出现在 problem-list.csv 中' % (item))
             continue
         res = gen_frame_items(df_indexs[0], df, False, show_book_name)
-        frame.loc[frame_cout] = res
-        frame_cout += 1
+        frame.loc[frame_count] = res
+        frame_count += 1
     return frame
 
 
@@ -141,7 +141,7 @@ def gen_frame(problems, show_book_name: bool = True):
 def gen_frame_with_salt(problems):
     df = pd.read_csv("problem-list.csv")
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度', '频次'])
-    frame_cout = 0
+    frame_count = 0
     for item in problems:
         pattern = re.compile(r'\[(.*)\](.*)')
         match = pattern.match(item)
@@ -157,8 +157,8 @@ def gen_frame_with_salt(problems):
             print('%s 没有出现在 problem-list.csv 中' % (problem_id))
             continue
         res = gen_frame_items(df_indexs[0], df, problem_salt)
-        frame.loc[frame_cout] = res
-        frame_cout += 1
+        frame.loc[frame_count] = res
+        frame_count += 1
     return frame
 
 

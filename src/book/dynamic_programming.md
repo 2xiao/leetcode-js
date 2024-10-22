@@ -305,7 +305,7 @@
 | 902 | [最大为 N 的数字组合](https://leetcode.com/problems/numbers-at-most-n-given-digit-set) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
 | 788 | [旋转数字](https://leetcode.com/problems/rotated-digits) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 600 | [不含连续1的非负整数](https://leetcode.com/problems/non-negative-integers-without-consecutive-ones) |  |  [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 233 | [数字 1 的个数](https://leetcode.com/problems/number-of-digit-one) |  |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 233 | [数字 1 的个数](https://leetcode.com/problems/number-of-digit-one) | [[✓]](/problem/0233.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 2719 | [统计整数数目](https://leetcode.com/problems/count-of-integers) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 248 | [中心对称数 III](https://leetcode.com/problems/strobogrammatic-number-iii) |  |  [`递归`](/tag/recursion.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 1088 | [易混淆数 II](https://leetcode.com/problems/confusing-number-ii) |  |  [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | <font color=#ff334b>Hard</font> |

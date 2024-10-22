@@ -13,7 +13,7 @@ import argparse
 def gen_solution_list():
     files = os.listdir(const.problem_path)
     frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
-    frame_cout = 0
+    frame_count = 0
 
     df = pd.read_csv("problem-list.csv")
     
@@ -31,18 +31,18 @@ def gen_solution_list():
             continue
 
         res = utils.gen_frame_items(df_indexs[0], df)
-        frame.loc[frame_cout] = res
-        frame_cout += 1
+        frame.loc[frame_count] = res
+        frame_count += 1
 
     table = utils.gen_markdown_table(frame, True)
-    content = "已完成 {} 道\n\n".format(frame_cout) + table + "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n"
+    content = "已完成 {} 道\n\n".format(frame_count) + table + "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n"
 
     with open(const.problem_readme, 'w', encoding='utf-8') as f:
         f.writelines("# 目录\n\n")
         f.write(content)
     f.close()
     print("Create Solutions List Success")
-    return frame_cout
+    return frame_count
 
 
 # 生成LeetCode题解按标签分类的列表
@@ -173,6 +173,7 @@ def gen_plan_list(plan_name, salt=False, path=None):
     f = open(origin_path, encoding='utf-8')
     lines = f.readlines()
     file_content = ""
+    count = 0
 
     for i in range(len(lines)):
         pattern = re.compile(r'(#{1,6}) (.*)')

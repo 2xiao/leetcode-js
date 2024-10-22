@@ -393,7 +393,7 @@ function swap(arr, i, j) {
 | :------: | :------ | :------: | :------ | :------ |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
 | 215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array) | [[✓]](/problem/0215.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) | [[✓]](/offer/jz_offer_40_1.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> |
 
 * 计数排序
 

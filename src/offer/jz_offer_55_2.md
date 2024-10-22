@@ -1,43 +1,36 @@
-# [110. 平衡二叉树](https://leetcode.com/problems/balanced-binary-tree)
+# [55-II. 平衡二叉树](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.com/problems/balanced-binary-tree)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof)
 
 ## 题目
 
-Given a binary tree, determine if it is **height-balanced**.
+输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过 1，那么它就是一棵平衡二叉树。
 
-**Example 1:**
+**示例 1:**
 
-![](https://assets.leetcode.com/uploads/2020/10/06/balance_1.jpg)
-
-> Input: root = [3,9,20,null,null,15,7]
+> **输入：** root = [3,9,20,null,null,15,7]
 >
-> Output: true
-
-**Example 2:**
-
-![](https://assets.leetcode.com/uploads/2020/10/06/balance_2.jpg)
-
-> Input: root = [1,2,2,3,3,null,null,4,4]
+> **输出：** true
 >
-> Output: false
+> **解释：** 如下图
 
-**Example 3:**
+![](https://pic.leetcode.cn/1695102431-vbmWJn-image.png)
 
-> Input: root = []
+**示例 2:**
+
+> 输入：root = [1,2,2,3,3,null,null,4,4]
 >
-> Output: true
+> 输出：false
+>
+> 解释：如下图
 
-**Constraints:**
+![](https://pic.leetcode.cn/1695102434-WlaxCo-image.png)
 
-- The number of nodes in the tree is in the range `[0, 5000]`.
-- `-10^4 <= Node.val <= 10^4`
+**提示：**
 
-## 题目大意
+- `0 <= 树的结点个数 <= 10000`
 
-给定一个二叉树，判断它是否是高度平衡的二叉树。
-
-本题中，一棵高度平衡二叉树定义为：一个二叉树每个节点 的左右两个子树的高度差的绝对值不超过 1 。
+注意：本题与主站 110 题相同：<https://leetcode-cn.com/problems/balanced-binary-tree/>
 
 ## 解题思路
 
@@ -136,11 +129,3 @@ var checkBalance = function (node) {
 ```
 
 ::::
-
-## 相关题目
-
-<!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 104 | [二叉树的最大深度](https://leetcode.com/problems/maximum-depth-of-binary-tree) | [[✓]](/problem/0104.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
-| 3319 | [第 K 大的完美二叉子树的大小](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree) | [[✓]](/problem/3319.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |

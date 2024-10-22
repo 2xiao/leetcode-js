@@ -216,7 +216,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 322 | [零钱兑换](https://leetcode.com/problems/coin-change) | [[✓]](/problem/0322.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> | 84 |
 | 207 | [课程表](https://leetcode.com/problems/course-schedule) | [[✓]](/problem/0207.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> | 43 |
-| 剑指 Offer 32 - III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof) | [[✓]](/offer/jz_offer_32_3.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 16 |
+| 剑指 Offer 32-III | [从上到下打印二叉树 III](https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-iii-lcof) | [[✓]](/offer/jz_offer_32_3.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 16 |
 
 
 * 图的拓扑排序
@@ -376,7 +376,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> | 16 |
 | 215 | [数组中的第K个最大元素](https://leetcode.com/problems/kth-largest-element-in-an-array) | [[✓]](/problem/0215.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> | 420 |
-| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> | 36 |
+| 剑指 Offer 40 | [最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof) | [[✓]](/offer/jz_offer_40_1.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#15bd66>Easy</font> | 36 |
 
 
 * 基数排序

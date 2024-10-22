@@ -146,7 +146,7 @@
 | 剑指 Offer 30 | [包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof) | [[✓]](/offer/jz_offer_30_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 37 | [序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof) | [[✓]](/offer/jz_offer_37_1.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof) |  |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 59-II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 9 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [[✓]](/offer/jz_offer_09_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 13 | [二维子矩阵的和](https://leetcode.cn/problems/O4NDxx) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 30 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |

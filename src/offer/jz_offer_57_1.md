@@ -4,11 +4,6 @@
 
 ## 题目
 
-English description is not available for the problem. Please switch to
-Chinese.
-
-## 题目大意
-
 购物车内的商品价格按照升序记录于数组 `price`。请在购物车中找到两个商品的价格总和刚好是 `target`。若存在多种情况，返回任一结果即可。
 
 **示例 1：**
@@ -31,13 +26,33 @@ Chinese.
 
 ## 解题思路
 
+使用哈希表，顺序扫描数组，对每一个元素，在 `set` 中找能组合给定值的另一半数字：
+
+- 如果找到了，直接返回 2 个数字即可；
+- 如果找不到，就把这个数字存入 `set` 中，等待扫到“另一半”数字的时候，再取用；
+
 #### 复杂度分析
 
-- **时间复杂度**：`O()`，
-- **空间复杂度**：`O()`，
+- **时间复杂度**：`O(n)`，其中 `n` 是数组的长度。
+- **空间复杂度**：`O(k)`，其中 `k` 是 `set` 中存放的数字数量，最坏情况下，需要扫描到最后一个数字才能找到结果，此时 `k` 会趋近 `n`。
 
 ## 代码
 
 ```javascript
-
+/**
+ * @param {number[]} price
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function (price, target) {
+	let set = new Set();
+	for (let num of price) {
+		const another = target - num;
+		if (set.has(another)) {
+			return [num, another];
+		} else {
+			set.add(num);
+		}
+	}
+};
 ```

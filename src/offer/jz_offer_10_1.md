@@ -1,4 +1,4 @@
-# [10 - I. 斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
+# [10-I. 斐波那契数列](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
 

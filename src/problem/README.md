@@ -1,6 +1,6 @@
 # 目录
 
-已完成 401 道
+已完成 402 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -189,6 +189,7 @@
 | 228 | [汇总区间](https://leetcode.com/problems/summary-ranges) | [[✓]](/problem/0228.md) |  [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
 | 230 | [二叉搜索树中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [[✓]](/problem/0230.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 232 | [用栈实现队列](https://leetcode.com/problems/implement-queue-using-stacks) | [[✓]](/problem/0232.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | <font color=#15bd66>Easy</font> |
+| 233 | [数字 1 的个数](https://leetcode.com/problems/number-of-digit-one) | [[✓]](/problem/0233.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 234 | [回文链表](https://leetcode.com/problems/palindrome-linked-list) | [[✓]](/problem/0234.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 235 | [二叉搜索树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree) | [[✓]](/problem/0235.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 236 | [二叉树的最近公共祖先](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree) | [[✓]](/problem/0236.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |

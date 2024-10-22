@@ -68,8 +68,8 @@
 | 3191 | [使二进制数组全部等于 1 的最少操作次数 I](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i) |  |  [`位运算`](/tag/bit-manipulation.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
 | LCP 23 | [魔术排列](https://leetcode.cn/problems/er94lq) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 50 | [第一个只出现一次的字符](https://leetcode.cn/problems/di-yi-ge-zhi-chu-xian-yi-ci-de-zi-fu-lcof) | [[✓]](/offer/jz_offer_50_1.md) |  [`队列`](/tag/queue.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 59 - I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 59 - II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 59-I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 59-II | [队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 9 | [用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof) | [[✓]](/offer/jz_offer_09_1.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 41 | [滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 42 | [最近请求次数](https://leetcode.cn/problems/H8086Q) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
