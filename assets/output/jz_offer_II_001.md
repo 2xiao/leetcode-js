@@ -4,11 +4,6 @@
 
 ## 题目
 
-English description is not available for the problem. Please switch to
-Chinese.
-
-## 题目大意
-
 给定两个整数 `a` 和 `b` ，求它们的除法的商 `a/b` ，要求不得使用乘号 `'*'`、除号 `'/'` 以及求余符号 `'%'` 。
 
 **注意：**

@@ -1,4 +1,4 @@
-# [58-I. 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
+# [58. 翻转单词顺序](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
 
@@ -42,9 +42,7 @@ Chinese.
 - `0 <= message.length <= 10^4`
 - `message` 中包含英文大小写字母、空格和数字
 - `message` 中至少有一个单词
--
-
-**注意：**
+- **注意：**
 
 - 本题与主站 151 题相同：<https://leetcode-cn.com/problems/reverse-words-in-a-string/>
 
