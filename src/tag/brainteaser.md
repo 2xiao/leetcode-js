@@ -37,5 +37,5 @@
 | 2745 | [构造最长的新字符串](https://leetcode.com/problems/construct-the-longest-new-string) |  |  [`贪心`](/tag/greedy.md) [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2749 | [得到整数零需要执行的最少操作数](https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero) |  |  [`位运算`](/tag/bit-manipulation.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
 | 3227 | [字符串元音游戏](https://leetcode.com/problems/vowels-game-in-a-string) |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) | [[✓]](/offer/jz_offer_64_1.md) |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
 | 面试题 16.07 | [最大数值](https://leetcode.cn/problems/maximum-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |

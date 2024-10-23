@@ -85,7 +85,7 @@
 | 390 | [消除游戏](https://leetcode.com/problems/elimination-game) |  |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 396 | [旋转函数](https://leetcode.com/problems/rotate-function) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 398 | [随机数索引](https://leetcode.com/problems/random-pick-index) |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
-| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) | [[✓]](/problem/0400.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 405 | [数字转换为十六进制数](https://leetcode.com/problems/convert-a-number-to-hexadecimal) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 412 | [Fizz Buzz](https://leetcode.com/problems/fizz-buzz) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 415 | [字符串相加](https://leetcode.com/problems/add-strings) | [[✓]](/problem/0415.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
@@ -573,14 +573,14 @@
 | 剑指 Offer 16 | [数值的整数次方](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof) | [[✓]](/offer/jz_offer_16_1.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 17 | [打印从1到最大的n位数](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof) | [[✓]](/offer/jz_offer_17_1.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 43 | [1～n 整数中 1 出现的次数](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof) | [[✓]](/offer/jz_offer_43_1.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 44 | [数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 44 | [数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_44_1.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 49 | [丑数](https://leetcode.cn/problems/chou-shu-lcof) | [[✓]](/offer/jz_offer_49_1.md) |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 53-II | [0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_53_2.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 57-II | [和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof) | [[✓]](/offer/jz_offer_57_2.md) |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 58-II | [左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof) |  |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 58-II | [左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof) | [[✓]](/offer/jz_offer_58_2.md) |  [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) | [[✓]](/offer/jz_offer_60_1.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_62_1.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 65 | [不用加减乘除做加法](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 65 | [不用加减乘除做加法](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof) | [[✓]](/offer/jz_offer_65_1.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 1 | [整数除法](https://leetcode.cn/problems/xoh6Oh) |  |  [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 101 | [分割等和子集](https://leetcode.cn/problems/NUPfPr) | [[✓]](/offer2/jz_offer_II_101.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 2 | [二进制加法](https://leetcode.cn/problems/JFETK5) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |

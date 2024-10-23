@@ -343,7 +343,7 @@ function swap(arr, i, j) {
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) | [[✓]](/offer/jz_offer_45_1.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 283 | [移动零](https://leetcode.com/problems/move-zeroes) | [[✓]](/problem/0283.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 
 * 选择排序
@@ -375,7 +375,7 @@ function swap(arr, i, j) {
 | :------: | :------ | :------: | :------ | :------ |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
 | 88 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array) | [[✓]](/problem/0088.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) | [[✓]](/offer/jz_offer_51_1.md) |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 315 | [计算右侧小于当前元素的个数](https://leetcode.com/problems/count-of-smaller-numbers-after-self) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 
 * 快速排序
@@ -430,5 +430,5 @@ function swap(arr, i, j) {
 | 56 | [合并区间](https://leetcode.com/problems/merge-intervals) | [[✓]](/problem/0056.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 179 | [最大数](https://leetcode.com/problems/largest-number) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 384 | [打乱数组](https://leetcode.com/problems/shuffle-an-array) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`随机化`](/tag/randomized.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) | [[✓]](/offer/jz_offer_45_1.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 

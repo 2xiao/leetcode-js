@@ -30,7 +30,9 @@
 
 - `0 <= 树的结点个数 <= 10000`
 
-注意：本题与主站 110 题相同：<https://leetcode-cn.com/problems/balanced-binary-tree/>
+::: warning
+本题与 LeetCode [第 110 题](../problem/0110.md) 相同。
+:::
 
 ## 解题思路
 

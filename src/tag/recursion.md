@@ -75,7 +75,7 @@
 | 剑指 Offer 43 | [1～n 整数中 1 出现的次数](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof) | [[✓]](/offer/jz_offer_43_1.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 6 | [从尾到头打印链表](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof) | [[✓]](/offer/jz_offer_06_1.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 62 | [圆圈中最后剩下的数字](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_62_1.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) | [[✓]](/offer/jz_offer_64_1.md) |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 24 | [反转链表](https://leetcode.cn/problems/UHnkqh) |  |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 26 | [重排链表](https://leetcode.cn/problems/LGjMqU) |  |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 27 | [回文链表](https://leetcode.cn/problems/aMhZSa) | [[✓]](/offer2/jz_offer_II_027.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | <font color=#15bd66>Easy</font> |
