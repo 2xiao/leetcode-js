@@ -257,8 +257,8 @@
 | 剑指 Offer 53-II | [0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_53_2.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 56-I | [数组中数字出现的次数](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-lcof) | [[✓]](/offer/jz_offer_56_1.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 56-II | [数组中数字出现的次数 II](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof) | [[✓]](/offer/jz_offer_56_2.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 65 | [不用加减乘除做加法](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
+| 剑指 Offer 64 | [求1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof) | [[✓]](/offer/jz_offer_64_1.md) |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 65 | [不用加减乘除做加法](https://leetcode.cn/problems/bu-yong-jia-jian-cheng-chu-zuo-jia-fa-lcof) | [[✓]](/offer/jz_offer_65_1.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 2 | [二进制加法](https://leetcode.cn/problems/JFETK5) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 3 | [前 n 个数字二进制中 1 的个数](https://leetcode.cn/problems/w3tCBm) |  |  [`位运算`](/tag/bit-manipulation.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 4 | [只出现一次的数字](https://leetcode.cn/problems/WGki4K) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |

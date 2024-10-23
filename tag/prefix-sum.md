@@ -194,7 +194,7 @@
 | 3261 | [统计满足 K 约束的子字符串数量 II](https://leetcode.com/problems/count-substrings-that-satisfy-k-constraint-ii) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 3279 | [活塞占据的最大总区域](https://leetcode.com/problems/maximum-total-area-occupied-by-pistons) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `3+` | <font color=#ff334b>Hard</font> |
 | 3312 | [查询排序后的最大公约数](https://leetcode.com/problems/sorted-gcd-pair-queries) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `5+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 66 | [构建乘积数组](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 66 | [构建乘积数组](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof) | [[✓]](/offer/jz_offer_66_1.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 10 | [和为 k 的子数组](https://leetcode.cn/problems/QTMn0o) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 11 | [0 和 1 个数相同的子数组](https://leetcode.cn/problems/A1NYOS) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 12 | [左右两边子数组的和相等](https://leetcode.cn/problems/tvdfij) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |

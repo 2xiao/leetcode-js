@@ -239,7 +239,7 @@ function bsearch(arr, value) {
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [[✓]](/problem/0050.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 1300 | [转变数组后最接近目标值的数组和](https://leetcode.com/problems/sum-of-mutated-array-closest-to-target) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) | [[✓]](/problem/0400.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 
 #### 复杂的二分查找问题
 

@@ -155,7 +155,7 @@
 | 3321 | [计算子数组的 x-sum II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii) | [[✓]](/problem/3321.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | <font color=#ff334b>Hard</font> |
 | LCP 68 | [美观的花束](https://leetcode.cn/problems/1GxJYY) |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 48 | [最长不含重复字符的子字符串](https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof) | [[✓]](/offer/jz_offer_48_1.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 59-I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 59-I | [滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof) | [[✓]](/offer/jz_offer_59_1.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer II 14 | [字符串中的变位词](https://leetcode.cn/problems/MPnaiL) |  |  [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 15 | [字符串中的所有变位词](https://leetcode.cn/problems/VabMRr) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 16 | [不含重复字符的最长子字符串](https://leetcode.cn/problems/wtcaE1) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |

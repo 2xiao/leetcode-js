@@ -1441,7 +1441,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ |
 | 2639 | [查询网格图中每一列的宽度](https://leetcode.com/problems/find-the-width-of-columns-of-a-grid) |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | <font color=#15bd66>Easy</font> |
 | 2640 | [一个数组所有前缀的分数](https://leetcode.com/problems/find-the-score-of-all-prefixes-of-an-array) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | [[✓]](/problem/2641.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2642 | [设计可以求最短路径的图类](https://leetcode.com/problems/design-graph-with-shortest-path-calculator) |  |  [`图`](/tag/graph.md) [`设计`](/tag/design.md) [`最短路`](/tag/shortest-path.md) `1+` | <font color=#ff334b>Hard</font> |
 
 

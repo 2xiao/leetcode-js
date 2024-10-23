@@ -53,7 +53,7 @@
 | 367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 374 | [猜数字大小](https://leetcode.com/problems/guess-number-higher-or-lower) | [[✓]](/problem/0374.md) |  [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | <font color=#15bd66>Easy</font> |
 | 378 | [有序矩阵中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix) | [[✓]](/problem/0378.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`矩阵`](/tag/matrix.md) `2+` | <font color=#ffb800>Medium</font> |
-| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) | [[✓]](/problem/0400.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 436 | [寻找右区间](https://leetcode.com/problems/find-right-interval) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 441 | [排列硬币](https://leetcode.com/problems/arranging-coins) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
@@ -309,8 +309,8 @@
 | LCP 52 | [二叉搜索树染色](https://leetcode.cn/problems/QO5KpG) |  |  [`树`](/tag/tree.md) [`线段树`](/tag/segment-tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) `4+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 11 | [旋转数组的最小数字](https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof) | [[✓]](/offer/jz_offer_11_1.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 4 | [二维数组中的查找](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof) | [[✓]](/offer/jz_offer_04_1.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) `1+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 44 | [数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 44 | [数字序列中某一位的数字](https://leetcode.cn/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_44_1.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) | [[✓]](/offer/jz_offer_51_1.md) |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 53-I | [在排序数组中查找数字 I](https://leetcode.cn/problems/zai-pai-xu-shu-zu-zhong-cha-zhao-shu-zi-lcof) | [[✓]](/offer/jz_offer_53_1.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 53-II | [0～n-1中缺失的数字](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof) | [[✓]](/offer/jz_offer_53_2.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 57-I | [和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof) | [[✓]](/offer/jz_offer_57_1.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |

@@ -60,5 +60,5 @@
 | 3187 | [数组中的峰值](https://leetcode.com/problems/peaks-in-array) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) | <font color=#ff334b>Hard</font> |
 | 3245 | [交替组 III](https://leetcode.com/problems/alternating-groups-iii) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`数组`](/tag/array.md) | <font color=#ff334b>Hard</font> |
 | LCP 05 | [发 LeetCoin](https://leetcode.cn/problems/coin-bonus) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) | <font color=#ff334b>Hard</font> |
-| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) | [[✓]](/offer/jz_offer_51_1.md) |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 面试题 10.10 | [数字流的秩](https://leetcode.cn/problems/rank-from-stream-lcci) |  |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |

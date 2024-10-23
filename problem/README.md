@@ -1,6 +1,6 @@
 # 目录
 
-已完成 402 道
+已完成 404 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -240,6 +240,7 @@
 | 392 | [判断子序列](https://leetcode.com/problems/is-subsequence) | [[✓]](/problem/0392.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 394 | [字符串解码](https://leetcode.com/problems/decode-string) | [[✓]](/problem/0394.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 399 | [除法求值](https://leetcode.com/problems/evaluate-division) | [[✓]](/problem/0399.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `4+` | <font color=#ffb800>Medium</font> |
+| 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) | [[✓]](/problem/0400.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 415 | [字符串相加](https://leetcode.com/problems/add-strings) | [[✓]](/problem/0415.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 416 | [分割等和子集](https://leetcode.com/problems/partition-equal-subset-sum) | [[✓]](/problem/0416.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [[✓]](/problem/0426.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> |
@@ -382,6 +383,7 @@
 | 2635 | [转换数组中的每个元素](https://leetcode.com/problems/apply-transform-over-each-element-in-array) | [[✓]](/problem/2635.md) |  | <font color=#15bd66>Easy</font> |
 | 2636 | [Promise 对象池](https://leetcode.com/problems/promise-pool) | [[✓]](/problem/2636.md) |  | <font color=#ffb800>Medium</font> |
 | 2637 | [有时间限制的 Promise 对象](https://leetcode.com/problems/promise-time-limit) | [[✓]](/problem/2637.md) |  | <font color=#ffb800>Medium</font> |
+| 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | [[✓]](/problem/2641.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2665 | [计数器 II](https://leetcode.com/problems/counter-ii) | [[✓]](/problem/2665.md) |  | <font color=#15bd66>Easy</font> |
 | 2666 | [只允许一次函数调用](https://leetcode.com/problems/allow-one-function-call) | [[✓]](/problem/2666.md) |  | <font color=#15bd66>Easy</font> |
 | 2667 | [创建 Hello World 函数](https://leetcode.com/problems/create-hello-world-function) | [[✓]](/problem/2667.md) |  | <font color=#15bd66>Easy</font> |

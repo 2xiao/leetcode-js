@@ -414,7 +414,7 @@
 | LCP 40 | [心算挑战](https://leetcode.cn/problems/uOAnQW) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | LCS 01 | [下载插件](https://leetcode.cn/problems/Ju9Xwi) |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | LCS 02 | [完成一半题目](https://leetcode.cn/problems/WqXACV) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer 45 | [把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) | [[✓]](/offer/jz_offer_45_1.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 19 | [最多删除一个字符得到回文](https://leetcode.cn/problems/RQku0D) |  |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 面试题 10.11 | [峰与谷](https://leetcode.cn/problems/peaks-and-valleys-lcci) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 面试题 16.16 | [部分排序](https://leetcode.cn/problems/sub-sort-lcci) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |

@@ -525,7 +525,7 @@
 | 2606 | [找到最大开销的子字符串](https://leetcode.com/problems/find-the-substring-with-maximum-cost) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2610 | [转换二维数组](https://leetcode.com/problems/convert-an-array-into-a-2d-array-with-conditions) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 2615 | [等值距离和](https://leetcode.com/problems/sum-of-distances) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
-| 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | [[✓]](/problem/2641.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2653 | [滑动子数组的美丽值](https://leetcode.com/problems/sliding-subarray-beauty) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 2657 | [找到两个数组的前缀公共数组](https://leetcode.com/problems/find-the-prefix-common-array-of-two-arrays) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 2661 | [找出叠涂元素](https://leetcode.com/problems/first-completely-painted-row-or-column) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |

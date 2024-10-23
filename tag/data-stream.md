@@ -40,7 +40,7 @@
 | 2034 | [股票价格波动](https://leetcode.com/problems/stock-price-fluctuation) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2102 | [序列顺序查询](https://leetcode.com/problems/sequentially-ordinal-rank-tracker) |  |  [`设计`](/tag/design.md) [`数据流`](/tag/data-stream.md) [`有序集合`](/tag/ordered-set.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2526 | [找到数据流中的连续整数](https://leetcode.com/problems/find-consecutive-integers-from-a-data-stream) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof) |  |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer 41 | [数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof) | [[✓]](/offer/jz_offer_41_1.md) |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer II 41 | [滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 42 | [最近请求次数](https://leetcode.cn/problems/H8086Q) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 59 | [数据流的第 K 大数值](https://leetcode.cn/problems/jBjn9C) |  |  [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) `3+` | <font color=#15bd66>Easy</font> |
