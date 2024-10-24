@@ -32,5 +32,5 @@
 | 528 | [按权重随机选择](https://leetcode.com/problems/random-pick-with-weight) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 710 | [黑名单中的随机数](https://leetcode.com/problems/random-pick-with-blacklist) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `3+` | <font color=#ff334b>Hard</font> |
 | 1515 | [服务中心的最佳位置](https://leetcode.com/problems/best-position-for-a-service-centre) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 30 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 30 | [插入、删除和随机访问都是 O(1) 的容器](https://leetcode.cn/problems/FortPu) | [[✓]](/offer2/jz_offer_II_030.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 71 | [按权重生成随机数](https://leetcode.cn/problems/cuyjEf) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |

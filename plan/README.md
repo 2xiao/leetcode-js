@@ -70,7 +70,7 @@
     border-radius: 5px;
     overflow: hidden;
     aspect-ratio: 900/383;
-    width: 22rem;
+    width: 45%;
 }
 .img-box:hover {
   box-shadow: 0 2px 12px #f0f1f2;

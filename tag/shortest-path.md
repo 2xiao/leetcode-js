@@ -51,4 +51,4 @@
 | 3286 | [穿越网格图的安全路径](https://leetcode.com/problems/find-a-safe-walk-through-a-grid) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | LCP 35 | [电动车游城市](https://leetcode.cn/problems/DFPeFJ) |  |  [`图`](/tag/graph.md) [`最短路`](/tag/shortest-path.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | <font color=#ff334b>Hard</font> |
 | LCP 56 | [信物传送](https://leetcode.cn/problems/6UEx57) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 111 | [计算除法](https://leetcode.cn/problems/vlzXQL) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 111 | [计算除法](https://leetcode.cn/problems/vlzXQL) | [[✓]](/offer2/jz_offer_II_111.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | <font color=#ffb800>Medium</font> |

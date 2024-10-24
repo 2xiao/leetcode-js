@@ -63,4 +63,4 @@
 | 3317 | [安排活动的方案数](https://leetcode.com/problems/find-the-number-of-possible-ways-for-an-event) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |
 | LCP 25 | [古董键盘](https://leetcode.cn/problems/Uh984O) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | <font color=#ff334b>Hard</font> |
 | LCP 37 | [最小矩形面积](https://leetcode.cn/problems/zui-xiao-ju-xing-mian-ji) |  |  [`贪心`](/tag/greedy.md) [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) `3+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 98 | [路径的数目](https://leetcode.cn/problems/2AoeFn) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 98 | [路径的数目](https://leetcode.cn/problems/2AoeFn) | [[✓]](/offer2/jz_offer_II_098.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | <font color=#ffb800>Medium</font> |
