@@ -55,6 +55,6 @@
 | LCP 21 | [追逐游戏](https://leetcode.cn/problems/Za25hA) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ff334b>Hard</font> |
 | LCP 63 | [弹珠游戏](https://leetcode.cn/problems/EXvqDp) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `5+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 112 | [最长递增路径](https://leetcode.cn/problems/fpTFWP) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `5+` | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 113 | [课程顺序](https://leetcode.cn/problems/QA2IGt) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 113 | [课程顺序](https://leetcode.cn/problems/QA2IGt) | [[✓]](/offer2/jz_offer_II_113.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 114 | [外星文字典](https://leetcode.cn/problems/Jf1JuT) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `3+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer II 115 | [重建序列](https://leetcode.cn/problems/ur2n8P) |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |

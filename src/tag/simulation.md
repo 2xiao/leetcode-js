@@ -191,6 +191,6 @@
 | 剑指 Offer 29 | [顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof) | [[✓]](/offer/jz_offer_29_1.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 剑指 Offer 31 | [栈的压入、弹出序列](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof) | [[✓]](/offer/jz_offer_31_1.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 101 | [分割等和子集](https://leetcode.cn/problems/NUPfPr) | [[✓]](/offer2/jz_offer_II_101.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
-| 剑指 Offer II 2 | [二进制加法](https://leetcode.cn/problems/JFETK5) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 剑指 Offer II 2 | [二进制加法](https://leetcode.cn/problems/JFETK5) | [[✓]](/offer2/jz_offer_II_002.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 37 | [小行星碰撞](https://leetcode.cn/problems/XagZNi) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 面试题 16.22 | [兰顿蚂蚁](https://leetcode.cn/problems/langtons-ant-lcci) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | <font color=#ffb800>Medium</font> |

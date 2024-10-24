@@ -27,4 +27,4 @@
 | 692 | [前K个高频单词](https://leetcode.com/problems/top-k-frequent-words) |  |  [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `4+` | <font color=#ffb800>Medium</font> |
 | 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 57 | [值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu) |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 60 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 60 | [出现频率最高的 k 个数字](https://leetcode.cn/problems/g5c51o) | [[✓]](/offer2/jz_offer_II_060.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |

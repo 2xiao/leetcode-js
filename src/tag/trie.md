@@ -74,7 +74,7 @@
 | 3076 | [数组中的最短非公共子字符串](https://leetcode.com/problems/shortest-uncommon-substring-in-an-array) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 3093 | [最长公共后缀查询](https://leetcode.com/problems/longest-common-suffix-queries) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
 | 3291 | [形成目标字符串需要的最少字符串数 I](https://leetcode.com/problems/minimum-number-of-valid-strings-to-form-target-i) |  |  [`字典树`](/tag/trie.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `6+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 62 | [实现前缀树](https://leetcode.cn/problems/QC3q1f) |  |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 62 | [实现前缀树](https://leetcode.cn/problems/QC3q1f) | [[✓]](/offer2/jz_offer_II_062.md) |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 63 | [替换单词](https://leetcode.cn/problems/UhWRSj) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 64 | [神奇的字典](https://leetcode.cn/problems/US1pGT) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 65 | [最短的单词编码](https://leetcode.cn/problems/iSwD2y) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |

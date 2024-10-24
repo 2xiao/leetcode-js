@@ -88,4 +88,4 @@
 | LCP 52 | [二叉搜索树染色](https://leetcode.cn/problems/QO5KpG) |  |  [`树`](/tag/tree.md) [`线段树`](/tag/segment-tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) `4+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer 51 | [数组中的逆序对](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof) | [[✓]](/offer/jz_offer_51_1.md) |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer II 57 | [值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu) |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) `2+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 58 | [日程表](https://leetcode.cn/problems/fi9suh) |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 58 | [日程表](https://leetcode.cn/problems/fi9suh) | [[✓]](/offer2/jz_offer_II_058.md) |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |

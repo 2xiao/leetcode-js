@@ -83,9 +83,9 @@
 | 3221 | [最大数组跳跃得分 II](https://leetcode.com/problems/maximum-array-hopping-score-ii) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 3229 | [使数组等于目标数组所需的最少操作次数](https://leetcode.com/problems/minimum-operations-to-make-array-equal-to-target) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 剑指 Offer 33 | [二叉搜索树的后序遍历序列](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof) | [[✓]](/offer/jz_offer_33_1.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) `4+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 38 | [每日温度](https://leetcode.cn/problems/iIQa4I) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 39 | [直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ff334b>Hard</font> |
-| 剑指 Offer II 40 | [矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
+| 剑指 Offer II 38 | [每日温度](https://leetcode.cn/problems/iIQa4I) | [[✓]](/offer2/jz_offer_II_038.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 39 | [直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM) | [[✓]](/offer2/jz_offer_II_039.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ff334b>Hard</font> |
+| 剑指 Offer II 40 | [矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ) | [[✓]](/offer2/jz_offer_II_040.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
 | 面试题 03.05 | [栈排序](https://leetcode.cn/problems/sort-of-stacks-lcci) |  |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
 | 面试题 16.16 | [部分排序](https://leetcode.cn/problems/sub-sort-lcci) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `3+` | <font color=#ffb800>Medium</font> |
 | 面试题 17.21 | [直方图的水量](https://leetcode.cn/problems/volume-of-histogram-lcci) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
