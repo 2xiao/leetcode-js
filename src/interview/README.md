@@ -6,7 +6,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) | [[✓]](/interview/i_01.01.md) |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 01.02 | [判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 01.03 | [URL化](https://leetcode.cn/problems/string-to-url-lcci) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 01.04 | [回文排列](https://leetcode.cn/problems/palindrome-permutation-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |

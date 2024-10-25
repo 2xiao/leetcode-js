@@ -50,7 +50,7 @@
 | 1065 | [字符串的索引对](https://leetcode.com/problems/index-pairs-of-a-string) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 1166 | [设计文件系统](https://leetcode.com/problems/design-file-system) |  |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1178 | [猜字谜](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle) |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
-| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) | [[✓]](/problem/1233.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1268 | [搜索推荐系统](https://leetcode.com/problems/search-suggestions-system) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1316 | [不同的循环子字符串](https://leetcode.com/problems/distinct-echo-substrings) |  |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) [`哈希函数`](/tag/hash-function.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1698 | [字符串的不同子字符串个数](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string) |  |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) [`后缀数组`](/tag/suffix-array.md) `2+` | <font color=#ffb800>Medium</font> |

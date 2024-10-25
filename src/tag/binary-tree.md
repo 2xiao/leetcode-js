@@ -115,7 +115,7 @@
 | 897 | [递增顺序搜索树](https://leetcode.com/problems/increasing-order-search-tree) |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `2+` | <font color=#15bd66>Easy</font> |
 | 919 | [完全二叉树插入器](https://leetcode.com/problems/complete-binary-tree-inserter) |  |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) `1+` | <font color=#ffb800>Medium</font> |
 | 938 | [二叉搜索树的范围和](https://leetcode.com/problems/range-sum-of-bst) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Easy</font> |
-| 951 | [翻转等价二叉树](https://leetcode.com/problems/flip-equivalent-binary-trees) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
+| 951 | [翻转等价二叉树](https://leetcode.com/problems/flip-equivalent-binary-trees) | [[✓]](/problem/0951.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | [[✓]](/problem/0958.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 965 | [单值二叉树](https://leetcode.com/problems/univalued-binary-tree) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | <font color=#15bd66>Easy</font> |
 | 968 | [监控二叉树](https://leetcode.com/problems/binary-tree-cameras) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |

@@ -700,7 +700,7 @@
 | 剑指 Offer II 75 | [数组相对排序](https://leetcode.cn/problems/0H97ZC) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 86 | [分割回文子字符串](https://leetcode.cn/problems/M99OJA) | [[✓]](/offer2/jz_offer_II_086.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 93 | [最长斐波那契数列](https://leetcode.cn/problems/Q91FMA) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 面试题 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 面试题 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) | [[✓]](/interview/i_01.01.md) |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 面试题 01.02 | [判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 面试题 01.04 | [回文排列](https://leetcode.cn/problems/palindrome-permutation-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 面试题 01.08 | [零矩阵](https://leetcode.cn/problems/zero-matrix-lcci) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |

@@ -4704,7 +4704,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1232 | [缀点成线](https://leetcode.com/problems/check-if-it-is-a-straight-line) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
-| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) | [[✓]](/problem/1233.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1234 | [替换子串得到平衡字符串](https://leetcode.com/problems/replace-the-substring-for-balanced-string) |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 1235 | [规划兼职工作](https://leetcode.com/problems/maximum-profit-in-job-scheduling) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -5388,7 +5388,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 949 | [给定数字能组成的最大时间](https://leetcode.com/problems/largest-time-for-given-digits) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
-| 951 | [翻转等价二叉树](https://leetcode.com/problems/flip-equivalent-binary-trees) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
+| 951 | [翻转等价二叉树](https://leetcode.com/problems/flip-equivalent-binary-trees) | [[✓]](/problem/0951.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 950 | [按递增顺序显示卡牌](https://leetcode.com/problems/reveal-cards-in-increasing-order) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 952 | [按公因数计算最大组件大小](https://leetcode.com/problems/largest-component-size-by-common-factor) |  |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ff334b>Hard</font> |
 
