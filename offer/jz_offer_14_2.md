@@ -4,23 +4,30 @@
 
 ## 题目
 
-现需要将一根长为正整数 bamboo_len 的竹子砍为若干段，每段长度均为正整数。请返回每段竹子长度的最大乘积是多少。
+<p>现需要将一根长为正整数 <code>bamboo_len</code> 的竹子砍为若干段，每段长度均为 <strong>正整数</strong>。请返回每段竹子长度的 <strong>最大乘积</strong> 是多少。</p>
 
-答案需要取模 `1e9+7（1000000007）`，如计算初始结果为：`1000000008`，请返回 `1`。
+<p>答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> 输入: bamboo_len = 12
->
-> 输出：81
+<p><strong>示例 1：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>bamboo_len = 12
+<strong>输出：</strong>81
+</pre>
 
-- `2 <= bamboo_len <= 1000`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>2 &lt;= bamboo_len &lt;= 1000</code></li>
+</ul>
+
 本题与 LeetCode [第 343 题](../problem/0343.md) 相同。
-:::
+
+<p>&nbsp;</p>
 
 ## 解题思路
 

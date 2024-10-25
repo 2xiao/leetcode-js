@@ -4,88 +4,94 @@
 
 ## 题目
 
-多级双向链表中，除了指向下一个节点和前一个节点指针之外，它还有一个子链表指针，可能指向单独的双向链表。这些子列表也可能会有一个或多个自己的子项，依此类推，生成多级数据结构，如下面的示例所示。
+<p>多级双向链表中，除了指向下一个节点和前一个节点指针之外，它还有一个子链表指针，可能指向单独的双向链表。这些子列表也可能会有一个或多个自己的子项，依此类推，生成多级数据结构，如下面的示例所示。</p>
 
-给定位于列表第一级的头节点，请扁平化列表，即将这样的多级双向链表展平成普通的双向链表，使所有结点出现在单级双链表中。
+<p>给定位于列表第一级的头节点，请扁平化列表，即将这样的多级双向链表展平成普通的双向链表，使所有结点出现在单级双链表中。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
->
-> **输出：**[1,2,3,7,8,11,12,9,10,4,5,6]
->
-> **解释：**
->
-> 输入的多级列表如下图所示：
->
-> ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/multilevellinkedlist.png)
->
-> 扁平化后的链表如下图：
->
-> ![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/multilevellinkedlistflattened.png)
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>head = [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
+<strong>输出：</strong>[1,2,3,7,8,11,12,9,10,4,5,6]
+<strong>解释：
+</strong>
+输入的多级列表如下图所示：
 
-> **输入：** head = [1,2,null,3]
->
-> **输出：**[1,3,2]
->
-> **解释：** 输入的多级列表如下图所示：
->
-> 1---2---NULL
->
-> |
->
-> 3---NULL
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/multilevellinkedlist.png" style="height: 363px; width: 640px;" />
 
-**示例 3：**
+扁平化后的链表如下图：
 
-> **输入：** head = []
->
-> **输出：**[]
+<img src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/10/12/multilevellinkedlistflattened.png" style="height: 80px; width: 1100px;" />
+</pre>
 
-**如何表示测试用例中的多级链表？**
+<p><strong>示例 2：</strong></p>
 
-以 **示例 1** 为例：
+<pre>
+<strong>输入：</strong>head = [1,2,null,3]
+<strong>输出：</strong>[1,3,2]
+<strong>解释：
 
-> 1---2---3---4---5---6--NULL
->
-> > |
->
-> > 7---8---9---10--NULL
->
-> > |
->
-> > 11--12--NULL
+</strong>输入的多级列表如下图所示：
 
-序列化其中的每一级之后：
+  1---2---NULL
+  |
+  3---NULL
+</pre>
 
-> [1,2,3,4,5,6,null]
->
-> [7,8,9,10,null]
->
-> [11,12,null]
+<p><strong>示例 3：</strong></p>
 
-为了将每一级都序列化到一起，我们需要每一级中添加值为 null 的元素，以表示没有节点连接到上一级的上级节点。
+<pre>
+<strong>输入：</strong>head = []
+<strong>输出：</strong>[]
+</pre>
 
-> [1,2,3,4,5,6,null]
->
-> [null,null,7,8,9,10,null]
->
-> [null,11,12,null]
+<p>&nbsp;</p>
 
-合并所有序列化结果，并去除末尾的 null 。
+<p><strong>如何表示测试用例中的多级链表？</strong></p>
 
-> [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
+<p>以 <strong>示例 1</strong> 为例：</p>
 
-**提示：**
+<pre>
+ 1---2---3---4---5---6--NULL
+         |
+         7---8---9---10--NULL
+             |
+             11--12--NULL</pre>
 
-- 节点数目不超过 `1000`
-- `1 <= Node.val <= 10^5`
+<p>序列化其中的每一级之后：</p>
 
-::: warning
+<pre>
+[1,2,3,4,5,6,null]
+[7,8,9,10,null]
+[11,12,null]
+</pre>
+
+<p>为了将每一级都序列化到一起，我们需要每一级中添加值为 null 的元素，以表示没有节点连接到上一级的上级节点。</p>
+
+<pre>
+[1,2,3,4,5,6,null]
+[null,null,7,8,9,10,null]
+[null,11,12,null]
+</pre>
+
+<p>合并所有序列化结果，并去除末尾的 null 。</p>
+
+<pre>
+[1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li>节点数目不超过 <code>1000</code></li>
+	<li><code>1 &lt;= Node.val &lt;= 10^5</code></li>
+</ul>
+
+<p>&nbsp;</p>
 本题与 LeetCode [第 430 题](../problem/0430.md) 相同。
-:::
 
 ## 解题思路
 

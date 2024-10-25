@@ -1,6 +1,6 @@
 # 目录
 
-已完成 404 道
+已完成 408 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -320,6 +320,7 @@
 | 931 | [下降路径最小和](https://leetcode.com/problems/minimum-falling-path-sum) | [[✓]](/problem/0931.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 945 | [使数组唯一的最小增量](https://leetcode.com/problems/minimum-increment-to-make-array-unique) | [[✓]](/problem/0945.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 946 | [验证栈序列](https://leetcode.com/problems/validate-stack-sequences) | [[✓]](/problem/0946.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
+| 951 | [翻转等价二叉树](https://leetcode.com/problems/flip-equivalent-binary-trees) | [[✓]](/problem/0951.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 954 | [二倍数对数组](https://leetcode.com/problems/array-of-doubled-pairs) | [[✓]](/problem/0954.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 958 | [二叉树的完全性检验](https://leetcode.com/problems/check-completeness-of-a-binary-tree) | [[✓]](/problem/0958.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> |
 | 962 | [最大宽度坡](https://leetcode.com/problems/maximum-width-ramp) | [[✓]](/problem/0962.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | <font color=#ffb800>Medium</font> |
@@ -337,6 +338,7 @@
 | 1137 | [第 N 个泰波那契数](https://leetcode.com/problems/n-th-tribonacci-number) | [[✓]](/problem/1137.md) |  [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> |
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses) | [[✓]](/problem/1190.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) | [[✓]](/problem/1233.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1288 | [删除被覆盖区间](https://leetcode.com/problems/remove-covered-intervals) | [[✓]](/problem/1288.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 1312 | [让字符串成为回文串的最少插入次数](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome) | [[✓]](/problem/1312.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1331 | [数组序号转换](https://leetcode.com/problems/rank-transform-of-an-array) | [[✓]](/problem/1331.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
@@ -369,11 +371,13 @@
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](/problem/2491.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2530 | [执行 K 次操作后的最大分数](https://leetcode.com/problems/maximal-score-after-applying-k-operations) | [[✓]](/problem/2530.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) | [[✓]](/problem/2583.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2618 | [检查是否是类的对象实例](https://leetcode.com/problems/check-if-object-instance-of-class) | [[✓]](/problem/2618.md) |  | <font color=#ffb800>Medium</font> |
 | 2619 | [数组原型对象的最后一个元素](https://leetcode.com/problems/array-prototype-last) | [[✓]](/problem/2619.md) |  | <font color=#15bd66>Easy</font> |
 | 2620 | [计数器](https://leetcode.com/problems/counter) | [[✓]](/problem/2620.md) |  | <font color=#15bd66>Easy</font> |
 | 2621 | [睡眠函数](https://leetcode.com/problems/sleep) | [[✓]](/problem/2621.md) |  | <font color=#15bd66>Easy</font> |
 | 2622 | [有时间限制的缓存](https://leetcode.com/problems/cache-with-time-limit) | [[✓]](/problem/2622.md) |  | <font color=#ffb800>Medium</font> |
 | 2623 | [记忆函数](https://leetcode.com/problems/memoize) | [[✓]](/problem/2623.md) |  | <font color=#ffb800>Medium</font> |
+| 2624 | [蜗牛排序](https://leetcode.com/problems/snail-traversal) | [[✓]](/problem/2624.md) |  | <font color=#ffb800>Medium</font> |
 | 2625 | [扁平化嵌套数组](https://leetcode.com/problems/flatten-deeply-nested-array) | [[✓]](/problem/2625.md) |  | <font color=#ffb800>Medium</font> |
 | 2626 | [数组归约运算](https://leetcode.com/problems/array-reduce-transformation) | [[✓]](/problem/2626.md) |  | <font color=#15bd66>Easy</font> |
 | 2627 | [函数防抖](https://leetcode.com/problems/debounce) | [[✓]](/problem/2627.md) |  | <font color=#ffb800>Medium</font> |

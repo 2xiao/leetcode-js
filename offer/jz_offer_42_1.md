@@ -4,34 +4,36 @@
 
 ## 题目
 
-某公司每日销售额记于整数数组 `sales`，请返回所有 **连续** 一或多天销售额总和的最大值。
+<p>某公司每日销售额记于整数数组 <code>sales</code>，请返回所有 <strong>连续</strong> 一或多天销售额总和的最大值。</p>
 
-要求实现时间复杂度为 `O(n)` 的算法。
+<p>要求实现时间复杂度为 <code>O(n)</code> 的算法。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> 输入：sales = [-2,1,-3,4,-1,2,1,-5,4]
->
-> 输出：6
->
-> 解释：[4,-1,2,1] 此连续四天的销售总额最高，为 6。
+<p><strong>示例 1:</strong></p>
 
-**示例 2:**
+<pre>
+<strong>输入：</strong>sales = [-2,1,-3,4,-1,2,1,-5,4]
+<strong>输出：</strong>6
+<strong>解释：</strong>[4,-1,2,1] 此连续四天的销售总额最高，为 6。</pre>
 
-> 输入：sales = [5,4,-1,7,8]
->
-> 输出：23
->
-> 解释：[5,4,-1,7,8] 此连续五天的销售总额最高，为 23。
+<p><strong>示例 2:</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>sales = [5,4,-1,7,8]
+<strong>输出：</strong>23
+<strong>解释：</strong>[5,4,-1,7,8] 此连续五天的销售总额最高，为 23。&nbsp;</pre>
 
-- `1 <= arr.length <= 10^5`
-- `-100 <= arr[i] <= 100`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;=&nbsp;arr.length &lt;= 10^5</code></li>
+	<li><code>-100 &lt;= arr[i] &lt;= 100</code></li>
+</ul>
+
 本题与 LeetCode [第 53 题](../problem/0053.md) 相同。
-:::
 
 ## 解题思路
 

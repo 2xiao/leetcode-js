@@ -4,33 +4,35 @@
 
 ## 题目
 
-请设计一个函数判断一棵二叉树是否 **轴对称** 。
+<p>请设计一个函数判断一棵二叉树是否 <strong>轴对称</strong> 。</p>
 
-**示例 1：**
-![](https://pic.leetcode.cn/1694689008-JaaRdV-%E8%BD%B4%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%911.png)
+<p>&nbsp;</p>
 
-> 输入：root = [6,7,7,8,9,9,8]
->
-> 输出：true
->
-> 解释：从图中可看出树是轴对称的。
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
-![](https://pic.leetcode.cn/1694689054-vENzHe-%E8%BD%B4%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%912.png)
+<p><img alt="" src="https://pic.leetcode.cn/1694689008-JaaRdV-%E8%BD%B4%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%911.png" /></p>
 
-> 输入：root = [1,2,2,null,3,null,3]
->
-> 输出：false
->
-> 解释：从图中可看出最后一层的节点不对称。
+<pre>
+<strong>输入：</strong>root = [6,7,7,8,9,9,8]
+<strong>输出：</strong>true
+<strong>解释：</strong>从图中可看出树是轴对称的。</pre>
 
-**提示：**
+<p><strong>示例 2：</strong></p>
 
-- `0 <= 节点个数 <= 1000`
+<p><img alt="" src="https://pic.leetcode.cn/1694689054-vENzHe-%E8%BD%B4%E5%AF%B9%E7%A7%B0%E4%BA%8C%E5%8F%89%E6%A0%912.png" /></p>
 
-::: warning
+<pre>
+<strong>输入：</strong>root = [1,2,2,null,3,null,3]
+<strong>输出：</strong>false
+<strong>解释：</strong>从图中可看出最后一层的节点不对称。</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<p><code>0 &lt;= 节点个数 &lt;= 1000</code></p>
+
 本题与 LeetCode [第 101 题](../problem/0101.md) 相同。
-:::
 
 ## 解题思路
 

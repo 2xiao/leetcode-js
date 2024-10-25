@@ -4,49 +4,53 @@
 
 ## 题目
 
-斐波那契数 （通常用 `F(n)` 表示）形成的序列称为 斐波那契数列 。该数列由 `0` 和 `1` 开始，后面的每一项数字都是前面两项数字的和。也就是：
+<p><strong>斐波那契数</strong> （通常用 <code>F(n)</code> 表示）形成的序列称为 <strong>斐波那契数列</strong> 。该数列由 <strong>0</strong> 和 <strong>1</strong> 开始，后面的每一项数字都是前面两项数字的和。也就是：</p>
 
-> F(0) = 0，F(1) = 1
->
-> F(n) = F(n - 1) + F(n - 2)，其中 n > 1
+<pre>
+F(0) = 0，F(1) = 1
+F(n) = F(n - 1) + F(n - 2)，其中 n &gt; 1
+</pre>
 
-给定 `n` ，请计算 `F(n)` 。
+<p>给定 <code>n</code> ，请计算 <code>F(n)</code> 。</p>
 
-答案需要取模 `1e9+7(1000000007)` ，如计算初始结果为：`1000000008`，请返回 `1`。
+<p>答案需要取模 1e9+7(1000000007) ，如计算初始结果为：1000000008，请返回 1。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> 输入：n = 2
->
-> 输出：1
->
-> 解释：F(2) = F(1) + F(0) = 1 + 0 = 1
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>n = 2
+<strong>输出：</strong>1
+<strong>解释：</strong>F(2) = F(1) + F(0) = 1 + 0 = 1
+</pre>
 
-> 输入：n = 3
->
-> 输出：2
->
-> 解释：F(3) = F(2) + F(1) = 1 + 1 = 2
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>n = 3
+<strong>输出：</strong>2
+<strong>解释：</strong>F(3) = F(2) + F(1) = 1 + 1 = 2
+</pre>
 
-> 输入：n = 4
->
-> 输出：3
->
-> 解释：F(4) = F(3) + F(2) = 2 + 1 = 3
+<p><strong>示例 3：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>n = 4
+<strong>输出：</strong>3
+<strong>解释：</strong>F(4) = F(3) + F(2) = 2 + 1 = 3
+</pre>
 
-`0 <= n <= 100`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
 
-本题与 LeetCode [第 509 题](../problem/0509.md) 相同。
+<ul>
+	<li><code>0 &lt;= n &lt;= 100</code></li>
+</ul>
 
-:::
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

@@ -4,23 +4,31 @@
 
 ## 题目
 
-给定一棵二叉树的根节点 `root`，请左右翻转这棵二叉树，并返回其根节点。
+<p>给定一棵二叉树的根节点 <code>root</code>，请左右翻转这棵二叉树，并返回其根节点。</p>
 
-**示例 1：**
-![](https://pic.leetcode.cn/1694686821-qlvjod-%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91.png)
+<p>&nbsp;</p>
 
-> 输入：root = [5,7,9,8,3,2,4]
->
-> 输出：[5,9,7,4,2,3,8]
+<p><strong>示例 1：</strong></p>
 
-**提示：**
+<p><img alt="" src="https://pic.leetcode.cn/1694686821-qlvjod-%E7%BF%BB%E8%BD%AC%E4%BA%8C%E5%8F%89%E6%A0%91.png" /></p>
 
-- 树中节点数目范围在 `[0, 100]` 内
-- `-100 <= Node.val <= 100`
+<pre>
+<strong>输入：</strong>root = [5,7,9,8,3,2,4]
+<strong>输出：</strong>[5,9,7,4,2,3,8]
+</pre>
 
-::: warning
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li>树中节点数目范围在 <code>[0, 100]</code> 内</li>
+	<li><code>-100 &lt;= Node.val &lt;= 100</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 226 题](../problem/0226.md) 相同。
-:::
 
 ## 解题思路
 

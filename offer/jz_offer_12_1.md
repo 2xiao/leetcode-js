@@ -4,42 +4,56 @@
 
 ## 题目
 
-字母迷宫游戏初始界面记作 m x n 二维字符串数组 grid，请判断玩家是否能在 grid 中找到目标单词 target。
-注意：寻找单词时 必须 按照字母顺序，通过水平或垂直方向相邻的单元格内的字母构成，同时，同一个单元格内的字母 不允许被重复使用 。
+<p>字母迷宫游戏初始界面记作 <code>m x n</code> 二维字符串数组 <code>grid</code>，请判断玩家是否能在 <code>grid</code> 中找到目标单词 <code>target</code>。<br />
+注意：寻找单词时 <strong>必须</strong> 按照字母顺序，通过水平或垂直方向相邻的单元格内的字母构成，同时，同一个单元格内的字母&nbsp;<strong>不允许被重复使用&nbsp;</strong>。</p>
 
-![](https://assets.leetcode.com/uploads/2020/11/04/word2.jpg)
+<p>&nbsp;</p>
 
-**示例 1：**
+<p><img alt="" src="https://assets.leetcode.com/uploads/2020/11/04/word2.jpg" /></p>
 
-> 输入：grid = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], target = "ABCCED"
->
-> 输出：true
+<p>&nbsp;</p>
 
-**示例 2：**
+<p><strong>示例 1：</strong></p>
 
-> 输入：grid = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], target = "SEE"
->
-> 输出：true
+<pre>
+<strong>输入：</strong>grid = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], target = "ABCCED"
+<strong>输出：</strong>true
+</pre>
 
-**示例 3：**
+<p><strong>示例 2：</strong></p>
 
-> 输入：grid = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], target = "ABCB"
->
-> 输出：false
+<pre>
+<strong>输入：</strong>grid = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], target = "SEE"
+<strong>输出：</strong>true
+</pre>
 
-**提示：**
+<p><strong>示例 3：</strong></p>
 
-- `m == grid.length`
-- `n = grid[i].length`
-- `1 <= m, n <= 6`
-- `1 <= target.length <= 15`
-- `grid` 和 `target` 仅由大小写英文字母组成
+<pre>
+<strong>输入：</strong>grid = [["A","B","C","E"],["S","F","C","S"],["A","D","E","E"]], target = "ABCB"
+<strong>输出：</strong>false
+</pre>
 
-::: warning
+<p>&nbsp;</p>
 
-本题与 LeetCode [第 79 题](../problem/0079.md) 相同。
+<p><strong>提示：</strong></p>
 
-:::
+<ul>
+	<li><code>m == grid.length</code></li>
+	<li><code>n = grid[i].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 6</code></li>
+	<li><code>1 &lt;= target.length &lt;= 15</code></li>
+	<li><code>grid</code> 和 <code>target</code> 仅由大小写英文字母组成</li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>注意：</strong>本题与主站 79 题相同：<a href="https://leetcode-cn.com/problems/word-search/">https://leetcode-cn.com/problems/word-search/</a></p>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

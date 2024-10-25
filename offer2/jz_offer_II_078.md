@@ -4,56 +4,57 @@
 
 ## 题目
 
-给定一个链表数组，每个链表都已经按升序排列。
+<p>给定一个链表数组，每个链表都已经按升序排列。</p>
 
-请将所有链表合并到一个升序链表中，返回合并后的链表。
+<p>请将所有链表合并到一个升序链表中，返回合并后的链表。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** lists = [[1,4,5],[1,3,4],[2,6]]
->
-> **输出：**[1,1,2,3,4,4,5,6]
->
-> **解释：** 链表数组如下：
->
-> [
->
-> 1->4->5,
->
-> 1->3->4,
->
-> 2->6
->
-> ]
->
-> 将它们合并到一个有序链表中得到。
->
-> 1->1->2->3->4->4->5->6
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>lists = [[1,4,5],[1,3,4],[2,6]]
+<strong>输出：</strong>[1,1,2,3,4,4,5,6]
+<strong>解释：</strong>链表数组如下：
+[
+  1-&gt;4-&gt;5,
+  1-&gt;3-&gt;4,
+  2-&gt;6
+]
+将它们合并到一个有序链表中得到。
+1-&gt;1-&gt;2-&gt;3-&gt;4-&gt;4-&gt;5-&gt;6
+</pre>
 
-> **输入：** lists = []
->
-> **输出：**[]
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>lists = []
+<strong>输出：</strong>[]
+</pre>
 
-> **输入：** lists = [[]]
->
-> **输出：**[]
+<p><strong>示例 3：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>lists = [[]]
+<strong>输出：</strong>[]
+</pre>
 
-- `k == lists.length`
-- `0 <= k <= 10^4`
-- `0 <= lists[i].length <= 500`
-- `-10^4 <= lists[i][j] <= 10^4`
-- `lists[i]` 按 **升序** 排列
-- `lists[i].length` 的总和不超过 `10^4`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>k == lists.length</code></li>
+	<li><code>0 &lt;= k &lt;= 10^4</code></li>
+	<li><code>0 &lt;= lists[i].length &lt;= 500</code></li>
+	<li><code>-10^4 &lt;= lists[i][j] &lt;= 10^4</code></li>
+	<li><code>lists[i]</code> 按 <strong>升序</strong> 排列</li>
+	<li><code>lists[i].length</code> 的总和不超过 <code>10^4</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 23 题](../problem/0023.md) 相同。
-:::
 
 ## 解题思路
 

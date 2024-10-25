@@ -4,35 +4,43 @@
 
 ## 题目
 
-给定一个包含 `n` 个整数的数组 `nums`，判断 `nums` 中是否存在三个元素 `a` ，`b` ，`c` _，_ 使得 `a + b + c =
-0` ？请找出所有和为 `0` 且 **不重复 **的三元组。
+<p>给定一个包含 <code>n</code> 个整数的数组&nbsp;<code>nums</code>，判断&nbsp;<code>nums</code>&nbsp;中是否存在三个元素&nbsp;<code>a</code> ，<code>b</code> ，<code>c</code> <em>，</em>使得&nbsp;<code>a + b + c = 0</code> ？请找出所有和为 <code>0</code> 且&nbsp;<strong>不重复&nbsp;</strong>的三元组。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** nums = [-1,0,1,2,-1,-4]
->
-> **输出：**[[-1,-1,2],[-1,0,1]]
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>nums = [-1,0,1,2,-1,-4]
+<strong>输出：</strong>[[-1,-1,2],[-1,0,1]]
+</pre>
 
-> **输入：** nums = []
->
-> **输出：**[]
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>nums = []
+<strong>输出：</strong>[]
+</pre>
 
-> **输入：** nums = [0]
->
-> **输出：**[]
+<p><strong>示例 3：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>nums = [0]
+<strong>输出：</strong>[]
+</pre>
 
-- `0 <= nums.length <= 3000`
-- `-10^5 <= nums[i] <= 10^5`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= nums.length &lt;= 3000</code></li>
+	<li><code>-10<sup>5</sup> &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 15 题](../problem/0015.md) 相同。
-:::
 
 ## 解题思路
 

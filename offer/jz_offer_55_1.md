@@ -4,32 +4,29 @@
 
 ## 题目
 
-给定一个二叉树 `root` ，返回其最大深度。
+<p>某公司架构以二叉树形式记录，请返回该公司的层级数。</p>
 
-二叉树的 **最大深度** 是指从根节点到最远叶子节点的最长路径上的节点数。
+<p>&nbsp;</p>
 
-**示例 1：**
+<p><strong>示例 1：</strong></p>
 
-![](https://assets.leetcode.com/uploads/2020/11/26/tmp-tree.jpg)
+<p><img alt="" src="https://pic.leetcode.cn/1695101942-FSrxqu-image.png" /></p>
 
-> 输入：root = [3,9,20,null,null,15,7]
->
-> 输出：3
+<pre>
+<strong>输入：</strong>root = [1, 2, 2, 3, null, null, 5, 4, null, null, 4]
+<strong>输出: </strong>4
+<strong>解释: </strong>上面示例中的二叉树的最大深度是 4，沿着路径 1 -&gt; 2 -&gt; 3 -&gt; 4 或 1 -&gt; 2 -&gt; 5 -&gt; 4 到达叶节点的最长路径上有 4 个节点。
+</pre>
 
-**示例 2：**
+<p>&nbsp;</p>
 
-> 输入：root = [1,null,2]
->
-> 输出：2
+<p><strong>提示：</strong></p>
 
-**提示：**
+<ul>
+	<li><code>节点总数 &lt;= 10000</code></li>
+</ul>
 
-- 树中节点的数量在 `[0, 10^4]` 区间内。
-- `-100 <= Node.val <= 100`
-
-::: warning
 本题与 LeetCode [第 104 题](../problem/0104.md) 相同。
-:::
 
 ## 解题思路
 

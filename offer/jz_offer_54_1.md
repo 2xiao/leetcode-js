@@ -1,40 +1,52 @@
-# [54. 二叉搜索树的第 k 大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)
+# [54. 二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof)
 
 ## 题目
 
-某公司组织架构以二叉搜索树形式记录，节点值为处于该职位的员工编号。请返回第 cnt 大的员工编号。
+<p>某公司组织架构以二叉搜索树形式记录，节点值为处于该职位的员工编号。请返回第 <code>cnt</code> 大的员工编号。</p>
 
-**示例 1**：
+<p>&nbsp;</p>
 
-> 输入：root = [7, 3, 9, 1, 5], cnt = 2
->
-> 输出：7
+<p><strong>示例 1：</strong></p>
 
-        7
-       / \
-      3   9
-     / \
-    1   5
+<p><img alt="" src="https://pic.leetcode.cn/1695101634-kzHKZW-image.png" style="height: 281px; width: 500px;" /></p>
 
-**示例 2**：
+<pre>
+<strong>输入：</strong>root = [7, 3, 9, 1, 5], cnt = 2
+       7
+      / \
+     3   9
+    / \
+   1   5
+<strong>输出：</strong>7
+</pre>
 
-> 输入: root = [10, 5, 15, 2, 7, null, 20, 1, null, 6, 8], cnt = 4
->
-> 输出: 8
+<p><strong>示例 2：</strong></p>
 
-          10
-         / \
-        5   15
-       / \    \
-      2   7    20
-     /   / \
-    1   6   8
+<p><img alt="" src="https://pic.leetcode.cn/1695101636-ESZtLa-image.png" style="height: 281px; width: 500px;" /></p>
 
-**提示：**
+<pre>
+<strong>输入:</strong> root = [10, 5, 15, 2, 7, null, 20, 1, null, 6, 8], cnt = 4
+       10
+      / \
+     5   15
+    / \    \
+   2   7    20
+  /   / \ 
+ 1   6   8
+<strong>输出:</strong> 8</pre>
 
-`1 ≤ cnt ≤ 二叉搜索树元素个数`
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li>1 ≤ cnt&nbsp;≤ 二叉搜索树元素个数</li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

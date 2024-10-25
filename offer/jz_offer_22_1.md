@@ -1,26 +1,31 @@
-# [22. 链表中倒数第 k 个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
+# [22. 链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
 
 ## 题目
 
-给定一个头节点为 `head` 的链表用于记录一系列核心肌群训练项目编号，请查找并返回倒数第 `cnt` 个训练项目编号。
+<p>给定一个头节点为 <code>head</code> 的链表用于记录一系列核心肌群训练项目编号，请查找并返回倒数第 <code>cnt</code> 个训练项目编号。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> 输入：head = [2,4,7,8], cnt = 1
->
-> 输出：8
+<p><strong>示例 1：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>head = [2,4,7,8], cnt = 1
+<strong>输出：</strong>8</pre>
 
-- `1 <= head.length <= 100`
-- `0 <= head[i] <= 100`
-- `1 <= cnt <= head.length`
+<p>&nbsp;</p>
 
-::: warning
-本题与 LeetCode [第 19 题](../problem/0019.md) 相同。
-:::
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= head.length &lt;= 100</code></li>
+	<li><code>0 &lt;= head[i] &lt;= 100</code></li>
+	<li><code>1 &lt;= cnt &lt;= head.length</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

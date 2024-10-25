@@ -4,25 +4,43 @@
 
 ## 题目
 
-使用两个栈实现先入先出队列。需要实现对应的两个函数：
+<p>读者来到图书馆排队借还书，图书管理员使用两个书车来完成整理借还书的任务。书车中的书从下往上叠加存放，图书管理员每次只能拿取书车顶部的书。排队的读者会有两种操作：</p>
 
-- `appendTail`：在队列尾部插入整数。
-- `deleteHead`：在队列头部删除整数（如果队列中没有元素，`deleteHead` 返回 `-1`）。
+<ul>
+	<li><code>push(bookID)</code>：把借阅的书籍还到图书馆。</li>
+	<li><code>pop()</code>：从图书馆中借出书籍。</li>
+</ul>
 
-**Example:**
+<p>为了保持图书的顺序，图书管理员每次取出供读者借阅的书籍是 <strong>最早</strong> 归还到图书馆的书籍。你需要返回 <strong>每次读者借出书的值</strong> 。</p>
 
-> 输入：["CQueue","appendTail","deleteHead","deleteHead"], [[], [3], [], []]
->
-> 输出：[null,null,3,-1]
+<p>如果没有归还的书可以取出，返回&nbsp;<code>-1</code> 。</p>
 
-**Constraints:**
+<p>&nbsp;</p>
 
-- `1 <= values <= 10000`
-- 最多会对 `appendTail`、`deleteHead` 进行 `10000` 次调用
+<p><strong>示例 1：</strong></p>
 
-::: warning
-本题与 LeetCode [第 232 题](../problem/0232.md) 相同。
-:::
+<pre>
+<strong>输入：</strong>
+["BookQueue", "push", "push", "pop"]
+[[], [1], [2], []]
+<strong>输出：</strong>[null,null,null,1]
+<strong>解释：
+</strong>MyQueue myQueue = new MyQueue();
+myQueue.push(1); // queue is: [1]
+myQueue.push(2); // queue is: [1, 2] (leftmost is front of the queue)
+myQueue.pop(); // return 1, queue is [2]</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= bookID &lt;= 10000</code></li>
+	<li>最多会对 <code>push</code>、<code>pop</code> 进行 <code>10000</code> 次调用</li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

@@ -4,19 +4,29 @@
 
 ## 题目
 
-某店铺将用于组成套餐的商品记作字符串 `goods`，其中 `goods[i]` 表示对应商品。请返回该套餐内所含商品的 **全部排列方式** 。
+<p>某店铺将用于组成套餐的商品记作字符串 <code>goods</code>，其中 <code>goods[i]</code> 表示对应商品。请返回该套餐内所含商品的 <strong>全部排列方式</strong> 。</p>
 
-返回结果 **无顺序要求** ，但不能含有重复的元素。
+<p>返回结果 <strong>无顺序要求</strong>，但不能含有重复的元素。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> 输入：goods = "agew"
->
-> 输出：["aegw","aewg","agew","agwe","aweg","awge","eagw","eawg","egaw","egwa","ewag","ewga","gaew","gawe","geaw","gewa","gwae","gwea","waeg","wage","weag","wega","wgae","wgea"]
+<p><strong>示例 1:</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>goods = "agew"
+<strong>输出：</strong>["aegw","aewg","agew","agwe","aweg","awge","eagw","eawg","egaw","egwa","ewag","ewga","gaew","gawe","geaw","gewa","gwae","gwea","waeg","wage","weag","wega","wgae","wgea"]
+</pre>
 
-- `1 <= goods.length <= 8`
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= goods.length &lt;= 8</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

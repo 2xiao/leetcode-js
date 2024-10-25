@@ -4,34 +4,50 @@
 
 ## 题目
 
-给定一个头节点为 head 的单链表用于记录一系列核心肌群训练编号，请将该系列训练编号 **倒序** 记录于链表并返回。
+<p>给定一个头节点为 <code>head</code> 的单链表用于记录一系列核心肌群训练编号，请将该系列训练编号 <strong>倒序</strong> 记录于链表并返回。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> 输入：head = [1,2,3,4,5]
->
-> 输出：[5,4,3,2,1]
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>head = [1,2,3,4,5]
+<strong>输出：</strong>[5,4,3,2,1]
+</pre>
 
-> 输入：head = [1,2]
->
-> 输出：[2,1]
+<p>&nbsp;</p>
 
-**示例 3：**
+<p><strong>示例 2：</strong></p>
 
-> 输入：head = []
->
-> 输出：[]
+<pre>
+<strong>输入：</strong>head = [1,2]
+<strong>输出：</strong>[2,1]
+</pre>
 
-**提示：**
+<p>&nbsp;</p>
 
-- 链表中节点的数目范围是 `[0, 5000]`
-- `-5000 <= Node.val <= 5000`
+<p><strong>示例 3：</strong></p>
 
-::: warning
-本题与 LeetCode [第 206 题](../problem/0206.md) 相同。
-:::
+<pre>
+<strong>输入：</strong>head = []
+<strong>输出：</strong>[]
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li>链表中节点的数目范围是 <code>[0, 5000]</code></li>
+	<li><code>-5000 &lt;= Node.val &lt;= 5000</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>注意</strong>：本题与主站 206 题相同：<a href="https://leetcode-cn.com/problems/reverse-linked-list/">https://leetcode-cn.com/problems/reverse-linked-list/</a></p>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

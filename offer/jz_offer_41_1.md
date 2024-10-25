@@ -4,41 +4,44 @@
 
 ## 题目
 
-**中位数**是有序整数列表中的中间值。如果列表的大小是偶数，则没有中间值，中位数是两个中间值的平均值。
+<p><strong>中位数&nbsp;</strong>是有序整数列表中的中间值。如果列表的大小是偶数，则没有中间值，中位数是两个中间值的平均值。</p>
 
-例如，
+<p>例如，<br />
+<code>[2,3,4]</code> 的中位数是 <code>3</code><br />
+<code>[2,3]</code> 的中位数是 <code>(2 + 3) / 2 = 2.5</code><br />
+设计一个支持以下两种操作的数据结构：</p>
 
-- `[2,3,4]` 的中位数是 `3`
-- `[2,3]` 的中位数是 `(2 + 3) / 2 = 2.5`
+<ul>
+	<li><code>void addNum(int num)</code> - 从数据流中添加一个整数到数据结构中。</li>
+	<li><code>double findMedian()</code> - 返回目前所有元素的中位数。</li>
+</ul>
 
-设计一个支持以下两种操作的数据结构：
+<p><strong>示例 1：</strong></p>
 
-- `void addNum(int num)`：从数据流中添加一个整数到数据结构中。
-- `double findMedian()`：返回目前所有元素的中位数。
+<pre>
+<strong>输入：
+</strong>["MedianFinder","addNum","addNum","findMedian","addNum","findMedian"]
+[[],[1],[2],[],[3],[]]
+<strong>输出：</strong>[null,null,null,1.50000,null,2.00000]
+</pre>
 
-**示例 1：**
+<p><strong>示例 2：</strong></p>
 
-> **输入：**["MedianFinder","addNum","addNum","findMedian","addNum","findMedian"]
->
-> [[],[1],[2],[],[3],[]]
->
-> **输出：**[null,null,null,1.50000,null,2.00000]
+<pre>
+<strong>输入：
+</strong>["MedianFinder","addNum","findMedian","addNum","findMedian"]
+[[],[2],[],[3],[]]
+<strong>输出：</strong>[null,null,2.00000,null,2.50000]</pre>
 
-**示例 2：**
+<p>&nbsp;</p>
 
-> **输入：**["MedianFinder","addNum","findMedian","addNum","findMedian"]
->
-> [[],[2],[],[3],[]]
->
-> **输出：**[null,null,2.00000,null,2.50000]
+<p><strong>提示：</strong></p>
 
-**提示：**
+<ul>
+	<li>最多会对&nbsp;<code>addNum、findMedian</code> 进行&nbsp;<code>50000</code>&nbsp;次调用。</li>
+</ul>
 
-- 最多会对 `addNum、findMedian` 进行 `50000` 次调用。
-
-::: warning
 本题与 LeetCode [第 295 题](../problem/0295.md) 相同。
-:::
 
 ## 解题思路
 

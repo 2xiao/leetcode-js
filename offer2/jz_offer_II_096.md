@@ -4,46 +4,57 @@
 
 ## 题目
 
-给定三个字符串 `s1`、`s2`、`s3`，请判断 `s3` 能不能由 `s1` 和 `s2` **交织（交错）** 组成。
+<p>给定三个字符串&nbsp;<code>s1</code>、<code>s2</code>、<code>s3</code>，请判断&nbsp;<code>s3</code>&nbsp;能不能由&nbsp;<code>s1</code>&nbsp;和&nbsp;<code>s2</code><em>&nbsp;</em><strong>交织（交错）</strong>&nbsp;组成。</p>
 
-两个字符串 `s` 和 `t` **交织** 的定义与过程如下，其中每个字符串都会被分割成若干 **非空** 子字符串：
+<p>两个字符串 <code>s</code> 和 <code>t</code> <strong>交织</strong>&nbsp;的定义与过程如下，其中每个字符串都会被分割成若干 <strong>非空</strong> 子字符串：</p>
 
-- `s = s1 + s2 + ... + sn`
-- `t = t1 + t2 + ... + tm`
-- `|n - m| <= 1`
-- **交织** 是 `s1 + t1 + s2 + t2 + s3 + t3 + ...` 或者 `t1 + s1 + t2 + s2 + t3 + s3 + ...`
+<ul>
+	<li><code>s = s<sub>1</sub> + s<sub>2</sub> + ... + s<sub>n</sub></code></li>
+	<li><code>t = t<sub>1</sub> + t<sub>2</sub> + ... + t<sub>m</sub></code></li>
+	<li><code>|n - m| &lt;= 1</code></li>
+	<li><b>交织</b> 是 <code>s<sub>1</sub> + t<sub>1</sub> + s<sub>2</sub> + t<sub>2</sub> + s<sub>3</sub> + t<sub>3</sub> + ...</code> 或者 <code>t<sub>1</sub> + s<sub>1</sub> + t<sub>2</sub> + s<sub>2</sub> + t<sub>3</sub> + s<sub>3</sub> + ...</code></li>
+</ul>
 
-**提示：**`a + b` 意味着字符串 `a` 和 `b` 连接。
+<p><strong>提示：</strong><code>a + b</code> 意味着字符串 <code>a</code> 和 <code>b</code> 连接。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-![](https://assets.leetcode.com/uploads/2020/09/02/interleave.jpg)
+<p><strong>示例 1：</strong></p>
 
-> **输入：** s1 = "aabcc", s2 = "dbbca", s3 = "aadbbcbcac"
->
-> **输出：** true
+<p><img alt="" src="https://assets.leetcode.com/uploads/2020/09/02/interleave.jpg" style="width: 561px; height: 203px;" /></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>s1 = &quot;aabcc&quot;, s2 = &quot;dbbca&quot;, s3 = &quot;aadbbcbcac&quot;
+<strong>输出：</strong>true
+</pre>
 
-> **输入：** s1 = "aabcc", s2 = "dbbca", s3 = "aadbbbaccc"
->
-> **输出：** false
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>s1 = &quot;aabcc&quot;, s2 = &quot;dbbca&quot;, s3 = &quot;aadbbbaccc&quot;
+<strong>输出：</strong>false
+</pre>
 
-> **输入：** s1 = "", s2 = "", s3 = ""
->
-> **输出：** true
+<p><strong>示例 3：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>s1 = &quot;&quot;, s2 = &quot;&quot;, s3 = &quot;&quot;
+<strong>输出：</strong>true
+</pre>
 
-- `0 <= s1.length, s2.length <= 100`
-- `0 <= s3.length <= 200`
-- `s1`、`s2`、和 `s3` 都由小写英文字母组成
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= s1.length, s2.length &lt;= 100</code></li>
+	<li><code>0 &lt;= s3.length &lt;= 200</code></li>
+	<li><code>s1</code>、<code>s2</code>、和 <code>s3</code> 都由小写英文字母组成</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 97 题](../problem/0097.md) 相同。
-:::
 
 ## 解题思路
 

@@ -4,53 +4,62 @@
 
 ## 题目
 
-给定一个**无重复元素** 的正整数数组 `candidates` 和一个正整数 `target` ，找出 `candidates`
-中所有可以使数字和为目标数 `target` 的唯一组合。
+<p>给定一个<strong>无重复元素</strong>的正整数数组&nbsp;<code>candidates</code>&nbsp;和一个正整数&nbsp;<code>target</code>&nbsp;，找出&nbsp;<code>candidates</code>&nbsp;中所有可以使数字和为目标数&nbsp;<code>target</code>&nbsp;的唯一组合。</p>
 
-`candidates` 中的数字可以无限制重复被选取。如果至少一个所选数字数量不同，则两种组合是不同的。
+<p><code>candidates</code>&nbsp;中的数字可以无限制重复被选取。如果至少一个所选数字数量不同，则两种组合是不同的。&nbsp;</p>
 
-对于给定的输入，保证和为 `target` 的唯一组合数少于 `150` 个。
+<p>对于给定的输入，保证和为&nbsp;<code>target</code> 的唯一组合数少于 <code>150</code> 个。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入:** candidates = [2,3,6,7], target = 7
->
-> **输出:**[[7],[2,2,3]]
+<p><strong>示例&nbsp;1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入: </strong>candidates = [2,3,6,7], target = 7
+<strong>输出: </strong>[[7],[2,2,3]]
+</pre>
 
-> **输入:** candidates = [2,3,5], target = 8
->
-> **输出:**[[2,2,2,2],[2,3,3],[3,5]]
+<p><strong>示例&nbsp;2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入: </strong>candidates = [2,3,5], target = 8
+<strong>输出: </strong>[[2,2,2,2],[2,3,3],[3,5]]</pre>
 
-> **输入:** candidates = [2], target = 1
->
-> **输出:**[]
+<p><strong>示例 3：</strong></p>
 
-**示例 4：**
+<pre>
+<strong>输入: </strong>candidates = [2], target = 1
+<strong>输出: </strong>[]
+</pre>
 
-> **输入:** candidates = [1], target = 1
->
-> **输出:**[[1]]
+<p><strong>示例 4：</strong></p>
 
-**示例 5：**
+<pre>
+<strong>输入: </strong>candidates = [1], target = 1
+<strong>输出: </strong>[[1]]
+</pre>
 
-> **输入:** candidates = [1], target = 2
->
-> **输出:**[[1,1]]
+<p><strong>示例 5：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入: </strong>candidates = [1], target = 2
+<strong>输出: </strong>[[1,1]]
+</pre>
 
-- `1 <= candidates.length <= 30`
-- `1 <= candidates[i] <= 200`
-- `candidate` 中的每个元素都是独一无二的。
-- `1 <= target <= 500`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= candidates.length &lt;= 30</code></li>
+	<li><code>1 &lt;= candidates[i] &lt;= 200</code></li>
+	<li><code>candidate</code> 中的每个元素都是独一无二的。</li>
+	<li><code>1 &lt;= target &lt;= 500</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 39 题](../problem/0039.md) 相同。
-:::
 
 ## 解题思路
 

@@ -4,43 +4,55 @@
 
 ## 题目
 
-给定一个含有 `n` 个正整数的数组和一个正整数 `target`。
+<p>给定一个含有&nbsp;<code>n</code><strong>&nbsp;</strong>个正整数的数组和一个正整数 <code>target</code><strong> 。</strong></p>
 
-找出该数组中满足其和 `≥ target` 的长度最小的 **连续子数组** `[numsl, numsl+1, ..., numsr-1,numsr]` ，并返回其长度。 如果不存在符合条件的子数组，返回 `0` 。
+<p>找出该数组中满足其和<strong> </strong><code>&ge; target</code><strong> </strong>的长度最小的 <strong>连续子数组</strong>&nbsp;<code>[nums<sub>l</sub>, nums<sub>l+1</sub>, ..., nums<sub>r-1</sub>, nums<sub>r</sub>]</code> ，并返回其长度<strong>。</strong>如果不存在符合条件的子数组，返回 <code>0</code> 。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** target = 7, nums = [2,3,1,2,4,3]
->
-> **输出：** 2
->
-> **解释：** 子数组 [4,3] 是该条件下的长度最小的子数组。
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>target = 7, nums = [2,3,1,2,4,3]
+<strong>输出：</strong>2
+<strong>解释：</strong>子数组&nbsp;<code>[4,3]</code>&nbsp;是该条件下的长度最小的子数组。
+</pre>
 
-> **输入：** target = 4, nums = [1,4,4]
->
-> **输出：** 1
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>target = 4, nums = [1,4,4]
+<strong>输出：</strong>1
+</pre>
 
-> **输入：** target = 11, nums = [1,1,1,1,1,1,1,1]
->
-> **输出：** 0
+<p><strong>示例 3：</strong></p>
 
-提示：
+<pre>
+<strong>输入：</strong>target = 11, nums = [1,1,1,1,1,1,1,1]
+<strong>输出：</strong>0
+</pre>
 
-- `1 <= target <= 10^9`
-- `1 <= nums.length <= 10^5`
-- `1 <= nums[i] <= 10^5`
+<p>&nbsp;</p>
 
-进阶：
+<p>提示：</p>
 
-- 如果你已经实现 `O(n)` 时间复杂度的解法, 请尝试设计一个 `O(n log(n))` 时间复杂度的解法。
+<ul>
+	<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>
+	<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>1 &lt;= nums[i] &lt;= 10<sup>5</sup></code></li>
+</ul>
 
-::: warning
+<p>&nbsp;</p>
+
+<p>进阶：</p>
+
+<ul>
+	<li>如果你已经实现<em> </em><code>O(n)</code> 时间复杂度的解法, 请尝试设计一个 <code>O(n log(n))</code> 时间复杂度的解法。</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 209 题](../problem/0209.md) 相同。
-:::
 
 ## 解题思路
 

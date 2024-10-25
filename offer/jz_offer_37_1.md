@@ -4,46 +4,52 @@
 
 ## 题目
 
-序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方式重构得到原数据。
+<p>序列化是将一个数据结构或者对象转换为连续的比特位的操作，进而可以将转换后的数据存储在一个文件或者内存中，同时也可以通过网络传输到另一个计算机环境，采取相反方式重构得到原数据。</p>
 
-请设计一个算法来实现二叉树的序列化与反序列化。这里不限定你的序列 / 反序列化算法执行逻辑，你只需要保证一个二叉树可以被序列化为一个字符串并且将这个字符串反序列化为原始的树结构。
+<p>请设计一个算法来实现二叉树的序列化与反序列化。这里不限定你的序列 / 反序列化算法执行逻辑，你只需要保证一个二叉树可以被序列化为一个字符串并且将这个字符串反序列化为原始的树结构。</p>
 
-提示: 输入输出格式与 LeetCode 目前使用的方式一致，详情请参阅 [LeetCode 序列化二叉树的格式](https://leetcode.cn/faq/#binary-tree)。你并非必须采取这种方式，你也可以采用其他的方法解决这个问题。
+<p><strong>提示: </strong>输入输出格式与 LeetCode 目前使用的方式一致，详情请参阅&nbsp;<a href="/faq/#binary-tree">LeetCode 序列化二叉树的格式</a>。你并非必须采取这种方式，你也可以采用其他的方法解决这个问题。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-![](https://assets.leetcode.com/uploads/2020/09/15/serdeser.jpg)
+<p><strong>示例 1：</strong></p>
+<img alt="" src="https://assets.leetcode.com/uploads/2020/09/15/serdeser.jpg" />
+<pre>
+<strong>输入：</strong>root = [1,2,3,null,null,4,5]
+<strong>输出：</strong>[1,2,3,null,null,4,5]
+</pre>
 
-> 输入：root = [1,2,3,null,null,4,5]
->
-> 输出：[1,2,3,null,null,4,5]
+<p><strong>示例 2：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>root = []
+<strong>输出：</strong>[]
+</pre>
 
-> 输入：root = []
->
-> 输出：[]
+<p><strong>示例 3：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>root = [1]
+<strong>输出：</strong>[1]
+</pre>
 
-> 输入：root = [1]
->
-> 输出：[1]
+<p><strong>示例 4：</strong></p>
 
-**示例 4：**
+<pre>
+<strong>输入：</strong>root = [1,2]
+<strong>输出：</strong>[1,2]
+</pre>
 
-> 输入：root = [1,2]
->
-> 输出：[1,2]
+<p>&nbsp;</p>
 
-**提示：**
+<p><strong>提示：</strong></p>
 
-- 树中结点数在范围 `[0, 10^4]` 内
-- `-1000 <= Node.val <= 1000`
+<ul>
+	<li>树中结点数在范围 <code>[0, 10<sup>4</sup>]</code> 内</li>
+	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
+</ul>
 
-::: warning
 本题与 LeetCode [第 297 题](../problem/0297.md) 相同。
-:::
 
 ## 解题思路
 

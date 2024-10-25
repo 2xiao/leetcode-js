@@ -4,52 +4,47 @@
 
 ## 题目
 
-给定一个可能有重复数字的整数数组 `candidates` 和一个目标数 `target` ，找出 `candidates` 中所有可以使数字和为
-`target` 的组合。
+<p>给定一个可能有重复数字的整数数组&nbsp;<code>candidates</code>&nbsp;和一个目标数&nbsp;<code>target</code>&nbsp;，找出&nbsp;<code>candidates</code>&nbsp;中所有可以使数字和为&nbsp;<code>target</code>&nbsp;的组合。</p>
 
-`candidates` 中的每个数字在每个组合中只能使用一次，解集不能包含重复的组合。
+<p><code>candidates</code>&nbsp;中的每个数字在每个组合中只能使用一次，解集不能包含重复的组合。&nbsp;</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> **输入:** candidates = [10,1,2,7,6,1,5], target = 8,
->
-> **输出:**
->
-> [
->
-> [1,1,6],
->
-> [1,2,5],
->
-> [1,7],
->
-> [2,6]
->
-> ]
+<p><strong>示例&nbsp;1:</strong></p>
 
-**示例 2:**
+<pre>
+<strong>输入:</strong> candidates =&nbsp;<code>[10,1,2,7,6,1,5]</code>, target =&nbsp;<code>8</code>,
+<strong>输出:</strong>
+[
+[1,1,6],
+[1,2,5],
+[1,7],
+[2,6]
+]</pre>
 
-> **输入:** candidates = [2,5,2,1,2], target = 5,
->
-> **输出:**
->
-> [
->
-> [1,2,2],
->
-> [5]
->
-> ]
+<p><strong>示例&nbsp;2:</strong></p>
 
-**提示:**
+<pre>
+<strong>输入:</strong> candidates =&nbsp;[2,5,2,1,2], target =&nbsp;5,
+<strong>输出:</strong>
+[
+[1,2,2],
+[5]
+]</pre>
 
-- `1 <= candidates.length <= 100`
-- `1 <= candidates[i] <= 50`
-- `1 <= target <= 30`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示:</strong></p>
+
+<ul>
+	<li><code>1 &lt;=&nbsp;candidates.length &lt;= 100</code></li>
+	<li><code>1 &lt;=&nbsp;candidates[i] &lt;= 50</code></li>
+	<li><code>1 &lt;= target &lt;= 30</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 40 题](../problem/0040.md) 相同。
-:::
 
 ## 解题思路
 

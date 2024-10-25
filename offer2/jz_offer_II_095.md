@@ -4,46 +4,54 @@
 
 ## 题目
 
-给定两个字符串 `text1` 和 `text2`，返回这两个字符串的最长 **公共子序列** 的长度。如果不存在 **公共子序列** ，返回 `0` 。
+<p>给定两个字符串&nbsp;<code>text1</code> 和&nbsp;<code>text2</code>，返回这两个字符串的最长 <strong>公共子序列</strong> 的长度。如果不存在 <strong>公共子序列</strong> ，返回 <code>0</code> 。</p>
 
-一个字符串的 **子序列** 是指这样一个新的字符串：它是由原字符串在不改变字符的相对顺序的情况下删除某些字符（也可以不删除任何字符）后组成的新字符串。
+<p>一个字符串的&nbsp;<strong>子序列</strong><em>&nbsp;</em>是指这样一个新的字符串：它是由原字符串在不改变字符的相对顺序的情况下删除某些字符（也可以不删除任何字符）后组成的新字符串。</p>
 
-- 例如，`"ace"` 是 `"abcde"` 的子序列，但 `"aec"` 不是 `"abcde"` 的子序列。
+<ul>
+	<li>例如，<code>&quot;ace&quot;</code> 是 <code>&quot;abcde&quot;</code> 的子序列，但 <code>&quot;aec&quot;</code> 不是 <code>&quot;abcde&quot;</code> 的子序列。</li>
+</ul>
 
-两个字符串的 **公共子序列** 是这两个字符串所共同拥有的子序列。
+<p>两个字符串的 <strong>公共子序列</strong> 是这两个字符串所共同拥有的子序列。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** text1 = "abcde", text2 = "ace"
->
-> **输出：** 3
->
-> **解释：** 最长公共子序列是 "ace" ，它的长度为 3 。
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>text1 = &quot;abcde&quot;, text2 = &quot;ace&quot; 
+<strong>输出：</strong>3  
+<strong>解释：</strong>最长公共子序列是 &quot;ace&quot; ，它的长度为 3 。
+</pre>
 
-> **输入：** text1 = "abc", text2 = "abc"
->
-> **输出：** 3
->
-> **解释：** 最长公共子序列是 "abc" ，它的长度为 3 。
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>text1 = &quot;abc&quot;, text2 = &quot;abc&quot;
+<strong>输出：</strong>3
+<strong>解释：</strong>最长公共子序列是 &quot;abc&quot; ，它的长度为 3 。
+</pre>
 
-> **输入：** text1 = "abc", text2 = "def"
->
-> **输出：** 0
->
-> **解释：** 两个字符串没有公共子序列，返回 0 。
+<p><strong>示例 3：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>text1 = &quot;abc&quot;, text2 = &quot;def&quot;
+<strong>输出：</strong>0
+<strong>解释：</strong>两个字符串没有公共子序列，返回 0 。
+</pre>
 
-- `1 <= text1.length, text2.length <= 1000`
-- `text1` 和 `text2` 仅由小写英文字符组成。
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= text1.length, text2.length &lt;= 1000</code></li>
+	<li><code>text1</code> 和&nbsp;<code>text2</code> 仅由小写英文字符组成。</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 1143 题](../problem/1143.md) 相同。
-:::
 
 ## 解题思路
 

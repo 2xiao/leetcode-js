@@ -4,23 +4,30 @@
 
 ## 题目
 
-某套连招动作记作仅由小写字母组成的序列 `arr`，其中 `arr[i]` 第 `i` 个招式的名字。请返回第一个只出现一次的招式名称，如不存在请返回空格。
+<p>某套连招动作记作仅由小写字母组成的序列 <code>arr</code>，其中 <code>arr[i]</code> 第 <code>i</code> 个招式的名字。请返回第一个只出现一次的招式名称，如不存在请返回空格。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> 输入：arr = "abbccdeff"
->
-> 输出：'a'
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>arr = "abbccdeff"
+<strong>输出：</strong>'a'
+</pre>
 
-> 输入：arr = "ccdd"
->
-> 输出：' '
+<p><strong>示例 2：</strong></p>
 
-**限制：**
+<pre>
+<strong>输入：</strong>arr = "ccdd"
+<strong>输出：</strong>' '
+</pre>
 
-- `0 <= arr.length <= 50000`
+<p>&nbsp;</p>
+
+<p><strong>限制：</strong></p>
+
+<p><code>0 &lt;= arr.length&nbsp;&lt;= 50000</code></p>
+
 
 ## 解题思路
 

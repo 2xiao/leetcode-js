@@ -4,22 +4,26 @@
 
 ## 题目
 
-仓库管理员以数组 `stock` 形式记录商品库存表。`stock[i]` 表示商品 `id`，可能存在重复。请返回库存表中数量大于 `stock.length / `2 的商品 `id`。
+<p>仓库管理员以数组 <code>stock</code> 形式记录商品库存表。<code>stock[i]</code> 表示商品 <code>id</code>，可能存在重复。请返回库存表中数量大于 <code>stock.length / 2</code> 的商品 <code>id</code>。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> 输入: stock = [6, 1, 3, 1, 1, 1]
->
-> 输出: 1
+<p><strong>示例&nbsp;1:</strong></p>
 
-**提示：**
+<pre>
+<strong>输入: </strong>stock = [6, 1, 3, 1, 1, 1]
+<strong>输出: </strong>1</pre>
 
-- `1 <= stock.length <= 50000`
-- 给定数组为非空数组，且存在结果数字
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>限制：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= stock.length &lt;= 50000</code></li>
+	<li>给定数组为非空数组，且存在结果数字</li>
+</ul>
+
 本题与 LeetCode [第 169 题](../problem/0169.md) 相同。
-:::
 
 ## 解题思路
 

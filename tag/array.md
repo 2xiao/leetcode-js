@@ -614,7 +614,7 @@
 | 1230 | [抛掷硬币](https://leetcode.com/problems/toss-strange-coins) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1231 | [分享巧克力](https://leetcode.com/problems/divide-chocolate) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
 | 1232 | [缀点成线](https://leetcode.com/problems/check-if-it-is-a-straight-line) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
-| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) | [[✓]](/problem/1233.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1235 | [规划兼职工作](https://leetcode.com/problems/maximum-profit-in-job-scheduling) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1239 | [串联字符串的最大长度](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1243 | [数组变换](https://leetcode.com/problems/array-transformation) |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |

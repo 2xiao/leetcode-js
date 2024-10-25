@@ -265,7 +265,7 @@
 | 剑指 Offer II 5 | [单词长度的最大乘积](https://leetcode.cn/problems/aseY1I) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 67 | [最大的异或](https://leetcode.cn/problems/ms70jA) |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 79 | [所有子集](https://leetcode.cn/problems/TVdhkn) | [[✓]](/offer2/jz_offer_II_079.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 面试题 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 面试题 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) | [[✓]](/interview/i_01.01.md) |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 面试题 01.04 | [回文排列](https://leetcode.cn/problems/palindrome-permutation-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 面试题 05.01 | [插入](https://leetcode.cn/problems/insert-into-bits-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) | <font color=#15bd66>Easy</font> |
 | 面试题 05.02 | [二进制数转字符串](https://leetcode.cn/problems/binary-number-to-string-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |

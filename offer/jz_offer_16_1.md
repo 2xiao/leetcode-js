@@ -4,39 +4,43 @@
 
 ## 题目
 
-实现 `pow(x, n)` ，即计算 `x` 的 `n` 次幂函数（即，`x^n`）。
+<p>实现&nbsp;<a href="https://www.cplusplus.com/reference/valarray/pow/">pow(<em>x</em>,&nbsp;<em>n</em>)</a>&nbsp;，即计算 x 的 n 次幂函数（即，x<sup>n</sup>）。</p>
 
-**Example 1:**
+<p>&nbsp;</p>
 
-> 输入：x = 2.00000, n = 10
->
-> 输出：1024.00000
+<p><strong>示例 1：</strong></p>
 
-**Example 2:**
+<pre>
+<strong>输入：</strong>x = 2.00000, n = 10
+<strong>输出：</strong>1024.00000
+</pre>
 
-> 输入：x = 2.10000, n = 3
->
-> 输出：9.26100
+<p><strong>示例 2：</strong></p>
 
-**Example 3:**
+<pre>
+<strong>输入：</strong>x = 2.10000, n = 3
+<strong>输出：</strong>9.26100</pre>
 
-> 输入：x = 2.00000, n = -2
->
-> 输出：0.25000
->
-> 解释：2-2 = 1/22 = 1/4 = 0.25
+<p><strong>示例 3：</strong></p>
 
-**Constraints:**
+<pre>
+<strong>输入：</strong>x = 2.00000, n = -2
+<strong>输出：</strong>0.25000
+<strong>解释：</strong>2<sup>-2</sup> = 1/2<sup>2</sup> = 1/4 = 0.25</pre>
 
-- `-100.0 < x < 100.0`
-- `-2^31 <= n <= 2^31-1`
-- `-10^4 <= x^n <= 10^4`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>-100.0 &lt;&nbsp;x&nbsp;&lt; 100.0</code></li>
+	<li><code>-2<sup>31</sup>&nbsp;&lt;= n &lt;=&nbsp;2<sup>31</sup>-1</code></li>
+	<li><code>-10<sup>4</sup>&nbsp;&lt;= x<sup>n</sup>&nbsp;&lt;= 10<sup>4</sup></code></li>
+</ul>
+
+<p>&nbsp;</p>
 
 本题与 LeetCode [第 50 题](../problem/0050.md) 相同。
-
-:::
 
 ## 解题思路
 

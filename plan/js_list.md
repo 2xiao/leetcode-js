@@ -8,13 +8,13 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 2618 | [检查是否是类的对象实例](https://leetcode.com/problems/check-if-object-instance-of-class) |  |  | <font color=#ffb800>Medium</font> |
+| 2618 | [检查是否是类的对象实例](https://leetcode.com/problems/check-if-object-instance-of-class) | [[✓]](/problem/2618.md) |  | <font color=#ffb800>Medium</font> |
 | 2619 | [数组原型对象的最后一个元素](https://leetcode.com/problems/array-prototype-last) | [[✓]](/problem/2619.md) |  | <font color=#15bd66>Easy</font> |
 | 2620 | [计数器](https://leetcode.com/problems/counter) | [[✓]](/problem/2620.md) |  | <font color=#15bd66>Easy</font> |
 | 2621 | [睡眠函数](https://leetcode.com/problems/sleep) | [[✓]](/problem/2621.md) |  | <font color=#15bd66>Easy</font> |
 | 2622 | [有时间限制的缓存](https://leetcode.com/problems/cache-with-time-limit) | [[✓]](/problem/2622.md) |  | <font color=#ffb800>Medium</font> |
 | 2623 | [记忆函数](https://leetcode.com/problems/memoize) | [[✓]](/problem/2623.md) |  | <font color=#ffb800>Medium</font> |
-| 2624 | [蜗牛排序](https://leetcode.com/problems/snail-traversal) |  |  | <font color=#ffb800>Medium</font> |
+| 2624 | [蜗牛排序](https://leetcode.com/problems/snail-traversal) | [[✓]](/problem/2624.md) |  | <font color=#ffb800>Medium</font> |
 | 2625 | [扁平化嵌套数组](https://leetcode.com/problems/flatten-deeply-nested-array) | [[✓]](/problem/2625.md) |  | <font color=#ffb800>Medium</font> |
 | 2626 | [数组归约运算](https://leetcode.com/problems/array-reduce-transformation) | [[✓]](/problem/2626.md) |  | <font color=#15bd66>Easy</font> |
 | 2627 | [函数防抖](https://leetcode.com/problems/debounce) | [[✓]](/problem/2627.md) |  | <font color=#ffb800>Medium</font> |

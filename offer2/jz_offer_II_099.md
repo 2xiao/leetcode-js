@@ -4,36 +4,43 @@
 
 ## 题目
 
-给定一个包含非负整数的 `m x n` 网格 `grid` ，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。
+<p>给定一个包含非负整数的 <code><em>m</em>&nbsp;x&nbsp;<em>n</em></code>&nbsp;网格&nbsp;<code>grid</code> ，请找出一条从左上角到右下角的路径，使得路径上的数字总和为最小。</p>
 
-**说明：** 一个机器人每次只能向下或者向右移动一步。
+<p><strong>说明：</strong>一个机器人每次只能向下或者向右移动一步。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-![](https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg)
+<p><strong>示例 1：</strong></p>
 
-> **输入：** grid = [[1,3,1],[1,5,1],[4,2,1]]
->
-> **输出：** 7
->
-> **解释：** 因为路径 1->3->1->1->1 的总和最小。
+<p><img alt="" src="https://assets.leetcode.com/uploads/2020/11/05/minpath.jpg" style="width: 242px; height: 242px;" /></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>grid = [[1,3,1],[1,5,1],[4,2,1]]
+<strong>输出：</strong>7
+<strong>解释：</strong>因为路径 1&rarr;3&rarr;1&rarr;1&rarr;1 的总和最小。
+</pre>
 
-> **输入：** grid = [[1,2,3],[4,5,6]]
->
-> **输出：** 12
+<p><strong>示例 2：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>grid = [[1,2,3],[4,5,6]]
+<strong>输出：</strong>12
+</pre>
 
-- `m == grid.length`
-- `n == grid[i].length`
-- `1 <= m, n <= 200`
-- `0 <= grid[i][j] <= 100`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>m == grid.length</code></li>
+	<li><code>n == grid[i].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 200</code></li>
+	<li><code>0 &lt;= grid[i][j] &lt;= 100</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 64 题](../problem/0064.md) 相同。
-:::
 
 ## 解题思路
 

@@ -4,37 +4,44 @@
 
 ## 题目
 
-给定一个字符串数组 `strs` ，将 **变位词** 组合在一起。 可以按任意顺序返回结果列表。
+<p>给定一个字符串数组 <code>strs</code> ，将&nbsp;<strong>变位词&nbsp;</strong>组合在一起。 可以按任意顺序返回结果列表。</p>
 
-**注意：** 若两个字符串中每个字符出现的次数都相同，则称它们互为变位词。
+<p><strong>注意：</strong>若两个字符串中每个字符出现的次数都相同，则称它们互为变位词。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> **输入:** strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
->
-> **输出:**[["bat"],["nat","tan"],["ate","eat","tea"]]
+<p><strong>示例 1:</strong></p>
 
-**示例 2:**
+<pre>
+<strong>输入:</strong> strs = <code>[&quot;eat&quot;, &quot;tea&quot;, &quot;tan&quot;, &quot;ate&quot;, &quot;nat&quot;, &quot;bat&quot;]</code>
+<strong>输出: </strong>[[&quot;bat&quot;],[&quot;nat&quot;,&quot;tan&quot;],[&quot;ate&quot;,&quot;eat&quot;,&quot;tea&quot;]]</pre>
 
-> **输入:** strs = [""]
->
-> **输出:**[[""]]
+<p><strong>示例 2:</strong></p>
 
-**示例 3:**
+<pre>
+<strong>输入:</strong> strs = <code>[&quot;&quot;]</code>
+<strong>输出: </strong>[[&quot;&quot;]]
+</pre>
 
-> **输入:** strs = ["a"]
->
-> **输出:**[["a"]]
+<p><strong>示例 3:</strong></p>
 
-**提示：**
+<pre>
+<strong>输入:</strong> strs = <code>[&quot;a&quot;]</code>
+<strong>输出: </strong>[[&quot;a&quot;]]</pre>
 
-- `1 <= strs.length <= 10^4`
-- `0 <= strs[i].length <= 100`
-- `strs[i]` 仅包含小写字母
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= strs.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>0 &lt;= strs[i].length &lt;= 100</code></li>
+	<li><code>strs[i]</code>&nbsp;仅包含小写字母</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 49 题](../problem/0049.md) 相同。
-:::
 
 ## 解题思路
 

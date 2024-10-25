@@ -463,7 +463,7 @@
 | 剑指 Offer II 75 | [数组相对排序](https://leetcode.cn/problems/0H97ZC) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
 | 剑指 Offer II 76 | [数组中的第 k 大的数字](https://leetcode.cn/problems/xx4gT2) | [[✓]](/offer2/jz_offer_II_076.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | <font color=#ffb800>Medium</font> |
 | 剑指 Offer II 77 | [链表排序](https://leetcode.cn/problems/7WHec2) | [[✓]](/offer2/jz_offer_II_077.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
-| 面试题 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 面试题 01.01 | [判定字符是否唯一](https://leetcode.cn/problems/is-unique-lcci) | [[✓]](/interview/i_01.01.md) |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 面试题 01.02 | [判定是否互为字符重排](https://leetcode.cn/problems/check-permutation-lcci) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 面试题 08.13 | [堆箱子](https://leetcode.cn/problems/pile-box-lcci) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
 | 面试题 10.01 | [合并排序的数组](https://leetcode.cn/problems/sorted-merge-lcci) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |

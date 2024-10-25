@@ -4,36 +4,45 @@
 
 ## 题目
 
-给定一个二叉树的 **根节点** `root`，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。
+<p>给定一个二叉树的 <strong>根节点</strong> <code>root</code>，想象自己站在它的右侧，按照从顶部到底部的顺序，返回从右侧所能看到的节点值。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-![](https://assets.leetcode.com/uploads/2021/02/14/tree.jpg)
+<p><strong>示例 1:</strong></p>
 
-> **输入:** [1,2,3,null,5,null,4]
->
-> **输出:** [1,3,4]
+<p><img src="https://assets.leetcode.com/uploads/2021/02/14/tree.jpg" style="width: 270px; " /></p>
 
-**示例 2:**
+<pre>
+<strong>输入:</strong>&nbsp;[1,2,3,null,5,null,4]
+<strong>输出:</strong>&nbsp;[1,3,4]
+</pre>
 
-> **输入:** [1,null,3]
->
-> **输出:** [1,3]
+<p><strong>示例 2:</strong></p>
 
-**示例 3:**
+<pre>
+<strong>输入:</strong>&nbsp;[1,null,3]
+<strong>输出:</strong>&nbsp;[1,3]
+</pre>
 
-> **输入:** []
->
-> **输出:** []
+<p><strong>示例 3:</strong></p>
 
-**提示:**
+<pre>
+<strong>输入:</strong>&nbsp;[]
+<strong>输出:</strong>&nbsp;[]
+</pre>
 
-- 二叉树的节点个数的范围是 `[0,100]`
-- `-100 <= Node.val <= 100`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示:</strong></p>
+
+<ul>
+	<li>二叉树的节点个数的范围是 <code>[0,100]</code></li>
+	<li><meta charset="UTF-8" /><code>-100&nbsp;&lt;= Node.val &lt;= 100</code>&nbsp;</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 199 题](../problem/0199.md) 相同。
-:::
 
 ## 解题思路
 

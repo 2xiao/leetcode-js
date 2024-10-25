@@ -4,40 +4,45 @@
 
 ## 题目
 
-给定一个字符串 `s` ，请你找出其中不含有重复字符的 **最长子串** 的长度。
+<p>某套连招动作记作序列 <code>arr</code>，其中 <code>arr[i]</code> 为第 <code>i</code> 个招式的名字。请返回 <code>arr</code> 中最多可以出连续不重复的多少个招式。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> 输入: s = "abcabcbb"
->
-> 输出: 3
->
-> 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
+<p><strong>示例&nbsp;1:</strong></p>
 
-**示例 2:**
+<pre>
+<strong>输入: </strong>arr = "dbascDdad"
+<strong>输出: </strong>6
+<strong>解释:</strong> 因为连续且最长的招式序列是 "dbascD" 或 "bascDd"，所以其长度为 6。
+</pre>
 
-> 输入: s = "bbbbb"
->
-> 输出: 1
->
-> 解释: 因为无重复字符的最长子串是 "b"，所以其长度为 1。
+<p><strong>示例 2:</strong></p>
 
-**示例 3:**
+<pre>
+<strong>输入: </strong>arr = "KKK"
+<strong>输出: </strong>1
+<strong>解释: </strong>因为无重复字符的最长子串是 <code>"K"</code>，所以其长度为 1。
+</pre>
 
-> 输入: s = "pwwkew"
->
-> 输出: 3
->
-> 解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+<p><strong>示例 3:</strong></p>
 
-**提示：**
+<pre>
+<strong>输入: </strong>arr = "pwwkew"
+<strong>输出: </strong>3
+<strong>解释: </strong>因为连续且最长的招式序列是 "wke"，所以其长度为 3。&nbsp;    
+请注意区分 <strong>子串</strong> 与 <strong>子序列</strong> 的概念：你的答案必须是 <strong>连续招式</strong> 的长度，也就是 <strong>子串</strong>。而 "pwke" 是一个非连续的 <strong>子序列</strong>，不是 <strong>子串</strong>。
+</pre>
 
-- `0 <= s.length <= 5 * 10^4`
-- `s` 由英文字母、数字、符号和空格组成
+<p>&nbsp;</p>
 
-::: warning
+<p>提示：</p>
+
+<ul>
+	<li><code>0 &lt;= arr.length &lt;= 40000</code></li>
+	<li><code>arr</code> 由英文字母、数字、符号和空格组成。</li>
+</ul>
+
 本题与 LeetCode [第 3 题](../problem/0003.md) 相同。
-:::
 
 ## 解题思路
 

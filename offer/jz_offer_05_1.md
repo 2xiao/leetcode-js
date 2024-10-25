@@ -4,17 +4,25 @@
 
 ## 题目
 
-假定一段路径记作字符串 `path`，其中以 `"."` 作为分隔符。现需将路径加密，加密方法为将 `path` 中的分隔符替换为空格 `" "`，请返回加密后的字符串。
+<p>假定一段路径记作字符串 <code>path</code>，其中以 "<code>.</code>" 作为分隔符。现需将路径加密，加密方法为将 <code>path</code> 中的分隔符替换为空格 "<code> </code>"，请返回加密后的字符串。</p>
 
-**Example:**
+<p>&nbsp;</p>
 
-> 输入：path = "a.aef.qerf.bb"
->
-> 输出："a aef qerf bb"
+<p><strong>示例 1：</strong></p>
 
-**Constraints:**
+<pre>
+<strong>输入：</strong>path = "a.aef.qerf.bb"
 
-- `0 <= path.length <= 10000`
+<strong>输出：</strong>"a aef qerf bb"
+
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>限制：</strong></p>
+
+<p><code>0 &lt;= path.length&nbsp;&lt;= 10000</code></p>
+
 
 ## 解题思路
 

@@ -4,32 +4,40 @@
 
 ## 题目
 
-给定一个未排序的整数数组 `nums` ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。
+<p>给定一个未排序的整数数组 <code>nums</code> ，找出数字连续的最长序列（不要求序列元素在原数组中连续）的长度。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** nums = [100,4,200,1,3,2]
->
-> **输出：** 4
->
-> **解释：** 最长数字连续序列是 [1, 2, 3, 4]。它的长度为 4。
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>nums = [100,4,200,1,3,2]
+<strong>输出：</strong>4
+<strong>解释：</strong>最长数字连续序列是 <code>[1, 2, 3, 4]。它的长度为 4。</code></pre>
 
-> **输入：** nums = [0,3,7,2,5,8,4,6,0,1]
->
-> **输出：** 9
+<p><strong>示例 2：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>nums = [0,3,7,2,5,8,4,6,0,1]
+<strong>输出：</strong>9
+</pre>
 
-- `0 <= nums.length <= 10^4`
-- `-10^9 <= nums[i] <= 10^9`
+<p>&nbsp;</p>
 
-**进阶：** 可以设计并实现时间复杂度为 `O(n)`\_\_ 的解决方案吗？
+<p><strong>提示：</strong></p>
 
-::: warning
+<ul>
+	<li><code>0 &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
+	<li><code>-10<sup>9</sup> &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>
+</ul>
+
+<p>&nbsp;</p>
+
+<p><strong>进阶：</strong>可以设计并实现时间复杂度为&nbsp;<code>O(n)</code><em> </em>的解决方案吗？</p>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 128 题](../problem/0128.md) 相同。
-:::
 
 ## 解题思路
 

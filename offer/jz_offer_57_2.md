@@ -1,36 +1,46 @@
-# [57-II. 和为 s 的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
+# [57-II. 和为s的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
 ## 题目
 
-待传输文件被切分成多个部分，按照原排列顺序，每部分文件编号均为一个 **正整数** （至少含有两个文件）。传输要求为：连续文件编号总和为接收方指定数字
-`target` 的所有文件。请返回所有符合该要求的文件传输组合列表。
+<p>待传输文件被切分成多个部分，按照原排列顺序，每部分文件编号均为一个 <strong>正整数</strong>（至少含有两个文件）。传输要求为：连续文件编号总和为接收方指定数字 <code>target</code> 的所有文件。请返回所有符合该要求的文件传输组合列表。</p>
 
-**注意** ，返回时需遵循以下规则：
+<p><strong>注意</strong>，返回时需遵循以下规则：</p>
 
-- 每种组合按照文件编号 **升序** 排列；
-- 不同组合按照第一个文件编号 **升序** 排列。
+<ul>
+	<li>每种组合按照文件编号 <strong>升序</strong> 排列；</li>
+	<li>不同组合按照第一个文件编号 <strong>升序</strong> 排列。</li>
+</ul>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** target = 12
->
-> **输出：**[[3, 4, 5]]
->
-> **解释：** 在上述示例中，存在一个连续正整数序列的和为 12，为 [3, 4, 5]。
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>target = 12
+<strong>输出：</strong>[[3, 4, 5]]
+<strong>解释：</strong>在上述示例中，存在一个连续正整数序列的和为 12，为 [3, 4, 5]。
+</pre>
 
-> **输入：** target = 18
->
-> **输出：**[[3,4,5,6],[5,6,7]]
->
-> **解释：** 在上述示例中，存在两个连续正整数序列的和分别为 18，分别为 [3, 4, 5, 6] 和 [5, 6, 7]。
+<p><strong>示例 2：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>target = 18
+<strong>输出：</strong>[[3,4,5,6],[5,6,7]]
+<strong>解释：</strong>在上述示例中，存在两个连续正整数序列的和分别为 18，分别为 [3, 4, 5, 6] 和 [5, 6, 7]。
+</pre>
 
-- `1 <= target <= 10^5`
+<p>&nbsp;</p>
+
+<p><b>提示：</b></p>
+
+<ul>
+	<li><code>1 &lt;= target &lt;= 10^5</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

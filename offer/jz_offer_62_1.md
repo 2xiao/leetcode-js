@@ -4,24 +4,35 @@
 
 ## 题目
 
-社团共有 `num` 位成员参与破冰游戏，编号为 `0 ~ num-1`。成员们按照编号顺序围绕圆桌而坐。社长抽取一个数字 `target`，从 0 号成员起开始计数，排在第 `target` 位的成员离开圆桌，且成员离开后从下一个成员开始计数。请返回游戏结束时最后一位成员的编号。
+<p>社团共有 <code>num</code>&nbsp;位成员参与破冰游戏，编号为 <code>0 ~ num-1</code>。成员们按照编号顺序围绕圆桌而坐。社长抽取一个数字 <code>target</code>，从 0 号成员起开始计数，排在第 <code>target</code> 位的成员离开圆桌，且成员离开后从下一个成员开始计数。请返回游戏结束时最后一位成员的编号。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** num = 7, target = 4
->
-> **输出：** 1
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>num = 7, target = 4
+<strong>输出：</strong>1
+</pre>
 
-> **输入：** num = 12, target = 5
->
-> **输出：** 0
+<p><strong>示例 2：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>num = 12, target = 5
+<strong>输出：</strong>0
+</pre>
 
-- `1 <= num <= 10^5`
-- `1 <= target <= 10^6`
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;= num &lt;= 10^5</code></li>
+	<li><code>1 &lt;= target&nbsp;&lt;= 10^6</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 
 ## 解题思路
 

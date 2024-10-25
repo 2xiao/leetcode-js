@@ -4,35 +4,42 @@
 
 ## 题目
 
-请根据每日 `气温` 列表 `temperatures`
-，重新生成一个列表，要求其对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，请在该位置用 `0` 来代替。
+<p>请根据每日 <code>气温</code> 列表 <code>temperatures</code>&nbsp;，重新生成一个列表，要求其对应位置的输出为：要想观测到更高的气温，至少需要等待的天数。如果气温在这之后都不会升高，请在该位置用&nbsp;<code>0</code> 来代替。</p>
 
-**示例 1:**
+<p>&nbsp;</p>
 
-> **输入:** temperatures = [73,74,75,71,69,72,76,73]
->
-> **输出:** [1,1,4,2,1,1,0,0]
+<p><strong>示例 1:</strong></p>
 
-**示例 2:**
+<pre>
+<strong>输入:</strong> <code>temperatures</code> = [73,74,75,71,69,72,76,73]
+<strong>输出:</strong>&nbsp;[1,1,4,2,1,1,0,0]
+</pre>
 
-> **输入:** temperatures = [30,40,50,60]
->
-> **输出:** [1,1,1,0]
+<p><strong>示例 2:</strong></p>
 
-**示例 3:**
+<pre>
+<strong>输入:</strong> temperatures = [30,40,50,60]
+<strong>输出:</strong>&nbsp;[1,1,1,0]
+</pre>
 
-> **输入:** temperatures = [30,60,90]
->
-> **输出:**[1,1,0]
+<p><strong>示例 3:</strong></p>
 
-**提示：**
+<pre>
+<strong>输入:</strong> temperatures = [30,60,90]
+<strong>输出: </strong>[1,1,0]</pre>
 
-- `1 <= temperatures.length <= 10^5`
-- `30 <= temperatures[i] <= 100`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>1 &lt;=&nbsp;temperatures.length &lt;= 10<sup>5</sup></code></li>
+	<li><code>30 &lt;=&nbsp;temperatures[i]&nbsp;&lt;= 100</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 739 题](../problem/0739.md) 相同。
-:::
 
 ## 解题思路
 

@@ -4,51 +4,61 @@
 
 ## 题目
 
-给定一个只包含数字的字符串 `s` ，用以表示一个 IP 地址，返回所有可能从 `s` 获得的 **有效 IP 地址** 。你可以按任何顺序返回答案。
+<p>给定一个只包含数字的字符串 <code>s</code> ，用以表示一个 IP 地址，返回所有可能从&nbsp;<code>s</code> 获得的 <strong>有效 IP 地址 </strong>。你可以按任何顺序返回答案。</p>
 
-**有效 IP 地址** 正好由四个整数（每个整数位于 0 到 255 之间组成，且不能含有前导 `0`），整数之间用 `'.'` 分隔。
+<p><strong>有效 IP 地址</strong> 正好由四个整数（每个整数位于 0 到 255 之间组成，且不能含有前导 <code>0</code>），整数之间用 <code>&#39;.&#39;</code> 分隔。</p>
 
-例如："0.1.2.201" 和 "192.168.1.1" 是 **有效** IP 地址，但是
-"0.011.255.245"、"192.168.1.312" 和 "192.168@1.1" 是 **无效** IP 地址。
+<p>例如：&quot;0.1.2.201&quot; 和 &quot;192.168.1.1&quot; 是 <strong>有效</strong> IP 地址，但是 &quot;0.011.255.245&quot;、&quot;192.168.1.312&quot; 和 &quot;192.168@1.1&quot; 是 <strong>无效</strong> IP 地址。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入：** s = "25525511135"
->
-> **输出：**["255.255.11.135","255.255.111.35"]
+<p><strong>示例 1：</strong></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>s = &quot;25525511135&quot;
+<strong>输出：</strong>[&quot;255.255.11.135&quot;,&quot;255.255.111.35&quot;]
+</pre>
 
-> **输入：** s = "0000"
->
-> **输出：**["0.0.0.0"]
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>s = &quot;0000&quot;
+<strong>输出：</strong>[&quot;0.0.0.0&quot;]
+</pre>
 
-> **输入：** s = "1111"
->
-> **输出：**["1.1.1.1"]
+<p><strong>示例 3：</strong></p>
 
-**示例 4：**
+<pre>
+<strong>输入：</strong>s = &quot;1111&quot;
+<strong>输出：</strong>[&quot;1.1.1.1&quot;]
+</pre>
 
-> **输入：** s = "010010"
->
-> **输出：**["0.10.0.10","0.100.1.0"]
+<p><strong>示例 4：</strong></p>
 
-**示例 5：**
+<pre>
+<strong>输入：</strong>s = &quot;010010&quot;
+<strong>输出：</strong>[&quot;0.10.0.10&quot;,&quot;0.100.1.0&quot;]
+</pre>
 
-> **输入：** s = "10203040"
->
-> **输出：**["10.20.30.40","102.0.30.40","10.203.0.40"]
+<p><strong>示例 5：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>s = &quot;10203040&quot;
+<strong>输出：</strong>[&quot;10.20.30.40&quot;,&quot;102.0.30.40&quot;,&quot;10.203.0.40&quot;]
+</pre>
 
-- `0 <= s.length <= 3000`
-- `s` 仅由数字组成
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>0 &lt;= s.length &lt;= 3000</code></li>
+	<li><code>s</code> 仅由数字组成</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 93 题](../problem/0093.md) 相同。
-:::
 
 ## 解题思路
 

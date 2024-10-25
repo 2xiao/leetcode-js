@@ -4,35 +4,42 @@
 
 ## 题目
 
-给定一个二叉树的根节点 `root` ，和一个整数 `targetSum` ，求该二叉树里节点值之和等于 `targetSum` 的 **路径** 的数目。
+<p>给定一个二叉树的根节点 <code>root</code>&nbsp;，和一个整数 <code>targetSum</code> ，求该二叉树里节点值之和等于 <code>targetSum</code> 的 <strong>路径</strong> 的数目。</p>
 
-**路径** 不需要从根节点开始，也不需要在叶子节点结束，但是路径方向必须是向下的（只能从父节点到子节点）。
+<p><strong>路径</strong> 不需要从根节点开始，也不需要在叶子节点结束，但是路径方向必须是向下的（只能从父节点到子节点）。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-![](https://assets.leetcode.com/uploads/2021/04/09/pathsum3-1-tree.jpg)
+<p><strong>示例 1：</strong></p>
 
-> **输入：** root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8
->
-> **输出：** 3
->
-> **解释：** 和等于 8 的路径有 3 条，如图所示。
+<p><img src="https://assets.leetcode.com/uploads/2021/04/09/pathsum3-1-tree.jpg" style="width: 452px; " /></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>root = [10,5,-3,3,2,null,11,3,-2,null,1], targetSum = 8
+<strong>输出：</strong>3
+<strong>解释：</strong>和等于 8 的路径有 3 条，如图所示。
+</pre>
 
-> **输入：** root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
->
-> **输出：** 3
+<p><strong>示例 2：</strong></p>
 
-**提示:**
+<pre>
+<strong>输入：</strong>root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
+<strong>输出：</strong>3
+</pre>
 
-- 二叉树的节点个数的范围是 `[0,1000]`
-- `-10^9 <= Node.val <= 10^9`
-- `-1000 <= targetSum <= 1000`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示:</strong></p>
+
+<ul>
+	<li>二叉树的节点个数的范围是 <code>[0,1000]</code></li>
+	<li><meta charset="UTF-8" /><code>-10<sup><span style="font-size: 9.449999809265137px;">9</span></sup>&nbsp;&lt;= Node.val &lt;= 10<sup><span style="font-size: 9.449999809265137px;">9</span></sup></code>&nbsp;</li>
+	<li><code>-1000&nbsp;&lt;= targetSum&nbsp;&lt;= 1000</code>&nbsp;</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 437 题](../problem/0437.md) 相同。
-:::
 
 ## 解题思路
 

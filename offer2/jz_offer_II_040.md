@@ -4,54 +4,64 @@
 
 ## 题目
 
-给定一个由 `0` 和 `1` 组成的矩阵 `matrix` ，找出只包含 `1` 的最大矩形，并返回其面积。
+<p>给定一个由&nbsp;<code>0</code> 和 <code>1</code>&nbsp;组成的矩阵 <code>matrix</code>&nbsp;，找出只包含 <code>1</code> 的最大矩形，并返回其面积。</p>
 
-**注意：** 此题 `matrix` 输入格式为一维 `01` 字符串数组。
+<p><strong>注意：</strong>此题 <code>matrix</code>&nbsp;输入格式为一维 <code>01</code> 字符串数组。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-![](https://assets.leetcode.com/uploads/2020/09/14/maximal.jpg)
+<p><strong>示例 1：</strong></p>
 
-> **输入：** matrix = ["10100","10111","11111","10010"]
->
-> **输出：** 6
->
-> **解释：** 最大矩形如上图所示。
+<p><img alt="" src="https://assets.leetcode.com/uploads/2020/09/14/maximal.jpg" style="width: 402px; height: 322px;" /></p>
 
-**示例 2：**
+<pre>
+<strong>输入：</strong>matrix = ["10100","10111","11111","10010"]
+<strong>输出：</strong>6
+<strong>解释：</strong>最大矩形如上图所示。
+</pre>
 
-> **输入：** matrix = []
->
-> **输出：** 0
+<p><strong>示例 2：</strong></p>
 
-**示例 3：**
+<pre>
+<strong>输入：</strong>matrix = []
+<strong>输出：</strong>0
+</pre>
 
-> **输入：** matrix = ["0"]
->
-> **输出：** 0
+<p><strong>示例 3：</strong></p>
 
-**示例 4：**
+<pre>
+<strong>输入：</strong>matrix = ["0"]
+<strong>输出：</strong>0
+</pre>
 
-> **输入：** matrix = ["1"]
->
-> **输出：** 1
+<p><strong>示例 4：</strong></p>
 
-**示例 5：**
+<pre>
+<strong>输入：</strong>matrix = ["1"]
+<strong>输出：</strong>1
+</pre>
 
-> **输入：** matrix = ["00"]
->
-> **输出：** 0
+<p><strong>示例 5：</strong></p>
 
-**提示：**
+<pre>
+<strong>输入：</strong>matrix = ["00"]
+<strong>输出：</strong>0
+</pre>
 
-- `rows == matrix.length`
-- `cols == matrix[0].length`
-- `0 <= row, cols <= 200`
-- `matrix[i][j]` 为 `'0'` 或 `'1'`
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>rows == matrix.length</code></li>
+	<li><code>cols == matrix[0].length</code></li>
+	<li><code>0 &lt;= row, cols &lt;= 200</code></li>
+	<li><code>matrix[i][j]</code> 为 <code>'0'</code> 或 <code>'1'</code></li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 85 题](../problem/0085.md) 相同（输入参数格式不同）。
-:::
 
 ## 解题思路
 

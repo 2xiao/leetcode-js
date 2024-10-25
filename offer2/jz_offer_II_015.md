@@ -4,44 +4,45 @@
 
 ## 题目
 
-给定两个字符串 `s` 和`p`，找到 `s` 中所有 `p` 的 **变位词** 的子串，返回这些子串的起始索引。不考虑答案输出的顺序。
+<p>给定两个字符串&nbsp;<code>s</code>&nbsp;和<b>&nbsp;</b><code>p</code>，找到&nbsp;<code>s</code><strong>&nbsp;</strong>中所有 <code>p</code> 的&nbsp;<strong>变位词&nbsp;</strong>的子串，返回这些子串的起始索引。不考虑答案输出的顺序。</p>
 
-**变位词** 指字母相同，但排列不同的字符串。
+<p><strong>变位词 </strong>指字母相同，但排列不同的字符串。</p>
 
-**示例 1：**
+<p>&nbsp;</p>
 
-> **输入:** s = "cbaebabacd", p = "abc"
->
-> **输出:**[0,6]
->
-> **解释:**
->
-> 起始索引等于 0 的子串是 "cba", 它是 "abc" 的变位词。
->
-> 起始索引等于 6 的子串是 "bac", 它是 "abc" 的变位词。
+<p><strong>示例&nbsp;1：</strong></p>
 
-** 示例 2：**
+<pre>
+<strong>输入: </strong>s = &quot;cbaebabacd&quot;, p = &quot;abc&quot;
+<strong>输出: </strong>[0,6]
+<strong>解释:</strong>
+起始索引等于 0 的子串是 &quot;cba&quot;, 它是 &quot;abc&quot; 的变位词。
+起始索引等于 6 的子串是 &quot;bac&quot;, 它是 &quot;abc&quot; 的变位词。
+</pre>
 
-> **输入:** s = "abab", p = "ab"
->
-> **输出:**[0,1,2]
->
-> **解释:**
->
-> 起始索引等于 0 的子串是 "ab", 它是 "ab" 的变位词。
->
-> 起始索引等于 1 的子串是 "ba", 它是 "ab" 的变位词。
->
-> 起始索引等于 2 的子串是 "ab", 它是 "ab" 的变位词。
+<p><strong>&nbsp;示例 2：</strong></p>
 
-**提示:**
+<pre>
+<strong>输入: </strong>s = &quot;abab&quot;, p = &quot;ab&quot;
+<strong>输出: </strong>[0,1,2]
+<strong>解释:</strong>
+起始索引等于 0 的子串是 &quot;ab&quot;, 它是 &quot;ab&quot; 的变位词。
+起始索引等于 1 的子串是 &quot;ba&quot;, 它是 &quot;ab&quot; 的变位词。
+起始索引等于 2 的子串是 &quot;ab&quot;, 它是 &quot;ab&quot; 的变位词。
+</pre>
 
-- `1 <= s.length, p.length <= 3 * 10^4`
-- `s` 和 `p` 仅包含小写字母
+<p>&nbsp;</p>
 
-::: warning
+<p><strong>提示:</strong></p>
+
+<ul>
+	<li><code>1 &lt;= s.length, p.length &lt;= 3 * 10<sup>4</sup></code></li>
+	<li><code>s</code>&nbsp;和 <code>p</code> 仅包含小写字母</li>
+</ul>
+
+<p>&nbsp;</p>
+
 本题与 LeetCode [第 438 题](../problem/0438.md) 相同。
-:::
 
 ## 解题思路
 
