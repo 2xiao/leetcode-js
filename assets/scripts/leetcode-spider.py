@@ -3,7 +3,6 @@
 
 import sqlite3
 import json
-import traceback
 import html2text
 import os
 import requests
@@ -13,7 +12,6 @@ import re
 import argparse,sys
 import threading
 import pandas as pd
-import const
 import utils
 
 db_path = 'leetcode.db'
@@ -336,6 +334,7 @@ class LeetcodeCrawler():
             }
             res.append(question_detail)
 
+        res.sort(key=lambda x: x['fileName']) # 对 res 进行排序
         with open(file_name, 'w', encoding='utf-8', newline='') as f:
             import csv
             writer = csv.DictWriter(f, fieldnames=res[0].keys())
@@ -387,7 +386,7 @@ class LeetcodeCrawler():
             contentCN = html2text.html2text(textCN).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
             f.write(contentCN)
 
-            f.write("\n## 解题思路\n\n#### 复杂度分析\n\n- **时间复杂度**：`O()`，\n- **空间复杂度**：`O()`，\n\n## 代码\n\n```javascript\n\n```")
+            f.write("\n\n## 解题思路\n\n#### 复杂度分析\n\n- **时间复杂度**：`O()`，\n- **空间复杂度**：`O()`，\n\n## 代码\n\n```javascript\n\n```")
             
             similar = json.loads(question['similar'])
             if len(similar) > 0:
@@ -488,9 +487,9 @@ if __name__=='__main__':
 
 
     test.connect_db(db_path)
-    test.get_problems(filters)
+    # test.get_problems(filters)
       
-    test.generate_questions_list()
+    # test.generate_questions_list()
     test.generate_questions_markdown(args.output, filters)
    
     test.close_db()

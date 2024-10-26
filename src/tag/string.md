@@ -751,6 +751,7 @@
 | 3306 | [元音辅音字符串计数 II](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 3316 | [从原字符串里进行删除操作的最多次数](https://leetcode.com/problems/find-maximum-removals-from-source-string) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 3320 | [统计能获胜的出招序列数](https://leetcode.com/problems/count-the-number-of-winning-sequences) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 3329 | [字符至少出现 K 次的子字符串 II](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-ii) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
 | LCP 17 | [速算机器人](https://leetcode.cn/problems/nGK0Fy) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | LCP 19 | [秋叶收藏集](https://leetcode.cn/problems/UlBDOe) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | LCP 43 | [十字路口的交通](https://leetcode.cn/problems/Y1VbOX) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |

@@ -657,6 +657,7 @@
 | 3316 | [从原字符串里进行删除操作的最多次数](https://leetcode.com/problems/find-maximum-removals-from-source-string) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
 | 3318 | [计算子数组的 x-sum I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i) | [[✓]](/problem/3318.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | <font color=#15bd66>Easy</font> |
 | 3321 | [计算子数组的 x-sum II](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-ii) | [[✓]](/problem/3321.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | <font color=#ff334b>Hard</font> |
+| 3329 | [字符至少出现 K 次的子字符串 II](https://leetcode.com/problems/count-substrings-with-k-frequency-characters-ii) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ff334b>Hard</font> |
 | LCP 03 | [机器人大冒险](https://leetcode.cn/problems/programmable-robot) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | LCP 11 | [期望个数统计](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
 | LCP 39 | [无人机方阵](https://leetcode.cn/problems/0jQkd0) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `1+` | <font color=#15bd66>Easy</font> |

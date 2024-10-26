@@ -1862,7 +1862,7 @@ headerDepth: 0
 | 2455 | [可被三整除的偶数的平均值](https://leetcode.com/problems/average-value-of-even-numbers-that-are-divisible-by-three) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 2456 | [最流行的视频创作者](https://leetcode.com/problems/most-popular-video-creator) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2457 | [美丽整数的最小增量](https://leetcode.com/problems/minimum-addition-to-make-integer-beautiful) |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
-| 2458 | [移除子树后的二叉树高度](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ff334b>Hard</font> |
+| 2458 | [移除子树后的二叉树高度](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | [[✓]](/problem/2458.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ff334b>Hard</font> |
 
 
 ## Biweekly Contest 90 (2022-10-29 22:30)

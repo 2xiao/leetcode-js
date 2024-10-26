@@ -173,7 +173,6 @@ def gen_plan_list(plan_name, salt=False, path=None):
     f = open(origin_path, encoding='utf-8')
     lines = f.readlines()
     file_content = ""
-    count = 0
 
     for i in range(len(lines)):
         pattern = re.compile(r'(#{1,6}) (.*)')
@@ -205,6 +204,27 @@ def gen_plan_list(plan_name, salt=False, path=None):
 
     print("Create " + plan_name + " Success")
 
+
+def update_content():
+    files = os.listdir(const.problem_path)
+    for file in files:
+        # 判断是否是文件夹
+        if ".md" not in file:
+            continue
+        if "README" in file:
+            continue
+        print(Path(file))
+        old_path = os.path.join(const.problem_path, Path(file))
+        old_content = Path(old_path).read_text(encoding='utf-8')
+
+        new_path = os.path.join('../output/', Path(file))
+        new_content = Path(new_path).read_text(encoding='utf-8')
+
+        delim = '## 解题思路\n'
+
+        text = new_content.split(delim)[0] + delim + old_content.split(delim)[1]
+
+        Path(old_path).write_text(text, encoding='utf-8')
 
 # 更新题目详解页面的相关题目和标签
 
