@@ -4,57 +4,53 @@
 
 ## 题目
 
-<p>请你设计一个 <strong>最小栈</strong> 。它提供 <code>push</code> ，<code>pop</code> ，<code>top</code> 操作，并能在常数时间内检索到最小元素的栈。</p>
+请你设计一个 **最小栈** 。它提供 `push` ，`pop` ，`top` 操作，并能在常数时间内检索到最小元素的栈。
 
-<p>&nbsp;</p>
+实现 `MinStack` 类:
 
-<p>实现 <code>MinStack</code> 类:</p>
+- `MinStack()` 初始化堆栈对象。
+- `void push(int val)` 将元素 `val` 推入堆栈。
+- `void pop()` 删除堆栈顶部的元素。
+- `int top()` 获取堆栈顶部的元素。
+- `int getMin()` 获取堆栈中的最小元素。
 
-<ul>
-	<li><code>MinStack()</code> 初始化堆栈对象。</li>
-	<li><code>void push(int val)</code> 将元素val推入堆栈。</li>
-	<li><code>void pop()</code> 删除堆栈顶部的元素。</li>
-	<li><code>int top()</code> 获取堆栈顶部的元素。</li>
-	<li><code>int getMin()</code> 获取堆栈中的最小元素。</li>
-</ul>
+**示例 1：**
 
-<p>&nbsp;</p>
+> 输入：
+> ["MinStack","push","push","push","getMin","pop","top","getMin"]
+>
+> [[],[-2],[2],[-3],[],[],[],[]]
+>
+> 输出：
+> [null,null,null,null,-3,null,2,-2]
+>
+> 解释：
+>
+> MinStack minStack = new MinStack();
+>
+> minStack.push(-2);
+>
+> minStack.push(2);
+>
+> minStack.push(-3);
+>
+> minStack.getMin(); --> 返回 -3.
+>
+> minStack.pop();
+>
+> minStack.top(); --> 返回 2.
+>
+> minStack.getMin(); --> 返回 -2.
 
-<p><strong>示例 1:</strong></p>
+**提示：**
 
-<pre>
-<strong>输入：</strong>
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-[[],[-2],[2],[-3],[],[],[],[]]
+- `-2^31 <= val <= 2^31 - 1`
+- `pop`、`top` 和 `getMin` 操作总是在 非空栈 上调用
+- `push`、`pop`、`top` 和 `getMin` 最多被调用 `3 * 10^4` 次
 
-<strong>输出：</strong>
-[null,null,null,null,-3,null,2,-2]
-
-<strong>解释：</strong>
-MinStack minStack = new MinStack();
-minStack.push(-2);
-minStack.push(2);
-minStack.push(-3);
-minStack.getMin(); &nbsp; --&gt; 返回 -3.
-minStack.pop();
-minStack.top(); &nbsp; &nbsp; &nbsp;--&gt; 返回 2.
-minStack.getMin(); &nbsp; --&gt; 返回 -2.
-</pre>
-
-<p>&nbsp;</p>
-
-<p><strong>&nbsp;<br />
-提示：</strong></p>
-
-<ul>
-	<li><code>-2<sup>31</sup> &lt;= val &lt;= 2<sup>31</sup> - 1</code></li>
-	<li><code>pop</code>、<code>top</code> 和 <code>getMin</code> 操作总是在 <strong>非空栈</strong> 上调用</li>
-	<li><code>push</code>、<code>pop</code>、<code>top</code> 和 <code>getMin</code> 最多被调用 <code>3 * 10<sup>4</sup></code> 次</li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 155 题](../problem/0155.md) 相同。
+:::
 
 ## 解题思路
 

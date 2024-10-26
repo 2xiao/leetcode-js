@@ -4,44 +4,35 @@
 
 ## 题目
 
-<p>给定一个不含重复数字的整数数组 <code>nums</code> ，返回其 <strong>所有可能的全排列</strong> 。可以 <strong>按任意顺序</strong> 返回答案。</p>
+给定一个不含重复数字的整数数组 `nums` ，返回其 **所有可能的全排列** 。可以 **按任意顺序** 返回答案。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入：** nums = [1,2,3]
+>
+> **输出：**[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
 
-<pre>
-<strong>输入：</strong>nums = [1,2,3]
-<strong>输出：</strong>[[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入：** nums = [0,1]
+>
+> **输出：**[[0,1],[1,0]]
 
-<pre>
-<strong>输入：</strong>nums = [0,1]
-<strong>输出：</strong>[[0,1],[1,0]]
-</pre>
+**示例 3：**
 
-<p><strong>示例 3：</strong></p>
+> **输入：** nums = [1]
+>
+> **输出：**[[1]]
 
-<pre>
-<strong>输入：</strong>nums = [1]
-<strong>输出：</strong>[[1]]
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= nums.length <= 6`
+- `-10 <= nums[i] <= 10`
+- `nums` 中的所有整数 **互不相同**
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 6</code></li>
-	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
-	<li><code>nums</code> 中的所有整数 <strong>互不相同</strong></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 46 题](../problem/0046.md) 相同。
+:::
 
 ## 解题思路
 

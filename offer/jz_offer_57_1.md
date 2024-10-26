@@ -1,35 +1,28 @@
-# [57. 和为s的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof)
+# [57. 和为 s 的两个数字](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/he-wei-sde-liang-ge-shu-zi-lcof)
 
 ## 题目
 
-<p>购物车内的商品价格按照升序记录于数组 <code>price</code>。请在购物车中找到两个商品的价格总和刚好是 <code>target</code>。若存在多种情况，返回任一结果即可。</p>
+购物车内的商品价格按照升序记录于数组 `price`。请在购物车中找到两个商品的价格总和刚好是 `target`。若存在多种情况，返回任一结果即可。
 
-<p><strong>示例 1：</strong></p>
+**示例 1：**
 
-<pre>
-<strong>输入：</strong>price = [3, 9, 12, 15], target = 18
-<strong>输出：</strong>[3,15] 或者 [15,3]
-</pre>
+> **输入：** price = [3, 9, 12, 15], target = 18
+>
+> **输出：**[3,15] 或者 [15,3]
 
-<p><strong>示例 2：</strong></p>
+**示例 2：**
 
-<pre>
-<strong>输入：</strong>price = [8, 21, 27, 34, 52, 66], target = 61
-<strong>输出：</strong>[27,34] 或者 [34,27]
-</pre>
+> **输入：** price = [8, 21, 27, 34, 52, 66], target = 61
+>
+> **输出：**[27,34] 或者 [34,27]
 
-<p>&nbsp;</p>
+**提示：**
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= price.length &lt;= 10^5</code></li>
-	<li><code>1 &lt;= price[i] &lt;= 10^6</code></li>
-	<li><code>1 &lt;= target &lt;= 2*10^6</code></li>
-</ul>
-
+- `1 <= price.length <= 10^5`
+- `1 <= price[i] <= 10^6`
+- `1 <= target <= 2*10^6`
 
 ## 解题思路
 

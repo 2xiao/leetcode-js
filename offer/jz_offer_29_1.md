@@ -4,36 +4,30 @@
 
 ## 题目
 
-<p>给定一个二维数组 <code>array</code>，请返回「<strong>螺旋遍历</strong>」该数组的结果。</p>
+给定一个二维数组 array，请返回「螺旋遍历」该数组的结果。
 
-<p><strong>螺旋遍历</strong>：从左上角开始，按照 <strong>向右</strong>、<strong>向下</strong>、<strong>向左</strong>、<strong>向上</strong> 的顺序 <strong>依次</strong> 提取元素，然后再进入内部一层重复相同的步骤，直到提取完所有元素。</p>
+螺旋遍历：从左上角开始，按照 向右、向下、向左、向上 的顺序 依次 提取元素，然后再进入内部一层重复相同的步骤，直到提取完所有元素。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> 输入：array = [[1,2,3],[8,9,4],[7,6,5]]
+>
+> 输出：[1,2,3,4,5,6,7,8,9]
 
-<pre>
-<strong>输入：</strong>array = [[1,2,3],[8,9,4],[7,6,5]]
-<strong>输出：</strong>[1,2,3,4,5,6,7,8,9]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> 输入：array = [[1,2,3,4],[12,13,14,5],[11,16,15,6],[10,9,8,7]]
+>
+> 输出：[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
 
-<pre>
-<strong>输入：</strong>array &nbsp;= [[1,2,3,4],[12,13,14,5],[11,16,15,6],[10,9,8,7]]
-<strong>输出：</strong>[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `0 <= array.length <= 100`
+- `0 <= array[i].length <= 100`
 
-<p><strong>限制：</strong></p>
-
-<ul>
-	<li><code>0 &lt;= array.length &lt;= 100</code></li>
-	<li><code>0 &lt;= array[i].length &lt;= 100</code></li>
-</ul>
-
+::: warning
 本题与 LeetCode [第 54 题](../problem/0054.md) 相同。
+:::
 
 ## 解题思路
 

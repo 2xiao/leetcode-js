@@ -4,43 +4,34 @@
 
 ## 题目
 
-<p>数组 <code>prices</code> 记录了某芯片近期的交易价格，其中 <code>prices[i]</code> 表示的 <code>i</code> 天该芯片的价格。你只能选择 <strong>某一天</strong> 买入芯片，并选择在 <strong>未来的某一个不同的日子</strong> 卖出该芯片。请设计一个算法计算并返回你从这笔交易中能获取的最大利润。</p>
+数组 `prices` 记录了某芯片近期的交易价格，其中 `prices[i]` 表示的 `i` 天该芯片的价格。你只能选择 **某一天** 买入芯片，并选择在 **未来的某一个不同的日子** 卖出该芯片。请设计一个算法计算并返回你从这笔交易中能获取的最大利润。
 
-<p>如果你不能获取任何利润，返回 0。</p>
+如果你不能获取任何利润，返回 `0`。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> 输入：prices = [3, 6, 2, 9, 8, 5]
+>
+> 输出：7
+>
+> 解释：在第 3 天（芯片价格 = 2）买入，在第 4 天（芯片价格 = 9）卖出，最大利润 = 9 - 2 = 7。
 
-<pre>
-<strong>输入：</strong>prices = [3, 6, 2, 9, 8, 5]
-<strong>输出：</strong>7
-<strong>解释：</strong>在第 3 天（芯片价格 = 2）买入，在第 4 天（芯片价格 = 9）卖出，最大利润 = 9 - 2 = 7。
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> 输入：prices = [8, 12, 15, 7, 3, 10]
+>
+> 输出：7
+>
+> 解释：在第 5 天（芯片价格 = 3）买入，在第 6 天（芯片价格 = 10）卖出，最大利润 = 10 - 3 = 7。
 
-<pre>
-<strong>输入：</strong>prices = [8, 12, 15, 7, 3, 10]
-<strong>输出：</strong>7
-<strong>解释：</strong>在第 5 天（芯片价格 = 3）买入，在第 6 天（芯片价格 = 10）卖出，最大利润 = 10 - 3 = 7。
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `0 <= prices.length <= 10^5`
+- `0 <= prices[i] <= 10^4`
 
-<p><b>提示：</b></p>
-
-<ul>
-	<li><code>0 &lt;= prices.length &lt;= 10^5</code></li>
-	<li><code>0 &lt;= prices[i] &lt;= 10^4</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
-<p><strong>注意：</strong>本题与主站 121 题相同：<a href="https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/">https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/</a></p>
-
-<p>&nbsp;</p>
-
+::: warning
+本题与 LeetCode [第 121 题](../problem/0121.md) 相同。
+:::
 
 ## 解题思路
 

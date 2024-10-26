@@ -4,45 +4,41 @@
 
 ## 题目
 
-<p><strong>路径</strong> 被定义为一条从树中任意节点出发，沿父节点-子节点连接，达到任意节点的序列。同一个节点在一条路径序列中 <strong>至多出现一次</strong> 。该路径<strong> 至少包含一个 </strong>节点，且不一定经过根节点。</p>
+**路径** 被定义为一条从树中任意节点出发，沿父节点-子节点连接，达到任意节点的序列。同一个节点在一条路径序列中 **至多出现一次**
+。该路径**至少包含一个** 节点，且不一定经过根节点。
 
-<p><strong>路径和</strong> 是路径中各节点值的总和。</p>
+**路径和** 是路径中各节点值的总和。
 
-<p>给定一个二叉树的根节点 <code>root</code> ，返回其 <strong>最大路径和</strong>，即所有路径上节点值之和的最大值。</p>
+给定一个二叉树的根节点 `root` ，返回其 **最大路径和** ，即所有路径上节点值之和的最大值。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+![](https://assets.leetcode.com/uploads/2020/10/13/exx1.jpg)
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2020/10/13/exx1.jpg" style="width: 322px; height: 182px;" /></p>
+> **输入：** root = [1,2,3]
+>
+> **输出：** 6
+>
+> **解释：** 最优路径是 2 -> 1 -> 3 ，路径和为 2 + 1 + 3 = 6
 
-<pre>
-<strong>输入：</strong>root = [1,2,3]
-<strong>输出：</strong>6
-<strong>解释：</strong>最优路径是 2 -&gt; 1 -&gt; 3 ，路径和为 2 + 1 + 3 = 6</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+![](https://assets.leetcode.com/uploads/2020/10/13/exx2.jpg)
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2020/10/13/exx2.jpg" /></p>
+> **输入：** root = [-10,9,20,null,null,15,7]
+>
+> **输出：** 42
+>
+> **解释：** 最优路径是 15 -> 20 -> 7 ，路径和为 15 + 20 + 7 = 42
 
-<pre>
-<strong>输入：</strong>root = [-10,9,20,null,null,15,7]
-<strong>输出：</strong>42
-<strong>解释：</strong>最优路径是 15 -&gt; 20 -&gt; 7 ，路径和为 15 + 20 + 7 = 42
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- 树中节点数目范围是 `[1, 3 * 104]`
+- `-1000 <= Node.val <= 1000`
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li>树中节点数目范围是 <code>[1, 3 * 10<sup>4</sup>]</code></li>
-	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 124 题](../problem/0124.md) 相同。
+:::
 
 ## 解题思路
 

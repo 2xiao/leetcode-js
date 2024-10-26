@@ -4,51 +4,40 @@
 
 ## 题目
 
-<p>给定一个链表，删除链表的倒数第&nbsp;<code>n</code><em>&nbsp;</em>个结点，并且返回链表的头结点。</p>
+给定一个链表，删除链表的倒数第 `n` 个结点，并且返回链表的头结点。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+![](https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg)
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2020/10/03/remove_ex1.jpg" style="width: 542px; height: 222px;" /></p>
+> **输入：** head = [1,2,3,4,5], n = 2
+>
+> **输出：**[1,2,3,5]
 
-<pre>
-<strong>输入：</strong>head = [1,2,3,4,5], n = 2
-<strong>输出：</strong>[1,2,3,5]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入：** head = [1], n = 1
+>
+> **输出：**[]
 
-<pre>
-<strong>输入：</strong>head = [1], n = 1
-<strong>输出：</strong>[]
-</pre>
+**示例 3：**
 
-<p><strong>示例 3：</strong></p>
+> **输入：** head = [1,2], n = 1
+>
+> **输出：**[1]
 
-<pre>
-<strong>输入：</strong>head = [1,2], n = 1
-<strong>输出：</strong>[1]
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- 链表中结点的数目为 `sz`
+- `1 <= sz <= 30`
+- `0 <= Node.val <= 100`
+- `1 <= n <= sz`
 
-<p><strong>提示：</strong></p>
+**进阶：** 能尝试使用一趟扫描实现吗？
 
-<ul>
-	<li>链表中结点的数目为 <code>sz</code></li>
-	<li><code>1 &lt;= sz &lt;= 30</code></li>
-	<li><code>0 &lt;= Node.val &lt;= 100</code></li>
-	<li><code>1 &lt;= n &lt;= sz</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
-<p><strong>进阶：</strong>能尝试使用一趟扫描实现吗？</p>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 19 题](../problem/0019.md) 相同。
+:::
 
 ## 解题思路
 

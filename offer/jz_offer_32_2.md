@@ -4,26 +4,23 @@
 
 ## 题目
 
-<p>一棵圣诞树记作根节点为 <code>root</code> 的二叉树，节点值为该位置装饰彩灯的颜色编号。请按照从左到右的顺序返回每一层彩灯编号，每一层的结果记录于一行。</p>
+一棵圣诞树记作根节点为 `root` 的二叉树，节点值为该位置装饰彩灯的颜色编号。请按照从左到右的顺序返回每一层彩灯编号，每一层的结果记录于一行。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+![](https://pic.leetcode.cn/1694758674-XYrUiV-%E5%89%91%E6%8C%87%20Offer%2032%20-%20I_%E7%A4%BA%E4%BE%8B1.png)
 
-<p><img alt="" src="https://pic.leetcode.cn/1694758674-XYrUiV-%E5%89%91%E6%8C%87%20Offer%2032%20-%20I_%E7%A4%BA%E4%BE%8B1.png" /></p>
+> 输入：root = [8,17,21,18,null,null,6]
+>
+> 输出：[[8],[17,21],[18,6]]
 
-<pre>
-<strong>输入：</strong>root = [8,17,21,18,null,null,6]
-<strong>输出：</strong>[[8],[17,21],[18,6]]
-</pre>
+**提示：**
 
-<p><strong>提示：</strong></p>
+- `节点总数 <= 1000`
 
-<ol>
-	<li><code>节点总数 &lt;= 1000</code></li>
-</ol>
-
+::: warning
 本题与 LeetCode [第 102 题](../problem/0102.md) 相同。
+:::
 
 ## 解题思路
 

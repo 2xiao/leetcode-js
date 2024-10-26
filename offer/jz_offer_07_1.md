@@ -4,52 +4,37 @@
 
 ## 题目
 
-<p>某二叉树的先序遍历结果记录于整数数组 <code>preorder</code>，它的中序遍历结果记录于整数数组 <code>inorder</code>。请根据 <code>preorder</code> 和 <code>inorder</code> 的提示构造出这棵二叉树并返回其根节点。</p>
+某二叉树的先序遍历结果记录于整数数组 `preorder`，它的中序遍历结果记录于整数数组 `inorder`。请根据 `preorder` 和 `inorder` 的提示构造出这棵二叉树并返回其根节点。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p>注意：<code>preorder</code> 和 <code>inorder</code> 中均不含重复数字。</p>
+![](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
 
-<p>&nbsp;</p>
+> Input: preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
+>
+> Output: [3,9,20,null,null,15,7]
 
-<p><strong>示例 1：</strong></p>
+**示例 2:**
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/tree.jpg" /></p>
+> Input: preorder = [-1], inorder = [-1]
+>
+> Output: [-1]
 
-<pre>
-<strong>输入: </strong>preorder = [3,9,20,15,7], inorder = [9,3,15,20,7]
+**提示:**
 
-<strong>输出: </strong>[3,9,20,null,null,15,7]
-</pre>
+- `1 <= preorder.length <= 3000`
+- `inorder.length == preorder.length`
+- `-3000 <= preorder[i], inorder[i] <= 3000`
+- `preorder` 和 `inorder` 中均不含重复数字
+- `inorder` 均出现在 `preorder`
+- `preorder` 保证 为二叉树的前序遍历序列
+- `inorder` 保证 为二叉树的中序遍历序列
 
-<p>&nbsp;</p>
-
-<p><strong>示例 2:</strong></p>
-
-<pre>
-<strong>输入: </strong>preorder = [-1], inorder = [-1]
-
-<strong>输出:</strong> [-1]
-</pre>
-
-<p>&nbsp;</p>
-
-<p><strong>提示:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= preorder.length &lt;= 3000</code></li>
-	<li><code>inorder.length == preorder.length</code></li>
-	<li><code>-3000 &lt;= preorder[i], inorder[i] &lt;= 3000</code></li>
-	<li><code>inorder</code> 均出现在 <code>preorder</code></li>
-	<li><code>preorder</code> 保证 为二叉树的前序遍历序列</li>
-	<li><code>inorder</code> 保证 为二叉树的中序遍历序列</li>
-</ul>
-
-<p>&nbsp;</p>
+::: warning
 
 本题与 LeetCode [第 105 题](../problem/0105.md) 相同。
 
-<p>&nbsp;</p>
+:::
 
 ## 解题思路
 

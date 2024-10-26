@@ -4,42 +4,44 @@
 
 ## 题目
 
-<p>给定两个整数 <code>n</code> 和 <code>k</code>，返回 <code>1 ... n</code> 中所有可能的 <code>k</code> 个数的组合。</p>
+给定两个整数 `n` 和 `k`，返回 `1 ... n` 中所有可能的 `k` 个数的组合。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例 1:</strong></p>
+> **输入:** n = 4, k = 2
+>
+> **输出:**
+>
+> [
+>
+> [2,4],
+>
+> [3,4],
+>
+> [2,3],
+>
+> [1,2],
+>
+> [1,3],
+>
+> [1,4],
+>
+> ]
 
-<pre>
-<strong>输入:</strong>&nbsp;n = 4, k = 2
-<strong>输出:</strong>
-[
-  [2,4],
-  [3,4],
-  [2,3],
-  [1,2],
-  [1,3],
-  [1,4],
-]</pre>
+**示例 2:**
 
-<p><strong>示例 2:</strong></p>
+> **输入:** n = 1, k = 1
+>
+> **输出:**[[1]]
 
-<pre>
-<strong>输入:</strong>&nbsp;n = 1, k = 1
-<strong>输出: </strong>[[1]]</pre>
+**提示:**
 
-<p>&nbsp;</p>
+- `1 <= n <= 20`
+- `1 <= k <= n`
 
-<p><strong>提示:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n &lt;= 20</code></li>
-	<li><code>1 &lt;= k &lt;= n</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 77 题](../problem/0077.md) 相同。
+:::
 
 ## 解题思路
 

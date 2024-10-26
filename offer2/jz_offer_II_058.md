@@ -4,46 +4,45 @@
 
 ## 题目
 
-<p>请实现一个 <code>MyCalendar</code> 类来存放你的日程安排。如果要添加的时间内没有其他安排，则可以存储这个新的日程安排。</p>
+请实现一个 `MyCalendar` 类来存放你的日程安排。如果要添加的时间内没有其他安排，则可以存储这个新的日程安排。
 
-<p><code>MyCalendar</code> 有一个 <code>book(int start, int end)</code>方法。它意味着在 start 到 end 时间内增加一个日程安排，注意，这里的时间是半开区间，即 <code>[start, end)</code>, 实数&nbsp;<code>x</code> 的范围为， &nbsp;<code>start &lt;= x &lt; end</code>。</p>
+`MyCalendar` 有一个 `book(int start, int end)`方法。它意味着在 start 到 end
+时间内增加一个日程安排，注意，这里的时间是半开区间，即 `[start, end)`, 实数 `x` 的范围为， `start <= x < end`。
 
-<p>当两个日程安排有一些时间上的交叉时（例如两个日程安排都在同一时间内），就会产生重复预订。</p>
+当两个日程安排有一些时间上的交叉时（例如两个日程安排都在同一时间内），就会产生重复预订。
 
-<p>每次调用 <code>MyCalendar.book</code>方法时，如果可以将日程安排成功添加到日历中而不会导致重复预订，返回 <code>true</code>。否则，返回 <code>false</code>&nbsp;并且不要将该日程安排添加到日历中。</p>
+每次调用 `MyCalendar.book`方法时，如果可以将日程安排成功添加到日历中而不会导致重复预订，返回 `true`。否则，返回 `false`
+并且不要将该日程安排添加到日历中。
 
-<p>请按照以下步骤调用 <code>MyCalendar</code> 类: <code>MyCalendar cal = new MyCalendar();</code> <code>MyCalendar.book(start, end)</code></p>
+请按照以下步骤调用 `MyCalendar` 类: `MyCalendar cal = new MyCalendar();`
+`MyCalendar.book(start, end)`
 
-<p>&nbsp;</p>
+**示例:**
 
-<p><strong>示例:</strong></p>
+> **输入:**["MyCalendar","book","book","book"]
+>
+> [[],[10,20],[15,25],[20,30]]
+>
+> **输出:** [null,true,false,true]
+>
+> **解释:**
+>
+> MyCalendar myCalendar = new MyCalendar();
+>
+> MyCalendar.book(10, 20); // returns true
+>
+> MyCalendar.book(15, 25); // returns false ，第二个日程安排不能添加到日历中，因为时间 15 已经被第一个日程安排预定了
+>
+> MyCalendar.book(20, 30); // returns true ，第三个日程安排可以添加到日历中，因为第一个日程安排并不包含时间 20
 
-<pre>
-<strong>输入:
-</strong>[&quot;MyCalendar&quot;,&quot;book&quot;,&quot;book&quot;,&quot;book&quot;]
-[[],[10,20],[15,25],[20,30]]
-<strong>输出:</strong> [null,true,false,true]
-<strong>解释:</strong> 
-MyCalendar myCalendar = new MyCalendar();
-MyCalendar.book(10, 20); // returns true 
-MyCalendar.book(15, 25); // returns false ，第二个日程安排不能添加到日历中，因为时间 15 已经被第一个日程安排预定了
-MyCalendar.book(20, 30); // returns true ，第三个日程安排可以添加到日历中，因为第一个日程安排并不包含时间 20 
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- 每个测试用例，调用 `MyCalendar.book` 函数最多不超过 `1000`次。
+- `0 <= start < end <= 10^9`
 
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li>每个测试用例，调用&nbsp;<code>MyCalendar.book</code>&nbsp;函数最多不超过&nbsp;<code>1000</code>次。</li>
-	<li><code>0 &lt;= start &lt; end &lt;= 10<sup>9</sup></code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 729 题](../problem/0729.md) 相同。
+:::
 
 ## 解题思路
 

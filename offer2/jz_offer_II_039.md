@@ -4,43 +4,36 @@
 
 ## 题目
 
-<p>给定非负整数数组 <code>heights</code>&nbsp;，数组中的数字用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 <code>1</code> 。</p>
+给定非负整数数组 `heights` ，数组中的数字用来表示柱状图中各个柱子的高度。每个柱子彼此相邻，且宽度为 `1` 。
 
-<p>求在该柱状图中，能够勾勒出来的矩形的最大面积。</p>
+求在该柱状图中，能够勾勒出来的矩形的最大面积。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例 1:</strong></p>
+![](https://assets.leetcode.com/uploads/2021/01/04/histogram.jpg)
 
-<p><img src="https://assets.leetcode.com/uploads/2021/01/04/histogram.jpg" /></p>
+> **输入：** heights = [2,1,5,6,2,3]
+>
+> **输出：** 10
+>
+> **解释：** 最大的矩形为图中红色区域，面积为 10
 
-<pre>
-<strong>输入：</strong>heights = [2,1,5,6,2,3]
-<strong>输出：</strong>10
-<strong>解释：</strong>最大的矩形为图中红色区域，面积为 10
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+![](https://assets.leetcode.com/uploads/2021/01/04/histogram-1.jpg)
 
-<p><img src="https://assets.leetcode.com/uploads/2021/01/04/histogram-1.jpg" /></p>
+> **输入：** heights = [2,4]
+>
+> **输出：** 4
 
-<pre>
-<strong>输入：</strong> heights = [2,4]
-<b>输出：</b> 4</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= heights.length <=10^5`
+- `0 <= heights[i] <= 10^4`
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= heights.length &lt;=10<sup>5</sup></code></li>
-	<li><code>0 &lt;= heights[i] &lt;= 10<sup>4</sup></code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 84 题](../problem/0084.md) 相同。
-
+:::
 
 ## 解题思路
 

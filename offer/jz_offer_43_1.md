@@ -4,32 +4,27 @@
 
 ## 题目
 
-<p>给定一个整数 <code>num</code>，计算所有小于等于 <code>num</code> 的非负整数中数字 <code>1</code> 出现的个数。</p>
+给定一个整数 `num`，计算所有小于等于 `num` 的非负整数中数字 `1` 出现的个数。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入：** num = 0
+>
+> **输出：** 0
 
-<pre>
-<strong>输入：</strong>num = 0
-<strong>输出：</strong>0
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入：** num = 13
+>
+> **输出：** 6
 
-<pre>
-<strong>输入：</strong>num = 13
-<strong>输出：</strong>6</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `0 <= num < 10^9`
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>0 &lt;= num &lt; 10<sup>9</sup></code></li>
-</ul>
-
+::: warning
 本题与 LeetCode [第 233 题](../problem/0233.md) 相同。
+:::
 
 ## 解题思路
 

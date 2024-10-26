@@ -4,59 +4,59 @@
 
 ## 题目
 
-<p>给定一个二叉树的根节点 <code>root</code> ，树中每个节点都存放有一个 <code>0</code> 到 <code>9</code> 之间的数字。</p>
+给定一个二叉树的根节点 `root` ，树中每个节点都存放有一个 `0` 到 `9` 之间的数字。
 
-<div class="original__bRMd">
-<div>
-<p>每条从根节点到叶节点的路径都代表一个数字：</p>
+每条从根节点到叶节点的路径都代表一个数字：
 
-<ul>
-	<li>例如，从根节点到叶节点的路径 <code>1 -&gt; 2 -&gt; 3</code> 表示数字 <code>123</code> 。</li>
-</ul>
+- 例如，从根节点到叶节点的路径 `1 -> 2 -> 3` 表示数字 `123` 。
 
-<p>计算从根节点到叶节点生成的 <strong>所有数字之和</strong> 。</p>
+计算从根节点到叶节点生成的 **所有数字之和** 。
 
-<p><strong>叶节点</strong> 是指没有子节点的节点。</p>
+**叶节点** 是指没有子节点的节点。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/num1tree.jpg" style="width: 212px; height: 182px;" />
-<pre>
-<strong>输入：</strong>root = [1,2,3]
-<strong>输出：</strong>25
-<strong>解释：</strong>
-从根到叶子节点路径 <code>1-&gt;2</code> 代表数字 <code>12</code>
-从根到叶子节点路径 <code>1-&gt;3</code> 代表数字 <code>13</code>
-因此，数字总和 = 12 + 13 = <code>25</code></pre>
+![](https://assets.leetcode.com/uploads/2021/02/19/num1tree.jpg)
 
-<p><strong>示例 2：</strong></p>
-<img alt="" src="https://assets.leetcode.com/uploads/2021/02/19/num2tree.jpg" style="width: 292px; height: 302px;" />
-<pre>
-<strong>输入：</strong>root = [4,9,0,5,1]
-<strong>输出：</strong>1026
-<strong>解释：</strong>
-从根到叶子节点路径 <code>4-&gt;9-&gt;5</code> 代表数字 495
-从根到叶子节点路径 <code>4-&gt;9-&gt;1</code> 代表数字 491
-从根到叶子节点路径 <code>4-&gt;0</code> 代表数字 40
-因此，数字总和 = 495 + 491 + 40 = <code>1026</code>
-</pre>
+> **输入：** root = [1,2,3]
+>
+> **输出：** 25
+>
+> **解释：**
+>
+> 从根到叶子节点路径 1->2 代表数字 12
+>
+> 从根到叶子节点路径 1->3 代表数字 13
+>
+> 因此，数字总和 = 12 + 13 = 25
 
-<p>&nbsp;</p>
+**示例 2：**
 
-<p><strong>提示：</strong></p>
+![](https://assets.leetcode.com/uploads/2021/02/19/num2tree.jpg)
 
-<ul>
-	<li>树中节点的数目在范围 <code>[1, 1000]</code> 内</li>
-	<li><code>0 &lt;= Node.val &lt;= 9</code></li>
-	<li>树的深度不超过 <code>10</code></li>
-</ul>
-</div>
-</div>
+> **输入：** root = [4,9,0,5,1]
+>
+> **输出：** 1026
+>
+> **解释：**
+>
+> 从根到叶子节点路径 4->9->5 代表数字 495
+>
+> 从根到叶子节点路径 4->9->1 代表数字 491
+>
+> 从根到叶子节点路径 4->0 代表数字 40
+>
+> 因此，数字总和 = 495 + 491 + 40 = 1026
 
-<p>&nbsp;</p>
+**提示：**
 
+- 树中节点的数目在范围 `[1, 1000]` 内
+- `0 <= Node.val <= 9`
+- 树的深度不超过 `10`
+
+::: warning
 本题与 LeetCode [第 129 题](../problem/0129.md) 相同。
+:::
 
 ## 解题思路
 

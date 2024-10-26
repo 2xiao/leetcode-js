@@ -4,37 +4,30 @@
 
 ## 题目
 
-<p>给定整数数组 <code>nums</code> 和整数 <code>k</code>，请返回数组中第 <code><strong>k</strong></code> 个最大的元素。</p>
+给定整数数组 `nums` 和整数 `k`，请返回数组中第 `k` 个最大的元素。
 
-<p>请注意，你需要找的是数组排序后的第 <code>k</code> 个最大的元素，而不是第 <code>k</code> 个不同的元素。</p>
+请注意，你需要找的是数组排序后的第 `k` 个最大的元素，而不是第 `k` 个不同的元素。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例 1:</strong></p>
+> **输入:** [3,2,1,5,6,4] 和 k = 2
+>
+> **输出:** 5
 
-<pre>
-<strong>输入:</strong> <code>[3,2,1,5,6,4] 和</code> k = 2
-<strong>输出:</strong> 5
-</pre>
+**示例 2:**
 
-<p><strong>示例&nbsp;2:</strong></p>
+> **输入:** [3,2,3,1,2,4,5,5,6] 和 k = 4
+>
+> **输出:** 4
 
-<pre>
-<strong>输入:</strong> <code>[3,2,3,1,2,4,5,5,6] 和</code> k = 4
-<strong>输出:</strong> 4</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= k <= nums.length <= 10^4`
+- `-10^4 <= nums[i] <= 10^4`
 
-<p><strong>提示： </strong></p>
-
-<ul>
-	<li><code>1 &lt;= k &lt;= nums.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>-10<sup>4</sup>&nbsp;&lt;= nums[i] &lt;= 10<sup>4</sup></code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 215 题](../problem/0215.md) 相同。
+:::
 
 ## 解题思路
 

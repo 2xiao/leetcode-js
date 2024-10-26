@@ -4,39 +4,32 @@
 
 ## 题目
 
-<p>给定一个非空的正整数数组 <code>nums</code> ，请判断能否将这些数字分成元素和相等的两部分。</p>
+给定一个非空的正整数数组 nums ，请判断能否将这些数字分成元素和相等的两部分。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例&nbsp;1：</strong></p>
+> 输入：nums = [1,5,11,5]
+>
+> 输出：true
+>
+> 解释：nums 可以分割成 [1, 5, 5] 和 [11] 。
 
-<pre>
-<strong>输入：</strong>nums = [1,5,11,5]
-<strong>输出：</strong>true
-<strong>解释：</strong>nums<strong> </strong>可以分割成 [1, 5, 5] 和 [11] 。</pre>
+**示例 2：**
 
-<p><strong>示例&nbsp;2：</strong></p>
+> 输入：nums = [1,2,3,5]
+>
+> 输出：false
+>
+> 解释：nums 不可以分为和相等的两部分
 
-<pre>
-<strong>输入：</strong>nums = [1,2,3,5]
-<strong>输出：</strong>false
-<strong>解释：</strong>nums<strong> </strong>不可以分为和相等的两部分
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= nums.length <= 200`
+- `1 <= nums[i] <= 100`
 
-<p><meta charset="UTF-8" /></p>
-
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 200</code></li>
-	<li><code>1 &lt;= nums[i] &lt;= 100</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 416 题](../problem/0416.md) 相同。
+:::
 
 ## 解题思路
 

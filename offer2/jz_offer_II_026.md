@@ -4,45 +4,40 @@
 
 ## 题目
 
-<p>给定一个单链表 <code>L</code><em> </em>的头节点 <code>head</code> ，单链表 <code>L</code> 表示为：</p>
+给定一个单链表 `L` 的头节点 `head` ，单链表 `L` 表示为：
 
-<p><code>&nbsp;L<sub>0&nbsp;</sub>&rarr; L<sub>1&nbsp;</sub>&rarr; &hellip; &rarr; L<sub>n-1&nbsp;</sub>&rarr; L<sub>n&nbsp;</sub></code><br />
-请将其重新排列后变为：</p>
+`L0 -> L1 -> … -> Ln-1 -> Ln`
 
-<p><code>L<sub>0&nbsp;</sub>&rarr;&nbsp;L<sub>n&nbsp;</sub>&rarr;&nbsp;L<sub>1&nbsp;</sub>&rarr;&nbsp;L<sub>n-1&nbsp;</sub>&rarr;&nbsp;L<sub>2&nbsp;</sub>&rarr;&nbsp;L<sub>n-2&nbsp;</sub>&rarr; &hellip;</code></p>
+请将其重新排列后变为：
 
-<p>不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。</p>
+`L0 -> Ln -> L1 -> Ln-1 -> L2 -> Ln-2 -> …`
 
-<p>&nbsp;</p>
+不能只是单纯的改变节点内部的值，而是需要实际的进行节点交换。
 
-<p><strong>示例 1:</strong></p>
+**示例 1:**
 
-<p><img alt="" src="https://pic.leetcode-cn.com/1626420311-PkUiGI-image.png" style="width: 240px; " /></p>
+![](https://pic.leetcode-cn.com/1626420311-PkUiGI-image.png)
 
-<pre>
-<strong>输入: </strong>head = [1,2,3,4]
-<strong>输出: </strong>[1,4,2,3]</pre>
+> **输入:** head = [1,2,3,4]
+>
+> **输出:**[1,4,2,3]
 
-<p><strong>示例 2:</strong></p>
+**示例 2:**
 
-<p><img alt="" src="https://pic.leetcode-cn.com/1626420320-YUiulT-image.png" style="width: 320px; " /></p>
+![](https://pic.leetcode-cn.com/1626420320-YUiulT-image.png)
 
-<pre>
-<strong>输入: </strong>head = [1,2,3,4,5]
-<strong>输出: </strong>[1,5,2,4,3]</pre>
+> **输入:** head = [1,2,3,4,5]
+>
+> **输出:**[1,5,2,4,3]
 
-<p>&nbsp;</p>
+**提示：**
 
-<p><strong>提示：</strong></p>
+- 链表的长度范围为 `[1, 5 * 104]`
+- `1 <= node.val <= 1000`
 
-<ul>
-	<li>链表的长度范围为 <code>[1, 5 * 10<sup>4</sup>]</code></li>
-	<li><code>1 &lt;= node.val &lt;= 1000</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 143 题](../problem/0143.md) 相同。
+:::
 
 ## 解题思路
 

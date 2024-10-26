@@ -4,28 +4,20 @@
 
 ## 题目
 
-<p>设备中存有 <code>n</code> 个文件，文件 <code>id</code> 记于数组 <code>documents</code>。若文件 <code>id</code> 相同，则定义为该文件存在副本。请返回任一存在副本的文件 <code>id</code>。</p>
+在一个长度为 `n` 的数组里的所有数字都在 `0` 到 `n-1` 的范围内。数组中某些数字是重复的，但不知道有几个数字是重复的，也不知道每个数字重复几次，请找出数组中任意一个重复的数字。
 
-<p>&nbsp;</p>
+例如，如果输入长度为 `7` 的数组`[2,3,1,0,2,5,3]`，那么对应的输出是 `2` 或者 `3`。存在不合法的输入的话输出`-1`.
 
-<p><strong>示例 1：</strong></p>
+**Example:**
 
-<pre>
-<strong>输入：</strong>documents = [2, 5, 3, 0, 5, 0]
-<strong>输出：</strong>0 或 5
-</pre>
+> 输入：[2, 5, 3, 0, 5, 0]
+>
+> 输出：0 或 5
 
-<p>&nbsp;</p>
+**Constraints:**
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>0 ≤ documents[i] ≤ n-1</code></li>
-	<li><code>2 &lt;= n &lt;= 100000</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+- 数据范围：`0 ≤ n ≤ 10000`
+- 进阶：时间复杂度 `O(n)` ，空间复杂度 `O(n)`
 
 ## 解题思路
 

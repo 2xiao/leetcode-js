@@ -4,48 +4,43 @@
 
 ## 题目
 
-<p>给你二叉树的根节点 <code>root</code> 和一个整数目标和 <code>targetSum</code> ，找出所有 <strong>从根节点到叶子节点</strong> 路径总和等于给定目标和的路径。</p>
+给你二叉树的根节点 `root` 和一个整数目标和 `targetSum` ，找出所有 **从根节点到叶子节点** 路径总和等于给定目标和的路径。
 
-<p><strong>叶子节点</strong> 是指没有子节点的节点。</p>
+**叶子节点** 是指没有子节点的节点。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+![](https://assets.leetcode.com/uploads/2021/01/18/pathsumii1.jpg)
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2021/01/18/pathsumii1.jpg" /></p>
+> 输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
+>
+> 输出：[[5,4,11,2],[5,8,4,5]]
+>
+> 解释: 5 + 4 + 11 + 2 = 22；5 + 8 + 4 + 5 = 22
 
-<pre>
-<strong>输入：</strong>root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22
-<strong>输出：</strong>[[5,4,11,2],[5,8,4,5]]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+![](https://assets.leetcode.com/uploads/2021/01/18/pathsum2.jpg)
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2021/01/18/pathsum2.jpg" /></p>
+> 输入：root = [1,2,3], targetSum = 5
+>
+> 输出：[]
 
-<pre>
-<strong>输入：</strong>root = [1,2,3], targetSum = 5
-<strong>输出：</strong>[]
-</pre>
+**示例 3：**
 
-<p><strong>示例 3：</strong></p>
+> 输入：root = [1,2], targetSum = 0
+>
+> 输出：[]
 
-<pre>
-<strong>输入：</strong>root = [1,2], targetSum = 0
-<strong>输出：</strong>[]
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- 树中节点总数在范围 `[0, 5000]` 内
+- `-1000 <= Node.val <= 1000`
+- `-1000 <= targetSum <= 1000`
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li>树中节点总数在范围 <code>[0, 5000]</code> 内</li>
-	<li><code>-1000 &lt;= Node.val &lt;= 1000</code></li>
-	<li><code>-1000 &lt;= targetSum &lt;= 1000</code></li>
-</ul>
-
+::: warning
 本题与 LeetCode [第 113 题](../problem/0113.md) 相同。
+:::
 
 ## 解题思路
 

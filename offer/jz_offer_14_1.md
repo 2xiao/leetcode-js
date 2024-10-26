@@ -4,24 +4,21 @@
 
 ## 题目
 
-<p>现需要将一根长为正整数 <code>bamboo_len</code> 的竹子砍为若干段，每段长度均为正整数。请返回每段竹子长度的最大乘积是多少。</p>
+现需要将一根长为正整数 bamboo_len 的竹子砍为若干段，每段长度均为正整数。请返回每段竹子长度的最大乘积是多少。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例 1：</strong></p>
+> 输入: bamboo_len = 12
+>
+> 输出：81
 
-<pre>
-<strong>输入: </strong>bamboo_len<strong> </strong>=<strong> </strong>12
-<strong>输出: </strong>81
-</pre>
+**提示：**
 
-<strong>提示：</strong>
+- `2 <= bamboo_len <= 58`
 
-<ul>
-	<li><code>2 &lt;= bamboo_len&nbsp;&lt;= 58</code></li>
-</ul>
-
+::: warning
 本题与 LeetCode [第 343 题](../problem/0343.md) 相同。
+:::
 
 ## 解题思路
 

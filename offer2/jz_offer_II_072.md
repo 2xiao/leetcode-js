@@ -4,40 +4,33 @@
 
 ## 题目
 
-<p>给定一个非负整数 <code>x</code> ，计算并返回 <code>x</code> 的平方根，即实现&nbsp;<code>int sqrt(int x)</code>&nbsp;函数。</p>
+给定一个非负整数 `x` ，计算并返回 `x` 的平方根，即实现 `int sqrt(int x)` 函数。
 
-<p>正数的平方根有两个，只输出其中的正数平方根。</p>
+正数的平方根有两个，只输出其中的正数平方根。
 
-<p>如果平方根不是整数，输出只保留整数的部分，小数部分将被舍去。</p>
+如果平方根不是整数，输出只保留整数的部分，小数部分将被舍去。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例 1:</strong></p>
+> **输入:** x = 4
+>
+> **输出:** 2
 
-<pre>
-<strong>输入:</strong> x = 4
-<strong>输出:</strong> 2
-</pre>
+**示例 2:**
 
-<p><strong>示例 2:</strong></p>
+> **输入:** x = 8
+>
+> **输出:** 2
+>
+> **解释:** 8 的平方根是 2.82842...，由于小数部分将被舍去，所以返回 2
 
-<pre>
-<strong>输入:</strong> x = 8
-<strong>输出:</strong> 2
-<strong>解释:</strong> 8 的平方根是 2.82842...，由于小数部分将被舍去，所以返回 2
-</pre>
+**提示:**
 
-<p>&nbsp;</p>
+- `0 <= x <= 2^31 - 1`
 
-<p><strong>提示:</strong></p>
-
-<ul>
-	<li><meta charset="UTF-8" /><code>0 &lt;= x &lt;= 2<sup>31</sup>&nbsp;- 1</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 69 题](../problem/0069.md) 相同。
+:::
 
 ## 解题思路
 

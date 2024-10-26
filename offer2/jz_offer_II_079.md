@@ -4,39 +4,31 @@
 
 ## 题目
 
-<p>给定一个整数数组&nbsp;<code>nums</code> ，数组中的元素 <strong>互不相同</strong> 。返回该数组所有可能的子集（幂集）。</p>
+给定一个整数数组 `nums` ，数组中的元素 **互不相同** 。返回该数组所有可能的子集（幂集）。
 
-<p>解集 <strong>不能</strong> 包含重复的子集。你可以按 <strong>任意顺序</strong> 返回解集。</p>
+解集 **不能** 包含重复的子集。你可以按 **任意顺序** 返回解集。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入：** nums = [1,2,3]
+>
+> **输出：**[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
 
-<pre>
-<strong>输入：</strong>nums = [1,2,3]
-<strong>输出：</strong>[[],[1],[2],[1,2],[3],[1,3],[2,3],[1,2,3]]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入：** nums = [0]
+>
+> **输出：**[[],[0]]
 
-<pre>
-<strong>输入：</strong>nums = [0]
-<strong>输出：</strong>[[],[0]]
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= nums.length <= 10`
+- `-10 <= nums[i] <= 10`
+- `nums` 中的所有元素 **互不相同**
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 10</code></li>
-	<li><code>-10 &lt;= nums[i] &lt;= 10</code></li>
-	<li><code>nums</code> 中的所有元素 <strong>互不相同</strong></li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 78 题](../problem/0078.md) 相同。
+:::
 
 ## 解题思路
 

@@ -4,64 +4,57 @@
 
 ## 题目
 
-<p>给定一个链表，返回链表开始入环的第一个节点。 从链表的头节点开始沿着 <code>next</code> 指针进入环的第一个节点为环的入口节点。如果链表无环，则返回&nbsp;<code>null</code>。</p>
+给定一个链表，返回链表开始入环的第一个节点。 从链表的头节点开始沿着 `next` 指针进入环的第一个节点为环的入口节点。如果链表无环，则返回
+`null`。
 
-<p>为了表示给定链表中的环，我们使用整数 <code>pos</code> 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 <code>pos</code> 是 <code>-1</code>，则在该链表中没有环。<strong>注意，<code>pos</code> 仅仅是用于标识环的情况，并不会作为参数传递到函数中。</strong></p>
+为了表示给定链表中的环，我们使用整数 `pos` 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 `pos` 是
+`-1`，则在该链表中没有环。**注意，`pos` 仅仅是用于标识环的情况，并不会作为参数传递到函数中。**
 
-<p><strong>说明：</strong>不允许修改给定的链表。</p>
+**说明：** 不允许修改给定的链表。
 
-<ul>
-</ul>
+**示例 1：**
 
-<p>&nbsp;</p>
+![](https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist.png)
 
-<p><strong>示例 1：</strong></p>
+> **输入：** head = [3,2,0,-4], pos = 1
+>
+> **输出：** 返回索引为 1 的链表节点
+>
+> **解释：** 链表中有一个环，其尾部连接到第二个节点。
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist.png" style="height: 97px; width: 300px;" /></p>
+**示例 2：**
 
-<pre>
-<strong>输入：</strong>head = [3,2,0,-4], pos = 1
-<strong>输出：</strong>返回索引为 1 的链表节点
-<strong>解释：</strong>链表中有一个环，其尾部连接到第二个节点。
-</pre>
+![](https://assets.leetcode-cn.com/aliyun-lc-
+upload/uploads/2018/12/07/circularlinkedlist_test2.png)
 
-<p><strong>示例&nbsp;2：</strong></p>
+> **输入：** head = [1,2], pos = 0
+>
+> **输出：** 返回索引为 0 的链表节点
+>
+> **解释：** 链表中有一个环，其尾部连接到第一个节点。
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test2.png" style="height: 74px; width: 141px;" /></p>
+**示例 3：**
 
-<pre>
-<strong>输入：</strong>head = [1,2], pos = 0
-<strong>输出：</strong>返回索引为 0 的链表节点
-<strong>解释：</strong>链表中有一个环，其尾部连接到第一个节点。
-</pre>
+![](https://assets.leetcode-cn.com/aliyun-lc-
+upload/uploads/2018/12/07/circularlinkedlist_test3.png)
 
-<p><strong>示例 3：</strong></p>
+> **输入：** head = [1], pos = -1
+>
+> **输出：** 返回 null
+>
+> **解释：** 链表中没有环。
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2018/12/07/circularlinkedlist_test3.png" style="height: 45px; width: 45px;" /></p>
+**提示：**
 
-<pre>
-<strong>输入：</strong>head = [1], pos = -1
-<strong>输出：</strong>返回 null
-<strong>解释：</strong>链表中没有环。
-</pre>
+- 链表中节点的数目范围在范围 `[0, 104]` 内
+- `-10^5 <= Node.val <= 10^5`
+- `pos` 的值为 `-1` 或者链表中的一个有效索引
 
-<p>&nbsp;</p>
+**进阶：** 是否可以使用 `O(1)` 空间解决此题？
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li>链表中节点的数目范围在范围 <code>[0, 10<sup>4</sup>]</code> 内</li>
-	<li><code>-10<sup>5</sup> &lt;= Node.val &lt;= 10<sup>5</sup></code></li>
-	<li><code>pos</code> 的值为 <code>-1</code> 或者链表中的一个有效索引</li>
-</ul>
-
-<p>&nbsp;</p>
-
-<p><strong>进阶：</strong>是否可以使用 <code>O(1)</code> 空间解决此题？</p>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 142 题](../problem/0142.md) 相同。
+:::
 
 ## 解题思路
 

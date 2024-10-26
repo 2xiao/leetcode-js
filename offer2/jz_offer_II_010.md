@@ -4,40 +4,31 @@
 
 ## 题目
 
-<p>给定一个整数数组和一个整数&nbsp;<code>k</code><strong> ，</strong>请找到该数组中和为&nbsp;<code>k</code><strong>&nbsp;</strong>的连续子数组的个数。</p>
+给定一个整数数组和一个整数 `k`， 请找到该数组中和为 `k` 的连续子数组的个数。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入:** nums = [1,1,1], k = 2
+>
+> **输出:** 2
+>
+> **解释:** 此题 [1,1] 与 [1,1] 为两种不同的情况
 
-<pre>
-<strong>输入:</strong>nums = [1,1,1], k = 2
-<strong>输出:</strong> 2
-<strong>解释:</strong> 此题 [1,1] 与 [1,1] 为两种不同的情况
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入:** nums = [1,2,3], k = 3
+>
+> **输出:** 2
 
-<pre>
-<strong>输入:</strong>nums = [1,2,3], k = 3
-<strong>输出:</strong> 2
-</pre>
+**提示:**
 
-<p>&nbsp;</p>
+- `1 <= nums.length <= 2 * 10^4`
+- `-1000 <= nums[i] <= 1000`
+- `-10^7 <= k <= 10^7`
 
-<p><strong>提示:</strong></p>
-
-<ul>
-	<li><code>1 &lt;= nums.length &lt;= 2 * 10<sup>4</sup></code></li>
-	<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>
-	<li>
-	<p><code>-10<sup>7</sup>&nbsp;&lt;= k &lt;= 10<sup>7</sup></code></p>
-	</li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 560 题](../problem/0560.md) 相同。
+:::
 
 ## 解题思路
 

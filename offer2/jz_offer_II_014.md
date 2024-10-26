@@ -4,39 +4,32 @@
 
 ## 题目
 
-<p>给定两个字符串&nbsp;<code>s1</code>&nbsp;和&nbsp;<code>s2</code>，写一个函数来判断 <code>s2</code> 是否包含 <code>s1</code><strong>&nbsp;</strong>的某个变位词。</p>
+给定两个字符串 `s1` 和 `s2`，写一个函数来判断 `s2` 是否包含 `s1` 的某个变位词。
 
-<p>换句话说，第一个字符串的排列之一是第二个字符串的 <strong>子串</strong> 。</p>
+换句话说，第一个字符串的排列之一是第二个字符串的 **子串** 。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入:** s1 = "ab" s2 = "eidbaooo"
+>
+> **输出:** True
+>
+> **解释:** s2 包含 s1 的排列之一 ("ba").
 
-<pre>
-<strong>输入: </strong>s1 = &quot;ab&quot; s2 = &quot;eidbaooo&quot;
-<strong>输出: </strong>True
-<strong>解释:</strong> s2 包含 s1 的排列之一 (&quot;ba&quot;).
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入:** s1= "ab" s2 = "eidboaoo"
+>
+> **输出:** False
 
-<pre>
-<strong>输入: </strong>s1= &quot;ab&quot; s2 = &quot;eidboaoo&quot;
-<strong>输出:</strong> False
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= s1.length, s2.length <= 10^4`
+- `s1` 和 `s2` 仅包含小写字母
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= s1.length, s2.length &lt;= 10<sup>4</sup></code></li>
-	<li><code>s1</code> 和 <code>s2</code> 仅包含小写字母</li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 567 题](../problem/0567.md) 相同。
+:::
 
 ## 解题思路
 

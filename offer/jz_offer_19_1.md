@@ -4,58 +4,48 @@
 
 ## 题目
 
-<p>请设计一个程序来支持用户在文本编辑器中的模糊搜索功能。用户输入内容中可能使用到如下两种通配符：</p>
+给你一个字符串 `article` 和一个字符规律 `input`，请你来实现一个支持 `'.'` 和 `'*'` 的正则表达式匹配。
 
-<ul>
-	<li><code>'.'</code> 匹配任意单个字符。</li>
-	<li><code>'*'</code> 匹配零个或多个前面的那一个元素。</li>
-</ul>
+- `'.'` 匹配任意单个字符
+- `'*'` 匹配零个或多个前面的那一个元素
 
-<p>&nbsp;</p>
+所谓匹配，是要涵盖 **整个** 字符串 `s` 的，而不是部分字符串。例如，字符串 `"aaa"` 与模式 `"a.a"` 和 `"ab*ac*a"` 匹配，但与 `"aa.a"` 和 `"ab*a"` 均不匹配。
 
-<p>请返回用户输入内容 <code>input</code> 所有字符是否可以匹配原文字符串 <code>article</code>。</p>
+**示例 1：**
 
-<p>&nbsp;</p>
+> 输入: article = "aa", input = "a"
+>
+> 输出: false
+>
+> 解释: "a" 无法匹配 "aa" 整个字符串。
 
-<p><strong>示例 1:</strong></p>
+**示例 2：**
 
-<pre>
-<strong>输入: </strong>article = "aa", input = "a"
-<strong>输出:</strong> false
-<strong>解释:</strong> "a" 无法匹配 "aa" 整个字符串。
-</pre>
+> 输入: article = "aa", input = "a\*"
+>
+> 输出: true
+>
+> 解释: 因为 '\*' 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 'a'。因此，字符串 "aa" 可被视为 'a' 重复了一次。
 
-<p><strong>示例 2:</strong></p>
+**示例 3：**
 
-<pre>
-<strong>输入: </strong>article = "aa", input = "a*"
-<strong>输出:</strong> true
-<strong>解释:</strong>&nbsp;因为 '*' 代表可以匹配零个或多个前面的那一个元素, 在这里前面的元素就是 'a'。因此，字符串 "aa" 可被视为 'a' 重复了一次。
-</pre>
+> 输入: article = "ab", input = ".\*"
+>
+> 输出: true
+>
+> 解释: ".\*" 表示可匹配零个或多个（'\*'）任意字符（'.'）。
 
-<p><strong>示例&nbsp;3:</strong></p>
+**提示：**
 
-<pre>
-<strong>输入: </strong>article = "ab", input = ".*"
-<strong>输出:</strong> true
-<strong>解释:</strong>&nbsp;".*" 表示可匹配零个或多个（'*'）任意字符（'.'）。
-</pre>
+- `1 <= article.length <= 20`
+- `1 <= input.length <= 20`
+- `article` 只包含从 `a-z` 的小写字母。
+- `input` 只包含从 `a-z` 的小写字母，以及字符 `.` 和 `*` 。
+- 保证每次出现字符 `*` 时，前面都匹配到有效的字符
 
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= article.length &lt;= 20</code></li>
-	<li><code>1 &lt;= input.length &lt;= 20</code></li>
-	<li><code>article</code> 只包含从 <code>a-z</code> 的小写字母。</li>
-	<li><code>input</code> 只包含从 <code>a-z</code> 的小写字母，以及字符 <code>.</code> 和 <code>*</code> 。</li>
-	<li>保证每次出现字符 <code>*</code> 时，前面都匹配到有效的字符</li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 10 题](../problem/0010.md) 相同。
+:::
 
 ## 解题思路
 

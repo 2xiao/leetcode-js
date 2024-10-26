@@ -1,37 +1,28 @@
-# [40. 最小的k个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof)
+# [40. 最小的 k 个数](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof)
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof)
 
 ## 题目
 
-<p>仓库管理员以数组 <code>stock</code> 形式记录商品库存表，其中 <code>stock[i]</code> 表示对应商品库存余量。请返回库存余量最少的 <code>cnt</code> 个商品余量，返回&nbsp;<strong>顺序不限</strong>。</p>
+仓库管理员以数组 `stock` 形式记录商品库存表，其中 `stock[i]` 表示对应商品库存余量。请返回库存余量最少的 `cnt` 个商品余量，返回
+**顺序不限** 。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入：** stock = [2,5,7,4], cnt = 1
+>
+> **输出：**[2]
 
-<pre>
-<strong>输入：</strong>stock = [2,5,7,4], cnt = 1
-<strong>输出：</strong>[2]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入：** stock = [0,2,3,6], cnt = 2
+>
+> **输出：**[0,2] 或 [2,0]
 
-<pre>
-<strong>输入：</strong>stock = [0,2,3,6], cnt = 2
-<strong>输出：</strong>[0,2] 或 [2,0]</pre>
+**提示：**
 
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>0 &lt;= cnt &lt;= stock.length &lt;= 10000<br />
-	0 &lt;= stock[i] &lt;= 10000</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+- `0 <= cnt <= stock.length <= 10000`
+- `0 <= stock[i] <= 10000`
 
 ## 解题思路
 

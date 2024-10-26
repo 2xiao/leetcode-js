@@ -4,49 +4,42 @@
 
 ## 题目
 
-<p><code>m</code>*<code>n</code> 的二维数组 <code>plants</code> 记录了园林景观的植物排布情况，具有以下特性：</p>
+编写一个高效的算法来搜索 `m x n` 矩阵 `matrix` 中的一个目标值 `target` 。该矩阵具有以下特性：
 
-<ul>
-	<li>每行中，每棵植物的右侧相邻植物不矮于该植物；</li>
-	<li>每列中，每棵植物的下侧相邻植物不矮于该植物。</li>
-</ul>
+- 每行的元素从左到右升序排列。
+- 每列的元素从上到下升序排列。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p>请判断 <code>plants</code> 中是否存在目标高度值 <code>target</code>。</p>
+![](https://assets.leetcode.com/uploads/2020/11/24/searchgrid2.jpg)
 
-<p>&nbsp;</p>
+> 输入: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 5
+>
+> 输出: true
 
-<p><strong>示例 1：</strong></p>
+**示例 2：**
 
-<pre>
-<strong>输入：</strong>plants = [[2,3,6,8],[4,5,8,9],[5,9,10,12]], target = 8
+![](https://assets.leetcode.com/uploads/2020/11/24/searchgrid.jpg)
 
-<strong>输出：</strong>true
-</pre>
+> 输入: matrix = [[1,4,7,11,15],[2,5,8,12,19],[3,6,9,16,22],[10,13,14,17,24],[18,21,23,26,30]], target = 20
+>
+> 输出: false
 
-<p>&nbsp;</p>
+**说明**：
 
-<p><strong>示例 2：</strong></p>
+- `m == matrix.length`
+- `n == matrix[i].length`
+- `1 <= n, m <= 300`
+- `-10^9 <= matrix[i][j] <= 10^9`
+- 每行的所有元素从左到右升序排列。
+- 每列的所有元素从上到下升序排列。
+- `-10^9 <= target <= 10^9`
 
-<pre>
-<strong>输入：</strong>plants = [[1,3,5],[2,5,7]], target = 4
-
-<strong>输出：</strong>false
-</pre>
-
-<p>&nbsp;</p>
-
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>0 &lt;= n &lt;= 1000</code></li>
-	<li><code>0 &lt;= m &lt;= 1000</code></li>
-</ul>
+::: warning
 
 本题与 LeetCode [第 240 题](../problem/0240.md) 相同。
 
-<p>&nbsp;</p>
+:::
 
 ## 解题思路
 

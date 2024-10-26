@@ -4,32 +4,26 @@
 
 ## 题目
 
-<p>家居整理师将待整理衣橱划分为 <code>m x n</code> 的二维矩阵 <code>grid</code>，其中 <code>grid[i][j]</code> 代表一个需要整理的格子。整理师自 <code>grid[0][0]</code> 开始 <strong>逐行逐列</strong> 地整理每个格子。</p>
+地上有一个 `m` 行和 `n` 列的方格。坐标从 `[0,0]` 到 `[m-1,n-1]` 。一个机器人从坐标 `[0,0]` 的格子开始移动，每一次只能向左，右，上，下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于 `k` 的格子。 例如，当 `k` 为 `18` 时，机器人能够进入方格 `[35,37]` ，因为 `3+5+3+7 = 18`。但是，它不能进入方格 `[35,38]` ，因为 `3+5+3+8 = 19` 。请问该机器人能够达到多少个格子？
 
-<p>整理规则为：在整理过程中，可以选择&nbsp;<strong>向右移动一格&nbsp;</strong>或&nbsp;<strong>向下移动一格</strong>，但不能移动到衣柜之外。同时，不需要整理 <code>digit(i)&nbsp;+ digit(j)&nbsp;&gt; cnt</code> 的格子，其中 <code>digit(x)</code>&nbsp;表示数字&nbsp;<code>x</code> 的各数位之和。</p>
+进阶：空间复杂度 `O(nm)` ，时间复杂度 `O(nm)`
 
-<p>请返回整理师&nbsp;<strong>总共需要整理多少个格子</strong>。</p>
+**示例 1：**
 
-<p>&nbsp;</p>
+> 输入: m = 2, n = 3, k = 1
+>
+> 输出: 3
 
-<p><strong>示例 1：</strong></p>
+**示例 2：**
 
-<pre>
-<strong>输入：</strong>m = 4, n = 7, cnt = 5
-<strong>输出：</strong>18
-</pre>
+> 输入: m = 3, n = 1, k = 0
+>
+> 输出: 1
 
-<p>&nbsp;</p>
+**提示：**
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>1 &lt;= n, m &lt;= 100</code></li>
-	<li><code>0 &lt;= cnt &lt;= 20</code></li>
-</ul>
-
-<p>&nbsp;</p>
-
+- `0 ≤ k ≤ 15`
+- `1 ≤ m, n ≤ 100`
 
 ## 解题思路
 

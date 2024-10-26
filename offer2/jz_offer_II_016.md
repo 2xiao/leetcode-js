@@ -4,54 +4,48 @@
 
 ## 题目
 
-<p>给定一个字符串 <code>s</code> ，请你找出其中不含有重复字符的&nbsp;<strong>最长连续子字符串&nbsp;</strong>的长度。</p>
+给定一个字符串 `s` ，请你找出其中不含有重复字符的 **最长连续子字符串** 的长度。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例&nbsp;1:</strong></p>
+> **输入:** s = "abcabcbb"
+>
+> **输出:** 3
+>
+> **解释:** 因为无重复字符的最长子字符串是 "abc"，所以其长度为 3。
 
-<pre>
-<strong>输入: </strong>s = &quot;abcabcbb&quot;
-<strong>输出: </strong>3 
-<strong>解释:</strong> 因为无重复字符的最长子字符串是 <code>&quot;abc&quot;，所以其</code>长度为 3。
-</pre>
+**示例 2:**
 
-<p><strong>示例 2:</strong></p>
+> **输入:** s = "bbbbb"
+>
+> **输出:** 1
+>
+> **解释:** 因为无重复字符的最长子字符串是 "b"，所以其长度为 1。
 
-<pre>
-<strong>输入: </strong>s = &quot;bbbbb&quot;
-<strong>输出: </strong>1
-<strong>解释: </strong>因为无重复字符的最长子字符串是 <code>&quot;b&quot;</code>，所以其长度为 1。
-</pre>
+**示例 3:**
 
-<p><strong>示例 3:</strong></p>
+> **输入:** s = "pwwkew"
+>
+> **输出:** 3
+>
+> **解释:** 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
+>
+> > 请注意，你的答案必须是 **子串** 的长度，"pwke" 是一个 _子序列，_ 不是子串。
 
-<pre>
-<strong>输入: </strong>s = &quot;pwwkew&quot;
-<strong>输出: </strong>3
-<strong>解释: </strong>因为无重复字符的最长子串是&nbsp;<code>&quot;wke&quot;</code>，所以其长度为 3。
-&nbsp;    请注意，你的答案必须是 <strong>子串 </strong>的长度，<code>&quot;pwke&quot;</code>&nbsp;是一个<em>子序列，</em>不是子串。
-</pre>
+**示例 4:**
 
-<p><strong>示例 4:</strong></p>
+> **输入:** s = ""
+>
+> **输出:** 0
 
-<pre>
-<strong>输入: </strong>s = &quot;&quot;
-<strong>输出: </strong>0
-</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `0 <= s.length <= 5 * 10^4`
+- `s` 由英文字母、数字、符号和空格组成
 
-<p><strong>提示：</strong></p>
-
-<ul>
-	<li><code>0 &lt;= s.length &lt;= 5 * 10<sup>4</sup></code></li>
-	<li><code>s</code>&nbsp;由英文字母、数字、符号和空格组成</li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 3 题](../problem/0003.md) 相同。
+:::
 
 ## 解题思路
 

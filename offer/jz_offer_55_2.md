@@ -4,37 +4,35 @@
 
 ## 题目
 
-<p>输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。</p>
+输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过 1，那么它就是一棵平衡二叉树。
 
-<p>&nbsp;</p>
+**示例 1:**
 
-<p><strong>示例 1:</strong></p>
+> **输入：** root = [3,9,20,null,null,15,7]
+>
+> **输出：** true
+>
+> **解释：** 如下图
 
-<pre>
-<strong>输入：</strong>root = [3,9,20,null,null,15,7]
-<strong>输出：</strong>true 
-<strong>解释：</strong>如下图
-</pre>
+![](https://pic.leetcode.cn/1695102431-vbmWJn-image.png)
 
-<p><img alt="" src="https://pic.leetcode.cn/1695102431-vbmWJn-image.png" style="height: 281px; width: 500px;" /><br />
-<br />
-<strong>示例 2:</strong></p>
+**示例 2:**
 
-<pre>
-输入：root = [1,2,2,3,3,null,null,4,4]
-输出：false
-解释：如下图
-</pre>
-<img alt="" src="https://pic.leetcode.cn/1695102434-WlaxCo-image.png" style="height: 281px; width: 500px;" />
-<p>&nbsp;</p>
+> 输入：root = [1,2,2,3,3,null,null,4,4]
+>
+> 输出：false
+>
+> 解释：如下图
 
-<p><strong>提示：</strong></p>
+![](https://pic.leetcode.cn/1695102434-WlaxCo-image.png)
 
-<ul>
-	<li><code>0 &lt;= 树的结点个数 &lt;= 10000</code></li>
-</ul>
+**提示：**
 
+- `0 <= 树的结点个数 <= 10000`
+
+::: warning
 本题与 LeetCode [第 110 题](../problem/0110.md) 相同。
+:::
 
 ## 解题思路
 

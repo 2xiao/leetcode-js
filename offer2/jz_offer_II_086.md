@@ -4,44 +4,36 @@
 
 ## 题目
 
-<p>给定一个字符串 <code>s</code> ，请将 <code>s</code> 分割成一些子串，使每个子串都是 <strong>回文串</strong> ，返回 s 所有可能的分割方案。</p>
+给定一个字符串 `s` ，请将 `s` 分割成一些子串，使每个子串都是 **回文串** ，返回 s 所有可能的分割方案。
 
-<p><meta charset="UTF-8" /><strong>回文串</strong>&nbsp;是正着读和反着读都一样的字符串。</p>
+**回文串** 是正着读和反着读都一样的字符串。
 
-<p>&nbsp;</p>
+**示例 1：**
 
-<p><strong>示例 1：</strong></p>
+> **输入：** s = "google"
+>
+> **输出：**[["g","o","o","g","l","e"],["g","oo","g","l","e"],["goog","l","e"]]
 
-<pre>
-<strong>输入：</strong>s =<strong> </strong>&quot;google&quot;
-<strong>输出：</strong>[[&quot;g&quot;,&quot;o&quot;,&quot;o&quot;,&quot;g&quot;,&quot;l&quot;,&quot;e&quot;],[&quot;g&quot;,&quot;oo&quot;,&quot;g&quot;,&quot;l&quot;,&quot;e&quot;],[&quot;goog&quot;,&quot;l&quot;,&quot;e&quot;]]
-</pre>
+**示例 2：**
 
-<p><strong>示例 2：</strong></p>
+> **输入：** s = "aab"
+>
+> **输出：**[["a","a","b"],["aa","b"]]
 
-<pre>
-<strong>输入：</strong>s = &quot;aab&quot;
-<strong>输出：</strong>[[&quot;a&quot;,&quot;a&quot;,&quot;b&quot;],[&quot;aa&quot;,&quot;b&quot;]]
-</pre>
+**示例 3：**
 
-<p><strong>示例 3：</strong></p>
+> **输入：** s = "a"
+>
+> **输出：**[["a"]]
 
-<pre>
-<strong>输入：</strong>s = &quot;a&quot;
-<strong>输出：</strong>[[&quot;a&quot;]]</pre>
+**提示：**
 
-<p>&nbsp;</p>
+- `1 <= s.length <= 16`
+- `s `仅由小写英文字母组成
 
-<p><b>提示：</b></p>
-
-<ul>
-	<li><code>1 &lt;= s.length &lt;= 16</code></li>
-	<li><code>s </code>仅由小写英文字母组成</li>
-</ul>
-
-<p>&nbsp;</p>
-
+::: warning
 本题与 LeetCode [第 131 题](../problem/0131.md) 相同。
+:::
 
 ## 解题思路
 
