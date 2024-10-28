@@ -51,7 +51,7 @@ headerDepth: 0
 | 93 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses) | [[✓]](/problem/0093.md) |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> | 114 |
 | 148 | [排序链表](https://leetcode.com/problems/sort-list) | [[✓]](/problem/0148.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> | 111 |
 | 31 | [下一个排列](https://leetcode.com/problems/next-permutation) | [[✓]](/problem/0031.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> | 111 |
-| 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 109 |
+| 69 | [x 的平方根](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 109 |
 | 70 | [爬楼梯](https://leetcode.com/problems/climbing-stairs) | [[✓]](/problem/0070.md) |  [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#15bd66>Easy</font> | 109 |
 | 8 | [字符串转换整数 (atoi)](https://leetcode.com/problems/string-to-integer-atoi) | [[✓]](/problem/0008.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> | 106 |
 | 2 | [两数相加](https://leetcode.com/problems/add-two-numbers) | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> | 106 |

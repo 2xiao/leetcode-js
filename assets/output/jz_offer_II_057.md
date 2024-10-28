@@ -1,6 +1,6 @@
-# [57. 值和下标之差都在给定的范围内](https://leetcode.cn/problems/7WqeDu)
+# [57. 值和下标之差都在给定的范围内](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_057.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) [`排序`](/tag/sorting.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7WqeDu)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) [`排序`](/tag/sorting.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/7WqeDu)
 
 ## 题目
 

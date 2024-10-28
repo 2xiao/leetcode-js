@@ -1,6 +1,6 @@
-# [LCP 55. 采集果实](https://leetcode.cn/problems/PTXy4P)
+# [LCP 55. 采集果实](https://2xiao.github.io/leetcode-js/lcp/LCP_55.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/PTXy4P)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/PTXy4P)
 
 ## 题目
 

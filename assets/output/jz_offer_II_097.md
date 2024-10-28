@@ -1,6 +1,6 @@
-# [97. 子序列的数目](https://leetcode.cn/problems/21dk04)
+# [97. 子序列的数目](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_097.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/21dk04)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/21dk04)
 
 ## 题目
 

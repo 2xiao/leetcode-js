@@ -1,6 +1,6 @@
-# [LCP 51. 烹饪料理](https://leetcode.cn/problems/UEcfPD)
+# [LCP 51. 烹饪料理](https://2xiao.github.io/leetcode-js/lcp/LCP_51.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/UEcfPD)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/UEcfPD)
 
 ## 题目
 

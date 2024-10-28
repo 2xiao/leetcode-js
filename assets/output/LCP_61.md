@@ -1,6 +1,6 @@
-# [LCP 61. 气温变化趋势](https://leetcode.cn/problems/6CE719)
+# [LCP 61. 气温变化趋势](https://2xiao.github.io/leetcode-js/lcp/LCP_61.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/6CE719)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/6CE719)
 
 ## 题目
 

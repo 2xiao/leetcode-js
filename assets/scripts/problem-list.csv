@@ -67,7 +67,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 66,0066,0000-0099,Plus One,加一,plus-one,"Array|array|数组,Math|math|数学",Easy,True,0043|0067|0369|0989|2571,0
 67,0067,0000-0099,Add Binary,二进制求和,add-binary,"Bit Manipulation|bit-manipulation|位运算,Math|math|数学,String|string|字符串,Simulation|simulation|模拟",Easy,True,0002|0043|0066|0989,0
 68,0068,0000-0099,Text Justification,文本左右对齐,text-justification,"Array|array|数组,String|string|字符串,Simulation|simulation|模拟",Hard,True,1592|2138|2468,0
-69,0069,0000-0099,Sqrt(x),x 的平方根 ,sqrtx,"Math|math|数学,Binary Search|binary-search|二分查找",Easy,True,0050|0367,0
+69,0069,0000-0099,Sqrt(x),x 的平方根,sqrtx,"Math|math|数学,Binary Search|binary-search|二分查找",Easy,True,0050|0367,0
 70,0070,0000-0099,Climbing Stairs,爬楼梯,climbing-stairs,"Memoization|memoization|记忆化搜索,Math|math|数学,Dynamic Programming|dynamic-programming|动态规划",Easy,True,0746|0509|1137|2244|2320|2400|2466|2498|3154|3183,0
 71,0071,0000-0099,Simplify Path,简化路径,simplify-path,"Stack|stack|栈,String|string|字符串",Medium,True,,0
 72,0072,0000-0099,Edit Distance,编辑距离,edit-distance,"String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Medium,True,0161|0583|0712|1035|2209,0
@@ -1080,7 +1080,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 1079,1079,1000-1099,Letter Tile Possibilities,活字印刷,letter-tile-possibilities,"Hash Table|hash-table|哈希表,String|string|字符串,Backtracking|backtracking|回溯,Counting|counting|计数",Medium,False,,0
 1080,1080,1000-1099,Insufficient Nodes in Root to Leaf Paths,根到叶路径上的不足节点,insufficient-nodes-in-root-to-leaf-paths,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Medium,False,2265,0
 1081,1081,1000-1099,Smallest Subsequence of Distinct Characters,不同字符的最小子序列,smallest-subsequence-of-distinct-characters,"Stack|stack|栈,Greedy|greedy|贪心,String|string|字符串,Monotonic Stack|monotonic-stack|单调栈",Medium,True,1673,0
-1082,1082,1000-1099,Sales Analysis I,销售分析 I ,sales-analysis-i,Database|database|数据库,Easy,False,1083,1
+1082,1082,1000-1099,Sales Analysis I,销售分析 I,sales-analysis-i,Database|database|数据库,Easy,False,1083,1
 1083,1083,1000-1099,Sales Analysis II,销售分析 II,sales-analysis-ii,Database|database|数据库,Easy,False,1082|1084,1
 1084,1084,1000-1099,Sales Analysis III,销售分析 III,sales-analysis-iii,Database|database|数据库,Easy,False,1083,0
 1085,1085,1000-1099,Sum of Digits in the Minimum Number,最小元素各数位之和,sum-of-digits-in-the-minimum-number,"Array|array|数组,Math|math|数学",Easy,False,0258,1
@@ -1090,7 +1090,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 1089,1089,1000-1099,Duplicate Zeros,复写零,duplicate-zeros,"Array|array|数组,Two Pointers|two-pointers|双指针",Easy,False,,0
 1090,1090,1000-1099,Largest Values From Labels,受标签影响的最大值,largest-values-from-labels,"Greedy|greedy|贪心,Array|array|数组,Hash Table|hash-table|哈希表,Counting|counting|计数,Sorting|sorting|排序",Medium,False,,0
 1091,1091,1000-1099,Shortest Path in Binary Matrix,二进制矩阵中的最短路径,shortest-path-in-binary-matrix,"Breadth-First Search|breadth-first-search|广度优先搜索,Array|array|数组,Matrix|matrix|矩阵",Medium,False,2435,0
-1092,1092,1000-1099,Shortest Common Supersequence ,最短公共超序列,shortest-common-supersequence,"String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Hard,False,1143|2800,0
+1092,1092,1000-1099,Shortest Common Supersequence,最短公共超序列,shortest-common-supersequence,"String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Hard,False,1143|2800,0
 1093,1093,1000-1099,Statistics from a Large Sample,大样本统计,statistics-from-a-large-sample,"Array|array|数组,Math|math|数学,Probability and Statistics|probability-and-statistics|概率与统计",Medium,False,,0
 1094,1094,1000-1099,Car Pooling,拼车,car-pooling,"Array|array|数组,Prefix Sum|prefix-sum|前缀和,Sorting|sorting|排序,Simulation|simulation|模拟,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False,0253,0
 1095,1095,1000-1099,Find in Mountain Array,山脉数组中查找目标值,find-in-mountain-array,"Array|array|数组,Binary Search|binary-search|二分查找,Interactive|interactive|交互",Hard,False,0852|1671|2100|3285,0
@@ -1689,7 +1689,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 1688,1688,1600-1699,Count of Matches in Tournament,比赛中的配对次数,count-of-matches-in-tournament,"Math|math|数学,Simulation|simulation|模拟",Easy,False,2549,0
 1689,1689,1600-1699,Partitioning Into Minimum Number Of Deci-Binary Numbers,十-二进制数的最少数目,partitioning-into-minimum-number-of-deci-binary-numbers,"Greedy|greedy|贪心,String|string|字符串",Medium,False,,0
 1690,1690,1600-1699,Stone Game VII,石子游戏 VII,stone-game-vii,"Array|array|数组,Math|math|数学,Dynamic Programming|dynamic-programming|动态规划,Game Theory|game-theory|博弈",Medium,False,0877|1140|1406|1510|1563|1686|1770|1872|2029,0
-1691,1691,1600-1699,Maximum Height by Stacking Cuboids ,堆叠长方体的最大高度,maximum-height-by-stacking-cuboids,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Sorting|sorting|排序",Hard,False,1996|2358,0
+1691,1691,1600-1699,Maximum Height by Stacking Cuboids,堆叠长方体的最大高度,maximum-height-by-stacking-cuboids,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Sorting|sorting|排序",Hard,False,1996|2358,0
 1692,1692,1600-1699,Count Ways to Distribute Candies,计算分配糖果的不同方式,count-ways-to-distribute-candies,Dynamic Programming|dynamic-programming|动态规划,Hard,False,2928|2929,1
 1693,1693,1600-1699,Daily Leads and Partners,每天的领导和合伙人,daily-leads-and-partners,Database|database|数据库,Easy,False,,0
 1694,1694,1600-1699,Reformat Phone Number,重新格式化电话号码,reformat-phone-number,String|string|字符串,Easy,False,,0
@@ -2032,7 +2032,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2031,2031,2000-2099,Count Subarrays With More Ones Than Zeros,1 比 0 多的子数组个数,count-subarrays-with-more-ones-than-zeros,"Binary Indexed Tree|binary-indexed-tree|树状数组,Segment Tree|segment-tree|线段树,Array|array|数组,Binary Search|binary-search|二分查找,Divide and Conquer|divide-and-conquer|分治,Ordered Set|ordered-set|有序集合,Merge Sort|merge-sort|归并排序",Medium,False,0474|1869|2155,1
 2032,2032,2000-2099,Two Out of Three,至少在两个数组中出现的值,two-out-of-three,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Hash Table|hash-table|哈希表",Easy,False,,0
 2033,2033,2000-2099,Minimum Operations to Make a Uni-Value Grid,获取单值网格的最小操作数,minimum-operations-to-make-a-uni-value-grid,"Array|array|数组,Math|math|数学,Matrix|matrix|矩阵,Sorting|sorting|排序",Medium,False,0462,0
-2034,2034,2000-2099,Stock Price Fluctuation ,股票价格波动,stock-price-fluctuation,"Design|design|设计,Hash Table|hash-table|哈希表,Data Stream|data-stream|数据流,Ordered Set|ordered-set|有序集合,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False,0981,0
+2034,2034,2000-2099,Stock Price Fluctuation,股票价格波动,stock-price-fluctuation,"Design|design|设计,Hash Table|hash-table|哈希表,Data Stream|data-stream|数据流,Ordered Set|ordered-set|有序集合,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False,0981,0
 2035,2035,2000-2099,Partition Array Into Two Arrays to Minimize Sum Difference,将数组分成两个数组并最小化数组和的差,partition-array-into-two-arrays-to-minimize-sum-difference,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Two Pointers|two-pointers|双指针,Binary Search|binary-search|二分查找,Dynamic Programming|dynamic-programming|动态规划,Bitmask|bitmask|状态压缩,Ordered Set|ordered-set|有序集合",Hard,False,0416|0805|0956|1049|2305|1755|2270|2333|2578,0
 2036,2036,2000-2099,Maximum Alternating Subarray Sum,最大交替子数组和,maximum-alternating-subarray-sum,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划",Medium,False,1911,1
 2037,2037,2000-2099,Minimum Number of Moves to Seat Everyone,使每位学生都有座位的最少移动次数,minimum-number-of-moves-to-seat-everyone,"Greedy|greedy|贪心,Array|array|数组,Counting Sort|counting-sort|计数排序,Sorting|sorting|排序",Easy,False,,0
@@ -2146,7 +2146,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2145,2145,2100-2199,Count the Hidden Sequences,统计隐藏数组数目,count-the-hidden-sequences,"Array|array|数组,Prefix Sum|prefix-sum|前缀和",Medium,False,,0
 2146,2146,2100-2199,K Highest Ranked Items Within a Price Range,价格范围内最高排名的 K 样物品,k-highest-ranked-items-within-a-price-range,"Breadth-First Search|breadth-first-search|广度优先搜索,Array|array|数组,Matrix|matrix|矩阵,Sorting|sorting|排序,Heap (Priority Queue)|heap-priority-queue|堆（优先队列）",Medium,False,0215|1162|2512,0
 2147,2147,2100-2199,Number of Ways to Divide a Long Corridor,分隔长廊的方案数,number-of-ways-to-divide-a-long-corridor,"Math|math|数学,String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Hard,False,0639|1547|1712,0
-2148,2148,2100-2199,Count Elements With Strictly Smaller and Greater Elements ,元素计数,count-elements-with-strictly-smaller-and-greater-elements,"Array|array|数组,Counting|counting|计数,Sorting|sorting|排序",Easy,False,0744,0
+2148,2148,2100-2199,Count Elements With Strictly Smaller and Greater Elements,元素计数,count-elements-with-strictly-smaller-and-greater-elements,"Array|array|数组,Counting|counting|计数,Sorting|sorting|排序",Easy,False,0744,0
 2149,2149,2100-2199,Rearrange Array Elements by Sign,按符号重排数组,rearrange-array-elements-by-sign,"Array|array|数组,Two Pointers|two-pointers|双指针,Simulation|simulation|模拟",Medium,False,0376|0922|2161|2231,0
 2150,2150,2100-2199,Find All Lonely Numbers in the Array,找出数组中的所有孤独数字,find-all-lonely-numbers-in-the-array,"Array|array|数组,Hash Table|hash-table|哈希表,Counting|counting|计数",Medium,False,1838,0
 2151,2151,2100-2199,Maximum Good People Based on Statements,基于陈述统计最多好人数,maximum-good-people-based-on-statements,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Backtracking|backtracking|回溯,Enumeration|enumeration|枚举",Hard,False,1255,0
@@ -2265,7 +2265,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2264,2264,2200-2299,Largest 3-Same-Digit Number in String,字符串中最大的 3 位相同数字,largest-3-same-digit-number-in-string,String|string|字符串,Easy,False,1903,0
 2265,2265,2200-2299,Count Nodes Equal to Average of Subtree,统计值等于子树平均值的节点数,count-nodes-equal-to-average-of-subtree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Medium,False,1120|1080|1973,0
 2266,2266,2200-2299,Count Number of Texts,统计打字方案数,count-number-of-texts,"Hash Table|hash-table|哈希表,Math|math|数学,String|string|字符串,Dynamic Programming|dynamic-programming|动态规划",Medium,False,0017|0091,0
-2267,2267,2200-2299, Check if There Is a Valid Parentheses String Path,检查是否有合法括号字符串路径,check-if-there-is-a-valid-parentheses-string-path,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Matrix|matrix|矩阵",Hard,False,1391|2116,0
+2267,2267,2200-2299,Check if There Is a Valid Parentheses String Path,检查是否有合法括号字符串路径,check-if-there-is-a-valid-parentheses-string-path,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Matrix|matrix|矩阵",Hard,False,1391|2116,0
 2268,2268,2200-2299,Minimum Number of Keypresses,最少按键次数,minimum-number-of-keypresses,"Greedy|greedy|贪心,Hash Table|hash-table|哈希表,String|string|字符串,Counting|counting|计数,Sorting|sorting|排序",Medium,False,,1
 2269,2269,2200-2299,Find the K-Beauty of a Number,找到一个数字的 K 美丽值,find-the-k-beauty-of-a-number,"Math|math|数学,String|string|字符串,Sliding Window|sliding-window|滑动窗口",Easy,False,,0
 2270,2270,2200-2299,Number of Ways to Split Array,分割数组的方案数,number-of-ways-to-split-array,"Array|array|数组,Prefix Sum|prefix-sum|前缀和",Medium,False,0410|0724|1712|1991|2035|2256,0
@@ -2315,7 +2315,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2314,2314,2300-2399,The First Day of the Maximum Recorded Degree in Each City,每个城市最高气温的第一天,the-first-day-of-the-maximum-recorded-degree-in-each-city,Database|database|数据库,Medium,False,,1
 2315,2315,2300-2399,Count Asterisks,统计星号,count-asterisks,String|string|字符串,Easy,False,,0
 2316,2316,2300-2399,Count Unreachable Pairs of Nodes in an Undirected Graph,统计无向图中无法互相到达点对数,count-unreachable-pairs-of-nodes-in-an-undirected-graph,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Graph|graph|图",Medium,False,0200,0
-2317,2317,2300-2399,Maximum XOR After Operations ,操作后的最大异或和,maximum-xor-after-operations,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Math|math|数学",Medium,False,0421|2939|3022,0
+2317,2317,2300-2399,Maximum XOR After Operations,操作后的最大异或和,maximum-xor-after-operations,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Math|math|数学",Medium,False,0421|2939|3022,0
 2318,2318,2300-2399,Number of Distinct Roll Sequences,不同骰子序列的数目,number-of-distinct-roll-sequences,"Memoization|memoization|记忆化搜索,Dynamic Programming|dynamic-programming|动态规划",Hard,False,1223|1473,0
 2319,2319,2300-2399,Check if Matrix Is X-Matrix,判断矩阵是否是一个 X 矩阵,check-if-matrix-is-x-matrix,"Array|array|数组,Matrix|matrix|矩阵",Easy,False,1572,0
 2320,2320,2300-2399,Count Number of Ways to Place Houses,统计放置房子的方式数,count-number-of-ways-to-place-houses,Dynamic Programming|dynamic-programming|动态规划,Medium,False,0070|0198,0
@@ -2626,12 +2626,12 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2625,2625,2600-2699,Flatten Deeply Nested Array,扁平化嵌套数组,flatten-deeply-nested-array,,Medium,True,2628|2633|2649,0
 2626,2626,2600-2699,Array Reduce Transformation,数组归约运算,array-reduce-transformation,,Easy,True,2631|2634|2635,0
 2627,2627,2600-2699,Debounce,函数防抖,debounce,,Medium,True,2637|2622|2676,0
-2628,2628,2600-2699,JSON Deep Equal,完全相等的 JSON 字符串,json-deep-equal,,Medium,False,2633|2625|2675|2700,1
+2628,2628,2600-2699,JSON Deep Equal,完全相等的 JSON 字符串,json-deep-equal,,Medium,True,2633|2625|2675|2700,1
 2629,2629,2600-2699,Function Composition,复合函数,function-composition,,Easy,True,2623|2620,0
-2630,2630,2600-2699,Memoize II,记忆函数 II,memoize-ii,,Hard,False,2623|2632,0
+2630,2630,2600-2699,Memoize II,记忆函数 II,memoize-ii,,Hard,True,2623|2632,0
 2631,2631,2600-2699,Group By,分组,group-by,,Medium,True,2634|2635|2624|2626|2774,0
-2632,2632,2600-2699,Curry,柯里化,curry,,Medium,False,2623|2630,1
-2633,2633,2600-2699,Convert Object to JSON String,将对象转换为 JSON 字符串,convert-object-to-json-string,,Medium,False,2628|2625|2675|2700,1
+2632,2632,2600-2699,Curry,柯里化,curry,,Medium,True,2623|2630,1
+2633,2633,2600-2699,Convert Object to JSON String,将对象转换为 JSON 字符串,convert-object-to-json-string,,Medium,True,2628|2625|2675|2700,1
 2634,2634,2600-2699,Filter Elements from Array,过滤数组中的元素,filter-elements-from-array,,Easy,True,2631|2635|2626,0
 2635,2635,2600-2699,Apply Transform Over Each Element in Array,转换数组中的每个元素,apply-transform-over-each-element-in-array,,Easy,True,2631|2634|2626,0
 2636,2636,2600-2699,Promise Pool,Promise 对象池,promise-pool,,Medium,True,2621|2637|2622|2676,1
@@ -2654,7 +2654,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2653,2653,2600-2699,Sliding Subarray Beauty,滑动子数组的美丽值,sliding-subarray-beauty,"Array|array|数组,Hash Table|hash-table|哈希表,Sliding Window|sliding-window|滑动窗口",Medium,False,,0
 2654,2654,2600-2699,Minimum Number of Operations to Make All Array Elements Equal to 1,使数组所有元素变成 1 的最少操作次数,minimum-number-of-operations-to-make-all-array-elements-equal-to-1,"Array|array|数组,Math|math|数学,Number Theory|number-theory|数论",Medium,False,,0
 2655,2655,2600-2699,Find Maximal Uncovered Ranges,寻找最大长度的未覆盖区间,find-maximal-uncovered-ranges,"Array|array|数组,Sorting|sorting|排序",Medium,False,0163|0228|1893,1
-2656,2656,2600-2699,Maximum Sum With Exactly K Elements ,K 个元素的最大和,maximum-sum-with-exactly-k-elements,"Greedy|greedy|贪心,Array|array|数组",Easy,False,,0
+2656,2656,2600-2699,Maximum Sum With Exactly K Elements,K 个元素的最大和,maximum-sum-with-exactly-k-elements,"Greedy|greedy|贪心,Array|array|数组",Easy,False,,0
 2657,2657,2600-2699,Find the Prefix Common Array of Two Arrays,找到两个数组的前缀公共数组,find-the-prefix-common-array-of-two-arrays,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Hash Table|hash-table|哈希表",Medium,False,,0
 2658,2658,2600-2699,Maximum Number of Fish in a Grid,网格图中鱼的最大数目,maximum-number-of-fish-in-a-grid,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Array|array|数组,Matrix|matrix|矩阵",Medium,False,0200,0
 2659,2659,2600-2699,Make Array Empty,将数组清空,make-array-empty,"Greedy|greedy|贪心,Binary Indexed Tree|binary-indexed-tree|树状数组,Segment Tree|segment-tree|线段树,Array|array|数组,Binary Search|binary-search|二分查找,Ordered Set|ordered-set|有序集合,Sorting|sorting|排序",Hard,False,,0
@@ -2673,7 +2673,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2672,2672,2600-2699,Number of Adjacent Elements With the Same Color,有相同颜色的相邻元素数目,number-of-adjacent-elements-with-the-same-color,Array|array|数组,Medium,False,,0
 2673,2673,2600-2699,Make Costs of Paths Equal in a Binary Tree,使二叉树所有路径值相等的最小代价,make-costs-of-paths-equal-in-a-binary-tree,"Greedy|greedy|贪心,Tree|tree|树,Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Binary Tree|binary-tree|二叉树",Medium,False,,0
 2674,2674,2600-2699,Split a Circular Linked List,拆分循环链表,split-a-circular-linked-list,"Linked List|linked-list|链表,Two Pointers|two-pointers|双指针",Medium,False,0725,1
-2675,2675,2600-2699,Array of Objects to Matrix,将对象数组转换为矩阵,array-of-objects-to-matrix,,Hard,False,2628|2633,1
+2675,2675,2600-2699,Array of Objects to Matrix,将对象数组转换为矩阵,array-of-objects-to-matrix,,Hard,True,2628|2633,1
 2676,2676,2600-2699,Throttle,节流,throttle,,Medium,True,2627|2637|2636,1
 2677,2677,2600-2699,Chunk Array,分块数组,chunk-array,,Easy,True,,0
 2678,2678,2600-2699,Number of Senior Citizens,老人的数目,number-of-senior-citizens,"Array|array|数组,String|string|字符串",Easy,False,,0
@@ -2685,7 +2685,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2684,2684,2600-2699,Maximum Number of Moves in a Grid,矩阵中移动的最大次数,maximum-number-of-moves-in-a-grid,"Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Matrix|matrix|矩阵",Medium,False,,0
 2685,2685,2600-2699,Count the Number of Complete Components,统计完全连通分量的数量,count-the-number-of-complete-components,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Graph|graph|图",Medium,False,0323,0
 2686,2686,2600-2699,Immediate Food Delivery III,即时食物配送 III,immediate-food-delivery-iii,Database|database|数据库,Medium,False,,1
-2687,2687,2600-2699,Bikes Last Time Used ,自行车的最后使用时间,bikes-last-time-used,Database|database|数据库,Easy,False,,1
+2687,2687,2600-2699,Bikes Last Time Used,自行车的最后使用时间,bikes-last-time-used,Database|database|数据库,Easy,False,,1
 2688,2688,2600-2699,Find Active Users,查找活跃用户,find-active-users,Database|database|数据库,Medium,False,,1
 2689,2689,2600-2699,Extract Kth Character From The Rope Tree,从 Rope 树中提取第 K 个字符,extract-kth-character-from-the-rope-tree,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Easy,False,,1
 2690,2690,2600-2699,Infinite Method Object,无穷方法对象,infinite-method-object,,Easy,False,2691|2692,1
@@ -2776,7 +2776,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2775,2775,2700-2799,Undefined to Null,将 undefined 转为 null,undefined-to-null,,Medium,False,,1
 2776,2776,2700-2799,Convert Callback Based Function to Promise Based Function,转换回调函数为 Promise 函数,convert-callback-based-function-to-promise-based-function,,Medium,False,,1
 2777,2777,2700-2799,Date Range Generator,日期范围生成器,date-range-generator,,Medium,False,,1
-2778,2778,2700-2799,Sum of Squares of Special Elements ,特殊元素平方和,sum-of-squares-of-special-elements,"Array|array|数组,Enumeration|enumeration|枚举",Easy,False,0633|1588,0
+2778,2778,2700-2799,Sum of Squares of Special Elements,特殊元素平方和,sum-of-squares-of-special-elements,"Array|array|数组,Enumeration|enumeration|枚举",Easy,False,0633|1588,0
 2779,2779,2700-2799,Maximum Beauty of an Array After Applying Operation,数组的最大美丽值,maximum-beauty-of-an-array-after-applying-operation,"Array|array|数组,Binary Search|binary-search|二分查找,Sorting|sorting|排序,Sliding Window|sliding-window|滑动窗口",Medium,False,0325|2294,0
 2780,2780,2700-2799,Minimum Index of a Valid Split,合法分割的最小下标,minimum-index-of-a-valid-split,"Array|array|数组,Hash Table|hash-table|哈希表,Sorting|sorting|排序",Medium,False,0169|0915,0
 2781,2781,2700-2799,Length of the Longest Valid Substring,最长合法子字符串的长度,length-of-the-longest-valid-substring,"Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串,Sliding Window|sliding-window|滑动窗口",Hard,False,,0
@@ -2841,7 +2841,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2840,2840,2800-2899,Check if Strings Can be Made Equal With Operations II,判断通过操作能否让字符串相等 II,check-if-strings-can-be-made-equal-with-operations-ii,"Hash Table|hash-table|哈希表,String|string|字符串,Sorting|sorting|排序",Medium,False,,0
 2841,2841,2800-2899,Maximum Sum of Almost Unique Subarray,几乎唯一子数组的最大和,maximum-sum-of-almost-unique-subarray,"Array|array|数组,Hash Table|hash-table|哈希表,Sliding Window|sliding-window|滑动窗口",Medium,False,,0
 2842,2842,2800-2899,Count K-Subsequences of a String With Maximum Beauty,统计一个字符串的 k 子序列美丽值最大的数目,count-k-subsequences-of-a-string-with-maximum-beauty,"Greedy|greedy|贪心,Hash Table|hash-table|哈希表,Math|math|数学,String|string|字符串,Combinatorics|combinatorics|组合数学",Hard,False,0940,0
-2843,2843,2800-2899,  Count Symmetric Integers,统计对称整数的数目,count-symmetric-integers,"Math|math|数学,Enumeration|enumeration|枚举",Easy,False,0009|1837,0
+2843,2843,2800-2899,Count Symmetric Integers,统计对称整数的数目,count-symmetric-integers,"Math|math|数学,Enumeration|enumeration|枚举",Easy,False,0009|1837,0
 2844,2844,2800-2899,Minimum Operations to Make a Special Number,生成特殊数字的最少操作,minimum-operations-to-make-a-special-number,"Greedy|greedy|贪心,Math|math|数学,String|string|字符串,Enumeration|enumeration|枚举",Medium,False,0402|2259,0
 2845,2845,2800-2899,Count of Interesting Subarrays,统计趣味子数组的数目,count-of-interesting-subarrays,"Array|array|数组,Hash Table|hash-table|哈希表,Prefix Sum|prefix-sum|前缀和",Medium,False,0974|1248,0
 2846,2846,2800-2899,Minimum Edge Weight Equilibrium Queries in a Tree,边权重均等查询,minimum-edge-weight-equilibrium-queries-in-a-tree,"Tree|tree|树,Graph|graph|图,Array|array|数组,Strongly Connected Component|strongly-connected-component|强连通分量",Hard,False,1483,0
@@ -2989,10 +2989,10 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2988,2988,2900-2999,Manager of the Largest Department,最大部门的经理,manager-of-the-largest-department,Database|database|数据库,Medium,False,,1
 2989,2989,2900-2999,Class Performance,班级表现,class-performance,Database|database|数据库,Medium,False,,1
 2990,2990,2900-2999,Loan Types,贷款类型,loan-types,Database|database|数据库,Easy,False,,1
-2991,2991,2900-2999,Top Three Wineries ,最好的三家酒庄,top-three-wineries,Database|database|数据库,Hard,False,,1
+2991,2991,2900-2999,Top Three Wineries,最好的三家酒庄,top-three-wineries,Database|database|数据库,Hard,False,,1
 2992,2992,2900-2999,Number of Self-Divisible Permutations,自整除排列的数量,number-of-self-divisible-permutations,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Dynamic Programming|dynamic-programming|动态规划,Backtracking|backtracking|回溯,Bitmask|bitmask|状态压缩",Medium,False,,1
 2993,2993,2900-2999,Friday Purchases I,发生在周五的交易 I,friday-purchases-i,Database|database|数据库,Medium,False,,1
-2994,2994,2900-2999,Friday Purchases II ,发生在周五的交易 II,friday-purchases-ii,Database|database|数据库,Hard,False,,1
+2994,2994,2900-2999,Friday Purchases II,发生在周五的交易 II,friday-purchases-ii,Database|database|数据库,Hard,False,,1
 2995,2995,2900-2999,Viewers Turned Streamers,观众变主播,viewers-turned-streamers,Database|database|数据库,Hard,False,,1
 2996,2996,2900-2999,Smallest Missing Integer Greater Than Sequential Prefix Sum,大于等于顺序前缀和的最小缺失整数,smallest-missing-integer-greater-than-sequential-prefix-sum,"Array|array|数组,Hash Table|hash-table|哈希表,Sorting|sorting|排序",Easy,False,0014|0041|0496,0
 2997,2997,2900-2999,Minimum Number of Operations to Make Array XOR Equal to K,使数组异或和等于 K 的最少操作次数,minimum-number-of-operations-to-make-array-xor-equal-to-k,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组",Medium,False,2220,0
@@ -3101,7 +3101,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 3100,3100,3100-3199,Water Bottles II,换水问题 II,water-bottles-ii,"Math|math|数学,Simulation|simulation|模拟",Medium,False,1518,0
 3101,3101,3100-3199,Count Alternating Subarrays,交替子数组计数,count-alternating-subarrays,"Array|array|数组,Math|math|数学",Medium,False,,0
 3102,3102,3100-3199,Minimize Manhattan Distances,最小化曼哈顿距离,minimize-manhattan-distances,"Geometry|geometry|几何,Array|array|数组,Math|math|数学,Ordered Set|ordered-set|有序集合,Sorting|sorting|排序",Hard,False,,0
-3103,3103,3100-3199,Find Trending Hashtags II ,查找热门话题标签 II,find-trending-hashtags-ii,Database|database|数据库,Hard,False,,1
+3103,3103,3100-3199,Find Trending Hashtags II,查找热门话题标签 II,find-trending-hashtags-ii,Database|database|数据库,Hard,False,,1
 3104,3104,3100-3199,Find Longest Self-Contained Substring,查找最长的自包含子串,find-longest-self-contained-substring,"Hash Table|hash-table|哈希表,String|string|字符串,Binary Search|binary-search|二分查找,Prefix Sum|prefix-sum|前缀和",Hard,False,,1
 3105,3105,3100-3199,Longest Strictly Increasing or Strictly Decreasing Subarray,最长的严格递增或递减子数组,longest-strictly-increasing-or-strictly-decreasing-subarray,Array|array|数组,Easy,False,,0
 3106,3106,3100-3199,Lexicographically Smallest String After Operations With Constraint,满足距离约束且字典序最小的字符串,lexicographically-smallest-string-after-operations-with-constraint,"Greedy|greedy|贪心,String|string|字符串",Medium,False,2734,0
@@ -3116,7 +3116,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 3115,3115,3100-3199,Maximum Prime Difference,质数的最大距离,maximum-prime-difference,"Array|array|数组,Math|math|数学,Number Theory|number-theory|数论",Medium,False,,0
 3116,3116,3100-3199,Kth Smallest Amount With Single Denomination Combination,单面值组合的第 K 小金额,kth-smallest-amount-with-single-denomination-combination,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Math|math|数学,Binary Search|binary-search|二分查找,Combinatorics|combinatorics|组合数学,Number Theory|number-theory|数论",Hard,False,0668|3317,0
 3117,3117,3100-3199,Minimum Sum of Values by Dividing Array,划分数组得到最小的值之和,minimum-sum-of-values-by-dividing-array,"Bit Manipulation|bit-manipulation|位运算,Segment Tree|segment-tree|线段树,Queue|queue|队列,Array|array|数组,Binary Search|binary-search|二分查找,Dynamic Programming|dynamic-programming|动态规划",Hard,False,2547|2578|3171,0
-3118,3118,3100-3199,Friday Purchase III ,发生在周五的交易 III,friday-purchase-iii,Database|database|数据库,Medium,False,,1
+3118,3118,3100-3199,Friday Purchase III,发生在周五的交易 III,friday-purchase-iii,Database|database|数据库,Medium,False,,1
 3119,3119,3100-3199,Maximum Number of Potholes That Can Be Fixed,最大数量的可修复坑洼,maximum-number-of-potholes-that-can-be-fixed,"Greedy|greedy|贪心,String|string|字符串,Sorting|sorting|排序",Medium,False,,1
 3120,3120,3100-3199,Count the Number of Special Characters I,统计特殊字母的数量 I,count-the-number-of-special-characters-i,"Hash Table|hash-table|哈希表,String|string|字符串",Easy,False,0520|2309|3121,0
 3121,3121,3100-3199,Count the Number of Special Characters II,统计特殊字母的数量 II,count-the-number-of-special-characters-ii,"Hash Table|hash-table|哈希表,String|string|字符串",Medium,False,0520|2309|3120,0
@@ -3444,7 +3444,7 @@ LCS 03,LCS_03,lcs,主题空间,主题空间,YesdPw,"Depth-First Search|depth-fir
 03.04,i_03.04,interview,Implement Queue using Stacks LCCI,化栈为队,implement-queue-using-stacks-lcci,"Stack|stack|栈,Design|design|设计,Queue|queue|队列",Easy,False,,0
 03.05,i_03.05,interview,Sort of Stacks LCCI,栈排序,sort-of-stacks-lcci,"Stack|stack|栈,Design|design|设计,Monotonic Stack|monotonic-stack|单调栈",Medium,False,,0
 03.06,i_03.06,interview,Animal Shelter LCCI,动物收容所,animal-shelter-lcci,"Design|design|设计,Queue|queue|队列",Easy,False,,0
-04.01,i_04.01,interview,Route Between Nodes LCCI ,节点间通路,route-between-nodes-lcci,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Graph|graph|图",Medium,False,,0
+04.01,i_04.01,interview,Route Between Nodes LCCI,节点间通路,route-between-nodes-lcci,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Graph|graph|图",Medium,False,,0
 04.02,i_04.02,interview,Minimum Height Tree LCCI,最小高度树,minimum-height-tree-lcci,"Tree|tree|树,Binary Search Tree|binary-search-tree|二叉搜索树,Array|array|数组,Divide and Conquer|divide-and-conquer|分治,Binary Tree|binary-tree|二叉树",Easy,False,,0
 04.03,i_04.03,interview,List of Depth LCCI,特定深度节点链表,list-of-depth-lcci,"Tree|tree|树,Breadth-First Search|breadth-first-search|广度优先搜索,Linked List|linked-list|链表,Binary Tree|binary-tree|二叉树",Medium,False,,0
 04.04,i_04.04,interview,Check Balance LCCI,检查平衡性,check-balance-lcci,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Binary Tree|binary-tree|二叉树",Easy,False,,0
@@ -3508,7 +3508,7 @@ LCS 03,LCS_03,lcs,主题空间,主题空间,YesdPw,"Depth-First Search|depth-fir
 16.26,i_16.26,interview,Calculator LCCI,计算器,calculator-lcci,"Stack|stack|栈,Math|math|数学,String|string|字符串",Medium,False,,0
 17.01,i_17.01,interview,Add Without Plus LCCI,不用加号的加法,add-without-plus-lcci,"Bit Manipulation|bit-manipulation|位运算,Math|math|数学",Easy,False,,0
 17.04,i_17.04,interview,Missing Number LCCI,消失的数字,missing-number-lcci,"Bit Manipulation|bit-manipulation|位运算,Array|array|数组,Hash Table|hash-table|哈希表,Math|math|数学,Sorting|sorting|排序",Easy,False,,0
-17.05,i_17.05,interview,Find Longest Subarray LCCI, 字母与数字,find-longest-subarray-lcci,"Array|array|数组,Hash Table|hash-table|哈希表,Prefix Sum|prefix-sum|前缀和",Medium,False,,0
+17.05,i_17.05,interview,Find Longest Subarray LCCI,字母与数字,find-longest-subarray-lcci,"Array|array|数组,Hash Table|hash-table|哈希表,Prefix Sum|prefix-sum|前缀和",Medium,False,,0
 17.06,i_17.06,interview,Number Of 2s In Range LCCI,2出现的次数,number-of-2s-in-range-lcci,"Recursion|recursion|递归,Math|math|数学,Dynamic Programming|dynamic-programming|动态规划",Hard,False,,0
 17.07,i_17.07,interview,Baby Names LCCI,婴儿名字,baby-names-lcci,"Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Union Find|union-find|并查集,Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串,Counting|counting|计数",Medium,False,,0
 17.08,i_17.08,interview,Circus Tower LCCI,马戏团人塔,circus-tower-lcci,"Array|array|数组,Binary Search|binary-search|二分查找,Dynamic Programming|dynamic-programming|动态规划,Sorting|sorting|排序",Medium,False,,0

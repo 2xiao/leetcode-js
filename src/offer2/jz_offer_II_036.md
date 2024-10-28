@@ -1,6 +1,6 @@
-# [36. 后缀表达式](https://leetcode.cn/problems/8Zf90G)
+# [36. 后缀表达式](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_036.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/8Zf90G)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/8Zf90G)
 
 ## 题目
 

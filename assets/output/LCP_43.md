@@ -1,6 +1,6 @@
-# [LCP 43. 十字路口的交通](https://leetcode.cn/problems/Y1VbOX)
+# [LCP 43. 十字路口的交通](https://2xiao.github.io/leetcode-js/lcp/LCP_43.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Y1VbOX)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Y1VbOX)
 
 ## 题目
 

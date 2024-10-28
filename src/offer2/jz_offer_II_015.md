@@ -1,6 +1,6 @@
-# [15. 字符串中的所有变位词](https://leetcode.cn/problems/VabMRr)
+# [15. 字符串中的所有变位词](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_015.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/VabMRr)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/VabMRr)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [33. 变位词组](https://leetcode.cn/problems/sfvd7V)
+# [33. 变位词组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_033.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/sfvd7V)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/sfvd7V)
 
 ## 题目
 

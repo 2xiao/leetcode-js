@@ -1,6 +1,6 @@
-# [88. 爬楼梯的最少成本](https://leetcode.cn/problems/GzCJIP)
+# [88. 爬楼梯的最少成本](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_088.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/GzCJIP)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/GzCJIP)
 
 ## 题目
 

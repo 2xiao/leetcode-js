@@ -1,6 +1,6 @@
-# [LCP 74. 最强祝福力场](https://leetcode.cn/problems/xepqZ5)
+# [LCP 74. 最强祝福力场](https://2xiao.github.io/leetcode-js/lcp/LCP_74.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xepqZ5)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xepqZ5)
 
 ## 题目
 

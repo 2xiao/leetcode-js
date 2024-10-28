@@ -1,6 +1,6 @@
-# [41. 滑动窗口的平均值](https://leetcode.cn/problems/qIsx9U)
+# [41. 滑动窗口的平均值](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_041.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`数据流`](/tag/data-stream.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qIsx9U)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`数据流`](/tag/data-stream.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qIsx9U)
 
 ## 题目
 

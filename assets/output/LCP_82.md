@@ -1,6 +1,6 @@
-# [LCP 82. 万灵之树](https://leetcode.cn/problems/cnHoX6)
+# [LCP 82. 万灵之树](https://2xiao.github.io/leetcode-js/lcp/LCP_82.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/cnHoX6)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/cnHoX6)
 
 ## 题目
 

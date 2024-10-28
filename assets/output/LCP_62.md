@@ -1,6 +1,6 @@
-# [LCP 62. 交通枢纽](https://leetcode.cn/problems/D9PW8w)
+# [LCP 62. 交通枢纽](https://2xiao.github.io/leetcode-js/lcp/LCP_62.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/D9PW8w)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/D9PW8w)
 
 ## 题目
 

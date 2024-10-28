@@ -1,6 +1,6 @@
-# [2. 二进制加法](https://leetcode.cn/problems/JFETK5)
+# [2. 二进制加法](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_002.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/JFETK5)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/JFETK5)
 
 ## 题目
 

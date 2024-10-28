@@ -1,6 +1,6 @@
-# [48. 序列化与反序列化二叉树](https://leetcode.cn/problems/h54YBf)
+# [48. 序列化与反序列化二叉树](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_048.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/h54YBf)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/h54YBf)
 
 ## 题目
 

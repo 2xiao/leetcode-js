@@ -1,6 +1,6 @@
-# [LCP 70. 沙地治理](https://leetcode.cn/problems/XxZZjK)
+# [LCP 70. 沙地治理](https://2xiao.github.io/leetcode-js/lcp/LCP_70.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/XxZZjK)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/XxZZjK)
 
 ## 题目
 

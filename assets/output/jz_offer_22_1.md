@@ -1,6 +1,6 @@
-# [22. 链表中倒数第k个节点](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
+# [22. 链表中倒数第k个节点](https://2xiao.github.io/leetcode-js/offer/jz_offer_22_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
 
 ## 题目
 

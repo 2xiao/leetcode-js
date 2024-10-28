@@ -1,6 +1,6 @@
-# [19. 正则表达式匹配](https://leetcode.cn/problems/zheng-ze-biao-da-shi-pi-pei-lcof)
+# [19. 正则表达式匹配](https://2xiao.github.io/leetcode-js/offer/jz_offer_19_1.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zheng-ze-biao-da-shi-pi-pei-lcof)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zheng-ze-biao-da-shi-pi-pei-lcof)
 
 ## 题目
 

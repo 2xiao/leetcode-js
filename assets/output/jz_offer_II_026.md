@@ -1,6 +1,6 @@
-# [26. 重排链表](https://leetcode.cn/problems/LGjMqU)
+# [26. 重排链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_026.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/LGjMqU)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/LGjMqU)
 
 ## 题目
 

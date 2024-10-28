@@ -1,6 +1,6 @@
-# [LCP 15. 游乐园的迷宫](https://leetcode.cn/problems/you-le-yuan-de-mi-gong)
+# [LCP 15. 游乐园的迷宫](https://2xiao.github.io/leetcode-js/lcp/LCP_15.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/you-le-yuan-de-mi-gong)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/you-le-yuan-de-mi-gong)
 
 ## 题目
 

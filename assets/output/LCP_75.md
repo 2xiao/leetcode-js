@@ -1,6 +1,6 @@
-# [LCP 75. 传送卷轴](https://leetcode.cn/problems/rdmXM7)
+# [LCP 75. 传送卷轴](https://2xiao.github.io/leetcode-js/lcp/LCP_75.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/rdmXM7)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/rdmXM7)
 
 ## 题目
 

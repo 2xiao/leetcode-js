@@ -1,6 +1,6 @@
-# [18. 删除链表的节点](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof)
+# [18. 删除链表的节点](https://2xiao.github.io/leetcode-js/offer/jz_offer_18_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shan-chu-lian-biao-de-jie-dian-lcof)
 
 ## 题目
 

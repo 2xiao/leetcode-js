@@ -1,6 +1,6 @@
-# [83. 没有重复元素集合的全排列](https://leetcode.cn/problems/VvJkup)
+# [83. 没有重复元素集合的全排列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_083.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/VvJkup)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/VvJkup)
 
 ## 题目
 

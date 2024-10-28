@@ -1,6 +1,6 @@
-# [30. 包含min函数的栈](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof)
+# [30. 包含min函数的栈](https://2xiao.github.io/leetcode-js/offer/jz_offer_30_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`设计`](/tag/design.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`设计`](/tag/design.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/bao-han-minhan-shu-de-zhan-lcof)
 
 ## 题目
 

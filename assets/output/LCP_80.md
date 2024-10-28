@@ -1,6 +1,6 @@
-# [LCP 80. 生物进化录](https://leetcode.cn/problems/qoQAMX)
+# [LCP 80. 生物进化录](https://2xiao.github.io/leetcode-js/lcp/LCP_80.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qoQAMX)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qoQAMX)
 
 ## 题目
 

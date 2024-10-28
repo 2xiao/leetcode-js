@@ -1,6 +1,6 @@
-# [LCP 18. 早餐组合](https://leetcode.cn/problems/2vYnGI)
+# [LCP 18. 早餐组合](https://2xiao.github.io/leetcode-js/lcp/LCP_18.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/2vYnGI)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/2vYnGI)
 
 ## 题目
 

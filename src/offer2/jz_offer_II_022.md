@@ -1,6 +1,6 @@
-# [22. 链表中环的入口节点](https://leetcode.cn/problems/c32eOV)
+# [22. 链表中环的入口节点](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_022.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/c32eOV)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/c32eOV)
 
 ## 题目
 

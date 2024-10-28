@@ -1,6 +1,6 @@
-# [34. 外星语言是否排序](https://leetcode.cn/problems/lwyVBB)
+# [34. 外星语言是否排序](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_034.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/lwyVBB)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/lwyVBB)
 
 ## 题目
 

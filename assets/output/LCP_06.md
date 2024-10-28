@@ -1,6 +1,6 @@
-# [LCP 06. 拿硬币](https://leetcode.cn/problems/na-ying-bi)
+# [LCP 06. 拿硬币](https://2xiao.github.io/leetcode-js/lcp/LCP_06.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/na-ying-bi)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/na-ying-bi)
 
 ## 题目
 

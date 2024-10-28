@@ -1,6 +1,6 @@
-# [66. 构建乘积数组](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof)
+# [66. 构建乘积数组](https://2xiao.github.io/leetcode-js/offer/jz_offer_66_1.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/gou-jian-cheng-ji-shu-zu-lcof)
 
 ## 题目
 

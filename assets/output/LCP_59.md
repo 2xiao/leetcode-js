@@ -1,6 +1,6 @@
-# [LCP 59. 搭桥过河](https://leetcode.cn/problems/NfY1m5)
+# [LCP 59. 搭桥过河](https://2xiao.github.io/leetcode-js/lcp/LCP_59.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/NfY1m5)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/NfY1m5)
 
 ## 题目
 

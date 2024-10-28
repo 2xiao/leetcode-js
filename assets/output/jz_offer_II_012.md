@@ -1,6 +1,6 @@
-# [12. 左右两边子数组的和相等](https://leetcode.cn/problems/tvdfij)
+# [12. 左右两边子数组的和相等](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_012.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/tvdfij)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/tvdfij)
 
 ## 题目
 

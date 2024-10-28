@@ -1,6 +1,6 @@
-# [69. 山峰数组的顶部](https://leetcode.cn/problems/B1IidL)
+# [69. 山峰数组的顶部](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_069.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/B1IidL)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/B1IidL)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [LCP 58. 积木拼接](https://leetcode.cn/problems/De4qBB)
+# [LCP 58. 积木拼接](https://2xiao.github.io/leetcode-js/lcp/LCP_58.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/De4qBB)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/De4qBB)
 
 ## 题目
 

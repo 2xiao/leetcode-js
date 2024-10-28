@@ -1,6 +1,6 @@
-# [LCP 54. 夺回据点](https://leetcode.cn/problems/s5kipK)
+# [LCP 54. 夺回据点](https://2xiao.github.io/leetcode-js/lcp/LCP_54.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双连通分量`](/tag/biconnected-component.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/s5kipK)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双连通分量`](/tag/biconnected-component.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/s5kipK)
 
 ## 题目
 

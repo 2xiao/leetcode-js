@@ -246,7 +246,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ |
 | 108 | [将有序数组转换为二叉搜索树](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree) | [[✓]](/problem/0108.md) |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`数组`](/tag/array.md) `2+` | <font color=#15bd66>Easy</font> |
 | 148 | [排序链表](https://leetcode.com/problems/sort-list) | [[✓]](/problem/0148.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) `2+` | <font color=#ffb800>Medium</font> |
-| 772 | [基本计算器 III](https://leetcode.com/problems/basic-calculator-iii) | [[✓]](/problem/0772.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
+| 772 | [基本计算器 III 🔒](https://leetcode.com/problems/basic-calculator-iii) | [[✓]](/problem/0772.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
 | 23 | [合并 K 个升序链表](https://leetcode.com/problems/merge-k-sorted-lists) | [[✓]](/problem/0023.md) |  [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
@@ -300,7 +300,7 @@ headerDepth: 0
 | 9 | [回文数](https://leetcode.com/problems/palindrome-number) | [[✓]](/problem/0009.md) |  [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 66 | [加一](https://leetcode.com/problems/plus-one) | [[✓]](/problem/0066.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
 | 172 | [阶乘后的零](https://leetcode.com/problems/factorial-trailing-zeroes) | [[✓]](/problem/0172.md) |  [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
-| 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
+| 69 | [x 的平方根](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [[✓]](/problem/0050.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 

@@ -1,6 +1,6 @@
-# [LCP 33. 蓄水](https://leetcode.cn/problems/o8SXZn)
+# [LCP 33. 蓄水](https://2xiao.github.io/leetcode-js/lcp/LCP_33.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/o8SXZn)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/o8SXZn)
 
 ## 题目
 

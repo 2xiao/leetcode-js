@@ -1,6 +1,6 @@
-# [90. 环形房屋偷盗](https://leetcode.cn/problems/PzWKhm)
+# [90. 环形房屋偷盗](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_090.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/PzWKhm)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/PzWKhm)
 
 ## 题目
 

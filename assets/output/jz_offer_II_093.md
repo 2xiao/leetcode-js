@@ -1,6 +1,6 @@
-# [93. 最长斐波那契数列](https://leetcode.cn/problems/Q91FMA)
+# [93. 最长斐波那契数列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_093.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Q91FMA)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Q91FMA)
 
 ## 题目
 

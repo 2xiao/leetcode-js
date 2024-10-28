@@ -1,6 +1,6 @@
-# [LCP 34. 二叉树染色](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC)
+# [LCP 34. 二叉树染色](https://2xiao.github.io/leetcode-js/lcp/LCP_34.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`动态规划`](/tag/dynamic-programming.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`动态规划`](/tag/dynamic-programming.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC)
 
 ## 题目
 

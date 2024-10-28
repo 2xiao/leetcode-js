@@ -1,6 +1,6 @@
-# [42. 最近请求次数](https://leetcode.cn/problems/H8086Q)
+# [42. 最近请求次数](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_042.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/H8086Q)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/H8086Q)
 
 ## 题目
 

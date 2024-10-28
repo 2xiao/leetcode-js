@@ -1,6 +1,6 @@
-# [LCP 49. 环形闯关游戏](https://leetcode.cn/problems/K8GULz)
+# [LCP 49. 环形闯关游戏](https://2xiao.github.io/leetcode-js/lcp/LCP_49.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/K8GULz)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/K8GULz)
 
 ## 题目
 

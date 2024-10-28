@@ -1,6 +1,6 @@
-# [61. 扑克牌中的顺子](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof)
+# [61. 扑克牌中的顺子](https://2xiao.github.io/leetcode-js/offer/jz_offer_61_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [LCP 50. 宝石补给](https://leetcode.cn/problems/WHnhjV)
+# [LCP 50. 宝石补给](https://2xiao.github.io/leetcode-js/lcp/LCP_50.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WHnhjV)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/WHnhjV)
 
 ## 题目
 

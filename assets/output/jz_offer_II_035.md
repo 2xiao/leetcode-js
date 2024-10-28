@@ -1,6 +1,6 @@
-# [35. 最小时间差](https://leetcode.cn/problems/569nqc)
+# [35. 最小时间差](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_035.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/569nqc)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/569nqc)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [LCP 77. 符文储备](https://leetcode.cn/problems/W2ZX4X)
+# [LCP 77. 符文储备](https://2xiao.github.io/leetcode-js/lcp/LCP_77.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/W2ZX4X)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/W2ZX4X)
 
 ## 题目
 

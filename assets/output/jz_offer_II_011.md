@@ -1,6 +1,6 @@
-# [11. 0 和 1 个数相同的子数组](https://leetcode.cn/problems/A1NYOS)
+# [11. 0 和 1 个数相同的子数组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_011.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/A1NYOS)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/A1NYOS)
 
 ## 题目
 

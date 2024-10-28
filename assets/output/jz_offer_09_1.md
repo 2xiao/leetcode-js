@@ -1,6 +1,6 @@
-# [9. 用两个栈实现队列](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
+# [9. 用两个栈实现队列](https://2xiao.github.io/leetcode-js/offer/jz_offer_09_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
 
 ## 题目
 

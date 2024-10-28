@@ -1,6 +1,6 @@
-# [LCP 38. 守卫城堡](https://leetcode.cn/problems/7rLGCR)
+# [LCP 38. 守卫城堡](https://2xiao.github.io/leetcode-js/lcp/LCP_38.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7rLGCR)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/7rLGCR)
 
 ## 题目
 

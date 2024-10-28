@@ -1,6 +1,6 @@
-# [LCP 32. 批量处理任务](https://leetcode.cn/problems/t3fKg1)
+# [LCP 32. 批量处理任务](https://2xiao.github.io/leetcode-js/lcp/LCP_32.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/t3fKg1)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/t3fKg1)
 
 ## 题目
 

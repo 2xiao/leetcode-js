@@ -1,6 +1,6 @@
-# [LCP 04. 覆盖](https://leetcode.cn/problems/broken-board-dominoes)
+# [LCP 04. 覆盖](https://2xiao.github.io/leetcode-js/lcp/LCP_04.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/broken-board-dominoes)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/broken-board-dominoes)
 
 ## 题目
 

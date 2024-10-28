@@ -1,6 +1,6 @@
-# [LCP 79. 提取咒文](https://leetcode.cn/problems/kjpLFZ)
+# [LCP 79. 提取咒文](https://2xiao.github.io/leetcode-js/lcp/LCP_79.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/kjpLFZ)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/kjpLFZ)
 
 ## 题目
 

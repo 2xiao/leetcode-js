@@ -1,6 +1,6 @@
-# [37. 小行星碰撞](https://leetcode.cn/problems/XagZNi)
+# [37. 小行星碰撞](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_037.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/XagZNi)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/XagZNi)
 
 ## 题目
 

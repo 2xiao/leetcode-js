@@ -1,6 +1,6 @@
-# [29. 顺时针打印矩阵](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof)
+# [29. 顺时针打印矩阵](https://2xiao.github.io/leetcode-js/offer/jz_offer_29_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof)
 
 ## 题目
 

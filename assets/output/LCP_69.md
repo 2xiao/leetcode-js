@@ -1,6 +1,6 @@
-# [LCP 69. Hello LeetCode!](https://leetcode.cn/problems/rMeRt2)
+# [LCP 69. Hello LeetCode!](https://2xiao.github.io/leetcode-js/lcp/LCP_69.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/rMeRt2)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/rMeRt2)
 
 ## 题目
 

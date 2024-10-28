@@ -1,6 +1,6 @@
-# [65. 最短的单词编码](https://leetcode.cn/problems/iSwD2y)
+# [65. 最短的单词编码](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_065.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/iSwD2y)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/iSwD2y)
 
 ## 题目
 

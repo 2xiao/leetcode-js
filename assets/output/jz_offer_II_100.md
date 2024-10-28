@@ -1,6 +1,6 @@
-# [100. 三角形中最小路径之和](https://leetcode.cn/problems/IlPe0q)
+# [100. 三角形中最小路径之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_100.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/IlPe0q)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/IlPe0q)
 
 ## 题目
 

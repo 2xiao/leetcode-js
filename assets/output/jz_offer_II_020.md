@@ -1,6 +1,6 @@
-# [20. 回文子字符串的个数](https://leetcode.cn/problems/a7VOhD)
+# [20. 回文子字符串的个数](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_020.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/a7VOhD)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/a7VOhD)
 
 ## 题目
 

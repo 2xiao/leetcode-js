@@ -1,6 +1,6 @@
-# [LCP 27. 黑盒光线反射](https://leetcode.cn/problems/IQvJ9i)
+# [LCP 27. 黑盒光线反射](https://2xiao.github.io/leetcode-js/lcp/LCP_27.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数学`](/tag/math.md) [`有序集合`](/tag/ordered-set.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/IQvJ9i)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数学`](/tag/math.md) [`有序集合`](/tag/ordered-set.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/IQvJ9i)
 
 ## 题目
 

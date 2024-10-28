@@ -1,6 +1,6 @@
-# [LCP 01. 猜数字](https://leetcode.cn/problems/guess-numbers)
+# [LCP 01. 猜数字](https://2xiao.github.io/leetcode-js/lcp/LCP_01.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/guess-numbers)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/guess-numbers)
 
 ## 题目
 

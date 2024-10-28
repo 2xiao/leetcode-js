@@ -1,6 +1,6 @@
-# [LCP 73. 探险营地](https://leetcode.cn/problems/0Zeoeg)
+# [LCP 73. 探险营地](https://2xiao.github.io/leetcode-js/lcp/LCP_73.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0Zeoeg)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0Zeoeg)
 
 ## 题目
 

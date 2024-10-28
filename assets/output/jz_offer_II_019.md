@@ -1,6 +1,6 @@
-# [19. 最多删除一个字符得到回文](https://leetcode.cn/problems/RQku0D)
+# [19. 最多删除一个字符得到回文](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_019.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/RQku0D)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/RQku0D)
 
 ## 题目
 

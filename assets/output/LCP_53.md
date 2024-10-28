@@ -1,6 +1,6 @@
-# [LCP 53. 守护太空城](https://leetcode.cn/problems/EJvmW4)
+# [LCP 53. 守护太空城](https://2xiao.github.io/leetcode-js/lcp/LCP_53.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/EJvmW4)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/EJvmW4)
 
 ## 题目
 

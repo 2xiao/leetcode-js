@@ -1,6 +1,6 @@
-# [41. 数据流中的中位数](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof)
+# [41. 数据流中的中位数](https://2xiao.github.io/leetcode-js/offer/jz_offer_41_1.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof)
 
 ## 题目
 

@@ -213,14 +213,14 @@ def update_content():
             continue
         if "README" in file:
             continue
-        print(Path(file))
+
         old_path = os.path.join(const.problem_path, Path(file))
         old_content = Path(old_path).read_text(encoding='utf-8')
 
         new_path = os.path.join('../output/', Path(file))
         new_content = Path(new_path).read_text(encoding='utf-8')
 
-        delim = '## 解题思路\n'
+        delim = '## 题目\n'
 
         text = new_content.split(delim)[0] + delim + old_content.split(delim)[1]
 
@@ -298,4 +298,3 @@ if args.type == 'all' or args.type == 'plan':
 if args.type == 'all' or args.type == 'cate':
     # 生成第二、三章里每个知识点的相关题目
     gen_categories_list()
-

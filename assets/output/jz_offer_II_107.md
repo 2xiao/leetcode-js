@@ -1,6 +1,6 @@
-# [107. 矩阵中的距离](https://leetcode.cn/problems/2bCMpM)
+# [107. 矩阵中的距离](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_107.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/2bCMpM)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/2bCMpM)
 
 ## 题目
 

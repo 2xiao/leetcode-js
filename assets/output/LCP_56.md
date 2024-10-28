@@ -1,6 +1,6 @@
-# [LCP 56. 信物传送](https://leetcode.cn/problems/6UEx57)
+# [LCP 56. 信物传送](https://2xiao.github.io/leetcode-js/lcp/LCP_56.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`最短路`](/tag/shortest-path.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/6UEx57)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`最短路`](/tag/shortest-path.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/6UEx57)
 
 ## 题目
 

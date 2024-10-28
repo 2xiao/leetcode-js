@@ -1,6 +1,6 @@
-# [40. 矩阵中最大的矩形](https://leetcode.cn/problems/PLYXKQ)
+# [40. 矩阵中最大的矩形](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_040.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/PLYXKQ)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/PLYXKQ)
 
 ## 题目
 

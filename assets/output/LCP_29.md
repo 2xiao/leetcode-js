@@ -1,6 +1,6 @@
-# [LCP 29. 乐团站位](https://leetcode.cn/problems/SNJvJP)
+# [LCP 29. 乐团站位](https://2xiao.github.io/leetcode-js/lcp/LCP_29.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/SNJvJP)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/SNJvJP)
 
 ## 题目
 

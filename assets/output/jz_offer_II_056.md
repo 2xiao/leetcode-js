@@ -1,6 +1,6 @@
-# [56. 二叉搜索树中两个节点之和](https://leetcode.cn/problems/opLdQZ)
+# [56. 二叉搜索树中两个节点之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_056.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/opLdQZ)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/opLdQZ)
 
 ## 题目
 

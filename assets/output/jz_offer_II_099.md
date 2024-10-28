@@ -1,6 +1,6 @@
-# [99. 最小路径之和](https://leetcode.cn/problems/0i0mDW)
+# [99. 最小路径之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_099.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0i0mDW)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0i0mDW)
 
 ## 题目
 

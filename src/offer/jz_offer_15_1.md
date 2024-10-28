@@ -1,6 +1,6 @@
-# [15. 二进制中 1 的个数](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)
+# [15. 二进制中1的个数](https://2xiao.github.io/leetcode-js/offer/jz_offer_15_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)
 
 ## 题目
 

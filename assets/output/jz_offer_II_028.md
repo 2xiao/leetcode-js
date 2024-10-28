@@ -1,6 +1,6 @@
-# [28. 展平多级双向链表](https://leetcode.cn/problems/Qv1Da2)
+# [28. 展平多级双向链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_028.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`链表`](/tag/linked-list.md) [`双向链表`](/tag/doubly-linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Qv1Da2)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`链表`](/tag/linked-list.md) [`双向链表`](/tag/doubly-linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Qv1Da2)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [LCP 41. 黑白翻转棋](https://leetcode.cn/problems/fHi6rV)
+# [LCP 41. 黑白翻转棋](https://2xiao.github.io/leetcode-js/lcp/LCP_41.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/fHi6rV)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fHi6rV)
 
 ## 题目
 

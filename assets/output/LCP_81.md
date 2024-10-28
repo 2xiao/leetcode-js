@@ -1,6 +1,6 @@
-# [LCP 81. 与非的谜题](https://leetcode.cn/problems/ryfUiz)
+# [LCP 81. 与非的谜题](https://2xiao.github.io/leetcode-js/lcp/LCP_81.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ryfUiz)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ryfUiz)
 
 ## 题目
 

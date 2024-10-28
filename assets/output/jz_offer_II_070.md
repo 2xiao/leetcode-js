@@ -1,6 +1,6 @@
-# [70. 排序数组中只出现一次的数字](https://leetcode.cn/problems/skFtm2)
+# [70. 排序数组中只出现一次的数字](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_070.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/skFtm2)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/skFtm2)
 
 ## 题目
 

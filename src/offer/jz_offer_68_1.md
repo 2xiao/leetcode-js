@@ -1,6 +1,6 @@
-# [68. 二叉搜索树的最近公共祖先](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)
+# [68. 二叉搜索树的最近公共祖先](https://2xiao.github.io/leetcode-js/offer/jz_offer_68_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof)
 
 ## 题目
 
@@ -62,7 +62,7 @@ upload/uploads/2018/12/14/binarysearchtree_improved.png)
 
 ### 思路二：递归查找
 
-和 [第 236 题](./0236.md) 一样，使用递归查找。
+和 [第 236 题](../problem/0236.md) 一样，使用递归查找。
 
 从根节点开始，递归地向左子树和右子树搜索。递归的终止条件有几种情况：
 

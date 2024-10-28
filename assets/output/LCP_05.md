@@ -1,6 +1,6 @@
-# [LCP 05. 发 LeetCoin](https://leetcode.cn/problems/coin-bonus)
+# [LCP 05. 发 LeetCoin](https://2xiao.github.io/leetcode-js/lcp/LCP_05.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/coin-bonus)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/coin-bonus)
 
 ## 题目
 

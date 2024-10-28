@@ -93,24 +93,27 @@ def format_label(labels: str):
 # 格式化每一个frame items
 
 
-def gen_frame_items(row, df, problem_salt: str = False, show_book_name: bool = True):
-    problem_id = df.loc[row, "frontendId"]
-    problem_file_name = df.loc[row, "fileName"]
-    problem_catalog = df.loc[row, "catalog"]
-    problem_is_ac = is_ac(problem_catalog, problem_file_name)
+def gen_frame_items(row, df, salt: str = False, show_book_name: bool = True):
+    title_cn = df.loc[row, "titleCN"]
+    file_name = df.loc[row, "fileName"]
+    catalog = df.loc[row, "catalog"]
+    slug = df.loc[row, "slug"]
+    id = df.loc[row, "frontendId"]
+    paid_only = df.loc[row, "paid_only"]
 
-    problem_label = format_label(df.loc[row, "tags"])
-    problem_difficulty = format_difficulty(df.loc[row, "difficulty"])
-    problem_link = "[{}]({})".format(df.loc[row, "titleCN"], get_online_link(problem_catalog, df.loc[row, "slug"]))
-    problem_solution_link = ""
-    if problem_is_ac:
-        problem_solution_link = "[[✓]]({})".format(get_local_link(problem_catalog, problem_file_name))
+    online_link = "[{}{}]({})".format(title_cn, ' 🔒' if paid_only else '', get_lc_link(catalog, slug))
+    label = format_label(df.loc[row, "tags"])
+    difficulty = format_difficulty(df.loc[row, "difficulty"])
+
     if show_book_name:
-        problem_id = get_id_with_book_name(problem_catalog, problem_id)
-    res = [problem_id, problem_link, problem_solution_link,
-           problem_label, problem_difficulty]
-    if problem_salt:
-        res.append(problem_salt)
+        id = get_id_with_book_name(catalog, id)
+    local_link = ""
+    if is_ac(catalog, file_name):
+        local_link = "[[✓]]({})".format(get_local_link(catalog, file_name))
+    
+    res = [id, online_link, local_link, label, difficulty]
+    if salt:
+        res.append(salt)
 
     return res
 
@@ -286,16 +289,21 @@ def get_title(title, slug):
 def get_tag_link(tag_cn, tag_en):
     return "[`{}`](/tag/{}.md)".format(tag_cn, tag_en)
 
-
 def get_local_link(catalog, fileName, scheme = "/{}/{}.md"):
     if is_cn(catalog):
         return scheme.format(catalog, fileName)
     return scheme.format('problem', fileName)
 
-def get_online_link(catalog, slug):
+def get_lc_link(catalog, slug):
     if is_cn(catalog):
         return "https://leetcode.cn/problems/{}".format(slug)
     return "https://leetcode.com/problems/{}".format(slug)
+
+def get_all_online_link(catalog, slug):
+    str = '&emsp; 🔗&ensp;[`力扣`]({})'.format("https://leetcode.cn/problems/{}".format(slug))
+    if not is_cn(catalog):
+        str = str + ' [`LeetCode`]({})'.format("https://leetcode.com/problems/{}".format(slug))
+    return str
 
 def is_ac(catalog, fileName):
     local_path = get_local_link(catalog, fileName, const.base_path + '{}/{}.md')

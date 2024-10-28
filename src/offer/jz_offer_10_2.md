@@ -1,6 +1,6 @@
-# [10-II. 青蛙跳台阶问题](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
+# [10-II. 青蛙跳台阶问题](https://2xiao.github.io/leetcode-js/offer/jz_offer_10_2.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
 
 ## 题目
 

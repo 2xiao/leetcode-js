@@ -1,6 +1,6 @@
-# [LCP 13. 寻宝](https://leetcode.cn/problems/xun-bao)
+# [LCP 13. 寻宝](https://2xiao.github.io/leetcode-js/lcp/LCP_13.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xun-bao)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xun-bao)
 
 ## 题目
 

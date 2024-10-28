@@ -1,6 +1,6 @@
-# [29. 排序的循环链表](https://leetcode.cn/problems/4ueAj6)
+# [29. 排序的循环链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_029.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/4ueAj6)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/4ueAj6)
 
 ## 题目
 

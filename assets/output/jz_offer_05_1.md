@@ -1,6 +1,6 @@
-# [5. 替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof)
+# [5. 替换空格](https://2xiao.github.io/leetcode-js/offer/jz_offer_05_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ti-huan-kong-ge-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ti-huan-kong-ge-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [LCP 35. 电动车游城市](https://leetcode.cn/problems/DFPeFJ)
+# [LCP 35. 电动车游城市](https://2xiao.github.io/leetcode-js/lcp/LCP_35.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`最短路`](/tag/shortest-path.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/DFPeFJ)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`最短路`](/tag/shortest-path.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/DFPeFJ)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [37. 序列化二叉树](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof)
+# [37. 序列化二叉树](https://2xiao.github.io/leetcode-js/offer/jz_offer_37_1.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xu-lie-hua-er-cha-shu-lcof)
 
 ## 题目
 

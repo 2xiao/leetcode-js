@@ -1,6 +1,6 @@
-# [72. 求平方根](https://leetcode.cn/problems/jJ0w9p)
+# [72. 求平方根](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_072.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jJ0w9p)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/jJ0w9p)
 
 ## 题目
 

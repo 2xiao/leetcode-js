@@ -1,6 +1,6 @@
-# [39. 直方图最大矩形面积](https://leetcode.cn/problems/0ynMMM)
+# [39. 直方图最大矩形面积](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_039.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0ynMMM)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0ynMMM)
 
 ## 题目
 

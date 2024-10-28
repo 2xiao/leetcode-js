@@ -1,6 +1,6 @@
-# [45. 把数组排成最小的数](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)
+# [45. 把数组排成最小的数](https://2xiao.github.io/leetcode-js/offer/jz_offer_45_1.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)
 
 ## 题目
 

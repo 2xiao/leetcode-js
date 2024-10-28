@@ -12,6 +12,7 @@ import argparse,sys
 import threading
 import pandas as pd
 import utils
+import const
 
 db_path = 'leetcode.db'
 user_agent = r'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36'
@@ -267,6 +268,7 @@ class LeetcodeCrawler():
         cursor.execute("SELECT * FROM question")
         for row in cursor:
             catalog = utils.get_catalog(row[1], row[3])
+            file_name = utils.get_fileName(row[1], row[3])
             question_detail = {
                 'id': row[0],
                 'slug': row[3],
@@ -279,7 +281,7 @@ class LeetcodeCrawler():
                 'status': row[11],
                 'fileName': utils.get_fileName(row[1], row[3]),
                 'catalog': catalog,
-                'link': utils.get_online_link(catalog, row[3]),
+                'link': utils.get_local_link(catalog, file_name, const.online_path + '/{}/{}.html'),
                 'frontendId': utils.get_fronted_id(row[1], row[3]),
                 'title': utils.get_title(row[2], row[3]),
                 'titleCN': utils.get_title(row[7], row[3]),
@@ -366,10 +368,10 @@ class LeetcodeCrawler():
         df = pd.read_csv("problem-list.csv")
 
         with open(text_path, 'w', encoding='utf-8') as f:
-            f.write("# [{}. {}]({})".format(question['frontendId'], question['titleCN'], question['link']))
+            f.write("# [{}. {}{}]({})".format(question['frontendId'], question['titleCN'], ' 🔒' if question['paid_only'] else '', question['link']))
             
             problem_difficulty = utils.format_difficulty(question['difficulty'], True)
-            problem_link = "&emsp; 🔗&ensp;[`LeetCode`](" + question['link'] + ")"
+            problem_link = utils.get_all_online_link(question['catalog'], question['slug'])
             problem_label = ""
             if len(question['tags']) > 0:
                 problem_label = "&emsp; 🔖&ensp;"
@@ -496,9 +498,9 @@ if __name__=='__main__':
 
 
     test.connect_db(db_path)
-    test.get_problems(filters)
+    # test.get_problems(filters)
       
-    test.generate_questions_list()
+    # test.generate_questions_list()
     test.generate_questions_markdown(args.output, filters)
    
     test.close_db()

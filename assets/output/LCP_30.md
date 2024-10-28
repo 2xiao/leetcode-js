@@ -1,6 +1,6 @@
-# [LCP 30. 魔塔游戏](https://leetcode.cn/problems/p0NxJO)
+# [LCP 30. 魔塔游戏](https://2xiao.github.io/leetcode-js/lcp/LCP_30.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/p0NxJO)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/p0NxJO)
 
 ## 题目
 

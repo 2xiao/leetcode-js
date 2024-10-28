@@ -1,6 +1,6 @@
-# [98. 路径的数目](https://leetcode.cn/problems/2AoeFn)
+# [98. 路径的数目](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_098.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/2AoeFn)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/2AoeFn)
 
 ## 题目
 

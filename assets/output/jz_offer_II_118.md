@@ -1,6 +1,6 @@
-# [118. 多余的边](https://leetcode.cn/problems/7LpjUW)
+# [118. 多余的边](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_118.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/7LpjUW)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/7LpjUW)
 
 ## 题目
 

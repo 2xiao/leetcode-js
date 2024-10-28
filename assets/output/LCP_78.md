@@ -1,6 +1,6 @@
-# [LCP 78. 城墙防线](https://leetcode.cn/problems/Nsibyl)
+# [LCP 78. 城墙防线](https://2xiao.github.io/leetcode-js/lcp/LCP_78.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/Nsibyl)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Nsibyl)
 
 ## 题目
 

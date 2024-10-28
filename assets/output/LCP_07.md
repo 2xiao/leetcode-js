@@ -1,6 +1,6 @@
-# [LCP 07. 传递信息](https://leetcode.cn/problems/chuan-di-xin-xi)
+# [LCP 07. 传递信息](https://2xiao.github.io/leetcode-js/lcp/LCP_07.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/chuan-di-xin-xi)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/chuan-di-xin-xi)
 
 ## 题目
 

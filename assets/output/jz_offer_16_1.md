@@ -1,6 +1,6 @@
-# [16. 数值的整数次方](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
+# [16. 数值的整数次方](https://2xiao.github.io/leetcode-js/offer/jz_offer_16_1.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [14. 剪绳子](https://leetcode.cn/problems/jian-sheng-zi-lcof)
+# [14. 剪绳子](https://2xiao.github.io/leetcode-js/offer/jz_offer_14_1.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/jian-sheng-zi-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/jian-sheng-zi-lcof)
 
 ## 题目
 

@@ -1,6 +1,6 @@
-# [119. 最长连续序列](https://leetcode.cn/problems/WhsWhI)
+# [119. 最长连续序列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_119.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WhsWhI)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/WhsWhI)
 
 ## 题目
 

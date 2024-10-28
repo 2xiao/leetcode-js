@@ -1,6 +1,6 @@
-# [62. 实现前缀树](https://leetcode.cn/problems/QC3q1f)
+# [62. 实现前缀树](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_062.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/QC3q1f)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/QC3q1f)
 
 ## 题目
 

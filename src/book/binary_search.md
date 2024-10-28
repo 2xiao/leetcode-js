@@ -234,7 +234,7 @@ function bsearch(arr, value) {
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
+| 69 | [x 的平方根](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number) | [[✓]](/problem/0287.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [[✓]](/problem/0050.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 367 | [有效的完全平方数](https://leetcode.com/problems/valid-perfect-square) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
@@ -250,13 +250,13 @@ function bsearch(arr, value) {
 | 410 | [分割数组的最大值](https://leetcode.com/problems/split-array-largest-sum) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 209 | [长度最小的子数组](https://leetcode.com/problems/minimum-size-subarray-sum) | [[✓]](/problem/0209.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `3+` | <font color=#ffb800>Medium</font> |
-| 270 | [最接近的二叉搜索树值](https://leetcode.com/problems/closest-binary-search-tree-value) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `2+` | <font color=#15bd66>Easy</font> |
-| 702 | [搜索长度未知的有序数组](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | <font color=#ffb800>Medium</font> |
+| 270 | [最接近的二叉搜索树值 🔒](https://leetcode.com/problems/closest-binary-search-tree-value) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `2+` | <font color=#15bd66>Easy</font> |
+| 702 | [搜索长度未知的有序数组 🔒](https://leetcode.com/problems/search-in-a-sorted-array-of-unknown-size) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | <font color=#ffb800>Medium</font> |
 | 349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
 | 350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
 | 287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number) | [[✓]](/problem/0287.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
-| 259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller) | [[✓]](/problem/0259.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 259 | [较小的三数之和 🔒](https://leetcode.com/problems/3sum-smaller) | [[✓]](/problem/0259.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1011 | [在 D 天内送达包裹的能力](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 1482 | [制作 m 束花所需的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 
