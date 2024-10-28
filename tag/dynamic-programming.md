@@ -232,7 +232,7 @@
 | 1259 | [不相交的握手](https://leetcode.com/problems/handshakes-that-dont-cross) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1262 | [可被三整除的最大和](https://leetcode.com/problems/greatest-sum-divisible-by-three) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1269 | [停在原地的方案数](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) |  |  [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.com/problems/count-square-submatrices-with-all-ones) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.com/problems/count-square-submatrices-with-all-ones) | [[✓]](/problem/1277.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 1278 | [分割回文串 III](https://leetcode.com/problems/palindrome-partitioning-iii) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1289 | [下降路径最小和  II](https://leetcode.com/problems/minimum-falling-path-sum-ii) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ff334b>Hard</font> |
 | 1301 | [最大得分的路径数目](https://leetcode.com/problems/number-of-paths-with-max-score) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ff334b>Hard</font> |
@@ -423,7 +423,7 @@
 | 2478 | [完美分割的方案数](https://leetcode.com/problems/number-of-beautiful-partitions) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 2484 | [统计回文子序列数目](https://leetcode.com/problems/count-palindromic-subsequences) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 2495 | [乘积为偶数的子数组数](https://leetcode.com/problems/number-of-subarrays-having-even-product) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2510 | [检查是否有路径经过相同数量的 0 和 1](https://leetcode.com/problems/check-if-there-is-a-path-with-equal-number-of-0s-and-1s) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 2518 | [好分区的数目](https://leetcode.com/problems/number-of-great-partitions) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 2522 | [将字符串分割成值不超过 K 的子字符串](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |

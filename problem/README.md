@@ -1,6 +1,6 @@
 # 目录
 
-已完成 409 道
+已完成 413 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -339,6 +339,7 @@
 | 1143 | [最长公共子序列](https://leetcode.com/problems/longest-common-subsequence) | [[✓]](/problem/1143.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1190 | [反转每对括号间的子串](https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses) | [[✓]](/problem/1190.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1233 | [删除子文件夹](https://leetcode.com/problems/remove-sub-folders-from-the-filesystem) | [[✓]](/problem/1233.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.com/problems/count-square-submatrices-with-all-ones) | [[✓]](/problem/1277.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 1288 | [删除被覆盖区间](https://leetcode.com/problems/remove-covered-intervals) | [[✓]](/problem/1288.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 1312 | [让字符串成为回文串的最少插入次数](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome) | [[✓]](/problem/1312.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
 | 1331 | [数组序号转换](https://leetcode.com/problems/rank-transform-of-an-array) | [[✓]](/problem/1331.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
@@ -370,6 +371,7 @@
 | 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) | [[✓]](/problem/2416.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2458 | [移除子树后的二叉树高度](https://leetcode.com/problems/height-of-binary-tree-after-subtree-removal-queries) | [[✓]](/problem/2458.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ff334b>Hard</font> |
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](/problem/2491.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2530 | [执行 K 次操作后的最大分数](https://leetcode.com/problems/maximal-score-after-applying-k-operations) | [[✓]](/problem/2530.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 2583 | [二叉树中的第 K 大层和](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) | [[✓]](/problem/2583.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2618 | [检查是否是类的对象实例](https://leetcode.com/problems/check-if-object-instance-of-class) | [[✓]](/problem/2618.md) |  | <font color=#ffb800>Medium</font> |
@@ -389,6 +391,8 @@
 | 2636 | [Promise 对象池](https://leetcode.com/problems/promise-pool) | [[✓]](/problem/2636.md) |  | <font color=#ffb800>Medium</font> |
 | 2637 | [有时间限制的 Promise 对象](https://leetcode.com/problems/promise-time-limit) | [[✓]](/problem/2637.md) |  | <font color=#ffb800>Medium</font> |
 | 2641 | [二叉树的堂兄弟节点 II](https://leetcode.com/problems/cousins-in-binary-tree-ii) | [[✓]](/problem/2641.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2649 | [嵌套数组生成器](https://leetcode.com/problems/nested-array-generator) | [[✓]](/problem/2649.md) |  | <font color=#ffb800>Medium</font> |
+| 2650 | [设计可取消函数](https://leetcode.com/problems/design-cancellable-function) | [[✓]](/problem/2650.md) |  | <font color=#ff334b>Hard</font> |
 | 2665 | [计数器 II](https://leetcode.com/problems/counter-ii) | [[✓]](/problem/2665.md) |  | <font color=#15bd66>Easy</font> |
 | 2666 | [只允许一次函数调用](https://leetcode.com/problems/allow-one-function-call) | [[✓]](/problem/2666.md) |  | <font color=#15bd66>Easy</font> |
 | 2667 | [创建 Hello World 函数](https://leetcode.com/problems/create-hello-world-function) | [[✓]](/problem/2667.md) |  | <font color=#15bd66>Easy</font> |

@@ -226,7 +226,7 @@
 | 2468 | [根据限制分割消息](https://leetcode.com/problems/split-message-based-on-limit) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
 | 2476 | [二叉搜索树最近节点查询](https://leetcode.com/problems/closest-nodes-queries-in-a-binary-search-tree) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `3+` | <font color=#ffb800>Medium</font> |
 | 2498 | [青蛙过河 II](https://leetcode.com/problems/frog-jump-ii) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
-| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2513 | [最小化两个数组中的最大值](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) [`数论`](/tag/number-theory.md) | <font color=#ffb800>Medium</font> |
 | 2517 | [礼盒的最大甜蜜度](https://leetcode.com/problems/maximum-tastiness-of-candy-basket) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2519 | [统计 K-Big 索引的数量](https://leetcode.com/problems/count-the-number-of-k-big-indices) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |

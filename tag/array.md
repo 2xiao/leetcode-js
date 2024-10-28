@@ -637,7 +637,7 @@
 | 1273 | [删除树节点](https://leetcode.com/problems/delete-tree-nodes) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1274 | [矩形内船只的数目](https://leetcode.com/problems/number-of-ships-in-a-rectangle) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`交互`](/tag/interactive.md) | <font color=#ff334b>Hard</font> |
 | 1275 | [找出井字棋的获胜者](https://leetcode.com/problems/find-winner-on-a-tic-tac-toe-game) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#15bd66>Easy</font> |
-| 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.com/problems/count-square-submatrices-with-all-ones) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 1277 | [统计全为 1 的正方形子矩阵](https://leetcode.com/problems/count-square-submatrices-with-all-ones) | [[✓]](/problem/1277.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 1282 | [用户分组](https://leetcode.com/problems/group-the-people-given-the-group-size-they-belong-to) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 1283 | [使结果不超过阈值的最小除数](https://leetcode.com/problems/find-the-smallest-divisor-given-a-threshold) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 1284 | [转化为全零矩阵的最少反转次数](https://leetcode.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) |  |  [`位运算`](/tag/bit-manipulation.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
@@ -1312,7 +1312,7 @@
 | 2498 | [青蛙过河 II](https://leetcode.com/problems/frog-jump-ii) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 2499 | [让数组不相等的最小总代价](https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 2500 | [删除每行中的最大值](https://leetcode.com/problems/delete-greatest-value-in-each-row) |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`排序`](/tag/sorting.md) `2+` | <font color=#15bd66>Easy</font> |
-| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2502 | [设计内存分配器](https://leetcode.com/problems/design-memory-allocator) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2503 | [矩阵查询可获得的最大分数](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 2505 | [所有子序列和的按位或](https://leetcode.com/problems/bitwise-or-of-all-subsequence-sums) |  |  [`位运算`](/tag/bit-manipulation.md) [`脑筋急转弯`](/tag/brainteaser.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
