@@ -1,6 +1,6 @@
-# [64. 求 1+2+…+n](https://leetcode.cn/problems/qiu-12n-lcof)
+# [64. 求1+2+…+n](https://2xiao.github.io/leetcode-js/offer/jz_offer_64_1.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/qiu-12n-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qiu-12n-lcof)
 
 ## 题目
 

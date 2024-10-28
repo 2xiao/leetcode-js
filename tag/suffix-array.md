@@ -21,8 +21,8 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1044 | [最长重复子串](https://leetcode.com/problems/longest-duplicate-substring) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`后缀数组`](/tag/suffix-array.md) `3+` | <font color=#ff334b>Hard</font> |
-| 1062 | [最长重复子串](https://leetcode.com/problems/longest-repeating-substring) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | <font color=#ffb800>Medium</font> |
-| 1698 | [字符串的不同子字符串个数](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string) |  |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) [`后缀数组`](/tag/suffix-array.md) `2+` | <font color=#ffb800>Medium</font> |
+| 1062 | [最长重复子串 🔒](https://leetcode.com/problems/longest-repeating-substring) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | <font color=#ffb800>Medium</font> |
+| 1698 | [字符串的不同子字符串个数 🔒](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string) |  |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) [`后缀数组`](/tag/suffix-array.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1923 | [最长公共子路径](https://leetcode.com/problems/longest-common-subpath) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`后缀数组`](/tag/suffix-array.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1977 | [划分数字的方案数](https://leetcode.com/problems/number-of-ways-to-separate-numbers) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`后缀数组`](/tag/suffix-array.md) | <font color=#ff334b>Hard</font> |
 | 2223 | [构造字符串的总得分和](https://leetcode.com/problems/sum-of-scores-of-built-strings) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`字符串匹配`](/tag/string-matching.md) `3+` | <font color=#ff334b>Hard</font> |

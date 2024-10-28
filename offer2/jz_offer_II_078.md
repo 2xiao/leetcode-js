@@ -1,6 +1,6 @@
-# [78. 合并排序链表](https://leetcode.cn/problems/vvXgSW)
+# [78. 合并排序链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_078.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) [`归并排序`](/tag/merge-sort.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/vvXgSW)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) [`归并排序`](/tag/merge-sort.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/vvXgSW)
 
 ## 题目
 

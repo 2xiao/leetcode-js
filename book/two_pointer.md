@@ -39,11 +39,11 @@
 | 15 | [三数之和](https://leetcode.com/problems/3sum) | [[✓]](/problem/0015.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 16 | [最接近的三数之和](https://leetcode.com/problems/3sum-closest) | [[✓]](/problem/0016.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 18 | [四数之和](https://leetcode.com/problems/4sum) | [[✓]](/problem/0018.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 259 | [较小的三数之和](https://leetcode.com/problems/3sum-smaller) | [[✓]](/problem/0259.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
+| 259 | [较小的三数之和 🔒](https://leetcode.com/problems/3sum-smaller) | [[✓]](/problem/0259.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 658 | [找到 K 个最接近的元素](https://leetcode.com/problems/find-k-closest-elements) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `3+` | <font color=#ffb800>Medium</font> |
-| 1099 | [小于 K 的两数之和](https://leetcode.com/problems/two-sum-less-than-k) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#15bd66>Easy</font> |
+| 1099 | [小于 K 的两数之和 🔒](https://leetcode.com/problems/two-sum-less-than-k) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#15bd66>Easy</font> |
 | 75 | [颜色分类](https://leetcode.com/problems/sort-colors) | [[✓]](/problem/0075.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 360 | [有序转化数组](https://leetcode.com/problems/sort-transformed-array) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 360 | [有序转化数组 🔒](https://leetcode.com/problems/sort-transformed-array) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 977 | [有序数组的平方](https://leetcode.com/problems/squares-of-a-sorted-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 881 | [救生艇](https://leetcode.com/problems/boats-to-save-people) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 42 | [接雨水](https://leetcode.com/problems/trapping-rain-water) | [[✓]](/problem/0042.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ff334b>Hard</font> |
@@ -73,6 +73,6 @@
 | 350 | [两个数组的交集 II](https://leetcode.com/problems/intersection-of-two-arrays-ii) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |
 | 925 | [长按键入](https://leetcode.com/problems/long-pressed-name) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare) | [[✓]](/problem/0844.md) |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
-| 1229 | [安排会议日程](https://leetcode.com/problems/meeting-scheduler) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 1229 | [安排会议日程 🔒](https://leetcode.com/problems/meeting-scheduler) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 415 | [字符串相加](https://leetcode.com/problems/add-strings) | [[✓]](/problem/0415.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 

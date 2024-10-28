@@ -245,7 +245,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
+| 69 | [x 的平方根](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 704 | [二分查找](https://leetcode.com/problems/binary-search) | [[✓]](/problem/0704.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 35 | [搜索插入位置](https://leetcode.com/problems/search-insert-position) | [[✓]](/problem/0035.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 349 | [两个数组的交集](https://leetcode.com/problems/intersection-of-two-arrays) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#15bd66>Easy</font> |

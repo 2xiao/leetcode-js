@@ -1,6 +1,6 @@
-# [59-II. 队列的最大值](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
+# [59-II. 队列的最大值](https://2xiao.github.io/leetcode-js/offer/jz_offer_59_2.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
 
 ## 题目
 

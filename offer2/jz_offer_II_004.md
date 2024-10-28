@@ -1,6 +1,6 @@
-# [4. 只出现一次的数字](https://leetcode.cn/problems/WGki4K)
+# [4. 只出现一次的数字](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_004.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/WGki4K)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/WGki4K)
 
 ## 题目
 

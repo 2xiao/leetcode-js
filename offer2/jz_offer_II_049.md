@@ -1,6 +1,6 @@
-# [49. 从根节点到叶节点的路径数字之和](https://leetcode.cn/problems/3Etpl5)
+# [49. 从根节点到叶节点的路径数字之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_049.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/3Etpl5)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/3Etpl5)
 
 ## 题目
 

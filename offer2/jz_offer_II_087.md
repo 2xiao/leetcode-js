@@ -1,6 +1,6 @@
-# [87. 复原 IP](https://leetcode.cn/problems/0on3uN)
+# [87. 复原 IP](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_087.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/0on3uN)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0on3uN)
 
 ## 题目
 

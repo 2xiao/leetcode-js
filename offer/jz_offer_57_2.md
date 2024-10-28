@@ -1,6 +1,6 @@
-# [57-II. 和为 s 的连续正数序列](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
+# [57-II. 和为s的连续正数序列](https://2xiao.github.io/leetcode-js/offer/jz_offer_57_2.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
 ## 题目
 

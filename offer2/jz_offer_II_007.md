@@ -1,6 +1,6 @@
-# [7. 数组中和为 0 的三个数](https://leetcode.cn/problems/1fGaJU)
+# [7. 数组中和为 0 的三个数](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_007.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/1fGaJU)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/1fGaJU)
 
 ## 题目
 

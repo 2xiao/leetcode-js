@@ -22,8 +22,8 @@
 | :------: | :------ | :------: | :------ | :------ |
 | 204 | [计数质数](https://leetcode.com/problems/count-primes) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | <font color=#ffb800>Medium</font> |
 | 479 | [最大回文数乘积](https://leetcode.com/problems/largest-palindrome-product) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ff334b>Hard</font> |
-| 681 | [最近时刻](https://leetcode.com/problems/next-closest-time) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
-| 800 | [相似 RGB 颜色](https://leetcode.com/problems/similar-rgb-color) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
+| 681 | [最近时刻 🔒](https://leetcode.com/problems/next-closest-time) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
+| 800 | [相似 RGB 颜色 🔒](https://leetcode.com/problems/similar-rgb-color) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 | 816 | [模糊坐标](https://leetcode.com/problems/ambiguous-coordinates) |  |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 829 | [连续整数求和](https://leetcode.com/problems/consecutive-numbers-sum) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ff334b>Hard</font> |
 | 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
@@ -42,10 +42,10 @@
 | 1863 | [找出所有子集的异或总和再求和](https://leetcode.com/problems/sum-of-all-subset-xor-totals) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | <font color=#15bd66>Easy</font> |
 | 1925 | [统计平方和三元组的数目](https://leetcode.com/problems/count-square-sum-triples) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 | 1952 | [三除数](https://leetcode.com/problems/three-divisors) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) [`数论`](/tag/number-theory.md) | <font color=#15bd66>Easy</font> |
-| 1956 | [感染 K 种病毒所需的最短时间](https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1956 | [感染 K 种病毒所需的最短时间 🔒](https://leetcode.com/problems/minimum-time-for-k-virus-variants-to-spread) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | <font color=#ff334b>Hard</font> |
 | 1958 | [检查操作是否合法](https://leetcode.com/problems/check-if-move-is-legal) |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 1995 | [统计特殊四元组](https://leetcode.com/problems/count-special-quadruplets) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
-| 1999 | [最小的仅由两个数组成的倍数](https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
+| 1999 | [最小的仅由两个数组成的倍数 🔒](https://leetcode.com/problems/smallest-greater-multiple-made-of-two-digits) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 2014 | [重复 K 次的最长子序列](https://leetcode.com/problems/longest-subsequence-repeated-k-times) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `2+` | <font color=#ff334b>Hard</font> |
 | 2018 | [判断单词是否能放入填字游戏内](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword) |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 2025 | [分割数组的最多方案数](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `2+` | <font color=#ff334b>Hard</font> |
@@ -69,7 +69,7 @@
 | 2310 | [个位数字为 K 的整数之和](https://leetcode.com/problems/sum-of-numbers-with-units-digit-k) |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2367 | [等差三元组的数目](https://leetcode.com/problems/number-of-arithmetic-triplets) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#15bd66>Easy</font> |
 | 2397 | [被列覆盖的最多行数](https://leetcode.com/problems/maximum-rows-covered-by-columns) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) `2+` | <font color=#ffb800>Medium</font> |
-| 2417 | [最近的公平整数](https://leetcode.com/problems/closest-fair-integer) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
+| 2417 | [最近的公平整数 🔒](https://leetcode.com/problems/closest-fair-integer) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 2427 | [公因子的数目](https://leetcode.com/problems/number-of-common-factors) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) [`数论`](/tag/number-theory.md) | <font color=#15bd66>Easy</font> |
 | 2437 | [有效时间的数目](https://leetcode.com/problems/number-of-valid-clock-times) |  |  [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 | 2440 | [创建价值相同的连通块](https://leetcode.com/problems/create-components-with-same-value) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |

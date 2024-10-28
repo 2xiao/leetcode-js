@@ -1,6 +1,6 @@
-# [59. 滑动窗口的最大值](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)
+# [59. 滑动窗口的最大值](https://2xiao.github.io/leetcode-js/offer/jz_offer_59_1.html)
 
-🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) [`单调队列`](/tag/monotonic-queue.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)
+🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) [`单调队列`](/tag/monotonic-queue.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof)
 
 ## 题目
 

@@ -683,6 +683,6 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 | 387 | [字符串中的第一个唯一字符](https://leetcode.com/problems/first-unique-character-in-a-string) |  |  [`队列`](/tag/queue.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 447 | [回旋镖的数量](https://leetcode.com/problems/number-of-boomerangs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 149 | [直线上最多的点数](https://leetcode.com/problems/max-points-on-a-line) | [[✓]](/problem/0149.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
-| 359 | [日志速率限制器](https://leetcode.com/problems/logger-rate-limiter) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
+| 359 | [日志速率限制器 🔒](https://leetcode.com/problems/logger-rate-limiter) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) | <font color=#15bd66>Easy</font> |
 | 811 | [子域名访问计数](https://leetcode.com/problems/subdomain-visit-count) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 

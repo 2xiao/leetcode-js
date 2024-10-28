@@ -1,6 +1,6 @@
-# [49. 丑数](https://leetcode.cn/problems/chou-shu-lcof)
+# [49. 丑数](https://2xiao.github.io/leetcode-js/offer/jz_offer_49_1.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/chou-shu-lcof)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/chou-shu-lcof)
 
 ## 题目
 

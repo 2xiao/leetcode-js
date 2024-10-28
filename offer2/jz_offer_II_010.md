@@ -1,6 +1,6 @@
-# [10. 和为 k 的子数组](https://leetcode.cn/problems/QTMn0o)
+# [10. 和为 k 的子数组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_010.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/QTMn0o)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/QTMn0o)
 
 ## 题目
 

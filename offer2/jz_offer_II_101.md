@@ -1,6 +1,6 @@
-# [101. 分割等和子集](https://leetcode.cn/problems/NUPfPr)
+# [101. 分割等和子集](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_101.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/NUPfPr)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/NUPfPr)
 
 ## 题目
 

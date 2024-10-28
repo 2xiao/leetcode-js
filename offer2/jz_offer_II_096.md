@@ -1,6 +1,6 @@
-# [96. 字符串交织](https://leetcode.cn/problems/IY6buf)
+# [96. 字符串交织](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_096.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/IY6buf)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/IY6buf)
 
 ## 题目
 

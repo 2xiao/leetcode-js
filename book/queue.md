@@ -727,7 +727,7 @@ console.log(priorityQueue.count()); // output: 3
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 622 | [设计循环队列](https://leetcode.com/problems/design-circular-queue) | [[✓]](/problem/0622.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 346 | [数据流中的移动平均值](https://leetcode.com/problems/moving-average-from-data-stream) | [[✓]](/problem/0346.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
+| 346 | [数据流中的移动平均值 🔒](https://leetcode.com/problems/moving-average-from-data-stream) | [[✓]](/problem/0346.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#15bd66>Easy</font> |
 | 225 | [用队列实现栈](https://leetcode.com/problems/implement-stack-using-queues) | [[✓]](/problem/0225.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | <font color=#15bd66>Easy</font> |
 
 #### 优先队列

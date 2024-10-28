@@ -1,6 +1,6 @@
-# [58-II. 左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
+# [58-II. 左旋转字符串](https://2xiao.github.io/leetcode-js/offer/jz_offer_58_2.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
 
 ## 题目
 

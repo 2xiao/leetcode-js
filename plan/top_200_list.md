@@ -182,7 +182,7 @@ headerDepth: 0
 | 450 | [删除二叉搜索树中的节点](https://leetcode.com/problems/delete-node-in-a-bst) | [[✓]](/problem/0450.md) |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md) | <font color=#ffb800>Medium</font> | 33 |
 | 剑指 Offer 54 | [二叉搜索树的第k大节点](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-di-kda-jie-dian-lcof) | [[✓]](/offer/jz_offer_54_1.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#15bd66>Easy</font> | 37 |
 | 230 | [二叉搜索树中第 K 小的元素](https://leetcode.com/problems/kth-smallest-element-in-a-bst) | [[✓]](/problem/0230.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | <font color=#ffb800>Medium</font> | 31 |
-| 426 | [将二叉搜索树转化为排序的双向链表](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [[✓]](/problem/0426.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> | 16 |
+| 426 | [将二叉搜索树转化为排序的双向链表 🔒](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) | [[✓]](/problem/0426.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `4+` | <font color=#ffb800>Medium</font> | 16 |
 | 110 | [平衡二叉树](https://leetcode.com/problems/balanced-binary-tree) | [[✓]](/problem/0110.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | <font color=#15bd66>Easy</font> | 77 |
 
 
@@ -437,7 +437,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 频次 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 69 | [x 的平方根 ](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 109 |
+| 69 | [x 的平方根](https://leetcode.com/problems/sqrtx) | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> | 109 |
 | 287 | [寻找重复数](https://leetcode.com/problems/find-the-duplicate-number) | [[✓]](/problem/0287.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> | 25 |
 | 50 | [Pow(x, n)](https://leetcode.com/problems/powx-n) | [[✓]](/problem/0050.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> | 37 |
 | 400 | [第 N 位数字](https://leetcode.com/problems/nth-digit) | [[✓]](/problem/0400.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> | 23 |

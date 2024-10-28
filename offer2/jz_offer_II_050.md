@@ -1,6 +1,6 @@
-# [50. 向下的路径节点之和](https://leetcode.cn/problems/6eUYwP)
+# [50. 向下的路径节点之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_050.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/6eUYwP)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/6eUYwP)
 
 ## 题目
 

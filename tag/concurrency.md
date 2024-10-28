@@ -24,8 +24,8 @@
 | 1115 | [交替打印 FooBar](https://leetcode.com/problems/print-foobar-alternately) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
 | 1116 | [打印零与奇偶数](https://leetcode.com/problems/print-zero-even-odd) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
 | 1117 | [H2O 生成](https://leetcode.com/problems/building-h2o) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1188 | [设计有限阻塞队列](https://leetcode.com/problems/design-bounded-blocking-queue) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
+| 1188 | [设计有限阻塞队列 🔒](https://leetcode.com/problems/design-bounded-blocking-queue) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
 | 1195 | [交替打印字符串](https://leetcode.com/problems/fizz-buzz-multithreaded) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
 | 1226 | [哲学家进餐](https://leetcode.com/problems/the-dining-philosophers) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1242 | [多线程网页爬虫](https://leetcode.com/problems/web-crawler-multithreaded) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1279 | [红绿灯路口](https://leetcode.com/problems/traffic-light-controlled-intersection) |  |  [`多线程`](/tag/concurrency.md) | <font color=#15bd66>Easy</font> |
+| 1242 | [多线程网页爬虫 🔒](https://leetcode.com/problems/web-crawler-multithreaded) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
+| 1279 | [红绿灯路口 🔒](https://leetcode.com/problems/traffic-light-controlled-intersection) |  |  [`多线程`](/tag/concurrency.md) | <font color=#15bd66>Easy</font> |

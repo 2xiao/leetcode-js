@@ -1,6 +1,6 @@
-# [14. 字符串中的变位词](https://leetcode.cn/problems/MPnaiL)
+# [14. 字符串中的变位词](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_014.html)
 
-🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/MPnaiL)
+🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/MPnaiL)
 
 ## 题目
 

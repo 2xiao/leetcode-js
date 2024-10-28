@@ -1,6 +1,6 @@
-# [17. 打印从 1 到最大的 n 位数](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)
+# [17. 打印从1到最大的n位数](https://2xiao.github.io/leetcode-js/offer/jz_offer_17_1.html)
 
-🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`LeetCode`](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)
+🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)
 
 ## 题目
 
