@@ -96,8 +96,8 @@ Chinese.
 
 
 
-注意：本题与主站 85 题相同（输入参数格式不同）： <https://leetcode.cn/problems/maximal-
-rectangle/description/>
+注意：本题与主站 85 题相同（输入参数格式不同）： [https://leetcode-cn.com/problems/maximal-
+rectangle/](https://leetcode-cn.com/problems/daily-temperatures/)
 
 
 ## 解题思路

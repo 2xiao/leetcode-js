@@ -280,7 +280,7 @@ def get_title(title, slug):
         return const.offer_dict[slug].split(',')[2]
     if slug in const.offer2_dict:
         return const.offer2_dict[slug].split(',')[2]
-    return title
+    return title.strip()
 
 
 def get_tag_link(tag_cn, tag_en):
@@ -313,3 +313,18 @@ def get_id_with_book_name(catalog, frontendId):
     if catalog == 'interview':
         return '面试题 ' + frontendId
     return frontendId
+
+def get_paid_only(question, en = False):
+    path = '../../../lc2/solution/{}/{}.{}/{}.md'.format(question['catalog'], question['fileName'], question['title'], 'README_EN' if en else 'README')
+    if os.path.exists(path):
+        content = Path(path).read_text(encoding='utf-8')
+        delim_start = '<!-- description:start -->'
+        delim_end = '<!-- description:end -->'
+        if delim_start in content:
+            content = content.split(delim_start)[1]
+        if delim_end in content:
+            content = content.split(delim_end)[0]
+        return content
+    else:
+        print(path + 'not exists!')
+        return ''

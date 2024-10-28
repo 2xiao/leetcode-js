@@ -8,7 +8,6 @@ import os
 import requests
 from requests_toolbelt import MultipartEncoder
 import random,time
-import re
 import argparse,sys
 import threading
 import pandas as pd
@@ -67,6 +66,7 @@ class insetQuestionThread(threading.Thread):
                             }
                             translatedTitle
                             translatedContent
+                            isPaidOnly
                     }
                 }'''
                 }
@@ -115,9 +115,10 @@ class insetQuestionThread(threading.Thread):
                     titleCN,
                     contentCN,
                     ','.join(tags),
+                    int(content['data']['question']['isPaidOnly']),
                     self.status)
                 threadLock.acquire()
-                cursor.execute('INSERT INTO question (id, frontend_id, title, slug, difficulty, content, similar, title_cn, content_cn, tags, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', question_detail)
+                cursor.execute('INSERT INTO question (id, frontend_id, title, slug, difficulty, content, similar, title_cn, content_cn, tags, paid_only, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', question_detail)
                 conn.commit()
                 print("insert question [%s] success" %(self.title_slug))
                 threadLock.release()
@@ -209,7 +210,7 @@ class LeetcodeCrawler():
                 while True:  
                     #判断正在运行的线程数量,如果小于5则退出while循环,  
                     #进入for循环启动新的进程.否则就一直在while循环进入死循环  
-                    if(len(threading.enumerate()) < 7):  
+                    if(len(threading.enumerate()) < 16):  
                         break  
             
                 # 添加线程到线程列表
@@ -243,6 +244,7 @@ class LeetcodeCrawler():
                     title_cn           CHAR(50),
                     content_cn         TEXT,
                     tags               TEXT        NOT NULL,
+                    paid_only          INT         NOT NULL,
                     status             CHAR(10));''')
         
         query_table_exists = "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name = 'last_ac_submission_record';"
@@ -273,7 +275,8 @@ class LeetcodeCrawler():
                 'similar': row[6],
                 'contentCN': row[8],
                 'tags': row[9],
-                'status': row[10],
+                'paid_only': row[10],
+                'status': row[11],
                 'fileName': utils.get_fileName(row[1], row[3]),
                 'catalog': catalog,
                 'link': utils.get_online_link(catalog, row[3]),
@@ -285,8 +288,7 @@ class LeetcodeCrawler():
             if not self.filter_question(question_detail, filters):
                 continue
             
-            has_get_code = filters.__contains__('code')
-            self.generate_question_markdown(question_detail, path, has_get_code)
+            self.generate_question_markdown(question_detail, path)
         cursor.close()
 
 
@@ -331,6 +333,7 @@ class LeetcodeCrawler():
                 'difficulty': row[4],
                 'status': status, 
                 'similar': similar,
+                'paid_only': row[10],
             }
             res.append(question_detail)
 
@@ -357,7 +360,7 @@ class LeetcodeCrawler():
         return True
                 
 
-    def generate_question_markdown(self, question, path, has_get_code):
+    def generate_question_markdown(self, question, path):
         text_path = os.path.join(path, "{}.md".format(question['fileName']))
 
         df = pd.read_csv("problem-list.csv")
@@ -377,16 +380,22 @@ class LeetcodeCrawler():
             f.write("\n\n" + problem_difficulty + problem_label + problem_link)
             
             f.write("\n\n## 题目\n\n")
+
             text = question['content']
+            textCN = question['contentCN']
+            if question['paid_only']:
+                text = utils.get_paid_only(question, True)
+                textCN = utils.get_paid_only(question)
             content = html2text.html2text(text).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
+            contentCN = html2text.html2text(textCN).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
+            
             f.write(content)
 
             f.write("\n## 题目大意\n\n")
-            textCN = question['contentCN']
-            contentCN = html2text.html2text(textCN).replace("    \n    \n    **Input:**", "> Input:").replace("    **Output:**", "> \n> Output:").replace('    **Explanation:**', '> \n> Explanation:').replace('    - ', '> - ').replace('    \n\n**Example', '\n**Example').replace('    \n\n\n\n**Constraints:', '\n**Constraints:').replace('    ', '> \n> ').replace('103`', '10^3`').replace('104`', '10^4`').replace('105`', '10^5`').replace('106`', '10^6`').replace('107`', '10^7`').replace('108`', '10^8`').replace('109`', '10^9`').replace('`-103', '`-10^3').replace('`-104', '`-10^4').replace('`-105', '`-10^5').replace('`-106', '`-10^6').replace('`-107', '`-10^7').replace('`-108', '`-10^8').replace('`-109', '`-10^9')
+            
             f.write(contentCN)
 
-            f.write("\n\n## 解题思路\n\n#### 复杂度分析\n\n- **时间复杂度**：`O()`，\n- **空间复杂度**：`O()`，\n\n## 代码\n\n```javascript\n\n```")
+            f.write("\n## 解题思路\n\n#### 复杂度分析\n\n- **时间复杂度**：`O()`，\n- **空间复杂度**：`O()`，\n\n## 代码\n\n```javascript\n\n```")
             
             similar = json.loads(question['similar'])
             if len(similar) > 0:
@@ -487,9 +496,9 @@ if __name__=='__main__':
 
 
     test.connect_db(db_path)
-    # test.get_problems(filters)
+    test.get_problems(filters)
       
-    # test.generate_questions_list()
+    test.generate_questions_list()
     test.generate_questions_markdown(args.output, filters)
    
     test.close_db()

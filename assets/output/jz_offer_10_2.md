@@ -7,6 +7,7 @@
 English description is not available for the problem. Please switch to
 Chinese.
 
+
 ## 题目大意
 
 今天的有氧运动训练内容是在一个长条形的平台上跳跃。平台有 `num` 个小格子，每次可以选择跳 **一个格子** 或者 **两个格子**
@@ -16,21 +17,38 @@ Chinese.
 
 **示例 1：**
 
+> 
+> 
+> 
+> 
+> 
 > **输入：** n = 2
->
+> 
 > **输出：** 2
+> 
+> 
 
 **示例 2：**
 
+> 
+> 
+> 
+> 
+> 
 > **输入：** n = 5
->
+> 
 > **输出：** 8
+> 
+> 
+
+
 
 **提示：**
 
-- `0 <= n <= 100`
+  * `0 <= n <= 100`
 
 注意：本题与主站 70 题相同：<https://leetcode-cn.com/problems/climbing-stairs/>
+
 
 ## 解题思路
 
