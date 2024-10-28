@@ -330,7 +330,7 @@
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](/problem/2491.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2497 | [图中最大星和](https://leetcode.com/problems/maximum-star-sum-of-a-graph) |  |  [`贪心`](/tag/greedy.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2500 | [删除每行中的最大值](https://leetcode.com/problems/delete-greatest-value-in-each-row) |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`排序`](/tag/sorting.md) `2+` | <font color=#15bd66>Easy</font> |
-| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2503 | [矩阵查询可获得的最大分数](https://leetcode.com/problems/maximum-number-of-points-from-grid-queries) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 2512 | [奖励最顶尖的 K 名学生](https://leetcode.com/problems/reward-top-k-students) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2517 | [礼盒的最大甜蜜度](https://leetcode.com/problems/maximum-tastiness-of-candy-basket) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |

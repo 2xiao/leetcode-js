@@ -494,7 +494,7 @@
 | 2489 | [固定比率的子字符串数](https://leetcode.com/problems/number-of-substrings-with-fixed-ratio) |  |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](/problem/2491.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2499 | [让数组不相等的最小总代价](https://leetcode.com/problems/minimum-total-cost-to-make-arrays-unequal) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
-| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
+| 2501 | [数组中最长的方波](https://leetcode.com/problems/longest-square-streak-in-an-array) | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2502 | [设计内存分配器](https://leetcode.com/problems/design-memory-allocator) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2506 | [统计相似字符串对的数目](https://leetcode.com/problems/count-pairs-of-similar-strings) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#15bd66>Easy</font> |
 | 2508 | [添加边使所有节点度数都为偶数](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even) |  |  [`图`](/tag/graph.md) [`哈希表`](/tag/hash-table.md) | <font color=#ff334b>Hard</font> |

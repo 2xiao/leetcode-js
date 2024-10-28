@@ -29,8 +29,8 @@ headerDepth: 0
 | 2636 | [Promise 对象池](https://leetcode.com/problems/promise-pool) | [[✓]](/problem/2636.md) |  | <font color=#ffb800>Medium</font> |
 | 2637 | [有时间限制的 Promise 对象](https://leetcode.com/problems/promise-time-limit) | [[✓]](/problem/2637.md) |  | <font color=#ffb800>Medium</font> |
 | 2648 | [生成斐波那契数列](https://leetcode.com/problems/generate-fibonacci-sequence) |  |  | <font color=#15bd66>Easy</font> |
-| 2649 | [嵌套数组生成器](https://leetcode.com/problems/nested-array-generator) |  |  | <font color=#ffb800>Medium</font> |
-| 2650 | [设计可取消函数](https://leetcode.com/problems/design-cancellable-function) |  |  | <font color=#ff334b>Hard</font> |
+| 2649 | [嵌套数组生成器](https://leetcode.com/problems/nested-array-generator) | [[✓]](/problem/2649.md) |  | <font color=#ffb800>Medium</font> |
+| 2650 | [设计可取消函数](https://leetcode.com/problems/design-cancellable-function) | [[✓]](/problem/2650.md) |  | <font color=#ff334b>Hard</font> |
 | 2665 | [计数器 II](https://leetcode.com/problems/counter-ii) | [[✓]](/problem/2665.md) |  | <font color=#15bd66>Easy</font> |
 | 2666 | [只允许一次函数调用](https://leetcode.com/problems/allow-one-function-call) | [[✓]](/problem/2666.md) |  | <font color=#15bd66>Easy</font> |
 | 2667 | [创建 Hello World 函数](https://leetcode.com/problems/create-hello-world-function) | [[✓]](/problem/2667.md) |  | <font color=#15bd66>Easy</font> |
