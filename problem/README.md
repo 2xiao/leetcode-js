@@ -1,6 +1,6 @@
 # 目录
 
-已完成 419 道
+已完成 420 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -404,6 +404,7 @@
 | 2675 | [将对象数组转换为矩阵 🔒](https://leetcode.com/problems/array-of-objects-to-matrix) | [[✓]](/problem/2675.md) |  | <font color=#ff334b>Hard</font> |
 | 2676 | [节流 🔒](https://leetcode.com/problems/throttle) | [[✓]](/problem/2676.md) |  | <font color=#ffb800>Medium</font> |
 | 2677 | [分块数组](https://leetcode.com/problems/chunk-array) | [[✓]](/problem/2677.md) |  | <font color=#15bd66>Easy</font> |
+| 2684 | [矩阵中移动的最大次数](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) | [[✓]](/problem/2684.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 2694 | [事件发射器](https://leetcode.com/problems/event-emitter) | [[✓]](/problem/2694.md) |  | <font color=#ffb800>Medium</font> |
 | 2695 | [包装数组](https://leetcode.com/problems/array-wrapper) | [[✓]](/problem/2695.md) |  | <font color=#15bd66>Easy</font> |
 | 2696 | [删除子串后的字符串最小长度](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) | [[✓]](/problem/2696.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |

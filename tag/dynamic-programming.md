@@ -445,7 +445,7 @@
 | 2646 | [最小化旅行的价格总和](https://leetcode.com/problems/minimize-the-total-price-of-the-trips) |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) `2+` | <font color=#ff334b>Hard</font> |
 | 2673 | [使二叉树所有路径值相等的最小代价](https://leetcode.com/problems/make-costs-of-paths-equal-in-a-binary-tree) |  |  [`贪心`](/tag/greedy.md) [`树`](/tag/tree.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2681 | [英雄的力量](https://leetcode.com/problems/power-of-heroes) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
-| 2684 | [矩阵中移动的最大次数](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 2684 | [矩阵中移动的最大次数](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) | [[✓]](/problem/2684.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 2707 | [字符串中的额外字符](https://leetcode.com/problems/extra-characters-in-a-string) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
 | 2708 | [一个小组的最大实力值](https://leetcode.com/problems/maximum-strength-of-a-group) |  |  [`贪心`](/tag/greedy.md) [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) `4+` | <font color=#ffb800>Medium</font> |
 | 2712 | [使所有字符相等的最小成本](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |

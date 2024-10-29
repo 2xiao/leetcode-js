@@ -1357,7 +1357,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ |
 | 2682 | [找出转圈游戏输家](https://leetcode.com/problems/find-the-losers-of-the-circular-game) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 2683 | [相邻值的按位异或](https://leetcode.com/problems/neighboring-bitwise-xor) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
-| 2684 | [矩阵中移动的最大次数](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 2684 | [矩阵中移动的最大次数](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) | [[✓]](/problem/2684.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 2685 | [统计完全连通分量的数量](https://leetcode.com/problems/count-the-number-of-complete-components) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | <font color=#ffb800>Medium</font> |
 
 
