@@ -37,10 +37,10 @@ headerDepth: 0
 | 2675 | [将对象数组转换为矩阵 🔒](https://leetcode.com/problems/array-of-objects-to-matrix) | [[✓]](/problem/2675.md) |  | <font color=#ff334b>Hard</font> |
 | 2676 | [节流 🔒](https://leetcode.com/problems/throttle) | [[✓]](/problem/2676.md) |  | <font color=#ffb800>Medium</font> |
 | 2677 | [分块数组](https://leetcode.com/problems/chunk-array) | [[✓]](/problem/2677.md) |  | <font color=#15bd66>Easy</font> |
-| 2690 | [无穷方法对象 🔒](https://leetcode.com/problems/infinite-method-object) |  |  | <font color=#15bd66>Easy</font> |
-| 2691 | [不可变辅助工具 🔒](https://leetcode.com/problems/immutability-helper) |  |  | <font color=#ff334b>Hard</font> |
-| 2692 | [使对象不可变 🔒](https://leetcode.com/problems/make-object-immutable) |  |  | <font color=#ffb800>Medium</font> |
-| 2693 | [使用自定义上下文调用函数](https://leetcode.com/problems/call-function-with-custom-context) |  |  | <font color=#ffb800>Medium</font> |
+| 2690 | [无穷方法对象 🔒](https://leetcode.com/problems/infinite-method-object) | [[✓]](/problem/2690.md) |  | <font color=#15bd66>Easy</font> |
+| 2691 | [不可变辅助工具 🔒](https://leetcode.com/problems/immutability-helper) | [[✓]](/problem/2691.md) |  | <font color=#ff334b>Hard</font> |
+| 2692 | [使对象不可变 🔒](https://leetcode.com/problems/make-object-immutable) | [[✓]](/problem/2692.md) |  | <font color=#ffb800>Medium</font> |
+| 2693 | [使用自定义上下文调用函数](https://leetcode.com/problems/call-function-with-custom-context) | [[✓]](/problem/2693.md) |  | <font color=#ffb800>Medium</font> |
 | 2694 | [事件发射器](https://leetcode.com/problems/event-emitter) | [[✓]](/problem/2694.md) |  | <font color=#ffb800>Medium</font> |
 | 2695 | [包装数组](https://leetcode.com/problems/array-wrapper) | [[✓]](/problem/2695.md) |  | <font color=#15bd66>Easy</font> |
 | 2700 | [两个对象之间的差异 🔒](https://leetcode.com/problems/differences-between-two-objects) |  |  | <font color=#ffb800>Medium</font> |

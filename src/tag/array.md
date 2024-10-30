@@ -407,13 +407,13 @@
 | 839 | [相似字符串组](https://leetcode.com/problems/similar-string-groups) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | <font color=#ff334b>Hard</font> |
 | 840 | [矩阵中的幻方](https://leetcode.com/problems/magic-squares-in-grid) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 843 | [猜猜这个单词](https://leetcode.com/problems/guess-the-word) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
-| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) | [[✓]](/problem/0845.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 846 | [一手顺子](https://leetcode.com/problems/hand-of-straights) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 848 | [字母移位](https://leetcode.com/problems/shifting-letters) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 849 | [到最近的人的最大距离](https://leetcode.com/problems/maximize-distance-to-closest-person) |  |  [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 850 | [矩形面积 II](https://leetcode.com/problems/rectangle-area-ii) |  |  [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`有序集合`](/tag/ordered-set.md) `1+` | <font color=#ff334b>Hard</font> |
 | 851 | [喧闹和富有](https://leetcode.com/problems/loud-and-rich) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) `1+` | <font color=#ffb800>Medium</font> |
-| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [[✓]](/problem/0852.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 853 | [车队](https://leetcode.com/problems/car-fleet) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 857 | [雇佣 K 名工人的最低成本](https://leetcode.com/problems/minimum-cost-to-hire-k-workers) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) `1+` | <font color=#ff334b>Hard</font> |
 | 860 | [柠檬水找零](https://leetcode.com/problems/lemonade-change) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
@@ -832,7 +832,7 @@
 | 1664 | [生成平衡数组的方案数](https://leetcode.com/problems/ways-to-make-a-fair-array) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 1665 | [完成所有任务的最少初始能量](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
 | 1670 | [设计前中后队列](https://leetcode.com/problems/design-front-middle-back-queue) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
-| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
+| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1672 | [最富有客户的资产总量](https://leetcode.com/problems/richest-customer-wealth) |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | <font color=#15bd66>Easy</font> |
 | 1673 | [找出最具竞争力的子序列](https://leetcode.com/problems/find-the-most-competitive-subsequence) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1674 | [使数组互补的最少操作次数](https://leetcode.com/problems/minimum-moves-to-make-array-complementary) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |

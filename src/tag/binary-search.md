@@ -88,7 +88,7 @@
 | 793 | [阶乘函数后 K 个零](https://leetcode.com/problems/preimage-size-of-factorial-zeroes-function) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
 | 825 | [适龄的朋友](https://leetcode.com/problems/friends-of-appropriate-ages) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 826 | [安排工作以达到最大收益](https://leetcode.com/problems/most-profit-assigning-work) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
-| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [[✓]](/problem/0852.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 862 | [和至少为 K 的最短子数组](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | <font color=#ff334b>Hard</font> |
 | 875 | [爱吃香蕉的珂珂](https://leetcode.com/problems/koko-eating-bananas) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 878 | [第 N 个神奇数字](https://leetcode.com/problems/nth-magical-number) |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ff334b>Hard</font> |
@@ -151,7 +151,7 @@
 | 1648 | [销售价值减少的颜色球](https://leetcode.com/problems/sell-diminishing-valued-colored-balls) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1649 | [通过指令创建有序数组](https://leetcode.com/problems/create-sorted-array-through-instructions) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 1658 | [将 x 减到 0 的最小操作数](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
-| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
+| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1712 | [将数组分成三个子数组的方案数](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1713 | [得到子序列的最少操作次数](https://leetcode.com/problems/minimum-operations-to-make-a-subsequence) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1739 | [放置盒子](https://leetcode.com/problems/building-boxes) |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | <font color=#ff334b>Hard</font> |

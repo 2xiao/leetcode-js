@@ -3674,7 +3674,7 @@ headerDepth: 0
 | 1668 | [最大重复子字符串](https://leetcode.com/problems/maximum-repeating-substring) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
 | 1669 | [合并两个链表](https://leetcode.com/problems/merge-in-between-linked-lists) |  |  [`链表`](/tag/linked-list.md) | <font color=#ffb800>Medium</font> |
 | 1670 | [设计前中后队列](https://leetcode.com/problems/design-front-middle-back-queue) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | <font color=#ffb800>Medium</font> |
-| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
+| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 
 
 ## Weekly Contest 216 (2020-11-22 10:30)
@@ -5675,7 +5675,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [[✓]](/problem/0852.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 853 | [车队](https://leetcode.com/problems/car-fleet) |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 855 | [考场就座](https://leetcode.com/problems/exam-room) |  |  [`设计`](/tag/design.md) [`有序集合`](/tag/ordered-set.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | <font color=#ffb800>Medium</font> |
 | 854 | [相似度为 K 的字符串](https://leetcode.com/problems/k-similar-strings) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`字符串`](/tag/string.md) | <font color=#ff334b>Hard</font> |
@@ -5700,7 +5700,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare) | [[✓]](/problem/0844.md) |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
-| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) | [[✓]](/problem/0845.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 846 | [一手顺子](https://leetcode.com/problems/hand-of-straights) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 847 | [访问所有节点的最短路径](https://leetcode.com/problems/shortest-path-visiting-all-nodes) |  |  [`位运算`](/tag/bit-manipulation.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `2+` | <font color=#ff334b>Hard</font> |
 

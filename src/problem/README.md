@@ -1,6 +1,6 @@
 # 目录
 
-已完成 420 道
+已完成 427 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -311,6 +311,8 @@
 | 772 | [基本计算器 III 🔒](https://leetcode.com/problems/basic-calculator-iii) | [[✓]](/problem/0772.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) `1+` | <font color=#ff334b>Hard</font> |
 | 783 | [二叉搜索树节点最小距离](https://leetcode.com/problems/minimum-distance-between-bst-nodes) | [[✓]](/problem/0783.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | <font color=#15bd66>Easy</font> |
 | 844 | [比较含退格的字符串](https://leetcode.com/problems/backspace-string-compare) | [[✓]](/problem/0844.md) |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) | [[✓]](/problem/0845.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [[✓]](/problem/0852.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 876 | [链表的中间结点](https://leetcode.com/problems/middle-of-the-linked-list) | [[✓]](/problem/0876.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 880 | [索引处的解码字符串](https://leetcode.com/problems/decoded-string-at-index) | [[✓]](/problem/0880.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 889 | [根据前序和后序遍历构造二叉树](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) | [[✓]](/problem/0889.md) |  [`树`](/tag/tree.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | <font color=#ffb800>Medium</font> |
@@ -356,6 +358,7 @@
 | 1545 | [找出第 N 个二进制字符串中的第 K 位](https://leetcode.com/problems/find-kth-bit-in-nth-binary-string) | [[✓]](/problem/1545.md) |  [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 1590 | [使数组和能被 P 整除](https://leetcode.com/problems/make-sum-divisible-by-p) | [[✓]](/problem/1590.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
 | 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
+| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1679 | [K 和数对的最大数目](https://leetcode.com/problems/max-number-of-k-sum-pairs) | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1768 | [交替合并字符串](https://leetcode.com/problems/merge-strings-alternately) | [[✓]](/problem/1768.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1813 | [句子相似性 III](https://leetcode.com/problems/sentence-similarity-iii) | [[✓]](/problem/1813.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
@@ -405,6 +408,10 @@
 | 2676 | [节流 🔒](https://leetcode.com/problems/throttle) | [[✓]](/problem/2676.md) |  | <font color=#ffb800>Medium</font> |
 | 2677 | [分块数组](https://leetcode.com/problems/chunk-array) | [[✓]](/problem/2677.md) |  | <font color=#15bd66>Easy</font> |
 | 2684 | [矩阵中移动的最大次数](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) | [[✓]](/problem/2684.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
+| 2690 | [无穷方法对象 🔒](https://leetcode.com/problems/infinite-method-object) | [[✓]](/problem/2690.md) |  | <font color=#15bd66>Easy</font> |
+| 2691 | [不可变辅助工具 🔒](https://leetcode.com/problems/immutability-helper) | [[✓]](/problem/2691.md) |  | <font color=#ff334b>Hard</font> |
+| 2692 | [使对象不可变 🔒](https://leetcode.com/problems/make-object-immutable) | [[✓]](/problem/2692.md) |  | <font color=#ffb800>Medium</font> |
+| 2693 | [使用自定义上下文调用函数](https://leetcode.com/problems/call-function-with-custom-context) | [[✓]](/problem/2693.md) |  | <font color=#ffb800>Medium</font> |
 | 2694 | [事件发射器](https://leetcode.com/problems/event-emitter) | [[✓]](/problem/2694.md) |  | <font color=#ffb800>Medium</font> |
 | 2695 | [包装数组](https://leetcode.com/problems/array-wrapper) | [[✓]](/problem/2695.md) |  | <font color=#15bd66>Easy</font> |
 | 2696 | [删除子串后的字符串最小长度](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) | [[✓]](/problem/2696.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |

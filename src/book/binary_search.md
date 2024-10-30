@@ -222,7 +222,7 @@ function bsearch(arr, value) {
 | 81 | [搜索旋转排序数组 II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii) | [[✓]](/problem/0081.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 278 | [第一个错误的版本](https://leetcode.com/problems/first-bad-version) | [[✓]](/problem/0278.md) |  [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | <font color=#15bd66>Easy</font> |
 | 162 | [寻找峰值](https://leetcode.com/problems/find-peak-element) | [[✓]](/problem/0162.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
-| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
+| 852 | [山脉数组的峰顶索引](https://leetcode.com/problems/peak-index-in-a-mountain-array) | [[✓]](/problem/0852.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#ffb800>Medium</font> |
 | 1095 | [山脉数组中查找目标值](https://leetcode.com/problems/find-in-mountain-array) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | <font color=#ff334b>Hard</font> |
 | 744 | [寻找比目标字母大的最小字母](https://leetcode.com/problems/find-smallest-letter-greater-than-target) |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | <font color=#15bd66>Easy</font> |
 | 4 | [寻找两个正序数组的中位数](https://leetcode.com/problems/median-of-two-sorted-arrays) | [[✓]](/problem/0004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) | <font color=#ff334b>Hard</font> |
