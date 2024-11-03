@@ -125,7 +125,7 @@
 | 2303 | [计算应缴税款总额](https://leetcode.com/problems/calculate-amount-paid-in-taxes) |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 2326 | [螺旋矩阵 IV](https://leetcode.com/problems/spiral-matrix-iv) |  |  [`数组`](/tag/array.md) [`链表`](/tag/linked-list.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2327 | [知道秘密的人数](https://leetcode.com/problems/number-of-people-aware-of-a-secret) |  |  [`队列`](/tag/queue.md) [`动态规划`](/tag/dynamic-programming.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 2352 | [相等行列对](https://leetcode.com/problems/equal-row-and-column-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2352 | [相等行列对](https://leetcode.com/problems/equal-row-and-column-pairs) | [[✓]](/problem/2352.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2357 | [使数组中所有元素都等于零](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `3+` | <font color=#15bd66>Easy</font> |
 | 2365 | [任务调度器 II](https://leetcode.com/problems/task-scheduler-ii) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
 | 2380 | [二进制字符串重新安排顺序需要的时间](https://leetcode.com/problems/time-needed-to-rearrange-a-binary-string) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |

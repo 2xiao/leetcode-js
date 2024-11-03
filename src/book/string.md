@@ -96,7 +96,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 | 459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern) | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
 | 686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match) |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
 | 1668 | [最大重复子字符串](https://leetcode.com/problems/maximum-repeating-substring) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 796 | [旋转字符串](https://leetcode.com/problems/rotate-string) |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
+| 796 | [旋转字符串](https://leetcode.com/problems/rotate-string) | [[✓]](/problem/0796.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
 | 1408 | [数组中的字符串匹配](https://leetcode.com/problems/string-matching-in-an-array) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
 | 2156 | [查找给定哈希值的子串](https://leetcode.com/problems/find-substring-with-given-hash-value) |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) [`哈希函数`](/tag/hash-function.md) `1+` | <font color=#ff334b>Hard</font> |
 

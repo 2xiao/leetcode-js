@@ -1775,7 +1775,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 2490 | [回环句](https://leetcode.com/problems/circular-sentence) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 2490 | [回环句](https://leetcode.com/problems/circular-sentence) | [[✓]](/problem/2490.md) |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 2491 | [划分技能点相等的团队](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) | [[✓]](/problem/2491.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2492 | [两个城市间路径的最小分数](https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2493 | [将节点分成尽可能多的组](https://leetcode.com/problems/divide-nodes-into-the-maximum-number-of-groups) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) | <font color=#ff334b>Hard</font> |
@@ -1850,7 +1850,7 @@ headerDepth: 0
 | 2460 | [对数组执行操作](https://leetcode.com/problems/apply-operations-to-an-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
 | 2461 | [长度为 K 子数组中的最大和](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 2462 | [雇佣 K 位工人的总代价](https://leetcode.com/problems/total-cost-to-hire-k-workers) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) `1+` | <font color=#ffb800>Medium</font> |
-| 2463 | [最小移动总距离](https://leetcode.com/problems/minimum-total-distance-traveled) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
+| 2463 | [最小移动总距离](https://leetcode.com/problems/minimum-total-distance-traveled) | [[✓]](/problem/2463.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
 
 
 ## Weekly Contest 317 (2022-10-30 10:30)
@@ -2112,7 +2112,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 2351 | [第一个出现两次的字母](https://leetcode.com/problems/first-letter-to-appear-twice) |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
-| 2352 | [相等行列对](https://leetcode.com/problems/equal-row-and-column-pairs) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2352 | [相等行列对](https://leetcode.com/problems/equal-row-and-column-pairs) | [[✓]](/problem/2352.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2353 | [设计食物评分系统](https://leetcode.com/problems/design-a-food-rating-system) |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`有序集合`](/tag/ordered-set.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2354 | [优质数对的数目](https://leetcode.com/problems/number-of-excellent-pairs) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -2423,7 +2423,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 2215 | [找出两数组的不同](https://leetcode.com/problems/find-the-difference-of-two-arrays) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
+| 2215 | [找出两数组的不同](https://leetcode.com/problems/find-the-difference-of-two-arrays) | [[✓]](/problem/2215.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
 | 2216 | [美化数组的最少删除数](https://leetcode.com/problems/minimum-deletions-to-make-array-beautiful) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 2217 | [找到指定长度的回文数](https://leetcode.com/problems/find-palindrome-with-fixed-length) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#ffb800>Medium</font> |
 | 2218 | [从栈中取出 K 个硬币的最大面值和](https://leetcode.com/problems/maximum-value-of-k-coins-from-piles) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ff334b>Hard</font> |
@@ -3023,7 +3023,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1957 | [删除字符使字符串变好](https://leetcode.com/problems/delete-characters-to-make-fancy-string) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 1957 | [删除字符使字符串变好](https://leetcode.com/problems/delete-characters-to-make-fancy-string) | [[✓]](/problem/1957.md) |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 1958 | [检查操作是否合法](https://leetcode.com/problems/check-if-move-is-legal) |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
 | 1959 | [K 次调整数组大小浪费的最小总空间](https://leetcode.com/problems/minimum-total-space-wasted-with-k-resizing-operations) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 1960 | [两个回文子字符串长度的最大乘积](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-substrings) |  |  [`字符串`](/tag/string.md) [`哈希函数`](/tag/hash-function.md) [`滚动哈希`](/tag/rolling-hash.md) | <font color=#ff334b>Hard</font> |
@@ -3527,7 +3527,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1732 | [找到最高海拔](https://leetcode.com/problems/find-the-highest-altitude) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
+| 1732 | [找到最高海拔](https://leetcode.com/problems/find-the-highest-altitude) | [[✓]](/problem/1732.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
 | 1733 | [需要教语言的最少人数](https://leetcode.com/problems/minimum-number-of-people-to-teach) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 1734 | [解码异或后的排列](https://leetcode.com/problems/decode-xored-permutation) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |
 | 1735 | [生成乘积数组的方案数](https://leetcode.com/problems/count-ways-to-make-array-with-product) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ff334b>Hard</font> |
@@ -3696,7 +3696,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 1656 | [设计有序流](https://leetcode.com/problems/design-an-ordered-stream) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#15bd66>Easy</font> |
-| 1657 | [确定两个字符串是否接近](https://leetcode.com/problems/determine-if-two-strings-are-close) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1657 | [确定两个字符串是否接近](https://leetcode.com/problems/determine-if-two-strings-are-close) | [[✓]](/problem/1657.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1658 | [将 x 减到 0 的最小操作数](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | <font color=#ffb800>Medium</font> |
 | 1659 | [最大化网格幸福感](https://leetcode.com/problems/maximize-grid-happiness) |  |  [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -4763,7 +4763,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 1207 | [独一无二的出现次数](https://leetcode.com/problems/unique-number-of-occurrences) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
+| 1207 | [独一无二的出现次数](https://leetcode.com/problems/unique-number-of-occurrences) | [[✓]](/problem/1207.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
 | 1208 | [尽可能使字符串相等](https://leetcode.com/problems/get-equal-substrings-within-budget) |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1209 | [删除字符串中的所有相邻重复项 II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii) |  |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1210 | [穿过迷宫的最少移动次数](https://leetcode.com/problems/minimum-moves-to-reach-target-with-rotations) |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | <font color=#ff334b>Hard</font> |
