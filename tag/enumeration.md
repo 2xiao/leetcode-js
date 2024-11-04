@@ -26,7 +26,7 @@
 | 800 | [相似 RGB 颜色 🔒](https://leetcode.com/problems/similar-rgb-color) |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | <font color=#15bd66>Easy</font> |
 | 816 | [模糊坐标](https://leetcode.com/problems/ambiguous-coordinates) |  |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 829 | [连续整数求和](https://leetcode.com/problems/consecutive-numbers-sum) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ff334b>Hard</font> |
-| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) | [[✓]](/problem/0845.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 869 | [重新排序得到 2 的幂](https://leetcode.com/problems/reordered-power-of-2) |  |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`计数`](/tag/counting.md) `2+` | <font color=#ffb800>Medium</font> |
 | 906 | [超级回文数](https://leetcode.com/problems/super-palindromes) |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | <font color=#ff334b>Hard</font> |
 | 949 | [给定数字能组成的最大时间](https://leetcode.com/problems/largest-time-for-given-digits) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |

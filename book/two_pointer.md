@@ -58,7 +58,7 @@
 | 80 | [删除有序数组中的重复项 II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) | [[✓]](/problem/0080.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
 | 27 | [移除元素](https://leetcode.com/problems/remove-element) | [[✓]](/problem/0027.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
 | 283 | [移动零](https://leetcode.com/problems/move-zeroes) | [[✓]](/problem/0283.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | <font color=#15bd66>Easy</font> |
-| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
+| 845 | [数组中的最长山脉](https://leetcode.com/problems/longest-mountain-in-array) | [[✓]](/problem/0845.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
 | 88 | [合并两个有序数组](https://leetcode.com/problems/merge-sorted-array) | [[✓]](/problem/0088.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 719 | [找出第 K 小的数对距离](https://leetcode.com/problems/find-k-th-smallest-pair-distance) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 | 334 | [递增的三元子序列](https://leetcode.com/problems/increasing-triplet-subsequence) | [[✓]](/problem/0334.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | <font color=#ffb800>Medium</font> |

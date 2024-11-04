@@ -80,7 +80,7 @@
 | 1687 | [从仓库到码头运输箱子](https://leetcode.com/problems/delivering-boxes-from-storage-to-ports) |  |  [`线段树`](/tag/segment-tree.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `4+` | <font color=#ff334b>Hard</font> |
 | 1703 | [得到连续 K 个 1 的最少相邻交换次数](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1712 | [将数组分成三个子数组的方案数](https://leetcode.com/problems/ways-to-split-array-into-three-subarrays) |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1732 | [找到最高海拔](https://leetcode.com/problems/find-the-highest-altitude) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
+| 1732 | [找到最高海拔](https://leetcode.com/problems/find-the-highest-altitude) | [[✓]](/problem/1732.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
 | 1737 | [满足三条件之一需改变的最少字符数](https://leetcode.com/problems/change-minimum-characters-to-satisfy-one-of-three-conditions) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1738 | [找出第 K 大的异或坐标值](https://leetcode.com/problems/find-kth-largest-xor-coordinate-value) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) `5+` | <font color=#ffb800>Medium</font> |
 | 1744 | [你能在你最喜欢的那天吃到你最喜欢的糖果吗？](https://leetcode.com/problems/can-you-eat-your-favorite-candy-on-your-favorite-day) |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |

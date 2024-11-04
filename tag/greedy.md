@@ -166,7 +166,7 @@
 | 1648 | [销售价值减少的颜色球](https://leetcode.com/problems/sell-diminishing-valued-colored-balls) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
 | 1663 | [具有给定数值的最小字符串](https://leetcode.com/problems/smallest-string-with-a-given-numeric-value) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 1665 | [完成所有任务的最少初始能量](https://leetcode.com/problems/minimum-initial-energy-to-finish-tasks) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ff334b>Hard</font> |
-| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
+| 1671 | [得到山形数组的最少删除次数](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1673 | [找出最具竞争力的子序列](https://leetcode.com/problems/find-the-most-competitive-subsequence) |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
 | 1675 | [数组的最小偏移量](https://leetcode.com/problems/minimize-deviation-in-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`有序集合`](/tag/ordered-set.md) `1+` | <font color=#ff334b>Hard</font> |
 | 1686 | [石子游戏 VI](https://leetcode.com/problems/stone-game-vi) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | <font color=#ffb800>Medium</font> |
