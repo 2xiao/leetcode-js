@@ -1,6 +1,6 @@
 # 目录
 
-已完成 436 道
+已完成 438 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -437,6 +437,8 @@
 | 2727 | [判断对象是否为空](https://leetcode.com/problems/is-object-empty) | [[✓]](/problem/2727.md) |  | <font color=#15bd66>Easy</font> |
 | 2740 | [找出分区值](https://leetcode.com/problems/find-the-value-of-the-partition) | [[✓]](/problem/2740.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 2938 | [区分黑球与白球](https://leetcode.com/problems/separate-black-and-white-balls) | [[✓]](/problem/2938.md) |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 3136 | [有效单词](https://leetcode.com/problems/valid-word) | [[✓]](/problem/3136.md) |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 3163 | [压缩字符串 III](https://leetcode.com/problems/string-compression-iii) | [[✓]](/problem/3163.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](/problem/3309.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
 | 3318 | [计算子数组的 x-sum I](https://leetcode.com/problems/find-x-sum-of-all-k-long-subarrays-i) | [[✓]](/problem/3318.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | <font color=#15bd66>Easy</font> |
 | 3319 | [第 K 大的完美二叉子树的大小](https://leetcode.com/problems/k-th-largest-perfect-subtree-size-in-binary-tree) | [[✓]](/problem/3319.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | <font color=#ffb800>Medium</font> |

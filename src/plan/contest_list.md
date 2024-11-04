@@ -384,7 +384,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 3162 | [优质数对的总数 I](https://leetcode.com/problems/find-the-number-of-good-pairs-i) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
-| 3163 | [压缩字符串 III](https://leetcode.com/problems/string-compression-iii) |  |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 3163 | [压缩字符串 III](https://leetcode.com/problems/string-compression-iii) | [[✓]](/problem/3163.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 3164 | [优质数对的总数 II](https://leetcode.com/problems/find-the-number-of-good-pairs-ii) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#ffb800>Medium</font> |
 | 3165 | [不包含相邻元素的子序列的最大和](https://leetcode.com/problems/maximum-sum-of-subsequence-with-non-adjacent-elements) |  |  [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -443,7 +443,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
-| 3136 | [有效单词](https://leetcode.com/problems/valid-word) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 3136 | [有效单词](https://leetcode.com/problems/valid-word) | [[✓]](/problem/3136.md) |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 3137 | [K 周期字符串需要的最少操作次数](https://leetcode.com/problems/minimum-number-of-operations-to-make-word-k-periodic) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | <font color=#ffb800>Medium</font> |
 | 3138 | [同位字符串连接的最小长度](https://leetcode.com/problems/minimum-length-of-anagram-concatenation) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | <font color=#ffb800>Medium</font> |
 | 3139 | [使数组中所有元素相等的最小开销](https://leetcode.com/problems/minimum-cost-to-equalize-array) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) | <font color=#ff334b>Hard</font> |

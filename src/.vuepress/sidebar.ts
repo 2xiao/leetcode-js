@@ -621,6 +621,14 @@ export default sidebar({
     ]
   },
   {
+    "text": "3100-3199",
+    "collapsible": true,
+    "children": [
+      "3136",
+      "3163"
+    ]
+  },
+  {
     "text": "3300-3399",
     "collapsible": true,
     "children": [
