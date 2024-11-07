@@ -720,7 +720,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 3010 | [将数组分成最小总代价的子数组 I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i) |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
-| 3011 | [判断一个数组是否可以变为有序](https://leetcode.com/problems/find-if-array-can-be-sorted) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 3011 | [判断一个数组是否可以变为有序](https://leetcode.com/problems/find-if-array-can-be-sorted) | [[✓]](/problem/3011.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 3012 | [通过操作使数组长度最小](https://leetcode.com/problems/minimize-length-of-array-using-operations) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | <font color=#ffb800>Medium</font> |
 | 3013 | [将数组分成最小总代价的子数组 II](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-ii) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -936,7 +936,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 |
 | :------: | :------ | :------: | :------ | :------ |
 | 2913 | [子数组不同元素数目的平方和 I](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-i) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | <font color=#15bd66>Easy</font> |
-| 2914 | [使二进制字符串变美丽的最少修改次数](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful) |  |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 2914 | [使二进制字符串变美丽的最少修改次数](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful) | [[✓]](/problem/2914.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 2915 | [和为目标值的最长子序列的长度](https://leetcode.com/problems/length-of-the-longest-subsequence-that-sums-to-target) |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 2916 | [子数组不同元素数目的平方和 II](https://leetcode.com/problems/subarrays-distinct-element-sum-of-squares-ii) |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `1+` | <font color=#ff334b>Hard</font> |
 
@@ -2293,7 +2293,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ |
 | 2273 | [移除字母异位词后的结果数组](https://leetcode.com/problems/find-resultant-array-after-removing-anagrams) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
 | 2274 | [不含特殊楼层的最大连续楼层数](https://leetcode.com/problems/maximum-consecutive-floors-without-special-floors) |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 2275 | [按位与结果大于零的最长组合](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
+| 2275 | [按位与结果大于零的最长组合](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero) | [[✓]](/problem/2275.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2276 | [统计区间中的整数数目](https://leetcode.com/problems/count-integers-in-intervals) |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`有序集合`](/tag/ordered-set.md) | <font color=#ff334b>Hard</font> |
 
 

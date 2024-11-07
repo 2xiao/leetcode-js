@@ -1,6 +1,6 @@
 # 目录
 
-已完成 438 道
+已完成 462 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 |
@@ -376,6 +376,7 @@
 | 2260 | [必须拿起的最小连续卡牌数](https://leetcode.com/problems/minimum-consecutive-cards-to-pick-up) | [[✓]](/problem/2260.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 2261 | [含最多 K 个可整除元素的子数组](https://leetcode.com/problems/k-divisible-elements-subarrays) | [[✓]](/problem/2261.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `3+` | <font color=#ffb800>Medium</font> |
 | 2262 | [字符串的总引力](https://leetcode.com/problems/total-appeal-of-a-string) | [[✓]](/problem/2262.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
+| 2275 | [按位与结果大于零的最长组合](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero) | [[✓]](/problem/2275.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2352 | [相等行列对](https://leetcode.com/problems/equal-row-and-column-pairs) | [[✓]](/problem/2352.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2406 | [将区间分为最少组数](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) | [[✓]](/problem/2406.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `3+` | <font color=#ffb800>Medium</font> |
 | 2416 | [字符串的前缀分数和](https://leetcode.com/problems/sum-of-prefix-scores-of-strings) | [[✓]](/problem/2416.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
@@ -424,6 +425,7 @@
 | 2694 | [事件发射器](https://leetcode.com/problems/event-emitter) | [[✓]](/problem/2694.md) |  | <font color=#ffb800>Medium</font> |
 | 2695 | [包装数组](https://leetcode.com/problems/array-wrapper) | [[✓]](/problem/2695.md) |  | <font color=#15bd66>Easy</font> |
 | 2696 | [删除子串后的字符串最小长度](https://leetcode.com/problems/minimum-string-length-after-removing-substrings) | [[✓]](/problem/2696.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
+| 2700 | [两个对象之间的差异 🔒](https://leetcode.com/problems/differences-between-two-objects) | [[✓]](/problem/2700.md) |  | <font color=#ffb800>Medium</font> |
 | 2703 | [返回传递的参数的长度](https://leetcode.com/problems/return-length-of-arguments-passed) | [[✓]](/problem/2703.md) |  | <font color=#15bd66>Easy</font> |
 | 2704 | [相等还是不相等](https://leetcode.com/problems/to-be-or-not-to-be) | [[✓]](/problem/2704.md) |  | <font color=#15bd66>Easy</font> |
 | 2705 | [精简对象](https://leetcode.com/problems/compact-object) | [[✓]](/problem/2705.md) |  | <font color=#ffb800>Medium</font> |
@@ -436,7 +438,29 @@
 | 2726 | [使用方法链的计算器](https://leetcode.com/problems/calculator-with-method-chaining) | [[✓]](/problem/2726.md) |  | <font color=#15bd66>Easy</font> |
 | 2727 | [判断对象是否为空](https://leetcode.com/problems/is-object-empty) | [[✓]](/problem/2727.md) |  | <font color=#15bd66>Easy</font> |
 | 2740 | [找出分区值](https://leetcode.com/problems/find-the-value-of-the-partition) | [[✓]](/problem/2740.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 2754 | [将函数绑定到上下文 🔒](https://leetcode.com/problems/bind-function-to-context) | [[✓]](/problem/2754.md) |  | <font color=#ffb800>Medium</font> |
+| 2755 | [深度合并两个对象 🔒](https://leetcode.com/problems/deep-merge-of-two-objects) | [[✓]](/problem/2755.md) |  | <font color=#ffb800>Medium</font> |
+| 2756 | [批处理查询 🔒](https://leetcode.com/problems/query-batching) | [[✓]](/problem/2756.md) |  | <font color=#ff334b>Hard</font> |
+| 2757 | [生成循环数组的值 🔒](https://leetcode.com/problems/generate-circular-array-values) | [[✓]](/problem/2757.md) |  | <font color=#ffb800>Medium</font> |
+| 2758 | [下一天 🔒](https://leetcode.com/problems/next-day) | [[✓]](/problem/2758.md) |  | <font color=#15bd66>Easy</font> |
+| 2759 | [将 JSON 字符串转换为对象 🔒](https://leetcode.com/problems/convert-json-string-to-object) | [[✓]](/problem/2759.md) |  | <font color=#ff334b>Hard</font> |
+| 2774 | [数组的上界 🔒](https://leetcode.com/problems/array-upper-bound) | [[✓]](/problem/2774.md) |  | <font color=#15bd66>Easy</font> |
+| 2775 | [将 undefined 转为 null 🔒](https://leetcode.com/problems/undefined-to-null) | [[✓]](/problem/2775.md) |  | <font color=#ffb800>Medium</font> |
+| 2776 | [转换回调函数为 Promise 函数 🔒](https://leetcode.com/problems/convert-callback-based-function-to-promise-based-function) | [[✓]](/problem/2776.md) |  | <font color=#ffb800>Medium</font> |
+| 2777 | [日期范围生成器 🔒](https://leetcode.com/problems/date-range-generator) | [[✓]](/problem/2777.md) |  | <font color=#ffb800>Medium</font> |
+| 2794 | [从两个数组中创建对象 🔒](https://leetcode.com/problems/create-object-from-two-arrays) | [[✓]](/problem/2794.md) |  | <font color=#15bd66>Easy</font> |
+| 2795 | [并行执行 Promise 以获取独有的结果 🔒](https://leetcode.com/problems/parallel-execution-of-promises-for-individual-results-retrieval) | [[✓]](/problem/2795.md) |  | <font color=#ffb800>Medium</font> |
+| 2796 | [重复字符串 🔒](https://leetcode.com/problems/repeat-string) | [[✓]](/problem/2796.md) |  | <font color=#15bd66>Easy</font> |
+| 2797 | [带有占位符的部分函数 🔒](https://leetcode.com/problems/partial-function-with-placeholders) | [[✓]](/problem/2797.md) |  | <font color=#15bd66>Easy</font> |
+| 2803 | [阶乘生成器 🔒](https://leetcode.com/problems/factorial-generator) | [[✓]](/problem/2803.md) |  | <font color=#15bd66>Easy</font> |
+| 2804 | [数组原型的 forEach 方法 🔒](https://leetcode.com/problems/array-prototype-foreach) | [[✓]](/problem/2804.md) |  | <font color=#15bd66>Easy</font> |
+| 2805 | [自定义间隔 🔒](https://leetcode.com/problems/custom-interval) | [[✓]](/problem/2805.md) |  | <font color=#ffb800>Medium</font> |
+| 2821 | [延迟每个 Promise 对象的解析 🔒](https://leetcode.com/problems/delay-the-resolution-of-each-promise) | [[✓]](/problem/2821.md) |  | <font color=#ffb800>Medium</font> |
+| 2822 | [对象反转 🔒](https://leetcode.com/problems/inversion-of-object) | [[✓]](/problem/2822.md) |  | <font color=#15bd66>Easy</font> |
+| 2823 | [深度对象筛选 🔒](https://leetcode.com/problems/deep-object-filter) | [[✓]](/problem/2823.md) |  | <font color=#ffb800>Medium</font> |
+| 2914 | [使二进制字符串变美丽的最少修改次数](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful) | [[✓]](/problem/2914.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 2938 | [区分黑球与白球](https://leetcode.com/problems/separate-black-and-white-balls) | [[✓]](/problem/2938.md) |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 3011 | [判断一个数组是否可以变为有序](https://leetcode.com/problems/find-if-array-can-be-sorted) | [[✓]](/problem/3011.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 3136 | [有效单词](https://leetcode.com/problems/valid-word) | [[✓]](/problem/3136.md) |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 3163 | [压缩字符串 III](https://leetcode.com/problems/string-compression-iii) | [[✓]](/problem/3163.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 3309 | [连接二进制表示可形成的最大数值](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) | [[✓]](/problem/3309.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) | <font color=#ffb800>Medium</font> |
