@@ -400,7 +400,7 @@
 | 2974 | [最小数字游戏](https://leetcode.com/problems/minimum-number-game) |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) [`模拟`](/tag/simulation.md) `1+` | <font color=#15bd66>Easy</font> |
 | 2996 | [大于等于顺序前缀和的最小缺失整数](https://leetcode.com/problems/smallest-missing-integer-greater-than-sequential-prefix-sum) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 3010 | [将数组分成最小总代价的子数组 I](https://leetcode.com/problems/divide-an-array-into-subarrays-with-minimum-cost-i) |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
-| 3011 | [判断一个数组是否可以变为有序](https://leetcode.com/problems/find-if-array-can-be-sorted) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
+| 3011 | [判断一个数组是否可以变为有序](https://leetcode.com/problems/find-if-array-can-be-sorted) | [[✓]](/problem/3011.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
 | 3016 | [输入单词需要的最少按键次数 II](https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii) |  |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | <font color=#ffb800>Medium</font> |
 | 3024 | [三角形类型](https://leetcode.com/problems/type-of-triangle) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
 | 3025 | [人员站位的方案数 I](https://leetcode.com/problems/find-the-number-of-ways-to-place-people-i) |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | <font color=#ffb800>Medium</font> |

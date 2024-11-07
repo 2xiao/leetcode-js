@@ -666,7 +666,7 @@
 | 2901 | [最长相邻不相等子序列 II](https://leetcode.com/problems/longest-unequal-adjacent-groups-subsequence-ii) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
 | 2904 | [最短且字典序最小的美丽子字符串](https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string) |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
 | 2911 | [得到 K 个半回文串的最少修改次数](https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes) |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ff334b>Hard</font> |
-| 2914 | [使二进制字符串变美丽的最少修改次数](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful) |  |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
+| 2914 | [使二进制字符串变美丽的最少修改次数](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful) | [[✓]](/problem/2914.md) |  [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
 | 2933 | [高访问员工](https://leetcode.com/problems/high-access-employees) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
 | 2937 | [使三个字符串相等](https://leetcode.com/problems/make-three-strings-equal) |  |  [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
 | 2938 | [区分黑球与白球](https://leetcode.com/problems/separate-black-and-white-balls) | [[✓]](/problem/2938.md) |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
