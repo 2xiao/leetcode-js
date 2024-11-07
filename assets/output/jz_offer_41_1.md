@@ -1,4 +1,20 @@
-# [41. 数据流中的中位数](https://2xiao.github.io/leetcode-js/offer/jz_offer_41_1.html)
+---
+title: 41. 数据流中的中位数
+description: LeetCode,41. 数据流中的中位数,数据流中的中位数,数据流中的中位数,解题思路,设计,双指针,数据流,排序,堆（优先队列）
+keywords:
+  - LeetCode
+  - 41. 数据流中的中位数
+  - 数据流中的中位数
+  - 数据流中的中位数
+  - 解题思路
+  - 设计
+  - 双指针
+  - 数据流
+  - 排序
+  - 堆（优先队列）
+---
+
+# 41. 数据流中的中位数
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shu-ju-liu-zhong-de-zhong-wei-shu-lcof)
 

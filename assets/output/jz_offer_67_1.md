@@ -1,4 +1,16 @@
-# [67. 把字符串转换成整数](https://2xiao.github.io/leetcode-js/offer/jz_offer_67_1.html)
+---
+title: 67. 把字符串转换成整数
+description: LeetCode,67. 把字符串转换成整数,把字符串转换成整数,把字符串转换成整数,解题思路,字符串
+keywords:
+  - LeetCode
+  - 67. 把字符串转换成整数
+  - 把字符串转换成整数
+  - 把字符串转换成整数
+  - 解题思路
+  - 字符串
+---
+
+# 67. 把字符串转换成整数
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ba-zi-fu-chuan-zhuan-huan-cheng-zheng-shu-lcof)
 

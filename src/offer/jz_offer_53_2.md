@@ -1,4 +1,20 @@
-# [53-II. 0～n-1中缺失的数字](https://2xiao.github.io/leetcode-js/offer/jz_offer_53_2.html)
+---
+title: 53-II. 0～n-1中缺失的数字
+description: LeetCode,53-II. 0～n-1中缺失的数字,0～n-1中缺失的数字,0～n-1中缺失的数字,解题思路,位运算,数组,哈希表,数学,二分查找
+keywords:
+  - LeetCode
+  - 53-II. 0～n-1中缺失的数字
+  - 0～n-1中缺失的数字
+  - 0～n-1中缺失的数字
+  - 解题思路
+  - 位运算
+  - 数组
+  - 哈希表
+  - 数学
+  - 二分查找
+---
+
+# 53-II. 0～n-1中缺失的数字
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/que-shi-de-shu-zi-lcof)
 

@@ -1,4 +1,19 @@
-# [LCP 07. 传递信息](https://2xiao.github.io/leetcode-js/lcp/LCP_07.html)
+---
+title: LCP 07. 传递信息
+description: LeetCode,LCP 07. 传递信息,传递信息,传递信息,解题思路,深度优先搜索,广度优先搜索,图,动态规划
+keywords:
+  - LeetCode
+  - LCP 07. 传递信息
+  - 传递信息
+  - 传递信息
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 图
+  - 动态规划
+---
+
+# LCP 07. 传递信息
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/chuan-di-xin-xi)
 

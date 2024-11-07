@@ -1,4 +1,19 @@
-# [LCP 53. 守护太空城](https://2xiao.github.io/leetcode-js/lcp/LCP_53.html)
+---
+title: LCP 53. 守护太空城
+description: LeetCode,LCP 53. 守护太空城,守护太空城,守护太空城,解题思路,位运算,数组,动态规划,状态压缩
+keywords:
+  - LeetCode
+  - LCP 53. 守护太空城
+  - 守护太空城
+  - 守护太空城
+  - 解题思路
+  - 位运算
+  - 数组
+  - 动态规划
+  - 状态压缩
+---
+
+# LCP 53. 守护太空城
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/EJvmW4)
 

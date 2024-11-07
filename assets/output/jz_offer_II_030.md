@@ -1,4 +1,20 @@
-# [30. 插入、删除和随机访问都是 O(1) 的容器](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_030.html)
+---
+title: 30. 插入、删除和随机访问都是 O(1) 的容器
+description: LeetCode,30. 插入、删除和随机访问都是 O(1) 的容器,插入、删除和随机访问都是 O(1) 的容器,插入、删除和随机访问都是 O(1) 的容器,解题思路,设计,数组,哈希表,数学,随机化
+keywords:
+  - LeetCode
+  - 30. 插入、删除和随机访问都是 O(1) 的容器
+  - 插入、删除和随机访问都是 O(1) 的容器
+  - 插入、删除和随机访问都是 O(1) 的容器
+  - 解题思路
+  - 设计
+  - 数组
+  - 哈希表
+  - 数学
+  - 随机化
+---
+
+# 30. 插入、删除和随机访问都是 O(1) 的容器
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`随机化`](/tag/randomized.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/FortPu)
 

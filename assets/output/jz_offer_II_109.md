@@ -1,4 +1,19 @@
-# [109. 开密码锁](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_109.html)
+---
+title: 109. 开密码锁
+description: LeetCode,109. 开密码锁,开密码锁,开密码锁,解题思路,广度优先搜索,数组,哈希表,字符串
+keywords:
+  - LeetCode
+  - 109. 开密码锁
+  - 开密码锁
+  - 开密码锁
+  - 解题思路
+  - 广度优先搜索
+  - 数组
+  - 哈希表
+  - 字符串
+---
+
+# 109. 开密码锁
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zlDJc7)
 

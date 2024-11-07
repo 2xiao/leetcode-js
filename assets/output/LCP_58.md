@@ -1,4 +1,18 @@
-# [LCP 58. 积木拼接](https://2xiao.github.io/leetcode-js/lcp/LCP_58.html)
+---
+title: LCP 58. 积木拼接
+description: LeetCode,LCP 58. 积木拼接,积木拼接,积木拼接,解题思路,数组,回溯,矩阵
+keywords:
+  - LeetCode
+  - LCP 58. 积木拼接
+  - 积木拼接
+  - 积木拼接
+  - 解题思路
+  - 数组
+  - 回溯
+  - 矩阵
+---
+
+# LCP 58. 积木拼接
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/De4qBB)
 

@@ -1,4 +1,19 @@
-# [LCP 14. 切分数组](https://2xiao.github.io/leetcode-js/lcp/LCP_14.html)
+---
+title: LCP 14. 切分数组
+description: LeetCode,LCP 14. 切分数组,切分数组,切分数组,解题思路,数组,数学,动态规划,数论
+keywords:
+  - LeetCode
+  - LCP 14. 切分数组
+  - 切分数组
+  - 切分数组
+  - 解题思路
+  - 数组
+  - 数学
+  - 动态规划
+  - 数论
+---
+
+# LCP 14. 切分数组
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`数论`](/tag/number-theory.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qie-fen-shu-zu)
 

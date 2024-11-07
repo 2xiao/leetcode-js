@@ -1,4 +1,20 @@
-# [40. 最小的k个数](https://2xiao.github.io/leetcode-js/offer/jz_offer_40_1.html)
+---
+title: 40. 最小的k个数
+description: LeetCode,40. 最小的k个数,最小的k个数,最小的k个数,解题思路,数组,分治,快速选择,排序,堆（优先队列）
+keywords:
+  - LeetCode
+  - 40. 最小的k个数
+  - 最小的k个数
+  - 最小的k个数
+  - 解题思路
+  - 数组
+  - 分治
+  - 快速选择
+  - 排序
+  - 堆（优先队列）
+---
+
+# 40. 最小的k个数
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zui-xiao-de-kge-shu-lcof)
 

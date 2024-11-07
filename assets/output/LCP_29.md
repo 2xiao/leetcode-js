@@ -1,4 +1,16 @@
-# [LCP 29. 乐团站位](https://2xiao.github.io/leetcode-js/lcp/LCP_29.html)
+---
+title: LCP 29. 乐团站位
+description: LeetCode,LCP 29. 乐团站位,乐团站位,乐团站位,解题思路,数学
+keywords:
+  - LeetCode
+  - LCP 29. 乐团站位
+  - 乐团站位
+  - 乐团站位
+  - 解题思路
+  - 数学
+---
+
+# LCP 29. 乐团站位
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/SNJvJP)
 

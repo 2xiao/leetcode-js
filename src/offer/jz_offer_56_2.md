@@ -1,4 +1,17 @@
-# [56-II. 数组中数字出现的次数 II](https://2xiao.github.io/leetcode-js/offer/jz_offer_56_2.html)
+---
+title: 56-II. 数组中数字出现的次数 II
+description: LeetCode,56-II. 数组中数字出现的次数 II,数组中数字出现的次数 II,数组中数字出现的次数 II,解题思路,位运算,数组
+keywords:
+  - LeetCode
+  - 56-II. 数组中数字出现的次数 II
+  - 数组中数字出现的次数 II
+  - 数组中数字出现的次数 II
+  - 解题思路
+  - 位运算
+  - 数组
+---
+
+# 56-II. 数组中数字出现的次数 II
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shu-zu-zhong-shu-zi-chu-xian-de-ci-shu-ii-lcof)
 

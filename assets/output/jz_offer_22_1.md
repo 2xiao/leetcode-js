@@ -1,4 +1,17 @@
-# [22. 链表中倒数第k个节点](https://2xiao.github.io/leetcode-js/offer/jz_offer_22_1.html)
+---
+title: 22. 链表中倒数第k个节点
+description: LeetCode,22. 链表中倒数第k个节点,链表中倒数第k个节点,链表中倒数第k个节点,解题思路,链表,双指针
+keywords:
+  - LeetCode
+  - 22. 链表中倒数第k个节点
+  - 链表中倒数第k个节点
+  - 链表中倒数第k个节点
+  - 解题思路
+  - 链表
+  - 双指针
+---
+
+# 22. 链表中倒数第k个节点
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/lian-biao-zhong-dao-shu-di-kge-jie-dian-lcof)
 

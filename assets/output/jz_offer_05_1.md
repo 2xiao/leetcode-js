@@ -1,4 +1,16 @@
-# [5. 替换空格](https://2xiao.github.io/leetcode-js/offer/jz_offer_05_1.html)
+---
+title: 5. 替换空格
+description: LeetCode,5. 替换空格,替换空格,替换空格,解题思路,字符串
+keywords:
+  - LeetCode
+  - 5. 替换空格
+  - 替换空格
+  - 替换空格
+  - 解题思路
+  - 字符串
+---
+
+# 5. 替换空格
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ti-huan-kong-ge-lcof)
 

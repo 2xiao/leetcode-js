@@ -1,4 +1,19 @@
-# [LCP 11. 期望个数统计](https://2xiao.github.io/leetcode-js/lcp/LCP_11.html)
+---
+title: LCP 11. 期望个数统计
+description: LeetCode,LCP 11. 期望个数统计,期望个数统计,期望个数统计,解题思路,数组,哈希表,数学,概率与统计
+keywords:
+  - LeetCode
+  - LCP 11. 期望个数统计
+  - 期望个数统计
+  - 期望个数统计
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 数学
+  - 概率与统计
+---
+
+# LCP 11. 期望个数统计
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`概率与统计`](/tag/probability-and-statistics.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji)
 

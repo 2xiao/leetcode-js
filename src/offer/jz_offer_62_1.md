@@ -1,4 +1,17 @@
-# [62. 圆圈中最后剩下的数字](https://2xiao.github.io/leetcode-js/offer/jz_offer_62_1.html)
+---
+title: 62. 圆圈中最后剩下的数字
+description: LeetCode,62. 圆圈中最后剩下的数字,圆圈中最后剩下的数字,圆圈中最后剩下的数字,解题思路,递归,数学
+keywords:
+  - LeetCode
+  - 62. 圆圈中最后剩下的数字
+  - 圆圈中最后剩下的数字
+  - 圆圈中最后剩下的数字
+  - 解题思路
+  - 递归
+  - 数学
+---
+
+# 62. 圆圈中最后剩下的数字
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof)
 

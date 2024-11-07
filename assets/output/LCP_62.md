@@ -1,4 +1,16 @@
-# [LCP 62. 交通枢纽](https://2xiao.github.io/leetcode-js/lcp/LCP_62.html)
+---
+title: LCP 62. 交通枢纽
+description: LeetCode,LCP 62. 交通枢纽,交通枢纽,交通枢纽,解题思路,图
+keywords:
+  - LeetCode
+  - LCP 62. 交通枢纽
+  - 交通枢纽
+  - 交通枢纽
+  - 解题思路
+  - 图
+---
+
+# LCP 62. 交通枢纽
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/D9PW8w)
 

@@ -1,4 +1,18 @@
-# [36. 后缀表达式](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_036.html)
+---
+title: 36. 后缀表达式
+description: LeetCode,36. 后缀表达式,后缀表达式,后缀表达式,解题思路,栈,数组,数学
+keywords:
+  - LeetCode
+  - 36. 后缀表达式
+  - 后缀表达式
+  - 后缀表达式
+  - 解题思路
+  - 栈
+  - 数组
+  - 数学
+---
+
+# 36. 后缀表达式
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/8Zf90G)
 

@@ -1,4 +1,18 @@
-# [LCP 36. 最多牌组数](https://2xiao.github.io/leetcode-js/lcp/LCP_36.html)
+---
+title: LCP 36. 最多牌组数
+description: LeetCode,LCP 36. 最多牌组数,最多牌组数,最多牌组数,解题思路,数组,动态规划,排序
+keywords:
+  - LeetCode
+  - LCP 36. 最多牌组数
+  - 最多牌组数
+  - 最多牌组数
+  - 解题思路
+  - 数组
+  - 动态规划
+  - 排序
+---
+
+# LCP 36. 最多牌组数
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Up5XYM)
 

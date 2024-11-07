@@ -1,4 +1,18 @@
-# [LCP 05. 发 LeetCoin](https://2xiao.github.io/leetcode-js/lcp/LCP_05.html)
+---
+title: LCP 05. 发 LeetCoin
+description: LeetCode,LCP 05. 发 LeetCoin,发 LeetCoin,Coin Bonus,解题思路,树状数组,线段树,数组
+keywords:
+  - LeetCode
+  - LCP 05. 发 LeetCoin
+  - 发 LeetCoin
+  - Coin Bonus
+  - 解题思路
+  - 树状数组
+  - 线段树
+  - 数组
+---
+
+# LCP 05. 发 LeetCoin
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/coin-bonus)
 

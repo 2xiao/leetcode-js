@@ -1,4 +1,19 @@
-# [LCP 28. 采购方案](https://2xiao.github.io/leetcode-js/lcp/LCP_28.html)
+---
+title: LCP 28. 采购方案
+description: LeetCode,LCP 28. 采购方案,采购方案,采购方案,解题思路,数组,双指针,二分查找,排序
+keywords:
+  - LeetCode
+  - LCP 28. 采购方案
+  - 采购方案
+  - 采购方案
+  - 解题思路
+  - 数组
+  - 双指针
+  - 二分查找
+  - 排序
+---
+
+# LCP 28. 采购方案
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/4xy4Wx)
 

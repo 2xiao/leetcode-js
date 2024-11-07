@@ -1,4 +1,21 @@
-# [LCP 56. 信物传送](https://2xiao.github.io/leetcode-js/lcp/LCP_56.html)
+---
+title: LCP 56. 信物传送
+description: LeetCode,LCP 56. 信物传送,信物传送,信物传送,解题思路,广度优先搜索,图,数组,矩阵,最短路,堆（优先队列）
+keywords:
+  - LeetCode
+  - LCP 56. 信物传送
+  - 信物传送
+  - 信物传送
+  - 解题思路
+  - 广度优先搜索
+  - 图
+  - 数组
+  - 矩阵
+  - 最短路
+  - 堆（优先队列）
+---
+
+# LCP 56. 信物传送
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`最短路`](/tag/shortest-path.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/6UEx57)
 

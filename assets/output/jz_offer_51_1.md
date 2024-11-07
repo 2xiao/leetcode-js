@@ -1,4 +1,22 @@
-# [51. 数组中的逆序对](https://2xiao.github.io/leetcode-js/offer/jz_offer_51_1.html)
+---
+title: 51. 数组中的逆序对
+description: LeetCode,51. 数组中的逆序对,数组中的逆序对,数组中的逆序对,解题思路,树状数组,线段树,数组,二分查找,分治,有序集合,归并排序
+keywords:
+  - LeetCode
+  - 51. 数组中的逆序对
+  - 数组中的逆序对
+  - 数组中的逆序对
+  - 解题思路
+  - 树状数组
+  - 线段树
+  - 数组
+  - 二分查找
+  - 分治
+  - 有序集合
+  - 归并排序
+---
+
+# 51. 数组中的逆序对
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) [`有序集合`](/tag/ordered-set.md) [`归并排序`](/tag/merge-sort.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shu-zu-zhong-de-ni-xu-dui-lcof)
 

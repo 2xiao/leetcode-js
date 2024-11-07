@@ -1,4 +1,21 @@
-# [LCP 13. 寻宝](https://2xiao.github.io/leetcode-js/lcp/LCP_13.html)
+---
+title: LCP 13. 寻宝
+description: LeetCode,LCP 13. 寻宝,寻宝,寻宝,解题思路,位运算,广度优先搜索,数组,动态规划,状态压缩,矩阵
+keywords:
+  - LeetCode
+  - LCP 13. 寻宝
+  - 寻宝
+  - 寻宝
+  - 解题思路
+  - 位运算
+  - 广度优先搜索
+  - 数组
+  - 动态规划
+  - 状态压缩
+  - 矩阵
+---
+
+# LCP 13. 寻宝
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xun-bao)
 

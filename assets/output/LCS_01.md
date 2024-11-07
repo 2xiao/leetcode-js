@@ -1,4 +1,18 @@
-# [LCS 01. 下载插件](https://2xiao.github.io/leetcode-js/lcs/LCS_01.html)
+---
+title: LCS 01. 下载插件
+description: LeetCode,LCS 01. 下载插件,下载插件,下载插件,解题思路,贪心,数学,动态规划
+keywords:
+  - LeetCode
+  - LCS 01. 下载插件
+  - 下载插件
+  - 下载插件
+  - 解题思路
+  - 贪心
+  - 数学
+  - 动态规划
+---
+
+# LCS 01. 下载插件
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Ju9Xwi)
 

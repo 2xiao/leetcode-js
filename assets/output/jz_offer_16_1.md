@@ -1,4 +1,17 @@
-# [16. 数值的整数次方](https://2xiao.github.io/leetcode-js/offer/jz_offer_16_1.html)
+---
+title: 16. 数值的整数次方
+description: LeetCode,16. 数值的整数次方,数值的整数次方,数值的整数次方,解题思路,递归,数学
+keywords:
+  - LeetCode
+  - 16. 数值的整数次方
+  - 数值的整数次方
+  - 数值的整数次方
+  - 解题思路
+  - 递归
+  - 数学
+---
+
+# 16. 数值的整数次方
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shu-zhi-de-zheng-shu-ci-fang-lcof)
 

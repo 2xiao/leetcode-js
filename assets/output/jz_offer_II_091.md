@@ -1,4 +1,17 @@
-# [91. 粉刷房子](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_091.html)
+---
+title: 91. 粉刷房子
+description: LeetCode,91. 粉刷房子,粉刷房子,粉刷房子,解题思路,数组,动态规划
+keywords:
+  - LeetCode
+  - 91. 粉刷房子
+  - 粉刷房子
+  - 粉刷房子
+  - 解题思路
+  - 数组
+  - 动态规划
+---
+
+# 91. 粉刷房子
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/JEj789)
 

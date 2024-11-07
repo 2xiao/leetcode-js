@@ -1,4 +1,17 @@
-# [68. 查找插入位置](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_068.html)
+---
+title: 68. 查找插入位置
+description: LeetCode,68. 查找插入位置,查找插入位置,查找插入位置,解题思路,数组,二分查找
+keywords:
+  - LeetCode
+  - 68. 查找插入位置
+  - 查找插入位置
+  - 查找插入位置
+  - 解题思路
+  - 数组
+  - 二分查找
+---
+
+# 68. 查找插入位置
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/N6YdxV)
 

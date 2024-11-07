@@ -281,7 +281,6 @@ class LeetcodeCrawler():
                 'status': row[11],
                 'fileName': utils.get_fileName(row[1], row[3]),
                 'catalog': catalog,
-                'link': utils.get_local_link(catalog, file_name, const.online_path + '/{}/{}.html'),
                 'frontendId': utils.get_fronted_id(row[1], row[3]),
                 'title': utils.get_title(row[2], row[3]),
                 'titleCN': utils.get_title(row[7], row[3]),
@@ -368,7 +367,16 @@ class LeetcodeCrawler():
         df = pd.read_csv("problem-list.csv")
 
         with open(text_path, 'w', encoding='utf-8') as f:
-            f.write("# [{}. {}{}]({})".format(question['frontendId'], question['titleCN'], ' 🔒' if question['paid_only'] else '', question['link']))
+            title = "{}. {}{}".format(question['frontendId'], question['titleCN'], ' 🔒' if question['paid_only'] else '')
+            keywords_arr = ['LeetCode', title, question['titleCN'], question['title'], '解题思路']
+            if len(question['tags']) > 0:
+                for tag_str in question['tags'].split(','):
+                    tag = tag_str.split('|')[2]
+                    keywords_arr.append(tag)
+            description = ','.join(keywords_arr)
+            keywords = '\n  - '.join(keywords_arr)
+            f.write("---\ntitle: {}\ndescription: {}\nkeywords:\n  - {}\n---\n\n".format(title, description, keywords))
+            f.write("# " + title)
             
             problem_difficulty = utils.format_difficulty(question['difficulty'], True)
             problem_link = utils.get_all_online_link(question['catalog'], question['slug'])

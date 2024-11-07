@@ -1,4 +1,18 @@
-# [103. 最少的硬币数目](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_103.html)
+---
+title: 103. 最少的硬币数目
+description: LeetCode,103. 最少的硬币数目,最少的硬币数目,最少的硬币数目,解题思路,广度优先搜索,数组,动态规划
+keywords:
+  - LeetCode
+  - 103. 最少的硬币数目
+  - 最少的硬币数目
+  - 最少的硬币数目
+  - 解题思路
+  - 广度优先搜索
+  - 数组
+  - 动态规划
+---
+
+# 103. 最少的硬币数目
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/gaM7Ch)
 

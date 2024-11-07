@@ -1,4 +1,19 @@
-# [116. 省份数量](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_116.html)
+---
+title: 116. 省份数量
+description: LeetCode,116. 省份数量,省份数量,省份数量,解题思路,深度优先搜索,广度优先搜索,并查集,图
+keywords:
+  - LeetCode
+  - 116. 省份数量
+  - 省份数量
+  - 省份数量
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 并查集
+  - 图
+---
+
+# 116. 省份数量
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/bLyHh0)
 

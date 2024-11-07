@@ -1,4 +1,19 @@
-# [63. 替换单词](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_063.html)
+---
+title: 63. 替换单词
+description: LeetCode,63. 替换单词,替换单词,替换单词,解题思路,字典树,数组,哈希表,字符串
+keywords:
+  - LeetCode
+  - 63. 替换单词
+  - 替换单词
+  - 替换单词
+  - 解题思路
+  - 字典树
+  - 数组
+  - 哈希表
+  - 字符串
+---
+
+# 63. 替换单词
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/UhWRSj)
 

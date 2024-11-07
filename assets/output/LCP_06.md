@@ -1,4 +1,17 @@
-# [LCP 06. 拿硬币](https://2xiao.github.io/leetcode-js/lcp/LCP_06.html)
+---
+title: LCP 06. 拿硬币
+description: LeetCode,LCP 06. 拿硬币,拿硬币,拿硬币,解题思路,数组,数学
+keywords:
+  - LeetCode
+  - LCP 06. 拿硬币
+  - 拿硬币
+  - 拿硬币
+  - 解题思路
+  - 数组
+  - 数学
+---
+
+# LCP 06. 拿硬币
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/na-ying-bi)
 

@@ -1,4 +1,18 @@
-# [55-II. 平衡二叉树](https://2xiao.github.io/leetcode-js/offer/jz_offer_55_2.html)
+---
+title: 55-II. 平衡二叉树
+description: LeetCode,55-II. 平衡二叉树,平衡二叉树,平衡二叉树,解题思路,树,深度优先搜索,二叉树
+keywords:
+  - LeetCode
+  - 55-II. 平衡二叉树
+  - 平衡二叉树
+  - 平衡二叉树
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 二叉树
+---
+
+# 55-II. 平衡二叉树
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof)
 

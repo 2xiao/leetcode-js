@@ -1,4 +1,19 @@
-# [LCP 49. 环形闯关游戏](https://2xiao.github.io/leetcode-js/lcp/LCP_49.html)
+---
+title: LCP 49. 环形闯关游戏
+description: LeetCode,LCP 49. 环形闯关游戏,环形闯关游戏,环形闯关游戏,解题思路,位运算,并查集,数组,堆（优先队列）
+keywords:
+  - LeetCode
+  - LCP 49. 环形闯关游戏
+  - 环形闯关游戏
+  - 环形闯关游戏
+  - 解题思路
+  - 位运算
+  - 并查集
+  - 数组
+  - 堆（优先队列）
+---
+
+# LCP 49. 环形闯关游戏
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/K8GULz)
 

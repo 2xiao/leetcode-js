@@ -1,4 +1,17 @@
-# [92. 翻转字符](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_092.html)
+---
+title: 92. 翻转字符
+description: LeetCode,92. 翻转字符,翻转字符,翻转字符,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - 92. 翻转字符
+  - 翻转字符
+  - 翻转字符
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# 92. 翻转字符
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/cyJERH)
 

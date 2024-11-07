@@ -1,4 +1,17 @@
-# [61. 扑克牌中的顺子](https://2xiao.github.io/leetcode-js/offer/jz_offer_61_1.html)
+---
+title: 61. 扑克牌中的顺子
+description: LeetCode,61. 扑克牌中的顺子,扑克牌中的顺子,扑克牌中的顺子,解题思路,数组,排序
+keywords:
+  - LeetCode
+  - 61. 扑克牌中的顺子
+  - 扑克牌中的顺子
+  - 扑克牌中的顺子
+  - 解题思路
+  - 数组
+  - 排序
+---
+
+# 61. 扑克牌中的顺子
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/bu-ke-pai-zhong-de-shun-zi-lcof)
 

@@ -1,4 +1,22 @@
-# [LCP 52. 二叉搜索树染色](https://2xiao.github.io/leetcode-js/lcp/LCP_52.html)
+---
+title: LCP 52. 二叉搜索树染色
+description: LeetCode,LCP 52. 二叉搜索树染色,二叉搜索树染色,二叉搜索树染色,解题思路,树,线段树,二叉搜索树,数组,二分查找,二叉树,有序集合
+keywords:
+  - LeetCode
+  - LCP 52. 二叉搜索树染色
+  - 二叉搜索树染色
+  - 二叉搜索树染色
+  - 解题思路
+  - 树
+  - 线段树
+  - 二叉搜索树
+  - 数组
+  - 二分查找
+  - 二叉树
+  - 有序集合
+---
+
+# LCP 52. 二叉搜索树染色
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`线段树`](/tag/segment-tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`二叉树`](/tag/binary-tree.md) [`有序集合`](/tag/ordered-set.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/QO5KpG)
 

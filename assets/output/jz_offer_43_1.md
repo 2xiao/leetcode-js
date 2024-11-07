@@ -1,4 +1,18 @@
-# [43. 1～n 整数中 1 出现的次数](https://2xiao.github.io/leetcode-js/offer/jz_offer_43_1.html)
+---
+title: 43. 1～n 整数中 1 出现的次数
+description: LeetCode,43. 1～n 整数中 1 出现的次数,1～n 整数中 1 出现的次数,1～n 整数中 1 出现的次数,解题思路,递归,数学,动态规划
+keywords:
+  - LeetCode
+  - 43. 1～n 整数中 1 出现的次数
+  - 1～n 整数中 1 出现的次数
+  - 1～n 整数中 1 出现的次数
+  - 解题思路
+  - 递归
+  - 数学
+  - 动态规划
+---
+
+# 43. 1～n 整数中 1 出现的次数
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/1nzheng-shu-zhong-1chu-xian-de-ci-shu-lcof)
 

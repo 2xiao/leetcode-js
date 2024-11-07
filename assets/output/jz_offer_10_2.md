@@ -1,4 +1,18 @@
-# [10-II. 青蛙跳台阶问题](https://2xiao.github.io/leetcode-js/offer/jz_offer_10_2.html)
+---
+title: 10-II. 青蛙跳台阶问题
+description: LeetCode,10-II. 青蛙跳台阶问题,青蛙跳台阶问题,青蛙跳台阶问题,解题思路,记忆化搜索,数学,动态规划
+keywords:
+  - LeetCode
+  - 10-II. 青蛙跳台阶问题
+  - 青蛙跳台阶问题
+  - 青蛙跳台阶问题
+  - 解题思路
+  - 记忆化搜索
+  - 数学
+  - 动态规划
+---
+
+# 10-II. 青蛙跳台阶问题
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof)
 

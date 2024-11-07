@@ -1,4 +1,18 @@
-# [LCP 40. 心算挑战](https://2xiao.github.io/leetcode-js/lcp/LCP_40.html)
+---
+title: LCP 40. 心算挑战
+description: LeetCode,LCP 40. 心算挑战,心算挑战,心算挑战,解题思路,贪心,数组,排序
+keywords:
+  - LeetCode
+  - LCP 40. 心算挑战
+  - 心算挑战
+  - 心算挑战
+  - 解题思路
+  - 贪心
+  - 数组
+  - 排序
+---
+
+# LCP 40. 心算挑战
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/uOAnQW)
 

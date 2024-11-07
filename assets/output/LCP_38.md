@@ -1,4 +1,18 @@
-# [LCP 38. 守卫城堡](https://2xiao.github.io/leetcode-js/lcp/LCP_38.html)
+---
+title: LCP 38. 守卫城堡
+description: LeetCode,LCP 38. 守卫城堡,守卫城堡,守卫城堡,解题思路,数组,动态规划,矩阵
+keywords:
+  - LeetCode
+  - LCP 38. 守卫城堡
+  - 守卫城堡
+  - 守卫城堡
+  - 解题思路
+  - 数组
+  - 动态规划
+  - 矩阵
+---
+
+# LCP 38. 守卫城堡
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/7rLGCR)
 

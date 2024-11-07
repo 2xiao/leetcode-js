@@ -1,4 +1,18 @@
-# [LCP 33. 蓄水](https://2xiao.github.io/leetcode-js/lcp/LCP_33.html)
+---
+title: LCP 33. 蓄水
+description: LeetCode,LCP 33. 蓄水,蓄水,蓄水,解题思路,贪心,数组,堆（优先队列）
+keywords:
+  - LeetCode
+  - LCP 33. 蓄水
+  - 蓄水
+  - 蓄水
+  - 解题思路
+  - 贪心
+  - 数组
+  - 堆（优先队列）
+---
+
+# LCP 33. 蓄水
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/o8SXZn)
 

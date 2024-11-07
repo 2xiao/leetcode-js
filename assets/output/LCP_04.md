@@ -1,4 +1,20 @@
-# [LCP 04. 覆盖](https://2xiao.github.io/leetcode-js/lcp/LCP_04.html)
+---
+title: LCP 04. 覆盖
+description: LeetCode,LCP 04. 覆盖,覆盖,Broken Board Dominoes,解题思路,位运算,图,数组,动态规划,状态压缩
+keywords:
+  - LeetCode
+  - LCP 04. 覆盖
+  - 覆盖
+  - Broken Board Dominoes
+  - 解题思路
+  - 位运算
+  - 图
+  - 数组
+  - 动态规划
+  - 状态压缩
+---
+
+# LCP 04. 覆盖
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/broken-board-dominoes)
 

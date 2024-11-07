@@ -1,4 +1,17 @@
-# [LCP 70. 沙地治理](https://2xiao.github.io/leetcode-js/lcp/LCP_70.html)
+---
+title: LCP 70. 沙地治理
+description: LeetCode,LCP 70. 沙地治理,沙地治理,沙地治理,解题思路,数组,数学
+keywords:
+  - LeetCode
+  - LCP 70. 沙地治理
+  - 沙地治理
+  - 沙地治理
+  - 解题思路
+  - 数组
+  - 数学
+---
+
+# LCP 70. 沙地治理
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/XxZZjK)
 

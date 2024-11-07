@@ -1,4 +1,18 @@
-# [108. 单词演变](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_108.html)
+---
+title: 108. 单词演变
+description: LeetCode,108. 单词演变,单词演变,单词演变,解题思路,广度优先搜索,哈希表,字符串
+keywords:
+  - LeetCode
+  - 108. 单词演变
+  - 单词演变
+  - 单词演变
+  - 解题思路
+  - 广度优先搜索
+  - 哈希表
+  - 字符串
+---
+
+# 108. 单词演变
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/om3reC)
 

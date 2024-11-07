@@ -1,4 +1,15 @@
-# [LCP 81. 与非的谜题](https://2xiao.github.io/leetcode-js/lcp/LCP_81.html)
+---
+title: LCP 81. 与非的谜题
+description: LeetCode,LCP 81. 与非的谜题,与非的谜题,与非的谜题,解题思路
+keywords:
+  - LeetCode
+  - LCP 81. 与非的谜题
+  - 与非的谜题
+  - 与非的谜题
+  - 解题思路
+---
+
+# LCP 81. 与非的谜题
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ryfUiz)
 

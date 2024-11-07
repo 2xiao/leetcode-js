@@ -1,4 +1,18 @@
-# [LCP 41. 黑白翻转棋](https://2xiao.github.io/leetcode-js/lcp/LCP_41.html)
+---
+title: LCP 41. 黑白翻转棋
+description: LeetCode,LCP 41. 黑白翻转棋,黑白翻转棋,黑白翻转棋,解题思路,广度优先搜索,数组,矩阵
+keywords:
+  - LeetCode
+  - LCP 41. 黑白翻转棋
+  - 黑白翻转棋
+  - 黑白翻转棋
+  - 解题思路
+  - 广度优先搜索
+  - 数组
+  - 矩阵
+---
+
+# LCP 41. 黑白翻转棋
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fHi6rV)
 

@@ -1,4 +1,17 @@
-# [87. 复原 IP](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_087.html)
+---
+title: 87. 复原 IP
+description: LeetCode,87. 复原 IP,复原 IP,复原 IP,解题思路,字符串,回溯
+keywords:
+  - LeetCode
+  - 87. 复原 IP
+  - 复原 IP
+  - 复原 IP
+  - 解题思路
+  - 字符串
+  - 回溯
+---
+
+# 87. 复原 IP
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0on3uN)
 

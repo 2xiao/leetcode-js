@@ -1,4 +1,18 @@
-# [31. 栈的压入、弹出序列](https://2xiao.github.io/leetcode-js/offer/jz_offer_31_1.html)
+---
+title: 31. 栈的压入、弹出序列
+description: LeetCode,31. 栈的压入、弹出序列,栈的压入、弹出序列,栈的压入、弹出序列,解题思路,栈,数组,模拟
+keywords:
+  - LeetCode
+  - 31. 栈的压入、弹出序列
+  - 栈的压入、弹出序列
+  - 栈的压入、弹出序列
+  - 解题思路
+  - 栈
+  - 数组
+  - 模拟
+---
+
+# 31. 栈的压入、弹出序列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof)
 

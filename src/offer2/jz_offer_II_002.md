@@ -1,4 +1,19 @@
-# [2. 二进制加法](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_002.html)
+---
+title: 2. 二进制加法
+description: LeetCode,2. 二进制加法,二进制加法,二进制加法,解题思路,位运算,数学,字符串,模拟
+keywords:
+  - LeetCode
+  - 2. 二进制加法
+  - 二进制加法
+  - 二进制加法
+  - 解题思路
+  - 位运算
+  - 数学
+  - 字符串
+  - 模拟
+---
+
+# 2. 二进制加法
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/JFETK5)
 

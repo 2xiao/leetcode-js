@@ -1,4 +1,17 @@
-# [LCP 68. 美观的花束](https://2xiao.github.io/leetcode-js/lcp/LCP_68.html)
+---
+title: LCP 68. 美观的花束
+description: LeetCode,LCP 68. 美观的花束,美观的花束,美观的花束,解题思路,数组,滑动窗口
+keywords:
+  - LeetCode
+  - LCP 68. 美观的花束
+  - 美观的花束
+  - 美观的花束
+  - 解题思路
+  - 数组
+  - 滑动窗口
+---
+
+# LCP 68. 美观的花束
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/1GxJYY)
 

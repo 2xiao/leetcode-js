@@ -1,4 +1,18 @@
-# [LCP 71. 集水器](https://2xiao.github.io/leetcode-js/lcp/LCP_71.html)
+---
+title: LCP 71. 集水器
+description: LeetCode,LCP 71. 集水器,集水器,集水器,解题思路,并查集,数组,矩阵
+keywords:
+  - LeetCode
+  - LCP 71. 集水器
+  - 集水器
+  - 集水器
+  - 解题思路
+  - 并查集
+  - 数组
+  - 矩阵
+---
+
+# LCP 71. 集水器
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/kskhHQ)
 

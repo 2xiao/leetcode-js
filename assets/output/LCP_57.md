@@ -1,4 +1,19 @@
-# [LCP 57. 打地鼠](https://2xiao.github.io/leetcode-js/lcp/LCP_57.html)
+---
+title: LCP 57. 打地鼠
+description: LeetCode,LCP 57. 打地鼠,打地鼠,打地鼠,解题思路,数组,动态规划,矩阵,排序
+keywords:
+  - LeetCode
+  - LCP 57. 打地鼠
+  - 打地鼠
+  - 打地鼠
+  - 解题思路
+  - 数组
+  - 动态规划
+  - 矩阵
+  - 排序
+---
+
+# LCP 57. 打地鼠
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ZbAuEH)
 

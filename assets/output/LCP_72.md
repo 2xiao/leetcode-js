@@ -1,4 +1,15 @@
-# [LCP 72. 补给马车](https://2xiao.github.io/leetcode-js/lcp/LCP_72.html)
+---
+title: LCP 72. 补给马车
+description: LeetCode,LCP 72. 补给马车,补给马车,补给马车,解题思路
+keywords:
+  - LeetCode
+  - LCP 72. 补给马车
+  - 补给马车
+  - 补给马车
+  - 解题思路
+---
+
+# LCP 72. 补给马车
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/hqCnmP)
 

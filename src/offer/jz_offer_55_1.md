@@ -1,4 +1,19 @@
-# [55. 二叉树的深度](https://2xiao.github.io/leetcode-js/offer/jz_offer_55_1.html)
+---
+title: 55. 二叉树的深度
+description: LeetCode,55. 二叉树的深度,二叉树的深度,二叉树的深度,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+keywords:
+  - LeetCode
+  - 55. 二叉树的深度
+  - 二叉树的深度
+  - 二叉树的深度
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 广度优先搜索
+  - 二叉树
+---
+
+# 55. 二叉树的深度
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-cha-shu-de-shen-du-lcof)
 

@@ -1,4 +1,16 @@
-# [LCP 61. 气温变化趋势](https://2xiao.github.io/leetcode-js/lcp/LCP_61.html)
+---
+title: LCP 61. 气温变化趋势
+description: LeetCode,LCP 61. 气温变化趋势,气温变化趋势,气温变化趋势,解题思路,数组
+keywords:
+  - LeetCode
+  - LCP 61. 气温变化趋势
+  - 气温变化趋势
+  - 气温变化趋势
+  - 解题思路
+  - 数组
+---
+
+# LCP 61. 气温变化趋势
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/6CE719)
 

@@ -1,4 +1,18 @@
-# [LCP 34. 二叉树染色](https://2xiao.github.io/leetcode-js/lcp/LCP_34.html)
+---
+title: LCP 34. 二叉树染色
+description: LeetCode,LCP 34. 二叉树染色,二叉树染色,二叉树染色,解题思路,树,动态规划,二叉树
+keywords:
+  - LeetCode
+  - LCP 34. 二叉树染色
+  - 二叉树染色
+  - 二叉树染色
+  - 解题思路
+  - 树
+  - 动态规划
+  - 二叉树
+---
+
+# LCP 34. 二叉树染色
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`动态规划`](/tag/dynamic-programming.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-cha-shu-ran-se-UGC)
 

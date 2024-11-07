@@ -1,4 +1,21 @@
-# [LCP 42. 玩具套圈](https://2xiao.github.io/leetcode-js/lcp/LCP_42.html)
+---
+title: LCP 42. 玩具套圈
+description: LeetCode,LCP 42. 玩具套圈,玩具套圈,玩具套圈,解题思路,几何,数组,哈希表,数学,二分查找,排序
+keywords:
+  - LeetCode
+  - LCP 42. 玩具套圈
+  - 玩具套圈
+  - 玩具套圈
+  - 解题思路
+  - 几何
+  - 数组
+  - 哈希表
+  - 数学
+  - 二分查找
+  - 排序
+---
+
+# LCP 42. 玩具套圈
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/vFjcfV)
 

@@ -1,4 +1,17 @@
-# [3. 前 n 个数字二进制中 1 的个数](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_003.html)
+---
+title: 3. 前 n 个数字二进制中 1 的个数
+description: LeetCode,3. 前 n 个数字二进制中 1 的个数,前 n 个数字二进制中 1 的个数,前 n 个数字二进制中 1 的个数,解题思路,位运算,动态规划
+keywords:
+  - LeetCode
+  - 3. 前 n 个数字二进制中 1 的个数
+  - 前 n 个数字二进制中 1 的个数
+  - 前 n 个数字二进制中 1 的个数
+  - 解题思路
+  - 位运算
+  - 动态规划
+---
+
+# 3. 前 n 个数字二进制中 1 的个数
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/w3tCBm)
 

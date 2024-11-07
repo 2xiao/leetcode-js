@@ -1,4 +1,18 @@
-# [LCP 43. 十字路口的交通](https://2xiao.github.io/leetcode-js/lcp/LCP_43.html)
+---
+title: LCP 43. 十字路口的交通
+description: LeetCode,LCP 43. 十字路口的交通,十字路口的交通,十字路口的交通,解题思路,数组,字符串,动态规划
+keywords:
+  - LeetCode
+  - LCP 43. 十字路口的交通
+  - 十字路口的交通
+  - 十字路口的交通
+  - 解题思路
+  - 数组
+  - 字符串
+  - 动态规划
+---
+
+# LCP 43. 十字路口的交通
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Y1VbOX)
 

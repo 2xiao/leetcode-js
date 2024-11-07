@@ -1,4 +1,17 @@
-# [73. 狒狒吃香蕉](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_073.html)
+---
+title: 73. 狒狒吃香蕉
+description: LeetCode,73. 狒狒吃香蕉,狒狒吃香蕉,狒狒吃香蕉,解题思路,数组,二分查找
+keywords:
+  - LeetCode
+  - 73. 狒狒吃香蕉
+  - 狒狒吃香蕉
+  - 狒狒吃香蕉
+  - 解题思路
+  - 数组
+  - 二分查找
+---
+
+# 73. 狒狒吃香蕉
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/nZZqjQ)
 

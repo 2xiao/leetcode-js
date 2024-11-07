@@ -1,4 +1,18 @@
-# [LCP 30. 魔塔游戏](https://2xiao.github.io/leetcode-js/lcp/LCP_30.html)
+---
+title: LCP 30. 魔塔游戏
+description: LeetCode,LCP 30. 魔塔游戏,魔塔游戏,魔塔游戏,解题思路,贪心,数组,堆（优先队列）
+keywords:
+  - LeetCode
+  - LCP 30. 魔塔游戏
+  - 魔塔游戏
+  - 魔塔游戏
+  - 解题思路
+  - 贪心
+  - 数组
+  - 堆（优先队列）
+---
+
+# LCP 30. 魔塔游戏
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/p0NxJO)
 

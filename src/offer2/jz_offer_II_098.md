@@ -1,4 +1,18 @@
-# [98. 路径的数目](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_098.html)
+---
+title: 98. 路径的数目
+description: LeetCode,98. 路径的数目,路径的数目,路径的数目,解题思路,数学,动态规划,组合数学
+keywords:
+  - LeetCode
+  - 98. 路径的数目
+  - 路径的数目
+  - 路径的数目
+  - 解题思路
+  - 数学
+  - 动态规划
+  - 组合数学
+---
+
+# 98. 路径的数目
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/2AoeFn)
 

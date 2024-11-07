@@ -1,4 +1,18 @@
-# [LCP 08. 剧情触发时间](https://2xiao.github.io/leetcode-js/lcp/LCP_08.html)
+---
+title: LCP 08. 剧情触发时间
+description: LeetCode,LCP 08. 剧情触发时间,剧情触发时间,剧情触发时间,解题思路,数组,二分查找,排序
+keywords:
+  - LeetCode
+  - LCP 08. 剧情触发时间
+  - 剧情触发时间
+  - 剧情触发时间
+  - 解题思路
+  - 数组
+  - 二分查找
+  - 排序
+---
+
+# LCP 08. 剧情触发时间
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ju-qing-hong-fa-shi-jian)
 

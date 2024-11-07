@@ -1,4 +1,16 @@
-# [1. 整数除法](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_001.html)
+---
+title: 1. 整数除法
+description: LeetCode,1. 整数除法,整数除法,整数除法,解题思路,数学
+keywords:
+  - LeetCode
+  - 1. 整数除法
+  - 整数除法
+  - 整数除法
+  - 解题思路
+  - 数学
+---
+
+# 1. 整数除法
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xoh6Oh)
 

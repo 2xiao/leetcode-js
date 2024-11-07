@@ -1,4 +1,20 @@
-# [LCS 03. 主题空间](https://2xiao.github.io/leetcode-js/lcs/LCS_03.html)
+---
+title: LCS 03. 主题空间
+description: LeetCode,LCS 03. 主题空间,主题空间,主题空间,解题思路,深度优先搜索,广度优先搜索,并查集,数组,矩阵
+keywords:
+  - LeetCode
+  - LCS 03. 主题空间
+  - 主题空间
+  - 主题空间
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 并查集
+  - 数组
+  - 矩阵
+---
+
+# LCS 03. 主题空间
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/YesdPw)
 

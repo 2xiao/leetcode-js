@@ -1,4 +1,22 @@
-# [36. 二叉搜索树与双向链表](https://2xiao.github.io/leetcode-js/offer/jz_offer_36_1.html)
+---
+title: 36. 二叉搜索树与双向链表
+description: LeetCode,36. 二叉搜索树与双向链表,二叉搜索树与双向链表,二叉搜索树与双向链表,解题思路,栈,树,深度优先搜索,二叉搜索树,链表,二叉树,双向链表
+keywords:
+  - LeetCode
+  - 36. 二叉搜索树与双向链表
+  - 二叉搜索树与双向链表
+  - 二叉搜索树与双向链表
+  - 解题思路
+  - 栈
+  - 树
+  - 深度优先搜索
+  - 二叉搜索树
+  - 链表
+  - 二叉树
+  - 双向链表
+---
+
+# 36. 二叉搜索树与双向链表
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`链表`](/tag/linked-list.md) [`二叉树`](/tag/binary-tree.md) [`双向链表`](/tag/doubly-linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-cha-sou-suo-shu-yu-shuang-xiang-lian-biao-lcof)
 

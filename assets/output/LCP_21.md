@@ -1,4 +1,19 @@
-# [LCP 21. 追逐游戏](https://2xiao.github.io/leetcode-js/lcp/LCP_21.html)
+---
+title: LCP 21. 追逐游戏
+description: LeetCode,LCP 21. 追逐游戏,追逐游戏,追逐游戏,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序
+keywords:
+  - LeetCode
+  - LCP 21. 追逐游戏
+  - 追逐游戏
+  - 追逐游戏
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 图
+  - 拓扑排序
+---
+
+# LCP 21. 追逐游戏
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Za25hA)
 

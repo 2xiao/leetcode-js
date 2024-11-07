@@ -1,4 +1,22 @@
-# [33. 二叉搜索树的后序遍历序列](https://2xiao.github.io/leetcode-js/offer/jz_offer_33_1.html)
+---
+title: 33. 二叉搜索树的后序遍历序列
+description: LeetCode,33. 二叉搜索树的后序遍历序列,二叉搜索树的后序遍历序列,二叉搜索树的后序遍历序列,解题思路,栈,树,二叉搜索树,递归,数组,二叉树,单调栈
+keywords:
+  - LeetCode
+  - 33. 二叉搜索树的后序遍历序列
+  - 二叉搜索树的后序遍历序列
+  - 二叉搜索树的后序遍历序列
+  - 解题思路
+  - 栈
+  - 树
+  - 二叉搜索树
+  - 递归
+  - 数组
+  - 二叉树
+  - 单调栈
+---
+
+# 33. 二叉搜索树的后序遍历序列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`递归`](/tag/recursion.md) [`数组`](/tag/array.md) [`二叉树`](/tag/binary-tree.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof)
 

@@ -1,4 +1,18 @@
-# [47. 二叉树剪枝](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_047.html)
+---
+title: 47. 二叉树剪枝
+description: LeetCode,47. 二叉树剪枝,二叉树剪枝,二叉树剪枝,解题思路,树,深度优先搜索,二叉树
+keywords:
+  - LeetCode
+  - 47. 二叉树剪枝
+  - 二叉树剪枝
+  - 二叉树剪枝
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 二叉树
+---
+
+# 47. 二叉树剪枝
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/pOCWxh)
 

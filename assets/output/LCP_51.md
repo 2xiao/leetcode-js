@@ -1,4 +1,19 @@
-# [LCP 51. 烹饪料理](https://2xiao.github.io/leetcode-js/lcp/LCP_51.html)
+---
+title: LCP 51. 烹饪料理
+description: LeetCode,LCP 51. 烹饪料理,烹饪料理,烹饪料理,解题思路,位运算,数组,回溯,枚举
+keywords:
+  - LeetCode
+  - LCP 51. 烹饪料理
+  - 烹饪料理
+  - 烹饪料理
+  - 解题思路
+  - 位运算
+  - 数组
+  - 回溯
+  - 枚举
+---
+
+# LCP 51. 烹饪料理
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/UEcfPD)
 

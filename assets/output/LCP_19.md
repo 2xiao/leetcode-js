@@ -1,4 +1,17 @@
-# [LCP 19. 秋叶收藏集](https://2xiao.github.io/leetcode-js/lcp/LCP_19.html)
+---
+title: LCP 19. 秋叶收藏集
+description: LeetCode,LCP 19. 秋叶收藏集,秋叶收藏集,秋叶收藏集,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - LCP 19. 秋叶收藏集
+  - 秋叶收藏集
+  - 秋叶收藏集
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# LCP 19. 秋叶收藏集
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/UlBDOe)
 

@@ -1,4 +1,18 @@
-# [LCP 25. 古董键盘](https://2xiao.github.io/leetcode-js/lcp/LCP_25.html)
+---
+title: LCP 25. 古董键盘
+description: LeetCode,LCP 25. 古董键盘,古董键盘,古董键盘,解题思路,数学,动态规划,组合数学
+keywords:
+  - LeetCode
+  - LCP 25. 古董键盘
+  - 古董键盘
+  - 古董键盘
+  - 解题思路
+  - 数学
+  - 动态规划
+  - 组合数学
+---
+
+# LCP 25. 古董键盘
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Uh984O)
 

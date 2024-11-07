@@ -1,4 +1,18 @@
-# [LCP 23. 魔术排列](https://2xiao.github.io/leetcode-js/lcp/LCP_23.html)
+---
+title: LCP 23. 魔术排列
+description: LeetCode,LCP 23. 魔术排列,魔术排列,魔术排列,解题思路,队列,数组,模拟
+keywords:
+  - LeetCode
+  - LCP 23. 魔术排列
+  - 魔术排列
+  - 魔术排列
+  - 解题思路
+  - 队列
+  - 数组
+  - 模拟
+---
+
+# LCP 23. 魔术排列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er94lq)
 

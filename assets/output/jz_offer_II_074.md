@@ -1,4 +1,17 @@
-# [74. 合并区间](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_074.html)
+---
+title: 74. 合并区间
+description: LeetCode,74. 合并区间,合并区间,合并区间,解题思路,数组,排序
+keywords:
+  - LeetCode
+  - 74. 合并区间
+  - 合并区间
+  - 合并区间
+  - 解题思路
+  - 数组
+  - 排序
+---
+
+# 74. 合并区间
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/SsGoHC)
 

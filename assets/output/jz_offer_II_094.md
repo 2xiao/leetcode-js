@@ -1,4 +1,17 @@
-# [94. 最少回文分割](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_094.html)
+---
+title: 94. 最少回文分割
+description: LeetCode,94. 最少回文分割,最少回文分割,最少回文分割,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - 94. 最少回文分割
+  - 最少回文分割
+  - 最少回文分割
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# 94. 最少回文分割
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/omKAoA)
 

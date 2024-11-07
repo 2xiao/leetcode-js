@@ -1,4 +1,19 @@
-# [LCP 66. 最小展台数量](https://2xiao.github.io/leetcode-js/lcp/LCP_66.html)
+---
+title: LCP 66. 最小展台数量
+description: LeetCode,LCP 66. 最小展台数量,最小展台数量,最小展台数量,解题思路,数组,哈希表,字符串,计数
+keywords:
+  - LeetCode
+  - LCP 66. 最小展台数量
+  - 最小展台数量
+  - 最小展台数量
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 字符串
+  - 计数
+---
+
+# LCP 66. 最小展台数量
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/600YaG)
 

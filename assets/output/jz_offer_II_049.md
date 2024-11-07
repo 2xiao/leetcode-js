@@ -1,4 +1,18 @@
-# [49. 从根节点到叶节点的路径数字之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_049.html)
+---
+title: 49. 从根节点到叶节点的路径数字之和
+description: LeetCode,49. 从根节点到叶节点的路径数字之和,从根节点到叶节点的路径数字之和,从根节点到叶节点的路径数字之和,解题思路,树,深度优先搜索,二叉树
+keywords:
+  - LeetCode
+  - 49. 从根节点到叶节点的路径数字之和
+  - 从根节点到叶节点的路径数字之和
+  - 从根节点到叶节点的路径数字之和
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 二叉树
+---
+
+# 49. 从根节点到叶节点的路径数字之和
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/3Etpl5)
 

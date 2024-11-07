@@ -1,4 +1,20 @@
-# [7. 重建二叉树](https://2xiao.github.io/leetcode-js/offer/jz_offer_07_1.html)
+---
+title: 7. 重建二叉树
+description: LeetCode,7. 重建二叉树,重建二叉树,重建二叉树,解题思路,树,数组,哈希表,分治,二叉树
+keywords:
+  - LeetCode
+  - 7. 重建二叉树
+  - 重建二叉树
+  - 重建二叉树
+  - 解题思路
+  - 树
+  - 数组
+  - 哈希表
+  - 分治
+  - 二叉树
+---
+
+# 7. 重建二叉树
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof)
 

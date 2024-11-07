@@ -1,4 +1,15 @@
-# [LCP 80. 生物进化录](https://2xiao.github.io/leetcode-js/lcp/LCP_80.html)
+---
+title: LCP 80. 生物进化录
+description: LeetCode,LCP 80. 生物进化录,生物进化录,生物进化录,解题思路
+keywords:
+  - LeetCode
+  - LCP 80. 生物进化录
+  - 生物进化录
+  - 生物进化录
+  - 解题思路
+---
+
+# LCP 80. 生物进化录
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qoQAMX)
 

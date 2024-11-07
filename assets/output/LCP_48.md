@@ -1,4 +1,19 @@
-# [LCP 48. 无限棋局](https://2xiao.github.io/leetcode-js/lcp/LCP_48.html)
+---
+title: LCP 48. 无限棋局
+description: LeetCode,LCP 48. 无限棋局,无限棋局,无限棋局,解题思路,数组,数学,枚举,博弈
+keywords:
+  - LeetCode
+  - LCP 48. 无限棋局
+  - 无限棋局
+  - 无限棋局
+  - 解题思路
+  - 数组
+  - 数学
+  - 枚举
+  - 博弈
+---
+
+# LCP 48. 无限棋局
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) [`博弈`](/tag/game-theory.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fsa7oZ)
 

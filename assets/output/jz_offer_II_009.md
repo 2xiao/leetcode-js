@@ -1,4 +1,17 @@
-# [9. 乘积小于 K 的子数组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_009.html)
+---
+title: 9. 乘积小于 K 的子数组
+description: LeetCode,9. 乘积小于 K 的子数组,乘积小于 K 的子数组,乘积小于 K 的子数组,解题思路,数组,滑动窗口
+keywords:
+  - LeetCode
+  - 9. 乘积小于 K 的子数组
+  - 乘积小于 K 的子数组
+  - 乘积小于 K 的子数组
+  - 解题思路
+  - 数组
+  - 滑动窗口
+---
+
+# 9. 乘积小于 K 的子数组
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ZVAVXX)
 

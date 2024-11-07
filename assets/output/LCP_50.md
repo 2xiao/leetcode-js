@@ -1,4 +1,17 @@
-# [LCP 50. 宝石补给](https://2xiao.github.io/leetcode-js/lcp/LCP_50.html)
+---
+title: LCP 50. 宝石补给
+description: LeetCode,LCP 50. 宝石补给,宝石补给,宝石补给,解题思路,数组,模拟
+keywords:
+  - LeetCode
+  - LCP 50. 宝石补给
+  - 宝石补给
+  - 宝石补给
+  - 解题思路
+  - 数组
+  - 模拟
+---
+
+# LCP 50. 宝石补给
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/WHnhjV)
 

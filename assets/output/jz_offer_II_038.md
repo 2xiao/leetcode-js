@@ -1,4 +1,18 @@
-# [38. 每日温度](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_038.html)
+---
+title: 38. 每日温度
+description: LeetCode,38. 每日温度,每日温度,每日温度,解题思路,栈,数组,单调栈
+keywords:
+  - LeetCode
+  - 38. 每日温度
+  - 每日温度
+  - 每日温度
+  - 解题思路
+  - 栈
+  - 数组
+  - 单调栈
+---
+
+# 38. 每日温度
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/iIQa4I)
 

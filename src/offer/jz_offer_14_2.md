@@ -1,4 +1,17 @@
-# [14-II. 剪绳子 II](https://2xiao.github.io/leetcode-js/offer/jz_offer_14_2.html)
+---
+title: 14-II. 剪绳子 II
+description: LeetCode,14-II. 剪绳子 II,剪绳子 II,剪绳子 II,解题思路,数学,动态规划
+keywords:
+  - LeetCode
+  - 14-II. 剪绳子 II
+  - 剪绳子 II
+  - 剪绳子 II
+  - 解题思路
+  - 数学
+  - 动态规划
+---
+
+# 14-II. 剪绳子 II
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/jian-sheng-zi-ii-lcof)
 

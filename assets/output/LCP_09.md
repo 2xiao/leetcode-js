@@ -1,4 +1,19 @@
-# [LCP 09. 最小跳跃次数](https://2xiao.github.io/leetcode-js/lcp/LCP_09.html)
+---
+title: LCP 09. 最小跳跃次数
+description: LeetCode,LCP 09. 最小跳跃次数,最小跳跃次数,最小跳跃次数,解题思路,广度优先搜索,线段树,数组,动态规划
+keywords:
+  - LeetCode
+  - LCP 09. 最小跳跃次数
+  - 最小跳跃次数
+  - 最小跳跃次数
+  - 解题思路
+  - 广度优先搜索
+  - 线段树
+  - 数组
+  - 动态规划
+---
+
+# LCP 09. 最小跳跃次数
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`广度优先搜索`](/tag/breadth-first-search.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zui-xiao-tiao-yue-ci-shu)
 

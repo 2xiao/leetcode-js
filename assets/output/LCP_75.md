@@ -1,4 +1,15 @@
-# [LCP 75. 传送卷轴](https://2xiao.github.io/leetcode-js/lcp/LCP_75.html)
+---
+title: LCP 75. 传送卷轴
+description: LeetCode,LCP 75. 传送卷轴,传送卷轴,传送卷轴,解题思路
+keywords:
+  - LeetCode
+  - LCP 75. 传送卷轴
+  - 传送卷轴
+  - 传送卷轴
+  - 解题思路
+---
+
+# LCP 75. 传送卷轴
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/rdmXM7)
 

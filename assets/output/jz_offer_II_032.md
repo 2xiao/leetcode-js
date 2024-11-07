@@ -1,4 +1,18 @@
-# [32. 有效的变位词](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_032.html)
+---
+title: 32. 有效的变位词
+description: LeetCode,32. 有效的变位词,有效的变位词,有效的变位词,解题思路,哈希表,字符串,排序
+keywords:
+  - LeetCode
+  - 32. 有效的变位词
+  - 有效的变位词
+  - 有效的变位词
+  - 解题思路
+  - 哈希表
+  - 字符串
+  - 排序
+---
+
+# 32. 有效的变位词
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/dKk3P7)
 

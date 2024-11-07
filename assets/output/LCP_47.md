@@ -1,4 +1,17 @@
-# [LCP 47. 入场安检](https://2xiao.github.io/leetcode-js/lcp/LCP_47.html)
+---
+title: LCP 47. 入场安检
+description: LeetCode,LCP 47. 入场安检,入场安检,入场安检,解题思路,数组,动态规划
+keywords:
+  - LeetCode
+  - LCP 47. 入场安检
+  - 入场安检
+  - 入场安检
+  - 解题思路
+  - 数组
+  - 动态规划
+---
+
+# LCP 47. 入场安检
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/oPs9Bm)
 

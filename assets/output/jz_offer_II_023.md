@@ -1,4 +1,18 @@
-# [23. 两个链表的第一个重合节点](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_023.html)
+---
+title: 23. 两个链表的第一个重合节点
+description: LeetCode,23. 两个链表的第一个重合节点,两个链表的第一个重合节点,两个链表的第一个重合节点,解题思路,哈希表,链表,双指针
+keywords:
+  - LeetCode
+  - 23. 两个链表的第一个重合节点
+  - 两个链表的第一个重合节点
+  - 两个链表的第一个重合节点
+  - 解题思路
+  - 哈希表
+  - 链表
+  - 双指针
+---
+
+# 23. 两个链表的第一个重合节点
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/3u1WK4)
 

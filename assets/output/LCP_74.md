@@ -1,4 +1,15 @@
-# [LCP 74. 最强祝福力场](https://2xiao.github.io/leetcode-js/lcp/LCP_74.html)
+---
+title: LCP 74. 最强祝福力场
+description: LeetCode,LCP 74. 最强祝福力场,最强祝福力场,最强祝福力场,解题思路
+keywords:
+  - LeetCode
+  - LCP 74. 最强祝福力场
+  - 最强祝福力场
+  - 最强祝福力场
+  - 解题思路
+---
+
+# LCP 74. 最强祝福力场
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xepqZ5)
 

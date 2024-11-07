@@ -1,4 +1,17 @@
-# [17. 打印从1到最大的n位数](https://2xiao.github.io/leetcode-js/offer/jz_offer_17_1.html)
+---
+title: 17. 打印从1到最大的n位数
+description: LeetCode,17. 打印从1到最大的n位数,打印从1到最大的n位数,打印从1到最大的n位数,解题思路,数组,数学
+keywords:
+  - LeetCode
+  - 17. 打印从1到最大的n位数
+  - 打印从1到最大的n位数
+  - 打印从1到最大的n位数
+  - 解题思路
+  - 数组
+  - 数学
+---
+
+# 17. 打印从1到最大的n位数
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/da-yin-cong-1dao-zui-da-de-nwei-shu-lcof)
 

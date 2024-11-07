@@ -1,4 +1,17 @@
-# [97. 子序列的数目](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_097.html)
+---
+title: 97. 子序列的数目
+description: LeetCode,97. 子序列的数目,子序列的数目,子序列的数目,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - 97. 子序列的数目
+  - 子序列的数目
+  - 子序列的数目
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# 97. 子序列的数目
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/21dk04)
 

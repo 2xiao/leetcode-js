@@ -1,4 +1,18 @@
-# [LCP 24. 数字游戏](https://2xiao.github.io/leetcode-js/lcp/LCP_24.html)
+---
+title: LCP 24. 数字游戏
+description: LeetCode,LCP 24. 数字游戏,数字游戏,数字游戏,解题思路,数组,数学,堆（优先队列）
+keywords:
+  - LeetCode
+  - LCP 24. 数字游戏
+  - 数字游戏
+  - 数字游戏
+  - 解题思路
+  - 数组
+  - 数学
+  - 堆（优先队列）
+---
+
+# LCP 24. 数字游戏
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/5TxKeK)
 

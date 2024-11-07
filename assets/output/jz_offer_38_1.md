@@ -1,4 +1,17 @@
-# [38. 字符串的排列](https://2xiao.github.io/leetcode-js/offer/jz_offer_38_1.html)
+---
+title: 38. 字符串的排列
+description: LeetCode,38. 字符串的排列,字符串的排列,字符串的排列,解题思路,字符串,回溯
+keywords:
+  - LeetCode
+  - 38. 字符串的排列
+  - 字符串的排列
+  - 字符串的排列
+  - 解题思路
+  - 字符串
+  - 回溯
+---
+
+# 38. 字符串的排列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof)
 

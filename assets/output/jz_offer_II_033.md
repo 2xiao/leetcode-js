@@ -1,4 +1,19 @@
-# [33. 变位词组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_033.html)
+---
+title: 33. 变位词组
+description: LeetCode,33. 变位词组,变位词组,变位词组,解题思路,数组,哈希表,字符串,排序
+keywords:
+  - LeetCode
+  - 33. 变位词组
+  - 变位词组
+  - 变位词组
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 字符串
+  - 排序
+---
+
+# 33. 变位词组
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/sfvd7V)
 

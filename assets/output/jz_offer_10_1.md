@@ -1,4 +1,18 @@
-# [10. 斐波那契数列](https://2xiao.github.io/leetcode-js/offer/jz_offer_10_1.html)
+---
+title: 10. 斐波那契数列
+description: LeetCode,10. 斐波那契数列,斐波那契数列,斐波那契数列,解题思路,记忆化搜索,数学,动态规划
+keywords:
+  - LeetCode
+  - 10. 斐波那契数列
+  - 斐波那契数列
+  - 斐波那契数列
+  - 解题思路
+  - 记忆化搜索
+  - 数学
+  - 动态规划
+---
+
+# 10. 斐波那契数列
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fei-bo-na-qi-shu-lie-lcof)
 

@@ -1,4 +1,18 @@
-# [64. 求1+2+…+n](https://2xiao.github.io/leetcode-js/offer/jz_offer_64_1.html)
+---
+title: 64. 求1+2+…+n
+description: LeetCode,64. 求1+2+…+n,求1+2+…+n,求1+2+…+n,解题思路,位运算,递归,脑筋急转弯
+keywords:
+  - LeetCode
+  - 64. 求1+2+…+n
+  - 求1+2+…+n
+  - 求1+2+…+n
+  - 解题思路
+  - 位运算
+  - 递归
+  - 脑筋急转弯
+---
+
+# 64. 求1+2+…+n
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`脑筋急转弯`](/tag/brainteaser.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qiu-12n-lcof)
 

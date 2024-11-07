@@ -1,4 +1,17 @@
-# [70. 排序数组中只出现一次的数字](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_070.html)
+---
+title: 70. 排序数组中只出现一次的数字
+description: LeetCode,70. 排序数组中只出现一次的数字,排序数组中只出现一次的数字,排序数组中只出现一次的数字,解题思路,数组,二分查找
+keywords:
+  - LeetCode
+  - 70. 排序数组中只出现一次的数字
+  - 排序数组中只出现一次的数字
+  - 排序数组中只出现一次的数字
+  - 解题思路
+  - 数组
+  - 二分查找
+---
+
+# 70. 排序数组中只出现一次的数字
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/skFtm2)
 

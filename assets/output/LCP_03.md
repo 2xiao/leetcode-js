@@ -1,4 +1,18 @@
-# [LCP 03. 机器人大冒险](https://2xiao.github.io/leetcode-js/lcp/LCP_03.html)
+---
+title: LCP 03. 机器人大冒险
+description: LeetCode,LCP 03. 机器人大冒险,机器人大冒险,Programmable Robot,解题思路,数组,哈希表,模拟
+keywords:
+  - LeetCode
+  - LCP 03. 机器人大冒险
+  - 机器人大冒险
+  - Programmable Robot
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 模拟
+---
+
+# LCP 03. 机器人大冒险
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/programmable-robot)
 

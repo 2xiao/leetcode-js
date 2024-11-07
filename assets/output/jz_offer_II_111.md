@@ -1,4 +1,21 @@
-# [111. 计算除法](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_111.html)
+---
+title: 111. 计算除法
+description: LeetCode,111. 计算除法,计算除法,计算除法,解题思路,深度优先搜索,广度优先搜索,并查集,图,数组,最短路
+keywords:
+  - LeetCode
+  - 111. 计算除法
+  - 计算除法
+  - 计算除法
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 并查集
+  - 图
+  - 数组
+  - 最短路
+---
+
+# 111. 计算除法
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`最短路`](/tag/shortest-path.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/vlzXQL)
 

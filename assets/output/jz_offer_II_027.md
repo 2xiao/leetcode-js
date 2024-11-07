@@ -1,4 +1,19 @@
-# [27. 回文链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_027.html)
+---
+title: 27. 回文链表
+description: LeetCode,27. 回文链表,回文链表,回文链表,解题思路,栈,递归,链表,双指针
+keywords:
+  - LeetCode
+  - 27. 回文链表
+  - 回文链表
+  - 回文链表
+  - 解题思路
+  - 栈
+  - 递归
+  - 链表
+  - 双指针
+---
+
+# 27. 回文链表
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/aMhZSa)
 

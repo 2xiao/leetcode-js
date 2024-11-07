@@ -1,4 +1,16 @@
-# [15. 二进制中1的个数](https://2xiao.github.io/leetcode-js/offer/jz_offer_15_1.html)
+---
+title: 15. 二进制中1的个数
+description: LeetCode,15. 二进制中1的个数,二进制中1的个数,二进制中1的个数,解题思路,位运算
+keywords:
+  - LeetCode
+  - 15. 二进制中1的个数
+  - 二进制中1的个数
+  - 二进制中1的个数
+  - 解题思路
+  - 位运算
+---
+
+# 15. 二进制中1的个数
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-jin-zhi-zhong-1de-ge-shu-lcof)
 

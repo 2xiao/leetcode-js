@@ -1,4 +1,19 @@
-# [4. 二维数组中的查找](https://2xiao.github.io/leetcode-js/offer/jz_offer_04_1.html)
+---
+title: 4. 二维数组中的查找
+description: LeetCode,4. 二维数组中的查找,二维数组中的查找,二维数组中的查找,解题思路,数组,二分查找,分治,矩阵
+keywords:
+  - LeetCode
+  - 4. 二维数组中的查找
+  - 二维数组中的查找
+  - 二维数组中的查找
+  - 解题思路
+  - 数组
+  - 二分查找
+  - 分治
+  - 矩阵
+---
+
+# 4. 二维数组中的查找
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof)
 

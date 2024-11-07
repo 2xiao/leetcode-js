@@ -1,4 +1,17 @@
-# [LCP 12. 小张刷题计划](https://2xiao.github.io/leetcode-js/lcp/LCP_12.html)
+---
+title: LCP 12. 小张刷题计划
+description: LeetCode,LCP 12. 小张刷题计划,小张刷题计划,小张刷题计划,解题思路,数组,二分查找
+keywords:
+  - LeetCode
+  - LCP 12. 小张刷题计划
+  - 小张刷题计划
+  - 小张刷题计划
+  - 解题思路
+  - 数组
+  - 二分查找
+---
+
+# LCP 12. 小张刷题计划
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/xiao-zhang-shua-ti-ji-hua)
 

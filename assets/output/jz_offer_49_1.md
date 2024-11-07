@@ -1,4 +1,19 @@
-# [49. 丑数](https://2xiao.github.io/leetcode-js/offer/jz_offer_49_1.html)
+---
+title: 49. 丑数
+description: LeetCode,49. 丑数,丑数,丑数,解题思路,哈希表,数学,动态规划,堆（优先队列）
+keywords:
+  - LeetCode
+  - 49. 丑数
+  - 丑数
+  - 丑数
+  - 解题思路
+  - 哈希表
+  - 数学
+  - 动态规划
+  - 堆（优先队列）
+---
+
+# 49. 丑数
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/chou-shu-lcof)
 

@@ -1,4 +1,18 @@
-# [115. 重建序列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_115.html)
+---
+title: 115. 重建序列
+description: LeetCode,115. 重建序列,重建序列,重建序列,解题思路,图,拓扑排序,数组
+keywords:
+  - LeetCode
+  - 115. 重建序列
+  - 重建序列
+  - 重建序列
+  - 解题思路
+  - 图
+  - 拓扑排序
+  - 数组
+---
+
+# 115. 重建序列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ur2n8P)
 

@@ -1,4 +1,16 @@
-# [LCP 22. 黑白方格画](https://2xiao.github.io/leetcode-js/lcp/LCP_22.html)
+---
+title: LCP 22. 黑白方格画
+description: LeetCode,LCP 22. 黑白方格画,黑白方格画,黑白方格画,解题思路,数学
+keywords:
+  - LeetCode
+  - LCP 22. 黑白方格画
+  - 黑白方格画
+  - 黑白方格画
+  - 解题思路
+  - 数学
+---
+
+# LCP 22. 黑白方格画
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ccw6C7)
 

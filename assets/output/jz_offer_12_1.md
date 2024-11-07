@@ -1,4 +1,19 @@
-# [12. 矩阵中的路径](https://2xiao.github.io/leetcode-js/offer/jz_offer_12_1.html)
+---
+title: 12. 矩阵中的路径
+description: LeetCode,12. 矩阵中的路径,矩阵中的路径,矩阵中的路径,解题思路,数组,字符串,回溯,矩阵
+keywords:
+  - LeetCode
+  - 12. 矩阵中的路径
+  - 矩阵中的路径
+  - 矩阵中的路径
+  - 解题思路
+  - 数组
+  - 字符串
+  - 回溯
+  - 矩阵
+---
+
+# 12. 矩阵中的路径
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ju-zhen-zhong-de-lu-jing-lcof)
 

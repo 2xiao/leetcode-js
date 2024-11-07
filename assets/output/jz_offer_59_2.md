@@ -1,4 +1,18 @@
-# [59-II. 队列的最大值](https://2xiao.github.io/leetcode-js/offer/jz_offer_59_2.html)
+---
+title: 59-II. 队列的最大值
+description: LeetCode,59-II. 队列的最大值,队列的最大值,队列的最大值,解题思路,设计,队列,单调队列
+keywords:
+  - LeetCode
+  - 59-II. 队列的最大值
+  - 队列的最大值
+  - 队列的最大值
+  - 解题思路
+  - 设计
+  - 队列
+  - 单调队列
+---
+
+# 59-II. 队列的最大值
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`单调队列`](/tag/monotonic-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/dui-lie-de-zui-da-zhi-lcof)
 

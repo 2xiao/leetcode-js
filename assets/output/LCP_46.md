@@ -1,4 +1,18 @@
-# [LCP 46. 志愿者调配](https://2xiao.github.io/leetcode-js/lcp/LCP_46.html)
+---
+title: LCP 46. 志愿者调配
+description: LeetCode,LCP 46. 志愿者调配,志愿者调配,志愿者调配,解题思路,图,数组,数学
+keywords:
+  - LeetCode
+  - LCP 46. 志愿者调配
+  - 志愿者调配
+  - 志愿者调配
+  - 解题思路
+  - 图
+  - 数组
+  - 数学
+---
+
+# LCP 46. 志愿者调配
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/05ZEDJ)
 

@@ -1,4 +1,19 @@
-# [LCS 02. 完成一半题目](https://2xiao.github.io/leetcode-js/lcs/LCS_02.html)
+---
+title: LCS 02. 完成一半题目
+description: LeetCode,LCS 02. 完成一半题目,完成一半题目,完成一半题目,解题思路,贪心,数组,哈希表,排序
+keywords:
+  - LeetCode
+  - LCS 02. 完成一半题目
+  - 完成一半题目
+  - 完成一半题目
+  - 解题思路
+  - 贪心
+  - 数组
+  - 哈希表
+  - 排序
+---
+
+# LCS 02. 完成一半题目
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/WqXACV)
 

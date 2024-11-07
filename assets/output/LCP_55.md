@@ -1,4 +1,16 @@
-# [LCP 55. 采集果实](https://2xiao.github.io/leetcode-js/lcp/LCP_55.html)
+---
+title: LCP 55. 采集果实
+description: LeetCode,LCP 55. 采集果实,采集果实,采集果实,解题思路,数组
+keywords:
+  - LeetCode
+  - LCP 55. 采集果实
+  - 采集果实
+  - 采集果实
+  - 解题思路
+  - 数组
+---
+
+# LCP 55. 采集果实
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/PTXy4P)
 

@@ -1,4 +1,19 @@
-# [LCP 64. 二叉树灯饰](https://2xiao.github.io/leetcode-js/lcp/LCP_64.html)
+---
+title: LCP 64. 二叉树灯饰
+description: LeetCode,LCP 64. 二叉树灯饰,二叉树灯饰,二叉树灯饰,解题思路,树,深度优先搜索,动态规划,二叉树
+keywords:
+  - LeetCode
+  - LCP 64. 二叉树灯饰
+  - 二叉树灯饰
+  - 二叉树灯饰
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 动态规划
+  - 二叉树
+---
+
+# LCP 64. 二叉树灯饰
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/U7WvvU)
 

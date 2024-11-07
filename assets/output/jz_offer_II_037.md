@@ -1,4 +1,18 @@
-# [37. 小行星碰撞](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_037.html)
+---
+title: 37. 小行星碰撞
+description: LeetCode,37. 小行星碰撞,小行星碰撞,小行星碰撞,解题思路,栈,数组,模拟
+keywords:
+  - LeetCode
+  - 37. 小行星碰撞
+  - 小行星碰撞
+  - 小行星碰撞
+  - 解题思路
+  - 栈
+  - 数组
+  - 模拟
+---
+
+# 37. 小行星碰撞
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/XagZNi)
 

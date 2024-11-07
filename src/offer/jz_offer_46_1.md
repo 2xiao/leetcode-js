@@ -1,4 +1,17 @@
-# [46. 把数字翻译成字符串](https://2xiao.github.io/leetcode-js/offer/jz_offer_46_1.html)
+---
+title: 46. 把数字翻译成字符串
+description: LeetCode,46. 把数字翻译成字符串,把数字翻译成字符串,把数字翻译成字符串,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - 46. 把数字翻译成字符串
+  - 把数字翻译成字符串
+  - 把数字翻译成字符串
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# 46. 把数字翻译成字符串
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ba-shu-zi-fan-yi-cheng-zi-fu-chuan-lcof)
 

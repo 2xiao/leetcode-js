@@ -1,4 +1,15 @@
-# [LCP 77. 符文储备](https://2xiao.github.io/leetcode-js/lcp/LCP_77.html)
+---
+title: LCP 77. 符文储备
+description: LeetCode,LCP 77. 符文储备,符文储备,符文储备,解题思路
+keywords:
+  - LeetCode
+  - LCP 77. 符文储备
+  - 符文储备
+  - 符文储备
+  - 解题思路
+---
+
+# LCP 77. 符文储备
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/W2ZX4X)
 

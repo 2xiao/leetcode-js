@@ -1,4 +1,16 @@
-# [29. 排序的循环链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_029.html)
+---
+title: 29. 排序的循环链表
+description: LeetCode,29. 排序的循环链表,排序的循环链表,排序的循环链表,解题思路,链表
+keywords:
+  - LeetCode
+  - 29. 排序的循环链表
+  - 排序的循环链表
+  - 排序的循环链表
+  - 解题思路
+  - 链表
+---
+
+# 29. 排序的循环链表
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/4ueAj6)
 

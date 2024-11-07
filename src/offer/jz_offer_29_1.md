@@ -1,4 +1,18 @@
-# [29. 顺时针打印矩阵](https://2xiao.github.io/leetcode-js/offer/jz_offer_29_1.html)
+---
+title: 29. 顺时针打印矩阵
+description: LeetCode,29. 顺时针打印矩阵,顺时针打印矩阵,顺时针打印矩阵,解题思路,数组,矩阵,模拟
+keywords:
+  - LeetCode
+  - 29. 顺时针打印矩阵
+  - 顺时针打印矩阵
+  - 顺时针打印矩阵
+  - 解题思路
+  - 数组
+  - 矩阵
+  - 模拟
+---
+
+# 29. 顺时针打印矩阵
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/shun-shi-zhen-da-yin-ju-zhen-lcof)
 

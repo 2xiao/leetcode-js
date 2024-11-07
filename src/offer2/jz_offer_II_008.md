@@ -1,4 +1,19 @@
-# [8. 和大于等于 target 的最短子数组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_008.html)
+---
+title: 8. 和大于等于 target 的最短子数组
+description: LeetCode,8. 和大于等于 target 的最短子数组,和大于等于 target 的最短子数组,和大于等于 target 的最短子数组,解题思路,数组,二分查找,前缀和,滑动窗口
+keywords:
+  - LeetCode
+  - 8. 和大于等于 target 的最短子数组
+  - 和大于等于 target 的最短子数组
+  - 和大于等于 target 的最短子数组
+  - 解题思路
+  - 数组
+  - 二分查找
+  - 前缀和
+  - 滑动窗口
+---
+
+# 8. 和大于等于 target 的最短子数组
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/2VG8Kg)
 

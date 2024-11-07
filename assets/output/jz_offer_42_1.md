@@ -1,4 +1,18 @@
-# [42. 连续子数组的最大和](https://2xiao.github.io/leetcode-js/offer/jz_offer_42_1.html)
+---
+title: 42. 连续子数组的最大和
+description: LeetCode,42. 连续子数组的最大和,连续子数组的最大和,连续子数组的最大和,解题思路,数组,分治,动态规划
+keywords:
+  - LeetCode
+  - 42. 连续子数组的最大和
+  - 连续子数组的最大和
+  - 连续子数组的最大和
+  - 解题思路
+  - 数组
+  - 分治
+  - 动态规划
+---
+
+# 42. 连续子数组的最大和
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/lian-xu-zi-shu-zu-de-zui-da-he-lcof)
 

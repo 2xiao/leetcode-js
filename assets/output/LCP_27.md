@@ -1,4 +1,19 @@
-# [LCP 27. 黑盒光线反射](https://2xiao.github.io/leetcode-js/lcp/LCP_27.html)
+---
+title: LCP 27. 黑盒光线反射
+description: LeetCode,LCP 27. 黑盒光线反射,黑盒光线反射,黑盒光线反射,解题思路,设计,线段树,数学,有序集合
+keywords:
+  - LeetCode
+  - LCP 27. 黑盒光线反射
+  - 黑盒光线反射
+  - 黑盒光线反射
+  - 解题思路
+  - 设计
+  - 线段树
+  - 数学
+  - 有序集合
+---
+
+# LCP 27. 黑盒光线反射
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数学`](/tag/math.md) [`有序集合`](/tag/ordered-set.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/IQvJ9i)
 

@@ -1,4 +1,20 @@
-# [LCP 31. 变换的迷宫](https://2xiao.github.io/leetcode-js/lcp/LCP_31.html)
+---
+title: LCP 31. 变换的迷宫
+description: LeetCode,LCP 31. 变换的迷宫,变换的迷宫,变换的迷宫,解题思路,深度优先搜索,广度优先搜索,数组,动态规划,矩阵
+keywords:
+  - LeetCode
+  - LCP 31. 变换的迷宫
+  - 变换的迷宫
+  - 变换的迷宫
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 数组
+  - 动态规划
+  - 矩阵
+---
+
+# LCP 31. 变换的迷宫
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Db3wC1)
 

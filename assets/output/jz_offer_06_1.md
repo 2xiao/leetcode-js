@@ -1,4 +1,19 @@
-# [6. 从尾到头打印链表](https://2xiao.github.io/leetcode-js/offer/jz_offer_06_1.html)
+---
+title: 6. 从尾到头打印链表
+description: LeetCode,6. 从尾到头打印链表,从尾到头打印链表,从尾到头打印链表,解题思路,栈,递归,链表,双指针
+keywords:
+  - LeetCode
+  - 6. 从尾到头打印链表
+  - 从尾到头打印链表
+  - 从尾到头打印链表
+  - 解题思路
+  - 栈
+  - 递归
+  - 链表
+  - 双指针
+---
+
+# 6. 从尾到头打印链表
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof)
 

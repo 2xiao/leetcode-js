@@ -1,4 +1,19 @@
-# [67. 最大的异或](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_067.html)
+---
+title: 67. 最大的异或
+description: LeetCode,67. 最大的异或,最大的异或,最大的异或,解题思路,位运算,字典树,数组,哈希表
+keywords:
+  - LeetCode
+  - 67. 最大的异或
+  - 最大的异或
+  - 最大的异或
+  - 解题思路
+  - 位运算
+  - 字典树
+  - 数组
+  - 哈希表
+---
+
+# 67. 最大的异或
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ms70jA)
 

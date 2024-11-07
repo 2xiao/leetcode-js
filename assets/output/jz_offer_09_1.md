@@ -1,4 +1,18 @@
-# [9. 用两个栈实现队列](https://2xiao.github.io/leetcode-js/offer/jz_offer_09_1.html)
+---
+title: 9. 用两个栈实现队列
+description: LeetCode,9. 用两个栈实现队列,用两个栈实现队列,用两个栈实现队列,解题思路,栈,设计,队列
+keywords:
+  - LeetCode
+  - 9. 用两个栈实现队列
+  - 用两个栈实现队列
+  - 用两个栈实现队列
+  - 解题思路
+  - 栈
+  - 设计
+  - 队列
+---
+
+# 9. 用两个栈实现队列
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
 

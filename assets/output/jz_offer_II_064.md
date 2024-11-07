@@ -1,4 +1,20 @@
-# [64. 神奇的字典](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_064.html)
+---
+title: 64. 神奇的字典
+description: LeetCode,64. 神奇的字典,神奇的字典,神奇的字典,解题思路,深度优先搜索,设计,字典树,哈希表,字符串
+keywords:
+  - LeetCode
+  - 64. 神奇的字典
+  - 神奇的字典
+  - 神奇的字典
+  - 解题思路
+  - 深度优先搜索
+  - 设计
+  - 字典树
+  - 哈希表
+  - 字符串
+---
+
+# 64. 神奇的字典
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/US1pGT)
 

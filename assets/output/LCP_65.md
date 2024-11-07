@@ -1,4 +1,17 @@
-# [LCP 65. 舒适的湿度](https://2xiao.github.io/leetcode-js/lcp/LCP_65.html)
+---
+title: LCP 65. 舒适的湿度
+description: LeetCode,LCP 65. 舒适的湿度,舒适的湿度,舒适的湿度,解题思路,数组,动态规划
+keywords:
+  - LeetCode
+  - LCP 65. 舒适的湿度
+  - 舒适的湿度
+  - 舒适的湿度
+  - 解题思路
+  - 数组
+  - 动态规划
+---
+
+# LCP 65. 舒适的湿度
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/3aqs1c)
 

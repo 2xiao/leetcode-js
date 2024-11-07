@@ -1,4 +1,15 @@
-# [LCP 79. 提取咒文](https://2xiao.github.io/leetcode-js/lcp/LCP_79.html)
+---
+title: LCP 79. 提取咒文
+description: LeetCode,LCP 79. 提取咒文,提取咒文,提取咒文,解题思路
+keywords:
+  - LeetCode
+  - LCP 79. 提取咒文
+  - 提取咒文
+  - 提取咒文
+  - 解题思路
+---
+
+# LCP 79. 提取咒文
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/kjpLFZ)
 

@@ -1,4 +1,17 @@
-# [24. 反转链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_024.html)
+---
+title: 24. 反转链表
+description: LeetCode,24. 反转链表,反转链表,反转链表,解题思路,递归,链表
+keywords:
+  - LeetCode
+  - 24. 反转链表
+  - 反转链表
+  - 反转链表
+  - 解题思路
+  - 递归
+  - 链表
+---
+
+# 24. 反转链表
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/UHnkqh)
 

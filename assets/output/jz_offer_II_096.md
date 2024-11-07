@@ -1,4 +1,17 @@
-# [96. 字符串交织](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_096.html)
+---
+title: 96. 字符串交织
+description: LeetCode,96. 字符串交织,字符串交织,字符串交织,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - 96. 字符串交织
+  - 字符串交织
+  - 字符串交织
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# 96. 字符串交织
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/IY6buf)
 

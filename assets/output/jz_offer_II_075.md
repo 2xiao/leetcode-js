@@ -1,4 +1,19 @@
-# [75. 数组相对排序](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_075.html)
+---
+title: 75. 数组相对排序
+description: LeetCode,75. 数组相对排序,数组相对排序,数组相对排序,解题思路,数组,哈希表,计数排序,排序
+keywords:
+  - LeetCode
+  - 75. 数组相对排序
+  - 数组相对排序
+  - 数组相对排序
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 计数排序
+  - 排序
+---
+
+# 75. 数组相对排序
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0H97ZC)
 

@@ -1,4 +1,17 @@
-# [84. 含有重复元素集合的全排列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_084.html)
+---
+title: 84. 含有重复元素集合的全排列
+description: LeetCode,84. 含有重复元素集合的全排列,含有重复元素集合的全排列,含有重复元素集合的全排列,解题思路,数组,回溯
+keywords:
+  - LeetCode
+  - 84. 含有重复元素集合的全排列
+  - 含有重复元素集合的全排列
+  - 含有重复元素集合的全排列
+  - 解题思路
+  - 数组
+  - 回溯
+---
+
+# 84. 含有重复元素集合的全排列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/7p8L0Z)
 

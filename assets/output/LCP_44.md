@@ -1,4 +1,20 @@
-# [LCP 44. 开幕式焰火](https://2xiao.github.io/leetcode-js/lcp/LCP_44.html)
+---
+title: LCP 44. 开幕式焰火
+description: LeetCode,LCP 44. 开幕式焰火,开幕式焰火,开幕式焰火,解题思路,树,深度优先搜索,广度优先搜索,哈希表,二叉树
+keywords:
+  - LeetCode
+  - LCP 44. 开幕式焰火
+  - 开幕式焰火
+  - 开幕式焰火
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 广度优先搜索
+  - 哈希表
+  - 二叉树
+---
+
+# LCP 44. 开幕式焰火
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/sZ59z6)
 

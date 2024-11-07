@@ -1,4 +1,15 @@
-# [LCP 78. 城墙防线](https://2xiao.github.io/leetcode-js/lcp/LCP_78.html)
+---
+title: LCP 78. 城墙防线
+description: LeetCode,LCP 78. 城墙防线,城墙防线,城墙防线,解题思路
+keywords:
+  - LeetCode
+  - LCP 78. 城墙防线
+  - 城墙防线
+  - 城墙防线
+  - 解题思路
+---
+
+# LCP 78. 城墙防线
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Nsibyl)
 

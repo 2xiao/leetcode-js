@@ -1,4 +1,19 @@
-# [LCP 02. 分式化简](https://2xiao.github.io/leetcode-js/lcp/LCP_02.html)
+---
+title: LCP 02. 分式化简
+description: LeetCode,LCP 02. 分式化简,分式化简,Deep Dark Fraction,解题思路,数组,数学,数论,模拟
+keywords:
+  - LeetCode
+  - LCP 02. 分式化简
+  - 分式化简
+  - Deep Dark Fraction
+  - 解题思路
+  - 数组
+  - 数学
+  - 数论
+  - 模拟
+---
+
+# LCP 02. 分式化简
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) [`模拟`](/tag/simulation.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/deep-dark-fraction)
 

@@ -1,4 +1,18 @@
-# [LCP 20. 快速公交](https://2xiao.github.io/leetcode-js/lcp/LCP_20.html)
+---
+title: LCP 20. 快速公交
+description: LeetCode,LCP 20. 快速公交,快速公交,快速公交,解题思路,记忆化搜索,数组,动态规划
+keywords:
+  - LeetCode
+  - LCP 20. 快速公交
+  - 快速公交
+  - 快速公交
+  - 解题思路
+  - 记忆化搜索
+  - 数组
+  - 动态规划
+---
+
+# LCP 20. 快速公交
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`记忆化搜索`](/tag/memoization.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/meChtZ)
 

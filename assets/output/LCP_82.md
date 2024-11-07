@@ -1,4 +1,15 @@
-# [LCP 82. 万灵之树](https://2xiao.github.io/leetcode-js/lcp/LCP_82.html)
+---
+title: LCP 82. 万灵之树
+description: LeetCode,LCP 82. 万灵之树,万灵之树,万灵之树,解题思路
+keywords:
+  - LeetCode
+  - LCP 82. 万灵之树
+  - 万灵之树
+  - 万灵之树
+  - 解题思路
+---
+
+# LCP 82. 万灵之树
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/cnHoX6)
 

@@ -1,4 +1,16 @@
-# [LCP 01. 猜数字](https://2xiao.github.io/leetcode-js/lcp/LCP_01.html)
+---
+title: LCP 01. 猜数字
+description: LeetCode,LCP 01. 猜数字,猜数字,Guess Numbers,解题思路,数组
+keywords:
+  - LeetCode
+  - LCP 01. 猜数字
+  - 猜数字
+  - Guess Numbers
+  - 解题思路
+  - 数组
+---
+
+# LCP 01. 猜数字
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/guess-numbers)
 

@@ -1,4 +1,17 @@
-# [58. 翻转单词顺序](https://2xiao.github.io/leetcode-js/offer/jz_offer_58_1.html)
+---
+title: 58. 翻转单词顺序
+description: LeetCode,58. 翻转单词顺序,翻转单词顺序,翻转单词顺序,解题思路,双指针,字符串
+keywords:
+  - LeetCode
+  - 58. 翻转单词顺序
+  - 翻转单词顺序
+  - 翻转单词顺序
+  - 解题思路
+  - 双指针
+  - 字符串
+---
+
+# 58. 翻转单词顺序
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fan-zhuan-dan-ci-shun-xu-lcof)
 

@@ -1,4 +1,19 @@
-# [62. 实现前缀树](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_062.html)
+---
+title: 62. 实现前缀树
+description: LeetCode,62. 实现前缀树,实现前缀树,实现前缀树,解题思路,设计,字典树,哈希表,字符串
+keywords:
+  - LeetCode
+  - 62. 实现前缀树
+  - 实现前缀树
+  - 实现前缀树
+  - 解题思路
+  - 设计
+  - 字典树
+  - 哈希表
+  - 字符串
+---
+
+# 62. 实现前缀树
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/QC3q1f)
 

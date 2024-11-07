@@ -1,4 +1,18 @@
-# [42. 最近请求次数](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_042.html)
+---
+title: 42. 最近请求次数
+description: LeetCode,42. 最近请求次数,最近请求次数,最近请求次数,解题思路,设计,队列,数据流
+keywords:
+  - LeetCode
+  - 42. 最近请求次数
+  - 最近请求次数
+  - 最近请求次数
+  - 解题思路
+  - 设计
+  - 队列
+  - 数据流
+---
+
+# 42. 最近请求次数
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/H8086Q)
 

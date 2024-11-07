@@ -1,4 +1,21 @@
-# [114. 外星文字典](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_114.html)
+---
+title: 114. 外星文字典
+description: LeetCode,114. 外星文字典,外星文字典,外星文字典,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序,数组,字符串
+keywords:
+  - LeetCode
+  - 114. 外星文字典
+  - 外星文字典
+  - 外星文字典
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 图
+  - 拓扑排序
+  - 数组
+  - 字符串
+---
+
+# 114. 外星文字典
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/Jf1JuT)
 

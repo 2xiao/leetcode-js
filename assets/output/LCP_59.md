@@ -1,4 +1,17 @@
-# [LCP 59. 搭桥过河](https://2xiao.github.io/leetcode-js/lcp/LCP_59.html)
+---
+title: LCP 59. 搭桥过河
+description: LeetCode,LCP 59. 搭桥过河,搭桥过河,搭桥过河,解题思路,数组,动态规划
+keywords:
+  - LeetCode
+  - LCP 59. 搭桥过河
+  - 搭桥过河
+  - 搭桥过河
+  - 解题思路
+  - 数组
+  - 动态规划
+---
+
+# LCP 59. 搭桥过河
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/NfY1m5)
 

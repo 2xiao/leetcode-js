@@ -1,4 +1,15 @@
-# [LCP 76. 魔法棋盘](https://2xiao.github.io/leetcode-js/lcp/LCP_76.html)
+---
+title: LCP 76. 魔法棋盘
+description: LeetCode,LCP 76. 魔法棋盘,魔法棋盘,魔法棋盘,解题思路
+keywords:
+  - LeetCode
+  - LCP 76. 魔法棋盘
+  - 魔法棋盘
+  - 魔法棋盘
+  - 解题思路
+---
+
+# LCP 76. 魔法棋盘
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/1ybDKD)
 

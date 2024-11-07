@@ -1,4 +1,20 @@
-# [LCP 69. Hello LeetCode!](https://2xiao.github.io/leetcode-js/lcp/LCP_69.html)
+---
+title: LCP 69. Hello LeetCode!
+description: LeetCode,LCP 69. Hello LeetCode!,Hello LeetCode!,Hello LeetCode!,解题思路,位运算,数组,字符串,动态规划,状态压缩
+keywords:
+  - LeetCode
+  - LCP 69. Hello LeetCode!
+  - Hello LeetCode!
+  - Hello LeetCode!
+  - 解题思路
+  - 位运算
+  - 数组
+  - 字符串
+  - 动态规划
+  - 状态压缩
+---
+
+# LCP 69. Hello LeetCode!
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`状态压缩`](/tag/bitmask.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/rMeRt2)
 

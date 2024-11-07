@@ -1,4 +1,17 @@
-# [56. 二叉搜索树中两个节点之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_056.html)
+---
+title: 56. 二叉搜索树中两个节点之和
+description: LeetCode,56. 二叉搜索树中两个节点之和,二叉搜索树中两个节点之和,二叉搜索树中两个节点之和,解题思路,数组,滑动窗口
+keywords:
+  - LeetCode
+  - 56. 二叉搜索树中两个节点之和
+  - 二叉搜索树中两个节点之和
+  - 二叉搜索树中两个节点之和
+  - 解题思路
+  - 数组
+  - 滑动窗口
+---
+
+# 56. 二叉搜索树中两个节点之和
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/opLdQZ)
 

@@ -1,4 +1,19 @@
-# [LCP 39. 无人机方阵](https://2xiao.github.io/leetcode-js/lcp/LCP_39.html)
+---
+title: LCP 39. 无人机方阵
+description: LeetCode,LCP 39. 无人机方阵,无人机方阵,无人机方阵,解题思路,数组,哈希表,计数,矩阵
+keywords:
+  - LeetCode
+  - LCP 39. 无人机方阵
+  - 无人机方阵
+  - 无人机方阵
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 计数
+  - 矩阵
+---
+
+# LCP 39. 无人机方阵
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) [`矩阵`](/tag/matrix.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0jQkd0)
 

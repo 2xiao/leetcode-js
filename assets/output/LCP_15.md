@@ -1,4 +1,19 @@
-# [LCP 15. 游乐园的迷宫](https://2xiao.github.io/leetcode-js/lcp/LCP_15.html)
+---
+title: LCP 15. 游乐园的迷宫
+description: LeetCode,LCP 15. 游乐园的迷宫,游乐园的迷宫,游乐园的迷宫,解题思路,贪心,几何,数组,数学
+keywords:
+  - LeetCode
+  - LCP 15. 游乐园的迷宫
+  - 游乐园的迷宫
+  - 游乐园的迷宫
+  - 解题思路
+  - 贪心
+  - 几何
+  - 数组
+  - 数学
+---
+
+# LCP 15. 游乐园的迷宫
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/you-le-yuan-de-mi-gong)
 

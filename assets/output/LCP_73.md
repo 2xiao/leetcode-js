@@ -1,4 +1,15 @@
-# [LCP 73. 探险营地](https://2xiao.github.io/leetcode-js/lcp/LCP_73.html)
+---
+title: LCP 73. 探险营地
+description: LeetCode,LCP 73. 探险营地,探险营地,探险营地,解题思路
+keywords:
+  - LeetCode
+  - LCP 73. 探险营地
+  - 探险营地
+  - 探险营地
+  - 解题思路
+---
+
+# LCP 73. 探险营地
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/0Zeoeg)
 
