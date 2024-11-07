@@ -1,4 +1,21 @@
-# [55. 二叉搜索树迭代器](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_055.html)
+---
+title: 55. 二叉搜索树迭代器
+description: LeetCode,55. 二叉搜索树迭代器,二叉搜索树迭代器,二叉搜索树迭代器,解题思路,栈,树,设计,二叉搜索树,二叉树,迭代器
+keywords:
+  - LeetCode
+  - 55. 二叉搜索树迭代器
+  - 二叉搜索树迭代器
+  - 二叉搜索树迭代器
+  - 解题思路
+  - 栈
+  - 树
+  - 设计
+  - 二叉搜索树
+  - 二叉树
+  - 迭代器
+---
+
+# 55. 二叉搜索树迭代器
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md) [`迭代器`](/tag/iterator.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/kTOapQ)
 

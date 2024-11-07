@@ -1,4 +1,21 @@
-# [48. 序列化与反序列化二叉树](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_048.html)
+---
+title: 48. 序列化与反序列化二叉树
+description: LeetCode,48. 序列化与反序列化二叉树,序列化与反序列化二叉树,序列化与反序列化二叉树,解题思路,树,深度优先搜索,广度优先搜索,设计,字符串,二叉树
+keywords:
+  - LeetCode
+  - 48. 序列化与反序列化二叉树
+  - 序列化与反序列化二叉树
+  - 序列化与反序列化二叉树
+  - 解题思路
+  - 树
+  - 深度优先搜索
+  - 广度优先搜索
+  - 设计
+  - 字符串
+  - 二叉树
+---
+
+# 48. 序列化与反序列化二叉树
 
 🔴 <font color=#ff334b>Hard</font>&emsp; 🔖&ensp; [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`二叉树`](/tag/binary-tree.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/h54YBf)
 

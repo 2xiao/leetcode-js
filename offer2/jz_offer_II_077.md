@@ -1,4 +1,20 @@
-# [77. 链表排序](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_077.html)
+---
+title: 77. 链表排序
+description: LeetCode,77. 链表排序,链表排序,链表排序,解题思路,链表,双指针,分治,排序,归并排序
+keywords:
+  - LeetCode
+  - 77. 链表排序
+  - 链表排序
+  - 链表排序
+  - 解题思路
+  - 链表
+  - 双指针
+  - 分治
+  - 排序
+  - 归并排序
+---
+
+# 77. 链表排序
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) [`排序`](/tag/sorting.md) [`归并排序`](/tag/merge-sort.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/7WHec2)
 

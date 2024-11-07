@@ -1,4 +1,18 @@
-# [10. 和为 k 的子数组](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_010.html)
+---
+title: 10. 和为 k 的子数组
+description: LeetCode,10. 和为 k 的子数组,和为 k 的子数组,和为 k 的子数组,解题思路,数组,哈希表,前缀和
+keywords:
+  - LeetCode
+  - 10. 和为 k 的子数组
+  - 和为 k 的子数组
+  - 和为 k 的子数组
+  - 解题思路
+  - 数组
+  - 哈希表
+  - 前缀和
+---
+
+# 10. 和为 k 的子数组
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/QTMn0o)
 

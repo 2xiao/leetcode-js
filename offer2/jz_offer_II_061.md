@@ -1,4 +1,17 @@
-# [61. 和最小的 k 个数对](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_061.html)
+---
+title: 61. 和最小的 k 个数对
+description: LeetCode,61. 和最小的 k 个数对,和最小的 k 个数对,和最小的 k 个数对,解题思路,数组,堆（优先队列）
+keywords:
+  - LeetCode
+  - 61. 和最小的 k 个数对
+  - 和最小的 k 个数对
+  - 和最小的 k 个数对
+  - 解题思路
+  - 数组
+  - 堆（优先队列）
+---
+
+# 61. 和最小的 k 个数对
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qn8gGX)
 

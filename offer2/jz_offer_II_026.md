@@ -1,4 +1,19 @@
-# [26. 重排链表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_026.html)
+---
+title: 26. 重排链表
+description: LeetCode,26. 重排链表,重排链表,重排链表,解题思路,栈,递归,链表,双指针
+keywords:
+  - LeetCode
+  - 26. 重排链表
+  - 重排链表
+  - 重排链表
+  - 解题思路
+  - 栈
+  - 递归
+  - 链表
+  - 双指针
+---
+
+# 26. 重排链表
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/LGjMqU)
 

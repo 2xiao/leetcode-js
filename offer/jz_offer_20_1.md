@@ -1,4 +1,16 @@
-# [20. 表示数值的字符串](https://2xiao.github.io/leetcode-js/offer/jz_offer_20_1.html)
+---
+title: 20. 表示数值的字符串
+description: LeetCode,20. 表示数值的字符串,表示数值的字符串,表示数值的字符串,解题思路,字符串
+keywords:
+  - LeetCode
+  - 20. 表示数值的字符串
+  - 表示数值的字符串
+  - 表示数值的字符串
+  - 解题思路
+  - 字符串
+---
+
+# 20. 表示数值的字符串
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof)
 

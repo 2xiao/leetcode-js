@@ -1,4 +1,17 @@
-# [18. 有效的回文](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_018.html)
+---
+title: 18. 有效的回文
+description: LeetCode,18. 有效的回文,有效的回文,有效的回文,解题思路,双指针,字符串
+keywords:
+  - LeetCode
+  - 18. 有效的回文
+  - 有效的回文
+  - 有效的回文
+  - 解题思路
+  - 双指针
+  - 字符串
+---
+
+# 18. 有效的回文
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/XltzEq)
 

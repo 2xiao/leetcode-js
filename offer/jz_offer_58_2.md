@@ -1,4 +1,18 @@
-# [58-II. 左旋转字符串](https://2xiao.github.io/leetcode-js/offer/jz_offer_58_2.html)
+---
+title: 58-II. 左旋转字符串
+description: LeetCode,58-II. 左旋转字符串,左旋转字符串,左旋转字符串,解题思路,数学,双指针,字符串
+keywords:
+  - LeetCode
+  - 58-II. 左旋转字符串
+  - 左旋转字符串
+  - 左旋转字符串
+  - 解题思路
+  - 数学
+  - 双指针
+  - 字符串
+---
+
+# 58-II. 左旋转字符串
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof)
 

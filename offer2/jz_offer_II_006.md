@@ -1,4 +1,18 @@
-# [6. 排序数组中两个数字之和](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_006.html)
+---
+title: 6. 排序数组中两个数字之和
+description: LeetCode,6. 排序数组中两个数字之和,排序数组中两个数字之和,排序数组中两个数字之和,解题思路,数组,双指针,二分查找
+keywords:
+  - LeetCode
+  - 6. 排序数组中两个数字之和
+  - 排序数组中两个数字之和
+  - 排序数组中两个数字之和
+  - 解题思路
+  - 数组
+  - 双指针
+  - 二分查找
+---
+
+# 6. 排序数组中两个数字之和
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/kLl5u1)
 

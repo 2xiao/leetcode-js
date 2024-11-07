@@ -1,4 +1,18 @@
-# [45. 把数组排成最小的数](https://2xiao.github.io/leetcode-js/offer/jz_offer_45_1.html)
+---
+title: 45. 把数组排成最小的数
+description: LeetCode,45. 把数组排成最小的数,把数组排成最小的数,把数组排成最小的数,解题思路,贪心,字符串,排序
+keywords:
+  - LeetCode
+  - 45. 把数组排成最小的数
+  - 把数组排成最小的数
+  - 把数组排成最小的数
+  - 解题思路
+  - 贪心
+  - 字符串
+  - 排序
+---
+
+# 45. 把数组排成最小的数
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof)
 

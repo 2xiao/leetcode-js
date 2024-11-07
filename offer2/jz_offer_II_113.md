@@ -1,4 +1,19 @@
-# [113. 课程顺序](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_113.html)
+---
+title: 113. 课程顺序
+description: LeetCode,113. 课程顺序,课程顺序,课程顺序,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序
+keywords:
+  - LeetCode
+  - 113. 课程顺序
+  - 课程顺序
+  - 课程顺序
+  - 解题思路
+  - 深度优先搜索
+  - 广度优先搜索
+  - 图
+  - 拓扑排序
+---
+
+# 113. 课程顺序
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/QA2IGt)
 

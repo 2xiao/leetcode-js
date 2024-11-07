@@ -1,4 +1,17 @@
-# [35. 复杂链表的复制](https://2xiao.github.io/leetcode-js/offer/jz_offer_35_1.html)
+---
+title: 35. 复杂链表的复制
+description: LeetCode,35. 复杂链表的复制,复杂链表的复制,复杂链表的复制,解题思路,哈希表,链表
+keywords:
+  - LeetCode
+  - 35. 复杂链表的复制
+  - 复杂链表的复制
+  - 复杂链表的复制
+  - 解题思路
+  - 哈希表
+  - 链表
+---
+
+# 35. 复杂链表的复制
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fu-za-lian-biao-de-fu-zhi-lcof)
 

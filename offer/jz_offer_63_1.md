@@ -1,4 +1,17 @@
-# [63. 股票的最大利润](https://2xiao.github.io/leetcode-js/offer/jz_offer_63_1.html)
+---
+title: 63. 股票的最大利润
+description: LeetCode,63. 股票的最大利润,股票的最大利润,股票的最大利润,解题思路,数组,动态规划
+keywords:
+  - LeetCode
+  - 63. 股票的最大利润
+  - 股票的最大利润
+  - 股票的最大利润
+  - 解题思路
+  - 数组
+  - 动态规划
+---
+
+# 63. 股票的最大利润
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/gu-piao-de-zui-da-li-run-lcof)
 

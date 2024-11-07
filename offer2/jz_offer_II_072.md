@@ -1,4 +1,17 @@
-# [72. 求平方根](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_072.html)
+---
+title: 72. 求平方根
+description: LeetCode,72. 求平方根,求平方根,求平方根,解题思路,数学,二分查找
+keywords:
+  - LeetCode
+  - 72. 求平方根
+  - 求平方根
+  - 求平方根
+  - 解题思路
+  - 数学
+  - 二分查找
+---
+
+# 72. 求平方根
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/jJ0w9p)
 

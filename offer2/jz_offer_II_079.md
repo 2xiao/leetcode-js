@@ -1,4 +1,18 @@
-# [79. 所有子集](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_079.html)
+---
+title: 79. 所有子集
+description: LeetCode,79. 所有子集,所有子集,所有子集,解题思路,位运算,数组,回溯
+keywords:
+  - LeetCode
+  - 79. 所有子集
+  - 所有子集
+  - 所有子集
+  - 解题思路
+  - 位运算
+  - 数组
+  - 回溯
+---
+
+# 79. 所有子集
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/TVdhkn)
 

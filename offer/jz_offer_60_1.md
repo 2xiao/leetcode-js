@@ -1,4 +1,18 @@
-# [60. n个骰子的点数](https://2xiao.github.io/leetcode-js/offer/jz_offer_60_1.html)
+---
+title: 60. n个骰子的点数
+description: LeetCode,60. n个骰子的点数,n个骰子的点数,n个骰子的点数,解题思路,数学,动态规划,概率与统计
+keywords:
+  - LeetCode
+  - 60. n个骰子的点数
+  - n个骰子的点数
+  - n个骰子的点数
+  - 解题思路
+  - 数学
+  - 动态规划
+  - 概率与统计
+---
+
+# 60. n个骰子的点数
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof)
 

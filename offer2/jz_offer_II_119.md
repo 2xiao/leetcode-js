@@ -1,4 +1,18 @@
-# [119. 最长连续序列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_119.html)
+---
+title: 119. 最长连续序列
+description: LeetCode,119. 最长连续序列,最长连续序列,最长连续序列,解题思路,并查集,数组,哈希表
+keywords:
+  - LeetCode
+  - 119. 最长连续序列
+  - 最长连续序列
+  - 最长连续序列
+  - 解题思路
+  - 并查集
+  - 数组
+  - 哈希表
+---
+
+# 119. 最长连续序列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/WhsWhI)
 

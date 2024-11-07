@@ -1,4 +1,19 @@
-# [58. 日程表](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_058.html)
+---
+title: 58. 日程表
+description: LeetCode,58. 日程表,日程表,日程表,解题思路,设计,线段树,二分查找,有序集合
+keywords:
+  - LeetCode
+  - 58. 日程表
+  - 日程表
+  - 日程表
+  - 解题思路
+  - 设计
+  - 线段树
+  - 二分查找
+  - 有序集合
+---
+
+# 58. 日程表
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`二分查找`](/tag/binary-search.md) [`有序集合`](/tag/ordered-set.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/fi9suh)
 

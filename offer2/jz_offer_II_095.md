@@ -1,4 +1,17 @@
-# [95. 最长公共子序列](https://2xiao.github.io/leetcode-js/offer2/jz_offer_II_095.html)
+---
+title: 95. 最长公共子序列
+description: LeetCode,95. 最长公共子序列,最长公共子序列,最长公共子序列,解题思路,字符串,动态规划
+keywords:
+  - LeetCode
+  - 95. 最长公共子序列
+  - 最长公共子序列
+  - 最长公共子序列
+  - 解题思路
+  - 字符串
+  - 动态规划
+---
+
+# 95. 最长公共子序列
 
 🟠 <font color=#ffb800>Medium</font>&emsp; 🔖&ensp; [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/qJnOS7)
 

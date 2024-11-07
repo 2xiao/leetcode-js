@@ -1,4 +1,18 @@
-# [57-II. 和为s的连续正数序列](https://2xiao.github.io/leetcode-js/offer/jz_offer_57_2.html)
+---
+title: 57-II. 和为s的连续正数序列
+description: LeetCode,57-II. 和为s的连续正数序列,和为s的连续正数序列,和为s的连续正数序列,解题思路,数学,双指针,枚举
+keywords:
+  - LeetCode
+  - 57-II. 和为s的连续正数序列
+  - 和为s的连续正数序列
+  - 和为s的连续正数序列
+  - 解题思路
+  - 数学
+  - 双指针
+  - 枚举
+---
+
+# 57-II. 和为s的连续正数序列
 
 🟢 <font color=#15bd66>Easy</font>&emsp; 🔖&ensp; [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) [`枚举`](/tag/enumeration.md)&emsp; 🔗&ensp;[`力扣`](https://leetcode.cn/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof)
 
