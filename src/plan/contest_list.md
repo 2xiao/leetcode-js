@@ -1596,7 +1596,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 2562 | 找出数组的串联值 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-array-concatenation-value) [🔗](https://leetcode.com/problems/find-the-array-concatenation-value) |
-| 2563 | 统计公平数对的数目 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-fair-pairs) [🔗](https://leetcode.com/problems/count-the-number-of-fair-pairs) |
+| 2563 | 统计公平数对的数目 | [[✓]](/problem/2563.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-fair-pairs) [🔗](https://leetcode.com/problems/count-the-number-of-fair-pairs) |
 | 2564 | 子字符串异或查询 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/substring-xor-queries) [🔗](https://leetcode.com/problems/substring-xor-queries) |
 | 2565 | 最少得分子序列 |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) | 🔴 | [🀄️](https://leetcode.cn/problems/subsequence-with-the-minimum-score) [🔗](https://leetcode.com/problems/subsequence-with-the-minimum-score) |
 
@@ -2628,7 +2628,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 2129 | 将标题首字母大写 |  |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/capitalize-the-title) [🔗](https://leetcode.com/problems/capitalize-the-title) |
-| 2130 | 链表最大孪生和 |  |  [`栈`](/tag/stack.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list) [🔗](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) |
+| 2130 | 链表最大孪生和 | [[✓]](/problem/2130.md) |  [`栈`](/tag/stack.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-twin-sum-of-a-linked-list) [🔗](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list) |
 | 2131 | 连接两字母单词得到的最长回文串 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-palindrome-by-concatenating-two-letter-words) [🔗](https://leetcode.com/problems/longest-palindrome-by-concatenating-two-letter-words) |
 | 2132 | 用邮票贴满网格图 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/stamping-the-grid) [🔗](https://leetcode.com/problems/stamping-the-grid) |
 
@@ -2712,7 +2712,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 2094 | 找出 3 位偶数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`枚举`](/tag/enumeration.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/finding-3-digit-even-numbers) [🔗](https://leetcode.com/problems/finding-3-digit-even-numbers) |
-| 2095 | 删除链表的中间节点 |  |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list) [🔗](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) |
+| 2095 | 删除链表的中间节点 | [[✓]](/problem/2095.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/delete-the-middle-node-of-a-linked-list) [🔗](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list) |
 | 2096 | 从二叉树一个节点到另一个节点每一步的方向 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/step-by-step-directions-from-a-binary-tree-node-to-another) [🔗](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another) |
 | 2097 | 合法重新排列数对 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | 🔴 | [🀄️](https://leetcode.cn/problems/valid-arrangement-of-pairs) [🔗](https://leetcode.com/problems/valid-arrangement-of-pairs) |
 
@@ -2785,7 +2785,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 2062 | 统计字符串中的元音子字符串 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-vowel-substrings-of-a-string) [🔗](https://leetcode.com/problems/count-vowel-substrings-of-a-string) |
 | 2063 | 所有子字符串中的元音 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/vowels-of-all-substrings) [🔗](https://leetcode.com/problems/vowels-of-all-substrings) |
-| 2064 | 分配给商店的最多商品的最小值 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store) [🔗](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) |
+| 2064 | 分配给商店的最多商品的最小值 | [[✓]](/problem/2064.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store) [🔗](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) |
 | 2065 | 最大化一张图中的路径价值 |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-path-quality-of-a-graph) [🔗](https://leetcode.com/problems/maximum-path-quality-of-a-graph) |
 
 
@@ -5435,7 +5435,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 933 | 最近的请求次数 |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-recent-calls) [🔗](https://leetcode.com/problems/number-of-recent-calls) |
+| 933 | 最近的请求次数 | [[✓]](/problem/0933.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数据流`](/tag/data-stream.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-recent-calls) [🔗](https://leetcode.com/problems/number-of-recent-calls) |
 | 935 | 骑士拨号器 |  |  [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/knight-dialer) [🔗](https://leetcode.com/problems/knight-dialer) |
 | 934 | 最短的桥 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-bridge) [🔗](https://leetcode.com/problems/shortest-bridge) |
 | 936 | 戳印序列 |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`队列`](/tag/queue.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/stamping-the-sequence) [🔗](https://leetcode.com/problems/stamping-the-sequence) |
@@ -5615,7 +5615,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
-| 872 | 叶子相似的树 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | 🟢 | [🀄️](https://leetcode.cn/problems/leaf-similar-trees) [🔗](https://leetcode.com/problems/leaf-similar-trees) |
+| 872 | 叶子相似的树 | [[✓]](/problem/0872.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | 🟢 | [🀄️](https://leetcode.cn/problems/leaf-similar-trees) [🔗](https://leetcode.com/problems/leaf-similar-trees) |
 | 874 | 模拟行走机器人 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/walking-robot-simulation) [🔗](https://leetcode.com/problems/walking-robot-simulation) |
 | 875 | 爱吃香蕉的珂珂 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/koko-eating-bananas) [🔗](https://leetcode.com/problems/koko-eating-bananas) |
 | 873 | 最长的斐波那契子序列的长度 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence) [🔗](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence) |
