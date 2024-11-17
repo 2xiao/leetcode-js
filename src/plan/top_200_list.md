@@ -524,7 +524,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: | :------: |
 | 3 | 无重复字符的最长子串 | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters) | 642 |
 | 76 | 最小覆盖子串 | [[✓]](/problem/0076.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-window-substring) [🔗](https://leetcode.com/problems/minimum-window-substring) | 87 |
-| 862 | 和至少为 K 的最短子数组 |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k) [🔗](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) | 16 |
+| 862 | 和至少为 K 的最短子数组 | [[✓]](/problem/0862.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k) [🔗](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) | 16 |
 | 1004 | 最大连续1的个数 III | [[✓]](/problem/1004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/max-consecutive-ones-iii) [🔗](https://leetcode.com/problems/max-consecutive-ones-iii) | 22 |
 
 

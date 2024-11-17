@@ -3889,7 +3889,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 1572 | 矩阵对角线元素的和 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟢 | [🀄️](https://leetcode.cn/problems/matrix-diagonal-sum) [🔗](https://leetcode.com/problems/matrix-diagonal-sum) |
 | 1573 | 分割字符串的方案数 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-split-a-string) [🔗](https://leetcode.com/problems/number-of-ways-to-split-a-string) |
-| 1574 | 删除最短的子数组使剩余数组有序 |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted) [🔗](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) |
+| 1574 | 删除最短的子数组使剩余数组有序 | [[✓]](/problem/1574.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted) [🔗](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) |
 | 1575 | 统计所有可行路径 |  |  [`记忆化搜索`](/tag/memoization.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-all-possible-routes) [🔗](https://leetcode.com/problems/count-all-possible-routes) |
 
 
@@ -5532,7 +5532,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------ | :------: |
 | 900 | RLE 迭代器 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`计数`](/tag/counting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/rle-iterator) [🔗](https://leetcode.com/problems/rle-iterator) |
-| 901 | 股票价格跨度 |  |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`数据流`](/tag/data-stream.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/online-stock-span) [🔗](https://leetcode.com/problems/online-stock-span) |
+| 901 | 股票价格跨度 | [[✓]](/problem/0901.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`数据流`](/tag/data-stream.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/online-stock-span) [🔗](https://leetcode.com/problems/online-stock-span) |
 | 902 | 最大为 N 的数字组合 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/numbers-at-most-n-given-digit-set) [🔗](https://leetcode.com/problems/numbers-at-most-n-given-digit-set) |
 | 903 | DI 序列的有效排列 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`前缀和`](/tag/prefix-sum.md) | 🔴 | [🀄️](https://leetcode.cn/problems/valid-permutations-for-di-sequence) [🔗](https://leetcode.com/problems/valid-permutations-for-di-sequence) |
 
@@ -5654,7 +5654,7 @@ headerDepth: 0
 | 860 | 柠檬水找零 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/lemonade-change) [🔗](https://leetcode.com/problems/lemonade-change) |
 | 863 | 二叉树中所有距离为 K 的结点 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/all-nodes-distance-k-in-binary-tree) [🔗](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree) |
 | 861 | 翻转矩阵后的得分 |  |  [`贪心`](/tag/greedy.md) [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/score-after-flipping-matrix) [🔗](https://leetcode.com/problems/score-after-flipping-matrix) |
-| 862 | 和至少为 K 的最短子数组 |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k) [🔗](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |
+| 862 | 和至少为 K 的最短子数组 | [[✓]](/problem/0862.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k) [🔗](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |
 
 
 ## Weekly Contest 90 (2018-06-24 09:30)
