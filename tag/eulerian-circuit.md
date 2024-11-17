@@ -18,8 +18,8 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 332 | [重新安排行程](https://leetcode.com/problems/reconstruct-itinerary) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
-| 753 | [破解保险箱](https://leetcode.com/problems/cracking-the-safe) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
-| 2097 | [合法重新排列数对](https://leetcode.com/problems/valid-arrangement-of-pairs) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 332 | 重新安排行程 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> | [🀄️](https://leetcode.cn/problems/reconstruct-itinerary) [🔗](https://leetcode.com/problems/reconstruct-itinerary) |
+| 753 | 破解保险箱 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> | [🀄️](https://leetcode.cn/problems/cracking-the-safe) [🔗](https://leetcode.com/problems/cracking-the-safe) |
+| 2097 | 合法重新排列数对 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`欧拉回路`](/tag/eulerian-circuit.md) | <font color=#ff334b>Hard</font> | [🀄️](https://leetcode.cn/problems/valid-arrangement-of-pairs) [🔗](https://leetcode.com/problems/valid-arrangement-of-pairs) |
