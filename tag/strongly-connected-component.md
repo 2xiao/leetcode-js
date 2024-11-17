@@ -18,8 +18,8 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
-| 1489 | 找到最小生成树里的关键边和伪关键边 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> | [🀄️](https://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) [🔗](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
-| 1568 | 使陆地分离的最少天数 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> | [🀄️](https://leetcode.cn/problems/minimum-number-of-days-to-disconnect-island) [🔗](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island) |
-| 2846 | 边权重均等查询 |  |  [`树`](/tag/tree.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | <font color=#ff334b>Hard</font> | [🀄️](https://leetcode.cn/problems/minimum-edge-weight-equilibrium-queries-in-a-tree) [🔗](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree) |
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
+| 1568 | [使陆地分离的最少天数](https://leetcode.com/problems/minimum-number-of-days-to-disconnect-island) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `2+` | <font color=#ff334b>Hard</font> |
+| 2846 | [边权重均等查询](https://leetcode.com/problems/minimum-edge-weight-equilibrium-queries-in-a-tree) |  |  [`树`](/tag/tree.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | <font color=#ff334b>Hard</font> |

@@ -18,7 +18,7 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
-| 470 | 用 Rand7() 实现 Rand10() |  |  [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) [`概率与统计`](/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/implement-rand10-using-rand7) [🔗](https://leetcode.com/problems/implement-rand10-using-rand7) |
-| 478 | 在圆内随机生成点 |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) `1+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/generate-random-point-in-a-circle) [🔗](https://leetcode.com/problems/generate-random-point-in-a-circle) |
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7) |  |  [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) [`概率与统计`](/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |
+| 478 | [在圆内随机生成点](https://leetcode.com/problems/generate-random-point-in-a-circle) |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) `1+` | <font color=#ffb800>Medium</font> |

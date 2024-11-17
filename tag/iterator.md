@@ -18,15 +18,15 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
-| 173 | 二叉搜索树迭代器 | [[✓]](/problem/0173.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/binary-search-tree-iterator) [🔗](https://leetcode.com/problems/binary-search-tree-iterator) |
-| 251 | 展开二维向量 🔒 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/flatten-2d-vector) [🔗](https://leetcode.com/problems/flatten-2d-vector) |
-| 281 | 锯齿迭代器 🔒 |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/zigzag-iterator) [🔗](https://leetcode.com/problems/zigzag-iterator) |
-| 284 | 窥视迭代器 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`迭代器`](/tag/iterator.md) | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/peeking-iterator) [🔗](https://leetcode.com/problems/peeking-iterator) |
-| 341 | 扁平化嵌套列表迭代器 |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `3+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/flatten-nested-list-iterator) [🔗](https://leetcode.com/problems/flatten-nested-list-iterator) |
-| 604 | 迭代压缩字符串 🔒 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> | [🀄️](https://leetcode.cn/problems/design-compressed-string-iterator) [🔗](https://leetcode.com/problems/design-compressed-string-iterator) |
-| 900 | RLE 迭代器 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/rle-iterator) [🔗](https://leetcode.com/problems/rle-iterator) |
-| 1286 | 字母组合迭代器 |  |  [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/iterator-for-combination) [🔗](https://leetcode.com/problems/iterator-for-combination) |
-| 1586 | 二叉搜索树迭代器 II 🔒 |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/binary-search-tree-iterator-ii) [🔗](https://leetcode.com/problems/binary-search-tree-iterator-ii) |
-| 剑指 Offer II 55 | 二叉搜索树迭代器 | [[✓]](/offer2/jz_offer_II_055.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | <font color=#ffb800>Medium</font> | [🀄️](https://leetcode.cn/problems/kTOapQ) |
+| 题号 | 标题 | 题解 | 标签 | 难度 |
+| :------: | :------ | :------: | :------ | :------ |
+| 173 | [二叉搜索树迭代器](https://leetcode.com/problems/binary-search-tree-iterator) | [[✓]](/problem/0173.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 251 | [展开二维向量 🔒](https://leetcode.com/problems/flatten-2d-vector) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | <font color=#ffb800>Medium</font> |
+| 281 | [锯齿迭代器 🔒](https://leetcode.com/problems/zigzag-iterator) |  |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
+| 284 | [窥视迭代器](https://leetcode.com/problems/peeking-iterator) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`迭代器`](/tag/iterator.md) | <font color=#ffb800>Medium</font> |
+| 341 | [扁平化嵌套列表迭代器](https://leetcode.com/problems/flatten-nested-list-iterator) |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `3+` | <font color=#ffb800>Medium</font> |
+| 604 | [迭代压缩字符串 🔒](https://leetcode.com/problems/design-compressed-string-iterator) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#15bd66>Easy</font> |
+| 900 | [RLE 迭代器](https://leetcode.com/problems/rle-iterator) |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`计数`](/tag/counting.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1286 | [字母组合迭代器](https://leetcode.com/problems/iterator-for-combination) |  |  [`设计`](/tag/design.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
+| 1586 | [二叉搜索树迭代器 II 🔒](https://leetcode.com/problems/binary-search-tree-iterator-ii) |  |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
+| 剑指 Offer II 55 | [二叉搜索树迭代器](https://leetcode.cn/problems/kTOapQ) | [[✓]](/offer2/jz_offer_II_055.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | <font color=#ffb800>Medium</font> |
