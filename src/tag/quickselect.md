@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 215 | 数组中的第K个最大元素 | [[✓]](/problem/0215.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/kth-largest-element-in-an-array) [🔗](https://leetcode.com/problems/kth-largest-element-in-an-array) |
 | 324 | 摆动排序 II |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/wiggle-sort-ii) [🔗](https://leetcode.com/problems/wiggle-sort-ii) |
 | 347 | 前 K 个高频元素 | [[✓]](/problem/0347.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/top-k-frequent-elements) [🔗](https://leetcode.com/problems/top-k-frequent-elements) |

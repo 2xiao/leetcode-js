@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 11 | 盛最多水的容器 | [[✓]](/problem/0011.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/container-with-most-water) [🔗](https://leetcode.com/problems/container-with-most-water) |
 | 44 | 通配符匹配 | [[✓]](/problem/0044.md) |  [`贪心`](/tag/greedy.md) [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/wildcard-matching) [🔗](https://leetcode.com/problems/wildcard-matching) |
 | 45 | 跳跃游戏 II | [[✓]](/problem/0045.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/jump-game-ii) [🔗](https://leetcode.com/problems/jump-game-ii) |

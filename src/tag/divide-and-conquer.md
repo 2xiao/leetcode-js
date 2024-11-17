@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 4 | 寻找两个正序数组的中位数 | [[✓]](/problem/0004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) | 🔴 | [🀄️](https://leetcode.cn/problems/median-of-two-sorted-arrays) [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays) |
 | 23 | 合并 K 个升序链表 | [[✓]](/problem/0023.md) |  [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/merge-k-sorted-lists) [🔗](https://leetcode.com/problems/merge-k-sorted-lists) |
 | 53 | 最大子数组和 | [[✓]](/problem/0053.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-subarray) [🔗](https://leetcode.com/problems/maximum-subarray) |

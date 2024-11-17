@@ -9,7 +9,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 504 | 七进制数 |  |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/base-7) [🔗](https://leetcode.com/problems/base-7) |
 | 405 | 数字转换为十六进制数 |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/convert-a-number-to-hexadecimal) [🔗](https://leetcode.com/problems/convert-a-number-to-hexadecimal) |
 | 190 | 颠倒二进制位 | [[✓]](/problem/0190.md) |  [`位运算`](/tag/bit-manipulation.md) [`分治`](/tag/divide-and-conquer.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-bits) [🔗](https://leetcode.com/problems/reverse-bits) |

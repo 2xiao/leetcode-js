@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 28 | 找出字符串中第一个匹配项的下标 | [[✓]](/problem/0028.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string) [🔗](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) |
 | 214 | 最短回文串 |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) [`哈希函数`](/tag/hash-function.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-palindrome) [🔗](https://leetcode.com/problems/shortest-palindrome) |
 | 459 | 重复的子字符串 | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/repeated-substring-pattern) [🔗](https://leetcode.com/problems/repeated-substring-pattern) |

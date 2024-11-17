@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 157 | 用 Read4 读取 N 个字符 🔒 |  |  [`数组`](/tag/array.md) [`交互`](/tag/interactive.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/read-n-characters-given-read4) [🔗](https://leetcode.com/problems/read-n-characters-given-read4) |
 | 158 | 用 Read4 读取 N 个字符 II - 多次调用 🔒 |  |  [`数组`](/tag/array.md) [`交互`](/tag/interactive.md) [`模拟`](/tag/simulation.md) | 🔴 | [🀄️](https://leetcode.cn/problems/read-n-characters-given-read4-ii-call-multiple-times) [🔗](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times) |
 | 277 | 搜寻名人 🔒 |  |  [`图`](/tag/graph.md) [`双指针`](/tag/two-pointers.md) [`交互`](/tag/interactive.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-celebrity) [🔗](https://leetcode.com/problems/find-the-celebrity) |

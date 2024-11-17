@@ -1690,7 +1690,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 707 | 设计链表 | [[✓]](/problem/0707.md) |  [`设计`](/tag/design.md) [`链表`](/tag/linked-list.md) | 🟠 | [🀄️](https://leetcode.cn/problems/design-linked-list) [🔗](https://leetcode.com/problems/design-linked-list) |
 | 83 | 删除排序链表中的重复元素 | [[✓]](/problem/0083.md) |  [`链表`](/tag/linked-list.md) | 🟢 | [🀄️](https://leetcode.cn/problems/remove-duplicates-from-sorted-list) [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-list) |
 | 82 | 删除排序链表中的重复元素 II | [[✓]](/problem/0082.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/remove-duplicates-from-sorted-list-ii) [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii) |
@@ -1708,7 +1708,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 148 | 排序链表 | [[✓]](/problem/0148.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) [`分治`](/tag/divide-and-conquer.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-list) [🔗](https://leetcode.com/problems/sort-list) |
 | 21 | 合并两个有序链表 | [[✓]](/problem/0021.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | 🟢 | [🀄️](https://leetcode.cn/problems/merge-two-sorted-lists) [🔗](https://leetcode.com/problems/merge-two-sorted-lists) |
 | 23 | 合并 K 个升序链表 | [[✓]](/problem/0023.md) |  [`链表`](/tag/linked-list.md) [`分治`](/tag/divide-and-conquer.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/merge-k-sorted-lists) [🔗](https://leetcode.com/problems/merge-k-sorted-lists) |
@@ -1718,7 +1718,7 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 141 | 环形链表 | [[✓]](/problem/0141.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/linked-list-cycle) [🔗](https://leetcode.com/problems/linked-list-cycle) |
 | 142 | 环形链表 II | [[✓]](/problem/0142.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/linked-list-cycle-ii) [🔗](https://leetcode.com/problems/linked-list-cycle-ii) |
 | 160 | 相交链表 | [[✓]](/problem/0160.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/intersection-of-two-linked-lists) [🔗](https://leetcode.com/problems/intersection-of-two-linked-lists) |

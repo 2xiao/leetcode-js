@@ -5,7 +5,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1 | 整数除法 | [[✓]](/offer2/jz_offer_II_001.md) |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/xoh6Oh) |
 | 2 | 二进制加法 | [[✓]](/offer2/jz_offer_II_002.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/JFETK5) |
 | 3 | 前 n 个数字二进制中 1 的个数 |  |  [`位运算`](/tag/bit-manipulation.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/w3tCBm) |

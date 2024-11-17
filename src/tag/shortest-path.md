@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 399 | 除法求值 | [[✓]](/problem/0399.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/evaluate-division) [🔗](https://leetcode.com/problems/evaluate-division) |
 | 499 | 迷宫 III 🔒 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `5+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-maze-iii) [🔗](https://leetcode.com/problems/the-maze-iii) |
 | 505 | 迷宫 II 🔒 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/the-maze-ii) [🔗](https://leetcode.com/problems/the-maze-ii) |

@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 146 | LRU 缓存 | [[✓]](/problem/0146.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/lru-cache) [🔗](https://leetcode.com/problems/lru-cache) |
 | 155 | 最小栈 | [[✓]](/problem/0155.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) | 🟠 | [🀄️](https://leetcode.cn/problems/min-stack) [🔗](https://leetcode.com/problems/min-stack) |
 | 170 | 两数之和 III - 数据结构设计 🔒 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/two-sum-iii-data-structure-design) [🔗](https://leetcode.com/problems/two-sum-iii-data-structure-design) |

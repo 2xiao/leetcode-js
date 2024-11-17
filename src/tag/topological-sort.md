@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 207 | 课程表 | [[✓]](/problem/0207.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/course-schedule) [🔗](https://leetcode.com/problems/course-schedule) |
 | 210 | 课程表 II | [[✓]](/problem/0210.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/course-schedule-ii) [🔗](https://leetcode.com/problems/course-schedule-ii) |
 | 269 | 火星词典 🔒 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/alien-dictionary) [🔗](https://leetcode.com/problems/alien-dictionary) |

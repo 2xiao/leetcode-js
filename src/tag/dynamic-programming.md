@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 5 | 最长回文子串 | [[✓]](/problem/0005.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-palindromic-substring) [🔗](https://leetcode.com/problems/longest-palindromic-substring) |
 | 10 | 正则表达式匹配 | [[✓]](/problem/0010.md) |  [`递归`](/tag/recursion.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/regular-expression-matching) [🔗](https://leetcode.com/problems/regular-expression-matching) |
 | 22 | 括号生成 | [[✓]](/problem/0022.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/generate-parentheses) [🔗](https://leetcode.com/problems/generate-parentheses) |
@@ -144,7 +144,7 @@
 | 730 | 统计不同回文子序列 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-different-palindromic-subsequences) [🔗](https://leetcode.com/problems/count-different-palindromic-subsequences) |
 | 740 | 删除并获得点数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/delete-and-earn) [🔗](https://leetcode.com/problems/delete-and-earn) |
 | 741 | 摘樱桃 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🔴 | [🀄️](https://leetcode.cn/problems/cherry-pickup) [🔗](https://leetcode.com/problems/cherry-pickup) |
-| 746 | 使用最小花费爬楼梯 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/min-cost-climbing-stairs) [🔗](https://leetcode.com/problems/min-cost-climbing-stairs) |
+| 746 | 使用最小花费爬楼梯 | [[✓]](/problem/0746.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/min-cost-climbing-stairs) [🔗](https://leetcode.com/problems/min-cost-climbing-stairs) |
 | 750 | 角矩形的数量 🔒 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-corner-rectangles) [🔗](https://leetcode.com/problems/number-of-corner-rectangles) |
 | 764 | 最大加号标志 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/largest-plus-sign) [🔗](https://leetcode.com/problems/largest-plus-sign) |
 | 787 | K 站中转内最便宜的航班 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/cheapest-flights-within-k-stops) [🔗](https://leetcode.com/problems/cheapest-flights-within-k-stops) |

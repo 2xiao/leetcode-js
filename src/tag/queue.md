@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 225 | 用队列实现栈 | [[✓]](/problem/0225.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | 🟢 | [🀄️](https://leetcode.cn/problems/implement-stack-using-queues) [🔗](https://leetcode.com/problems/implement-stack-using-queues) |
 | 232 | 用栈实现队列 | [[✓]](/problem/0232.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | 🟢 | [🀄️](https://leetcode.cn/problems/implement-queue-using-stacks) [🔗](https://leetcode.com/problems/implement-queue-using-stacks) |
 | 239 | 滑动窗口最大值 | [[✓]](/problem/0239.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/sliding-window-maximum) [🔗](https://leetcode.com/problems/sliding-window-maximum) |

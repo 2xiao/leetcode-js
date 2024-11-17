@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 470 | 用 Rand7() 实现 Rand10() |  |  [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) [`概率与统计`](/tag/probability-and-statistics.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/implement-rand10-using-rand7) [🔗](https://leetcode.com/problems/implement-rand10-using-rand7) |
 | 808 | 分汤 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md) | 🟠 | [🀄️](https://leetcode.cn/problems/soup-servings) [🔗](https://leetcode.com/problems/soup-servings) |
 | 837 | 新 21 点 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/new-21-game) [🔗](https://leetcode.com/problems/new-21-game) |

@@ -29,7 +29,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 167 | 两数之和 II - 输入有序数组 | [[✓]](/problem/0167.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted) [🔗](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) |
 | 344 | 反转字符串 | [[✓]](/problem/0344.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-string) [🔗](https://leetcode.com/problems/reverse-string) |
 | 345 | 反转字符串中的元音字母 | [[✓]](/problem/0345.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-vowels-of-a-string) [🔗](https://leetcode.com/problems/reverse-vowels-of-a-string) |
@@ -53,7 +53,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 26 | 删除有序数组中的重复项 | [[✓]](/problem/0026.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/remove-duplicates-from-sorted-array) [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-array) |
 | 80 | 删除有序数组中的重复项 II | [[✓]](/problem/0080.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/remove-duplicates-from-sorted-array-ii) [🔗](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii) |
 | 27 | 移除元素 | [[✓]](/problem/0027.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/remove-element) [🔗](https://leetcode.com/problems/remove-element) |
@@ -69,7 +69,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 350 | 两个数组的交集 II |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/intersection-of-two-arrays-ii) [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii) |
 | 925 | 长按键入 |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/long-pressed-name) [🔗](https://leetcode.com/problems/long-pressed-name) |
 | 844 | 比较含退格的字符串 | [[✓]](/problem/0844.md) |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/backspace-string-compare) [🔗](https://leetcode.com/problems/backspace-string-compare) |

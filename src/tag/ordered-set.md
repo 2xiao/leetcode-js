@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 218 | 天际线问题 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-skyline-problem) [🔗](https://leetcode.com/problems/the-skyline-problem) |
 | 220 | 存在重复元素 III |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/contains-duplicate-iii) [🔗](https://leetcode.com/problems/contains-duplicate-iii) |
 | 315 | 计算右侧小于当前元素的个数 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-of-smaller-numbers-after-self) [🔗](https://leetcode.com/problems/count-of-smaller-numbers-after-self) |

@@ -75,7 +75,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 125 | 验证回文串 | [[✓]](/problem/0125.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-palindrome) [🔗](https://leetcode.com/problems/valid-palindrome) |
 | 5 | 最长回文子串 | [[✓]](/problem/0005.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-palindromic-substring) [🔗](https://leetcode.com/problems/longest-palindromic-substring) |
 | 3 | 无重复字符的最长子串 | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
@@ -91,7 +91,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 28 | 找出字符串中第一个匹配项的下标 | [[✓]](/problem/0028.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string) [🔗](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) |
 | 459 | 重复的子字符串 | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/repeated-substring-pattern) [🔗](https://leetcode.com/problems/repeated-substring-pattern) |
 | 686 | 重复叠加字符串匹配 |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟠 | [🀄️](https://leetcode.cn/problems/repeated-string-match) [🔗](https://leetcode.com/problems/repeated-string-match) |
@@ -104,7 +104,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 208 | 实现 Trie (前缀树) | [[✓]](/problem/0208.md) |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/implement-trie-prefix-tree) [🔗](https://leetcode.com/problems/implement-trie-prefix-tree) |
 | 677 | 键值映射 |  |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/map-sum-pairs) [🔗](https://leetcode.com/problems/map-sum-pairs) |
 | 648 | 单词替换 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/replace-words) [🔗](https://leetcode.com/problems/replace-words) |

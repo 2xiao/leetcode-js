@@ -1,10 +1,10 @@
 # 目录
 
-已完成 482 道
+已完成 484 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1 | 两数之和 | [[✓]](/problem/0001.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-sum) [🔗](https://leetcode.com/problems/two-sum) |
 | 2 | 两数相加 | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/add-two-numbers) [🔗](https://leetcode.com/problems/add-two-numbers) |
 | 3 | 无重复字符的最长子串 | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
@@ -311,6 +311,7 @@
 | 731 | 我的日程安排表 II | [[✓]](/problem/0731.md) |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/my-calendar-ii) [🔗](https://leetcode.com/problems/my-calendar-ii) |
 | 735 | 小行星碰撞 | [[✓]](/problem/0735.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/asteroid-collision) [🔗](https://leetcode.com/problems/asteroid-collision) |
 | 739 | 每日温度 | [[✓]](/problem/0739.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | 🟠 | [🀄️](https://leetcode.cn/problems/daily-temperatures) [🔗](https://leetcode.com/problems/daily-temperatures) |
+| 746 | 使用最小花费爬楼梯 | [[✓]](/problem/0746.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/min-cost-climbing-stairs) [🔗](https://leetcode.com/problems/min-cost-climbing-stairs) |
 | 763 | 划分字母区间 | [[✓]](/problem/0763.md) |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/partition-labels) [🔗](https://leetcode.com/problems/partition-labels) |
 | 772 | 基本计算器 III 🔒 | [[✓]](/problem/0772.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/basic-calculator-iii) [🔗](https://leetcode.com/problems/basic-calculator-iii) |
 | 783 | 二叉搜索树节点最小距离 | [[✓]](/problem/0783.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-distance-between-bst-nodes) [🔗](https://leetcode.com/problems/minimum-distance-between-bst-nodes) |
@@ -370,6 +371,7 @@
 | 1574 | 删除最短的子数组使剩余数组有序 | [[✓]](/problem/1574.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted) [🔗](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) |
 | 1590 | 使数组和能被 P 整除 | [[✓]](/problem/1590.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/make-sum-divisible-by-p) [🔗](https://leetcode.com/problems/make-sum-divisible-by-p) |
 | 1593 | 拆分字符串使唯一子字符串的数目最大 | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings) [🔗](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) |
+| 1652 | 拆炸弹 | [[✓]](/problem/1652.md) |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/defuse-the-bomb) [🔗](https://leetcode.com/problems/defuse-the-bomb) |
 | 1657 | 确定两个字符串是否接近 | [[✓]](/problem/1657.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/determine-if-two-strings-are-close) [🔗](https://leetcode.com/problems/determine-if-two-strings-are-close) |
 | 1671 | 得到山形数组的最少删除次数 | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array) [🔗](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) |
 | 1679 | K 和数对的最大数目 | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/max-number-of-k-sum-pairs) [🔗](https://leetcode.com/problems/max-number-of-k-sum-pairs) |

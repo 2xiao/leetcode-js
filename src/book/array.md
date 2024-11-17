@@ -158,7 +158,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 189 | 轮转数组 | [[✓]](/problem/0189.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotate-array) [🔗](https://leetcode.com/problems/rotate-array) |
 | 66 | 加一 | [[✓]](/problem/0066.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/plus-one) [🔗](https://leetcode.com/problems/plus-one) |
 | 724 | 寻找数组的中心下标 | [[✓]](/problem/0724.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-pivot-index) [🔗](https://leetcode.com/problems/find-pivot-index) |
@@ -169,7 +169,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 498 | 对角线遍历 | [[✓]](/problem/0498.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/diagonal-traverse) [🔗](https://leetcode.com/problems/diagonal-traverse) |
 | 48 | 旋转图像 | [[✓]](/problem/0048.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotate-image) [🔗](https://leetcode.com/problems/rotate-image) |
 | 73 | 矩阵置零 | [[✓]](/problem/0073.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/set-matrix-zeroes) [🔗](https://leetcode.com/problems/set-matrix-zeroes) |

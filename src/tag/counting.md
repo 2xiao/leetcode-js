@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 169 | 多数元素 | [[✓]](/problem/0169.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/majority-element) [🔗](https://leetcode.com/problems/majority-element) |
 | 229 | 多数元素 II |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/majority-element-ii) [🔗](https://leetcode.com/problems/majority-element-ii) |
 | 299 | 猜数字游戏 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/bulls-and-cows) [🔗](https://leetcode.com/problems/bulls-and-cows) |

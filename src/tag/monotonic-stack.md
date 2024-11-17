@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 42 | 接雨水 | [[✓]](/problem/0042.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/trapping-rain-water) [🔗](https://leetcode.com/problems/trapping-rain-water) |
 | 84 | 柱状图中最大的矩形 | [[✓]](/problem/0084.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | 🔴 | [🀄️](https://leetcode.cn/problems/largest-rectangle-in-histogram) [🔗](https://leetcode.com/problems/largest-rectangle-in-histogram) |
 | 85 | 最大矩形 | [[✓]](/problem/0085.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximal-rectangle) [🔗](https://leetcode.com/problems/maximal-rectangle) |

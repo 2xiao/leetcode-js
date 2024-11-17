@@ -39,7 +39,7 @@ def gen_markdown_table(frame, need_sort = True):
     SPLIT2 = ":{}:"
     line = "|"
     for i in range(W):
-        if i in [1, 3, 4]:
+        if i in [1, 3]:
             line = "{} {} |".format(line, SPLIT.format('-'*6))
         else:
             line = "{} {} |".format(line, SPLIT2.format('-'*6))

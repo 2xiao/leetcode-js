@@ -1054,7 +1054,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 144 | 二叉树的前序遍历 | [[✓]](/problem/0144.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/binary-tree-preorder-traversal) [🔗](https://leetcode.com/problems/binary-tree-preorder-traversal) |
 | 94 | 二叉树的中序遍历 | [[✓]](/problem/0094.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/binary-tree-inorder-traversal) [🔗](https://leetcode.com/problems/binary-tree-inorder-traversal) |
 | 145 | 二叉树的后序遍历 | [[✓]](/problem/0145.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/binary-tree-postorder-traversal) [🔗](https://leetcode.com/problems/binary-tree-postorder-traversal) |
@@ -1082,7 +1082,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 105 | 从前序与中序遍历序列构造二叉树 | [[✓]](/problem/0105.md) |  [`树`](/tag/tree.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal) [🔗](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal) |
 | 106 | 从中序与后序遍历序列构造二叉树 | [[✓]](/problem/0106.md) |  [`树`](/tag/tree.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal) [🔗](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal) |
 | 889 | 根据前序和后序遍历构造二叉树 | [[✓]](/problem/0889.md) |  [`树`](/tag/tree.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-postorder-traversal) [🔗](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-postorder-traversal) |
@@ -1091,7 +1091,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 98 | 验证二叉搜索树 | [[✓]](/problem/0098.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/validate-binary-search-tree) [🔗](https://leetcode.com/problems/validate-binary-search-tree) |
 | 173 | 二叉搜索树迭代器 | [[✓]](/problem/0173.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/binary-search-tree-iterator) [🔗](https://leetcode.com/problems/binary-search-tree-iterator) |
 | 700 | 二叉搜索树中的搜索 | [[✓]](/problem/0700.md) |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`二叉树`](/tag/binary-tree.md) | 🟢 | [🀄️](https://leetcode.cn/problems/search-in-a-binary-search-tree) [🔗](https://leetcode.com/problems/search-in-a-binary-search-tree) |
@@ -1111,7 +1111,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 303 | 区域和检索 - 数组不可变 | [[✓]](/problem/0303.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/range-sum-query-immutable) [🔗](https://leetcode.com/problems/range-sum-query-immutable) |
 | 307 | 区域和检索 - 数组可修改 | [[✓]](/problem/0307.md) |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/range-sum-query-mutable) [🔗](https://leetcode.com/problems/range-sum-query-mutable) |
 | 354 | 俄罗斯套娃信封问题 | [[✓]](/problem/0354.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/russian-doll-envelopes) [🔗](https://leetcode.com/problems/russian-doll-envelopes) |
@@ -1120,7 +1120,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 370 | 区间加法 🔒 |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/range-addition) [🔗](https://leetcode.com/problems/range-addition) |
 | 1109 | 航班预订统计 |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/corporate-flight-bookings) [🔗](https://leetcode.com/problems/corporate-flight-bookings) |
 | 1450 | 在既定时间做作业的学生人数 |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-students-doing-homework-at-a-given-time) [🔗](https://leetcode.com/problems/number-of-students-doing-homework-at-a-given-time) |
@@ -1132,7 +1132,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 729 | 我的日程安排表 I | [[✓]](/problem/0729.md) |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/my-calendar-i) [🔗](https://leetcode.com/problems/my-calendar-i) |
 | 731 | 我的日程安排表 II | [[✓]](/problem/0731.md) |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/my-calendar-ii) [🔗](https://leetcode.com/problems/my-calendar-ii) |
 | 732 | 我的日程安排表 III |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`二分查找`](/tag/binary-search.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/my-calendar-iii) [🔗](https://leetcode.com/problems/my-calendar-iii) |
@@ -1141,7 +1141,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 218 | 天际线问题 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-skyline-problem) [🔗](https://leetcode.com/problems/the-skyline-problem) |
 | 391 | 完美矩形 |  |  [`数组`](/tag/array.md) [`扫描线`](/tag/line-sweep.md) | 🔴 | [🀄️](https://leetcode.cn/problems/perfect-rectangle) [🔗](https://leetcode.com/problems/perfect-rectangle) |
 | 850 | 矩形面积 II |  |  [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`有序集合`](/tag/ordered-set.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/rectangle-area-ii) [🔗](https://leetcode.com/problems/rectangle-area-ii) |
@@ -1150,7 +1150,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 303 | 区域和检索 - 数组不可变 | [[✓]](/problem/0303.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/range-sum-query-immutable) [🔗](https://leetcode.com/problems/range-sum-query-immutable) |
 | 307 | 区域和检索 - 数组可修改 | [[✓]](/problem/0307.md) |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/range-sum-query-mutable) [🔗](https://leetcode.com/problems/range-sum-query-mutable) |
 | 315 | 计算右侧小于当前元素的个数 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-of-smaller-numbers-after-self) [🔗](https://leetcode.com/problems/count-of-smaller-numbers-after-self) |
@@ -1164,7 +1164,7 @@ class NumArray {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 990 | 等式方程的可满足性 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/satisfiability-of-equality-equations) [🔗](https://leetcode.com/problems/satisfiability-of-equality-equations) |
 | 547 | 省份数量 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-provinces) [🔗](https://leetcode.com/problems/number-of-provinces) |
 | 684 | 冗余连接 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/redundant-connection) [🔗](https://leetcode.com/problems/redundant-connection) |

@@ -5,7 +5,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 3 | 数组中重复的数字 | [[✓]](/offer/jz_offer_03_1.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof) |
 | 4 | 二维数组中的查找 | [[✓]](/offer/jz_offer_04_1.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof) |
 | 5 | 替换空格 | [[✓]](/offer/jz_offer_05_1.md) |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/ti-huan-kong-ge-lcof) |

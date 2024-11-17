@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 218 | 天际线问题 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-skyline-problem) [🔗](https://leetcode.com/problems/the-skyline-problem) |
 | 391 | 完美矩形 |  |  [`数组`](/tag/array.md) [`扫描线`](/tag/line-sweep.md) | 🔴 | [🀄️](https://leetcode.cn/problems/perfect-rectangle) [🔗](https://leetcode.com/problems/perfect-rectangle) |
 | 850 | 矩形面积 II |  |  [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) [`有序集合`](/tag/ordered-set.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/rectangle-area-ii) [🔗](https://leetcode.com/problems/rectangle-area-ii) |

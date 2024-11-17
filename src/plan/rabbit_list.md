@@ -7,7 +7,7 @@ headerDepth: 0
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 | 频次 |
-| :------: | :------ | :------: | :------ | :------ | :------: | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: | :------: |
 | 141 | 环形链表 | [[✓]](/problem/0141.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/linked-list-cycle) [🔗](https://leetcode.com/problems/linked-list-cycle) | 216 |
 | 146 | LRU 缓存 | [[✓]](/problem/0146.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/lru-cache) [🔗](https://leetcode.com/problems/lru-cache) | 199 |
 | 206 | 反转链表 | [[✓]](/problem/0206.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-linked-list) [🔗](https://leetcode.com/problems/reverse-linked-list) | 196 |
@@ -185,7 +185,7 @@ headerDepth: 0
 | 240 | 搜索二维矩阵 II | [[✓]](/problem/0240.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/search-a-2d-matrix-ii) [🔗](https://leetcode.com/problems/search-a-2d-matrix-ii) | 12 |
 | 125 | 验证回文串 | [[✓]](/problem/0125.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-palindrome) [🔗](https://leetcode.com/problems/valid-palindrome) | 12 |
 | 827 | 最大人工岛 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/making-a-large-island) [🔗](https://leetcode.com/problems/making-a-large-island) | 12 |
-| 746 | 使用最小花费爬楼梯 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/min-cost-climbing-stairs) [🔗](https://leetcode.com/problems/min-cost-climbing-stairs) | 12 |
+| 746 | 使用最小花费爬楼梯 | [[✓]](/problem/0746.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/min-cost-climbing-stairs) [🔗](https://leetcode.com/problems/min-cost-climbing-stairs) | 12 |
 | 158 | 用 Read4 读取 N 个字符 II - 多次调用 🔒 |  |  [`数组`](/tag/array.md) [`交互`](/tag/interactive.md) [`模拟`](/tag/simulation.md) | 🔴 | [🀄️](https://leetcode.cn/problems/read-n-characters-given-read4-ii-call-multiple-times) [🔗](https://leetcode.com/problems/read-n-characters-given-read4-ii-call-multiple-times) | 12 |
 | 415 | 字符串相加 | [[✓]](/problem/0415.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/add-strings) [🔗](https://leetcode.com/problems/add-strings) | 12 |
 | 127 | 单词接龙 | [[✓]](/problem/0127.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🔴 | [🀄️](https://leetcode.cn/problems/word-ladder) [🔗](https://leetcode.com/problems/word-ladder) | 12 |

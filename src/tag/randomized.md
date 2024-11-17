@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 380 | O(1) 时间插入、删除和获取随机元素 | [[✓]](/problem/0380.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/insert-delete-getrandom-o1) [🔗](https://leetcode.com/problems/insert-delete-getrandom-o1) |
 | 381 | O(1) 时间插入、删除和获取随机元素 - 允许重复 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/insert-delete-getrandom-o1-duplicates-allowed) [🔗](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed) |
 | 382 | 链表随机节点 | [[✓]](/problem/0382.md) |  [`水塘抽样`](/tag/reservoir-sampling.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/linked-list-random-node) [🔗](https://leetcode.com/problems/linked-list-random-node) |

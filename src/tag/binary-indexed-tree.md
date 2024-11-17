@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 218 | 天际线问题 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-skyline-problem) [🔗](https://leetcode.com/problems/the-skyline-problem) |
 | 307 | 区域和检索 - 数组可修改 | [[✓]](/problem/0307.md) |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/range-sum-query-mutable) [🔗](https://leetcode.com/problems/range-sum-query-mutable) |
 | 308 | 二维区域和检索 - 矩阵可修改 🔒 |  |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/range-sum-query-2d-mutable) [🔗](https://leetcode.com/problems/range-sum-query-2d-mutable) |

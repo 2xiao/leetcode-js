@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 2 | 两数相加 | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/add-two-numbers) [🔗](https://leetcode.com/problems/add-two-numbers) |
 | 19 | 删除链表的倒数第 N 个结点 | [[✓]](/problem/0019.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/remove-nth-node-from-end-of-list) [🔗](https://leetcode.com/problems/remove-nth-node-from-end-of-list) |
 | 21 | 合并两个有序链表 | [[✓]](/problem/0021.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | 🟢 | [🀄️](https://leetcode.cn/problems/merge-two-sorted-lists) [🔗](https://leetcode.com/problems/merge-two-sorted-lists) |

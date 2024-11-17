@@ -546,7 +546,7 @@ var lengthOfLongestSubstring = function (s) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1343 | 大小为 K 且平均值大于等于阈值的子数组数目 |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) [🔗](https://leetcode.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold) |
 | 643 | 子数组最大平均数 I | [[✓]](/problem/0643.md) |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-average-subarray-i) [🔗](https://leetcode.com/problems/maximum-average-subarray-i) |
 | 1052 | 爱生气的书店老板 |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/grumpy-bookstore-owner) [🔗](https://leetcode.com/problems/grumpy-bookstore-owner) |
@@ -567,7 +567,7 @@ var lengthOfLongestSubstring = function (s) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 674 | 最长连续递增序列 |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-continuous-increasing-subsequence) [🔗](https://leetcode.com/problems/longest-continuous-increasing-subsequence) |
 | 485 | 最大连续 1 的个数 | [[✓]](/problem/0485.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/max-consecutive-ones) [🔗](https://leetcode.com/problems/max-consecutive-ones) |
 | 487 | 最大连续1的个数 II 🔒 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/max-consecutive-ones-ii) [🔗](https://leetcode.com/problems/max-consecutive-ones-ii) |

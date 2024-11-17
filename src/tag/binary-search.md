@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 4 | 寻找两个正序数组的中位数 | [[✓]](/problem/0004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) | 🔴 | [🀄️](https://leetcode.cn/problems/median-of-two-sorted-arrays) [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays) |
 | 33 | 搜索旋转排序数组 | [[✓]](/problem/0033.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/search-in-rotated-sorted-array) [🔗](https://leetcode.com/problems/search-in-rotated-sorted-array) |
 | 34 | 在排序数组中查找元素的第一个和最后一个位置 | [[✓]](/problem/0034.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array) [🔗](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array) |

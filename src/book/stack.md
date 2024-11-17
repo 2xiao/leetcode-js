@@ -626,7 +626,7 @@ var dailyTemperatures = function (temperatures) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1047 | 删除字符串中的所有相邻重复项 | [[✓]](/problem/1047.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/remove-all-adjacent-duplicates-in-string) [🔗](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string) |
 | 155 | 最小栈 | [[✓]](/problem/0155.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) | 🟠 | [🀄️](https://leetcode.cn/problems/min-stack) [🔗](https://leetcode.com/problems/min-stack) |
 | 20 | 有效的括号 | [[✓]](/problem/0020.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-parentheses) [🔗](https://leetcode.com/problems/valid-parentheses) |
@@ -645,7 +645,7 @@ var dailyTemperatures = function (temperatures) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 739 | 每日温度 | [[✓]](/problem/0739.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | 🟠 | [🀄️](https://leetcode.cn/problems/daily-temperatures) [🔗](https://leetcode.com/problems/daily-temperatures) |
 | 496 | 下一个更大元素 I | [[✓]](/problem/0496.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/next-greater-element-i) [🔗](https://leetcode.com/problems/next-greater-element-i) |
 | 503 | 下一个更大元素 II | [[✓]](/problem/0503.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`单调栈`](/tag/monotonic-stack.md) | 🟠 | [🀄️](https://leetcode.cn/problems/next-greater-element-ii) [🔗](https://leetcode.com/problems/next-greater-element-ii) |

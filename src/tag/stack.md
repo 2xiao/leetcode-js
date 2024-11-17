@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 20 | 有效的括号 | [[✓]](/problem/0020.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-parentheses) [🔗](https://leetcode.com/problems/valid-parentheses) |
 | 32 | 最长有效括号 | [[✓]](/problem/0032.md) |  [`栈`](/tag/stack.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/longest-valid-parentheses) [🔗](https://leetcode.com/problems/longest-valid-parentheses) |
 | 42 | 接雨水 | [[✓]](/problem/0042.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/trapping-rain-water) [🔗](https://leetcode.com/problems/trapping-rain-water) |

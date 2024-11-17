@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 14 | 最长公共前缀 | [[✓]](/problem/0014.md) |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-common-prefix) [🔗](https://leetcode.com/problems/longest-common-prefix) |
 | 139 | 单词拆分 | [[✓]](/problem/0139.md) |  [`字典树`](/tag/trie.md) [`记忆化搜索`](/tag/memoization.md) [`数组`](/tag/array.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/word-break) [🔗](https://leetcode.com/problems/word-break) |
 | 140 | 单词拆分 II |  |  [`字典树`](/tag/trie.md) [`记忆化搜索`](/tag/memoization.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/word-break-ii) [🔗](https://leetcode.com/problems/word-break-ii) |

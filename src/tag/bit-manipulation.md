@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 29 | 两数相除 | [[✓]](/problem/0029.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/divide-two-integers) [🔗](https://leetcode.com/problems/divide-two-integers) |
 | 67 | 二进制求和 | [[✓]](/problem/0067.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/add-binary) [🔗](https://leetcode.com/problems/add-binary) |
 | 78 | 子集 | [[✓]](/problem/0078.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/subsets) [🔗](https://leetcode.com/problems/subsets) |

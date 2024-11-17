@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1044 | 最长重复子串 |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`后缀数组`](/tag/suffix-array.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/longest-duplicate-substring) [🔗](https://leetcode.com/problems/longest-duplicate-substring) |
 | 1062 | 最长重复子串 🔒 |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-repeating-substring) [🔗](https://leetcode.com/problems/longest-repeating-substring) |
 | 1698 | 字符串的不同子字符串个数 🔒 |  |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) [`后缀数组`](/tag/suffix-array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-distinct-substrings-in-a-string) [🔗](https://leetcode.com/problems/number-of-distinct-substrings-in-a-string) |

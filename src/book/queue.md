@@ -725,7 +725,7 @@ console.log(priorityQueue.count()); // output: 3
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 622 | 设计循环队列 | [[✓]](/problem/0622.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/design-circular-queue) [🔗](https://leetcode.com/problems/design-circular-queue) |
 | 346 | 数据流中的移动平均值 🔒 | [[✓]](/problem/0346.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/moving-average-from-data-stream) [🔗](https://leetcode.com/problems/moving-average-from-data-stream) |
 | 225 | 用队列实现栈 | [[✓]](/problem/0225.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`队列`](/tag/queue.md) | 🟢 | [🀄️](https://leetcode.cn/problems/implement-stack-using-queues) [🔗](https://leetcode.com/problems/implement-stack-using-queues) |
@@ -734,7 +734,7 @@ console.log(priorityQueue.count()); // output: 3
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 703 | 数据流中的第 K 大元素 | [[✓]](/problem/0703.md) |  [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) `3+` | 🟢 | [🀄️](https://leetcode.cn/problems/kth-largest-element-in-a-stream) [🔗](https://leetcode.com/problems/kth-largest-element-in-a-stream) |
 | 347 | 前 K 个高频元素 | [[✓]](/problem/0347.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/top-k-frequent-elements) [🔗](https://leetcode.com/problems/top-k-frequent-elements) |
 | 451 | 根据字符出现频率排序 | [[✓]](/problem/0451.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`桶排序`](/tag/bucket-sort.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-characters-by-frequency) [🔗](https://leetcode.com/problems/sort-characters-by-frequency) |
