@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1 | 两数之和 | [[✓]](/problem/0001.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-sum) [🔗](https://leetcode.com/problems/two-sum) |
 | 4 | 寻找两个正序数组的中位数 | [[✓]](/problem/0004.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`分治`](/tag/divide-and-conquer.md) | 🔴 | [🀄️](https://leetcode.cn/problems/median-of-two-sorted-arrays) [🔗](https://leetcode.com/problems/median-of-two-sorted-arrays) |
 | 11 | 盛最多水的容器 | [[✓]](/problem/0011.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/container-with-most-water) [🔗](https://leetcode.com/problems/container-with-most-water) |
@@ -823,7 +823,7 @@
 | 1646 | 获取生成数组中的最大值 |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/get-maximum-in-generated-array) [🔗](https://leetcode.com/problems/get-maximum-in-generated-array) |
 | 1648 | 销售价值减少的颜色球 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/sell-diminishing-valued-colored-balls) [🔗](https://leetcode.com/problems/sell-diminishing-valued-colored-balls) |
 | 1649 | 通过指令创建有序数组 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/create-sorted-array-through-instructions) [🔗](https://leetcode.com/problems/create-sorted-array-through-instructions) |
-| 1652 | 拆炸弹 |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/defuse-the-bomb) [🔗](https://leetcode.com/problems/defuse-the-bomb) |
+| 1652 | 拆炸弹 | [[✓]](/problem/1652.md) |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/defuse-the-bomb) [🔗](https://leetcode.com/problems/defuse-the-bomb) |
 | 1654 | 到家的最少跳跃次数 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-jumps-to-reach-home) [🔗](https://leetcode.com/problems/minimum-jumps-to-reach-home) |
 | 1655 | 分配重复整数 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/distribute-repeating-integers) [🔗](https://leetcode.com/problems/distribute-repeating-integers) |
 | 1656 | 设计有序流 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/design-an-ordered-stream) [🔗](https://leetcode.com/problems/design-an-ordered-stream) |

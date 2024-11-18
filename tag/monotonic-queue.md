@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 239 | 滑动窗口最大值 | [[✓]](/problem/0239.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/sliding-window-maximum) [🔗](https://leetcode.com/problems/sliding-window-maximum) |
 | 683 | K 个关闭的灯泡 🔒 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`队列`](/tag/queue.md) `5+` | 🔴 | [🀄️](https://leetcode.cn/problems/k-empty-slots) [🔗](https://leetcode.com/problems/k-empty-slots) |
 | 862 | 和至少为 K 的最短子数组 | [[✓]](/problem/0862.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-subarray-with-sum-at-least-k) [🔗](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k) |

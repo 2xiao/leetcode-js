@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 187 | 重复的DNA序列 |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/repeated-dna-sequences) [🔗](https://leetcode.com/problems/repeated-dna-sequences) |
 | 214 | 最短回文串 |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) [`哈希函数`](/tag/hash-function.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-palindrome) [🔗](https://leetcode.com/problems/shortest-palindrome) |
 | 535 | TinyURL 的加密与解密 |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/encode-and-decode-tinyurl) [🔗](https://leetcode.com/problems/encode-and-decode-tinyurl) |

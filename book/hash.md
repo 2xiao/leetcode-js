@@ -652,7 +652,7 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 705 | 设计哈希集合 | [[✓]](/problem/0705.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/design-hashset) [🔗](https://leetcode.com/problems/design-hashset) |
 | 706 | 设计哈希映射 | [[✓]](/problem/0706.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/design-hashmap) [🔗](https://leetcode.com/problems/design-hashmap) |
 | 217 | 存在重复元素 | [[✓]](/problem/0217.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/contains-duplicate) [🔗](https://leetcode.com/problems/contains-duplicate) |

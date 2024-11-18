@@ -7,7 +7,7 @@ headerDepth: 0
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 2618 | 检查是否是类的对象实例 | [[✓]](/problem/2618.md) |  | 🟠 | [🀄️](https://leetcode.cn/problems/check-if-object-instance-of-class) [🔗](https://leetcode.com/problems/check-if-object-instance-of-class) |
 | 2619 | 数组原型对象的最后一个元素 | [[✓]](/problem/2619.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/array-prototype-last) [🔗](https://leetcode.com/problems/array-prototype-last) |
 | 2620 | 计数器 | [[✓]](/problem/2620.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/counter) [🔗](https://leetcode.com/problems/counter) |

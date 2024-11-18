@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1135 | 最低成本连通所有城市 🔒 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/connecting-cities-with-minimum-cost) [🔗](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |
 | 1168 | 水资源分配优化 🔒 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/optimize-water-distribution-in-a-village) [🔗](https://leetcode.com/problems/optimize-water-distribution-in-a-village) |
 | 1489 | 找到最小生成树里的关键边和伪关键边 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) [🔗](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |

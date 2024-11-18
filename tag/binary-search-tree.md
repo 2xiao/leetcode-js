@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 95 | 不同的二叉搜索树 II | [[✓]](/problem/0095.md) |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/unique-binary-search-trees-ii) [🔗](https://leetcode.com/problems/unique-binary-search-trees-ii) |
 | 96 | 不同的二叉搜索树 | [[✓]](/problem/0096.md) |  [`树`](/tag/tree.md) [`二叉搜索树`](/tag/binary-search-tree.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/unique-binary-search-trees) [🔗](https://leetcode.com/problems/unique-binary-search-trees) |
 | 98 | 验证二叉搜索树 | [[✓]](/problem/0098.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/validate-binary-search-tree) [🔗](https://leetcode.com/problems/validate-binary-search-tree) |

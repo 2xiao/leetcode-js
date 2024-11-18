@@ -36,7 +36,7 @@ function f(n) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 344 | 反转字符串 | [[✓]](/problem/0344.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-string) [🔗](https://leetcode.com/problems/reverse-string) |
 | 24 | 两两交换链表中的节点 | [[✓]](/problem/0024.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | 🟠 | [🀄️](https://leetcode.cn/problems/swap-nodes-in-pairs) [🔗](https://leetcode.com/problems/swap-nodes-in-pairs) |
 | 118 | 杨辉三角 | [[✓]](/problem/0118.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟢 | [🀄️](https://leetcode.cn/problems/pascals-triangle) [🔗](https://leetcode.com/problems/pascals-triangle) |

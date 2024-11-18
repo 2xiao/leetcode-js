@@ -7,7 +7,7 @@ headerDepth: 0
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 | 频次 |
-| :------: | :------ | :------: | :------ | :------ | :------: | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: | :------: |
 | 141 | 环形链表 | [[✓]](/problem/0141.md) |  [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/linked-list-cycle) [🔗](https://leetcode.com/problems/linked-list-cycle) | 216 |
 | 146 | LRU 缓存 | [[✓]](/problem/0146.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/lru-cache) [🔗](https://leetcode.com/problems/lru-cache) | 199 |
 | 206 | 反转链表 | [[✓]](/problem/0206.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-linked-list) [🔗](https://leetcode.com/problems/reverse-linked-list) | 196 |

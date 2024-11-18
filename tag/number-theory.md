@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 204 | 计数质数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-primes) [🔗](https://leetcode.com/problems/count-primes) |
 | 258 | 各位相加 |  |  [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/add-digits) [🔗](https://leetcode.com/problems/add-digits) |
 | 858 | 镜面反射 |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/mirror-reflection) [🔗](https://leetcode.com/problems/mirror-reflection) |

@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1114 | 按序打印 |  |  [`多线程`](/tag/concurrency.md) | 🟢 | [🀄️](https://leetcode.cn/problems/print-in-order) [🔗](https://leetcode.com/problems/print-in-order) |
 | 1115 | 交替打印 FooBar |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/print-foobar-alternately) [🔗](https://leetcode.com/problems/print-foobar-alternately) |
 | 1116 | 打印零与奇偶数 |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/print-zero-even-odd) [🔗](https://leetcode.com/problems/print-zero-even-odd) |

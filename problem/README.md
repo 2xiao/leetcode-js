@@ -1,10 +1,10 @@
 # 目录
 
-已完成 483 道
+已完成 484 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1 | 两数之和 | [[✓]](/problem/0001.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-sum) [🔗](https://leetcode.com/problems/two-sum) |
 | 2 | 两数相加 | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/add-two-numbers) [🔗](https://leetcode.com/problems/add-two-numbers) |
 | 3 | 无重复字符的最长子串 | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
@@ -371,6 +371,7 @@
 | 1574 | 删除最短的子数组使剩余数组有序 | [[✓]](/problem/1574.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-subarray-to-be-removed-to-make-array-sorted) [🔗](https://leetcode.com/problems/shortest-subarray-to-be-removed-to-make-array-sorted) |
 | 1590 | 使数组和能被 P 整除 | [[✓]](/problem/1590.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/make-sum-divisible-by-p) [🔗](https://leetcode.com/problems/make-sum-divisible-by-p) |
 | 1593 | 拆分字符串使唯一子字符串的数目最大 | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings) [🔗](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) |
+| 1652 | 拆炸弹 | [[✓]](/problem/1652.md) |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/defuse-the-bomb) [🔗](https://leetcode.com/problems/defuse-the-bomb) |
 | 1657 | 确定两个字符串是否接近 | [[✓]](/problem/1657.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/determine-if-two-strings-are-close) [🔗](https://leetcode.com/problems/determine-if-two-strings-are-close) |
 | 1671 | 得到山形数组的最少删除次数 | [[✓]](/problem/1671.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-number-of-removals-to-make-mountain-array) [🔗](https://leetcode.com/problems/minimum-number-of-removals-to-make-mountain-array) |
 | 1679 | K 和数对的最大数目 | [[✓]](/problem/1679.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/max-number-of-k-sum-pairs) [🔗](https://leetcode.com/problems/max-number-of-k-sum-pairs) |

@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 175 | 组合两个表 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/combine-two-tables) [🔗](https://leetcode.com/problems/combine-two-tables) |
 | 176 | 第二高的薪水 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/second-highest-salary) [🔗](https://leetcode.com/problems/second-highest-salary) |
 | 177 | 第N高的薪水 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/nth-highest-salary) [🔗](https://leetcode.com/problems/nth-highest-salary) |

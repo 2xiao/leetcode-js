@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 187 | 重复的DNA序列 |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/repeated-dna-sequences) [🔗](https://leetcode.com/problems/repeated-dna-sequences) |
 | 214 | 最短回文串 |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) [`哈希函数`](/tag/hash-function.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-palindrome) [🔗](https://leetcode.com/problems/shortest-palindrome) |
 | 718 | 最长重复子数组 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-length-of-repeated-subarray) [🔗](https://leetcode.com/problems/maximum-length-of-repeated-subarray) |

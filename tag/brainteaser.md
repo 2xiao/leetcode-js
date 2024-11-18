@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 292 | Nim 游戏 |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`博弈`](/tag/game-theory.md) | 🟢 | [🀄️](https://leetcode.cn/problems/nim-game) [🔗](https://leetcode.com/problems/nim-game) |
 | 319 | 灯泡开关 |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/bulb-switcher) [🔗](https://leetcode.com/problems/bulb-switcher) |
 | 810 | 黑板异或游戏 |  |  [`位运算`](/tag/bit-manipulation.md) [`脑筋急转弯`](/tag/brainteaser.md) [`数组`](/tag/array.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/chalkboard-xor-game) [🔗](https://leetcode.com/problems/chalkboard-xor-game) |

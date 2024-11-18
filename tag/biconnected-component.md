@@ -19,6 +19,6 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1192 | 查找集群内的关键连接 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`图`](/tag/graph.md) [`双连通分量`](/tag/biconnected-component.md) | 🔴 | [🀄️](https://leetcode.cn/problems/critical-connections-in-a-network) [🔗](https://leetcode.com/problems/critical-connections-in-a-network) |
 | LCP 54 | 夺回据点 |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双连通分量`](/tag/biconnected-component.md) | 🔴 | [🀄️](https://leetcode.cn/problems/s5kipK) |

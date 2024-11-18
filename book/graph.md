@@ -11,7 +11,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 797 | 所有可能的路径 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/all-paths-from-source-to-target) [🔗](https://leetcode.com/problems/all-paths-from-source-to-target) |
 | 200 | 岛屿数量 | [[✓]](/problem/0200.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-islands) [🔗](https://leetcode.com/problems/number-of-islands) |
 | 695 | 岛屿的最大面积 | [[✓]](/problem/0695.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/max-area-of-island) [🔗](https://leetcode.com/problems/max-area-of-island) |
@@ -50,7 +50,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 797 | 所有可能的路径 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/all-paths-from-source-to-target) [🔗](https://leetcode.com/problems/all-paths-from-source-to-target) |
 | 286 | 墙与门 🔒 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/walls-and-gates) [🔗](https://leetcode.com/problems/walls-and-gates) |
 | 200 | 岛屿数量 | [[✓]](/problem/0200.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-islands) [🔗](https://leetcode.com/problems/number-of-islands) |
@@ -74,7 +74,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 207 | 课程表 | [[✓]](/problem/0207.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/course-schedule) [🔗](https://leetcode.com/problems/course-schedule) |
 | 210 | 课程表 II | [[✓]](/problem/0210.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/course-schedule-ii) [🔗](https://leetcode.com/problems/course-schedule-ii) |
 | 1136 | 并行课程 🔒 |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) | 🟠 | [🀄️](https://leetcode.cn/problems/parallel-courses) [🔗](https://leetcode.com/problems/parallel-courses) |
@@ -86,7 +86,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 1584 | 连接所有点的最小费用 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/min-cost-to-connect-all-points) [🔗](https://leetcode.com/problems/min-cost-to-connect-all-points) |
 | 1631 | 最小体力消耗路径 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/path-with-minimum-effort) [🔗](https://leetcode.com/problems/path-with-minimum-effort) |
 | 778 | 水位上升的泳池中游泳 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/swim-in-rising-water) [🔗](https://leetcode.com/problems/swim-in-rising-water) |
@@ -95,7 +95,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 407 | 接雨水 II |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/trapping-rain-water-ii) [🔗](https://leetcode.com/problems/trapping-rain-water-ii) |
 | 743 | 网络延迟时间 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/network-delay-time) [🔗](https://leetcode.com/problems/network-delay-time) |
 | 787 | K 站中转内最便宜的航班 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/cheapest-flights-within-k-stops) [🔗](https://leetcode.com/problems/cheapest-flights-within-k-stops) |
@@ -106,7 +106,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 815 | 公交路线 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🔴 | [🀄️](https://leetcode.cn/problems/bus-routes) [🔗](https://leetcode.com/problems/bus-routes) |
 | 1162 | 地图分析 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/as-far-from-land-as-possible) [🔗](https://leetcode.com/problems/as-far-from-land-as-possible) |
 
@@ -114,14 +114,14 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 2045 | 到达目的地的第二短时间 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`最短路`](/tag/shortest-path.md) | 🔴 | [🀄️](https://leetcode.cn/problems/second-minimum-time-to-reach-destination) [🔗](https://leetcode.com/problems/second-minimum-time-to-reach-destination) |
 
 #### 差分约束系统
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 995 | K 连续位的最小翻转次数 |  |  [`位运算`](/tag/bit-manipulation.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-number-of-k-consecutive-bit-flips) [🔗](https://leetcode.com/problems/minimum-number-of-k-consecutive-bit-flips) |
 | 1109 | 航班预订统计 |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/corporate-flight-bookings) [🔗](https://leetcode.com/problems/corporate-flight-bookings) |
 
@@ -129,14 +129,14 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 785 | 判断二分图 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/is-graph-bipartite) [🔗](https://leetcode.com/problems/is-graph-bipartite) |
 
 #### 二分图最大匹配
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | LCP 04 | 覆盖 |  |  [`位运算`](/tag/bit-manipulation.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/broken-board-dominoes) |
 | 1947 | 最大兼容性评分和 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-compatibility-score-sum) [🔗](https://leetcode.com/problems/maximum-compatibility-score-sum) |
 | 1595 | 连通两组点的最小成本 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-cost-to-connect-two-groups-of-points) [🔗](https://leetcode.com/problems/minimum-cost-to-connect-two-groups-of-points) |

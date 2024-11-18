@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 3 | 无重复字符的最长子串 | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
 | 30 | 串联所有单词的子串 | [[✓]](/problem/0030.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🔴 | [🀄️](https://leetcode.cn/problems/substring-with-concatenation-of-all-words) [🔗](https://leetcode.com/problems/substring-with-concatenation-of-all-words) |
 | 76 | 最小覆盖子串 | [[✓]](/problem/0076.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-window-substring) [🔗](https://leetcode.com/problems/minimum-window-substring) |
@@ -74,7 +74,7 @@
 | 1493 | 删掉一个元素以后全为 1 的最长子数组 | [[✓]](/problem/1493.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element) [🔗](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) |
 | 1499 | 满足不等式的最大值 |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/max-value-of-equation) [🔗](https://leetcode.com/problems/max-value-of-equation) |
 | 1610 | 可见点的最大数目 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-number-of-visible-points) [🔗](https://leetcode.com/problems/maximum-number-of-visible-points) |
-| 1652 | 拆炸弹 |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/defuse-the-bomb) [🔗](https://leetcode.com/problems/defuse-the-bomb) |
+| 1652 | 拆炸弹 | [[✓]](/problem/1652.md) |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/defuse-the-bomb) [🔗](https://leetcode.com/problems/defuse-the-bomb) |
 | 1658 | 将 x 减到 0 的最小操作数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-reduce-x-to-zero) [🔗](https://leetcode.com/problems/minimum-operations-to-reduce-x-to-zero) |
 | 1695 | 删除子数组的最大得分 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-erasure-value) [🔗](https://leetcode.com/problems/maximum-erasure-value) |
 | 1703 | 得到连续 K 个 1 的最少相邻交换次数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-adjacent-swaps-for-k-consecutive-ones) [🔗](https://leetcode.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones) |

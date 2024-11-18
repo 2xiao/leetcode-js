@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 170 | 两数之和 III - 数据结构设计 🔒 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/two-sum-iii-data-structure-design) [🔗](https://leetcode.com/problems/two-sum-iii-data-structure-design) |
 | 295 | 数据流的中位数 | [[✓]](/problem/0295.md) |  [`设计`](/tag/design.md) [`双指针`](/tag/two-pointers.md) [`数据流`](/tag/data-stream.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-median-from-data-stream) [🔗](https://leetcode.com/problems/find-median-from-data-stream) |
 | 346 | 数据流中的移动平均值 🔒 | [[✓]](/problem/0346.md) |  [`设计`](/tag/design.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/moving-average-from-data-stream) [🔗](https://leetcode.com/problems/moving-average-from-data-stream) |

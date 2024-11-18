@@ -210,7 +210,7 @@ function bsearch(arr, value) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 704 | 二分查找 | [[✓]](/problem/0704.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟢 | [🀄️](https://leetcode.cn/problems/binary-search) [🔗](https://leetcode.com/problems/binary-search) |
 | 374 | 猜数字大小 | [[✓]](/problem/0374.md) |  [`二分查找`](/tag/binary-search.md) [`交互`](/tag/interactive.md) | 🟢 | [🀄️](https://leetcode.cn/problems/guess-number-higher-or-lower) [🔗](https://leetcode.com/problems/guess-number-higher-or-lower) |
 | 35 | 搜索插入位置 | [[✓]](/problem/0035.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟢 | [🀄️](https://leetcode.cn/problems/search-insert-position) [🔗](https://leetcode.com/problems/search-insert-position) |
@@ -233,7 +233,7 @@ function bsearch(arr, value) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 69 | x 的平方根 | [[✓]](/problem/0069.md) |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) | 🟢 | [🀄️](https://leetcode.cn/problems/sqrtx) [🔗](https://leetcode.com/problems/sqrtx) |
 | 287 | 寻找重复数 | [[✓]](/problem/0287.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-duplicate-number) [🔗](https://leetcode.com/problems/find-the-duplicate-number) |
 | 50 | Pow(x, n) | [[✓]](/problem/0050.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/powx-n) [🔗](https://leetcode.com/problems/powx-n) |
@@ -245,7 +245,7 @@ function bsearch(arr, value) {
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 875 | 爱吃香蕉的珂珂 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/koko-eating-bananas) [🔗](https://leetcode.com/problems/koko-eating-bananas) |
 | 410 | 分割数组的最大值 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/split-array-largest-sum) [🔗](https://leetcode.com/problems/split-array-largest-sum) |
 | 209 | 长度最小的子数组 | [[✓]](/problem/0209.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-size-subarray-sum) [🔗](https://leetcode.com/problems/minimum-size-subarray-sum) |

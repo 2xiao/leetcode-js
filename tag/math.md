@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 2 | 两数相加 | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/add-two-numbers) [🔗](https://leetcode.com/problems/add-two-numbers) |
 | 7 | 整数反转 | [[✓]](/problem/0007.md) |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/reverse-integer) [🔗](https://leetcode.com/problems/reverse-integer) |
 | 9 | 回文数 | [[✓]](/problem/0009.md) |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/palindrome-number) [🔗](https://leetcode.com/problems/palindrome-number) |

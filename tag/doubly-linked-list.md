@@ -19,7 +19,7 @@
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
-| :------: | :------ | :------: | :------ | :------ | :------: |
+| :------: | :------ | :------: | :------ | :------: | :------: |
 | 146 | LRU 缓存 | [[✓]](/problem/0146.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`链表`](/tag/linked-list.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/lru-cache) [🔗](https://leetcode.com/problems/lru-cache) |
 | 426 | 将二叉搜索树转化为排序的双向链表 🔒 | [[✓]](/problem/0426.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) [🔗](https://leetcode.com/problems/convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | 430 | 扁平化多级双向链表 | [[✓]](/problem/0430.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`链表`](/tag/linked-list.md) [`双向链表`](/tag/doubly-linked-list.md) | 🟠 | [🀄️](https://leetcode.cn/problems/flatten-a-multilevel-doubly-linked-list) [🔗](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list) |
