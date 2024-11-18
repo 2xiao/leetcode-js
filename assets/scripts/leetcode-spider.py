@@ -410,7 +410,7 @@ class LeetcodeCrawler():
             similar = json.loads(question['similar'])
             if len(similar) > 0:
 
-                frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+                frame = pd.DataFrame(columns=['题号', '标题', '题解', '力扣', '标签', '难度'])
                 
                 f.write("\n\n## 相关题目\n\n")
                 
@@ -422,7 +422,7 @@ class LeetcodeCrawler():
                     
                     frame.loc[len(frame.index)] = utils.gen_frame_items(df_indexs[0], df)
                     
-                table = utils.gen_markdown_table(frame, True)
+                table = utils.gen_markdown_table(frame)
                 f.write(table)
 
     def close_db(self):

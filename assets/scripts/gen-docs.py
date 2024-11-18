@@ -12,7 +12,7 @@ import argparse
 
 def gen_solution_list():
     files = os.listdir(const.problem_path)
-    frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+    frame = pd.DataFrame(columns=['题号', '标题', '题解', '力扣', '标签', '难度'])
     frame_count = 0
 
     df = pd.read_csv("problem-list.csv")
@@ -34,8 +34,8 @@ def gen_solution_list():
         frame.loc[frame_count] = res
         frame_count += 1
 
-    table = utils.gen_markdown_table(frame, True)
-    content = "已完成 {} 道\n\n".format(frame_count) + table + "\n\n<style>\ntable th:first-of-type { width: 10%; }\ntable th:nth-of-type(2) { width: 35%; }\ntable th:nth-of-type(3) { width: 10%; }\ntable th:nth-of-type(4) { width: 35%; }\ntable th:nth-of-type(5) { width: 10%; }\n</style>\n"
+    table = utils.gen_markdown_table(frame)
+    content = "已完成 {} 道\n\n".format(frame_count) + table + "\n\n"
 
     with open(const.problem_readme, 'w', encoding='utf-8') as f:
         f.writelines("# 目录\n\n")
@@ -59,13 +59,13 @@ def gen_tag_list():
             for tag in problem_tags:
                 if tag not in frames:
                     frames[tag] = pd.DataFrame(
-                        columns=['题号', '标题', '题解', '标签', '难度'])
+                        columns=['题号', '标题', '题解', '力扣', '标签', '难度'])
                 frame = frames[tag]
                 frame.loc[len(frame.index)] = utils.gen_frame_items(index, df)
         index += 1
 
     for idx, frame in frames.items():
-        table = utils.gen_markdown_table(frame, True)
+        table = utils.gen_markdown_table(frame)
         tag_en = idx.split('|')[1]
         tag_cn = idx.split('|')[2]
 
@@ -243,7 +243,7 @@ def update_similar():
         
         delim = '## 相关题目'
         if delim in content:
-            frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+            frame = pd.DataFrame(columns=['题号', '标题', '题解', '力扣', '标签', '难度'])
             df_indexs = df[df['fileName'] == Path(file).stem].index.tolist()
             similar = (df.loc[df_indexs[0], "similar"]).split('|')
 
@@ -254,7 +254,7 @@ def update_similar():
                 
                 frame.loc[len(frame.index)] = utils.gen_frame_items(similar_indexs[0], df)
                     
-            table = utils.gen_markdown_table(frame, True)
+            table = utils.gen_markdown_table(frame)
                 
             content = content.split(delim)[0] + delim + '\n\n' + table
 

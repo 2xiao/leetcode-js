@@ -696,22 +696,22 @@ var permuteRepeat = function (nums) {
 ## 相关题目
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 46 | [全排列](https://leetcode.com/problems/permutations) | [[✓]](/problem/0046.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 47 | [全排列 II](https://leetcode.com/problems/permutations-ii) | [[✓]](/problem/0047.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 37 | [解数独](https://leetcode.com/problems/sudoku-solver) | [[✓]](/problem/0037.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ff334b>Hard</font> |
-| 22 | [括号生成](https://leetcode.com/problems/generate-parentheses) | [[✓]](/problem/0022.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 17 | [电话号码的字母组合](https://leetcode.com/problems/letter-combinations-of-a-phone-number) | [[✓]](/problem/0017.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 784 | [字母大小写全排列](https://leetcode.com/problems/letter-case-permutation) |  |  [`位运算`](/tag/bit-manipulation.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 39 | [组合总和](https://leetcode.com/problems/combination-sum) | [[✓]](/problem/0039.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 40 | [组合总和 II](https://leetcode.com/problems/combination-sum-ii) | [[✓]](/problem/0040.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 78 | [子集](https://leetcode.com/problems/subsets) | [[✓]](/problem/0078.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 90 | [子集 II](https://leetcode.com/problems/subsets-ii) | [[✓]](/problem/0090.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 473 | [火柴拼正方形](https://leetcode.com/problems/matchsticks-to-square) |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | <font color=#ffb800>Medium</font> |
-| 1593 | [拆分字符串使唯一子字符串的数目最大](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 1079 | [活字印刷](https://leetcode.com/problems/letter-tile-possibilities) |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
-| 93 | [复原 IP 地址](https://leetcode.com/problems/restore-ip-addresses) | [[✓]](/problem/0093.md) |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | <font color=#ffb800>Medium</font> |
-| 79 | [单词搜索](https://leetcode.com/problems/word-search) | [[✓]](/problem/0079.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | <font color=#ffb800>Medium</font> |
-| 679 | [24 点游戏](https://leetcode.com/problems/24-game) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | <font color=#ff334b>Hard</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 46 | 全排列 | [[✓]](/problem/0046.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/permutations) [🔗](https://leetcode.com/problems/permutations) |
+| 47 | 全排列 II | [[✓]](/problem/0047.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/permutations-ii) [🔗](https://leetcode.com/problems/permutations-ii) |
+| 37 | 解数独 | [[✓]](/problem/0037.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`回溯`](/tag/backtracking.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/sudoku-solver) [🔗](https://leetcode.com/problems/sudoku-solver) |
+| 22 | 括号生成 | [[✓]](/problem/0022.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/generate-parentheses) [🔗](https://leetcode.com/problems/generate-parentheses) |
+| 17 | 电话号码的字母组合 | [[✓]](/problem/0017.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/letter-combinations-of-a-phone-number) [🔗](https://leetcode.com/problems/letter-combinations-of-a-phone-number) |
+| 784 | 字母大小写全排列 |  |  [`位运算`](/tag/bit-manipulation.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/letter-case-permutation) [🔗](https://leetcode.com/problems/letter-case-permutation) |
+| 39 | 组合总和 | [[✓]](/problem/0039.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/combination-sum) [🔗](https://leetcode.com/problems/combination-sum) |
+| 40 | 组合总和 II | [[✓]](/problem/0040.md) |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/combination-sum-ii) [🔗](https://leetcode.com/problems/combination-sum-ii) |
+| 78 | 子集 | [[✓]](/problem/0078.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/subsets) [🔗](https://leetcode.com/problems/subsets) |
+| 90 | 子集 II | [[✓]](/problem/0090.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/subsets-ii) [🔗](https://leetcode.com/problems/subsets-ii) |
+| 473 | 火柴拼正方形 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/matchsticks-to-square) [🔗](https://leetcode.com/problems/matchsticks-to-square) |
+| 1593 | 拆分字符串使唯一子字符串的数目最大 | [[✓]](/problem/1593.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/split-a-string-into-the-max-number-of-unique-substrings) [🔗](https://leetcode.com/problems/split-a-string-into-the-max-number-of-unique-substrings) |
+| 1079 | 活字印刷 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/letter-tile-possibilities) [🔗](https://leetcode.com/problems/letter-tile-possibilities) |
+| 93 | 复原 IP 地址 | [[✓]](/problem/0093.md) |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/restore-ip-addresses) [🔗](https://leetcode.com/problems/restore-ip-addresses) |
+| 79 | 单词搜索 | [[✓]](/problem/0079.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/word-search) [🔗](https://leetcode.com/problems/word-search) |
+| 679 | 24 点游戏 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | 🔴 | [🀄️](https://leetcode.cn/problems/24-game) [🔗](https://leetcode.com/problems/24-game) |
 

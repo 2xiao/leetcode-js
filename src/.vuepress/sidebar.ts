@@ -452,6 +452,7 @@ export default sidebar({
       "1456",
       "1472",
       "1475",
+      "1493",
       "1497"
     ]
   },
@@ -486,7 +487,8 @@ export default sidebar({
     "text": "1800-1899",
     "collapsible": true,
     "children": [
-      "1813"
+      "1813",
+      "1829"
     ]
   },
   {
@@ -502,7 +504,8 @@ export default sidebar({
     "text": "2000-2099",
     "collapsible": true,
     "children": [
-      "2044"
+      "2044",
+      "2070"
     ]
   },
   {
@@ -528,7 +531,8 @@ export default sidebar({
     "text": "2300-2399",
     "collapsible": true,
     "children": [
-      "2352"
+      "2352",
+      "2390"
     ]
   },
   {
@@ -556,6 +560,7 @@ export default sidebar({
     "text": "2600-2699",
     "collapsible": true,
     "children": [
+      "2601",
       "2618",
       "2619",
       "2620",
@@ -653,13 +658,15 @@ export default sidebar({
     "text": "3000-3099",
     "collapsible": true,
     "children": [
-      "3011"
+      "3011",
+      "3097"
     ]
   },
   {
     "text": "3100-3199",
     "collapsible": true,
     "children": [
+      "3133",
       "3136",
       "3163"
     ]

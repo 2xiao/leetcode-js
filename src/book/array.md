@@ -157,23 +157,23 @@
 #### 数组操作
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 189 | [轮转数组](https://leetcode.com/problems/rotate-array) | [[✓]](/problem/0189.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | <font color=#ffb800>Medium</font> |
-| 66 | [加一](https://leetcode.com/problems/plus-one) | [[✓]](/problem/0066.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | <font color=#15bd66>Easy</font> |
-| 724 | [寻找数组的中心下标](https://leetcode.com/problems/find-pivot-index) | [[✓]](/problem/0724.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#15bd66>Easy</font> |
-| 485 | [最大连续 1 的个数](https://leetcode.com/problems/max-consecutive-ones) | [[✓]](/problem/0485.md) |  [`数组`](/tag/array.md) | <font color=#15bd66>Easy</font> |
-| 238 | [除自身以外数组的乘积](https://leetcode.com/problems/product-of-array-except-self) | [[✓]](/problem/0238.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | <font color=#ffb800>Medium</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 189 | 轮转数组 | [[✓]](/problem/0189.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotate-array) [🔗](https://leetcode.com/problems/rotate-array) |
+| 66 | 加一 | [[✓]](/problem/0066.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/plus-one) [🔗](https://leetcode.com/problems/plus-one) |
+| 724 | 寻找数组的中心下标 | [[✓]](/problem/0724.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-pivot-index) [🔗](https://leetcode.com/problems/find-pivot-index) |
+| 485 | 最大连续 1 的个数 | [[✓]](/problem/0485.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/max-consecutive-ones) [🔗](https://leetcode.com/problems/max-consecutive-ones) |
+| 238 | 除自身以外数组的乘积 | [[✓]](/problem/0238.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/product-of-array-except-self) [🔗](https://leetcode.com/problems/product-of-array-except-self) |
 
 #### 二维数组
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 498 | [对角线遍历](https://leetcode.com/problems/diagonal-traverse) | [[✓]](/problem/0498.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 48 | [旋转图像](https://leetcode.com/problems/rotate-image) | [[✓]](/problem/0048.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 73 | [矩阵置零](https://leetcode.com/problems/set-matrix-zeroes) | [[✓]](/problem/0073.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | <font color=#ffb800>Medium</font> |
-| 54 | [螺旋矩阵](https://leetcode.com/problems/spiral-matrix) | [[✓]](/problem/0054.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 59 | [螺旋矩阵 II](https://leetcode.com/problems/spiral-matrix-ii) | [[✓]](/problem/0059.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 289 | [生命游戏](https://leetcode.com/problems/game-of-life) | [[✓]](/problem/0289.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 498 | 对角线遍历 | [[✓]](/problem/0498.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/diagonal-traverse) [🔗](https://leetcode.com/problems/diagonal-traverse) |
+| 48 | 旋转图像 | [[✓]](/problem/0048.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotate-image) [🔗](https://leetcode.com/problems/rotate-image) |
+| 73 | 矩阵置零 | [[✓]](/problem/0073.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/set-matrix-zeroes) [🔗](https://leetcode.com/problems/set-matrix-zeroes) |
+| 54 | 螺旋矩阵 | [[✓]](/problem/0054.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/spiral-matrix) [🔗](https://leetcode.com/problems/spiral-matrix) |
+| 59 | 螺旋矩阵 II | [[✓]](/problem/0059.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/spiral-matrix-ii) [🔗](https://leetcode.com/problems/spiral-matrix-ii) |
+| 289 | 生命游戏 | [[✓]](/problem/0289.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/game-of-life) [🔗](https://leetcode.com/problems/game-of-life) |
 

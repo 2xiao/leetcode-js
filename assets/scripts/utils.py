@@ -19,12 +19,12 @@ def custom_sort(val):
 # 根据 frame 生成 Markdown 表格
 
 
-def gen_markdown_table(frame, need_sort):
+def gen_markdown_table(frame, need_sort = True):
 
     H = frame.shape[0]
     W = frame.shape[1]
 
-    head_name = ["题号", "标题", "题解", "标签", "难度", "频次"]
+    head_name = ["题号", "标题", "题解", "标签", "难度", "力扣", "频次"]
 
     lines = ['<!-- prettier-ignore -->']
 
@@ -60,7 +60,7 @@ def gen_markdown_table(frame, need_sort):
 # 格式化难度
 
 
-def format_difficulty(difficulty: str, show_emoji: bool = False):
+def format_difficulty(difficulty: str, show_font: bool = False):
     font = ""
     emoji = ""
     if difficulty == "困难" or difficulty == "Hard":
@@ -72,9 +72,9 @@ def format_difficulty(difficulty: str, show_emoji: bool = False):
     elif difficulty == "简单" or difficulty == "Easy":
         emoji = "🟢"
         font = "<font color=#15bd66>Easy</font>"
-    if show_emoji:
+    if show_font:
         return emoji + " " + font
-    return font
+    return emoji
 
 
 def format_label(labels: str):
@@ -101,17 +101,20 @@ def gen_frame_items(row, df, salt: str = False, show_book_name: bool = True):
     id = df.loc[row, "frontendId"]
     paid_only = df.loc[row, "paid_only"]
 
-    online_link = "[{}{}]({})".format(title_cn, ' 🔒' if paid_only else '', get_lc_link(catalog, slug))
+    title = "{}{}".format(title_cn, ' 🔒' if paid_only else '')
     label = format_label(df.loc[row, "tags"])
     difficulty = format_difficulty(df.loc[row, "difficulty"])
+    lc_link = get_lc_link(catalog, slug)
 
     if show_book_name:
         id = get_id_with_book_name(catalog, id)
+
     local_link = ""
     if is_ac(catalog, file_name):
         local_link = "[[✓]]({})".format(get_local_link(catalog, file_name))
     
-    res = [id, online_link, local_link, label, difficulty]
+    res = [id, title, local_link, lc_link, label, difficulty]
+    
     if salt:
         res.append(salt)
 
@@ -123,7 +126,7 @@ def gen_frame_items(row, df, salt: str = False, show_book_name: bool = True):
 
 def gen_frame(problems, show_book_name: bool = True):
     df = pd.read_csv("problem-list.csv")
-    frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度'])
+    frame = pd.DataFrame(columns=['题号', '标题', '题解', '力扣', '标签', '难度'])
     frame_count = 0
     for item in problems:
         # 获取题目所在行
@@ -143,7 +146,7 @@ def gen_frame(problems, show_book_name: bool = True):
 
 def gen_frame_with_salt(problems):
     df = pd.read_csv("problem-list.csv")
-    frame = pd.DataFrame(columns=['题号', '标题', '题解', '标签', '难度', '频次'])
+    frame = pd.DataFrame(columns=['题号', '标题', '题解', '力扣', '标签', '难度', '频次'])
     frame_count = 0
     for item in problems:
         pattern = re.compile(r'\[(.*)\](.*)')
@@ -294,10 +297,13 @@ def get_local_link(catalog, fileName, scheme = "/{}/{}.md"):
         return scheme.format(catalog, fileName)
     return scheme.format('problem', fileName)
 
+
 def get_lc_link(catalog, slug):
+    lc_cn_link = "[🀄️](https://leetcode.cn/problems/{})".format(slug)
+    lc_link = "[🔗](https://leetcode.com/problems/{})".format(slug)
     if is_cn(catalog):
-        return "https://leetcode.cn/problems/{}".format(slug)
-    return "https://leetcode.com/problems/{}".format(slug)
+        return lc_cn_link
+    return lc_cn_link + ' ' + lc_link
 
 def get_all_online_link(catalog, slug):
     str = '&emsp; 🔗&ensp;[`力扣`]({})'.format("https://leetcode.cn/problems/{}".format(slug))

@@ -74,47 +74,47 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 #### 字符串基础题目
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 125 | [验证回文串](https://leetcode.com/problems/valid-palindrome) | [[✓]](/problem/0125.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 5 | [最长回文子串](https://leetcode.com/problems/longest-palindromic-substring) | [[✓]](/problem/0005.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | <font color=#ffb800>Medium</font> |
-| 3 | [无重复字符的最长子串](https://leetcode.com/problems/longest-substring-without-repeating-characters) | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | <font color=#ffb800>Medium</font> |
-| 344 | [反转字符串](https://leetcode.com/problems/reverse-string) | [[✓]](/problem/0344.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 557 | [反转字符串中的单词 III](https://leetcode.com/problems/reverse-words-in-a-string-iii) | [[✓]](/problem/0557.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
-| 49 | [字母异位词分组](https://leetcode.com/problems/group-anagrams) | [[✓]](/problem/0049.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | <font color=#ffb800>Medium</font> |
-| 415 | [字符串相加](https://leetcode.com/problems/add-strings) | [[✓]](/problem/0415.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#15bd66>Easy</font> |
-| 151 | [反转字符串中的单词](https://leetcode.com/problems/reverse-words-in-a-string) | [[✓]](/problem/0151.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | <font color=#ffb800>Medium</font> |
-| 43 | [字符串相乘](https://leetcode.com/problems/multiply-strings) | [[✓]](/problem/0043.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | <font color=#ffb800>Medium</font> |
-| 14 | [最长公共前缀](https://leetcode.com/problems/longest-common-prefix) | [[✓]](/problem/0014.md) |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) | <font color=#15bd66>Easy</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 125 | 验证回文串 | [[✓]](/problem/0125.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-palindrome) [🔗](https://leetcode.com/problems/valid-palindrome) |
+| 5 | 最长回文子串 | [[✓]](/problem/0005.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-palindromic-substring) [🔗](https://leetcode.com/problems/longest-palindromic-substring) |
+| 3 | 无重复字符的最长子串 | [[✓]](/problem/0003.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-substring-without-repeating-characters) [🔗](https://leetcode.com/problems/longest-substring-without-repeating-characters) |
+| 344 | 反转字符串 | [[✓]](/problem/0344.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-string) [🔗](https://leetcode.com/problems/reverse-string) |
+| 557 | 反转字符串中的单词 III | [[✓]](/problem/0557.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-words-in-a-string-iii) [🔗](https://leetcode.com/problems/reverse-words-in-a-string-iii) |
+| 49 | 字母异位词分组 | [[✓]](/problem/0049.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/group-anagrams) [🔗](https://leetcode.com/problems/group-anagrams) |
+| 415 | 字符串相加 | [[✓]](/problem/0415.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/add-strings) [🔗](https://leetcode.com/problems/add-strings) |
+| 151 | 反转字符串中的单词 | [[✓]](/problem/0151.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/reverse-words-in-a-string) [🔗](https://leetcode.com/problems/reverse-words-in-a-string) |
+| 43 | 字符串相乘 | [[✓]](/problem/0043.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/multiply-strings) [🔗](https://leetcode.com/problems/multiply-strings) |
+| 14 | 最长公共前缀 | [[✓]](/problem/0014.md) |  [`字典树`](/tag/trie.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-common-prefix) [🔗](https://leetcode.com/problems/longest-common-prefix) |
 
 #### 单模式串匹配
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 28 | [找出字符串中第一个匹配项的下标](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) | [[✓]](/problem/0028.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 459 | [重复的子字符串](https://leetcode.com/problems/repeated-substring-pattern) | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 686 | [重复叠加字符串匹配](https://leetcode.com/problems/repeated-string-match) |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#ffb800>Medium</font> |
-| 1668 | [最大重复子字符串](https://leetcode.com/problems/maximum-repeating-substring) |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 796 | [旋转字符串](https://leetcode.com/problems/rotate-string) | [[✓]](/problem/0796.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 1408 | [数组中的字符串匹配](https://leetcode.com/problems/string-matching-in-an-array) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | <font color=#15bd66>Easy</font> |
-| 2156 | [查找给定哈希值的子串](https://leetcode.com/problems/find-substring-with-given-hash-value) |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) [`哈希函数`](/tag/hash-function.md) `1+` | <font color=#ff334b>Hard</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 28 | 找出字符串中第一个匹配项的下标 | [[✓]](/problem/0028.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-index-of-the-first-occurrence-in-a-string) [🔗](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string) |
+| 459 | 重复的子字符串 | [[✓]](/problem/0459.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/repeated-substring-pattern) [🔗](https://leetcode.com/problems/repeated-substring-pattern) |
+| 686 | 重复叠加字符串匹配 |  |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟠 | [🀄️](https://leetcode.cn/problems/repeated-string-match) [🔗](https://leetcode.com/problems/repeated-string-match) |
+| 1668 | 最大重复子字符串 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-repeating-substring) [🔗](https://leetcode.com/problems/maximum-repeating-substring) |
+| 796 | 旋转字符串 | [[✓]](/problem/0796.md) |  [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/rotate-string) [🔗](https://leetcode.com/problems/rotate-string) |
+| 1408 | 数组中的字符串匹配 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`字符串匹配`](/tag/string-matching.md) | 🟢 | [🀄️](https://leetcode.cn/problems/string-matching-in-an-array) [🔗](https://leetcode.com/problems/string-matching-in-an-array) |
+| 2156 | 查找给定哈希值的子串 |  |  [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) [`哈希函数`](/tag/hash-function.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-substring-with-given-hash-value) [🔗](https://leetcode.com/problems/find-substring-with-given-hash-value) |
 
 #### 字典树
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 208 | [实现 Trie (前缀树)](https://leetcode.com/problems/implement-trie-prefix-tree) | [[✓]](/problem/0208.md) |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-| 677 | [键值映射](https://leetcode.com/problems/map-sum-pairs) |  |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-| 648 | [单词替换](https://leetcode.com/problems/replace-words) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ffb800>Medium</font> |
-| 642 | [设计搜索自动补全系统 🔒](https://leetcode.com/problems/design-search-autocomplete-system) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `4+` | <font color=#ff334b>Hard</font> |
-| 211 | [添加与搜索单词 - 数据结构设计](https://leetcode.com/problems/design-add-and-search-words-data-structure) | [[✓]](/problem/0211.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `1+` | <font color=#ffb800>Medium</font> |
-| 421 | [数组中两个数的最大异或值](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 212 | [单词搜索 II](https://leetcode.com/problems/word-search-ii) | [[✓]](/problem/0212.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `2+` | <font color=#ff334b>Hard</font> |
-| 425 | [单词方块 🔒](https://leetcode.com/problems/word-squares) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | <font color=#ff334b>Hard</font> |
-| 336 | [回文对](https://leetcode.com/problems/palindrome-pairs) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | <font color=#ff334b>Hard</font> |
-| 1023 | [驼峰式匹配](https://leetcode.com/problems/camelcase-matching) |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | <font color=#ffb800>Medium</font> |
-| 676 | [实现一个魔法字典](https://leetcode.com/problems/implement-magic-dictionary) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `2+` | <font color=#ffb800>Medium</font> |
-| 440 | [字典序的第K小数字](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) | [[✓]](/problem/0440.md) |  [`字典树`](/tag/trie.md) | <font color=#ff334b>Hard</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 208 | 实现 Trie (前缀树) | [[✓]](/problem/0208.md) |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/implement-trie-prefix-tree) [🔗](https://leetcode.com/problems/implement-trie-prefix-tree) |
+| 677 | 键值映射 |  |  [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/map-sum-pairs) [🔗](https://leetcode.com/problems/map-sum-pairs) |
+| 648 | 单词替换 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/replace-words) [🔗](https://leetcode.com/problems/replace-words) |
+| 642 | 设计搜索自动补全系统 🔒 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/design-search-autocomplete-system) [🔗](https://leetcode.com/problems/design-search-autocomplete-system) |
+| 211 | 添加与搜索单词 - 数据结构设计 | [[✓]](/problem/0211.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/design-add-and-search-words-data-structure) [🔗](https://leetcode.com/problems/design-add-and-search-words-data-structure) |
+| 421 | 数组中两个数的最大异或值 |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array) [🔗](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |
+| 212 | 单词搜索 II | [[✓]](/problem/0212.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/word-search-ii) [🔗](https://leetcode.com/problems/word-search-ii) |
+| 425 | 单词方块 🔒 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/word-squares) [🔗](https://leetcode.com/problems/word-squares) |
+| 336 | 回文对 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/palindrome-pairs) [🔗](https://leetcode.com/problems/palindrome-pairs) |
+| 1023 | 驼峰式匹配 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/camelcase-matching) [🔗](https://leetcode.com/problems/camelcase-matching) |
+| 676 | 实现一个魔法字典 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/implement-magic-dictionary) [🔗](https://leetcode.com/problems/implement-magic-dictionary) |
+| 440 | 字典序的第K小数字 | [[✓]](/problem/0440.md) |  [`字典树`](/tag/trie.md) | 🔴 | [🀄️](https://leetcode.cn/problems/k-th-smallest-in-lexicographical-order) [🔗](https://leetcode.com/problems/k-th-smallest-in-lexicographical-order) |
 
