@@ -18,15 +18,15 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 274 | [H 指数](https://leetcode.com/problems/h-index) | [[✓]](/problem/0274.md) |  [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md) | <font color=#ffb800>Medium</font> |
-| 561 | [数组拆分](https://leetcode.com/problems/array-partition) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
-| 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 1051 | [高度检查器](https://leetcode.com/problems/height-checker) |  |  [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md) | <font color=#15bd66>Easy</font> |
-| 1122 | [数组的相对排序](https://leetcode.com/problems/relative-sort-array) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
-| 1833 | [雪糕的最大数量](https://leetcode.com/problems/maximum-ice-cream-bars) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#ffb800>Medium</font> |
-| 2037 | [使每位学生都有座位的最少移动次数](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
-| 3088 | [使字符串反回文 🔒](https://leetcode.com/problems/make-string-anti-palindrome) |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#ff334b>Hard</font> |
-| 3189 | [得到一个和平棋盘的最少步骤 🔒](https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board) |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#ffb800>Medium</font> |
-| 剑指 Offer II 75 | [数组相对排序](https://leetcode.cn/problems/0H97ZC) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | <font color=#15bd66>Easy</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 274 | H 指数 | [[✓]](/problem/0274.md) |  [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/h-index) [🔗](https://leetcode.com/problems/h-index) |
+| 561 | 数组拆分 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/array-partition) [🔗](https://leetcode.com/problems/array-partition) |
+| 912 | 排序数组 |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-an-array) [🔗](https://leetcode.com/problems/sort-an-array) |
+| 1051 | 高度检查器 |  |  [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/height-checker) [🔗](https://leetcode.com/problems/height-checker) |
+| 1122 | 数组的相对排序 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/relative-sort-array) [🔗](https://leetcode.com/problems/relative-sort-array) |
+| 1833 | 雪糕的最大数量 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-ice-cream-bars) [🔗](https://leetcode.com/problems/maximum-ice-cream-bars) |
+| 2037 | 使每位学生都有座位的最少移动次数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone) [🔗](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone) |
+| 3088 | 使字符串反回文 🔒 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/make-string-anti-palindrome) [🔗](https://leetcode.com/problems/make-string-anti-palindrome) |
+| 3189 | 得到一个和平棋盘的最少步骤 🔒 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-moves-to-get-a-peaceful-board) [🔗](https://leetcode.com/problems/minimum-moves-to-get-a-peaceful-board) |
+| 剑指 Offer II 75 | 数组相对排序 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/0H97ZC) |
