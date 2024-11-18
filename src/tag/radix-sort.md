@@ -18,8 +18,8 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 164 | [最大间距](https://leetcode.com/problems/maximum-gap) |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | <font color=#ffb800>Medium</font> |
-| 912 | [排序数组](https://leetcode.com/problems/sort-an-array) |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | <font color=#ffb800>Medium</font> |
-| 2343 | [裁剪数字后查询第 K 小的数字](https://leetcode.com/problems/query-kth-smallest-trimmed-number) |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`分治`](/tag/divide-and-conquer.md) `4+` | <font color=#ffb800>Medium</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 164 | 最大间距 |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-gap) [🔗](https://leetcode.com/problems/maximum-gap) |
+| 912 | 排序数组 |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-an-array) [🔗](https://leetcode.com/problems/sort-an-array) |
+| 2343 | 裁剪数字后查询第 K 小的数字 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`分治`](/tag/divide-and-conquer.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/query-kth-smallest-trimmed-number) [🔗](https://leetcode.com/problems/query-kth-smallest-trimmed-number) |

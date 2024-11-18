@@ -18,14 +18,14 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 1114 | [按序打印](https://leetcode.com/problems/print-in-order) |  |  [`多线程`](/tag/concurrency.md) | <font color=#15bd66>Easy</font> |
-| 1115 | [交替打印 FooBar](https://leetcode.com/problems/print-foobar-alternately) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1116 | [打印零与奇偶数](https://leetcode.com/problems/print-zero-even-odd) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1117 | [H2O 生成](https://leetcode.com/problems/building-h2o) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1188 | [设计有限阻塞队列 🔒](https://leetcode.com/problems/design-bounded-blocking-queue) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1195 | [交替打印字符串](https://leetcode.com/problems/fizz-buzz-multithreaded) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1226 | [哲学家进餐](https://leetcode.com/problems/the-dining-philosophers) |  |  [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1242 | [多线程网页爬虫 🔒](https://leetcode.com/problems/web-crawler-multithreaded) |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`多线程`](/tag/concurrency.md) | <font color=#ffb800>Medium</font> |
-| 1279 | [红绿灯路口 🔒](https://leetcode.com/problems/traffic-light-controlled-intersection) |  |  [`多线程`](/tag/concurrency.md) | <font color=#15bd66>Easy</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 1114 | 按序打印 |  |  [`多线程`](/tag/concurrency.md) | 🟢 | [🀄️](https://leetcode.cn/problems/print-in-order) [🔗](https://leetcode.com/problems/print-in-order) |
+| 1115 | 交替打印 FooBar |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/print-foobar-alternately) [🔗](https://leetcode.com/problems/print-foobar-alternately) |
+| 1116 | 打印零与奇偶数 |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/print-zero-even-odd) [🔗](https://leetcode.com/problems/print-zero-even-odd) |
+| 1117 | H2O 生成 |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/building-h2o) [🔗](https://leetcode.com/problems/building-h2o) |
+| 1188 | 设计有限阻塞队列 🔒 |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/design-bounded-blocking-queue) [🔗](https://leetcode.com/problems/design-bounded-blocking-queue) |
+| 1195 | 交替打印字符串 |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/fizz-buzz-multithreaded) [🔗](https://leetcode.com/problems/fizz-buzz-multithreaded) |
+| 1226 | 哲学家进餐 |  |  [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/the-dining-philosophers) [🔗](https://leetcode.com/problems/the-dining-philosophers) |
+| 1242 | 多线程网页爬虫 🔒 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`多线程`](/tag/concurrency.md) | 🟠 | [🀄️](https://leetcode.cn/problems/web-crawler-multithreaded) [🔗](https://leetcode.com/problems/web-crawler-multithreaded) |
+| 1279 | 红绿灯路口 🔒 |  |  [`多线程`](/tag/concurrency.md) | 🟢 | [🀄️](https://leetcode.cn/problems/traffic-light-controlled-intersection) [🔗](https://leetcode.com/problems/traffic-light-controlled-intersection) |

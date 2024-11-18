@@ -18,14 +18,14 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 470 | [用 Rand7() 实现 Rand10()](https://leetcode.com/problems/implement-rand10-using-rand7) |  |  [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) [`概率与统计`](/tag/probability-and-statistics.md) `1+` | <font color=#ffb800>Medium</font> |
-| 808 | [分汤](https://leetcode.com/problems/soup-servings) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
-| 837 | [新 21 点](https://leetcode.com/problems/new-21-game) |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1093 | [大样本统计](https://leetcode.com/problems/statistics-from-a-large-sample) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`概率与统计`](/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
-| 1227 | [飞机座位分配概率](https://leetcode.com/problems/airplane-seat-assignment-probability) |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1230 | [抛掷硬币 🔒](https://leetcode.com/problems/toss-strange-coins) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1467 | [两个盒子中球的颜色数相同的概率](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | <font color=#ff334b>Hard</font> |
-| LCP 11 | [期望个数统计](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji) |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | <font color=#15bd66>Easy</font> |
-| 剑指 Offer 60 | [n个骰子的点数](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) | [[✓]](/offer/jz_offer_60_1.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md) | <font color=#ffb800>Medium</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 470 | 用 Rand7() 实现 Rand10() |  |  [`数学`](/tag/math.md) [`拒绝采样`](/tag/rejection-sampling.md) [`概率与统计`](/tag/probability-and-statistics.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/implement-rand10-using-rand7) [🔗](https://leetcode.com/problems/implement-rand10-using-rand7) |
+| 808 | 分汤 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md) | 🟠 | [🀄️](https://leetcode.cn/problems/soup-servings) [🔗](https://leetcode.com/problems/soup-servings) |
+| 837 | 新 21 点 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/new-21-game) [🔗](https://leetcode.com/problems/new-21-game) |
+| 1093 | 大样本统计 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`概率与统计`](/tag/probability-and-statistics.md) | 🟠 | [🀄️](https://leetcode.cn/problems/statistics-from-a-large-sample) [🔗](https://leetcode.com/problems/statistics-from-a-large-sample) |
+| 1227 | 飞机座位分配概率 |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/airplane-seat-assignment-probability) [🔗](https://leetcode.com/problems/airplane-seat-assignment-probability) |
+| 1230 | 抛掷硬币 🔒 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/toss-strange-coins) [🔗](https://leetcode.com/problems/toss-strange-coins) |
+| 1467 | 两个盒子中球的颜色数相同的概率 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) [🔗](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) |
+| LCP 11 | 期望个数统计 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/qi-wang-ge-shu-tong-ji) |
+| 剑指 Offer 60 | n个骰子的点数 | [[✓]](/offer/jz_offer_60_1.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`概率与统计`](/tag/probability-and-statistics.md) | 🟠 | [🀄️](https://leetcode.cn/problems/nge-tou-zi-de-dian-shu-lcof) |

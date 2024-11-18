@@ -18,10 +18,10 @@
 ---
 
 <!-- prettier-ignore -->
-| 题号 | 标题 | 题解 | 标签 | 难度 |
-| :------: | :------ | :------: | :------ | :------ |
-| 1135 | [最低成本连通所有城市 🔒](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1168 | [水资源分配优化 🔒](https://leetcode.com/problems/optimize-water-distribution-in-a-village) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `1+` | <font color=#ff334b>Hard</font> |
-| 1489 | [找到最小生成树里的关键边和伪关键边](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `2+` | <font color=#ff334b>Hard</font> |
-| 1584 | [连接所有点的最小费用](https://leetcode.com/problems/min-cost-to-connect-all-points) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | <font color=#ffb800>Medium</font> |
-| 1724 | [检查边长度限制的路径是否存在 II 🔒](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii) |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) | <font color=#ff334b>Hard</font> |
+| 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
+| :------: | :------ | :------: | :------ | :------ | :------: |
+| 1135 | 最低成本连通所有城市 🔒 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/connecting-cities-with-minimum-cost) [🔗](https://leetcode.com/problems/connecting-cities-with-minimum-cost) |
+| 1168 | 水资源分配优化 🔒 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/optimize-water-distribution-in-a-village) [🔗](https://leetcode.com/problems/optimize-water-distribution-in-a-village) |
+| 1489 | 找到最小生成树里的关键边和伪关键边 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) [🔗](https://leetcode.com/problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) |
+| 1584 | 连接所有点的最小费用 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/min-cost-to-connect-all-points) [🔗](https://leetcode.com/problems/min-cost-to-connect-all-points) |
+| 1724 | 检查边长度限制的路径是否存在 II 🔒 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) [`最小生成树`](/tag/minimum-spanning-tree.md) | 🔴 | [🀄️](https://leetcode.cn/problems/checking-existence-of-edge-length-limited-paths-ii) [🔗](https://leetcode.com/problems/checking-existence-of-edge-length-limited-paths-ii) |
