@@ -1848,7 +1848,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2460 | 对数组执行操作 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/apply-operations-to-an-array) [🔗](https://leetcode.com/problems/apply-operations-to-an-array) |
-| 2461 | 长度为 K 子数组中的最大和 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k) [🔗](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) |
+| 2461 | 长度为 K 子数组中的最大和 | [[✓]](/problem/2461.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k) [🔗](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) |
 | 2462 | 雇佣 K 位工人的总代价 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/total-cost-to-hire-k-workers) [🔗](https://leetcode.com/problems/total-cost-to-hire-k-workers) |
 | 2463 | 最小移动总距离 | [[✓]](/problem/2463.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-total-distance-traveled) [🔗](https://leetcode.com/problems/minimum-total-distance-traveled) |
 
@@ -4177,7 +4177,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1446 | 连续字符 |  |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/consecutive-characters) [🔗](https://leetcode.com/problems/consecutive-characters) |
 | 1447 | 最简分数 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`数论`](/tag/number-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/simplified-fractions) [🔗](https://leetcode.com/problems/simplified-fractions) |
-| 1448 | 统计二叉树中好节点的数目 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-good-nodes-in-binary-tree) [🔗](https://leetcode.com/problems/count-good-nodes-in-binary-tree) |
+| 1448 | 统计二叉树中好节点的数目 | [[✓]](/problem/1448.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-good-nodes-in-binary-tree) [🔗](https://leetcode.com/problems/count-good-nodes-in-binary-tree) |
 | 1449 | 数位成本和为目标值的最大数字 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/form-largest-integer-with-digits-that-add-up-to-target) [🔗](https://leetcode.com/problems/form-largest-integer-with-digits-that-add-up-to-target) |
 
 
@@ -4488,7 +4488,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1317 | 将整数转换为两个无零整数的和 |  |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/convert-integer-to-the-sum-of-two-no-zero-integers) [🔗](https://leetcode.com/problems/convert-integer-to-the-sum-of-two-no-zero-integers) |
-| 1318 | 或运算的最小翻转次数 |  |  [`位运算`](/tag/bit-manipulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c) [🔗](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c) |
+| 1318 | 或运算的最小翻转次数 | [[✓]](/problem/1318.md) |  [`位运算`](/tag/bit-manipulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c) [🔗](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c) |
 | 1319 | 连通网络的操作次数 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-operations-to-make-network-connected) [🔗](https://leetcode.com/problems/number-of-operations-to-make-network-connected) |
 | 1320 | 二指输入的的最小距离 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-distance-to-type-a-word-using-two-fingers) [🔗](https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers) |
 

@@ -27,6 +27,10 @@ export default defineUserConfig({
 			__dirname,
 			'./components/Navbar.vue'
 		)
+	},
+	shouldPrefetch: (file, type) => {
+		// 仅对关键资源启用 prefetch
+		return type === 'script' && file.includes('重要资源');
 	}
 
 	// Enable it with pwa
