@@ -1,6 +1,6 @@
 ---
 title: 6. 排序数组中两个数字之和
-description: LeetCode,6. 排序数组中两个数字之和,排序数组中两个数字之和,排序数组中两个数字之和,解题思路,数组,双指针,二分查找
+description: LeetCode 6. 排序数组中两个数字之和题解，排序数组中两个数字之和，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 6. 排序数组中两个数字之和

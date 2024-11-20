@@ -1,6 +1,6 @@
 ---
 title: LCP 04. 覆盖
-description: LeetCode,LCP 04. 覆盖,覆盖,Broken Board Dominoes,解题思路,位运算,图,数组,动态规划,状态压缩
+description: LeetCode LCP 04. 覆盖题解，Broken Board Dominoes，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 04. 覆盖

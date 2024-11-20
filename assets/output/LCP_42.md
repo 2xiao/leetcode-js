@@ -1,6 +1,6 @@
 ---
 title: LCP 42. 玩具套圈
-description: LeetCode,LCP 42. 玩具套圈,玩具套圈,玩具套圈,解题思路,几何,数组,哈希表,数学,二分查找,排序
+description: LeetCode LCP 42. 玩具套圈题解，玩具套圈，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 42. 玩具套圈

@@ -1,6 +1,6 @@
 ---
 title: LCP 78. 城墙防线
-description: LeetCode,LCP 78. 城墙防线,城墙防线,城墙防线,解题思路
+description: LeetCode LCP 78. 城墙防线题解，城墙防线，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 78. 城墙防线

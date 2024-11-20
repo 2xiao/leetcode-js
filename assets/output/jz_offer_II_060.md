@@ -1,6 +1,6 @@
 ---
 title: 60. 出现频率最高的 k 个数字
-description: LeetCode,60. 出现频率最高的 k 个数字,出现频率最高的 k 个数字,出现频率最高的 k 个数字,解题思路,数组,哈希表,分治,桶排序,计数,快速选择,排序,堆（优先队列）
+description: LeetCode 60. 出现频率最高的 k 个数字题解，出现频率最高的 k 个数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 60. 出现频率最高的 k 个数字

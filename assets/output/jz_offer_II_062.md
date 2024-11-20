@@ -1,6 +1,6 @@
 ---
 title: 62. 实现前缀树
-description: LeetCode,62. 实现前缀树,实现前缀树,实现前缀树,解题思路,设计,字典树,哈希表,字符串
+description: LeetCode 62. 实现前缀树题解，实现前缀树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 62. 实现前缀树

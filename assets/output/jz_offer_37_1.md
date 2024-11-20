@@ -1,6 +1,6 @@
 ---
 title: 37. 序列化二叉树
-description: LeetCode,37. 序列化二叉树,序列化二叉树,序列化二叉树,解题思路,树,深度优先搜索,广度优先搜索,设计,字符串,二叉树
+description: LeetCode 37. 序列化二叉树题解，序列化二叉树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 37. 序列化二叉树

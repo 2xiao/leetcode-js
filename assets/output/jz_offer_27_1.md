@@ -1,6 +1,6 @@
 ---
 title: 27. 二叉树的镜像
-description: LeetCode,27. 二叉树的镜像,二叉树的镜像,二叉树的镜像,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+description: LeetCode 27. 二叉树的镜像题解，二叉树的镜像，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 27. 二叉树的镜像

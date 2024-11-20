@@ -1,6 +1,6 @@
 ---
 title: LCP 35. 电动车游城市
-description: LeetCode,LCP 35. 电动车游城市,电动车游城市,电动车游城市,解题思路,图,最短路,堆（优先队列）
+description: LeetCode LCP 35. 电动车游城市题解，电动车游城市，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 35. 电动车游城市

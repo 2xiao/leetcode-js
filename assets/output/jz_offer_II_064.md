@@ -1,6 +1,6 @@
 ---
 title: 64. 神奇的字典
-description: LeetCode,64. 神奇的字典,神奇的字典,神奇的字典,解题思路,深度优先搜索,设计,字典树,哈希表,字符串
+description: LeetCode 64. 神奇的字典题解，神奇的字典，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 64. 神奇的字典

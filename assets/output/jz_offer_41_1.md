@@ -1,6 +1,6 @@
 ---
 title: 41. 数据流中的中位数
-description: LeetCode,41. 数据流中的中位数,数据流中的中位数,数据流中的中位数,解题思路,设计,双指针,数据流,排序,堆（优先队列）
+description: LeetCode 41. 数据流中的中位数题解，数据流中的中位数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 41. 数据流中的中位数

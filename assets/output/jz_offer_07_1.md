@@ -1,6 +1,6 @@
 ---
 title: 7. 重建二叉树
-description: LeetCode,7. 重建二叉树,重建二叉树,重建二叉树,解题思路,树,数组,哈希表,分治,二叉树
+description: LeetCode 7. 重建二叉树题解，重建二叉树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 7. 重建二叉树

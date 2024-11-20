@@ -1,6 +1,6 @@
 ---
 title: 118. 多余的边
-description: LeetCode,118. 多余的边,多余的边,多余的边,解题思路,深度优先搜索,广度优先搜索,并查集,图
+description: LeetCode 118. 多余的边题解，多余的边，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 118. 多余的边

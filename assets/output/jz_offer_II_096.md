@@ -1,6 +1,6 @@
 ---
 title: 96. 字符串交织
-description: LeetCode,96. 字符串交织,字符串交织,字符串交织,解题思路,字符串,动态规划
+description: LeetCode 96. 字符串交织题解，字符串交织，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 96. 字符串交织

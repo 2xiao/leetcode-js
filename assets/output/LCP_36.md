@@ -1,6 +1,6 @@
 ---
 title: LCP 36. 最多牌组数
-description: LeetCode,LCP 36. 最多牌组数,最多牌组数,最多牌组数,解题思路,数组,动态规划,排序
+description: LeetCode LCP 36. 最多牌组数题解，最多牌组数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 36. 最多牌组数

@@ -1,6 +1,6 @@
 ---
 title: LCP 03. 机器人大冒险
-description: LeetCode,LCP 03. 机器人大冒险,机器人大冒险,Programmable Robot,解题思路,数组,哈希表,模拟
+description: LeetCode LCP 03. 机器人大冒险题解，Programmable Robot，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 03. 机器人大冒险

@@ -1,6 +1,6 @@
 ---
 title: 22. 链表中倒数第k个节点
-description: LeetCode,22. 链表中倒数第k个节点,链表中倒数第k个节点,链表中倒数第k个节点,解题思路,链表,双指针
+description: LeetCode 22. 链表中倒数第k个节点题解，链表中倒数第k个节点，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 22. 链表中倒数第k个节点

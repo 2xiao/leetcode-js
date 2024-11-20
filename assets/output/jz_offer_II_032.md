@@ -1,6 +1,6 @@
 ---
 title: 32. 有效的变位词
-description: LeetCode,32. 有效的变位词,有效的变位词,有效的变位词,解题思路,哈希表,字符串,排序
+description: LeetCode 32. 有效的变位词题解，有效的变位词，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 32. 有效的变位词

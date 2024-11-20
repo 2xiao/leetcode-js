@@ -1,6 +1,6 @@
 ---
 title: LCP 18. 早餐组合
-description: LeetCode,LCP 18. 早餐组合,早餐组合,早餐组合,解题思路,数组,双指针,二分查找,排序
+description: LeetCode LCP 18. 早餐组合题解，早餐组合，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 18. 早餐组合

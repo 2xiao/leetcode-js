@@ -1,6 +1,6 @@
 ---
 title: 66. 单词之和
-description: LeetCode,66. 单词之和,单词之和,单词之和,解题思路,设计,字典树,哈希表,字符串
+description: LeetCode 66. 单词之和题解，单词之和，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 66. 单词之和

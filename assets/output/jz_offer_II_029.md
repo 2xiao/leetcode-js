@@ -1,6 +1,6 @@
 ---
 title: 29. 排序的循环链表
-description: LeetCode,29. 排序的循环链表,排序的循环链表,排序的循环链表,解题思路,链表
+description: LeetCode 29. 排序的循环链表题解，排序的循环链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 29. 排序的循环链表

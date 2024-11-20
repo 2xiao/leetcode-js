@@ -1,6 +1,6 @@
 ---
 title: LCP 01. 猜数字
-description: LeetCode,LCP 01. 猜数字,猜数字,Guess Numbers,解题思路,数组
+description: LeetCode LCP 01. 猜数字题解，Guess Numbers，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 01. 猜数字

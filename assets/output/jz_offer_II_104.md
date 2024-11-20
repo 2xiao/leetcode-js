@@ -1,6 +1,6 @@
 ---
 title: 104. 排列的数目
-description: LeetCode,104. 排列的数目,排列的数目,排列的数目,解题思路,数组,动态规划
+description: LeetCode 104. 排列的数目题解，排列的数目，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 104. 排列的数目

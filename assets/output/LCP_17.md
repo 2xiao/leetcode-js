@@ -1,6 +1,6 @@
 ---
 title: LCP 17. 速算机器人
-description: LeetCode,LCP 17. 速算机器人,速算机器人,速算机器人,解题思路,数学,字符串,模拟
+description: LeetCode LCP 17. 速算机器人题解，速算机器人，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 17. 速算机器人

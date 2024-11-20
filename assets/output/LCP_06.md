@@ -1,6 +1,6 @@
 ---
 title: LCP 06. 拿硬币
-description: LeetCode,LCP 06. 拿硬币,拿硬币,拿硬币,解题思路,数组,数学
+description: LeetCode LCP 06. 拿硬币题解，拿硬币，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 06. 拿硬币

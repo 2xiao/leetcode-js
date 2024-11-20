@@ -1,6 +1,6 @@
 ---
 title: LCP 08. 剧情触发时间
-description: LeetCode,LCP 08. 剧情触发时间,剧情触发时间,剧情触发时间,解题思路,数组,二分查找,排序
+description: LeetCode LCP 08. 剧情触发时间题解，剧情触发时间，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 08. 剧情触发时间

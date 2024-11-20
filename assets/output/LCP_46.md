@@ -1,6 +1,6 @@
 ---
 title: LCP 46. 志愿者调配
-description: LeetCode,LCP 46. 志愿者调配,志愿者调配,志愿者调配,解题思路,图,数组,数学
+description: LeetCode LCP 46. 志愿者调配题解，志愿者调配，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 46. 志愿者调配

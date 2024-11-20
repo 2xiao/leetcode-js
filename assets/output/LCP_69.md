@@ -1,6 +1,6 @@
 ---
 title: LCP 69. Hello LeetCode!
-description: LeetCode,LCP 69. Hello LeetCode!,Hello LeetCode!,Hello LeetCode!,解题思路,位运算,数组,字符串,动态规划,状态压缩
+description: LeetCode LCP 69. Hello LeetCode!题解，Hello LeetCode!，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 69. Hello LeetCode!

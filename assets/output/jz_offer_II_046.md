@@ -1,6 +1,6 @@
 ---
 title: 46. 二叉树的右侧视图
-description: LeetCode,46. 二叉树的右侧视图,二叉树的右侧视图,二叉树的右侧视图,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+description: LeetCode 46. 二叉树的右侧视图题解，二叉树的右侧视图，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 46. 二叉树的右侧视图

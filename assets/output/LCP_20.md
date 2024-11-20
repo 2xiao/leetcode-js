@@ -1,6 +1,6 @@
 ---
 title: LCP 20. 快速公交
-description: LeetCode,LCP 20. 快速公交,快速公交,快速公交,解题思路,记忆化搜索,数组,动态规划
+description: LeetCode LCP 20. 快速公交题解，快速公交，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 20. 快速公交

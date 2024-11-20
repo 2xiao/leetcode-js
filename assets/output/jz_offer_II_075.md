@@ -1,6 +1,6 @@
 ---
 title: 75. 数组相对排序
-description: LeetCode,75. 数组相对排序,数组相对排序,数组相对排序,解题思路,数组,哈希表,计数排序,排序
+description: LeetCode 75. 数组相对排序题解，数组相对排序，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 75. 数组相对排序

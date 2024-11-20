@@ -1,6 +1,6 @@
 ---
 title: 10-II. 青蛙跳台阶问题
-description: LeetCode,10-II. 青蛙跳台阶问题,青蛙跳台阶问题,青蛙跳台阶问题,解题思路,记忆化搜索,数学,动态规划
+description: LeetCode 10-II. 青蛙跳台阶问题题解，青蛙跳台阶问题，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 10-II. 青蛙跳台阶问题

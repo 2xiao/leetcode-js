@@ -1,6 +1,6 @@
 ---
 title: LCP 15. 游乐园的迷宫
-description: LeetCode,LCP 15. 游乐园的迷宫,游乐园的迷宫,游乐园的迷宫,解题思路,贪心,几何,数组,数学
+description: LeetCode LCP 15. 游乐园的迷宫题解，游乐园的迷宫，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 15. 游乐园的迷宫

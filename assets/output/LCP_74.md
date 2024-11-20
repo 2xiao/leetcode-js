@@ -1,6 +1,6 @@
 ---
 title: LCP 74. 最强祝福力场
-description: LeetCode,LCP 74. 最强祝福力场,最强祝福力场,最强祝福力场,解题思路
+description: LeetCode LCP 74. 最强祝福力场题解，最强祝福力场，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 74. 最强祝福力场

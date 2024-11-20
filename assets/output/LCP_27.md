@@ -1,6 +1,6 @@
 ---
 title: LCP 27. 黑盒光线反射
-description: LeetCode,LCP 27. 黑盒光线反射,黑盒光线反射,黑盒光线反射,解题思路,设计,线段树,数学,有序集合
+description: LeetCode LCP 27. 黑盒光线反射题解，黑盒光线反射，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 27. 黑盒光线反射

@@ -1,6 +1,6 @@
 ---
 title: 44. 二叉树每层的最大值
-description: LeetCode,44. 二叉树每层的最大值,二叉树每层的最大值,二叉树每层的最大值,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+description: LeetCode 44. 二叉树每层的最大值题解，二叉树每层的最大值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 44. 二叉树每层的最大值

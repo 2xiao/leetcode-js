@@ -1,6 +1,6 @@
 ---
 title: LCP 54. 夺回据点
-description: LeetCode,LCP 54. 夺回据点,夺回据点,夺回据点,解题思路,图,数组,双连通分量
+description: LeetCode LCP 54. 夺回据点题解，夺回据点，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 54. 夺回据点

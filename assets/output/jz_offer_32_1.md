@@ -1,6 +1,6 @@
 ---
 title: 32. 从上到下打印二叉树
-description: LeetCode,32. 从上到下打印二叉树,从上到下打印二叉树,从上到下打印二叉树,解题思路,树,广度优先搜索,二叉树
+description: LeetCode 32. 从上到下打印二叉树题解，从上到下打印二叉树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 32. 从上到下打印二叉树

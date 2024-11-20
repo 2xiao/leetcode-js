@@ -1,6 +1,6 @@
 ---
 title: LCP 05. 发 LeetCoin
-description: LeetCode,LCP 05. 发 LeetCoin,发 LeetCoin,Coin Bonus,解题思路,树状数组,线段树,数组
+description: LeetCode LCP 05. 发 LeetCoin题解，Coin Bonus，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 05. 发 LeetCoin

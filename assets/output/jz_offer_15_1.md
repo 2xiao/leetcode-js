@@ -1,6 +1,6 @@
 ---
 title: 15. 二进制中1的个数
-description: LeetCode,15. 二进制中1的个数,二进制中1的个数,二进制中1的个数,解题思路,位运算
+description: LeetCode 15. 二进制中1的个数题解，二进制中1的个数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 15. 二进制中1的个数

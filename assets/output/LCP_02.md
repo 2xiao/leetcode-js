@@ -1,6 +1,6 @@
 ---
 title: LCP 02. 分式化简
-description: LeetCode,LCP 02. 分式化简,分式化简,Deep Dark Fraction,解题思路,数组,数学,数论,模拟
+description: LeetCode LCP 02. 分式化简题解，Deep Dark Fraction，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 02. 分式化简

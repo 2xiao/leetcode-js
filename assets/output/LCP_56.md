@@ -1,6 +1,6 @@
 ---
 title: LCP 56. 信物传送
-description: LeetCode,LCP 56. 信物传送,信物传送,信物传送,解题思路,广度优先搜索,图,数组,矩阵,最短路,堆（优先队列）
+description: LeetCode LCP 56. 信物传送题解，信物传送，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 56. 信物传送

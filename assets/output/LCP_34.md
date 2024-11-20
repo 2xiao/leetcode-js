@@ -1,6 +1,6 @@
 ---
 title: LCP 34. 二叉树染色
-description: LeetCode,LCP 34. 二叉树染色,二叉树染色,二叉树染色,解题思路,树,动态规划,二叉树
+description: LeetCode LCP 34. 二叉树染色题解，二叉树染色，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 34. 二叉树染色

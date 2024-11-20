@@ -1,6 +1,6 @@
 ---
 title: LCP 14. 切分数组
-description: LeetCode,LCP 14. 切分数组,切分数组,切分数组,解题思路,数组,数学,动态规划,数论
+description: LeetCode LCP 14. 切分数组题解，切分数组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 14. 切分数组

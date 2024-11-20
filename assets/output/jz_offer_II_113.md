@@ -1,6 +1,6 @@
 ---
 title: 113. 课程顺序
-description: LeetCode,113. 课程顺序,课程顺序,课程顺序,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序
+description: LeetCode 113. 课程顺序题解，课程顺序，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 113. 课程顺序

@@ -1,6 +1,6 @@
 ---
 title: LCP 44. 开幕式焰火
-description: LeetCode,LCP 44. 开幕式焰火,开幕式焰火,开幕式焰火,解题思路,树,深度优先搜索,广度优先搜索,哈希表,二叉树
+description: LeetCode LCP 44. 开幕式焰火题解，开幕式焰火，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 44. 开幕式焰火

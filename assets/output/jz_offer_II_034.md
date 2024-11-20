@@ -1,6 +1,6 @@
 ---
 title: 34. 外星语言是否排序
-description: LeetCode,34. 外星语言是否排序,外星语言是否排序,外星语言是否排序,解题思路,数组,哈希表,字符串
+description: LeetCode 34. 外星语言是否排序题解，外星语言是否排序，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 34. 外星语言是否排序

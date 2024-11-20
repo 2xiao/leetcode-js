@@ -1,6 +1,6 @@
 ---
 title: LCP 82. 万灵之树
-description: LeetCode,LCP 82. 万灵之树,万灵之树,万灵之树,解题思路
+description: LeetCode LCP 82. 万灵之树题解，万灵之树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 82. 万灵之树

@@ -1,6 +1,6 @@
 ---
 title: LCP 43. 十字路口的交通
-description: LeetCode,LCP 43. 十字路口的交通,十字路口的交通,十字路口的交通,解题思路,数组,字符串,动态规划
+description: LeetCode LCP 43. 十字路口的交通题解，十字路口的交通，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 43. 十字路口的交通

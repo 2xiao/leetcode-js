@@ -1,6 +1,6 @@
 ---
 title: LCP 63. 弹珠游戏
-description: LeetCode,LCP 63. 弹珠游戏,弹珠游戏,弹珠游戏,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序,记忆化搜索,数组,动态规划,矩阵
+description: LeetCode LCP 63. 弹珠游戏题解，弹珠游戏，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 63. 弹珠游戏

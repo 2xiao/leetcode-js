@@ -1,6 +1,6 @@
 ---
 title: LCP 24. 数字游戏
-description: LeetCode,LCP 24. 数字游戏,数字游戏,数字游戏,解题思路,数组,数学,堆（优先队列）
+description: LeetCode LCP 24. 数字游戏题解，数字游戏，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 24. 数字游戏

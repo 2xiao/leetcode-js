@@ -1,6 +1,6 @@
 ---
 title: LCP 68. 美观的花束
-description: LeetCode,LCP 68. 美观的花束,美观的花束,美观的花束,解题思路,数组,滑动窗口
+description: LeetCode LCP 68. 美观的花束题解，美观的花束，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 68. 美观的花束

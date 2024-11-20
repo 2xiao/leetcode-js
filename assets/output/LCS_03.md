@@ -1,6 +1,6 @@
 ---
 title: LCS 03. 主题空间
-description: LeetCode,LCS 03. 主题空间,主题空间,主题空间,解题思路,深度优先搜索,广度优先搜索,并查集,数组,矩阵
+description: LeetCode LCS 03. 主题空间题解，主题空间，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCS 03. 主题空间

@@ -1,6 +1,6 @@
 ---
 title: LCP 21. 追逐游戏
-description: LeetCode,LCP 21. 追逐游戏,追逐游戏,追逐游戏,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序
+description: LeetCode LCP 21. 追逐游戏题解，追逐游戏，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 21. 追逐游戏

@@ -1,6 +1,6 @@
 ---
 title: 92. 翻转字符
-description: LeetCode,92. 翻转字符,翻转字符,翻转字符,解题思路,字符串,动态规划
+description: LeetCode 92. 翻转字符题解，翻转字符，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 92. 翻转字符

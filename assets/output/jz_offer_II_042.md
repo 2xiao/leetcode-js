@@ -1,6 +1,6 @@
 ---
 title: 42. 最近请求次数
-description: LeetCode,42. 最近请求次数,最近请求次数,最近请求次数,解题思路,设计,队列,数据流
+description: LeetCode 42. 最近请求次数题解，最近请求次数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 42. 最近请求次数

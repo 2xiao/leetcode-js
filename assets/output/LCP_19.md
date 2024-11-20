@@ -1,6 +1,6 @@
 ---
 title: LCP 19. 秋叶收藏集
-description: LeetCode,LCP 19. 秋叶收藏集,秋叶收藏集,秋叶收藏集,解题思路,字符串,动态规划
+description: LeetCode LCP 19. 秋叶收藏集题解，秋叶收藏集，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 19. 秋叶收藏集

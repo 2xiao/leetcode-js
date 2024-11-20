@@ -1,6 +1,6 @@
 ---
 title: LCP 64. 二叉树灯饰
-description: LeetCode,LCP 64. 二叉树灯饰,二叉树灯饰,二叉树灯饰,解题思路,树,深度优先搜索,动态规划,二叉树
+description: LeetCode LCP 64. 二叉树灯饰题解，二叉树灯饰，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 64. 二叉树灯饰

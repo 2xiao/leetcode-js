@@ -1,6 +1,6 @@
 ---
 title: LCP 39. 无人机方阵
-description: LeetCode,LCP 39. 无人机方阵,无人机方阵,无人机方阵,解题思路,数组,哈希表,计数,矩阵
+description: LeetCode LCP 39. 无人机方阵题解，无人机方阵，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 39. 无人机方阵

@@ -1,6 +1,6 @@
 ---
 title: 69. 山峰数组的顶部
-description: LeetCode,69. 山峰数组的顶部,山峰数组的顶部,山峰数组的顶部,解题思路,数组,二分查找
+description: LeetCode 69. 山峰数组的顶部题解，山峰数组的顶部，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 69. 山峰数组的顶部

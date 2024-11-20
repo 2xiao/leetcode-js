@@ -1,6 +1,6 @@
 ---
 title: LCP 33. 蓄水
-description: LeetCode,LCP 33. 蓄水,蓄水,蓄水,解题思路,贪心,数组,堆（优先队列）
+description: LeetCode LCP 33. 蓄水题解，蓄水，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 33. 蓄水

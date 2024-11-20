@@ -1,6 +1,6 @@
 ---
 title: 14. 剪绳子
-description: LeetCode,14. 剪绳子,剪绳子,剪绳子,解题思路,数学,动态规划
+description: LeetCode 14. 剪绳子题解，剪绳子，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 14. 剪绳子

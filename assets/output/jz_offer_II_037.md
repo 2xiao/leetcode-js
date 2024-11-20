@@ -1,6 +1,6 @@
 ---
 title: 37. 小行星碰撞
-description: LeetCode,37. 小行星碰撞,小行星碰撞,小行星碰撞,解题思路,栈,数组,模拟
+description: LeetCode 37. 小行星碰撞题解，小行星碰撞，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 37. 小行星碰撞

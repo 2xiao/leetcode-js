@@ -1,6 +1,6 @@
 ---
 title: 52. 展平二叉搜索树
-description: LeetCode,52. 展平二叉搜索树,展平二叉搜索树,展平二叉搜索树,解题思路,栈,树,深度优先搜索,二叉搜索树,二叉树
+description: LeetCode 52. 展平二叉搜索树题解，展平二叉搜索树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 52. 展平二叉搜索树

@@ -1,6 +1,6 @@
 ---
 title: 59-II. 队列的最大值
-description: LeetCode,59-II. 队列的最大值,队列的最大值,队列的最大值,解题思路,设计,队列,单调队列
+description: LeetCode 59-II. 队列的最大值题解，队列的最大值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 59-II. 队列的最大值

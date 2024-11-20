@@ -1,6 +1,6 @@
 ---
 title: LCP 72. 补给马车
-description: LeetCode,LCP 72. 补给马车,补给马车,补给马车,解题思路
+description: LeetCode LCP 72. 补给马车题解，补给马车，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 72. 补给马车

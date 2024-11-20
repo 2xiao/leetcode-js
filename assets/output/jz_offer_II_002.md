@@ -1,6 +1,6 @@
 ---
 title: 2. 二进制加法
-description: LeetCode,2. 二进制加法,二进制加法,二进制加法,解题思路,位运算,数学,字符串,模拟
+description: LeetCode 2. 二进制加法题解，二进制加法，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 2. 二进制加法

@@ -1,6 +1,6 @@
 ---
 title: 61. 扑克牌中的顺子
-description: LeetCode,61. 扑克牌中的顺子,扑克牌中的顺子,扑克牌中的顺子,解题思路,数组,排序
+description: LeetCode 61. 扑克牌中的顺子题解，扑克牌中的顺子，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 61. 扑克牌中的顺子

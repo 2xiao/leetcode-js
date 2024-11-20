@@ -1,6 +1,6 @@
 ---
 title: LCS 02. 完成一半题目
-description: LeetCode,LCS 02. 完成一半题目,完成一半题目,完成一半题目,解题思路,贪心,数组,哈希表,排序
+description: LeetCode LCS 02. 完成一半题目题解，完成一半题目，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCS 02. 完成一半题目

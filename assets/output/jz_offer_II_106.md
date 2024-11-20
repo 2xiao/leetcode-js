@@ -1,6 +1,6 @@
 ---
 title: 106. 二分图
-description: LeetCode,106. 二分图,二分图,二分图,解题思路,深度优先搜索,广度优先搜索,并查集,图
+description: LeetCode 106. 二分图题解，二分图，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 106. 二分图

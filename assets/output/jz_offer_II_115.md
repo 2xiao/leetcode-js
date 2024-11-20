@@ -1,6 +1,6 @@
 ---
 title: 115. 重建序列
-description: LeetCode,115. 重建序列,重建序列,重建序列,解题思路,图,拓扑排序,数组
+description: LeetCode 115. 重建序列题解，重建序列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 115. 重建序列

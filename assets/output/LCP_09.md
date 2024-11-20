@@ -1,6 +1,6 @@
 ---
 title: LCP 09. 最小跳跃次数
-description: LeetCode,LCP 09. 最小跳跃次数,最小跳跃次数,最小跳跃次数,解题思路,广度优先搜索,线段树,数组,动态规划
+description: LeetCode LCP 09. 最小跳跃次数题解，最小跳跃次数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 09. 最小跳跃次数

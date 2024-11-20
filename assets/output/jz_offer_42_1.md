@@ -1,6 +1,6 @@
 ---
 title: 42. 连续子数组的最大和
-description: LeetCode,42. 连续子数组的最大和,连续子数组的最大和,连续子数组的最大和,解题思路,数组,分治,动态规划
+description: LeetCode 42. 连续子数组的最大和题解，连续子数组的最大和，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 42. 连续子数组的最大和

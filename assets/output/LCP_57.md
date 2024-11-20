@@ -1,6 +1,6 @@
 ---
 title: LCP 57. 打地鼠
-description: LeetCode,LCP 57. 打地鼠,打地鼠,打地鼠,解题思路,数组,动态规划,矩阵,排序
+description: LeetCode LCP 57. 打地鼠题解，打地鼠，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 57. 打地鼠

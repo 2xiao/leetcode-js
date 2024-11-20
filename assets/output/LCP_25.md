@@ -1,6 +1,6 @@
 ---
 title: LCP 25. 古董键盘
-description: LeetCode,LCP 25. 古董键盘,古董键盘,古董键盘,解题思路,数学,动态规划,组合数学
+description: LeetCode LCP 25. 古董键盘题解，古董键盘，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 25. 古董键盘

@@ -1,6 +1,6 @@
 ---
 title: 3. 前 n 个数字二进制中 1 的个数
-description: LeetCode,3. 前 n 个数字二进制中 1 的个数,前 n 个数字二进制中 1 的个数,前 n 个数字二进制中 1 的个数,解题思路,位运算,动态规划
+description: LeetCode 3. 前 n 个数字二进制中 1 的个数题解，前 n 个数字二进制中 1 的个数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 3. 前 n 个数字二进制中 1 的个数

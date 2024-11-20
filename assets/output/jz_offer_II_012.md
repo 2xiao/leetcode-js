@@ -1,6 +1,6 @@
 ---
 title: 12. 左右两边子数组的和相等
-description: LeetCode,12. 左右两边子数组的和相等,左右两边子数组的和相等,左右两边子数组的和相等,解题思路,数组,前缀和
+description: LeetCode 12. 左右两边子数组的和相等题解，左右两边子数组的和相等，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 12. 左右两边子数组的和相等

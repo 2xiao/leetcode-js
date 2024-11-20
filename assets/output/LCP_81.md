@@ -1,6 +1,6 @@
 ---
 title: LCP 81. 与非的谜题
-description: LeetCode,LCP 81. 与非的谜题,与非的谜题,与非的谜题,解题思路
+description: LeetCode LCP 81. 与非的谜题题解，与非的谜题，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 81. 与非的谜题

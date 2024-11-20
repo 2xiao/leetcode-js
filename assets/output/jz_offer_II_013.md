@@ -1,6 +1,6 @@
 ---
 title: 13. 二维子矩阵的和
-description: LeetCode,13. 二维子矩阵的和,二维子矩阵的和,二维子矩阵的和,解题思路,设计,数组,矩阵,前缀和
+description: LeetCode 13. 二维子矩阵的和题解，二维子矩阵的和，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 13. 二维子矩阵的和

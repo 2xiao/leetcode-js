@@ -1,6 +1,6 @@
 ---
 title: LCP 28. 采购方案
-description: LeetCode,LCP 28. 采购方案,采购方案,采购方案,解题思路,数组,双指针,二分查找,排序
+description: LeetCode LCP 28. 采购方案题解，采购方案，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 28. 采购方案

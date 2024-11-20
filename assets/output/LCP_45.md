@@ -1,6 +1,6 @@
 ---
 title: LCP 45. 自行车炫技赛场
-description: LeetCode,LCP 45. 自行车炫技赛场,自行车炫技赛场,自行车炫技赛场,解题思路,深度优先搜索,广度优先搜索,记忆化搜索,数组,动态规划,矩阵
+description: LeetCode LCP 45. 自行车炫技赛场题解，自行车炫技赛场，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 45. 自行车炫技赛场

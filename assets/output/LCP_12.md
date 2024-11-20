@@ -1,6 +1,6 @@
 ---
 title: LCP 12. 小张刷题计划
-description: LeetCode,LCP 12. 小张刷题计划,小张刷题计划,小张刷题计划,解题思路,数组,二分查找
+description: LeetCode LCP 12. 小张刷题计划题解，小张刷题计划，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 12. 小张刷题计划

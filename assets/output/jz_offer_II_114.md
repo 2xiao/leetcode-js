@@ -1,6 +1,6 @@
 ---
 title: 114. 外星文字典
-description: LeetCode,114. 外星文字典,外星文字典,外星文字典,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序,数组,字符串
+description: LeetCode 114. 外星文字典题解，外星文字典，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 114. 外星文字典

@@ -1,6 +1,6 @@
 ---
 title: 11. 0 和 1 个数相同的子数组
-description: LeetCode,11. 0 和 1 个数相同的子数组,0 和 1 个数相同的子数组,0 和 1 个数相同的子数组,解题思路,数组,哈希表,前缀和
+description: LeetCode 11. 0 和 1 个数相同的子数组题解，0 和 1 个数相同的子数组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 11. 0 和 1 个数相同的子数组

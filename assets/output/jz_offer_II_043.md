@@ -1,6 +1,6 @@
 ---
 title: 43. 往完全二叉树添加节点
-description: LeetCode,43. 往完全二叉树添加节点,往完全二叉树添加节点,往完全二叉树添加节点,解题思路,树,广度优先搜索,设计,二叉树
+description: LeetCode 43. 往完全二叉树添加节点题解，往完全二叉树添加节点，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 43. 往完全二叉树添加节点

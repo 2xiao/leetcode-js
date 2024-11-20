@@ -1,6 +1,6 @@
 ---
 title: 79. 所有子集
-description: LeetCode,79. 所有子集,所有子集,所有子集,解题思路,位运算,数组,回溯
+description: LeetCode 79. 所有子集题解，所有子集，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 79. 所有子集

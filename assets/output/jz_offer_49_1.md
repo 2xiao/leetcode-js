@@ -1,6 +1,6 @@
 ---
 title: 49. 丑数
-description: LeetCode,49. 丑数,丑数,丑数,解题思路,哈希表,数学,动态规划,堆（优先队列）
+description: LeetCode 49. 丑数题解，丑数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 49. 丑数

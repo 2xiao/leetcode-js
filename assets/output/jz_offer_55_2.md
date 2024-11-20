@@ -1,6 +1,6 @@
 ---
 title: 55-II. 平衡二叉树
-description: LeetCode,55-II. 平衡二叉树,平衡二叉树,平衡二叉树,解题思路,树,深度优先搜索,二叉树
+description: LeetCode 55-II. 平衡二叉树题解，平衡二叉树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 55-II. 平衡二叉树

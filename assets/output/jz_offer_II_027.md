@@ -1,6 +1,6 @@
 ---
 title: 27. 回文链表
-description: LeetCode,27. 回文链表,回文链表,回文链表,解题思路,栈,递归,链表,双指针
+description: LeetCode 27. 回文链表题解，回文链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 27. 回文链表

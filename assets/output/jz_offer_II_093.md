@@ -1,6 +1,6 @@
 ---
 title: 93. 最长斐波那契数列
-description: LeetCode,93. 最长斐波那契数列,最长斐波那契数列,最长斐波那契数列,解题思路,数组,哈希表,动态规划
+description: LeetCode 93. 最长斐波那契数列题解，最长斐波那契数列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 93. 最长斐波那契数列

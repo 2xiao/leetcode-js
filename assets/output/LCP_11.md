@@ -1,6 +1,6 @@
 ---
 title: LCP 11. 期望个数统计
-description: LeetCode,LCP 11. 期望个数统计,期望个数统计,期望个数统计,解题思路,数组,哈希表,数学,概率与统计
+description: LeetCode LCP 11. 期望个数统计题解，期望个数统计，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 11. 期望个数统计

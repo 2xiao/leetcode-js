@@ -1,6 +1,6 @@
 ---
 title: 5. 单词长度的最大乘积
-description: LeetCode,5. 单词长度的最大乘积,单词长度的最大乘积,单词长度的最大乘积,解题思路,位运算,数组,字符串
+description: LeetCode 5. 单词长度的最大乘积题解，单词长度的最大乘积，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 5. 单词长度的最大乘积

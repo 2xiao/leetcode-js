@@ -1,6 +1,6 @@
 ---
 title: LCP 66. 最小展台数量
-description: LeetCode,LCP 66. 最小展台数量,最小展台数量,最小展台数量,解题思路,数组,哈希表,字符串,计数
+description: LeetCode LCP 66. 最小展台数量题解，最小展台数量，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 66. 最小展台数量

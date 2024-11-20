@@ -1,6 +1,6 @@
 ---
 title: 51. 节点之和最大的路径
-description: LeetCode,51. 节点之和最大的路径,节点之和最大的路径,节点之和最大的路径,解题思路,树,深度优先搜索,动态规划,二叉树
+description: LeetCode 51. 节点之和最大的路径题解，节点之和最大的路径，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 51. 节点之和最大的路径

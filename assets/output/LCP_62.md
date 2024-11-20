@@ -1,6 +1,6 @@
 ---
 title: LCP 62. 交通枢纽
-description: LeetCode,LCP 62. 交通枢纽,交通枢纽,交通枢纽,解题思路,图
+description: LeetCode LCP 62. 交通枢纽题解，交通枢纽，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 62. 交通枢纽

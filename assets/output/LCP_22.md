@@ -1,6 +1,6 @@
 ---
 title: LCP 22. 黑白方格画
-description: LeetCode,LCP 22. 黑白方格画,黑白方格画,黑白方格画,解题思路,数学
+description: LeetCode LCP 22. 黑白方格画题解，黑白方格画，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 22. 黑白方格画

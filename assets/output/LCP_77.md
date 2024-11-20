@@ -1,6 +1,6 @@
 ---
 title: LCP 77. 符文储备
-description: LeetCode,LCP 77. 符文储备,符文储备,符文储备,解题思路
+description: LeetCode LCP 77. 符文储备题解，符文储备，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 77. 符文储备

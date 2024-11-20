@@ -1,6 +1,6 @@
 ---
 title: LCP 13. 寻宝
-description: LeetCode,LCP 13. 寻宝,寻宝,寻宝,解题思路,位运算,广度优先搜索,数组,动态规划,状态压缩,矩阵
+description: LeetCode LCP 13. 寻宝题解，寻宝，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 13. 寻宝

@@ -1,6 +1,6 @@
 ---
 title: 25. 链表中的两数相加
-description: LeetCode,25. 链表中的两数相加,链表中的两数相加,链表中的两数相加,解题思路,栈,链表,数学
+description: LeetCode 25. 链表中的两数相加题解，链表中的两数相加，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 25. 链表中的两数相加

@@ -1,6 +1,6 @@
 ---
 title: LCP 61. 气温变化趋势
-description: LeetCode,LCP 61. 气温变化趋势,气温变化趋势,气温变化趋势,解题思路,数组
+description: LeetCode LCP 61. 气温变化趋势题解，气温变化趋势，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 61. 气温变化趋势

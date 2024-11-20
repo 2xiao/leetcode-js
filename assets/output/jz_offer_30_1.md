@@ -1,6 +1,6 @@
 ---
 title: 30. 包含min函数的栈
-description: LeetCode,30. 包含min函数的栈,包含min函数的栈,包含min函数的栈,解题思路,栈,设计
+description: LeetCode 30. 包含min函数的栈题解，包含min函数的栈，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 30. 包含min函数的栈

@@ -1,6 +1,6 @@
 ---
 title: LCP 58. 积木拼接
-description: LeetCode,LCP 58. 积木拼接,积木拼接,积木拼接,解题思路,数组,回溯,矩阵
+description: LeetCode LCP 58. 积木拼接题解，积木拼接，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 58. 积木拼接

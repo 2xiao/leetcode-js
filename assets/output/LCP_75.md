@@ -1,6 +1,6 @@
 ---
 title: LCP 75. 传送卷轴
-description: LeetCode,LCP 75. 传送卷轴,传送卷轴,传送卷轴,解题思路
+description: LeetCode LCP 75. 传送卷轴题解，传送卷轴，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 75. 传送卷轴

@@ -1,6 +1,6 @@
 ---
 title: LCP 10. 二叉树任务调度
-description: LeetCode,LCP 10. 二叉树任务调度,二叉树任务调度,二叉树任务调度,解题思路,树,深度优先搜索,动态规划,二叉树
+description: LeetCode LCP 10. 二叉树任务调度题解，二叉树任务调度，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 10. 二叉树任务调度

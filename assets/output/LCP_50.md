@@ -1,6 +1,6 @@
 ---
 title: LCP 50. 宝石补给
-description: LeetCode,LCP 50. 宝石补给,宝石补给,宝石补给,解题思路,数组,模拟
+description: LeetCode LCP 50. 宝石补给题解，宝石补给，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 50. 宝石补给

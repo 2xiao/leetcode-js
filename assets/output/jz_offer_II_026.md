@@ -1,6 +1,6 @@
 ---
 title: 26. 重排链表
-description: LeetCode,26. 重排链表,重排链表,重排链表,解题思路,栈,递归,链表,双指针
+description: LeetCode 26. 重排链表题解，重排链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 26. 重排链表

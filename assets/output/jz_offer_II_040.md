@@ -1,6 +1,6 @@
 ---
 title: 40. 矩阵中最大的矩形
-description: LeetCode,40. 矩阵中最大的矩形,矩阵中最大的矩形,矩阵中最大的矩形,解题思路,栈,数组,动态规划,矩阵,单调栈
+description: LeetCode 40. 矩阵中最大的矩形题解，矩阵中最大的矩形，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 40. 矩阵中最大的矩形

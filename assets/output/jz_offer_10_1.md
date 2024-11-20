@@ -1,6 +1,6 @@
 ---
 title: 10. 斐波那契数列
-description: LeetCode,10. 斐波那契数列,斐波那契数列,斐波那契数列,解题思路,记忆化搜索,数学,动态规划
+description: LeetCode 10. 斐波那契数列题解，斐波那契数列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 10. 斐波那契数列

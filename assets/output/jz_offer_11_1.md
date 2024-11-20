@@ -1,6 +1,6 @@
 ---
 title: 11. 旋转数组的最小数字
-description: LeetCode,11. 旋转数组的最小数字,旋转数组的最小数字,旋转数组的最小数字,解题思路,数组,二分查找
+description: LeetCode 11. 旋转数组的最小数字题解，旋转数组的最小数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 11. 旋转数组的最小数字

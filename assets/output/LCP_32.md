@@ -1,6 +1,6 @@
 ---
 title: LCP 32. 批量处理任务
-description: LeetCode,LCP 32. 批量处理任务,批量处理任务,批量处理任务,解题思路,贪心,数组,堆（优先队列）
+description: LeetCode LCP 32. 批量处理任务题解，批量处理任务，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 32. 批量处理任务

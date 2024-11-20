@@ -1,6 +1,6 @@
 ---
 title: 73. 狒狒吃香蕉
-description: LeetCode,73. 狒狒吃香蕉,狒狒吃香蕉,狒狒吃香蕉,解题思路,数组,二分查找
+description: LeetCode 73. 狒狒吃香蕉题解，狒狒吃香蕉，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 73. 狒狒吃香蕉

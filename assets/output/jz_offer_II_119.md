@@ -1,6 +1,6 @@
 ---
 title: 119. 最长连续序列
-description: LeetCode,119. 最长连续序列,最长连续序列,最长连续序列,解题思路,并查集,数组,哈希表
+description: LeetCode 119. 最长连续序列题解，最长连续序列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 119. 最长连续序列

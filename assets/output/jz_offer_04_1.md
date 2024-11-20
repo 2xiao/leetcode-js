@@ -1,6 +1,6 @@
 ---
 title: 4. 二维数组中的查找
-description: LeetCode,4. 二维数组中的查找,二维数组中的查找,二维数组中的查找,解题思路,数组,二分查找,分治,矩阵
+description: LeetCode 4. 二维数组中的查找题解，二维数组中的查找，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 4. 二维数组中的查找

@@ -1,6 +1,6 @@
 ---
 title: LCP 23. 魔术排列
-description: LeetCode,LCP 23. 魔术排列,魔术排列,魔术排列,解题思路,队列,数组,模拟
+description: LeetCode LCP 23. 魔术排列题解，魔术排列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 23. 魔术排列

@@ -1,6 +1,6 @@
 # 目录
 
-已完成 488 道
+已完成 490 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -358,6 +358,7 @@
 | 1312 | 让字符串成为回文串的最少插入次数 | [[✓]](/problem/1312.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-insertion-steps-to-make-a-string-palindrome) [🔗](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome) |
 | 1318 | 或运算的最小翻转次数 | [[✓]](/problem/1318.md) |  [`位运算`](/tag/bit-manipulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-flips-to-make-a-or-b-equal-to-c) [🔗](https://leetcode.com/problems/minimum-flips-to-make-a-or-b-equal-to-c) |
 | 1331 | 数组序号转换 | [[✓]](/problem/1331.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/rank-transform-of-an-array) [🔗](https://leetcode.com/problems/rank-transform-of-an-array) |
+| 1372 | 二叉树中的最长交错路径 | [[✓]](/problem/1372.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree) [🔗](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree) |
 | 1381 | 设计一个支持增量操作的栈 | [[✓]](/problem/1381.md) |  [`栈`](/tag/stack.md) [`设计`](/tag/design.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/design-a-stack-with-increment-operation) [🔗](https://leetcode.com/problems/design-a-stack-with-increment-operation) |
 | 1405 | 最长快乐字符串 | [[✓]](/problem/1405.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-happy-string) [🔗](https://leetcode.com/problems/longest-happy-string) |
 | 1419 | 数青蛙 | [[✓]](/problem/1419.md) |  [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-number-of-frogs-croaking) [🔗](https://leetcode.com/problems/minimum-number-of-frogs-croaking) |
@@ -407,6 +408,7 @@
 | 2490 | 回环句 | [[✓]](/problem/2490.md) |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/circular-sentence) [🔗](https://leetcode.com/problems/circular-sentence) |
 | 2491 | 划分技能点相等的团队 | [[✓]](/problem/2491.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/divide-players-into-teams-of-equal-skill) [🔗](https://leetcode.com/problems/divide-players-into-teams-of-equal-skill) |
 | 2501 | 数组中最长的方波 | [[✓]](/problem/2501.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-square-streak-in-an-array) [🔗](https://leetcode.com/problems/longest-square-streak-in-an-array) |
+| 2516 | 每种字符至少取 K 个 | [[✓]](/problem/2516.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right) [🔗](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right) |
 | 2530 | 执行 K 次操作后的最大分数 | [[✓]](/problem/2530.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximal-score-after-applying-k-operations) [🔗](https://leetcode.com/problems/maximal-score-after-applying-k-operations) |
 | 2563 | 统计公平数对的数目 | [[✓]](/problem/2563.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-fair-pairs) [🔗](https://leetcode.com/problems/count-the-number-of-fair-pairs) |
 | 2583 | 二叉树中的第 K 大层和 | [[✓]](/problem/2583.md) |  [`树`](/tag/tree.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`二叉树`](/tag/binary-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/kth-largest-sum-in-a-binary-tree) [🔗](https://leetcode.com/problems/kth-largest-sum-in-a-binary-tree) |

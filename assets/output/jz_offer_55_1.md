@@ -1,6 +1,6 @@
 ---
 title: 55. 二叉树的深度
-description: LeetCode,55. 二叉树的深度,二叉树的深度,二叉树的深度,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+description: LeetCode 55. 二叉树的深度题解，二叉树的深度，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 55. 二叉树的深度

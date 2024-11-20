@@ -1,6 +1,6 @@
 ---
 title: 63. 替换单词
-description: LeetCode,63. 替换单词,替换单词,替换单词,解题思路,字典树,数组,哈希表,字符串
+description: LeetCode 63. 替换单词题解，替换单词，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 63. 替换单词

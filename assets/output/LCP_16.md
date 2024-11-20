@@ -1,6 +1,6 @@
 ---
 title: LCP 16. 游乐园的游览计划
-description: LeetCode,LCP 16. 游乐园的游览计划,游乐园的游览计划,游乐园的游览计划,解题思路,图,几何,数学
+description: LeetCode LCP 16. 游乐园的游览计划题解，游乐园的游览计划，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 16. 游乐园的游览计划

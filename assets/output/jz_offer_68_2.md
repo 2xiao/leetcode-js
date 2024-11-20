@@ -1,6 +1,6 @@
 ---
 title: 68-II. 二叉树的最近公共祖先
-description: LeetCode,68-II. 二叉树的最近公共祖先,二叉树的最近公共祖先,二叉树的最近公共祖先,解题思路,树,深度优先搜索,二叉树
+description: LeetCode 68-II. 二叉树的最近公共祖先题解，二叉树的最近公共祖先，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 68-II. 二叉树的最近公共祖先

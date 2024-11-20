@@ -1,6 +1,6 @@
 ---
 title: 107. 矩阵中的距离
-description: LeetCode,107. 矩阵中的距离,矩阵中的距离,矩阵中的距离,解题思路,广度优先搜索,数组,动态规划,矩阵
+description: LeetCode 107. 矩阵中的距离题解，矩阵中的距离，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 107. 矩阵中的距离

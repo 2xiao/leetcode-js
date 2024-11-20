@@ -1,6 +1,6 @@
 ---
 title: 9. 乘积小于 K 的子数组
-description: LeetCode,9. 乘积小于 K 的子数组,乘积小于 K 的子数组,乘积小于 K 的子数组,解题思路,数组,滑动窗口
+description: LeetCode 9. 乘积小于 K 的子数组题解，乘积小于 K 的子数组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 9. 乘积小于 K 的子数组

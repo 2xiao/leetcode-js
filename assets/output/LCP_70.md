@@ -1,6 +1,6 @@
 ---
 title: LCP 70. 沙地治理
-description: LeetCode,LCP 70. 沙地治理,沙地治理,沙地治理,解题思路,数组,数学
+description: LeetCode LCP 70. 沙地治理题解，沙地治理，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 70. 沙地治理

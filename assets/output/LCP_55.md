@@ -1,6 +1,6 @@
 ---
 title: LCP 55. 采集果实
-description: LeetCode,LCP 55. 采集果实,采集果实,采集果实,解题思路,数组
+description: LeetCode LCP 55. 采集果实题解，采集果实，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 55. 采集果实

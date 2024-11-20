@@ -1,6 +1,6 @@
 ---
 title: LCP 65. 舒适的湿度
-description: LeetCode,LCP 65. 舒适的湿度,舒适的湿度,舒适的湿度,解题思路,数组,动态规划
+description: LeetCode LCP 65. 舒适的湿度题解，舒适的湿度，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 65. 舒适的湿度

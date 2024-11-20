@@ -1,6 +1,6 @@
 ---
 title: LCP 37. 最小矩形面积
-description: LeetCode,LCP 37. 最小矩形面积,最小矩形面积,最小矩形面积,解题思路,贪心,几何,数组,数学,组合数学,排序
+description: LeetCode LCP 37. 最小矩形面积题解，最小矩形面积，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 37. 最小矩形面积

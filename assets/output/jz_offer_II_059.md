@@ -1,6 +1,6 @@
 ---
 title: 59. 数据流的第 K 大数值
-description: LeetCode,59. 数据流的第 K 大数值,数据流的第 K 大数值,数据流的第 K 大数值,解题思路,树,设计,二叉搜索树,二叉树,数据流,堆（优先队列）
+description: LeetCode 59. 数据流的第 K 大数值题解，数据流的第 K 大数值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 59. 数据流的第 K 大数值

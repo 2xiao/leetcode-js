@@ -1,6 +1,6 @@
 ---
 title: 91. 粉刷房子
-description: LeetCode,91. 粉刷房子,粉刷房子,粉刷房子,解题思路,数组,动态规划
+description: LeetCode 91. 粉刷房子题解，粉刷房子，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 91. 粉刷房子

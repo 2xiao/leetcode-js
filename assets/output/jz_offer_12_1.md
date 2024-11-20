@@ -1,6 +1,6 @@
 ---
 title: 12. 矩阵中的路径
-description: LeetCode,12. 矩阵中的路径,矩阵中的路径,矩阵中的路径,解题思路,数组,字符串,回溯,矩阵
+description: LeetCode 12. 矩阵中的路径题解，矩阵中的路径，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 12. 矩阵中的路径

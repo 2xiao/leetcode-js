@@ -1,6 +1,6 @@
 ---
 title: 88. 爬楼梯的最少成本
-description: LeetCode,88. 爬楼梯的最少成本,爬楼梯的最少成本,爬楼梯的最少成本,解题思路,数组,动态规划
+description: LeetCode 88. 爬楼梯的最少成本题解，爬楼梯的最少成本，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 88. 爬楼梯的最少成本

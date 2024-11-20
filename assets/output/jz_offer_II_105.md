@@ -1,6 +1,6 @@
 ---
 title: 105. 岛屿的最大面积
-description: LeetCode,105. 岛屿的最大面积,岛屿的最大面积,岛屿的最大面积,解题思路,深度优先搜索,广度优先搜索,并查集,数组,矩阵
+description: LeetCode 105. 岛屿的最大面积题解，岛屿的最大面积，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 105. 岛屿的最大面积

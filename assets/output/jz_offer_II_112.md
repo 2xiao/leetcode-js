@@ -1,6 +1,6 @@
 ---
 title: 112. 最长递增路径
-description: LeetCode,112. 最长递增路径,最长递增路径,最长递增路径,解题思路,深度优先搜索,广度优先搜索,图,拓扑排序,记忆化搜索,数组,动态规划,矩阵
+description: LeetCode 112. 最长递增路径题解，最长递增路径，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 112. 最长递增路径

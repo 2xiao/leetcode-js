@@ -1,6 +1,6 @@
 ---
 title: 71. 按权重生成随机数
-description: LeetCode,71. 按权重生成随机数,按权重生成随机数,按权重生成随机数,解题思路,数组,数学,二分查找,前缀和,随机化
+description: LeetCode 71. 按权重生成随机数题解，按权重生成随机数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 71. 按权重生成随机数

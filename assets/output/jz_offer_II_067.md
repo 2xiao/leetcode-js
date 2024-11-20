@@ -1,6 +1,6 @@
 ---
 title: 67. 最大的异或
-description: LeetCode,67. 最大的异或,最大的异或,最大的异或,解题思路,位运算,字典树,数组,哈希表
+description: LeetCode 67. 最大的异或题解，最大的异或，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 67. 最大的异或

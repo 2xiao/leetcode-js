@@ -1,6 +1,6 @@
 ---
 title: 8. 和大于等于 target 的最短子数组
-description: LeetCode,8. 和大于等于 target 的最短子数组,和大于等于 target 的最短子数组,和大于等于 target 的最短子数组,解题思路,数组,二分查找,前缀和,滑动窗口
+description: LeetCode 8. 和大于等于 target 的最短子数组题解，和大于等于 target 的最短子数组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 8. 和大于等于 target 的最短子数组

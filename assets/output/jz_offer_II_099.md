@@ -1,6 +1,6 @@
 ---
 title: 99. 最小路径之和
-description: LeetCode,99. 最小路径之和,最小路径之和,最小路径之和,解题思路,数组,动态规划,矩阵
+description: LeetCode 99. 最小路径之和题解，最小路径之和，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 99. 最小路径之和

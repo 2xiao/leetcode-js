@@ -1,6 +1,6 @@
 ---
 title: LCP 53. 守护太空城
-description: LeetCode,LCP 53. 守护太空城,守护太空城,守护太空城,解题思路,位运算,数组,动态规划,状态压缩
+description: LeetCode LCP 53. 守护太空城题解，守护太空城，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 53. 守护太空城

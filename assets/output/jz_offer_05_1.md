@@ -1,6 +1,6 @@
 ---
 title: 5. 替换空格
-description: LeetCode,5. 替换空格,替换空格,替换空格,解题思路,字符串
+description: LeetCode 5. 替换空格题解，替换空格，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 5. 替换空格

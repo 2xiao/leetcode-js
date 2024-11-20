@@ -1,6 +1,6 @@
 ---
 title: 117. 相似的字符串
-description: LeetCode,117. 相似的字符串,相似的字符串,相似的字符串,解题思路,深度优先搜索,广度优先搜索,并查集,数组,哈希表,字符串
+description: LeetCode 117. 相似的字符串题解，相似的字符串，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 117. 相似的字符串

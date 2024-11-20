@@ -1,6 +1,6 @@
 ---
 title: LCS 01. 下载插件
-description: LeetCode,LCS 01. 下载插件,下载插件,下载插件,解题思路,贪心,数学,动态规划
+description: LeetCode LCS 01. 下载插件题解，下载插件，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCS 01. 下载插件

@@ -1,6 +1,6 @@
 ---
 title: 109. 开密码锁
-description: LeetCode,109. 开密码锁,开密码锁,开密码锁,解题思路,广度优先搜索,数组,哈希表,字符串
+description: LeetCode 109. 开密码锁题解，开密码锁，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 109. 开密码锁

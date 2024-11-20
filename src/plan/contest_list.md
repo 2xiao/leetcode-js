@@ -1716,7 +1716,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2515 | 到目标字符串的最短距离 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/shortest-distance-to-target-string-in-a-circular-array) [🔗](https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array) |
-| 2516 | 每种字符至少取 K 个 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right) [🔗](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right) |
+| 2516 | 每种字符至少取 K 个 | [[✓]](/problem/2516.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/take-k-of-each-character-from-left-and-right) [🔗](https://leetcode.com/problems/take-k-of-each-character-from-left-and-right) |
 | 2517 | 礼盒的最大甜蜜度 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-tastiness-of-candy-basket) [🔗](https://leetcode.com/problems/maximum-tastiness-of-candy-basket) |
 | 2518 | 好分区的数目 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-great-partitions) [🔗](https://leetcode.com/problems/number-of-great-partitions) |
 
@@ -4357,7 +4357,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1370 | 上升下降字符串 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/increasing-decreasing-string) [🔗](https://leetcode.com/problems/increasing-decreasing-string) |
 | 1371 | 每个元音包含偶数次的最长子字符串 |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-longest-substring-containing-vowels-in-even-counts) [🔗](https://leetcode.com/problems/find-the-longest-substring-containing-vowels-in-even-counts) |
-| 1372 | 二叉树中的最长交错路径 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree) [🔗](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree) |
+| 1372 | 二叉树中的最长交错路径 | [[✓]](/problem/1372.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-zigzag-path-in-a-binary-tree) [🔗](https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree) |
 | 1373 | 二叉搜索子树的最大键值和 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉搜索树`](/tag/binary-search-tree.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-sum-bst-in-binary-tree) [🔗](https://leetcode.com/problems/maximum-sum-bst-in-binary-tree) |
 
 

@@ -1,6 +1,6 @@
 ---
 title: LCP 48. 无限棋局
-description: LeetCode,LCP 48. 无限棋局,无限棋局,无限棋局,解题思路,数组,数学,枚举,博弈
+description: LeetCode LCP 48. 无限棋局题解，无限棋局，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 48. 无限棋局

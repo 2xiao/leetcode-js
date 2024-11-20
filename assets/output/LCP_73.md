@@ -1,6 +1,6 @@
 ---
 title: LCP 73. 探险营地
-description: LeetCode,LCP 73. 探险营地,探险营地,探险营地,解题思路
+description: LeetCode LCP 73. 探险营地题解，探险营地，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 73. 探险营地

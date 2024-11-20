@@ -1,6 +1,6 @@
 ---
 title: LCP 41. 黑白翻转棋
-description: LeetCode,LCP 41. 黑白翻转棋,黑白翻转棋,黑白翻转棋,解题思路,广度优先搜索,数组,矩阵
+description: LeetCode LCP 41. 黑白翻转棋题解，黑白翻转棋，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 41. 黑白翻转棋

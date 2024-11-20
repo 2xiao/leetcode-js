@@ -1,6 +1,6 @@
 ---
 title: LCP 60. 力扣泡泡龙
-description: LeetCode,LCP 60. 力扣泡泡龙,力扣泡泡龙,力扣泡泡龙,解题思路,树,动态规划,二叉树
+description: LeetCode LCP 60. 力扣泡泡龙题解，力扣泡泡龙，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 60. 力扣泡泡龙

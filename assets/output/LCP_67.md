@@ -1,6 +1,6 @@
 ---
 title: LCP 67. 装饰树
-description: LeetCode,LCP 67. 装饰树,装饰树,装饰树,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+description: LeetCode LCP 67. 装饰树题解，装饰树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 67. 装饰树

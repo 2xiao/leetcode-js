@@ -1,6 +1,6 @@
 ---
 title: LCP 59. 搭桥过河
-description: LeetCode,LCP 59. 搭桥过河,搭桥过河,搭桥过河,解题思路,数组,动态规划
+description: LeetCode LCP 59. 搭桥过河题解，搭桥过河，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 59. 搭桥过河

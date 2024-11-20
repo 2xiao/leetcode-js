@@ -1,6 +1,6 @@
 ---
 title: 47. 二叉树剪枝
-description: LeetCode,47. 二叉树剪枝,二叉树剪枝,二叉树剪枝,解题思路,树,深度优先搜索,二叉树
+description: LeetCode 47. 二叉树剪枝题解，二叉树剪枝，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 47. 二叉树剪枝

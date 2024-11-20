@@ -1,6 +1,6 @@
 ---
 title: LCP 40. 心算挑战
-description: LeetCode,LCP 40. 心算挑战,心算挑战,心算挑战,解题思路,贪心,数组,排序
+description: LeetCode LCP 40. 心算挑战题解，心算挑战，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 40. 心算挑战

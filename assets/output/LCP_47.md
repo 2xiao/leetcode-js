@@ -1,6 +1,6 @@
 ---
 title: LCP 47. 入场安检
-description: LeetCode,LCP 47. 入场安检,入场安检,入场安检,解题思路,数组,动态规划
+description: LeetCode LCP 47. 入场安检题解，入场安检，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 47. 入场安检

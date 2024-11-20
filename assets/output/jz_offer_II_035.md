@@ -1,6 +1,6 @@
 ---
 title: 35. 最小时间差
-description: LeetCode,35. 最小时间差,最小时间差,最小时间差,解题思路,数组,数学,字符串,排序
+description: LeetCode 35. 最小时间差题解，最小时间差，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 35. 最小时间差

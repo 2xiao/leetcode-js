@@ -1,6 +1,6 @@
 ---
 title: LCP 76. 魔法棋盘
-description: LeetCode,LCP 76. 魔法棋盘,魔法棋盘,魔法棋盘,解题思路
+description: LeetCode LCP 76. 魔法棋盘题解，魔法棋盘，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 76. 魔法棋盘

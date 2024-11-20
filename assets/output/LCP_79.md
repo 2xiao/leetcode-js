@@ -1,6 +1,6 @@
 ---
 title: LCP 79. 提取咒文
-description: LeetCode,LCP 79. 提取咒文,提取咒文,提取咒文,解题思路
+description: LeetCode LCP 79. 提取咒文题解，提取咒文，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 79. 提取咒文

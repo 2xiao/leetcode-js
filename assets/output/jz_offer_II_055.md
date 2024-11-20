@@ -1,6 +1,6 @@
 ---
 title: 55. 二叉搜索树迭代器
-description: LeetCode,55. 二叉搜索树迭代器,二叉搜索树迭代器,二叉搜索树迭代器,解题思路,栈,树,设计,二叉搜索树,二叉树,迭代器
+description: LeetCode 55. 二叉搜索树迭代器题解，二叉搜索树迭代器，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 55. 二叉搜索树迭代器

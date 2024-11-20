@@ -1,6 +1,6 @@
 ---
 title: LCP 52. 二叉搜索树染色
-description: LeetCode,LCP 52. 二叉搜索树染色,二叉搜索树染色,二叉搜索树染色,解题思路,树,线段树,二叉搜索树,数组,二分查找,二叉树,有序集合
+description: LeetCode LCP 52. 二叉搜索树染色题解，二叉搜索树染色，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 52. 二叉搜索树染色

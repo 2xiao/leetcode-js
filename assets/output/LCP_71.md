@@ -1,6 +1,6 @@
 ---
 title: LCP 71. 集水器
-description: LeetCode,LCP 71. 集水器,集水器,集水器,解题思路,并查集,数组,矩阵
+description: LeetCode LCP 71. 集水器题解，集水器，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 71. 集水器

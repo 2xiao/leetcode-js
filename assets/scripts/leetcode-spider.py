@@ -373,7 +373,7 @@ class LeetcodeCrawler():
                 for tag_str in question['tags'].split(','):
                     tag = tag_str.split('|')[2]
                     keywords_arr.append(tag)
-            description = ','.join(keywords_arr)
+            description = 'LeetCode {}题解，{}，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。'.format(title, question['title'])
             keywords = '\n  - '.join(keywords_arr)
             f.write("---\ntitle: {}\ndescription: {}\nkeywords:\n  - {}\n---\n\n".format(title, description, keywords))
             f.write("# " + title)

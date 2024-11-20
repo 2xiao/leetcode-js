@@ -1,6 +1,6 @@
 ---
 title: 20. 回文子字符串的个数
-description: LeetCode,20. 回文子字符串的个数,回文子字符串的个数,回文子字符串的个数,解题思路,字符串,动态规划
+description: LeetCode 20. 回文子字符串的个数题解，回文子字符串的个数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 20. 回文子字符串的个数

@@ -1,6 +1,6 @@
 ---
 title: LCP 07. 传递信息
-description: LeetCode,LCP 07. 传递信息,传递信息,传递信息,解题思路,深度优先搜索,广度优先搜索,图,动态规划
+description: LeetCode LCP 07. 传递信息题解，传递信息，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 07. 传递信息

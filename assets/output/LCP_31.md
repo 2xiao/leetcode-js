@@ -1,6 +1,6 @@
 ---
 title: LCP 31. 变换的迷宫
-description: LeetCode,LCP 31. 变换的迷宫,变换的迷宫,变换的迷宫,解题思路,深度优先搜索,广度优先搜索,数组,动态规划,矩阵
+description: LeetCode LCP 31. 变换的迷宫题解，变换的迷宫，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - LCP 31. 变换的迷宫

@@ -1,6 +1,6 @@
 ---
 title: 58-II. 左旋转字符串
-description: LeetCode,58-II. 左旋转字符串,左旋转字符串,左旋转字符串,解题思路,数学,双指针,字符串
+description: LeetCode 58-II. 左旋转字符串题解，左旋转字符串，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 58-II. 左旋转字符串

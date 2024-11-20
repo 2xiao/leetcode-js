@@ -1,6 +1,6 @@
 ---
 title: 97. 子序列的数目
-description: LeetCode,97. 子序列的数目,子序列的数目,子序列的数目,解题思路,字符串,动态规划
+description: LeetCode 97. 子序列的数目题解，子序列的数目，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 97. 子序列的数目
