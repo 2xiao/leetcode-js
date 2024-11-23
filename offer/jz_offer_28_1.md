@@ -1,6 +1,6 @@
 ---
 title: 28. 对称的二叉树
-description: LeetCode,28. 对称的二叉树,对称的二叉树,对称的二叉树,解题思路,树,深度优先搜索,广度优先搜索,二叉树
+description: LeetCode 28. 对称的二叉树题解，对称的二叉树，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 28. 对称的二叉树

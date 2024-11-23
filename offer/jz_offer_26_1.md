@@ -1,6 +1,6 @@
 ---
 title: 26. 树的子结构
-description: LeetCode,26. 树的子结构,树的子结构,树的子结构,解题思路,树,深度优先搜索,二叉树
+description: LeetCode 26. 树的子结构题解，树的子结构，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 26. 树的子结构

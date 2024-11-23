@@ -1,6 +1,6 @@
 ---
 title: 24. 反转链表
-description: LeetCode,24. 反转链表,反转链表,反转链表,解题思路,递归,链表
+description: LeetCode 24. 反转链表题解，反转链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 24. 反转链表

@@ -1,6 +1,6 @@
 ---
 title: 57. 和为s的两个数字
-description: LeetCode,57. 和为s的两个数字,和为s的两个数字,和为s的两个数字,解题思路,数组,双指针,二分查找
+description: LeetCode 57. 和为s的两个数字题解，和为s的两个数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 57. 和为s的两个数字

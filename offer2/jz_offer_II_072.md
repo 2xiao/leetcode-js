@@ -1,6 +1,6 @@
 ---
 title: 72. 求平方根
-description: LeetCode,72. 求平方根,求平方根,求平方根,解题思路,数学,二分查找
+description: LeetCode 72. 求平方根题解，求平方根，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 72. 求平方根

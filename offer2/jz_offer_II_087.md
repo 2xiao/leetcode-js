@@ -1,6 +1,6 @@
 ---
 title: 87. 复原 IP
-description: LeetCode,87. 复原 IP,复原 IP,复原 IP,解题思路,字符串,回溯
+description: LeetCode 87. 复原 IP题解，复原 IP，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 87. 复原 IP

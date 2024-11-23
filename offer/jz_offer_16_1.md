@@ -1,6 +1,6 @@
 ---
 title: 16. 数值的整数次方
-description: LeetCode,16. 数值的整数次方,数值的整数次方,数值的整数次方,解题思路,递归,数学
+description: LeetCode 16. 数值的整数次方题解，数值的整数次方，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 16. 数值的整数次方

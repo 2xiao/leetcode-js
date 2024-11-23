@@ -1,6 +1,6 @@
 ---
 title: 50. 向下的路径节点之和
-description: LeetCode,50. 向下的路径节点之和,向下的路径节点之和,向下的路径节点之和,解题思路,树,深度优先搜索,二叉树
+description: LeetCode 50. 向下的路径节点之和题解，向下的路径节点之和，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 50. 向下的路径节点之和

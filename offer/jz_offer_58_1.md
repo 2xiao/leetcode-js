@@ -1,6 +1,6 @@
 ---
 title: 58. 翻转单词顺序
-description: LeetCode,58. 翻转单词顺序,翻转单词顺序,翻转单词顺序,解题思路,双指针,字符串
+description: LeetCode 58. 翻转单词顺序题解，翻转单词顺序，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 58. 翻转单词顺序

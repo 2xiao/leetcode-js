@@ -1,6 +1,6 @@
 ---
 title: 68. 查找插入位置
-description: LeetCode,68. 查找插入位置,查找插入位置,查找插入位置,解题思路,数组,二分查找
+description: LeetCode 68. 查找插入位置题解，查找插入位置，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 68. 查找插入位置

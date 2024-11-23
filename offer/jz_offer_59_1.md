@@ -1,6 +1,6 @@
 ---
 title: 59. 滑动窗口的最大值
-description: LeetCode,59. 滑动窗口的最大值,滑动窗口的最大值,滑动窗口的最大值,解题思路,队列,数组,滑动窗口,单调队列,堆（优先队列）
+description: LeetCode 59. 滑动窗口的最大值题解，滑动窗口的最大值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 59. 滑动窗口的最大值

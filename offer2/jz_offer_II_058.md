@@ -1,6 +1,6 @@
 ---
 title: 58. 日程表
-description: LeetCode,58. 日程表,日程表,日程表,解题思路,设计,线段树,二分查找,有序集合
+description: LeetCode 58. 日程表题解，日程表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 58. 日程表

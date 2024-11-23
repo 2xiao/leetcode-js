@@ -1,6 +1,6 @@
 ---
 title: 36. 后缀表达式
-description: LeetCode,36. 后缀表达式,后缀表达式,后缀表达式,解题思路,栈,数组,数学
+description: LeetCode 36. 后缀表达式题解，后缀表达式，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 36. 后缀表达式

@@ -1,6 +1,6 @@
 ---
 title: 64. 求1+2+…+n
-description: LeetCode,64. 求1+2+…+n,求1+2+…+n,求1+2+…+n,解题思路,位运算,递归,脑筋急转弯
+description: LeetCode 64. 求1+2+…+n题解，求1+2+…+n，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 64. 求1+2+…+n

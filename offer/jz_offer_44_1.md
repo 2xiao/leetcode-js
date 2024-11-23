@@ -1,6 +1,6 @@
 ---
 title: 44. 数字序列中某一位的数字
-description: LeetCode,44. 数字序列中某一位的数字,数字序列中某一位的数字,数字序列中某一位的数字,解题思路,数学,二分查找
+description: LeetCode 44. 数字序列中某一位的数字题解，数字序列中某一位的数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 44. 数字序列中某一位的数字

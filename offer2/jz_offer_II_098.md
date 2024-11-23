@@ -1,6 +1,6 @@
 ---
 title: 98. 路径的数目
-description: LeetCode,98. 路径的数目,路径的数目,路径的数目,解题思路,数学,动态规划,组合数学
+description: LeetCode 98. 路径的数目题解，路径的数目，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 98. 路径的数目

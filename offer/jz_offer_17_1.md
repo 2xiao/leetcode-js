@@ -1,6 +1,6 @@
 ---
 title: 17. 打印从1到最大的n位数
-description: LeetCode,17. 打印从1到最大的n位数,打印从1到最大的n位数,打印从1到最大的n位数,解题思路,数组,数学
+description: LeetCode 17. 打印从1到最大的n位数题解，打印从1到最大的n位数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 17. 打印从1到最大的n位数

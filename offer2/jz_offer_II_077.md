@@ -1,6 +1,6 @@
 ---
 title: 77. 链表排序
-description: LeetCode,77. 链表排序,链表排序,链表排序,解题思路,链表,双指针,分治,排序,归并排序
+description: LeetCode 77. 链表排序题解，链表排序，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 77. 链表排序

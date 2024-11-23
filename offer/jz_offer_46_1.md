@@ -1,6 +1,6 @@
 ---
 title: 46. 把数字翻译成字符串
-description: LeetCode,46. 把数字翻译成字符串,把数字翻译成字符串,把数字翻译成字符串,解题思路,字符串,动态规划
+description: LeetCode 46. 把数字翻译成字符串题解，把数字翻译成字符串，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 46. 把数字翻译成字符串

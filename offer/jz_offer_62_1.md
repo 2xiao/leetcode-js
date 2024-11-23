@@ -1,6 +1,6 @@
 ---
 title: 62. 圆圈中最后剩下的数字
-description: LeetCode,62. 圆圈中最后剩下的数字,圆圈中最后剩下的数字,圆圈中最后剩下的数字,解题思路,递归,数学
+description: LeetCode 62. 圆圈中最后剩下的数字题解，圆圈中最后剩下的数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 62. 圆圈中最后剩下的数字

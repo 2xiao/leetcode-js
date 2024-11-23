@@ -1,6 +1,6 @@
 ---
 title: 6. 从尾到头打印链表
-description: LeetCode,6. 从尾到头打印链表,从尾到头打印链表,从尾到头打印链表,解题思路,栈,递归,链表,双指针
+description: LeetCode 6. 从尾到头打印链表题解，从尾到头打印链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 6. 从尾到头打印链表

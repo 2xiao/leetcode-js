@@ -1,6 +1,6 @@
 ---
 title: 38. 每日温度
-description: LeetCode,38. 每日温度,每日温度,每日温度,解题思路,栈,数组,单调栈
+description: LeetCode 38. 每日温度题解，每日温度，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 38. 每日温度

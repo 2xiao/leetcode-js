@@ -1,6 +1,6 @@
 ---
 title: 82. 含有重复元素集合的组合
-description: LeetCode,82. 含有重复元素集合的组合,含有重复元素集合的组合,含有重复元素集合的组合,解题思路,数组,回溯
+description: LeetCode 82. 含有重复元素集合的组合题解，含有重复元素集合的组合，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 82. 含有重复元素集合的组合

@@ -1,6 +1,6 @@
 ---
 title: 81. 允许重复选择元素的组合
-description: LeetCode,81. 允许重复选择元素的组合,允许重复选择元素的组合,允许重复选择元素的组合,解题思路,数组,回溯
+description: LeetCode 81. 允许重复选择元素的组合题解，允许重复选择元素的组合，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 81. 允许重复选择元素的组合

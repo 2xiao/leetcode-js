@@ -1,6 +1,6 @@
 ---
 title: 54. 二叉搜索树的第k大节点
-description: LeetCode,54. 二叉搜索树的第k大节点,二叉搜索树的第k大节点,二叉搜索树的第k大节点,解题思路,树,深度优先搜索,二叉搜索树,二叉树
+description: LeetCode 54. 二叉搜索树的第k大节点题解，二叉搜索树的第k大节点，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 54. 二叉搜索树的第k大节点

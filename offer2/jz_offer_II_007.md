@@ -1,6 +1,6 @@
 ---
 title: 7. 数组中和为 0 的三个数
-description: LeetCode,7. 数组中和为 0 的三个数,数组中和为 0 的三个数,数组中和为 0 的三个数,解题思路,数组,双指针,排序
+description: LeetCode 7. 数组中和为 0 的三个数题解，数组中和为 0 的三个数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 7. 数组中和为 0 的三个数

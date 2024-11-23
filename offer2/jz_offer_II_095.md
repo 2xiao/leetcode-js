@@ -1,6 +1,6 @@
 ---
 title: 95. 最长公共子序列
-description: LeetCode,95. 最长公共子序列,最长公共子序列,最长公共子序列,解题思路,字符串,动态规划
+description: LeetCode 95. 最长公共子序列题解，最长公共子序列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 95. 最长公共子序列

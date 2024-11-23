@@ -1,6 +1,6 @@
 ---
 title: 85. 生成匹配的括号
-description: LeetCode,85. 生成匹配的括号,生成匹配的括号,生成匹配的括号,解题思路,字符串,动态规划,回溯
+description: LeetCode 85. 生成匹配的括号题解，生成匹配的括号，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 85. 生成匹配的括号

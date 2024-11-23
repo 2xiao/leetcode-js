@@ -1,6 +1,6 @@
 ---
 title: 108. 单词演变
-description: LeetCode,108. 单词演变,单词演变,单词演变,解题思路,广度优先搜索,哈希表,字符串
+description: LeetCode 108. 单词演变题解，单词演变，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 108. 单词演变

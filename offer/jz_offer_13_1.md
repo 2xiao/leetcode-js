@@ -1,6 +1,6 @@
 ---
 title: 13. 机器人的运动范围
-description: LeetCode,13. 机器人的运动范围,机器人的运动范围,机器人的运动范围,解题思路,深度优先搜索,广度优先搜索,动态规划
+description: LeetCode 13. 机器人的运动范围题解，机器人的运动范围，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 13. 机器人的运动范围

@@ -1,6 +1,6 @@
 ---
 title: 41. 滑动窗口的平均值
-description: LeetCode,41. 滑动窗口的平均值,滑动窗口的平均值,滑动窗口的平均值,解题思路,设计,队列,数组,数据流
+description: LeetCode 41. 滑动窗口的平均值题解，滑动窗口的平均值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 41. 滑动窗口的平均值

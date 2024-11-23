@@ -1,6 +1,6 @@
 ---
 title: 60. n个骰子的点数
-description: LeetCode,60. n个骰子的点数,n个骰子的点数,n个骰子的点数,解题思路,数学,动态规划,概率与统计
+description: LeetCode 60. n个骰子的点数题解，n个骰子的点数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 60. n个骰子的点数

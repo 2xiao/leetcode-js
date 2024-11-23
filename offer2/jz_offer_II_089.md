@@ -1,6 +1,6 @@
 ---
 title: 89. 房屋偷盗
-description: LeetCode,89. 房屋偷盗,房屋偷盗,房屋偷盗,解题思路,数组,动态规划
+description: LeetCode 89. 房屋偷盗题解，房屋偷盗，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 89. 房屋偷盗

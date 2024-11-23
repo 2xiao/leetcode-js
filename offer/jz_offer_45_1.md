@@ -1,6 +1,6 @@
 ---
 title: 45. 把数组排成最小的数
-description: LeetCode,45. 把数组排成最小的数,把数组排成最小的数,把数组排成最小的数,解题思路,贪心,字符串,排序
+description: LeetCode 45. 把数组排成最小的数题解，把数组排成最小的数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 45. 把数组排成最小的数

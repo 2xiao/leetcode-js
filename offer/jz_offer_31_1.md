@@ -1,6 +1,6 @@
 ---
 title: 31. 栈的压入、弹出序列
-description: LeetCode,31. 栈的压入、弹出序列,栈的压入、弹出序列,栈的压入、弹出序列,解题思路,栈,数组,模拟
+description: LeetCode 31. 栈的压入、弹出序列题解，栈的压入、弹出序列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 31. 栈的压入、弹出序列
