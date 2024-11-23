@@ -1,6 +1,6 @@
 ---
 title: 29. 顺时针打印矩阵
-description: LeetCode,29. 顺时针打印矩阵,顺时针打印矩阵,顺时针打印矩阵,解题思路,数组,矩阵,模拟
+description: LeetCode 29. 顺时针打印矩阵题解，顺时针打印矩阵，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 29. 顺时针打印矩阵

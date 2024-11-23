@@ -1,6 +1,6 @@
 ---
 title: 10. 和为 k 的子数组
-description: LeetCode,10. 和为 k 的子数组,和为 k 的子数组,和为 k 的子数组,解题思路,数组,哈希表,前缀和
+description: LeetCode 10. 和为 k 的子数组题解，和为 k 的子数组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 10. 和为 k 的子数组

@@ -1,6 +1,6 @@
 ---
 title: 103. 最少的硬币数目
-description: LeetCode,103. 最少的硬币数目,最少的硬币数目,最少的硬币数目,解题思路,广度优先搜索,数组,动态规划
+description: LeetCode 103. 最少的硬币数目题解，最少的硬币数目，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 103. 最少的硬币数目

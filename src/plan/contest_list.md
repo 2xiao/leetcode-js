@@ -2341,7 +2341,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2255 | 统计是给定字符串前缀的字符串数目 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-prefixes-of-a-given-string) [🔗](https://leetcode.com/problems/count-prefixes-of-a-given-string) |
 | 2256 | 最小平均差 |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-average-difference) [🔗](https://leetcode.com/problems/minimum-average-difference) |
-| 2257 | 统计网格图中没有被保卫的格子数 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-unguarded-cells-in-the-grid) [🔗](https://leetcode.com/problems/count-unguarded-cells-in-the-grid) |
+| 2257 | 统计网格图中没有被保卫的格子数 | [[✓]](/problem/2257.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-unguarded-cells-in-the-grid) [🔗](https://leetcode.com/problems/count-unguarded-cells-in-the-grid) |
 | 2258 | 逃离火灾 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/escape-the-spreading-fire) [🔗](https://leetcode.com/problems/escape-the-spreading-fire) |
 
 
@@ -3241,7 +3241,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1859 | 将句子排序 |  |  [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/sorting-the-sentence) [🔗](https://leetcode.com/problems/sorting-the-sentence) |
 | 1860 | 增长的内存泄露 |  |  [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/incremental-memory-leak) [🔗](https://leetcode.com/problems/incremental-memory-leak) |
-| 1861 | 旋转盒子 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotating-the-box) [🔗](https://leetcode.com/problems/rotating-the-box) |
+| 1861 | 旋转盒子 | [[✓]](/problem/1861.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotating-the-box) [🔗](https://leetcode.com/problems/rotating-the-box) |
 | 1862 | 向下取整数对和 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/sum-of-floored-pairs) [🔗](https://leetcode.com/problems/sum-of-floored-pairs) |
 
 
@@ -5064,7 +5064,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1071 | 字符串的最大公因子 | [[✓]](/problem/1071.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/greatest-common-divisor-of-strings) [🔗](https://leetcode.com/problems/greatest-common-divisor-of-strings) |
-| 1072 | 按列翻转得到最大值等行数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows) [🔗](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows) |
+| 1072 | 按列翻转得到最大值等行数 | [[✓]](/problem/1072.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/flip-columns-for-maximum-number-of-equal-rows) [🔗](https://leetcode.com/problems/flip-columns-for-maximum-number-of-equal-rows) |
 | 1073 | 负二进制数相加 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/adding-two-negabinary-numbers) [🔗](https://leetcode.com/problems/adding-two-negabinary-numbers) |
 | 1074 | 元素和为目标值的子矩阵数量 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-submatrices-that-sum-to-target) [🔗](https://leetcode.com/problems/number-of-submatrices-that-sum-to-target) |
 

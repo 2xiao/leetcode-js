@@ -1,6 +1,6 @@
 ---
 title: 86. 分割回文子字符串
-description: LeetCode,86. 分割回文子字符串,分割回文子字符串,分割回文子字符串,解题思路,深度优先搜索,广度优先搜索,图,哈希表
+description: LeetCode 86. 分割回文子字符串题解，分割回文子字符串，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 86. 分割回文子字符串

@@ -1,6 +1,6 @@
 ---
 title: 33. 变位词组
-description: LeetCode,33. 变位词组,变位词组,变位词组,解题思路,数组,哈希表,字符串,排序
+description: LeetCode 33. 变位词组题解，变位词组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 33. 变位词组

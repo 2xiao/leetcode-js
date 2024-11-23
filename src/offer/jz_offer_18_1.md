@@ -1,6 +1,6 @@
 ---
 title: 18. 删除链表的节点
-description: LeetCode,18. 删除链表的节点,删除链表的节点,删除链表的节点,解题思路,链表
+description: LeetCode 18. 删除链表的节点题解，删除链表的节点，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 18. 删除链表的节点

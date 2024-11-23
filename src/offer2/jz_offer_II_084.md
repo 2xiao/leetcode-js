@@ -1,6 +1,6 @@
 ---
 title: 84. 含有重复元素集合的全排列
-description: LeetCode,84. 含有重复元素集合的全排列,含有重复元素集合的全排列,含有重复元素集合的全排列,解题思路,数组,回溯
+description: LeetCode 84. 含有重复元素集合的全排列题解，含有重复元素集合的全排列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 84. 含有重复元素集合的全排列

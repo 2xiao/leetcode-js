@@ -1,6 +1,6 @@
 ---
 title: 14. 字符串中的变位词
-description: LeetCode,14. 字符串中的变位词,字符串中的变位词,字符串中的变位词,解题思路,哈希表,双指针,字符串,滑动窗口
+description: LeetCode 14. 字符串中的变位词题解，字符串中的变位词，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 14. 字符串中的变位词

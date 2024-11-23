@@ -1,6 +1,6 @@
 ---
 title: 80. 含有 k 个元素的组合
-description: LeetCode,80. 含有 k 个元素的组合,含有 k 个元素的组合,含有 k 个元素的组合,解题思路,数组,回溯
+description: LeetCode 80. 含有 k 个元素的组合题解，含有 k 个元素的组合，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 80. 含有 k 个元素的组合

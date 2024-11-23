@@ -1,6 +1,6 @@
 ---
 title: 38. 字符串的排列
-description: LeetCode,38. 字符串的排列,字符串的排列,字符串的排列,解题思路,字符串,回溯
+description: LeetCode 38. 字符串的排列题解，字符串的排列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 38. 字符串的排列

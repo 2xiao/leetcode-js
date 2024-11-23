@@ -1,6 +1,6 @@
 ---
 title: 39. 直方图最大矩形面积
-description: LeetCode,39. 直方图最大矩形面积,直方图最大矩形面积,直方图最大矩形面积,解题思路,栈,数组,单调栈
+description: LeetCode 39. 直方图最大矩形面积题解，直方图最大矩形面积，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 39. 直方图最大矩形面积

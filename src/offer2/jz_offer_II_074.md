@@ -1,6 +1,6 @@
 ---
 title: 74. 合并区间
-description: LeetCode,74. 合并区间,合并区间,合并区间,解题思路,数组,排序
+description: LeetCode 74. 合并区间题解，合并区间，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 74. 合并区间

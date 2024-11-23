@@ -1,6 +1,6 @@
 ---
 title: 25. 合并两个排序的链表
-description: LeetCode,25. 合并两个排序的链表,合并两个排序的链表,合并两个排序的链表,解题思路,递归,链表
+description: LeetCode 25. 合并两个排序的链表题解，合并两个排序的链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 25. 合并两个排序的链表

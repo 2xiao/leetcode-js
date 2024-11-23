@@ -1,6 +1,6 @@
 ---
 title: 76. 数组中的第 k 大的数字
-description: LeetCode,76. 数组中的第 k 大的数字,数组中的第 k 大的数字,数组中的第 k 大的数字,解题思路,数组,分治,快速选择,排序,堆（优先队列）
+description: LeetCode 76. 数组中的第 k 大的数字题解，数组中的第 k 大的数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 76. 数组中的第 k 大的数字

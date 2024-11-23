@@ -1,6 +1,6 @@
 ---
 title: 61. 和最小的 k 个数对
-description: LeetCode,61. 和最小的 k 个数对,和最小的 k 个数对,和最小的 k 个数对,解题思路,数组,堆（优先队列）
+description: LeetCode 61. 和最小的 k 个数对题解，和最小的 k 个数对，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 61. 和最小的 k 个数对

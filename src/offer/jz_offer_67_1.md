@@ -1,6 +1,6 @@
 ---
 title: 67. 把字符串转换成整数
-description: LeetCode,67. 把字符串转换成整数,把字符串转换成整数,把字符串转换成整数,解题思路,字符串
+description: LeetCode 67. 把字符串转换成整数题解，把字符串转换成整数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 67. 把字符串转换成整数

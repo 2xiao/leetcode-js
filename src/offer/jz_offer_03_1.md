@@ -1,6 +1,6 @@
 ---
 title: 3. 数组中重复的数字
-description: LeetCode,3. 数组中重复的数字,数组中重复的数字,数组中重复的数字,解题思路,数组,哈希表,排序
+description: LeetCode 3. 数组中重复的数字题解，数组中重复的数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 3. 数组中重复的数字

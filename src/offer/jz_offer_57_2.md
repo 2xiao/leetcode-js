@@ -1,6 +1,6 @@
 ---
 title: 57-II. 和为s的连续正数序列
-description: LeetCode,57-II. 和为s的连续正数序列,和为s的连续正数序列,和为s的连续正数序列,解题思路,数学,双指针,枚举
+description: LeetCode 57-II. 和为s的连续正数序列题解，和为s的连续正数序列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 57-II. 和为s的连续正数序列

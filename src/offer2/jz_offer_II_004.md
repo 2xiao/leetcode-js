@@ -1,6 +1,6 @@
 ---
 title: 4. 只出现一次的数字
-description: LeetCode,4. 只出现一次的数字,只出现一次的数字,只出现一次的数字,解题思路,位运算,数组
+description: LeetCode 4. 只出现一次的数字题解，只出现一次的数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 4. 只出现一次的数字

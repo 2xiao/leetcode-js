@@ -1,6 +1,6 @@
 ---
 title: 56. 数组中数字出现的次数
-description: LeetCode,56. 数组中数字出现的次数,数组中数字出现的次数,数组中数字出现的次数,解题思路,位运算,数组
+description: LeetCode 56. 数组中数字出现的次数题解，数组中数字出现的次数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 56. 数组中数字出现的次数

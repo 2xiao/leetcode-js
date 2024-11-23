@@ -1,6 +1,6 @@
 ---
 title: 1. 整数除法
-description: LeetCode,1. 整数除法,整数除法,整数除法,解题思路,数学
+description: LeetCode 1. 整数除法题解，整数除法，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 1. 整数除法

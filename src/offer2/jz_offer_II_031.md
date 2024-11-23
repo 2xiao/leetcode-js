@@ -1,6 +1,6 @@
 ---
 title: 31. 最近最少使用缓存
-description: LeetCode,31. 最近最少使用缓存,最近最少使用缓存,最近最少使用缓存,解题思路,设计,哈希表,链表,双向链表
+description: LeetCode 31. 最近最少使用缓存题解，最近最少使用缓存，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 31. 最近最少使用缓存

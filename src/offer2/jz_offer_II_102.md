@@ -1,6 +1,6 @@
 ---
 title: 102. 加减的目标值
-description: LeetCode,102. 加减的目标值,加减的目标值,加减的目标值,解题思路,数组,动态规划,回溯
+description: LeetCode 102. 加减的目标值题解，加减的目标值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 102. 加减的目标值

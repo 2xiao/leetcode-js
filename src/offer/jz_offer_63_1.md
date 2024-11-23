@@ -1,6 +1,6 @@
 ---
 title: 63. 股票的最大利润
-description: LeetCode,63. 股票的最大利润,股票的最大利润,股票的最大利润,解题思路,数组,动态规划
+description: LeetCode 63. 股票的最大利润题解，股票的最大利润，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 63. 股票的最大利润

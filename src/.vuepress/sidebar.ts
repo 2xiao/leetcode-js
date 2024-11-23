@@ -419,6 +419,7 @@ export default sidebar({
       "1047",
       "1049",
       "1071",
+      "1072",
       "1081"
     ]
   },
@@ -503,7 +504,8 @@ export default sidebar({
     "collapsible": true,
     "children": [
       "1813",
-      "1829"
+      "1829",
+      "1861"
     ]
   },
   {
@@ -538,6 +540,7 @@ export default sidebar({
     "collapsible": true,
     "children": [
       "2215",
+      "2257",
       "2259",
       "2260",
       "2261",

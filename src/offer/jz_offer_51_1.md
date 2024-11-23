@@ -1,6 +1,6 @@
 ---
 title: 51. 数组中的逆序对
-description: LeetCode,51. 数组中的逆序对,数组中的逆序对,数组中的逆序对,解题思路,树状数组,线段树,数组,二分查找,分治,有序集合,归并排序
+description: LeetCode 51. 数组中的逆序对题解，数组中的逆序对，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 51. 数组中的逆序对

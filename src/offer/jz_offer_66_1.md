@@ -1,6 +1,6 @@
 ---
 title: 66. 构建乘积数组
-description: LeetCode,66. 构建乘积数组,构建乘积数组,构建乘积数组,解题思路,数组,前缀和
+description: LeetCode 66. 构建乘积数组题解，构建乘积数组，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 66. 构建乘积数组

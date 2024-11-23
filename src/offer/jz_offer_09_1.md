@@ -1,6 +1,6 @@
 ---
 title: 9. 用两个栈实现队列
-description: LeetCode,9. 用两个栈实现队列,用两个栈实现队列,用两个栈实现队列,解题思路,栈,设计,队列
+description: LeetCode 9. 用两个栈实现队列题解，用两个栈实现队列，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 9. 用两个栈实现队列

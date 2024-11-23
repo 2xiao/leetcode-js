@@ -1,6 +1,6 @@
 ---
 title: 101. 分割等和子集
-description: LeetCode,101. 分割等和子集,分割等和子集,分割等和子集,解题思路,数学,字符串,模拟
+description: LeetCode 101. 分割等和子集题解，分割等和子集，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 101. 分割等和子集

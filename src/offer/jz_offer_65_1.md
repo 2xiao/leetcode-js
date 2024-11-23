@@ -1,6 +1,6 @@
 ---
 title: 65. 不用加减乘除做加法
-description: LeetCode,65. 不用加减乘除做加法,不用加减乘除做加法,不用加减乘除做加法,解题思路,位运算,数学
+description: LeetCode 65. 不用加减乘除做加法题解，不用加减乘除做加法，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 65. 不用加减乘除做加法

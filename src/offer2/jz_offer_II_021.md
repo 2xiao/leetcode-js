@@ -1,6 +1,6 @@
 ---
 title: 21. 删除链表的倒数第 n 个结点
-description: LeetCode,21. 删除链表的倒数第 n 个结点,删除链表的倒数第 n 个结点,删除链表的倒数第 n 个结点,解题思路,链表,双指针
+description: LeetCode 21. 删除链表的倒数第 n 个结点题解，删除链表的倒数第 n 个结点，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 21. 删除链表的倒数第 n 个结点

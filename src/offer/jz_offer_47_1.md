@@ -1,6 +1,6 @@
 ---
 title: 47. 礼物的最大价值
-description: LeetCode,47. 礼物的最大价值,礼物的最大价值,礼物的最大价值,解题思路,数组,动态规划,矩阵
+description: LeetCode 47. 礼物的最大价值题解，礼物的最大价值，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 47. 礼物的最大价值

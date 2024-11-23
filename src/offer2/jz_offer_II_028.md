@@ -1,6 +1,6 @@
 ---
 title: 28. 展平多级双向链表
-description: LeetCode,28. 展平多级双向链表,展平多级双向链表,展平多级双向链表,解题思路,深度优先搜索,链表,双向链表
+description: LeetCode 28. 展平多级双向链表题解，展平多级双向链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 28. 展平多级双向链表

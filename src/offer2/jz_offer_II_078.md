@@ -1,6 +1,6 @@
 ---
 title: 78. 合并排序链表
-description: LeetCode,78. 合并排序链表,合并排序链表,合并排序链表,解题思路,链表,分治,堆（优先队列）,归并排序
+description: LeetCode 78. 合并排序链表题解，合并排序链表，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 78. 合并排序链表

@@ -1,6 +1,6 @@
 ---
 title: 53. 在排序数组中查找数字 I
-description: LeetCode,53. 在排序数组中查找数字 I,在排序数组中查找数字 I,在排序数组中查找数字 I,解题思路,数组,二分查找
+description: LeetCode 53. 在排序数组中查找数字 I题解，在排序数组中查找数字 I，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 53. 在排序数组中查找数字 I

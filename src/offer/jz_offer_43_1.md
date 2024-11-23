@@ -1,6 +1,6 @@
 ---
 title: 43. 1～n 整数中 1 出现的次数
-description: LeetCode,43. 1～n 整数中 1 出现的次数,1～n 整数中 1 出现的次数,1～n 整数中 1 出现的次数,解题思路,递归,数学,动态规划
+description: LeetCode 43. 1～n 整数中 1 出现的次数题解，1～n 整数中 1 出现的次数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 43. 1～n 整数中 1 出现的次数

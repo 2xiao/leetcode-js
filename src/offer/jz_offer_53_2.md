@@ -1,6 +1,6 @@
 ---
 title: 53-II. 0～n-1中缺失的数字
-description: LeetCode,53-II. 0～n-1中缺失的数字,0～n-1中缺失的数字,0～n-1中缺失的数字,解题思路,位运算,数组,哈希表,数学,二分查找
+description: LeetCode 53-II. 0～n-1中缺失的数字题解，0～n-1中缺失的数字，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 53-II. 0～n-1中缺失的数字

@@ -1,6 +1,6 @@
 ---
 title: 40. 最小的k个数
-description: LeetCode,40. 最小的k个数,最小的k个数,最小的k个数,解题思路,数组,分治,快速选择,排序,堆（优先队列）
+description: LeetCode 40. 最小的k个数题解，最小的k个数，包含解题思路、复杂度分析以及完整的 JavaScript 代码实现。
 keywords:
   - LeetCode
   - 40. 最小的k个数
