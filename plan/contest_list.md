@@ -2988,7 +2988,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1974 | 使用特殊打字机键入单词的最少时间 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter) [🔗](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter) |
-| 1975 | 最大方阵和 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-matrix-sum) [🔗](https://leetcode.com/problems/maximum-matrix-sum) |
+| 1975 | 最大方阵和 | [[✓]](/problem/1975.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-matrix-sum) [🔗](https://leetcode.com/problems/maximum-matrix-sum) |
 | 1976 | 到达目的地的方案数 |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-arrive-at-destination) [🔗](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) |
 | 1977 | 划分数字的方案数 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`后缀数组`](/tag/suffix-array.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-separate-numbers) [🔗](https://leetcode.com/problems/number-of-ways-to-separate-numbers) |
 
@@ -4129,7 +4129,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1464 | 数组中两元素的最大乘积 |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-product-of-two-elements-in-an-array) [🔗](https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array) |
 | 1465 | 切割后面积最大的蛋糕 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) [🔗](https://leetcode.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts) |
-| 1466 | 重新规划路线 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero) [🔗](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
+| 1466 | 重新规划路线 | [[✓]](/problem/1466.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero) [🔗](https://leetcode.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | 1467 | 两个盒子中球的颜色数相同的概率 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) [🔗](https://leetcode.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls) |
 
 
@@ -4872,7 +4872,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1160 | 拼写单词 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/find-words-that-can-be-formed-by-characters) [🔗](https://leetcode.com/problems/find-words-that-can-be-formed-by-characters) |
-| 1161 | 最大层内元素和 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree) [🔗](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
+| 1161 | 最大层内元素和 | [[✓]](/problem/1161.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-level-sum-of-a-binary-tree) [🔗](https://leetcode.com/problems/maximum-level-sum-of-a-binary-tree) |
 | 1162 | 地图分析 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/as-far-from-land-as-possible) [🔗](https://leetcode.com/problems/as-far-from-land-as-possible) |
 | 1163 | 按字典序排在最后的子串 |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🔴 | [🀄️](https://leetcode.cn/problems/last-substring-in-lexicographical-order) [🔗](https://leetcode.com/problems/last-substring-in-lexicographical-order) |
 
@@ -5712,7 +5712,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 840 | 矩阵中的幻方 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/magic-squares-in-grid) [🔗](https://leetcode.com/problems/magic-squares-in-grid) |
-| 841 | 钥匙和房间 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/keys-and-rooms) [🔗](https://leetcode.com/problems/keys-and-rooms) |
+| 841 | 钥匙和房间 | [[✓]](/problem/0841.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/keys-and-rooms) [🔗](https://leetcode.com/problems/keys-and-rooms) |
 | 842 | 将数组拆分成斐波那契序列 |  |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/split-array-into-fibonacci-sequence) [🔗](https://leetcode.com/problems/split-array-into-fibonacci-sequence) |
 | 843 | 猜猜这个单词 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/guess-the-word) [🔗](https://leetcode.com/problems/guess-the-word) |
 
