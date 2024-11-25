@@ -20,6 +20,12 @@ export default navbar([
 		target: '_self'
 	},
 	{
+		text: '系统设计',
+		icon: 'launch',
+		link: 'https://2xiao.github.io/system-design/',
+		target: '_self'
+	},
+	{
 		text: '前端面试题',
 		icon: 'creative',
 		link: 'https://2xiao.github.io/interview/',
