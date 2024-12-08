@@ -246,7 +246,7 @@ function bsearch(arr, value) {
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 875 | 爱吃香蕉的珂珂 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/koko-eating-bananas) [🔗](https://leetcode.com/problems/koko-eating-bananas) |
+| 875 | 爱吃香蕉的珂珂 | [[✓]](/problem/0875.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/koko-eating-bananas) [🔗](https://leetcode.com/problems/koko-eating-bananas) |
 | 410 | 分割数组的最大值 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/split-array-largest-sum) [🔗](https://leetcode.com/problems/split-array-largest-sum) |
 | 209 | 长度最小的子数组 | [[✓]](/problem/0209.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-size-subarray-sum) [🔗](https://leetcode.com/problems/minimum-size-subarray-sum) |
 | 658 | 找到 K 个最接近的元素 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-k-closest-elements) [🔗](https://leetcode.com/problems/find-k-closest-elements) |
