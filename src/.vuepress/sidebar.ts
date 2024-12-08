@@ -177,6 +177,7 @@ export default sidebar({
       "0172",
       "0173",
       "0174",
+      "0183",
       "0188",
       "0189",
       "0190",
@@ -326,7 +327,8 @@ export default sidebar({
       "0572",
       "0583",
       "0589",
-      "0590"
+      "0590",
+      "0595"
     ]
   },
   {
@@ -435,6 +437,7 @@ export default sidebar({
       "1106",
       "1137",
       "1143",
+      "1148",
       "1161",
       "1190"
     ]
@@ -484,7 +487,9 @@ export default sidebar({
     "text": "1500-1599",
     "collapsible": true,
     "children": [
+      "1517",
       "1522",
+      "1527",
       "1545",
       "1574",
       "1590",
@@ -497,8 +502,10 @@ export default sidebar({
     "children": [
       "1652",
       "1657",
+      "1667",
       "1671",
-      "1679"
+      "1679",
+      "1683"
     ]
   },
   {
@@ -506,6 +513,7 @@ export default sidebar({
     "collapsible": true,
     "children": [
       "1732",
+      "1757",
       "1760",
       "1768"
     ]
@@ -516,7 +524,8 @@ export default sidebar({
     "children": [
       "1813",
       "1829",
-      "1861"
+      "1861",
+      "1873"
     ]
   },
   {
