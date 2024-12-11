@@ -22,7 +22,7 @@
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 175 | 组合两个表 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/combine-two-tables) [🔗](https://leetcode.com/problems/combine-two-tables) |
 | 176 | 第二高的薪水 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/second-highest-salary) [🔗](https://leetcode.com/problems/second-highest-salary) |
-| 177 | 第N高的薪水 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/nth-highest-salary) [🔗](https://leetcode.com/problems/nth-highest-salary) |
+| 177 | 第N高的薪水 | [[✓]](/problem/0177.md) |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/nth-highest-salary) [🔗](https://leetcode.com/problems/nth-highest-salary) |
 | 178 | 分数排名 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rank-scores) [🔗](https://leetcode.com/problems/rank-scores) |
 | 180 | 连续出现的数字 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/consecutive-numbers) [🔗](https://leetcode.com/problems/consecutive-numbers) |
 | 181 | 超过经理收入的员工 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/employees-earning-more-than-their-managers) [🔗](https://leetcode.com/problems/employees-earning-more-than-their-managers) |
