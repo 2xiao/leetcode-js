@@ -1,6 +1,6 @@
 # 目录
 
-已完成 529 道
+已完成 534 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -64,6 +64,7 @@
 | 57 | 插入区间 | [[✓]](/problem/0057.md) |  [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/insert-interval) [🔗](https://leetcode.com/problems/insert-interval) |
 | 58 | 最后一个单词的长度 | [[✓]](/problem/0058.md) |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/length-of-last-word) [🔗](https://leetcode.com/problems/length-of-last-word) |
 | 59 | 螺旋矩阵 II | [[✓]](/problem/0059.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/spiral-matrix-ii) [🔗](https://leetcode.com/problems/spiral-matrix-ii) |
+| 60 | 排列序列 | [[✓]](/problem/0060.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | 🔴 | [🀄️](https://leetcode.cn/problems/permutation-sequence) [🔗](https://leetcode.com/problems/permutation-sequence) |
 | 61 | 旋转链表 | [[✓]](/problem/0061.md) |  [`链表`](/tag/linked-list.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotate-list) [🔗](https://leetcode.com/problems/rotate-list) |
 | 62 | 不同路径 | [[✓]](/problem/0062.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🟠 | [🀄️](https://leetcode.cn/problems/unique-paths) [🔗](https://leetcode.com/problems/unique-paths) |
 | 63 | 不同路径 II | [[✓]](/problem/0063.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/unique-paths-ii) [🔗](https://leetcode.com/problems/unique-paths-ii) |
@@ -155,9 +156,11 @@
 | 162 | 寻找峰值 | [[✓]](/problem/0162.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-peak-element) [🔗](https://leetcode.com/problems/find-peak-element) |
 | 167 | 两数之和 II - 输入有序数组 | [[✓]](/problem/0167.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted) [🔗](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted) |
 | 169 | 多数元素 | [[✓]](/problem/0169.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/majority-element) [🔗](https://leetcode.com/problems/majority-element) |
+| 170 | 两数之和 III - 数据结构设计 🔒 | [[✓]](/problem/0170.md) |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/two-sum-iii-data-structure-design) [🔗](https://leetcode.com/problems/two-sum-iii-data-structure-design) |
 | 172 | 阶乘后的零 | [[✓]](/problem/0172.md) |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/factorial-trailing-zeroes) [🔗](https://leetcode.com/problems/factorial-trailing-zeroes) |
 | 173 | 二叉搜索树迭代器 | [[✓]](/problem/0173.md) |  [`栈`](/tag/stack.md) [`树`](/tag/tree.md) [`设计`](/tag/design.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/binary-search-tree-iterator) [🔗](https://leetcode.com/problems/binary-search-tree-iterator) |
 | 174 | 地下城游戏 | [[✓]](/problem/0174.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🔴 | [🀄️](https://leetcode.cn/problems/dungeon-game) [🔗](https://leetcode.com/problems/dungeon-game) |
+| 177 | 第N高的薪水 | [[✓]](/problem/0177.md) |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/nth-highest-salary) [🔗](https://leetcode.com/problems/nth-highest-salary) |
 | 183 | 从不订购的客户 | [[✓]](/problem/0183.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/customers-who-never-order) [🔗](https://leetcode.com/problems/customers-who-never-order) |
 | 188 | 买卖股票的最佳时机 IV | [[✓]](/problem/0188.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/best-time-to-buy-and-sell-stock-iv) [🔗](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv) |
 | 189 | 轮转数组 | [[✓]](/problem/0189.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rotate-array) [🔗](https://leetcode.com/problems/rotate-array) |
@@ -510,6 +513,7 @@
 | 2775 | 将 undefined 转为 null 🔒 | [[✓]](/problem/2775.md) |  | 🟠 | [🀄️](https://leetcode.cn/problems/undefined-to-null) [🔗](https://leetcode.com/problems/undefined-to-null) |
 | 2776 | 转换回调函数为 Promise 函数 🔒 | [[✓]](/problem/2776.md) |  | 🟠 | [🀄️](https://leetcode.cn/problems/convert-callback-based-function-to-promise-based-function) [🔗](https://leetcode.com/problems/convert-callback-based-function-to-promise-based-function) |
 | 2777 | 日期范围生成器 🔒 | [[✓]](/problem/2777.md) |  | 🟠 | [🀄️](https://leetcode.cn/problems/date-range-generator) [🔗](https://leetcode.com/problems/date-range-generator) |
+| 2779 | 数组的最大美丽值 | [[✓]](/problem/2779.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation) [🔗](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation) |
 | 2794 | 从两个数组中创建对象 🔒 | [[✓]](/problem/2794.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/create-object-from-two-arrays) [🔗](https://leetcode.com/problems/create-object-from-two-arrays) |
 | 2795 | 并行执行 Promise 以获取独有的结果 🔒 | [[✓]](/problem/2795.md) |  | 🟠 | [🀄️](https://leetcode.cn/problems/parallel-execution-of-promises-for-individual-results-retrieval) [🔗](https://leetcode.com/problems/parallel-execution-of-promises-for-individual-results-retrieval) |
 | 2796 | 重复字符串 🔒 | [[✓]](/problem/2796.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/repeat-string) [🔗](https://leetcode.com/problems/repeat-string) |
@@ -528,6 +532,7 @@
 | 3097 | 或值至少为 K 的最短子数组 II | [[✓]](/problem/3097.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-subarray-with-or-at-least-k-ii) [🔗](https://leetcode.com/problems/shortest-subarray-with-or-at-least-k-ii) |
 | 3133 | 数组最后一个元素的最小值 | [[✓]](/problem/3133.md) |  [`位运算`](/tag/bit-manipulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-array-end) [🔗](https://leetcode.com/problems/minimum-array-end) |
 | 3136 | 有效单词 | [[✓]](/problem/3136.md) |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-word) [🔗](https://leetcode.com/problems/valid-word) |
+| 3152 | 特殊数组 II | [[✓]](/problem/3152.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/special-array-ii) [🔗](https://leetcode.com/problems/special-array-ii) |
 | 3163 | 压缩字符串 III | [[✓]](/problem/3163.md) |  [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/string-compression-iii) [🔗](https://leetcode.com/problems/string-compression-iii) |
 | 3243 | 新增道路查询后的最短距离 I | [[✓]](/problem/3243.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-distance-after-road-addition-queries-i) [🔗](https://leetcode.com/problems/shortest-distance-after-road-addition-queries-i) |
 | 3309 | 连接二进制表示可形成的最大数值 | [[✓]](/problem/3309.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-possible-number-by-binary-concatenation) [🔗](https://leetcode.com/problems/maximum-possible-number-by-binary-concatenation) |

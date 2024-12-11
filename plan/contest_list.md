@@ -408,7 +408,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 3151 | 特殊数组 I |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/special-array-i) [🔗](https://leetcode.com/problems/special-array-i) |
-| 3152 | 特殊数组 II |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/special-array-ii) [🔗](https://leetcode.com/problems/special-array-ii) |
+| 3152 | 特殊数组 II | [[✓]](/problem/3152.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/special-array-ii) [🔗](https://leetcode.com/problems/special-array-ii) |
 | 3153 | 所有数对中数位差之和 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/sum-of-digit-differences-of-all-pairs) [🔗](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs) |
 | 3154 | 到达第 K 级台阶的方案数 |  |  [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair) [🔗](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair) |
 
@@ -1200,7 +1200,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2778 | 特殊元素平方和 |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) | 🟢 | [🀄️](https://leetcode.cn/problems/sum-of-squares-of-special-elements) [🔗](https://leetcode.com/problems/sum-of-squares-of-special-elements) |
-| 2779 | 数组的最大美丽值 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation) [🔗](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation) |
+| 2779 | 数组的最大美丽值 | [[✓]](/problem/2779.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-beauty-of-an-array-after-applying-operation) [🔗](https://leetcode.com/problems/maximum-beauty-of-an-array-after-applying-operation) |
 | 2780 | 合法分割的最小下标 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-index-of-a-valid-split) [🔗](https://leetcode.com/problems/minimum-index-of-a-valid-split) |
 | 2781 | 最长合法子字符串的长度 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/length-of-the-longest-valid-substring) [🔗](https://leetcode.com/problems/length-of-the-longest-valid-substring) |
 
