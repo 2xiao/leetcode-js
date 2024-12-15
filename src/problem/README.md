@@ -1,6 +1,6 @@
 # 目录
 
-已完成 550 道
+已完成 565 道
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -540,6 +540,21 @@
 | 2822 | 对象反转 🔒 | [[✓]](/problem/2822.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/inversion-of-object) [🔗](https://leetcode.com/problems/inversion-of-object) |
 | 2823 | 深度对象筛选 🔒 | [[✓]](/problem/2823.md) |  | 🟠 | [🀄️](https://leetcode.cn/problems/deep-object-filter) [🔗](https://leetcode.com/problems/deep-object-filter) |
 | 2825 | 循环增长使字符串子序列等于另一个字符串 | [[✓]](/problem/2825.md) |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/make-string-a-subsequence-using-cyclic-increments) [🔗](https://leetcode.com/problems/make-string-a-subsequence-using-cyclic-increments) |
+| 2877 | 从表中创建 DataFrame | [[✓]](/problem/2877.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/create-a-dataframe-from-list) [🔗](https://leetcode.com/problems/create-a-dataframe-from-list) |
+| 2878 | 获取 DataFrame 的大小 | [[✓]](/problem/2878.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/get-the-size-of-a-dataframe) [🔗](https://leetcode.com/problems/get-the-size-of-a-dataframe) |
+| 2879 | 显示前三行 | [[✓]](/problem/2879.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/display-the-first-three-rows) [🔗](https://leetcode.com/problems/display-the-first-three-rows) |
+| 2880 | 数据选取 | [[✓]](/problem/2880.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/select-data) [🔗](https://leetcode.com/problems/select-data) |
+| 2881 | 创建新列 | [[✓]](/problem/2881.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/create-a-new-column) [🔗](https://leetcode.com/problems/create-a-new-column) |
+| 2882 | 删去重复的行 | [[✓]](/problem/2882.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/drop-duplicate-rows) [🔗](https://leetcode.com/problems/drop-duplicate-rows) |
+| 2883 | 删去丢失的数据 | [[✓]](/problem/2883.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/drop-missing-data) [🔗](https://leetcode.com/problems/drop-missing-data) |
+| 2884 | 修改列 | [[✓]](/problem/2884.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/modify-columns) [🔗](https://leetcode.com/problems/modify-columns) |
+| 2885 | 重命名列 | [[✓]](/problem/2885.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/rename-columns) [🔗](https://leetcode.com/problems/rename-columns) |
+| 2886 | 改变数据类型 | [[✓]](/problem/2886.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/change-data-type) [🔗](https://leetcode.com/problems/change-data-type) |
+| 2887 | 填充缺失值 | [[✓]](/problem/2887.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/fill-missing-data) [🔗](https://leetcode.com/problems/fill-missing-data) |
+| 2888 | 重塑数据：连结 | [[✓]](/problem/2888.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/reshape-data-concatenate) [🔗](https://leetcode.com/problems/reshape-data-concatenate) |
+| 2889 | 数据重塑：透视 | [[✓]](/problem/2889.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/reshape-data-pivot) [🔗](https://leetcode.com/problems/reshape-data-pivot) |
+| 2890 | 重塑数据：融合 | [[✓]](/problem/2890.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/reshape-data-melt) [🔗](https://leetcode.com/problems/reshape-data-melt) |
+| 2891 | 方法链 | [[✓]](/problem/2891.md) |  | 🟢 | [🀄️](https://leetcode.cn/problems/method-chaining) [🔗](https://leetcode.com/problems/method-chaining) |
 | 2914 | 使二进制字符串变美丽的最少修改次数 | [[✓]](/problem/2914.md) |  [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-number-of-changes-to-make-binary-string-beautiful) [🔗](https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful) |
 | 2924 | 找到冠军 II | [[✓]](/problem/2924.md) |  [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-champion-ii) [🔗](https://leetcode.com/problems/find-champion-ii) |
 | 2938 | 区分黑球与白球 | [[✓]](/problem/2938.md) |  [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/separate-black-and-white-balls) [🔗](https://leetcode.com/problems/separate-black-and-white-balls) |
