@@ -70,7 +70,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 350 | 两个数组的交集 II |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/intersection-of-two-arrays-ii) [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii) |
+| 350 | 两个数组的交集 II | [[✓]](/problem/0350.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/intersection-of-two-arrays-ii) [🔗](https://leetcode.com/problems/intersection-of-two-arrays-ii) |
 | 925 | 长按键入 |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/long-pressed-name) [🔗](https://leetcode.com/problems/long-pressed-name) |
 | 844 | 比较含退格的字符串 | [[✓]](/problem/0844.md) |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/backspace-string-compare) [🔗](https://leetcode.com/problems/backspace-string-compare) |
 | 1229 | 安排会议日程 🔒 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/meeting-scheduler) [🔗](https://leetcode.com/problems/meeting-scheduler) |

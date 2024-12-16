@@ -450,7 +450,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 | 频次 |
 | :------: | :------ | :------: | :------ | :------: | :------: | :------: |
 | 209 | 长度最小的子数组 | [[✓]](/problem/0209.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-size-subarray-sum) [🔗](https://leetcode.com/problems/minimum-size-subarray-sum) | 49 |
-| 349 | 两个数组的交集 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/intersection-of-two-arrays) [🔗](https://leetcode.com/problems/intersection-of-two-arrays) | 22 |
+| 349 | 两个数组的交集 | [[✓]](/problem/0349.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/intersection-of-two-arrays) [🔗](https://leetcode.com/problems/intersection-of-two-arrays) | 22 |
 
 
 ## 双指针
@@ -550,7 +550,7 @@ headerDepth: 0
 | 7 | 整数反转 | [[✓]](/problem/0007.md) |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/reverse-integer) [🔗](https://leetcode.com/problems/reverse-integer) | 37 |
 | 9 | 回文数 | [[✓]](/problem/0009.md) |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/palindrome-number) [🔗](https://leetcode.com/problems/palindrome-number) | 27 |
 | 剑指 Offer 62 | 圆圈中最后剩下的数字 | [[✓]](/offer/jz_offer_62_1.md) |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/yuan-quan-zhong-zui-hou-sheng-xia-de-shu-zi-lcof) | 30 |
-| 168 | Excel 表列名称 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/excel-sheet-column-title) [🔗](https://leetcode.com/problems/excel-sheet-column-title) | 20 |
+| 168 | Excel 表列名称 | [[✓]](/problem/0168.md) |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/excel-sheet-column-title) [🔗](https://leetcode.com/problems/excel-sheet-column-title) | 20 |
 
 
 * 模拟

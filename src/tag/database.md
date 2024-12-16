@@ -20,13 +20,13 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 175 | 组合两个表 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/combine-two-tables) [🔗](https://leetcode.com/problems/combine-two-tables) |
+| 175 | 组合两个表 | [[✓]](/problem/0175.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/combine-two-tables) [🔗](https://leetcode.com/problems/combine-two-tables) |
 | 176 | 第二高的薪水 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/second-highest-salary) [🔗](https://leetcode.com/problems/second-highest-salary) |
 | 177 | 第N高的薪水 | [[✓]](/problem/0177.md) |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/nth-highest-salary) [🔗](https://leetcode.com/problems/nth-highest-salary) |
 | 178 | 分数排名 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/rank-scores) [🔗](https://leetcode.com/problems/rank-scores) |
 | 180 | 连续出现的数字 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/consecutive-numbers) [🔗](https://leetcode.com/problems/consecutive-numbers) |
-| 181 | 超过经理收入的员工 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/employees-earning-more-than-their-managers) [🔗](https://leetcode.com/problems/employees-earning-more-than-their-managers) |
-| 182 | 查找重复的电子邮箱 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/duplicate-emails) [🔗](https://leetcode.com/problems/duplicate-emails) |
+| 181 | 超过经理收入的员工 | [[✓]](/problem/0181.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/employees-earning-more-than-their-managers) [🔗](https://leetcode.com/problems/employees-earning-more-than-their-managers) |
+| 182 | 查找重复的电子邮箱 | [[✓]](/problem/0182.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/duplicate-emails) [🔗](https://leetcode.com/problems/duplicate-emails) |
 | 183 | 从不订购的客户 | [[✓]](/problem/0183.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/customers-who-never-order) [🔗](https://leetcode.com/problems/customers-who-never-order) |
 | 184 | 部门工资最高的员工 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/department-highest-salary) [🔗](https://leetcode.com/problems/department-highest-salary) |
 | 185 | 部门工资前三高的所有员工 |  |  [`数据库`](/tag/database.md) | 🔴 | [🀄️](https://leetcode.cn/problems/department-top-three-salaries) [🔗](https://leetcode.com/problems/department-top-three-salaries) |
@@ -45,7 +45,7 @@
 | 578 | 查询回答率最高的问题 🔒 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/get-highest-answer-rate-question) [🔗](https://leetcode.com/problems/get-highest-answer-rate-question) |
 | 579 | 查询员工的累计薪水 🔒 |  |  [`数据库`](/tag/database.md) | 🔴 | [🀄️](https://leetcode.cn/problems/find-cumulative-salary-of-an-employee) [🔗](https://leetcode.com/problems/find-cumulative-salary-of-an-employee) |
 | 580 | 统计各专业学生人数 🔒 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-student-number-in-departments) [🔗](https://leetcode.com/problems/count-student-number-in-departments) |
-| 584 | 寻找用户推荐人 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-customer-referee) [🔗](https://leetcode.com/problems/find-customer-referee) |
+| 584 | 寻找用户推荐人 | [[✓]](/problem/0584.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-customer-referee) [🔗](https://leetcode.com/problems/find-customer-referee) |
 | 585 | 2016年的投资 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/investments-in-2016) [🔗](https://leetcode.com/problems/investments-in-2016) |
 | 586 | 订单最多的客户 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/customer-placing-the-largest-number-of-orders) [🔗](https://leetcode.com/problems/customer-placing-the-largest-number-of-orders) |
 | 595 | 大的国家 | [[✓]](/problem/0595.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/big-countries) [🔗](https://leetcode.com/problems/big-countries) |
@@ -68,7 +68,7 @@
 | 627 | 变更性别 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/swap-salary) [🔗](https://leetcode.com/problems/swap-salary) |
 | 1045 | 买下所有产品的客户 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/customers-who-bought-all-products) [🔗](https://leetcode.com/problems/customers-who-bought-all-products) |
 | 1050 | 合作过至少三次的演员和导演 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/actors-and-directors-who-cooperated-at-least-three-times) [🔗](https://leetcode.com/problems/actors-and-directors-who-cooperated-at-least-three-times) |
-| 1068 | 产品销售分析 I |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/product-sales-analysis-i) [🔗](https://leetcode.com/problems/product-sales-analysis-i) |
+| 1068 | 产品销售分析 I | [[✓]](/problem/1068.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/product-sales-analysis-i) [🔗](https://leetcode.com/problems/product-sales-analysis-i) |
 | 1069 | 产品销售分析 II 🔒 |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/product-sales-analysis-ii) [🔗](https://leetcode.com/problems/product-sales-analysis-ii) |
 | 1070 | 产品销售分析 III |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/product-sales-analysis-iii) [🔗](https://leetcode.com/problems/product-sales-analysis-iii) |
 | 1075 | 项目员工 I |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/project-employees-i) [🔗](https://leetcode.com/problems/project-employees-i) |
@@ -120,7 +120,7 @@
 | 1355 | 活动参与者 🔒 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/activity-participants) [🔗](https://leetcode.com/problems/activity-participants) |
 | 1364 | 顾客的可信联系人数量 🔒 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-trusted-contacts-of-a-customer) [🔗](https://leetcode.com/problems/number-of-trusted-contacts-of-a-customer) |
 | 1369 | 获取最近第二次的活动 🔒 |  |  [`数据库`](/tag/database.md) | 🔴 | [🀄️](https://leetcode.cn/problems/get-the-second-most-recent-activity) [🔗](https://leetcode.com/problems/get-the-second-most-recent-activity) |
-| 1378 | 使用唯一标识码替换员工ID |  |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier) [🔗](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier) |
+| 1378 | 使用唯一标识码替换员工ID | [[✓]](/problem/1378.md) |  [`数据库`](/tag/database.md) | 🟢 | [🀄️](https://leetcode.cn/problems/replace-employee-id-with-the-unique-identifier) [🔗](https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier) |
 | 1384 | 按年度列出销售总额 🔒 |  |  [`数据库`](/tag/database.md) | 🔴 | [🀄️](https://leetcode.cn/problems/total-sales-amount-by-year) [🔗](https://leetcode.com/problems/total-sales-amount-by-year) |
 | 1393 | 股票的资本损益 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/capital-gainloss) [🔗](https://leetcode.com/problems/capital-gainloss) |
 | 1398 | 购买了产品 A 和产品 B 却没有购买产品 C 的顾客 🔒 |  |  [`数据库`](/tag/database.md) | 🟠 | [🀄️](https://leetcode.cn/problems/customers-who-bought-products-a-and-b-but-not-c) [🔗](https://leetcode.com/problems/customers-who-bought-products-a-and-b-but-not-c) |

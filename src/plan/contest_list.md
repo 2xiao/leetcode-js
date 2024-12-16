@@ -155,7 +155,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 3264 | K 次乘运算后的最终数组 I |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i) [🔗](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i) |
+| 3264 | K 次乘运算后的最终数组 I | [[✓]](/problem/3264.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-i) [🔗](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-i) |
 | 3265 | 统计近似相等数对 I |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-almost-equal-pairs-i) [🔗](https://leetcode.com/problems/count-almost-equal-pairs-i) |
 | 3266 | K 次乘运算后的最终数组 II |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🔴 | [🀄️](https://leetcode.cn/problems/final-array-state-after-k-multiplication-operations-ii) [🔗](https://leetcode.com/problems/final-array-state-after-k-multiplication-operations-ii) |
 | 3267 | 统计近似相等数对 II |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-almost-equal-pairs-ii) [🔗](https://leetcode.com/problems/count-almost-equal-pairs-ii) |
@@ -1992,7 +1992,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2404 | 出现最频繁的偶数元素 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/most-frequent-even-element) [🔗](https://leetcode.com/problems/most-frequent-even-element) |
-| 2405 | 子字符串的最优划分 |  |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/optimal-partition-of-string) [🔗](https://leetcode.com/problems/optimal-partition-of-string) |
+| 2405 | 子字符串的最优划分 | [[✓]](/problem/2405.md) |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/optimal-partition-of-string) [🔗](https://leetcode.com/problems/optimal-partition-of-string) |
 | 2406 | 将区间分为最少组数 | [[✓]](/problem/2406.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/divide-intervals-into-minimum-number-of-groups) [🔗](https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups) |
 | 2407 | 最长递增子序列 II |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`队列`](/tag/queue.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/longest-increasing-subsequence-ii) [🔗](https://leetcode.com/problems/longest-increasing-subsequence-ii) |
 
@@ -3397,7 +3397,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1790 | 仅执行一次字符串交换能否使两个字符串相等 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-one-string-swap-can-make-strings-equal) [🔗](https://leetcode.com/problems/check-if-one-string-swap-can-make-strings-equal) |
 | 1791 | 找出星型图的中心节点 |  |  [`图`](/tag/graph.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-center-of-star-graph) [🔗](https://leetcode.com/problems/find-center-of-star-graph) |
-| 1792 | 最大平均通过率 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-average-pass-ratio) [🔗](https://leetcode.com/problems/maximum-average-pass-ratio) |
+| 1792 | 最大平均通过率 | [[✓]](/problem/1792.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-average-pass-ratio) [🔗](https://leetcode.com/problems/maximum-average-pass-ratio) |
 | 1793 | 好子数组的最大分数 |  |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-score-of-a-good-subarray) [🔗](https://leetcode.com/problems/maximum-score-of-a-good-subarray) |
 
 
@@ -4068,7 +4068,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1491 | 去掉最低工资和最高工资后的工资平均值 |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/average-salary-excluding-the-minimum-and-maximum-salary) [🔗](https://leetcode.com/problems/average-salary-excluding-the-minimum-and-maximum-salary) |
-| 1492 | n 的第 k 个因子 |  |  [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/the-kth-factor-of-n) [🔗](https://leetcode.com/problems/the-kth-factor-of-n) |
+| 1492 | n 的第 k 个因子 | [[✓]](/problem/1492.md) |  [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/the-kth-factor-of-n) [🔗](https://leetcode.com/problems/the-kth-factor-of-n) |
 | 1493 | 删掉一个元素以后全为 1 的最长子数组 | [[✓]](/problem/1493.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-subarray-of-1s-after-deleting-one-element) [🔗](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element) |
 | 1494 | 并行课程 II |  |  [`位运算`](/tag/bit-manipulation.md) [`图`](/tag/graph.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/parallel-courses-ii) [🔗](https://leetcode.com/problems/parallel-courses-ii) |
 
@@ -5714,7 +5714,7 @@ headerDepth: 0
 | 840 | 矩阵中的幻方 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/magic-squares-in-grid) [🔗](https://leetcode.com/problems/magic-squares-in-grid) |
 | 841 | 钥匙和房间 | [[✓]](/problem/0841.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/keys-and-rooms) [🔗](https://leetcode.com/problems/keys-and-rooms) |
 | 842 | 将数组拆分成斐波那契序列 |  |  [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/split-array-into-fibonacci-sequence) [🔗](https://leetcode.com/problems/split-array-into-fibonacci-sequence) |
-| 843 | 猜猜这个单词 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/guess-the-word) [🔗](https://leetcode.com/problems/guess-the-word) |
+| 843 | 猜猜这个单词 | [[✓]](/problem/0843.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/guess-the-word) [🔗](https://leetcode.com/problems/guess-the-word) |
 
 
 ## Weekly Contest 85 (2018-05-20 09:30)
