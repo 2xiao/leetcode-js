@@ -19,6 +19,6 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 192 | 统计词频 |  |  [`Shell`](/tag/shell.md) | 🟠 | [🀄️](https://leetcode.cn/problems/word-frequency) [🔗](https://leetcode.com/problems/word-frequency) |
-| 193 | 有效电话号码 |  |  [`Shell`](/tag/shell.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-phone-numbers) [🔗](https://leetcode.com/problems/valid-phone-numbers) |
+| 193 | 有效电话号码 | [[✓]](/problem/0193.md) |  [`Shell`](/tag/shell.md) | 🟢 | [🀄️](https://leetcode.cn/problems/valid-phone-numbers) [🔗](https://leetcode.com/problems/valid-phone-numbers) |
 | 194 | 转置文件 |  |  [`Shell`](/tag/shell.md) | 🟠 | [🀄️](https://leetcode.cn/problems/transpose-file) [🔗](https://leetcode.com/problems/transpose-file) |
 | 195 | 第十行 |  |  [`Shell`](/tag/shell.md) | 🟢 | [🀄️](https://leetcode.cn/problems/tenth-line) [🔗](https://leetcode.com/problems/tenth-line) |
