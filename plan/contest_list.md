@@ -1980,7 +1980,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2409 | 统计共同度过的日子数 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-days-spent-together) [🔗](https://leetcode.com/problems/count-days-spent-together) |
-| 2410 | 运动员和训练师的最大匹配数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers) [🔗](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) |
+| 2410 | 运动员和训练师的最大匹配数 | [[✓]](/problem/2410.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-matching-of-players-with-trainers) [🔗](https://leetcode.com/problems/maximum-matching-of-players-with-trainers) |
 | 2411 | 按位或最大的最小子数组长度 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/smallest-subarrays-with-maximum-bitwise-or) [🔗](https://leetcode.com/problems/smallest-subarrays-with-maximum-bitwise-or) |
 | 2412 | 完成所有交易的初始最少钱数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-money-required-before-transactions) [🔗](https://leetcode.com/problems/minimum-money-required-before-transactions) |
 
@@ -2411,7 +2411,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2220 | 转换数字的最少位翻转次数 |  |  [`位运算`](/tag/bit-manipulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number) [🔗](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) |
+| 2220 | 转换数字的最少位翻转次数 | [[✓]](/problem/2220.md) |  [`位运算`](/tag/bit-manipulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-bit-flips-to-convert-number) [🔗](https://leetcode.com/problems/minimum-bit-flips-to-convert-number) |
 | 2221 | 数组的三角和 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`组合数学`](/tag/combinatorics.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-triangular-sum-of-an-array) [🔗](https://leetcode.com/problems/find-triangular-sum-of-an-array) |
 | 2222 | 选择建筑的方案数 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-select-buildings) [🔗](https://leetcode.com/problems/number-of-ways-to-select-buildings) |
 | 2223 | 构造字符串的总得分和 |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`字符串匹配`](/tag/string-matching.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/sum-of-scores-of-built-strings) [🔗](https://leetcode.com/problems/sum-of-scores-of-built-strings) |
@@ -2509,7 +2509,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2180 | 统计各位数字之和为偶数的整数个数 |  |  [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-integers-with-even-digit-sum) [🔗](https://leetcode.com/problems/count-integers-with-even-digit-sum) |
 | 2181 | 合并零之间的节点 |  |  [`链表`](/tag/linked-list.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/merge-nodes-in-between-zeros) [🔗](https://leetcode.com/problems/merge-nodes-in-between-zeros) |
-| 2182 | 构造限制重复的字符串 |  |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/construct-string-with-repeat-limit) [🔗](https://leetcode.com/problems/construct-string-with-repeat-limit) |
+| 2182 | 构造限制重复的字符串 | [[✓]](/problem/2182.md) |  [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/construct-string-with-repeat-limit) [🔗](https://leetcode.com/problems/construct-string-with-repeat-limit) |
 | 2183 | 统计可以被 K 整除的下标对数目 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-array-pairs-divisible-by-k) [🔗](https://leetcode.com/problems/count-array-pairs-divisible-by-k) |
 
 
@@ -5207,7 +5207,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1009 | 十进制整数的反码 |  |  [`位运算`](/tag/bit-manipulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/complement-of-base-10-integer) [🔗](https://leetcode.com/problems/complement-of-base-10-integer) |
+| 1009 | 十进制整数的反码 | [[✓]](/problem/1009.md) |  [`位运算`](/tag/bit-manipulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/complement-of-base-10-integer) [🔗](https://leetcode.com/problems/complement-of-base-10-integer) |
 | 1010 | 总持续时间可被 60 整除的歌曲 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/pairs-of-songs-with-total-durations-divisible-by-60) [🔗](https://leetcode.com/problems/pairs-of-songs-with-total-durations-divisible-by-60) |
 | 1011 | 在 D 天内送达包裹的能力 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/capacity-to-ship-packages-within-d-days) [🔗](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days) |
 | 1012 | 至少有 1 位重复的数字 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/numbers-with-repeated-digits) [🔗](https://leetcode.com/problems/numbers-with-repeated-digits) |

@@ -11,9 +11,9 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 504 | 七进制数 |  |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/base-7) [🔗](https://leetcode.com/problems/base-7) |
-| 405 | 数字转换为十六进制数 |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/convert-a-number-to-hexadecimal) [🔗](https://leetcode.com/problems/convert-a-number-to-hexadecimal) |
+| 405 | 数字转换为十六进制数 | [[✓]](/problem/0405.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/convert-a-number-to-hexadecimal) [🔗](https://leetcode.com/problems/convert-a-number-to-hexadecimal) |
 | 190 | 颠倒二进制位 | [[✓]](/problem/0190.md) |  [`位运算`](/tag/bit-manipulation.md) [`分治`](/tag/divide-and-conquer.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-bits) [🔗](https://leetcode.com/problems/reverse-bits) |
-| 1009 | 十进制整数的反码 |  |  [`位运算`](/tag/bit-manipulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/complement-of-base-10-integer) [🔗](https://leetcode.com/problems/complement-of-base-10-integer) |
+| 1009 | 十进制整数的反码 | [[✓]](/problem/1009.md) |  [`位运算`](/tag/bit-manipulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/complement-of-base-10-integer) [🔗](https://leetcode.com/problems/complement-of-base-10-integer) |
 | 191 | 位1的个数 | [[✓]](/problem/0191.md) |  [`位运算`](/tag/bit-manipulation.md) [`分治`](/tag/divide-and-conquer.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-1-bits) [🔗](https://leetcode.com/problems/number-of-1-bits) |
 | 371 | 两整数之和 |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/sum-of-two-integers) [🔗](https://leetcode.com/problems/sum-of-two-integers) |
 | 89 | 格雷编码 |  |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | 🟠 | [🀄️](https://leetcode.cn/problems/gray-code) [🔗](https://leetcode.com/problems/gray-code) |

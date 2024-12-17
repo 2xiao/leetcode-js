@@ -21,7 +21,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 62 | 不同路径 | [[✓]](/problem/0062.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🟠 | [🀄️](https://leetcode.cn/problems/unique-paths) [🔗](https://leetcode.com/problems/unique-paths) |
-| 458 | 可怜的小猪 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🔴 | [🀄️](https://leetcode.cn/problems/poor-pigs) [🔗](https://leetcode.com/problems/poor-pigs) |
+| 458 | 可怜的小猪 | [[✓]](/problem/0458.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🔴 | [🀄️](https://leetcode.cn/problems/poor-pigs) [🔗](https://leetcode.com/problems/poor-pigs) |
 | 920 | 播放列表的数量 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-music-playlists) [🔗](https://leetcode.com/problems/number-of-music-playlists) |
 | 1201 | 丑数 III |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) [`组合数学`](/tag/combinatorics.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/ugly-number-iii) [🔗](https://leetcode.com/problems/ugly-number-iii) |
 | 1359 | 有效的快递序列数目 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-all-valid-pickup-and-delivery-options) [🔗](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options) |
