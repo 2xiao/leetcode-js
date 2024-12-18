@@ -418,7 +418,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 164 | 最大间距 |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-gap) [🔗](https://leetcode.com/problems/maximum-gap) |
-| 561 | 数组拆分 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/array-partition) [🔗](https://leetcode.com/problems/array-partition) |
+| 561 | 数组拆分 | [[✓]](/problem/0561.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/array-partition) [🔗](https://leetcode.com/problems/array-partition) |
 
 * 其他排序
 

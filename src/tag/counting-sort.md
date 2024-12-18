@@ -21,7 +21,7 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 274 | H 指数 | [[✓]](/problem/0274.md) |  [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/h-index) [🔗](https://leetcode.com/problems/h-index) |
-| 561 | 数组拆分 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/array-partition) [🔗](https://leetcode.com/problems/array-partition) |
+| 561 | 数组拆分 | [[✓]](/problem/0561.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/array-partition) [🔗](https://leetcode.com/problems/array-partition) |
 | 912 | 排序数组 |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-an-array) [🔗](https://leetcode.com/problems/sort-an-array) |
 | 1051 | 高度检查器 |  |  [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/height-checker) [🔗](https://leetcode.com/problems/height-checker) |
 | 1122 | 数组的相对排序 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/relative-sort-array) [🔗](https://leetcode.com/problems/relative-sort-array) |
