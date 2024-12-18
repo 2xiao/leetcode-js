@@ -545,7 +545,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 204 | 计数质数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-primes) [🔗](https://leetcode.com/problems/count-primes) |
-| 628 | 三个数的最大乘积 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-product-of-three-numbers) [🔗](https://leetcode.com/problems/maximum-product-of-three-numbers) |
+| 628 | 三个数的最大乘积 | [[✓]](/problem/0628.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-product-of-three-numbers) [🔗](https://leetcode.com/problems/maximum-product-of-three-numbers) |
 | 976 | 三角形的最大周长 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/largest-perimeter-triangle) [🔗](https://leetcode.com/problems/largest-perimeter-triangle) |
 | 202 | 快乐数 | [[✓]](/problem/0202.md) |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/happy-number) [🔗](https://leetcode.com/problems/happy-number) |
 | 1232 | 缀点成线 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-it-is-a-straight-line) [🔗](https://leetcode.com/problems/check-if-it-is-a-straight-line) |

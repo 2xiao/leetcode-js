@@ -568,7 +568,7 @@ var lengthOfLongestSubstring = function (s) {
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 674 | 最长连续递增序列 |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-continuous-increasing-subsequence) [🔗](https://leetcode.com/problems/longest-continuous-increasing-subsequence) |
+| 674 | 最长连续递增序列 | [[✓]](/problem/0674.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-continuous-increasing-subsequence) [🔗](https://leetcode.com/problems/longest-continuous-increasing-subsequence) |
 | 485 | 最大连续 1 的个数 | [[✓]](/problem/0485.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/max-consecutive-ones) [🔗](https://leetcode.com/problems/max-consecutive-ones) |
 | 487 | 最大连续1的个数 II 🔒 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/max-consecutive-ones-ii) [🔗](https://leetcode.com/problems/max-consecutive-ones-ii) |
 | 76 | 最小覆盖子串 | [[✓]](/problem/0076.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-window-substring) [🔗](https://leetcode.com/problems/minimum-window-substring) |
