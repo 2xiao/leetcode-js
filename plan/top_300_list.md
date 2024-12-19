@@ -336,8 +336,8 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 867 | 转置矩阵 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/transpose-matrix) [🔗](https://leetcode.com/problems/transpose-matrix) |
-| 832 | 翻转图像 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/flipping-an-image) [🔗](https://leetcode.com/problems/flipping-an-image) |
+| 867 | 转置矩阵 | [[✓]](/problem/0867.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/transpose-matrix) [🔗](https://leetcode.com/problems/transpose-matrix) |
+| 832 | 翻转图像 | [[✓]](/problem/0832.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/flipping-an-image) [🔗](https://leetcode.com/problems/flipping-an-image) |
 | 54 | 螺旋矩阵 | [[✓]](/problem/0054.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/spiral-matrix) [🔗](https://leetcode.com/problems/spiral-matrix) |
 | 59 | 螺旋矩阵 II | [[✓]](/problem/0059.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/spiral-matrix-ii) [🔗](https://leetcode.com/problems/spiral-matrix-ii) |
 | 73 | 矩阵置零 | [[✓]](/problem/0073.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/set-matrix-zeroes) [🔗](https://leetcode.com/problems/set-matrix-zeroes) |
@@ -576,7 +576,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1232 | 缀点成线 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-it-is-a-straight-line) [🔗](https://leetcode.com/problems/check-if-it-is-a-straight-line) |
 | 1266 | 访问所有点的最小时间 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-visiting-all-points) [🔗](https://leetcode.com/problems/minimum-time-visiting-all-points) |
-| 892 | 三维形体的表面积 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/surface-area-of-3d-shapes) [🔗](https://leetcode.com/problems/surface-area-of-3d-shapes) |
+| 892 | 三维形体的表面积 | [[✓]](/problem/0892.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/surface-area-of-3d-shapes) [🔗](https://leetcode.com/problems/surface-area-of-3d-shapes) |
 | 1401 | 圆和矩形是否有重叠 |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/circle-and-rectangle-overlapping) [🔗](https://leetcode.com/problems/circle-and-rectangle-overlapping) |
 | 963 | 最小面积矩形 II |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-area-rectangle-ii) [🔗](https://leetcode.com/problems/minimum-area-rectangle-ii) |
 | 587 | 安装栅栏 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🔴 | [🀄️](https://leetcode.cn/problems/erect-the-fence) [🔗](https://leetcode.com/problems/erect-the-fence) |
