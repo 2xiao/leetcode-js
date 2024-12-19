@@ -595,12 +595,12 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 594,0594,0500-0599,Longest Harmonious Subsequence,最长和谐子序列,longest-harmonious-subsequence,"Array|array|数组,Hash Table|hash-table|哈希表,Counting|counting|计数,Sorting|sorting|排序,Sliding Window|sliding-window|滑动窗口",Easy,False,,0
 595,0595,0500-0599,Big Countries,大的国家,big-countries,Database|database|数据库,Easy,False,,0
 596,0596,0500-0599,Classes More Than 5 Students,超过 5 名学生的课,classes-more-than-5-students,Database|database|数据库,Easy,False,,0
-597,0597,0500-0599,Friend Requests I: Overall Acceptance Rate,好友申请 I：总体通过率,friend-requests-i-overall-acceptance-rate,Database|database|数据库,Easy,False,,1
+597,0597,0500-0599,Friend Requests I - Overall Acceptance Rate,好友申请 I：总体通过率,friend-requests-i-overall-acceptance-rate,Database|database|数据库,Easy,False,,1
 598,0598,0500-0599,Range Addition II,区间加法 II,range-addition-ii,"Array|array|数组,Math|math|数学",Easy,False,0370|2718,0
 599,0599,0500-0599,Minimum Index Sum of Two Lists,两个列表的最小索引总和,minimum-index-sum-of-two-lists,"Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串",Easy,False,0160,0
 600,0600,0600-0699,Non-negative Integers without Consecutive Ones,不含连续1的非负整数,non-negative-integers-without-consecutive-ones,Dynamic Programming|dynamic-programming|动态规划,Hard,False,0198|0213|0474|3211,0
 601,0601,0600-0699,Human Traffic of Stadium,体育馆的人流量,human-traffic-of-stadium,Database|database|数据库,Hard,False,,0
-602,0602,0600-0699,Friend Requests II: Who Has the Most Friends,好友申请 II ：谁有最多的好友,friend-requests-ii-who-has-the-most-friends,Database|database|数据库,Medium,False,,0
+602,0602,0600-0699,Friend Requests II - Who Has the Most Friends,好友申请 II ：谁有最多的好友,friend-requests-ii-who-has-the-most-friends,Database|database|数据库,Medium,False,,0
 603,0603,0600-0699,Consecutive Available Seats,连续空余座位,consecutive-available-seats,Database|database|数据库,Easy,False,,1
 604,0604,0600-0699,Design Compressed String Iterator,迭代压缩字符串,design-compressed-string-iterator,"Design|design|设计,Array|array|数组,String|string|字符串,Iterator|iterator|迭代器",Easy,False,0146|0443,1
 605,0605,0600-0699,Can Place Flowers,种花问题,can-place-flowers,"Greedy|greedy|贪心,Array|array|数组",Easy,True,0495|0735,0
@@ -613,7 +613,7 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 612,0612,0600-0699,Shortest Distance in a Plane,平面上的最近距离,shortest-distance-in-a-plane,Database|database|数据库,Medium,False,,1
 613,0613,0600-0699,Shortest Distance in a Line,直线上的最近距离,shortest-distance-in-a-line,Database|database|数据库,Easy,False,,1
 614,0614,0600-0699,Second Degree Follower,二级关注者,second-degree-follower,Database|database|数据库,Medium,False,,1
-615,0615,0600-0699,Average Salary: Departments VS Company,平均工资：部门与公司比较,average-salary-departments-vs-company,Database|database|数据库,Hard,False,1501,1
+615,0615,0600-0699,Average Salary - Departments VS Company,平均工资：部门与公司比较,average-salary-departments-vs-company,Database|database|数据库,Hard,False,1501,1
 616,0616,0600-0699,Add Bold Tag in String,给字符串添加加粗标签,add-bold-tag-in-string,"Trie|trie|字典树,Array|array|数组,Hash Table|hash-table|哈希表,String|string|字符串,String Matching|string-matching|字符串匹配",Medium,False,0056|0591,1
 617,0617,0600-0699,Merge Two Binary Trees,合并二叉树,merge-two-binary-trees,"Tree|tree|树,Depth-First Search|depth-first-search|深度优先搜索,Breadth-First Search|breadth-first-search|广度优先搜索,Binary Tree|binary-tree|二叉树",Easy,True,,0
 618,0618,0600-0699,Students Report By Geography,学生地理信息报告,students-report-by-geography,Database|database|数据库,Hard,False,,1
@@ -2886,9 +2886,9 @@ frontendId,fileName,catalog,title,titleCN,slug,tags,difficulty,status,similar,pa
 2885,2885,2800-2899,Rename Columns,重命名列,rename-columns,,Easy,False,,0
 2886,2886,2800-2899,Change Data Type,改变数据类型,change-data-type,,Easy,False,,0
 2887,2887,2800-2899,Fill Missing Data,填充缺失值,fill-missing-data,,Easy,False,,0
-2888,2888,2800-2899,Reshape Data: Concatenate,重塑数据：连结,reshape-data-concatenate,,Easy,False,,0
-2889,2889,2800-2899,Reshape Data: Pivot,数据重塑：透视,reshape-data-pivot,,Easy,False,,0
-2890,2890,2800-2899,Reshape Data: Melt,重塑数据：融合,reshape-data-melt,,Easy,False,,0
+2888,2888,2800-2899,Reshape Data - Concatenate,重塑数据：连结,reshape-data-concatenate,,Easy,False,,0
+2889,2889,2800-2899,Reshape Data - Pivot,数据重塑：透视,reshape-data-pivot,,Easy,False,,0
+2890,2890,2800-2899,Reshape Data - Melt,重塑数据：融合,reshape-data-melt,,Easy,False,,0
 2891,2891,2800-2899,Method Chaining,方法链,method-chaining,,Easy,False,,0
 2892,2892,2800-2899,Minimizing Array After Replacing Pairs With Their Product,将相邻元素相乘后得到最小化数组,minimizing-array-after-replacing-pairs-with-their-product,"Greedy|greedy|贪心,Array|array|数组,Dynamic Programming|dynamic-programming|动态规划",Medium,False,,1
 2893,2893,2800-2899,Calculate Orders Within Each Interval,计算每个区间内的订单,calculate-orders-within-each-interval,Database|database|数据库,Medium,False,,1
