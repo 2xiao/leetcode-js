@@ -401,7 +401,7 @@ function swap(arr, i, j) {
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 912 | 排序数组 |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-an-array) [🔗](https://leetcode.com/problems/sort-an-array) |
-| 1122 | 数组的相对排序 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/relative-sort-array) [🔗](https://leetcode.com/problems/relative-sort-array) |
+| 1122 | 数组的相对排序 | [[✓]](/problem/1122.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/relative-sort-array) [🔗](https://leetcode.com/problems/relative-sort-array) |
 
 * 桶排序
 
