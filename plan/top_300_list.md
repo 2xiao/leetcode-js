@@ -224,7 +224,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1046 | 最后一块石头的重量 |  |  [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟢 | [🀄️](https://leetcode.cn/problems/last-stone-weight) [🔗](https://leetcode.com/problems/last-stone-weight) |
+| 1046 | 最后一块石头的重量 | [[✓]](/problem/1046.md) |  [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟢 | [🀄️](https://leetcode.cn/problems/last-stone-weight) [🔗](https://leetcode.com/problems/last-stone-weight) |
 | 703 | 数据流中的第 K 大元素 | [[✓]](/problem/0703.md) |  [`树`](/tag/tree.md) [`设计`](/tag/design.md) [`二叉搜索树`](/tag/binary-search-tree.md) `3+` | 🟢 | [🀄️](https://leetcode.cn/problems/kth-largest-element-in-a-stream) [🔗](https://leetcode.com/problems/kth-largest-element-in-a-stream) |
 | 215 | 数组中的第K个最大元素 | [[✓]](/problem/0215.md) |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`快速选择`](/tag/quickselect.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/kth-largest-element-in-an-array) [🔗](https://leetcode.com/problems/kth-largest-element-in-an-array) |
 | 347 | 前 K 个高频元素 | [[✓]](/problem/0347.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`分治`](/tag/divide-and-conquer.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/top-k-frequent-elements) [🔗](https://leetcode.com/problems/top-k-frequent-elements) |
@@ -548,7 +548,7 @@ headerDepth: 0
 | 628 | 三个数的最大乘积 | [[✓]](/problem/0628.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-product-of-three-numbers) [🔗](https://leetcode.com/problems/maximum-product-of-three-numbers) |
 | 976 | 三角形的最大周长 | [[✓]](/problem/0976.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/largest-perimeter-triangle) [🔗](https://leetcode.com/problems/largest-perimeter-triangle) |
 | 202 | 快乐数 | [[✓]](/problem/0202.md) |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/happy-number) [🔗](https://leetcode.com/problems/happy-number) |
-| 1232 | 缀点成线 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-it-is-a-straight-line) [🔗](https://leetcode.com/problems/check-if-it-is-a-straight-line) |
+| 1232 | 缀点成线 | [[✓]](/problem/1232.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-it-is-a-straight-line) [🔗](https://leetcode.com/problems/check-if-it-is-a-straight-line) |
 | 29 | 两数相除 | [[✓]](/problem/0029.md) |  [`位运算`](/tag/bit-manipulation.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/divide-two-integers) [🔗](https://leetcode.com/problems/divide-two-integers) |
 | 343 | 整数拆分 | [[✓]](/problem/0343.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/integer-break) [🔗](https://leetcode.com/problems/integer-break) |
 | 166 | 分数到小数 |  |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/fraction-to-recurring-decimal) [🔗](https://leetcode.com/problems/fraction-to-recurring-decimal) |
@@ -574,7 +574,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1232 | 缀点成线 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-it-is-a-straight-line) [🔗](https://leetcode.com/problems/check-if-it-is-a-straight-line) |
+| 1232 | 缀点成线 | [[✓]](/problem/1232.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-it-is-a-straight-line) [🔗](https://leetcode.com/problems/check-if-it-is-a-straight-line) |
 | 1266 | 访问所有点的最小时间 |  |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-visiting-all-points) [🔗](https://leetcode.com/problems/minimum-time-visiting-all-points) |
 | 892 | 三维形体的表面积 | [[✓]](/problem/0892.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/surface-area-of-3d-shapes) [🔗](https://leetcode.com/problems/surface-area-of-3d-shapes) |
 | 1401 | 圆和矩形是否有重叠 |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/circle-and-rectangle-overlapping) [🔗](https://leetcode.com/problems/circle-and-rectangle-overlapping) |
