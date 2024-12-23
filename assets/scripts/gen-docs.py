@@ -61,7 +61,9 @@ def gen_tag_list():
                     frames[tag] = pd.DataFrame(
                         columns=['题号', '标题', '题解', '力扣', '标签', '难度'])
                 frame = frames[tag]
-                frame.loc[len(frame.index)] = utils.gen_frame_items(index, df)
+                # 限制每个 tag 的题数，文件太大会部署失败
+                if len(frame.index) < 300:
+                    frame.loc[len(frame.index)] = utils.gen_frame_items(index, df)
         index += 1
 
     for idx, frame in frames.items():
