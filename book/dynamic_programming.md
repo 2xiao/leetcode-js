@@ -310,7 +310,7 @@
 | 248 | 中心对称数 III 🔒 |  |  [`递归`](/tag/recursion.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | 🔴 | [🀄️](https://leetcode.cn/problems/strobogrammatic-number-iii) [🔗](https://leetcode.com/problems/strobogrammatic-number-iii) |
 | 1088 | 易混淆数 II 🔒 |  |  [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) | 🔴 | [🀄️](https://leetcode.cn/problems/confusing-number-ii) [🔗](https://leetcode.com/problems/confusing-number-ii) |
 | 1067 | 范围内的数字计数 🔒 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/digit-count-in-range) [🔗](https://leetcode.com/problems/digit-count-in-range) |
-| 1742 | 盒子中小球的最大数量 |  |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box) [🔗](https://leetcode.com/problems/maximum-number-of-balls-in-a-box) |
+| 1742 | 盒子中小球的最大数量 | [[✓]](/problem/1742.md) |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-number-of-balls-in-a-box) [🔗](https://leetcode.com/problems/maximum-number-of-balls-in-a-box) |
 | 面试题 17.06 | 2出现的次数 |  |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-2s-in-range-lcci) |
 
 #### 概率 DP
