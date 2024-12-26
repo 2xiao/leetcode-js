@@ -1158,7 +1158,7 @@ class NumArray {
 | 354 | 俄罗斯套娃信封问题 | [[✓]](/problem/0354.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/russian-doll-envelopes) [🔗](https://leetcode.com/problems/russian-doll-envelopes) |
 | 673 | 最长递增子序列的个数 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-longest-increasing-subsequence) [🔗](https://leetcode.com/problems/number-of-longest-increasing-subsequence) |
 | 1310 | 子数组异或查询 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/xor-queries-of-a-subarray) [🔗](https://leetcode.com/problems/xor-queries-of-a-subarray) |
-| 1893 | 检查是否区域内所有整数都被覆盖 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered) [🔗](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered) |
+| 1893 | 检查是否区域内所有整数都被覆盖 | [[✓]](/problem/1893.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-all-the-integers-in-a-range-are-covered) [🔗](https://leetcode.com/problems/check-if-all-the-integers-in-a-range-are-covered) |
 
 #### 并查集
 
