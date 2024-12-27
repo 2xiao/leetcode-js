@@ -2735,7 +2735,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2085 | 统计出现过一次的公共字符串 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/count-common-words-with-one-occurrence) [🔗](https://leetcode.com/problems/count-common-words-with-one-occurrence) |
+| 2085 | 统计出现过一次的公共字符串 | [[✓]](/problem/2085.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/count-common-words-with-one-occurrence) [🔗](https://leetcode.com/problems/count-common-words-with-one-occurrence) |
 | 2086 | 喂食仓鼠的最小食物桶数 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-number-of-food-buckets-to-feed-the-hamsters) [🔗](https://leetcode.com/problems/minimum-number-of-food-buckets-to-feed-the-hamsters) |
 | 2087 | 网格图中机器人回家的最小代价 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-cost-homecoming-of-a-robot-in-a-grid) [🔗](https://leetcode.com/problems/minimum-cost-homecoming-of-a-robot-in-a-grid) |
 | 2088 | 统计农场中肥沃金字塔的数目 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-fertile-pyramids-in-a-land) [🔗](https://leetcode.com/problems/count-fertile-pyramids-in-a-land) |
@@ -2747,7 +2747,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2078 | 两栋颜色不同且距离最远的房子 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-furthest-houses-with-different-colors) [🔗](https://leetcode.com/problems/two-furthest-houses-with-different-colors) |
+| 2078 | 两栋颜色不同且距离最远的房子 | [[✓]](/problem/2078.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-furthest-houses-with-different-colors) [🔗](https://leetcode.com/problems/two-furthest-houses-with-different-colors) |
 | 2079 | 给植物浇水 |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/watering-plants) [🔗](https://leetcode.com/problems/watering-plants) |
 | 2080 | 区间内查询数字的频率 |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/range-frequency-queries) [🔗](https://leetcode.com/problems/range-frequency-queries) |
 | 2081 | k 镜像数字的和 |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | 🔴 | [🀄️](https://leetcode.cn/problems/sum-of-k-mirror-numbers) [🔗](https://leetcode.com/problems/sum-of-k-mirror-numbers) |
@@ -2759,7 +2759,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2073 | 买票需要的时间 |  |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/time-needed-to-buy-tickets) [🔗](https://leetcode.com/problems/time-needed-to-buy-tickets) |
+| 2073 | 买票需要的时间 | [[✓]](/problem/2073.md) |  [`队列`](/tag/queue.md) [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/time-needed-to-buy-tickets) [🔗](https://leetcode.com/problems/time-needed-to-buy-tickets) |
 | 2074 | 反转偶数长度组的节点 |  |  [`链表`](/tag/linked-list.md) | 🟠 | [🀄️](https://leetcode.cn/problems/reverse-nodes-in-even-length-groups) [🔗](https://leetcode.com/problems/reverse-nodes-in-even-length-groups) |
 | 2075 | 解码斜向换位密码 |  |  [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/decode-the-slanted-ciphertext) [🔗](https://leetcode.com/problems/decode-the-slanted-ciphertext) |
 | 2076 | 处理含限制条件的好友请求 |  |  [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) | 🔴 | [🀄️](https://leetcode.cn/problems/process-restricted-friend-requests) [🔗](https://leetcode.com/problems/process-restricted-friend-requests) |
@@ -2771,7 +2771,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2068 | 检查两个字符串是否几乎相等 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent) [🔗](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent) |
+| 2068 | 检查两个字符串是否几乎相等 | [[✓]](/problem/2068.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-whether-two-strings-are-almost-equivalent) [🔗](https://leetcode.com/problems/check-whether-two-strings-are-almost-equivalent) |
 | 2069 | 模拟行走机器人 II |  |  [`设计`](/tag/design.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/walking-robot-simulation-ii) [🔗](https://leetcode.com/problems/walking-robot-simulation-ii) |
 | 2070 | 每一个查询的最大美丽值 | [[✓]](/problem/2070.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/most-beautiful-item-for-each-query) [🔗](https://leetcode.com/problems/most-beautiful-item-for-each-query) |
 | 2071 | 你可以安排的最多任务数目 |  |  [`贪心`](/tag/greedy.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-number-of-tasks-you-can-assign) [🔗](https://leetcode.com/problems/maximum-number-of-tasks-you-can-assign) |
@@ -2783,7 +2783,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2062 | 统计字符串中的元音子字符串 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-vowel-substrings-of-a-string) [🔗](https://leetcode.com/problems/count-vowel-substrings-of-a-string) |
+| 2062 | 统计字符串中的元音子字符串 | [[✓]](/problem/2062.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-vowel-substrings-of-a-string) [🔗](https://leetcode.com/problems/count-vowel-substrings-of-a-string) |
 | 2063 | 所有子字符串中的元音 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/vowels-of-all-substrings) [🔗](https://leetcode.com/problems/vowels-of-all-substrings) |
 | 2064 | 分配给商店的最多商品的最小值 | [[✓]](/problem/2064.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimized-maximum-of-products-distributed-to-any-store) [🔗](https://leetcode.com/problems/minimized-maximum-of-products-distributed-to-any-store) |
 | 2065 | 最大化一张图中的路径价值 |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-path-quality-of-a-graph) [🔗](https://leetcode.com/problems/maximum-path-quality-of-a-graph) |
@@ -2795,7 +2795,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2057 | 值相等的最小索引 |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/smallest-index-with-equal-value) [🔗](https://leetcode.com/problems/smallest-index-with-equal-value) |
+| 2057 | 值相等的最小索引 | [[✓]](/problem/2057.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/smallest-index-with-equal-value) [🔗](https://leetcode.com/problems/smallest-index-with-equal-value) |
 | 2058 | 找出临界点之间的最小和最大距离 |  |  [`链表`](/tag/linked-list.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points) [🔗](https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | 2059 | 转化数字的最小运算数 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-convert-number) [🔗](https://leetcode.com/problems/minimum-operations-to-convert-number) |
 | 2060 | 同源字符串检测 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/check-if-an-original-string-exists-given-two-encoded-strings) [🔗](https://leetcode.com/problems/check-if-an-original-string-exists-given-two-encoded-strings) |
@@ -2807,7 +2807,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2053 | 数组中第 K 个独一无二的字符串 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/kth-distinct-string-in-an-array) [🔗](https://leetcode.com/problems/kth-distinct-string-in-an-array) |
+| 2053 | 数组中第 K 个独一无二的字符串 | [[✓]](/problem/2053.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/kth-distinct-string-in-an-array) [🔗](https://leetcode.com/problems/kth-distinct-string-in-an-array) |
 | 2054 | 两个最好的不重叠活动 | [[✓]](/problem/2054.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/two-best-non-overlapping-events) [🔗](https://leetcode.com/problems/two-best-non-overlapping-events) |
 | 2055 | 蜡烛之间的盘子 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/plates-between-candles) [🔗](https://leetcode.com/problems/plates-between-candles) |
 | 2056 | 棋盘上有效移动组合的数目 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-valid-move-combinations-on-chessboard) [🔗](https://leetcode.com/problems/number-of-valid-move-combinations-on-chessboard) |
@@ -2819,7 +2819,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2047 | 句子中的有效单词数 |  |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-valid-words-in-a-sentence) [🔗](https://leetcode.com/problems/number-of-valid-words-in-a-sentence) |
+| 2047 | 句子中的有效单词数 | [[✓]](/problem/2047.md) |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-valid-words-in-a-sentence) [🔗](https://leetcode.com/problems/number-of-valid-words-in-a-sentence) |
 | 2048 | 下一个更大的数值平衡数 |  |  [`数学`](/tag/math.md) [`回溯`](/tag/backtracking.md) [`枚举`](/tag/enumeration.md) | 🟠 | [🀄️](https://leetcode.cn/problems/next-greater-numerically-balanced-number) [🔗](https://leetcode.com/problems/next-greater-numerically-balanced-number) |
 | 2049 | 统计最高分的节点数目 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-nodes-with-the-highest-score) [🔗](https://leetcode.com/problems/count-nodes-with-the-highest-score) |
 | 2050 | 并行课程 III |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`数组`](/tag/array.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/parallel-courses-iii) [🔗](https://leetcode.com/problems/parallel-courses-iii) |
@@ -2831,7 +2831,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2042 | 检查句子中的数字是否递增 |  |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence) [🔗](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) |
+| 2042 | 检查句子中的数字是否递增 | [[✓]](/problem/2042.md) |  [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-numbers-are-ascending-in-a-sentence) [🔗](https://leetcode.com/problems/check-if-numbers-are-ascending-in-a-sentence) |
 | 2043 | 简易银行系统 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/simple-bank-system) [🔗](https://leetcode.com/problems/simple-bank-system) |
 | 2044 | 统计按位或能得到最大值的子集数目 | [[✓]](/problem/2044.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-number-of-maximum-bitwise-or-subsets) [🔗](https://leetcode.com/problems/count-number-of-maximum-bitwise-or-subsets) |
 | 2045 | 到达目的地的第二短时间 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`最短路`](/tag/shortest-path.md) | 🔴 | [🀄️](https://leetcode.cn/problems/second-minimum-time-to-reach-destination) [🔗](https://leetcode.com/problems/second-minimum-time-to-reach-destination) |
@@ -2843,7 +2843,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2037 | 使每位学生都有座位的最少移动次数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone) [🔗](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone) |
+| 2037 | 使每位学生都有座位的最少移动次数 | [[✓]](/problem/2037.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-number-of-moves-to-seat-everyone) [🔗](https://leetcode.com/problems/minimum-number-of-moves-to-seat-everyone) |
 | 2038 | 如果相邻两个颜色均相同则删除当前颜色 |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) [🔗](https://leetcode.com/problems/remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | 2039 | 网络空闲的时刻 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/the-time-when-the-network-becomes-idle) [🔗](https://leetcode.com/problems/the-time-when-the-network-becomes-idle) |
 | 2040 | 两个有序数组的第 K 小乘积 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🔴 | [🀄️](https://leetcode.cn/problems/kth-smallest-product-of-two-sorted-arrays) [🔗](https://leetcode.com/problems/kth-smallest-product-of-two-sorted-arrays) |
@@ -2855,7 +2855,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2032 | 至少在两个数组中出现的值 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-out-of-three) [🔗](https://leetcode.com/problems/two-out-of-three) |
+| 2032 | 至少在两个数组中出现的值 | [[✓]](/problem/2032.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-out-of-three) [🔗](https://leetcode.com/problems/two-out-of-three) |
 | 2033 | 获取单值网格的最小操作数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid) [🔗](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid) |
 | 2034 | 股票价格波动 |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/stock-price-fluctuation) [🔗](https://leetcode.com/problems/stock-price-fluctuation) |
 | 2035 | 将数组分成两个数组并最小化数组和的差 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference) [🔗](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference) |
@@ -2867,7 +2867,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2027 | 转换字符串的最少操作次数 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-moves-to-convert-string) [🔗](https://leetcode.com/problems/minimum-moves-to-convert-string) |
+| 2027 | 转换字符串的最少操作次数 | [[✓]](/problem/2027.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-moves-to-convert-string) [🔗](https://leetcode.com/problems/minimum-moves-to-convert-string) |
 | 2028 | 找出缺失的观测数据 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-missing-observations) [🔗](https://leetcode.com/problems/find-missing-observations) |
 | 2029 | 石子游戏 IX |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/stone-game-ix) [🔗](https://leetcode.com/problems/stone-game-ix) |
 | 2030 | 含特定字母的最小子序列 |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter) [🔗](https://leetcode.com/problems/smallest-k-length-subsequence-with-occurrences-of-a-letter) |
@@ -2879,7 +2879,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2022 | 将一维数组转变成二维数组 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/convert-1d-array-into-2d-array) [🔗](https://leetcode.com/problems/convert-1d-array-into-2d-array) |
+| 2022 | 将一维数组转变成二维数组 | [[✓]](/problem/2022.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/convert-1d-array-into-2d-array) [🔗](https://leetcode.com/problems/convert-1d-array-into-2d-array) |
 | 2023 | 连接后等于目标字符串的字符串对 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target) [🔗](https://leetcode.com/problems/number-of-pairs-of-strings-with-concatenation-equal-to-target) |
 | 2024 | 考试的最大困扰度 |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximize-the-confusion-of-an-exam) [🔗](https://leetcode.com/problems/maximize-the-confusion-of-an-exam) |
 | 2025 | 分割数组的最多方案数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-number-of-ways-to-partition-an-array) [🔗](https://leetcode.com/problems/maximum-number-of-ways-to-partition-an-array) |
@@ -2891,7 +2891,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2016 | 增量元素之间的最大差值 |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-difference-between-increasing-elements) [🔗](https://leetcode.com/problems/maximum-difference-between-increasing-elements) |
+| 2016 | 增量元素之间的最大差值 | [[✓]](/problem/2016.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-difference-between-increasing-elements) [🔗](https://leetcode.com/problems/maximum-difference-between-increasing-elements) |
 | 2017 | 网格游戏 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/grid-game) [🔗](https://leetcode.com/problems/grid-game) |
 | 2018 | 判断单词是否能放入填字游戏内 |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/check-if-word-can-be-placed-in-crossword) [🔗](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword) |
 | 2019 | 解出数学表达式的学生分数 |  |  [`栈`](/tag/stack.md) [`记忆化搜索`](/tag/memoization.md) [`数组`](/tag/array.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-score-of-students-solving-math-expression) [🔗](https://leetcode.com/problems/the-score-of-students-solving-math-expression) |
@@ -2903,7 +2903,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2011 | 执行操作后的变量值 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations) [🔗](https://leetcode.com/problems/final-value-of-variable-after-performing-operations) |
+| 2011 | 执行操作后的变量值 | [[✓]](/problem/2011.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/final-value-of-variable-after-performing-operations) [🔗](https://leetcode.com/problems/final-value-of-variable-after-performing-operations) |
 | 2012 | 数组美丽值求和 |  |  [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/sum-of-beauty-in-the-array) [🔗](https://leetcode.com/problems/sum-of-beauty-in-the-array) |
 | 2013 | 检测正方形 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/detect-squares) [🔗](https://leetcode.com/problems/detect-squares) |
 | 2014 | 重复 K 次的最长子序列 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/longest-subsequence-repeated-k-times) [🔗](https://leetcode.com/problems/longest-subsequence-repeated-k-times) |
@@ -2915,7 +2915,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2006 | 差的绝对值为 K 的数对数目 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k) [🔗](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k) |
+| 2006 | 差的绝对值为 K 的数对数目 | [[✓]](/problem/2006.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-number-of-pairs-with-absolute-difference-k) [🔗](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k) |
 | 2007 | 从双倍数组中还原原数组 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-original-array-from-doubled-array) [🔗](https://leetcode.com/problems/find-original-array-from-doubled-array) |
 | 2008 | 出租车的最大盈利 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-earnings-from-taxi) [🔗](https://leetcode.com/problems/maximum-earnings-from-taxi) |
 | 2009 | 使数组连续的最少操作数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-number-of-operations-to-make-array-continuous) [🔗](https://leetcode.com/problems/minimum-number-of-operations-to-make-array-continuous) |
@@ -2927,7 +2927,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2000 | 反转单词前缀 |  |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-prefix-of-word) [🔗](https://leetcode.com/problems/reverse-prefix-of-word) |
+| 2000 | 反转单词前缀 | [[✓]](/problem/2000.md) |  [`栈`](/tag/stack.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/reverse-prefix-of-word) [🔗](https://leetcode.com/problems/reverse-prefix-of-word) |
 | 2001 | 可互换矩形的组数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-pairs-of-interchangeable-rectangles) [🔗](https://leetcode.com/problems/number-of-pairs-of-interchangeable-rectangles) |
 | 2002 | 两个回文子序列长度的最大乘积 |  |  [`位运算`](/tag/bit-manipulation.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-product-of-the-length-of-two-palindromic-subsequences) [🔗](https://leetcode.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences) |
 | 2003 | 每棵子树内缺失的最小基因值 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`并查集`](/tag/union-find.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/smallest-missing-genetic-value-in-each-subtree) [🔗](https://leetcode.com/problems/smallest-missing-genetic-value-in-each-subtree) |
@@ -2939,7 +2939,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1995 | 统计特殊四元组 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`枚举`](/tag/enumeration.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-special-quadruplets) [🔗](https://leetcode.com/problems/count-special-quadruplets) |
+| 1995 | 统计特殊四元组 | [[✓]](/problem/1995.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`枚举`](/tag/enumeration.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-special-quadruplets) [🔗](https://leetcode.com/problems/count-special-quadruplets) |
 | 1996 | 游戏中弱角色的数量 |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/the-number-of-weak-characters-in-the-game) [🔗](https://leetcode.com/problems/the-number-of-weak-characters-in-the-game) |
 | 1997 | 访问完所有房间的第一天 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/first-day-where-you-have-been-in-all-the-rooms) [🔗](https://leetcode.com/problems/first-day-where-you-have-been-in-all-the-rooms) |
 | 1998 | 数组的最大公因数排序 |  |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/gcd-sort-of-an-array) [🔗](https://leetcode.com/problems/gcd-sort-of-an-array) |
@@ -2951,7 +2951,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1991 | 找到数组的中间位置 |  |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-middle-index-in-array) [🔗](https://leetcode.com/problems/find-the-middle-index-in-array) |
+| 1991 | 找到数组的中间位置 | [[✓]](/problem/1991.md) |  [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-middle-index-in-array) [🔗](https://leetcode.com/problems/find-the-middle-index-in-array) |
 | 1992 | 找到所有的农场组 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-all-groups-of-farmland) [🔗](https://leetcode.com/problems/find-all-groups-of-farmland) |
 | 1993 | 树上的操作 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/operations-on-tree) [🔗](https://leetcode.com/problems/operations-on-tree) |
 | 1994 | 好子集的数目 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-number-of-good-subsets) [🔗](https://leetcode.com/problems/the-number-of-good-subsets) |
@@ -2963,7 +2963,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1984 | 学生分数的最小差值 |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores) [🔗](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores) |
+| 1984 | 学生分数的最小差值 | [[✓]](/problem/1984.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-difference-between-highest-and-lowest-of-k-scores) [🔗](https://leetcode.com/problems/minimum-difference-between-highest-and-lowest-of-k-scores) |
 | 1985 | 找出数组中的第 K 大整数 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`分治`](/tag/divide-and-conquer.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-kth-largest-integer-in-the-array) [🔗](https://leetcode.com/problems/find-the-kth-largest-integer-in-the-array) |
 | 1986 | 完成任务的最少工作时间段 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-number-of-work-sessions-to-finish-the-tasks) [🔗](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks) |
 | 1987 | 不同的好子序列数目 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-unique-good-subsequences) [🔗](https://leetcode.com/problems/number-of-unique-good-subsequences) |
@@ -2975,7 +2975,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1979 | 找出数组的最大公约数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-greatest-common-divisor-of-array) [🔗](https://leetcode.com/problems/find-greatest-common-divisor-of-array) |
+| 1979 | 找出数组的最大公约数 | [[✓]](/problem/1979.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-greatest-common-divisor-of-array) [🔗](https://leetcode.com/problems/find-greatest-common-divisor-of-array) |
 | 1980 | 找出不同的二进制字符串 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-unique-binary-string) [🔗](https://leetcode.com/problems/find-unique-binary-string) |
 | 1981 | 最小化目标值与所选元素的差 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimize-the-difference-between-target-and-chosen-elements) [🔗](https://leetcode.com/problems/minimize-the-difference-between-target-and-chosen-elements) |
 | 1982 | 从子集的和还原数组 |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) | 🔴 | [🀄️](https://leetcode.cn/problems/find-array-given-subset-sums) [🔗](https://leetcode.com/problems/find-array-given-subset-sums) |
@@ -2987,7 +2987,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1974 | 使用特殊打字机键入单词的最少时间 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter) [🔗](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter) |
+| 1974 | 使用特殊打字机键入单词的最少时间 | [[✓]](/problem/1974.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter) [🔗](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter) |
 | 1975 | 最大方阵和 | [[✓]](/problem/1975.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-matrix-sum) [🔗](https://leetcode.com/problems/maximum-matrix-sum) |
 | 1976 | 到达目的地的方案数 |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-arrive-at-destination) [🔗](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) |
 | 1977 | 划分数字的方案数 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`后缀数组`](/tag/suffix-array.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-separate-numbers) [🔗](https://leetcode.com/problems/number-of-ways-to-separate-numbers) |
@@ -2999,7 +2999,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 1967 | 作为子字符串出现在单词中的字符串数目 |  |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word) [🔗](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word) |
+| 1967 | 作为子字符串出现在单词中的字符串数目 | [[✓]](/problem/1967.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-strings-that-appear-as-substrings-in-word) [🔗](https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word) |
 | 1968 | 构造元素不等于两相邻元素平均值的数组 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/array-with-elements-not-equal-to-average-of-neighbors) [🔗](https://leetcode.com/problems/array-with-elements-not-equal-to-average-of-neighbors) |
 | 1969 | 数组元素的最小非零乘积 |  |  [`贪心`](/tag/greedy.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-non-zero-product-of-the-array-elements) [🔗](https://leetcode.com/problems/minimum-non-zero-product-of-the-array-elements) |
 | 1970 | 你能穿过矩阵的最后一天 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/last-day-where-you-can-still-cross) [🔗](https://leetcode.com/problems/last-day-where-you-can-still-cross) |
@@ -5197,7 +5197,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1013 | 将数组分成和相等的三个部分 | [[✓]](/problem/1013.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/partition-array-into-three-parts-with-equal-sum) [🔗](https://leetcode.com/problems/partition-array-into-three-parts-with-equal-sum) |
 | 1015 | 可被 K 整除的最小整数 |  |  [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/smallest-integer-divisible-by-k) [🔗](https://leetcode.com/problems/smallest-integer-divisible-by-k) |
-| 1014 | 最佳观光组合 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/best-sightseeing-pair) [🔗](https://leetcode.com/problems/best-sightseeing-pair) |
+| 1014 | 最佳观光组合 | [[✓]](/problem/1014.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/best-sightseeing-pair) [🔗](https://leetcode.com/problems/best-sightseeing-pair) |
 | 1016 | 子串能表示从 1 到 N 数字的二进制串 |  |  [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/binary-string-with-substrings-representing-1-to-n) [🔗](https://leetcode.com/problems/binary-string-with-substrings-representing-1-to-n) |
 
 

@@ -197,7 +197,7 @@
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 474 | 一和零 | [[✓]](/problem/0474.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/ones-and-zeroes) [🔗](https://leetcode.com/problems/ones-and-zeroes) |
 | 879 | 盈利计划 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/profitable-schemes) [🔗](https://leetcode.com/problems/profitable-schemes) |
-| 1995 | 统计特殊四元组 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`枚举`](/tag/enumeration.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-special-quadruplets) [🔗](https://leetcode.com/problems/count-special-quadruplets) |
+| 1995 | 统计特殊四元组 | [[✓]](/problem/1995.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`枚举`](/tag/enumeration.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-special-quadruplets) [🔗](https://leetcode.com/problems/count-special-quadruplets) |
 
 #### 区间 DP
 
