@@ -635,7 +635,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 3042 | 统计前后缀下标对 I |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `3+` | 🟢 | [🀄️](https://leetcode.cn/problems/count-prefix-and-suffix-pairs-i) [🔗](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i) |
+| 3042 | 统计前后缀下标对 I | [[✓]](/problem/3042.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `3+` | 🟢 | [🀄️](https://leetcode.cn/problems/count-prefix-and-suffix-pairs-i) [🔗](https://leetcode.com/problems/count-prefix-and-suffix-pairs-i) |
 | 3043 | 最长公共前缀的长度 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-length-of-the-longest-common-prefix) [🔗](https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix) |
 | 3044 | 出现频率最高的质数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/most-frequent-prime) [🔗](https://leetcode.com/problems/most-frequent-prime) |
 | 3045 | 统计前后缀下标对 II |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-prefix-and-suffix-pairs-ii) [🔗](https://leetcode.com/problems/count-prefix-and-suffix-pairs-ii) |
@@ -5497,7 +5497,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 914 | 卡牌分组 | [[✓]](/problem/0914.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/x-of-a-kind-in-a-deck-of-cards) [🔗](https://leetcode.com/problems/x-of-a-kind-in-a-deck-of-cards) |
 | 915 | 分割数组 |  |  [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/partition-array-into-disjoint-intervals) [🔗](https://leetcode.com/problems/partition-array-into-disjoint-intervals) |
-| 916 | 单词子集 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/word-subsets) [🔗](https://leetcode.com/problems/word-subsets) |
+| 916 | 单词子集 | [[✓]](/problem/0916.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/word-subsets) [🔗](https://leetcode.com/problems/word-subsets) |
 | 913 | 猫和老鼠 |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`记忆化搜索`](/tag/memoization.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/cat-and-mouse) [🔗](https://leetcode.com/problems/cat-and-mouse) |
 
 

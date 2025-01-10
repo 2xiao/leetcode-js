@@ -20,7 +20,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 204 | 计数质数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-primes) [🔗](https://leetcode.com/problems/count-primes) |
+| 204 | 计数质数 | [[✓]](/problem/0204.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-primes) [🔗](https://leetcode.com/problems/count-primes) |
 | 479 | 最大回文数乘积 |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | 🔴 | [🀄️](https://leetcode.cn/problems/largest-palindrome-product) [🔗](https://leetcode.com/problems/largest-palindrome-product) |
 | 681 | 最近时刻 🔒 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`回溯`](/tag/backtracking.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/next-closest-time) [🔗](https://leetcode.com/problems/next-closest-time) |
 | 800 | 相似 RGB 颜色 🔒 |  |  [`数学`](/tag/math.md) [`字符串`](/tag/string.md) [`枚举`](/tag/enumeration.md) | 🟢 | [🀄️](https://leetcode.cn/problems/similar-rgb-color) [🔗](https://leetcode.com/problems/similar-rgb-color) |
