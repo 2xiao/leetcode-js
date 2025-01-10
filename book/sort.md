@@ -410,14 +410,14 @@ function swap(arr, i, j) {
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 912 | 排序数组 |  |  [`数组`](/tag/array.md) [`分治`](/tag/divide-and-conquer.md) [`桶排序`](/tag/bucket-sort.md) `5+` | 🟠 | [🀄️](https://leetcode.cn/problems/sort-an-array) [🔗](https://leetcode.com/problems/sort-an-array) |
 | 220 | 存在重复元素 III |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`有序集合`](/tag/ordered-set.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/contains-duplicate-iii) [🔗](https://leetcode.com/problems/contains-duplicate-iii) |
-| 164 | 最大间距 |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-gap) [🔗](https://leetcode.com/problems/maximum-gap) |
+| 164 | 最大间距 | [[✓]](/problem/0164.md) |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-gap) [🔗](https://leetcode.com/problems/maximum-gap) |
 
 * 基数排序
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 164 | 最大间距 |  |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-gap) [🔗](https://leetcode.com/problems/maximum-gap) |
+| 164 | 最大间距 | [[✓]](/problem/0164.md) |  [`数组`](/tag/array.md) [`桶排序`](/tag/bucket-sort.md) [`基数排序`](/tag/radix-sort.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-gap) [🔗](https://leetcode.com/problems/maximum-gap) |
 | 561 | 数组拆分 | [[✓]](/problem/0561.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`计数排序`](/tag/counting-sort.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/array-partition) [🔗](https://leetcode.com/problems/array-partition) |
 
 * 其他排序
@@ -428,7 +428,7 @@ function swap(arr, i, j) {
 | 217 | 存在重复元素 | [[✓]](/problem/0217.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/contains-duplicate) [🔗](https://leetcode.com/problems/contains-duplicate) |
 | 136 | 只出现一次的数字 | [[✓]](/problem/0136.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/single-number) [🔗](https://leetcode.com/problems/single-number) |
 | 56 | 合并区间 | [[✓]](/problem/0056.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/merge-intervals) [🔗](https://leetcode.com/problems/merge-intervals) |
-| 179 | 最大数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/largest-number) [🔗](https://leetcode.com/problems/largest-number) |
+| 179 | 最大数 | [[✓]](/problem/0179.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/largest-number) [🔗](https://leetcode.com/problems/largest-number) |
 | 384 | 打乱数组 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`随机化`](/tag/randomized.md) | 🟠 | [🀄️](https://leetcode.cn/problems/shuffle-an-array) [🔗](https://leetcode.com/problems/shuffle-an-array) |
 | 剑指 Offer 45 | 把数组排成最小的数 | [[✓]](/offer/jz_offer_45_1.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) |
 
