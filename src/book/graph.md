@@ -96,7 +96,7 @@
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 407 | 接雨水 II |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/trapping-rain-water-ii) [🔗](https://leetcode.com/problems/trapping-rain-water-ii) |
+| 407 | 接雨水 II | [[✓]](/problem/0407.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/trapping-rain-water-ii) [🔗](https://leetcode.com/problems/trapping-rain-water-ii) |
 | 743 | 网络延迟时间 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/network-delay-time) [🔗](https://leetcode.com/problems/network-delay-time) |
 | 787 | K 站中转内最便宜的航班 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/cheapest-flights-within-k-stops) [🔗](https://leetcode.com/problems/cheapest-flights-within-k-stops) |
 | 1631 | 最小体力消耗路径 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/path-with-minimum-effort) [🔗](https://leetcode.com/problems/path-with-minimum-effort) |

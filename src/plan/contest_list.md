@@ -1356,7 +1356,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2682 | 找出转圈游戏输家 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-losers-of-the-circular-game) [🔗](https://leetcode.com/problems/find-the-losers-of-the-circular-game) |
-| 2683 | 相邻值的按位异或 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/neighboring-bitwise-xor) [🔗](https://leetcode.com/problems/neighboring-bitwise-xor) |
+| 2683 | 相邻值的按位异或 | [[✓]](/problem/2683.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/neighboring-bitwise-xor) [🔗](https://leetcode.com/problems/neighboring-bitwise-xor) |
 | 2684 | 矩阵中移动的最大次数 | [[✓]](/problem/2684.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid) [🔗](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) |
 | 2685 | 统计完全连通分量的数量 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-complete-components) [🔗](https://leetcode.com/problems/count-the-number-of-complete-components) |
 
@@ -1392,7 +1392,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2660 | 保龄球游戏的获胜者 |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/determine-the-winner-of-a-bowling-game) [🔗](https://leetcode.com/problems/determine-the-winner-of-a-bowling-game) |
-| 2661 | 找出叠涂元素 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/first-completely-painted-row-or-column) [🔗](https://leetcode.com/problems/first-completely-painted-row-or-column) |
+| 2661 | 找出叠涂元素 | [[✓]](/problem/2661.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/first-completely-painted-row-or-column) [🔗](https://leetcode.com/problems/first-completely-painted-row-or-column) |
 | 2662 | 前往目标的最小代价 |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`最短路`](/tag/shortest-path.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-cost-of-a-path-with-special-roads) [🔗](https://leetcode.com/problems/minimum-cost-of-a-path-with-special-roads) |
 | 2663 | 字典序最小的美丽字符串 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🔴 | [🀄️](https://leetcode.cn/problems/lexicographically-smallest-beautiful-string) [🔗](https://leetcode.com/problems/lexicographically-smallest-beautiful-string) |
 
@@ -2892,7 +2892,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2016 | 增量元素之间的最大差值 | [[✓]](/problem/2016.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-difference-between-increasing-elements) [🔗](https://leetcode.com/problems/maximum-difference-between-increasing-elements) |
-| 2017 | 网格游戏 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/grid-game) [🔗](https://leetcode.com/problems/grid-game) |
+| 2017 | 网格游戏 | [[✓]](/problem/2017.md) |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/grid-game) [🔗](https://leetcode.com/problems/grid-game) |
 | 2018 | 判断单词是否能放入填字游戏内 |  |  [`数组`](/tag/array.md) [`枚举`](/tag/enumeration.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/check-if-word-can-be-placed-in-crossword) [🔗](https://leetcode.com/problems/check-if-word-can-be-placed-in-crossword) |
 | 2019 | 解出数学表达式的学生分数 |  |  [`栈`](/tag/stack.md) [`记忆化搜索`](/tag/memoization.md) [`数组`](/tag/array.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/the-score-of-students-solving-math-expression) [🔗](https://leetcode.com/problems/the-score-of-students-solving-math-expression) |
 
@@ -3457,7 +3457,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1763 | 最长的美好子字符串 | [[✓]](/problem/1763.md) |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `2+` | 🟢 | [🀄️](https://leetcode.cn/problems/longest-nice-substring) [🔗](https://leetcode.com/problems/longest-nice-substring) |
 | 1764 | 通过连接另一个数组的子数组得到一个数组 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/form-array-by-concatenating-subarrays-of-another-array) [🔗](https://leetcode.com/problems/form-array-by-concatenating-subarrays-of-another-array) |
-| 1765 | 地图中的最高点 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/map-of-highest-peak) [🔗](https://leetcode.com/problems/map-of-highest-peak) |
+| 1765 | 地图中的最高点 | [[✓]](/problem/1765.md) |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/map-of-highest-peak) [🔗](https://leetcode.com/problems/map-of-highest-peak) |
 | 1766 | 互质树 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`数组`](/tag/array.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/tree-of-coprimes) [🔗](https://leetcode.com/problems/tree-of-coprimes) |
 
 
@@ -4620,7 +4620,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1266 | 访问所有点的最小时间 | [[✓]](/problem/1266.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-visiting-all-points) [🔗](https://leetcode.com/problems/minimum-time-visiting-all-points) |
-| 1267 | 统计参与通信的服务器 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-servers-that-communicate) [🔗](https://leetcode.com/problems/count-servers-that-communicate) |
+| 1267 | 统计参与通信的服务器 | [[✓]](/problem/1267.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`并查集`](/tag/union-find.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-servers-that-communicate) [🔗](https://leetcode.com/problems/count-servers-that-communicate) |
 | 1268 | 搜索推荐系统 | [[✓]](/problem/1268.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/search-suggestions-system) [🔗](https://leetcode.com/problems/search-suggestions-system) |
 | 1269 | 停在原地的方案数 |  |  [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) [🔗](https://leetcode.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps) |
 
