@@ -23,7 +23,7 @@ export default hopeTheme(
 
 		repo: '2xiao/leetcode-js',
 
-		docsBranch: 'master',
+		docsBranch: 'docs',
 
 		docsDir: 'src',
 
