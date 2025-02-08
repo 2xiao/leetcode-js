@@ -397,7 +397,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 3158 | 求出出现两次数字的 XOR 值 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-xor-of-numbers-which-appear-twice) [🔗](https://leetcode.com/problems/find-the-xor-of-numbers-which-appear-twice) |
 | 3159 | 查询数组中元素的出现位置 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-occurrences-of-an-element-in-an-array) [🔗](https://leetcode.com/problems/find-occurrences-of-an-element-in-an-array) |
-| 3160 | 所有球里面不同颜色的数目 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-number-of-distinct-colors-among-the-balls) [🔗](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) |
+| 3160 | 所有球里面不同颜色的数目 | [[✓]](/problem/3160.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/find-the-number-of-distinct-colors-among-the-balls) [🔗](https://leetcode.com/problems/find-the-number-of-distinct-colors-among-the-balls) |
 | 3161 | 物块放置查询 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/block-placement-queries) [🔗](https://leetcode.com/problems/block-placement-queries) |
 
 
@@ -407,7 +407,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 3151 | 特殊数组 I |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/special-array-i) [🔗](https://leetcode.com/problems/special-array-i) |
+| 3151 | 特殊数组 I | [[✓]](/problem/3151.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/special-array-i) [🔗](https://leetcode.com/problems/special-array-i) |
 | 3152 | 特殊数组 II | [[✓]](/problem/3152.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/special-array-ii) [🔗](https://leetcode.com/problems/special-array-ii) |
 | 3153 | 所有数对中数位差之和 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/sum-of-digit-differences-of-all-pairs) [🔗](https://leetcode.com/problems/sum-of-digit-differences-of-all-pairs) |
 | 3154 | 到达第 K 级台阶的方案数 |  |  [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-number-of-ways-to-reach-the-k-th-stair) [🔗](https://leetcode.com/problems/find-number-of-ways-to-reach-the-k-th-stair) |
@@ -515,7 +515,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 3105 | 最长的严格递增或递减子数组 |  |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-strictly-increasing-or-strictly-decreasing-subarray) [🔗](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray) |
+| 3105 | 最长的严格递增或递减子数组 | [[✓]](/problem/3105.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/longest-strictly-increasing-or-strictly-decreasing-subarray) [🔗](https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray) |
 | 3106 | 满足距离约束且字典序最小的字符串 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/lexicographically-smallest-string-after-operations-with-constraint) [🔗](https://leetcode.com/problems/lexicographically-smallest-string-after-operations-with-constraint) |
 | 3107 | 使数组中位数等于 K 的最少操作数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-median-of-array-equal-to-k) [🔗](https://leetcode.com/problems/minimum-operations-to-make-median-of-array-equal-to-k) |
 | 3108 | 带权图里旅途的最小代价 |  |  [`位运算`](/tag/bit-manipulation.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-cost-walk-in-weighted-graph) [🔗](https://leetcode.com/problems/minimum-cost-walk-in-weighted-graph) |
@@ -2125,7 +2125,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2347 | 最好的扑克手牌 | [[✓]](/problem/2347.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/best-poker-hand) [🔗](https://leetcode.com/problems/best-poker-hand) |
 | 2348 | 全 0 子数组的数目 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-zero-filled-subarrays) [🔗](https://leetcode.com/problems/number-of-zero-filled-subarrays) |
-| 2349 | 设计数字容器系统 |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`有序集合`](/tag/ordered-set.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/design-a-number-container-system) [🔗](https://leetcode.com/problems/design-a-number-container-system) |
+| 2349 | 设计数字容器系统 | [[✓]](/problem/2349.md) |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`有序集合`](/tag/ordered-set.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/design-a-number-container-system) [🔗](https://leetcode.com/problems/design-a-number-container-system) |
 | 2350 | 不可能得到的最短骰子序列 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-impossible-sequence-of-rolls) [🔗](https://leetcode.com/problems/shortest-impossible-sequence-of-rolls) |
 
 
@@ -3540,7 +3540,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1725 | 可以形成最大正方形的矩形数目 | [[✓]](/problem/1725.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-rectangles-that-can-form-the-largest-square) [🔗](https://leetcode.com/problems/number-of-rectangles-that-can-form-the-largest-square) |
-| 1726 | 同积元组 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/tuple-with-same-product) [🔗](https://leetcode.com/problems/tuple-with-same-product) |
+| 1726 | 同积元组 | [[✓]](/problem/1726.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/tuple-with-same-product) [🔗](https://leetcode.com/problems/tuple-with-same-product) |
 | 1727 | 重新排列后的最大子矩阵 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/largest-submatrix-with-rearrangements) [🔗](https://leetcode.com/problems/largest-submatrix-with-rearrangements) |
 | 1728 | 猫和老鼠 II |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`记忆化搜索`](/tag/memoization.md) `5+` | 🔴 | [🀄️](https://leetcode.cn/problems/cat-and-mouse-ii) [🔗](https://leetcode.com/problems/cat-and-mouse-ii) |
 

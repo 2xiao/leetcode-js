@@ -397,7 +397,7 @@ headerDepth: 0
 | 136 | 只出现一次的数字 | [[✓]](/problem/0136.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/single-number) [🔗](https://leetcode.com/problems/single-number) | 45 |
 | 56 | 合并区间 | [[✓]](/problem/0056.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/merge-intervals) [🔗](https://leetcode.com/problems/merge-intervals) | 125 |
 | 179 | 最大数 | [[✓]](/problem/0179.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/largest-number) [🔗](https://leetcode.com/problems/largest-number) | 51 |
-| 384 | 打乱数组 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`随机化`](/tag/randomized.md) | 🟠 | [🀄️](https://leetcode.cn/problems/shuffle-an-array) [🔗](https://leetcode.com/problems/shuffle-an-array) | 28 |
+| 384 | 打乱数组 | [[✓]](/problem/0384.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`随机化`](/tag/randomized.md) | 🟠 | [🀄️](https://leetcode.cn/problems/shuffle-an-array) [🔗](https://leetcode.com/problems/shuffle-an-array) | 28 |
 | 剑指 Offer 45 | 把数组排成最小的数 | [[✓]](/offer/jz_offer_45_1.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/ba-shu-zu-pai-cheng-zui-xiao-de-shu-lcof) | 18 |
 
 
