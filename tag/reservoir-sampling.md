@@ -21,6 +21,6 @@
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 382 | 链表随机节点 | [[✓]](/problem/0382.md) |  [`水塘抽样`](/tag/reservoir-sampling.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/linked-list-random-node) [🔗](https://leetcode.com/problems/linked-list-random-node) |
-| 398 | 随机数索引 |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/random-pick-index) [🔗](https://leetcode.com/problems/random-pick-index) |
+| 398 | 随机数索引 | [[✓]](/problem/0398.md) |  [`水塘抽样`](/tag/reservoir-sampling.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/random-pick-index) [🔗](https://leetcode.com/problems/random-pick-index) |
 | 497 | 非重叠矩形中的随机点 |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `4+` | 🟠 | [🀄️](https://leetcode.cn/problems/random-point-in-non-overlapping-rectangles) [🔗](https://leetcode.com/problems/random-point-in-non-overlapping-rectangles) |
 | 519 | 随机翻转矩阵 |  |  [`水塘抽样`](/tag/reservoir-sampling.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/random-flip-matrix) [🔗](https://leetcode.com/problems/random-flip-matrix) |
