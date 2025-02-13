@@ -58,12 +58,6 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 
 ![](../image/2-9-1.png)
 
-#### 实现代码
-
-```javascript
-
-```
-
 <!-- START TABLE -->
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
@@ -110,7 +104,7 @@ BF 算法的思想可以用一句话来概括：在主串中检查起始位置�
 | 648 | 单词替换 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/replace-words) [🔗](https://leetcode.com/problems/replace-words) |
 | 642 | 设计搜索自动补全系统 🔒 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/design-search-autocomplete-system) [🔗](https://leetcode.com/problems/design-search-autocomplete-system) |
 | 211 | 添加与搜索单词 - 数据结构设计 | [[✓]](/problem/0211.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`设计`](/tag/design.md) [`字典树`](/tag/trie.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/design-add-and-search-words-data-structure) [🔗](https://leetcode.com/problems/design-add-and-search-words-data-structure) |
-| 421 | 数组中两个数的最大异或值 |  |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array) [🔗](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |
+| 421 | 数组中两个数的最大异或值 | [[✓]](/problem/0421.md) |  [`位运算`](/tag/bit-manipulation.md) [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-xor-of-two-numbers-in-an-array) [🔗](https://leetcode.com/problems/maximum-xor-of-two-numbers-in-an-array) |
 | 212 | 单词搜索 II | [[✓]](/problem/0212.md) |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/word-search-ii) [🔗](https://leetcode.com/problems/word-search-ii) |
 | 425 | 单词方块 🔒 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/word-squares) [🔗](https://leetcode.com/problems/word-squares) |
 | 336 | 回文对 |  |  [`字典树`](/tag/trie.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/palindrome-pairs) [🔗](https://leetcode.com/problems/palindrome-pairs) |
