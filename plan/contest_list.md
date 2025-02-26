@@ -1837,7 +1837,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2465 | 不同的平均值数目 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/number-of-distinct-averages) [🔗](https://leetcode.com/problems/number-of-distinct-averages) |
 | 2466 | 统计构造好字符串的方案数 | [[✓]](/problem/2466.md) |  [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-ways-to-build-good-strings) [🔗](https://leetcode.com/problems/count-ways-to-build-good-strings) |
-| 2467 | 树上最大得分和路径 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/most-profitable-path-in-a-tree) [🔗](https://leetcode.com/problems/most-profitable-path-in-a-tree) |
+| 2467 | 树上最大得分和路径 | [[✓]](/problem/2467.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/most-profitable-path-in-a-tree) [🔗](https://leetcode.com/problems/most-profitable-path-in-a-tree) |
 | 2468 | 根据限制分割消息 |  |  [`字符串`](/tag/string.md) [`二分查找`](/tag/binary-search.md) | 🔴 | [🀄️](https://leetcode.cn/problems/split-message-based-on-limit) [🔗](https://leetcode.com/problems/split-message-based-on-limit) |
 
 
@@ -2605,7 +2605,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2138 | 将字符串拆分为若干长度为 k 的组 | [[✓]](/problem/2138.md) |  [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/divide-a-string-into-groups-of-size-k) [🔗](https://leetcode.com/problems/divide-a-string-into-groups-of-size-k) |
 | 2139 | 得到目标值的最少行动次数 |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-moves-to-reach-target-score) [🔗](https://leetcode.com/problems/minimum-moves-to-reach-target-score) |
-| 2140 | 解决智力问题 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/solving-questions-with-brainpower) [🔗](https://leetcode.com/problems/solving-questions-with-brainpower) |
+| 2140 | 解决智力问题 | [[✓]](/problem/2140.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/solving-questions-with-brainpower) [🔗](https://leetcode.com/problems/solving-questions-with-brainpower) |
 | 2141 | 同时运行 N 台电脑的最长时间 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-running-time-of-n-computers) [🔗](https://leetcode.com/problems/maximum-running-time-of-n-computers) |
 
 
@@ -3014,7 +3014,7 @@ headerDepth: 0
 | 1961 | 检查字符串是否为数组前缀 | [[✓]](/problem/1961.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-string-is-a-prefix-of-array) [🔗](https://leetcode.com/problems/check-if-string-is-a-prefix-of-array) |
 | 1962 | 移除石子使总数最小 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟠 | [🀄️](https://leetcode.cn/problems/remove-stones-to-minimize-the-total) [🔗](https://leetcode.com/problems/remove-stones-to-minimize-the-total) |
 | 1963 | 使字符串平衡的最小交换次数 | [[✓]](/problem/1963.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`双指针`](/tag/two-pointers.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-number-of-swaps-to-make-the-string-balanced) [🔗](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced) |
-| 1964 | 找出到每个位置为止最长的有效障碍赛跑路线 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🔴 | [🀄️](https://leetcode.cn/problems/find-the-longest-valid-obstacle-course-at-each-position) [🔗](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position) |
+| 1964 | 找出到每个位置为止最长的有效障碍赛跑路线 | [[✓]](/problem/1964.md) |  [`树状数组`](/tag/binary-indexed-tree.md) [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🔴 | [🀄️](https://leetcode.cn/problems/find-the-longest-valid-obstacle-course-at-each-position) [🔗](https://leetcode.com/problems/find-the-longest-valid-obstacle-course-at-each-position) |
 
 
 ## Biweekly Contest 58 (2021-08-07 22:30)
@@ -3492,7 +3492,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1748 | 唯一元素的和 | [[✓]](/problem/1748.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/sum-of-unique-elements) [🔗](https://leetcode.com/problems/sum-of-unique-elements) |
-| 1749 | 任意子数组和的绝对值的最大值 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray) [🔗](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray) |
+| 1749 | 任意子数组和的绝对值的最大值 | [[✓]](/problem/1749.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-absolute-sum-of-any-subarray) [🔗](https://leetcode.com/problems/maximum-absolute-sum-of-any-subarray) |
 | 1750 | 删除字符串两端相同字符后的最短长度 |  |  [`双指针`](/tag/two-pointers.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-length-of-string-after-deleting-similar-ends) [🔗](https://leetcode.com/problems/minimum-length-of-string-after-deleting-similar-ends) |
 | 1751 | 最多可以参加的会议数目 II |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximum-number-of-events-that-can-be-attended-ii) [🔗](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii) |
 
@@ -3996,7 +3996,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1523 | 在区间范围内统计奇数数目 | [[✓]](/problem/1523.md) |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-odd-numbers-in-an-interval-range) [🔗](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range) |
-| 1524 | 和为奇数的子数组数目 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum) [🔗](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum) |
+| 1524 | 和为奇数的子数组数目 | [[✓]](/problem/1524.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-sub-arrays-with-odd-sum) [🔗](https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum) |
 | 1525 | 字符串的好分割数目 |  |  [`位运算`](/tag/bit-manipulation.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-good-ways-to-split-a-string) [🔗](https://leetcode.com/problems/number-of-good-ways-to-split-a-string) |
 | 1526 | 形成目标数组的子数组最少增加次数 |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array) [🔗](https://leetcode.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array) |
 
@@ -4740,7 +4740,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1217 | 玩筹码 | [[✓]](/problem/1217.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-cost-to-move-chips-to-the-same-position) [🔗](https://leetcode.com/problems/minimum-cost-to-move-chips-to-the-same-position) |
-| 1218 | 最长定差子序列 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-arithmetic-subsequence-of-given-difference) [🔗](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference) |
+| 1218 | 最长定差子序列 | [[✓]](/problem/1218.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-arithmetic-subsequence-of-given-difference) [🔗](https://leetcode.com/problems/longest-arithmetic-subsequence-of-given-difference) |
 | 1219 | 黄金矿工 |  |  [`数组`](/tag/array.md) [`回溯`](/tag/backtracking.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/path-with-maximum-gold) [🔗](https://leetcode.com/problems/path-with-maximum-gold) |
 | 1220 | 统计元音字母序列的数目 |  |  [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-vowels-permutation) [🔗](https://leetcode.com/problems/count-vowels-permutation) |
 
@@ -5137,7 +5137,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1033 | 移动石子直到连续 |  |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/moving-stones-until-consecutive) [🔗](https://leetcode.com/problems/moving-stones-until-consecutive) |
 | 1034 | 边界着色 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/coloring-a-border) [🔗](https://leetcode.com/problems/coloring-a-border) |
-| 1035 | 不相交的线 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/uncrossed-lines) [🔗](https://leetcode.com/problems/uncrossed-lines) |
+| 1035 | 不相交的线 | [[✓]](/problem/1035.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/uncrossed-lines) [🔗](https://leetcode.com/problems/uncrossed-lines) |
 | 1036 | 逃离大迷宫 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/escape-a-large-maze) [🔗](https://leetcode.com/problems/escape-a-large-maze) |
 
 
@@ -5161,8 +5161,8 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1025 | 除数博弈 | [[✓]](/problem/1025.md) |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/divisor-game) [🔗](https://leetcode.com/problems/divisor-game) |
 | 1026 | 节点与其祖先之间的最大差值 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-difference-between-node-and-ancestor) [🔗](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor) |
-| 1027 | 最长等差数列 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-arithmetic-subsequence) [🔗](https://leetcode.com/problems/longest-arithmetic-subsequence) |
-| 1028 | 从先序遍历还原二叉树 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal) [🔗](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal) |
+| 1027 | 最长等差数列 | [[✓]](/problem/1027.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`二分查找`](/tag/binary-search.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/longest-arithmetic-subsequence) [🔗](https://leetcode.com/problems/longest-arithmetic-subsequence) |
+| 1028 | 从先序遍历还原二叉树 | [[✓]](/problem/1028.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`字符串`](/tag/string.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/recover-a-tree-from-preorder-traversal) [🔗](https://leetcode.com/problems/recover-a-tree-from-preorder-traversal) |
 
 
 ## Weekly Contest 131 (2019-04-07 10:30)
