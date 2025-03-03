@@ -325,7 +325,7 @@ headerDepth: 0
 | 887 | 鸡蛋掉落 |  |  [`数学`](/tag/math.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/super-egg-drop) [🔗](https://leetcode.com/problems/super-egg-drop) | 21 |
 | 97 | 交错字符串 | [[✓]](/problem/0097.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/interleaving-string) [🔗](https://leetcode.com/problems/interleaving-string) | 17 |
 | 516 | 最长回文子序列 | [[✓]](/problem/0516.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-palindromic-subsequence) [🔗](https://leetcode.com/problems/longest-palindromic-subsequence) | 17 |
-| 329 | 矩阵中的最长递增路径 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `5+` | 🔴 | [🀄️](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix) [🔗](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | 28 |
+| 329 | 矩阵中的最长递增路径 | [[✓]](/problem/0329.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) `5+` | 🔴 | [🀄️](https://leetcode.cn/problems/longest-increasing-path-in-a-matrix) [🔗](https://leetcode.com/problems/longest-increasing-path-in-a-matrix) | 28 |
 
 
 ## 位运算
