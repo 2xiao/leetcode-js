@@ -1190,7 +1190,7 @@ headerDepth: 0
 | 2784 | 检查数组是否是好的 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/check-if-array-is-good) [🔗](https://leetcode.com/problems/check-if-array-is-good) |
 | 2785 | 将字符串中的元音字母排序 |  |  [`字符串`](/tag/string.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/sort-vowels-in-a-string) [🔗](https://leetcode.com/problems/sort-vowels-in-a-string) |
 | 2786 | 访问数组中的位置使分数最大 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/visit-array-positions-to-maximize-score) [🔗](https://leetcode.com/problems/visit-array-positions-to-maximize-score) |
-| 2787 | 将一个数字表示成幂的和的方案数 |  |  [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/ways-to-express-an-integer-as-sum-of-powers) [🔗](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers) |
+| 2787 | 将一个数字表示成幂的和的方案数 | [[✓]](/problem/2787.md) |  [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/ways-to-express-an-integer-as-sum-of-powers) [🔗](https://leetcode.com/problems/ways-to-express-an-integer-as-sum-of-powers) |
 
 
 ## Weekly Contest 354 (2023-07-16 10:30)
@@ -1571,7 +1571,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2570 | 合并两个二维数组 - 求和法 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/merge-two-2d-arrays-by-summing-values) [🔗](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values) |
+| 2570 | 合并两个二维数组 - 求和法 | [[✓]](/problem/2570.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/merge-two-2d-arrays-by-summing-values) [🔗](https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values) |
 | 2571 | 将整数减少到零需要的最少操作数 |  |  [`贪心`](/tag/greedy.md) [`位运算`](/tag/bit-manipulation.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-reduce-an-integer-to-0) [🔗](https://leetcode.com/problems/minimum-operations-to-reduce-an-integer-to-0) |
 | 2572 | 无平方子集计数 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-square-free-subsets) [🔗](https://leetcode.com/problems/count-the-number-of-square-free-subsets) |
 | 2573 | 找出对应 LCP 矩阵的字符串 |  |  [`贪心`](/tag/greedy.md) [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) `3+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-the-string-with-lcp) [🔗](https://leetcode.com/problems/find-the-string-with-lcp) |
@@ -1847,7 +1847,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2460 | 对数组执行操作 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/apply-operations-to-an-array) [🔗](https://leetcode.com/problems/apply-operations-to-an-array) |
+| 2460 | 对数组执行操作 | [[✓]](/problem/2460.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/apply-operations-to-an-array) [🔗](https://leetcode.com/problems/apply-operations-to-an-array) |
 | 2461 | 长度为 K 子数组中的最大和 | [[✓]](/problem/2461.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-sum-of-distinct-subarrays-with-length-k) [🔗](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k) |
 | 2462 | 雇佣 K 位工人的总代价 | [[✓]](/problem/2462.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/total-cost-to-hire-k-workers) [🔗](https://leetcode.com/problems/total-cost-to-hire-k-workers) |
 | 2463 | 最小移动总距离 | [[✓]](/problem/2463.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`排序`](/tag/sorting.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-total-distance-traveled) [🔗](https://leetcode.com/problems/minimum-total-distance-traveled) |
@@ -2556,7 +2556,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2160 | 拆分数位后四位数字的最小和 | [[✓]](/problem/2160.md) |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-sum-of-four-digit-number-after-splitting-digits) [🔗](https://leetcode.com/problems/minimum-sum-of-four-digit-number-after-splitting-digits) |
-| 2161 | 根据给定数字划分数组 |  |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/partition-array-according-to-given-pivot) [🔗](https://leetcode.com/problems/partition-array-according-to-given-pivot) |
+| 2161 | 根据给定数字划分数组 | [[✓]](/problem/2161.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/partition-array-according-to-given-pivot) [🔗](https://leetcode.com/problems/partition-array-according-to-given-pivot) |
 | 2162 | 设置时间的最少代价 |  |  [`数学`](/tag/math.md) [`枚举`](/tag/enumeration.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-cost-to-set-cooking-time) [🔗](https://leetcode.com/problems/minimum-cost-to-set-cooking-time) |
 | 2163 | 删除元素后和的最小差值 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-difference-in-sums-after-removal-of-elements) [🔗](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements) |
 
@@ -5030,7 +5030,7 @@ headerDepth: 0
 | 1089 | 复写零 | [[✓]](/problem/1089.md) |  [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) | 🟢 | [🀄️](https://leetcode.cn/problems/duplicate-zeros) [🔗](https://leetcode.com/problems/duplicate-zeros) |
 | 1090 | 受标签影响的最大值 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/largest-values-from-labels) [🔗](https://leetcode.com/problems/largest-values-from-labels) |
 | 1091 | 二进制矩阵中的最短路径 |  |  [`广度优先搜索`](/tag/breadth-first-search.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/shortest-path-in-binary-matrix) [🔗](https://leetcode.com/problems/shortest-path-in-binary-matrix) |
-| 1092 | 最短公共超序列 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-common-supersequence) [🔗](https://leetcode.com/problems/shortest-common-supersequence) |
+| 1092 | 最短公共超序列 | [[✓]](/problem/1092.md) |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/shortest-common-supersequence) [🔗](https://leetcode.com/problems/shortest-common-supersequence) |
 
 
 ## Biweekly Contest 2 (2019-06-15 22:30)
@@ -5618,7 +5618,7 @@ headerDepth: 0
 | 872 | 叶子相似的树 | [[✓]](/problem/0872.md) |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`二叉树`](/tag/binary-tree.md) | 🟢 | [🀄️](https://leetcode.cn/problems/leaf-similar-trees) [🔗](https://leetcode.com/problems/leaf-similar-trees) |
 | 874 | 模拟行走机器人 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/walking-robot-simulation) [🔗](https://leetcode.com/problems/walking-robot-simulation) |
 | 875 | 爱吃香蕉的珂珂 | [[✓]](/problem/0875.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) | 🟠 | [🀄️](https://leetcode.cn/problems/koko-eating-bananas) [🔗](https://leetcode.com/problems/koko-eating-bananas) |
-| 873 | 最长的斐波那契子序列的长度 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence) [🔗](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence) |
+| 873 | 最长的斐波那契子序列的长度 | [[✓]](/problem/0873.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/length-of-longest-fibonacci-subsequence) [🔗](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence) |
 
 
 ## Weekly Contest 93 (2018-07-15 09:30)
