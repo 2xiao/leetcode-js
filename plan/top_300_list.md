@@ -563,7 +563,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 292 | Nim 游戏 | [[✓]](/problem/0292.md) |  [`脑筋急转弯`](/tag/brainteaser.md) [`数学`](/tag/math.md) [`博弈`](/tag/game-theory.md) | 🟢 | [🀄️](https://leetcode.cn/problems/nim-game) [🔗](https://leetcode.com/problems/nim-game) |
 | 375 | 猜数字大小 II | [[✓]](/problem/0375.md) |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`博弈`](/tag/game-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/guess-number-higher-or-lower-ii) [🔗](https://leetcode.com/problems/guess-number-higher-or-lower-ii) |
-| 486 | 预测赢家 |  |  [`递归`](/tag/recursion.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/predict-the-winner) [🔗](https://leetcode.com/problems/predict-the-winner) |
+| 486 | 预测赢家 | [[✓]](/problem/0486.md) |  [`递归`](/tag/recursion.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/predict-the-winner) [🔗](https://leetcode.com/problems/predict-the-winner) |
 | 464 | 我能赢吗 | [[✓]](/problem/0464.md) |  [`位运算`](/tag/bit-manipulation.md) [`记忆化搜索`](/tag/memoization.md) [`数学`](/tag/math.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/can-i-win) [🔗](https://leetcode.com/problems/can-i-win) |
 | 877 | 石子游戏 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/stone-game) [🔗](https://leetcode.com/problems/stone-game) |
 

@@ -803,7 +803,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2965 | 找出缺失和重复的数字 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/find-missing-and-repeated-values) [🔗](https://leetcode.com/problems/find-missing-and-repeated-values) |
+| 2965 | 找出缺失和重复的数字 | [[✓]](/problem/2965.md) |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/find-missing-and-repeated-values) [🔗](https://leetcode.com/problems/find-missing-and-repeated-values) |
 | 2966 | 划分数组并满足最大差限制 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/divide-array-into-arrays-with-max-difference) [🔗](https://leetcode.com/problems/divide-array-into-arrays-with-max-difference) |
 | 2967 | 使数组成为等数数组的最小代价 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`数学`](/tag/math.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-cost-to-make-array-equalindromic) [🔗](https://leetcode.com/problems/minimum-cost-to-make-array-equalindromic) |
 | 2968 | 执行操作使频率分数最大 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`前缀和`](/tag/prefix-sum.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/apply-operations-to-maximize-frequency-score) [🔗](https://leetcode.com/problems/apply-operations-to-maximize-frequency-score) |
@@ -1548,7 +1548,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2578 | 最小和分割 |  |  [`贪心`](/tag/greedy.md) [`数学`](/tag/math.md) [`排序`](/tag/sorting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/split-with-minimum-sum) [🔗](https://leetcode.com/problems/split-with-minimum-sum) |
-| 2579 | 统计染色格子数 |  |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-total-number-of-colored-cells) [🔗](https://leetcode.com/problems/count-total-number-of-colored-cells) |
+| 2579 | 统计染色格子数 | [[✓]](/problem/2579.md) |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-total-number-of-colored-cells) [🔗](https://leetcode.com/problems/count-total-number-of-colored-cells) |
 | 2580 | 统计将重叠区间合并成组的方案数 |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-ways-to-group-overlapping-ranges) [🔗](https://leetcode.com/problems/count-ways-to-group-overlapping-ranges) |
 | 2581 | 统计可能的树根数目 |  |  [`树`](/tag/tree.md) [`深度优先搜索`](/tag/depth-first-search.md) [`数组`](/tag/array.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-number-of-possible-root-nodes) [🔗](https://leetcode.com/problems/count-number-of-possible-root-nodes) |
 
@@ -1706,7 +1706,7 @@ headerDepth: 0
 | 2520 | 统计能整除数字的位数 |  |  [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/count-the-digits-that-divide-a-number) [🔗](https://leetcode.com/problems/count-the-digits-that-divide-a-number) |
 | 2521 | 数组乘积中的不同质因数数目 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/distinct-prime-factors-of-product-of-array) [🔗](https://leetcode.com/problems/distinct-prime-factors-of-product-of-array) |
 | 2522 | 将字符串分割成值不超过 K 的子字符串 |  |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/partition-string-into-substrings-with-values-at-most-k) [🔗](https://leetcode.com/problems/partition-string-into-substrings-with-values-at-most-k) |
-| 2523 | 范围内最接近的两个质数 |  |  [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/closest-prime-numbers-in-range) [🔗](https://leetcode.com/problems/closest-prime-numbers-in-range) |
+| 2523 | 范围内最接近的两个质数 | [[✓]](/problem/2523.md) |  [`数学`](/tag/math.md) [`数论`](/tag/number-theory.md) | 🟠 | [🀄️](https://leetcode.cn/problems/closest-prime-numbers-in-range) [🔗](https://leetcode.com/problems/closest-prime-numbers-in-range) |
 
 
 ## Weekly Contest 325 (2022-12-25 10:30)
@@ -1799,7 +1799,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2481 | 分割圆的最少切割次数 |  |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle) [🔗](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle) |
+| 2481 | 分割圆的最少切割次数 | [[✓]](/problem/2481.md) |  [`几何`](/tag/geometry.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-cuts-to-divide-a-circle) [🔗](https://leetcode.com/problems/minimum-cuts-to-divide-a-circle) |
 | 2482 | 行和列中一和零的差值 |  |  [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) [`模拟`](/tag/simulation.md) | 🟠 | [🀄️](https://leetcode.cn/problems/difference-between-ones-and-zeros-in-row-and-column) [🔗](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column) |
 | 2483 | 商店的最少代价 |  |  [`字符串`](/tag/string.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-penalty-for-a-shop) [🔗](https://leetcode.com/problems/minimum-penalty-for-a-shop) |
 | 2484 | 统计回文子序列数目 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-palindromic-subsequences) [🔗](https://leetcode.com/problems/count-palindromic-subsequences) |
@@ -3420,7 +3420,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1779 | 找到最近的有相同 X 或 Y 坐标的点 | [[✓]](/problem/1779.md) |  [`数组`](/tag/array.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate) [🔗](https://leetcode.com/problems/find-nearest-point-that-has-the-same-x-or-y-coordinate) |
-| 1780 | 判断一个数字是否可以表示成三的幂的和 |  |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three) [🔗](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three) |
+| 1780 | 判断一个数字是否可以表示成三的幂的和 | [[✓]](/problem/1780.md) |  [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/check-if-number-is-a-sum-of-powers-of-three) [🔗](https://leetcode.com/problems/check-if-number-is-a-sum-of-powers-of-three) |
 | 1781 | 所有子字符串美丽值之和 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/sum-of-beauty-of-all-substrings) [🔗](https://leetcode.com/problems/sum-of-beauty-of-all-substrings) |
 | 1782 | 统计点对的数目 |  |  [`图`](/tag/graph.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-pairs-of-nodes) [🔗](https://leetcode.com/problems/count-pairs-of-nodes) |
 
