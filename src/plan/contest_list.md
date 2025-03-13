@@ -61,7 +61,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 3304 | 找出第 K 个字符 I |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-i) [🔗](https://leetcode.com/problems/find-the-k-th-character-in-string-game-i) |
 | 3305 | 元音辅音字符串计数 I |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i) [🔗](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-i) |
-| 3306 | 元音辅音字符串计数 II |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii) [🔗](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
+| 3306 | 元音辅音字符串计数 II | [[✓]](/problem/3306.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii) [🔗](https://leetcode.com/problems/count-of-substrings-containing-every-vowel-and-k-consonants-ii) |
 | 3307 | 找出第 K 个字符 II |  |  [`位运算`](/tag/bit-manipulation.md) [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | 🔴 | [🀄️](https://leetcode.cn/problems/find-the-k-th-character-in-string-game-ii) [🔗](https://leetcode.com/problems/find-the-k-th-character-in-string-game-ii) |
 
 
@@ -289,7 +289,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 3206 | 交替组 I |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟢 | [🀄️](https://leetcode.cn/problems/alternating-groups-i) [🔗](https://leetcode.com/problems/alternating-groups-i) |
 | 3207 | 与敌人战斗后的最大分数 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-points-after-enemy-battles) [🔗](https://leetcode.com/problems/maximum-points-after-enemy-battles) |
-| 3208 | 交替组 II |  |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/alternating-groups-ii) [🔗](https://leetcode.com/problems/alternating-groups-ii) |
+| 3208 | 交替组 II | [[✓]](/problem/3208.md) |  [`数组`](/tag/array.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/alternating-groups-ii) [🔗](https://leetcode.com/problems/alternating-groups-ii) |
 | 3209 | 子数组按位与值为 K 的数目 |  |  [`位运算`](/tag/bit-manipulation.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-subarrays-with-and-value-of-k) [🔗](https://leetcode.com/problems/number-of-subarrays-with-and-value-of-k) |
 
 
@@ -1679,7 +1679,7 @@ headerDepth: 0
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
-| 2529 | 正整数和负整数的最大计数 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer) [🔗](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) |
+| 2529 | 正整数和负整数的最大计数 | [[✓]](/problem/2529.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`计数`](/tag/counting.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-count-of-positive-integer-and-negative-integer) [🔗](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer) |
 | 2530 | 执行 K 次操作后的最大分数 | [[✓]](/problem/2530.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximal-score-after-applying-k-operations) [🔗](https://leetcode.com/problems/maximal-score-after-applying-k-operations) |
 | 2531 | 使字符串中不同字符的数目相等 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`计数`](/tag/counting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/make-number-of-distinct-characters-equal) [🔗](https://leetcode.com/problems/make-number-of-distinct-characters-equal) |
 | 2532 | 过桥的时间 |  |  [`数组`](/tag/array.md) [`模拟`](/tag/simulation.md) [`堆（优先队列）`](/tag/heap-priority-queue.md) | 🔴 | [🀄️](https://leetcode.cn/problems/time-to-cross-a-bridge) [🔗](https://leetcode.com/problems/time-to-cross-a-bridge) |
@@ -4393,7 +4393,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1356 | 根据数字二进制下 1 的数目排序 | [[✓]](/problem/1356.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`计数`](/tag/counting.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/sort-integers-by-the-number-of-1-bits) [🔗](https://leetcode.com/problems/sort-integers-by-the-number-of-1-bits) |
 | 1357 | 每隔 n 个顾客打折 |  |  [`设计`](/tag/design.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟠 | [🀄️](https://leetcode.cn/problems/apply-discount-every-n-orders) [🔗](https://leetcode.com/problems/apply-discount-every-n-orders) |
-| 1358 | 包含所有三种字符的子字符串数目 |  |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters) [🔗](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters) |
+| 1358 | 包含所有三种字符的子字符串数目 | [[✓]](/problem/1358.md) |  [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) [`滑动窗口`](/tag/sliding-window.md) | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-substrings-containing-all-three-characters) [🔗](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters) |
 | 1359 | 有效的快递序列数目 |  |  [`数学`](/tag/math.md) [`动态规划`](/tag/dynamic-programming.md) [`组合数学`](/tag/combinatorics.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-all-valid-pickup-and-delivery-options) [🔗](https://leetcode.com/problems/count-all-valid-pickup-and-delivery-options) |
 
 

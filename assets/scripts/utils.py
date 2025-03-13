@@ -21,7 +21,6 @@ def custom_sort(val):
 
 def gen_markdown_table(frame, need_sort = True):
 
-    H = frame.shape[0]
     W = frame.shape[1]
 
     head_name = ["题号", "标题", "题解", "标签", "难度", "力扣", "频次"]
@@ -44,11 +43,18 @@ def gen_markdown_table(frame, need_sort = True):
         else:
             line = "{} {} |".format(line, SPLIT2.format('-'*6))
     lines += [line]
-
+   
     # 数据部分
     if need_sort:
         frame = frame.sort_values(by='题号', key=lambda col: col.apply(custom_sort))
     frame = frame.reset_index(drop=True)
+
+
+    # 限制表格中的题数，文件太大会部署失败
+    if len(frame) > 500:
+        frame = frame.head(500)
+    H = frame.shape[0]
+
     for i in range(H):
         problem = "|"
         for j in range(W):
