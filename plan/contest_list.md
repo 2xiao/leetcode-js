@@ -324,7 +324,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 3190 | 使所有元素都可以被 3 整除的最少操作数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) [🔗](https://leetcode.com/problems/find-minimum-operations-to-make-all-elements-divisible-by-three) |
-| 3191 | 使二进制数组全部等于 1 的最少操作次数 I |  |  [`位运算`](/tag/bit-manipulation.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i) [🔗](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
+| 3191 | 使二进制数组全部等于 1 的最少操作次数 I | [[✓]](/problem/3191.md) |  [`位运算`](/tag/bit-manipulation.md) [`队列`](/tag/queue.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i) [🔗](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 | 3192 | 使二进制数组全部等于 1 的最少操作次数 II |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii) [🔗](https://leetcode.com/problems/minimum-operations-to-make-binary-array-elements-equal-to-one-ii) |
 | 3193 | 统计逆序对的数目 |  |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) | 🔴 | [🀄️](https://leetcode.cn/problems/count-the-number-of-inversions) [🔗](https://leetcode.com/problems/count-the-number-of-inversions) |
 
@@ -372,7 +372,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 3168 | 候诊室中的最少椅子数 |  |  [`字符串`](/tag/string.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-number-of-chairs-in-a-waiting-room) [🔗](https://leetcode.com/problems/minimum-number-of-chairs-in-a-waiting-room) |
-| 3169 | 无需开会的工作日 |  |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-days-without-meetings) [🔗](https://leetcode.com/problems/count-days-without-meetings) |
+| 3169 | 无需开会的工作日 | [[✓]](/problem/3169.md) |  [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-days-without-meetings) [🔗](https://leetcode.com/problems/count-days-without-meetings) |
 | 3170 | 删除星号以后字典序最小的字符串 |  |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`哈希表`](/tag/hash-table.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/lexicographically-minimum-string-after-removing-stars) [🔗](https://leetcode.com/problems/lexicographically-minimum-string-after-removing-stars) |
 | 3171 | 找到按位或最接近 K 的子数组 |  |  [`位运算`](/tag/bit-manipulation.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/find-subarray-with-bitwise-or-closest-to-k) [🔗](https://leetcode.com/problems/find-subarray-with-bitwise-or-closest-to-k) |
 
@@ -1358,7 +1358,7 @@ headerDepth: 0
 | 2682 | 找出转圈游戏输家 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`模拟`](/tag/simulation.md) | 🟢 | [🀄️](https://leetcode.cn/problems/find-the-losers-of-the-circular-game) [🔗](https://leetcode.com/problems/find-the-losers-of-the-circular-game) |
 | 2683 | 相邻值的按位异或 | [[✓]](/problem/2683.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) | 🟠 | [🀄️](https://leetcode.cn/problems/neighboring-bitwise-xor) [🔗](https://leetcode.com/problems/neighboring-bitwise-xor) |
 | 2684 | 矩阵中移动的最大次数 | [[✓]](/problem/2684.md) |  [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-number-of-moves-in-a-grid) [🔗](https://leetcode.com/problems/maximum-number-of-moves-in-a-grid) |
-| 2685 | 统计完全连通分量的数量 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-complete-components) [🔗](https://leetcode.com/problems/count-the-number-of-complete-components) |
+| 2685 | 统计完全连通分量的数量 | [[✓]](/problem/2685.md) |  [`深度优先搜索`](/tag/depth-first-search.md) [`广度优先搜索`](/tag/breadth-first-search.md) [`图`](/tag/graph.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-the-number-of-complete-components) [🔗](https://leetcode.com/problems/count-the-number-of-complete-components) |
 
 
 ## Biweekly Contest 104 (2023-05-13 22:30)
@@ -2664,7 +2664,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2114 | 句子中的最多单词数 | [[✓]](/problem/2114.md) |  [`数组`](/tag/array.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/maximum-number-of-words-found-in-sentences) [🔗](https://leetcode.com/problems/maximum-number-of-words-found-in-sentences) |
-| 2115 | 从给定原材料中找到所有可以做出的菜 |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies) [🔗](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) |
+| 2115 | 从给定原材料中找到所有可以做出的菜 | [[✓]](/problem/2115.md) |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`数组`](/tag/array.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/find-all-possible-recipes-from-given-supplies) [🔗](https://leetcode.com/problems/find-all-possible-recipes-from-given-supplies) |
 | 2116 | 判断一个括号字符串是否有效 | [[✓]](/problem/2116.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟠 | [🀄️](https://leetcode.cn/problems/check-if-a-parentheses-string-can-be-valid) [🔗](https://leetcode.com/problems/check-if-a-parentheses-string-can-be-valid) |
 | 2117 | 一个区间内所有数乘积的缩写 |  |  [`数学`](/tag/math.md) | 🔴 | [🀄️](https://leetcode.cn/problems/abbreviating-the-product-of-a-range) [🔗](https://leetcode.com/problems/abbreviating-the-product-of-a-range) |
 
@@ -2989,7 +2989,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 1974 | 使用特殊打字机键入单词的最少时间 | [[✓]](/problem/1974.md) |  [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) | 🟢 | [🀄️](https://leetcode.cn/problems/minimum-time-to-type-word-using-special-typewriter) [🔗](https://leetcode.com/problems/minimum-time-to-type-word-using-special-typewriter) |
 | 1975 | 最大方阵和 | [[✓]](/problem/1975.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🟠 | [🀄️](https://leetcode.cn/problems/maximum-matrix-sum) [🔗](https://leetcode.com/problems/maximum-matrix-sum) |
-| 1976 | 到达目的地的方案数 |  |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-arrive-at-destination) [🔗](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) |
+| 1976 | 到达目的地的方案数 | [[✓]](/problem/1976.md) |  [`图`](/tag/graph.md) [`拓扑排序`](/tag/topological-sort.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-arrive-at-destination) [🔗](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination) |
 | 1977 | 划分数字的方案数 |  |  [`字符串`](/tag/string.md) [`动态规划`](/tag/dynamic-programming.md) [`后缀数组`](/tag/suffix-array.md) | 🔴 | [🀄️](https://leetcode.cn/problems/number-of-ways-to-separate-numbers) [🔗](https://leetcode.com/problems/number-of-ways-to-separate-numbers) |
 
 
