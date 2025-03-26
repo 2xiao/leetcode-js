@@ -120,7 +120,7 @@ postOrder = (r) => {
 
 :::: md-demo 相关题目
 
-#### 📌 [144. 二叉树的前序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0144.html)
+#### 📌 [144. 二叉树的前序遍历 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0144.html)
 
 #### 💻 **题目大意**
 
@@ -184,7 +184,7 @@ var preorderTraversal = function (root) {
 
 :::: md-demo 相关题目
 
-#### 📌 [145. 二叉树的后序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0145.html)
+#### 📌 [145. 二叉树的后序遍历 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0145.html)
 
 #### 💻 **题目大意**
 
@@ -243,7 +243,7 @@ var postorderTraversal = function (root) {
 
 :::: md-demo 相关题目
 
-#### 📌 [94. 二叉树的中序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0094.html)
+#### 📌 [94. 二叉树的中序遍历 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0094.html)
 
 #### 💻 **题目大意**
 
@@ -307,7 +307,7 @@ var inorderTraversal = function (root) {
 
 :::: md-demo 相关题目
 
-#### 📌 [102. 二叉树的层序遍历 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0102.html)
+#### 📌 [102. 二叉树的层序遍历 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0102.html)
 
 #### 💻 **题目大意**
 
@@ -397,7 +397,7 @@ var levelOrder = function (root) {
 
 :::: md-demo 相关题目
 
-#### 📌 [105. 从前序与中序遍历序列构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0105.html)
+#### 📌 [105. 从前序与中序遍历序列构造二叉树 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0105.html)
 
 #### 💻 **题目大意**
 
@@ -432,13 +432,13 @@ var buildTree = function (preorder, inorder) {
 };
 ```
 
-类似的题目还有 [106. 从中序与后序遍历序列构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0106.html) 和 [889. 根据前序和后序遍历构造二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0889.html)，原理类似，详见题解。
+类似的题目还有 [106. 从中序与后序遍历序列构造二叉树 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0106.html) 和 [889. 根据前序和后序遍历构造二叉树 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0889.html)，原理类似，详见题解。
 
 ::::
 
 :::: md-demo 相关题目
 
-#### 📌 [654. 最大二叉树 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0654.html)
+#### 📌 [654. 最大二叉树 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0654.html)
 
 #### 💻 **题目大意**
 
@@ -924,7 +924,7 @@ function query(root, queryStart, queryEnd) {
 
 :::: md-demo 相关题目
 
-#### 📌 [307. 区域和检索 - 数组可修改 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0307.html)
+#### 📌 [307. 区域和检索 - 数组可修改 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0307.html)
 
 #### 💻 **题目大意**
 
@@ -1047,7 +1047,6 @@ class NumArray {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 二叉树的遍历
@@ -1107,7 +1106,7 @@ class NumArray {
 
 #### 线段树
 
-* 单点更新
+- 单点更新
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -1116,7 +1115,7 @@ class NumArray {
 | 307 | 区域和检索 - 数组可修改 | [[✓]](/problem/0307.md) |  [`设计`](/tag/design.md) [`树状数组`](/tag/binary-indexed-tree.md) [`线段树`](/tag/segment-tree.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/range-sum-query-mutable) [🔗](https://leetcode.com/problems/range-sum-query-mutable) |
 | 354 | 俄罗斯套娃信封问题 | [[✓]](/problem/0354.md) |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`动态规划`](/tag/dynamic-programming.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/russian-doll-envelopes) [🔗](https://leetcode.com/problems/russian-doll-envelopes) |
 
-* 区间更新
+- 区间更新
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -1128,7 +1127,7 @@ class NumArray {
 | 1310 | 子数组异或查询 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`前缀和`](/tag/prefix-sum.md) | 🟠 | [🀄️](https://leetcode.cn/problems/xor-queries-of-a-subarray) [🔗](https://leetcode.com/problems/xor-queries-of-a-subarray) |
 | 1851 | 包含每个查询的最小区间 |  |  [`数组`](/tag/array.md) [`二分查找`](/tag/binary-search.md) [`排序`](/tag/sorting.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/minimum-interval-to-include-each-query) [🔗](https://leetcode.com/problems/minimum-interval-to-include-each-query) |
 
-* 区间合并
+- 区间合并
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -1137,7 +1136,7 @@ class NumArray {
 | 731 | 我的日程安排表 II | [[✓]](/problem/0731.md) |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`数组`](/tag/array.md) `3+` | 🟠 | [🀄️](https://leetcode.cn/problems/my-calendar-ii) [🔗](https://leetcode.com/problems/my-calendar-ii) |
 | 732 | 我的日程安排表 III |  |  [`设计`](/tag/design.md) [`线段树`](/tag/segment-tree.md) [`二分查找`](/tag/binary-search.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/my-calendar-iii) [🔗](https://leetcode.com/problems/my-calendar-iii) |
 
-* 扫描线问题
+- 扫描线问题
 
 <!-- prettier-ignore -->
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
@@ -1178,4 +1177,3 @@ class NumArray {
 | 947 | 移除最多的同行或同列石头 |  |  [`深度优先搜索`](/tag/depth-first-search.md) [`并查集`](/tag/union-find.md) [`图`](/tag/graph.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/most-stones-removed-with-same-row-or-column) [🔗](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column) |
 | 803 | 打砖块 |  |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`矩阵`](/tag/matrix.md) | 🔴 | [🀄️](https://leetcode.cn/problems/bricks-falling-when-hit) [🔗](https://leetcode.com/problems/bricks-falling-when-hit) |
 | 128 | 最长连续序列 | [[✓]](/problem/0128.md) |  [`并查集`](/tag/union-find.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟠 | [🀄️](https://leetcode.cn/problems/longest-consecutive-sequence) [🔗](https://leetcode.com/problems/longest-consecutive-sequence) |
-

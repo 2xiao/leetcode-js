@@ -57,7 +57,7 @@
 
 :::: md-demo 相关题目
 
-#### 📌 [705. 设计哈希集合 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0705.html)
+#### 📌 [705. 设计哈希集合 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0705.html)
 
 #### 💻 **题目大意**
 
@@ -169,7 +169,7 @@ class MyHashSet {
 
 :::: md-demo 相关题目
 
-#### 📌 [706. 设计哈希映射 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0706.html)
+#### 📌 [706. 设计哈希映射 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0706.html)
 
 #### 💻 **题目大意**
 
@@ -647,7 +647,6 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 <!-- prettier-ignore -->
@@ -685,4 +684,3 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]');
 | 149 | 直线上最多的点数 | [[✓]](/problem/0149.md) |  [`几何`](/tag/geometry.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/max-points-on-a-line) [🔗](https://leetcode.com/problems/max-points-on-a-line) |
 | 359 | 日志速率限制器 🔒 |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) | 🟢 | [🀄️](https://leetcode.cn/problems/logger-rate-limiter) [🔗](https://leetcode.com/problems/logger-rate-limiter) |
 | 811 | 子域名访问计数 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/subdomain-visit-count) [🔗](https://leetcode.com/problems/subdomain-visit-count) |
-

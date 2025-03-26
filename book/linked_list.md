@@ -520,7 +520,7 @@ console.log(linkedList.count()); // output: 3
 
 :::: md-demo 相关题目
 
-#### 📌 [206. 反转链表 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0206.html)
+#### 📌 [206. 反转链表 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0206.html)
 
 #### 💻 **题目大意**
 
@@ -598,7 +598,7 @@ var reverseList = function (head) {
 
 :::: md-demo 相关题目
 
-#### 📌 [141. 环形链表 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0141.html)
+#### 📌 [141. 环形链表 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0141.html)
 
 #### 💻 **题目大意**
 
@@ -678,7 +678,7 @@ var hasCycle = function (head) {
 
 :::: md-demo 相关题目
 
-#### 📌 [21. 合并两个有序链表 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0021.html)
+#### 📌 [21. 合并两个有序链表 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0021.html)
 
 #### 💻 **题目大意**
 
@@ -755,7 +755,7 @@ var mergeTwoLists = function (list1, list2) {
 
 :::: md-demo 相关题目
 
-#### 📌 [19. 删除链表的倒数第 N 个节点 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0019.html)
+#### 📌 [19. 删除链表的倒数第 N 个节点 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0019.html)
 
 #### 💻 **题目大意**
 
@@ -834,7 +834,7 @@ var removeNthFromEnd = function (head, n) {
 
 :::: md-demo 相关题目
 
-#### 📌 [876. 链表的中间节点 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0876.html)
+#### 📌 [876. 链表的中间节点 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0876.html)
 
 #### 💻 **题目大意**
 
@@ -911,7 +911,7 @@ var middleNode = function (head) {
 
 :::: md-demo 相关题目
 
-#### 📌 [146. LRU 缓存 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0146.html)
+#### 📌 [146. LRU 缓存 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0146.html)
 
 #### 💻 **题目大意**
 
@@ -1068,7 +1068,7 @@ class LRUCache {
 
 :::: md-demo 相关题目
 
-#### 📌 [148. 链表排序 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0148.html)
+#### 📌 [148. 链表排序 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0148.html)
 
 ::::
 
@@ -1683,7 +1683,6 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 链表基础题目
@@ -1728,4 +1727,3 @@ x.next = p.next; // 将x的节点的next指针指向b节点；
 | 143 | 重排链表 | [[✓]](/problem/0143.md) |  [`栈`](/tag/stack.md) [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/reorder-list) [🔗](https://leetcode.com/problems/reorder-list) |
 | 2 | 两数相加 | [[✓]](/problem/0002.md) |  [`递归`](/tag/recursion.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/add-two-numbers) [🔗](https://leetcode.com/problems/add-two-numbers) |
 | 445 | 两数相加 II | [[✓]](/problem/0445.md) |  [`栈`](/tag/stack.md) [`链表`](/tag/linked-list.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/add-two-numbers-ii) [🔗](https://leetcode.com/problems/add-two-numbers-ii) |
-
