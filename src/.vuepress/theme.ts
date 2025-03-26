@@ -7,7 +7,7 @@ import sidebar from './sidebar.ts';
 export default hopeTheme(
 	{
 		pure: true,
-		hostname: 'https://2xiao.github.io',
+		hostname: 'https://wangfuyou.com',
 
 		author: {
 			name: '2xiao',

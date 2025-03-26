@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-online_path = 'https://2xiao.github.io/leetcode-js'
+online_path = 'https://wangfuyou.com/leetcode-js'
 origin_path = '../origins/'
 categories_path = '../origins/categories_list.md'
 

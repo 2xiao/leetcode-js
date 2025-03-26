@@ -10,31 +10,31 @@ export default navbar([
 	{
 		text: 'React 源码',
 		icon: 'react',
-		link: 'https://2xiao.github.io/my-react/',
+		link: 'https://wangfuyou.com/my-react/',
 		target: '_self'
 	},
 	{
 		text: 'Vue 源码',
 		icon: 'vue',
-		link: 'https://2xiao.github.io/my-vue/',
+		link: 'https://wangfuyou.com/my-vue/',
 		target: '_self'
 	},
 	{
 		text: '系统设计',
 		icon: 'launch',
-		link: 'https://2xiao.github.io/system-design/',
+		link: 'https://wangfuyou.com/system-design/',
 		target: '_self'
 	},
 	{
 		text: '前端面试题',
 		icon: 'creative',
-		link: 'https://2xiao.github.io/interview/',
+		link: 'https://wangfuyou.com/interview/',
 		target: '_self'
 	},
 	{
 		text: '博客',
 		icon: 'blog',
-		link: 'https://2xiao.github.io/blog/',
+		link: 'https://wangfuyou.com/blog/',
 		target: '_self'
 	}
 ]);

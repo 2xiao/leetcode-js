@@ -49,6 +49,29 @@ jobs:
           branch: gh-pages
           folder: src/.vuepress/dist
 
+      - name: 验证服务器连接
+        env:
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+        run: |
+          echo "$SSH_PRIVATE_KEY" > id_rsa
+          chmod 600 id_rsa
+          echo "SERVER_USER: $SERVER_USER"
+          echo "SERVER_HOST: $SERVER_HOST"
+          ssh -vvv -i id_rsa -o StrictHostKeyChecking=no $SERVER_USER@$SERVER_HOST "touch /home/ubuntu/2xiao/test_file && echo '✅ 连接成功' || echo '❌ 连接失败'"
+
+      - name: 部署到服务器
+        if: ${{ github.event_name == 'push' }}
+        env:
+          SERVER_USER: ${{ secrets.SERVER_USER }}
+          SERVER_HOST: ${{ secrets.SERVER_HOST }}
+          SERVER_PATH: ${{ secrets.SERVER_PATH }}
+        run: |
+          rsync -avz --chmod=D2775,F664 \
+          -e "ssh -i id_rsa -o StrictHostKeyChecking=no" \
+          src/.vuepress/dist/ $SERVER_USER@$SERVER_HOST:$SERVER_PATH
+
   deploy-main:
     runs-on: ubuntu-latest
 

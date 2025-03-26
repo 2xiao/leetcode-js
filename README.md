@@ -1,7 +1,7 @@
 # LeetCode-JS
 
 <p>
-  <img src="https://2xiao.github.io/assets/image/leetcode-js-logo.png" alt="logo" height="360"/>
+  <img src="https://wangfuyou.com/assets/image/leetcode-js-logo.png" alt="logo" height="360"/>
 </p>
 
 包含 LeetCode、《剑指 Offer》、《剑指 Offer II》等 1000+ 道算法题的详细题解。
@@ -10,7 +10,7 @@
 
 欢迎「Star ⭐️ 」 和 「Fork」，这是对我最大的鼓励和支持。
 
-电子书：[https://2xiao.github.io/leetcode-js](https://2xiao.github.io/leetcode-js)
+电子书：[https://wangfuyou.com/leetcode-js](https://wangfuyou.com/leetcode-js)
 
 源码：[https://github.com/2xiao/leetcode-js](https://github.com/2xiao/leetcode-js)
 

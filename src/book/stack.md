@@ -170,7 +170,7 @@ console.log(stack.count()); // output: 2
 
 :::: md-demo 相关题目
 
-#### 📌 [227. 基本计算器 II - LeetCode](https://2xiao.github.io/leetcode-js/problem/0227.html)
+#### 📌 [227. 基本计算器 II - LeetCode](https://wangfuyou.com/leetcode-js/problem/0227.html)
 
 #### 💻 **题目大意**
 
@@ -223,7 +223,7 @@ console.log(stack.count()); // output: 2
 
 :::: md-demo 相关题目
 
-#### 📌 [20. 有效的括号 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0020.html)
+#### 📌 [20. 有效的括号 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0020.html)
 
 #### 💻 **题目大意**
 
@@ -299,7 +299,7 @@ var isValid = function (s) {
 
 :::: md-demo 相关题目
 
-#### 📌 [1472. 设计浏览器历史记录 - LeetCode](https://2xiao.github.io/leetcode-js/problem/1472.html)
+#### 📌 [1472. 设计浏览器历史记录 - LeetCode](https://wangfuyou.com/leetcode-js/problem/1472.html)
 
 #### 💻 **题目大意**
 
@@ -479,7 +479,7 @@ function add(x, y) {
 
 :::: md-demo 相关题目
 
-#### 📌 [496. 下一个更大元素 I - LeetCode](https://2xiao.github.io/leetcode-js/problem/0496.html)
+#### 📌 [496. 下一个更大元素 I - LeetCode](https://wangfuyou.com/leetcode-js/problem/0496.html)
 
 #### 💻 **题目大意**
 
@@ -549,7 +549,7 @@ var nextGreaterElement = function (nums1, nums2) {
 
 :::: md-demo 相关题目
 
-#### 📌 [739. 每日温度 - LeetCode](https://2xiao.github.io/leetcode-js/problem/0739.html)
+#### 📌 [739. 每日温度 - LeetCode](https://wangfuyou.com/leetcode-js/problem/0739.html)
 
 #### 💻 **题目大意**
 
@@ -619,7 +619,6 @@ var dailyTemperatures = function (temperatures) {
 <!-- Please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN `npm run lc` TO UPDATE -->
 
-
 ## 相关题目
 
 #### 栈基础题目
@@ -654,4 +653,3 @@ var dailyTemperatures = function (temperatures) {
 | 316 | 去除重复字母 | [[✓]](/problem/0316.md) |  [`栈`](/tag/stack.md) [`贪心`](/tag/greedy.md) [`字符串`](/tag/string.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/remove-duplicate-letters) [🔗](https://leetcode.com/problems/remove-duplicate-letters) |
 | 42 | 接雨水 | [[✓]](/problem/0042.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/trapping-rain-water) [🔗](https://leetcode.com/problems/trapping-rain-water) |
 | 85 | 最大矩形 | [[✓]](/problem/0085.md) |  [`栈`](/tag/stack.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/maximal-rectangle) [🔗](https://leetcode.com/problems/maximal-rectangle) |
-
