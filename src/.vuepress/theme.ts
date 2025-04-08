@@ -40,9 +40,11 @@ export default hopeTheme(
 
 		print: false,
 
-		footer: '',
+		footer: '<div class="vp-copyright"><p>版权所有，侵权必究 © 2022 - 2025  2xiao</p><p><img src="assets/image/beian.png" style="width: 16px; vertical-align: text-top" alt="">&nbsp;&nbsp;<a href="https://beian.mps.gov.cn/#/query/webSearch?code=11010802045636" rel="noreferrer" target="_blank">京公网安备11010802045636号</a>&nbsp;&nbsp;<a target="_blank" href="https://beian.miit.gov.cn/#/Integrated/index">京ICP备2025118976号</a></p></div>',
 
 		displayFooter: true,
+
+		copyright: false,
 
 		// locales: {
 		//   /**

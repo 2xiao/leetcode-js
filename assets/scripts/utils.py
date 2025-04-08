@@ -51,8 +51,8 @@ def gen_markdown_table(frame, need_sort = True):
 
 
     # 限制表格中的题数，文件太大会部署失败
-    if len(frame) > 500:
-        frame = frame.head(500)
+    if len(frame) > 200:
+        frame = frame.head(200)
     H = frame.shape[0]
 
     for i in range(H):

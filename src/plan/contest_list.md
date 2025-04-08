@@ -1633,7 +1633,7 @@ headerDepth: 0
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2549 | 统计桌面上的不同数字 |  |  [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) [`数学`](/tag/math.md) `1+` | 🟢 | [🀄️](https://leetcode.cn/problems/count-distinct-numbers-on-board) [🔗](https://leetcode.com/problems/count-distinct-numbers-on-board) |
 | 2550 | 猴子碰撞的方法数 |  |  [`递归`](/tag/recursion.md) [`数学`](/tag/math.md) | 🟠 | [🀄️](https://leetcode.cn/problems/count-collisions-of-monkeys-on-a-polygon) [🔗](https://leetcode.com/problems/count-collisions-of-monkeys-on-a-polygon) |
-| 2551 | 将珠子放入背包中 |  |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/put-marbles-in-bags) [🔗](https://leetcode.com/problems/put-marbles-in-bags) |
+| 2551 | 将珠子放入背包中 | [[✓]](/problem/2551.md) |  [`贪心`](/tag/greedy.md) [`数组`](/tag/array.md) [`排序`](/tag/sorting.md) `1+` | 🔴 | [🀄️](https://leetcode.cn/problems/put-marbles-in-bags) [🔗](https://leetcode.com/problems/put-marbles-in-bags) |
 | 2552 | 统计上升四元组 |  |  [`树状数组`](/tag/binary-indexed-tree.md) [`数组`](/tag/array.md) [`动态规划`](/tag/dynamic-programming.md) `2+` | 🔴 | [🀄️](https://leetcode.cn/problems/count-increasing-quadruplets) [🔗](https://leetcode.com/problems/count-increasing-quadruplets) |
 
 
@@ -2856,7 +2856,7 @@ headerDepth: 0
 | 题号 | 标题 | 题解 | 标签 | 难度 | 力扣 |
 | :------: | :------ | :------: | :------ | :------: | :------: |
 | 2032 | 至少在两个数组中出现的值 | [[✓]](/problem/2032.md) |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`哈希表`](/tag/hash-table.md) | 🟢 | [🀄️](https://leetcode.cn/problems/two-out-of-three) [🔗](https://leetcode.com/problems/two-out-of-three) |
-| 2033 | 获取单值网格的最小操作数 |  |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid) [🔗](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid) |
+| 2033 | 获取单值网格的最小操作数 | [[✓]](/problem/2033.md) |  [`数组`](/tag/array.md) [`数学`](/tag/math.md) [`矩阵`](/tag/matrix.md) `1+` | 🟠 | [🀄️](https://leetcode.cn/problems/minimum-operations-to-make-a-uni-value-grid) [🔗](https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid) |
 | 2034 | 股票价格波动 |  |  [`设计`](/tag/design.md) [`哈希表`](/tag/hash-table.md) [`数据流`](/tag/data-stream.md) `2+` | 🟠 | [🀄️](https://leetcode.cn/problems/stock-price-fluctuation) [🔗](https://leetcode.com/problems/stock-price-fluctuation) |
 | 2035 | 将数组分成两个数组并最小化数组和的差 |  |  [`位运算`](/tag/bit-manipulation.md) [`数组`](/tag/array.md) [`双指针`](/tag/two-pointers.md) `4+` | 🔴 | [🀄️](https://leetcode.cn/problems/partition-array-into-two-arrays-to-minimize-sum-difference) [🔗](https://leetcode.com/problems/partition-array-into-two-arrays-to-minimize-sum-difference) |
 

@@ -34,7 +34,7 @@ def gen_solution_list():
         frame_count += 1
 
     table = utils.gen_markdown_table(frame)
-    content = "已完成 {} 道\n\n".format(frame_count) + table + "\n\n由于编译限制，本目录只展示 800 道。\n\n"
+    content = "已完成 {} 道\n\n".format(frame_count) + table + "\n\n由于编译限制，本目录只展示 200 道。\n\n"
 
     with open(const.problem_readme, 'w', encoding='utf-8') as f:
         f.writelines("# 目录\n\n")
